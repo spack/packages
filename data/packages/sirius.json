@@ -622,7 +622,7 @@
     ],
     "description": "Domain specific library for electronic structure calculations\n",
     "homepage": "https://github.com/electronic-structure/SIRIUS",
-    "latest_version": "7.6.0",
+    "latest_version": "7.6.1",
     "maintainers": [
         "AdhocMan",
         "dev-zero",
@@ -792,6 +792,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "7.6.1",
+            "sha256": "16a114dc17e28697750585820e69718a96e6929f88406d266c75cf9a7cdbdaaa"
         },
         {
             "name": "7.6.0",

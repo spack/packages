@@ -32,7 +32,7 @@
     ],
     "description": "HIPCC: HIP compiler driver\n",
     "homepage": "https://github.com/ROCm/hipcc",
-    "latest_version": "6.1.2",
+    "latest_version": "6.2.0",
     "maintainers": [
         "afzpatel",
         "renjithravindrankannath",
@@ -83,6 +83,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.2.0",
+            "sha256": "12ce17dc920ec6dac0c5484159b3eec00276e4a5b301ab1250488db3b2852200"
+        },
         {
             "name": "6.1.2",
             "sha256": "300e9d6a137dcd91b18d5809a316fddb615e0e7f982dc7ef1bb56876dff6e097"

@@ -42,7 +42,7 @@
     ],
     "description": "nghttp2 is an implementation of HTTP/2 and its header compression\nalgorithm HPACK in C.\n",
     "homepage": "https://nghttp2.org/",
-    "latest_version": "1.62.0",
+    "latest_version": "1.63.0",
     "maintainers": [],
     "name": "nghttp2",
     "patches": [],
@@ -55,6 +55,14 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.63.0",
+            "sha256": "9318a2cc00238f5dd6546212109fb833f977661321a2087f03034e25444d3dbb"
+        },
+        {
+            "name": "1.62.1",
+            "sha256": "d0b0b9d00500ee4aa3bfcac00145d3b1ef372fd301c35bff96cf019c739db1b4"
+        },
         {
             "name": "1.62.0",
             "sha256": "482e41a46381d10adbdfdd44c1942ed5fd1a419e0ab6f4a5ff5b61468fe6f00d"

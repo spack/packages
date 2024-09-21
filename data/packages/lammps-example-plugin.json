@@ -23,7 +23,7 @@
     "dependent_to": [],
     "description": "LAMMPS Example Plugin\n",
     "homepage": "https://www.lammps.org/",
-    "latest_version": "20240627",
+    "latest_version": "20240829",
     "maintainers": [
         "rbberger"
     ],
@@ -58,6 +58,10 @@
             "name": "develop"
         },
         {
+            "name": "20240829",
+            "sha256": "6112e0cc352c3140a4874c7f74db3c0c8e30134024164509ecf3772b305fde2e"
+        },
+        {
             "name": "20240627",
             "sha256": "2174a99d266279823a8c57629ee1c21ec357816aefd85f964d9f859fe9222aa5"
         },
@@ -72,6 +76,10 @@
         {
             "name": "20231121",
             "sha256": "704d8a990874a425bcdfe0245faf13d712231ba23f014a3ebc27bc14398856f1"
+        },
+        {
+            "name": "20230802.4",
+            "sha256": "6eed007cc24cda80b5dd43372b2ad4268b3982bb612669742c8c336b79137b5b"
         },
         {
             "name": "20230802.3",

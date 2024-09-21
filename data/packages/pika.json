@@ -14,6 +14,46 @@
         },
         {
             "description": null,
+            "name": "^apex+gperftools",
+            "spec": "+apex malloc=jemalloc"
+        },
+        {
+            "description": null,
+            "name": "^apex+jemalloc",
+            "spec": "+apex malloc=jemalloc"
+        },
+        {
+            "description": null,
+            "name": "^apex+gperftools",
+            "spec": "+apex malloc=mimalloc"
+        },
+        {
+            "description": null,
+            "name": "^apex+jemalloc",
+            "spec": "+apex malloc=mimalloc"
+        },
+        {
+            "description": null,
+            "name": "^apex+gperftools",
+            "spec": "+apex malloc=tbbmalloc"
+        },
+        {
+            "description": null,
+            "name": "^apex+jemalloc",
+            "spec": "+apex malloc=tbbmalloc"
+        },
+        {
+            "description": null,
+            "name": "^apex+gperftools",
+            "spec": "+apex malloc=tcmalloc"
+        },
+        {
+            "description": null,
+            "name": "^apex+jemalloc",
+            "spec": "+apex malloc=tcmalloc"
+        },
+        {
+            "description": null,
             "name": "%clang@7:",
             "spec": "+cuda ^cuda@10.0.130~allow-unsupported-compilers arch=None-None-ppc64le:"
         },
@@ -384,6 +424,11 @@
         },
         {
             "description": null,
+            "name": "%gcc@13:",
+            "spec": "+rocm"
+        },
+        {
+            "description": null,
             "name": "amdgpu_target=none",
             "spec": "+rocm"
         },
@@ -406,6 +451,11 @@
             "description": null,
             "name": "^fmt@10:",
             "spec": "@:0.15+rocm"
+        },
+        {
+            "description": null,
+            "name": "^fmt@11:",
+            "spec": "@:0.23"
         },
         {
             "description": null,

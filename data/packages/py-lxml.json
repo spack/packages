@@ -122,6 +122,10 @@
             "name": "py-openmc"
         },
         {
+            "description": "Documentation generator for C++",
+            "name": "py-poxy"
+        },
+        {
             "description": "A Python library for W3C Provenance Data Model (PROV). A library for W3C\nProvenance Data Model supporting PROV-JSON, PROV-XML and PROV-O (RDF)",
             "name": "py-prov"
         },

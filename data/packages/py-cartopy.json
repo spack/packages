@@ -112,6 +112,10 @@
         {
             "description": "GraphCast: Learning skillful medium-range global weather forecasting.",
             "name": "py-graphcast"
+        },
+        {
+            "description": "Create masks of geospatial regions for arbitrary grids",
+            "name": "py-regionmask"
         }
     ],
     "description": "Cartopy - a cartographic python library with matplotlib support.\n",

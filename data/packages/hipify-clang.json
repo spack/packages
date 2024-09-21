@@ -36,7 +36,7 @@
     ],
     "description": "hipify-clang is a clang-based tool for translation CUDA sources into HIP\nsources\n",
     "homepage": "https://github.com/ROCm/HIPIFY",
-    "latest_version": "6.1.2",
+    "latest_version": "6.2.0",
     "maintainers": [
         "renjithravindrankannath",
         "srekolam"
@@ -67,7 +67,16 @@
             "relative_path": "0003-install-hipify-clang-in-bin-dir-and-llvm-clangs-head.patch",
             "reverse": false,
             "sha256": "3ad49b7d5a1882f9f50adf85bf3634d23a2342eceec88e252614e503d792e611",
-            "version": "@6.1:",
+            "version": "@6.1",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.hipify-clang",
+            "relative_path": "0001-use-source-permission-for-hipify-perl.patch",
+            "reverse": false,
+            "sha256": "16e0e2b4487eb24f1e3d66cf2f239b1ea56210da2d39587f1eb2a461f80e735f",
+            "version": "@6.2",
             "working_dir": "."
         }
     ],
@@ -103,6 +112,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "6.2.0",
+            "sha256": "11bfbde7c40e5cd5de02a47ec30dc6df4b233a12126bf7ee449432a30a3e6e1e"
         },
         {
             "name": "6.1.2",

@@ -36,7 +36,7 @@
     ],
     "description": "An SVG based C++17 plotting library for ACTS detectors and surfaces.\n",
     "homepage": "https://github.com/acts-project/actsvg",
-    "latest_version": "0.4.44",
+    "latest_version": "0.4.47",
     "maintainers": [
         "stephenswat",
         "wdconinc"
@@ -82,6 +82,18 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.4.47",
+            "sha256": "11924fddbdd01f6337875797dc3a97b62be565688e678485e992bcfc9bfb142f"
+        },
+        {
+            "name": "0.4.46",
+            "sha256": "0b75e91de240aeac8b91cd4fb8e314d0ab2a4b220048fb373dee9352d571b792"
+        },
+        {
+            "name": "0.4.45",
+            "sha256": "402ca863e453055e5abc65a37908f44b03b15f90c694807d78627d7800d2e39c"
+        },
         {
             "name": "0.4.44",
             "sha256": "6eda7306b8b863e1860e090f328ac6e7982dc2d3b3d674db2799c13007ffd07f"

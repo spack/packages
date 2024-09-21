@@ -58,7 +58,7 @@
     ],
     "description": "The zziplib provides read access to zipped files in a zip-archive, using\ncompression based solely on free algorithms provided by zlib. It also\nprovides a functionality to overlay the archive filesystem with the\nfilesystem of the operating system environment.\n",
     "homepage": "https://github.com/gdraheim/zziplib",
-    "latest_version": "0.13.72",
+    "latest_version": "0.13.78",
     "maintainers": [],
     "name": "zziplib",
     "patches": [
@@ -96,6 +96,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.13.78",
+            "sha256": "feaeee7c34f18aa27bd3da643cc6a47d04d2c41753a59369d09102d79b9b0a31"
+        },
         {
             "name": "0.13.72",
             "sha256": "93ef44bf1f1ea24fc66080426a469df82fa631d13ca3b2e4abaeab89538518dc"

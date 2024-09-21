@@ -32,6 +32,10 @@
         {
             "description": "Netpyne: A python package to facilitate the development, parallel\nsimulation, optimization and analysis of multiscale biological neuronal\nnetworks in NEURON.",
             "name": "py-netpyne"
+        },
+        {
+            "description": "Documentation generator for C++",
+            "name": "py-poxy"
         }
     ],
     "description": "Simple data validation library\n",

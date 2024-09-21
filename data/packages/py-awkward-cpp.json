@@ -1,7 +1,13 @@
 {
     "aliases": [],
     "build_system": "PythonPackage",
-    "conflicts": [],
+    "conflicts": [
+        {
+            "description": null,
+            "name": "%gcc@14:",
+            "spec": "@:33"
+        }
+    ],
     "dependencies": [
         {
             "description": "Fundamental package for array computing in Python.",
@@ -40,7 +46,7 @@
     ],
     "description": "py-awkward-cpp provides precompiled routines for the py-awkward package.\nIt is not useful on its own, only as a dependency for py-awkward.\n",
     "homepage": "https://awkward-array.org",
-    "latest_version": "12",
+    "latest_version": "35",
     "maintainers": [
         "vvolkl",
         "wdconinc"
@@ -56,6 +62,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "35",
+            "sha256": "1f8b112a597bd2438794e1a721a63aa61869fa9598a17ac6bd811ad6f6400d06"
+        },
         {
             "name": "12",
             "sha256": "429f7fcc37a671afa67fe9680f2edc3a123d1c74d399e5889c654f9529f9f8f2"

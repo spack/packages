@@ -32,7 +32,7 @@
     ],
     "description": "Very basic event publishing system.\n",
     "homepage": "https://github.com/zopefoundation/zope.event",
-    "latest_version": "4.6",
+    "latest_version": "5.0",
     "maintainers": [],
     "name": "py-zope-event",
     "patches": [],
@@ -46,8 +46,16 @@
     ],
     "versions": [
         {
+            "name": "5.0",
+            "sha256": "bac440d8d9891b4068e2b5a2c5e2c9765a9df762944bda6955f96bb9b91e67cd"
+        },
+        {
             "name": "4.6",
             "sha256": "81d98813046fc86cc4136e3698fee628a3282f9c320db18658c21749235fce80"
+        },
+        {
+            "name": "4.5.1",
+            "sha256": "4ab47faac13163ca3c5d6d8a5595212e14770322e95c338d955e3688ba19082a"
         },
         {
             "name": "4.5.0",

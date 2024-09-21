@@ -162,11 +162,23 @@
     ],
     "description": "TeX Live is an easy (we hope) way to get up and running with the TeX\ndocument production system. It provides a comprehensive TeX system with\nbinaries for most flavors of Unix, including GNU/Linux, macOS, and also\nWindows. It includes all the major TeX-related programs, macro packages,\nand fonts that are free software, including support for many languages\naround the world.\n",
     "homepage": "https://www.tug.org/texlive",
-    "latest_version": "20220321",
+    "latest_version": "20240312",
     "maintainers": [],
     "name": "texlive",
     "patches": [],
     "resources": [
+        {
+            "destination": "",
+            "name": "texmf",
+            "placement": null,
+            "version": "@20240312"
+        },
+        {
+            "destination": "",
+            "name": "texmf",
+            "placement": null,
+            "version": "@20230313"
+        },
         {
             "destination": "",
             "name": "texmf",
@@ -201,24 +213,34 @@
     ],
     "versions": [
         {
+            "name": "20240312",
+            "sha256": "7b6d87cf01661670fac45c93126bed97b9843139ed510f975d047ea938b6fe96",
+            "url": "https://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2024/texlive-20240312-source.tar.xz"
+        },
+        {
+            "name": "20230313",
+            "sha256": "3878aa0e1ed0301c053b0e2ee4e9ad999c441345f4882e79bdd1c8f4ce9e79b9",
+            "url": "https://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2023/texlive-20230313-source.tar.xz"
+        },
+        {
             "name": "20220321",
             "sha256": "5ffa3485e51eb2c4490496450fc69b9d7bd7cb9e53357d92db4bcd4fd6179b56",
-            "url": "http://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2022/texlive-20220321-source.tar.xz"
+            "url": "https://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2022/texlive-20220321-source.tar.xz"
         },
         {
             "name": "20210325",
             "sha256": "7aefd96608d72061970f2d73f275be5648ea8ae815af073016d3106acc0d584b",
-            "url": "http://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2021/texlive-20210325-source.tar.xz"
+            "url": "https://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2021/texlive-20210325-source.tar.xz"
         },
         {
             "name": "20200406",
             "sha256": "e32f3d08cbbbcf21d8d3f96f2143b64a1f5e4cb01b06b761d6249c8785249078",
-            "url": "http://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2020/texlive-20200406-source.tar.xz"
+            "url": "https://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2020/texlive-20200406-source.tar.xz"
         },
         {
             "name": "20190410",
             "sha256": "d2a29fef04e34dc3d2d2296c18995fc357aa7625e7a6bbf40fb92d83d3d0d7b5",
-            "url": "http://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2019/texlive-20190410-source.tar.xz"
+            "url": "https://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2019/texlive-20190410-source.tar.xz"
         }
     ],
     "versions_deprecated": []

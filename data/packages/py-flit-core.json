@@ -126,6 +126,10 @@
             "name": "py-flit-scm"
         },
         {
+            "description": "Fluidfft plugin dependencies",
+            "name": "py-fluidfft-builder"
+        },
+        {
             "description": "An async GitHub API library for Python.",
             "name": "py-gidgethub"
         },
@@ -212,6 +216,10 @@
         {
             "description": "A Python Parsing Module.",
             "name": "py-pyparsing"
+        },
+        {
+            "description": "A pure-python PDF library capable of splitting, merging, cropping, and\ntransforming PDF files",
+            "name": "py-pypdf"
         },
         {
             "description": "Wrappers to call pyproject.toml-based build backend hooks.",

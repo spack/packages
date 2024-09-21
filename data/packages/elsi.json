@@ -371,6 +371,31 @@
             "description": null,
             "name": "%gcc@6:",
             "spec": "+cuda ^cuda@:9~allow-unsupported-compilers arch=None-None-ppc64le:"
+        },
+        {
+            "description": null,
+            "name": "dla-future~cuda",
+            "spec": "+cuda+dlaf"
+        },
+        {
+            "description": null,
+            "name": "^ntpoly@3:",
+            "spec": "@:2.10+use_external_ntpoly"
+        },
+        {
+            "description": null,
+            "name": "^pexsi@2:",
+            "spec": "@:2.11+enable_pexsi+use_external_pexsi"
+        },
+        {
+            "description": null,
+            "name": "generator=make",
+            "spec": ""
+        },
+        {
+            "description": null,
+            "name": "dla-future+cuda",
+            "spec": "~cuda+dlaf"
         }
     ],
     "dependencies": [
@@ -385,6 +410,10 @@
         {
             "description": "CUDA is a parallel computing platform and programming model invented by\nNVIDIA. It enables dramatic increases in computing performance by\nharnessing the power of the graphics processing unit (GPU). Note: This\npackage does not currently install the drivers necessary to run CUDA.\nThese will need to be installed manually. See:\nhttps://docs.nvidia.com/cuda/ for details.",
             "name": "cuda"
+        },
+        {
+            "description": "Fortran interface to the DLA-Future library.",
+            "name": "dla-future-fortran"
         },
         {
             "description": "Eigenvalue solvers for Petaflop-Applications (ELPA)",
@@ -447,7 +476,7 @@
     ],
     "description": "ELSI provides a unified interface for electronic structure codes to a\nvariety of eigenvalue solvers.\n",
     "homepage": "https://wordpress.elsi-interchange.org/",
-    "latest_version": "2.10.1",
+    "latest_version": "2.11.0",
     "maintainers": [],
     "name": "elsi",
     "patches": [],
@@ -479,6 +508,11 @@
             "name": "cuda_arch"
         },
         {
+            "default": false,
+            "description": "Enable DLA-Future support",
+            "name": "dlaf"
+        },
+        {
             "default": "none",
             "description": "ELPA2 Kernel",
             "name": "elpa2_kernel"
@@ -494,12 +528,12 @@
             "name": "enable_sips"
         },
         {
-            "default": "make",
+            "default": "ninja",
             "description": "the build system generator to use",
             "name": "generator"
         },
         {
-            "default": "2024",
+            "default": "2020",
             "description": "Internal ELPA version",
             "name": "internal_elpa_version"
         },
@@ -543,6 +577,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "2.11.0",
+            "sha256": "2e6929827ed9c99a32381ed9da40482e862c28608d59d4f27db7dcbcaed1520d"
         },
         {
             "name": "2.10.1",

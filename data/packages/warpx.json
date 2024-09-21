@@ -228,7 +228,7 @@
             "name": "compute"
         },
         {
-            "default": "1,2,rz,3",
+            "default": "3",
             "description": "Number of spatial dimensions",
             "name": "dims"
         },

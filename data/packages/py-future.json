@@ -228,7 +228,7 @@
     ],
     "description": "Clean single-source support for Python 3 and 2\n",
     "homepage": "https://python-future.org/",
-    "latest_version": "0.18.3",
+    "latest_version": "1.0.0",
     "maintainers": [],
     "name": "py-future",
     "patches": [],
@@ -241,6 +241,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.0.0",
+            "sha256": "bd2968309307861edae1458a4f8a4f3598c03be43b97521076aebf5d94c07b05"
+        },
         {
             "name": "0.18.3",
             "sha256": "34a17436ed1e96697a86f9de3d15a3b0be01d8bc8de9c1dffd59fb8234ed5307"

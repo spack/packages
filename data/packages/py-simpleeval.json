@@ -28,7 +28,12 @@
             "name": "python-venv"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "Framework for studying fluid dynamics.",
+            "name": "py-fluiddyn"
+        }
+    ],
     "description": "A quick single file library for easily adding evaluatable expressions\ninto python projects.\n",
     "homepage": "https://github.com/danthedeckie/simpleeval",
     "latest_version": "0.9.13",

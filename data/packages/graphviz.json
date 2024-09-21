@@ -183,6 +183,10 @@
             "name": "must"
         },
         {
+            "description": "Interface to AT&T's GraphViz. Deprecated. See GraphViz2",
+            "name": "perl-graphviz"
+        },
+        {
             "description": "A workflow engine for cycling systems.",
             "name": "py-cylc-flow"
         },

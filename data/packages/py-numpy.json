@@ -1140,6 +1140,10 @@
             "name": "py-flax"
         },
         {
+            "description": "Framework for studying fluid dynamics.",
+            "name": "py-fluiddyn"
+        },
+        {
             "description": "Make beautiful maps with Leaflet.js & Python.",
             "name": "py-folium"
         },
@@ -1166,6 +1170,10 @@
         {
             "description": "Object-oriented pure Python B-Spline and NURBS library.",
             "name": "py-geomdl"
+        },
+        {
+            "description": "GeoPandas is an open source project to make working with geospatial data\nin python easier. GeoPandas extends the datatypes used by pandas to\nallow spatial operations on geometric types. Geometric operations are\nperformed by shapely. Geopandas further depends on fiona for file access\nand descartes and matplotlib for plotting.",
+            "name": "py-geopandas"
         },
         {
             "description": "The Global Extensible Open Power Manager (GEOPM) Service provides a user\ninterface for accessing hardware telemetry and settings securely.",
@@ -2312,6 +2320,10 @@
             "name": "py-pynucleus"
         },
         {
+            "description": "Vectorized spatial vector file format I/O using GDAL/OGR",
+            "name": "py-pyogrio"
+        },
+        {
             "description": "Pyomo is a Python-based open-source software package that supports a\ndiverse set of optimization capabilities for formulating and analyzing\noptimization models.",
             "name": "py-pyomo"
         },
@@ -2522,6 +2534,10 @@
         {
             "description": "RDT is a Python library used to transform data for data science\nlibraries and preserve the transformations in order to revert them as\nneeded.",
             "name": "py-rdt"
+        },
+        {
+            "description": "Create masks of geospatial regions for arbitrary grids",
+            "name": "py-regionmask"
         },
         {
             "description": "The reproject package is a Python package to reproject astronomical\nimages using various techniques via a uniform interface. By\nreprojection, we mean the re-gridding of images from one world\ncoordinate system to another (for example changing the pixel resolution,\norientation, coordinate system). Currently, we have implemented\nreprojection of celestial images by interpolation (like SWARP), as well\nas by finding the exact overlap between pixels on the celestial sphere\n(like Montage). It can also reproject to/from HEALPIX projections by\nrelying on the astropy-healpix package.",

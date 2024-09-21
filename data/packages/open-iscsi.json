@@ -10,6 +10,14 @@
     ],
     "dependencies": [
         {
+            "description": "Autoconf -- system configuration part of autotools",
+            "name": "autoconf"
+        },
+        {
+            "description": "Automake -- make file builder part of autotools",
+            "name": "automake"
+        },
+        {
             "description": "GNU internationalization (i18n) and localization (l10n) library.",
             "name": "gettext"
         },

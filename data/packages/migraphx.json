@@ -100,7 +100,7 @@
     ],
     "description": "AMD's graph optimization engine.\n",
     "homepage": "https://github.com/ROCm/AMDMIGraphX",
-    "latest_version": "6.1.2",
+    "latest_version": "6.2.0",
     "maintainers": [
         "renjithravindrankannath",
         "srekolam"
@@ -209,6 +209,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.2.0",
+            "sha256": "7b36c1a0c44dd21f31ce6c9c4e7472923281aa7fdc693e75edd2670b101a6d48"
+        },
         {
             "name": "6.1.2",
             "sha256": "829f4a2bd9fe3dee130dfcca103ddc7691da18382f5b683aaca8f3ceceaef355"

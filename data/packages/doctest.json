@@ -16,7 +16,12 @@
             "name": "ninja"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "Fast and exact implementation of the C++ from_chars functions for number\ntypes.",
+            "name": "fast-float"
+        }
+    ],
     "description": "The fastest feature-rich C++11/14/17/20/23 single-header testing\nframework\n",
     "homepage": "https://github.com/doctest/doctest",
     "latest_version": "2.4.11",

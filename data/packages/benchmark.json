@@ -30,6 +30,10 @@
             "name": "py-torch"
         },
         {
+            "description": "RE2 is a fast, safe, thread-friendly alternative to backtracking regular\nexpression engines like those used in PCRE, Perl, and Python.",
+            "name": "re2"
+        },
+        {
             "description": "STochastic Engine for Pathway Simulation",
             "name": "steps"
         }

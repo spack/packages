@@ -16,7 +16,12 @@
             "name": "ninja"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "The NOAA bufr-query Library can be used to read NCEP and WMO formated\nBUFR files using a simple interface that does not require the user to\nknow the details of the BUFR format. Detailed documentation for the BUFR\nLibrary can be found at https://bufr-\nquery.readthedocs.io/en/latest/index.html",
+            "name": "bufr-query"
+        }
+    ],
     "description": "A single-file header-only version of ISO C++ Guidelines Support Library\n(GSL) for C++98, C++11, and later\n",
     "homepage": "https://github.com/gsl-lite/gsl-lite",
     "latest_version": "0.41.0",

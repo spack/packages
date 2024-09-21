@@ -1905,7 +1905,7 @@
     ],
     "description": "OpenCV (Open Source Computer Vision Library) is an open source computer\nvision and machine learning software library.\n",
     "homepage": "https://opencv.org/",
-    "latest_version": "4.8.0",
+    "latest_version": "4.10.0",
     "maintainers": [
         "adamjstewart",
         "bvanessen"
@@ -2132,6 +2132,24 @@
             "name": "contrib",
             "placement": null,
             "version": "@4.8.0+contrib"
+        },
+        {
+            "destination": "",
+            "name": "contrib",
+            "placement": null,
+            "version": "@4.8.1+contrib"
+        },
+        {
+            "destination": "",
+            "name": "contrib",
+            "placement": null,
+            "version": "@4.9.0+contrib"
+        },
+        {
+            "destination": "",
+            "name": "contrib",
+            "placement": null,
+            "version": "@4.10.0+contrib"
         }
     ],
     "variants": [
@@ -2885,6 +2903,18 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "4.10.0",
+            "sha256": "b2171af5be6b26f7a06b1229948bbb2bdaa74fcf5cd097e0af6378fce50a6eb9"
+        },
+        {
+            "name": "4.9.0",
+            "sha256": "ddf76f9dffd322c7c3cb1f721d0887f62d747b82059342213138dc190f28bc6c"
+        },
+        {
+            "name": "4.8.1",
+            "sha256": "62f650467a60a38794d681ae7e66e3e8cfba38f445e0bf87867e2f2cdc8be9d5"
         },
         {
             "name": "4.8.0",

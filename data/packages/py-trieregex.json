@@ -24,7 +24,12 @@
             "name": "python-venv"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "Documentation generator for C++",
+            "name": "py-poxy"
+        }
+    ],
     "description": "Build efficient trie-based regular expressions from large word lists\n",
     "homepage": "https://github.com/ermanh/trieregex",
     "latest_version": "1.0.0",

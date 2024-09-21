@@ -104,7 +104,7 @@
         },
         {
             "default": false,
-            "description": "ILP64 support",
+            "description": "Force 64-bit Fortran native integers",
             "name": "ilp64"
         },
         {

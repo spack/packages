@@ -410,6 +410,10 @@
             "name": "rocm-openmp-extras"
         },
         {
+            "description": "The ROCm Validation Suite (RVS) is a system administrators and cluster\nmanager's tool for detecting and troubleshooting common problems\naffecting AMD GPU(s) running in a high-performance computing\nenvironment, enabled using the ROCm software stack on a compatible\nplatform.",
+            "name": "rocm-validation-suite"
+        },
+        {
             "description": "Radeon Open Compute (ROCm) Runtime rocminfo tool",
             "name": "rocminfo"
         },
@@ -512,7 +516,7 @@
     ],
     "description": "This repository includes the user mode API nterfaces and libraries\nnecessary for host applications to launch computer kernels to available\nHSA ROCm kernel agents.AMD Heterogeneous System Architecture HSA - Linux\nHSA Runtime for Boltzmann (ROCm) platforms.\n",
     "homepage": "https://github.com/ROCm/ROCR-Runtime",
-    "latest_version": "6.1.2",
+    "latest_version": "6.2.0",
     "maintainers": [
         "haampie",
         "renjithravindrankannath",
@@ -572,6 +576,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "6.2.0",
+            "sha256": "c98090041fa56ca4a260709876e2666f85ab7464db9454b177a189e1f52e0b1a"
         },
         {
             "name": "6.1.2",

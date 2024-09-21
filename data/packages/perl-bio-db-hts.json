@@ -20,7 +20,12 @@
             "name": "perl-module-build"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "File parsing and writing code for Ensembl.",
+            "name": "perl-bio-ensembl-io"
+        }
+    ],
     "description": "Bio::DB::HTS - This is a Perl interface to the HTS Library.\n",
     "homepage": "https://metacpan.org/dist/Bio-DB-HTS",
     "latest_version": "3.01",

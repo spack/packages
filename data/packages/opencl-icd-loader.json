@@ -27,6 +27,10 @@
     ],
     "dependent_to": [
         {
+            "description": "OpenCL: Open Computing Language on ROCclr",
+            "name": "rocm-opencl"
+        },
+        {
             "description": "A compiler for tensor computations on GPUs and other devices, supporting\nthe OpenCL, Level Zero, and SYCL runtime.",
             "name": "tiny-tensor-compiler"
         }

@@ -78,6 +78,10 @@
             "name": "py-rasterstats"
         },
         {
+            "description": "Create masks of geospatial regions for arbitrary grids",
+            "name": "py-regionmask"
+        },
+        {
             "description": "TorchGeo: datasets, samplers, transforms, and pre-trained models for\ngeospatial data.",
             "name": "py-torchgeo"
         },

@@ -250,7 +250,7 @@
             "name": "client_only"
         },
         {
-            "default": "17",
+            "default": "98",
             "description": "Use the specified C++ standard when building",
             "name": "cxxstd"
         },

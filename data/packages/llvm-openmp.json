@@ -38,6 +38,10 @@
             "name": "blaspp"
         },
         {
+            "description": "The NOAA bufr-query Library can be used to read NCEP and WMO formated\nBUFR files using a simple interface that does not require the user to\nknow the details of the BUFR format. Detailed documentation for the BUFR\nLibrary can be found at https://bufr-\nquery.readthedocs.io/en/latest/index.html",
+            "name": "bufr-query"
+        },
+        {
             "description": "DiHydrogen is the second version of the Hydrogen fork of the well-known\ndistributed linear algebra library, Elemental. DiHydrogen aims to be a\nbasic distributed multilinear algebra interface with a particular\nemphasis on the needs of the distributed machine learning effort, LBANN.",
             "name": "dihydrogen"
         },

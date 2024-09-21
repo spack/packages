@@ -55,7 +55,7 @@
     "dependent_to": [],
     "description": "A Full-Newton Finite Element Program for Free and Moving Boundary\nProblems with Coupled Fluid/Solid Momentum, Energy, Mass, and Chemical\nSpecies Transport\n",
     "homepage": "https://www.gomafem.com",
-    "latest_version": "7.6.1",
+    "latest_version": "7.7.0",
     "maintainers": [
         "wortiz"
     ],
@@ -153,6 +153,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "commit": "936caf27cab74023d8dfd792cc5411b8c92f2a04",
+            "name": "7.7.0"
         },
         {
             "commit": "c799e935009b85e00979fa8b248952194f6ade7a",

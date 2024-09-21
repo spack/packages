@@ -184,7 +184,7 @@
     ],
     "description": "NUMA support for Linux\n",
     "homepage": "https://github.com/numactl/numactl",
-    "latest_version": "2.0.14",
+    "latest_version": "2.0.18",
     "maintainers": [],
     "name": "numactl",
     "patches": [
@@ -221,7 +221,25 @@
             "relative_path": "fix-empty-block.patch",
             "reverse": false,
             "sha256": "62fc8a8bf7665a60e8f4c93ebbd535647cebf74198f7afafec4c085a8825c006",
-            "version": "@2.0.10:2.0.14",
+            "version": "@2.0.10:2.0.16",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.numactl",
+            "relative_path": "link-with-latomic-if-needed-v2.0.16.patch",
+            "reverse": false,
+            "sha256": "67335453d4d904b070b5cc5cd54ba1af597fc3e07a5b51bbb136fba2157c0663",
+            "version": "@2.0.16",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.numactl",
+            "relative_path": "numactl-2.0.18-syscall-NR-ppc64.patch",
+            "reverse": false,
+            "sha256": "85c50daa0fff9b580b044b2fc4800a8c3d5c68ece2770c95ed0790ff84a60408",
+            "version": "@2.0.18 arch=None-None-ppc64le:",
             "working_dir": "."
         }
     ],
@@ -234,6 +252,18 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.0.18",
+            "sha256": "8cd6c13f3096e9c2293c1d732f56e2aa37a7ada1a98deed3fac7bd6da1aaaaf6"
+        },
+        {
+            "name": "2.0.17",
+            "sha256": "af22829cda8b5bdee3d280e61291697bbd3f9bd372afdf119c9348b88369d40b"
+        },
+        {
+            "name": "2.0.16",
+            "sha256": "a35c3bdb3efab5c65927e0de5703227760b1101f5e27ab741d8f32b3d5f0a44c"
+        },
         {
             "name": "2.0.14",
             "sha256": "1ee27abd07ff6ba140aaf9bc6379b37825e54496e01d6f7343330cf1a4487035"

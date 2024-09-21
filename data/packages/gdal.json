@@ -609,6 +609,10 @@
             "name": "py-pynio"
         },
         {
+            "description": "Vectorized spatial vector file format I/O using GDAL/OGR",
+            "name": "py-pyogrio"
+        },
+        {
             "description": "A set of command line utilities and Python modules that implement the\nFMASK algorithm for Landsat and Sentinel-2",
             "name": "py-python-fmask"
         },

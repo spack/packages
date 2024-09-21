@@ -442,6 +442,10 @@
             "name": "bufr"
         },
         {
+            "description": "The NOAA bufr-query Library can be used to read NCEP and WMO formated\nBUFR files using a simple interface that does not require the user to\nknow the details of the BUFR format. Detailed documentation for the BUFR\nLibrary can be found at https://bufr-\nquery.readthedocs.io/en/latest/index.html",
+            "name": "bufr-query"
+        },
+        {
             "description": "ButterflyPACK is a mathematical software for rapidly solving large-scale\ndense linear systems that exhibit off-diagonal rank-deficiency. These\nsystems arise frequently from boundary element methods, or factorization\nphases in finite-difference/finite-element methods. ButterflyPACK relies\non low-rank or butterfly formats under Hierarchical matrix, HODLR or\nother hierarchically nested frameworks to compress, factor and solve the\nlinear system in quasi-linear time. The computationally most intensive\nphase, factorization, is accelerated via randomized linear algebras. The\nbutterfly format, originally inspired by the butterfly data flow in fast\nFourier Transform, is a linear algebra tool well-suited for compressing\nmatrices arising from high-frequency wave equations or highly\noscillatory integral operators.",
             "name": "butterflypack"
         },
@@ -1236,6 +1240,10 @@
         {
             "description": "Command line argument parsing for Fortran",
             "name": "fargparse"
+        },
+        {
+            "description": "Fast and exact implementation of the C++ from_chars functions for number\ntypes.",
+            "name": "fast-float"
         },
         {
             "description": "Fast, alignment-free computation of whole-genome Average Nucleotide\nIdentity (ANI)",
@@ -3086,6 +3094,10 @@
             "name": "ndzip"
         },
         {
+            "description": "nekRS is an open-source Navier Stokes solver based on the spectral\nelement method targeting classical processors and hardware accelerators\nlike GPUs",
+            "name": "nekrs"
+        },
+        {
             "description": "Nektar++: Spectral/hp Element Framework",
             "name": "nektar"
         },
@@ -4202,6 +4214,10 @@
             "name": "rocprofiler-dev"
         },
         {
+            "description": "The rocprofiler-register library is a helper library that coordinates\nthe modification of the intercept API table(s) of the HSA/HIP/ROCTx\nruntime libraries by the ROCprofiler (v2) library",
+            "name": "rocprofiler-register"
+        },
+        {
             "description": "The rocRAND project provides functions that generate pseudo-random and\nquasi-random numbers.",
             "name": "rocrand"
         },
@@ -4344,6 +4360,10 @@
         {
             "description": "A C++ implementation of the SciTokens library with a C library\ninterface. SciTokens provide a token format for distributed\nauthorization.",
             "name": "scitokens-cpp"
+        },
+        {
+            "description": "scanf for modern C++",
+            "name": "scnlib"
         },
         {
             "description": "The SCOREC Core is a set of C/C++ libraries for unstructured mesh\nsimulations on supercomputers.",

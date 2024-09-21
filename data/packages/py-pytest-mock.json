@@ -38,6 +38,10 @@
             "name": "py-continuum"
         },
         {
+            "description": "Framework for studying fluid dynamics.",
+            "name": "py-fluiddyn"
+        },
+        {
             "description": "PennyLane is a Python quantum machine learning library by Xanadu Inc.",
             "name": "py-pennylane"
         },

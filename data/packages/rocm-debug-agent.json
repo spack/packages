@@ -59,7 +59,7 @@
     "dependent_to": [],
     "description": "Radeon Open Compute (ROCm) debug agent\n",
     "homepage": "https://github.com/ROCm/rocr_debug_agent",
-    "latest_version": "6.1.2",
+    "latest_version": "6.2.0",
     "maintainers": [
         "renjithravindrankannath",
         "srekolam"
@@ -114,6 +114,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.2.0",
+            "sha256": "a4b839c47b8a1cd8d00c3577eeeea04d3661210eb8124e221d88bcbedc742363"
+        },
         {
             "name": "6.1.2",
             "sha256": "c7cb779915a3d61e39d92cef172997bcf5eae720308f6d9c363a2cbc71b5621c"

@@ -8,6 +8,16 @@
             "spec": "@0.34:"
         },
         {
+            "description": "flux-sched: clang must be version 15 or higher",
+            "name": "%clang@:14",
+            "spec": "@0.37:"
+        },
+        {
+            "description": "flux-sched: gcc version must be 12 or higher",
+            "name": "%gcc@:11",
+            "spec": "@0.37:"
+        },
+        {
             "description": null,
             "name": "arch=windows-None-None",
             "spec": "build_system=autotools"
@@ -96,7 +106,7 @@
     ],
     "description": "A scheduler for flux-core\n",
     "homepage": "https://github.com/flux-framework/flux-sched",
-    "latest_version": "0.36.1",
+    "latest_version": "0.38.0",
     "maintainers": [
         "grondo"
     ],
@@ -158,6 +168,14 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "0.38.0",
+            "sha256": "0cb3efbd490256b28df580bb14f8e89c02084a9126e0b1754d6334a99ecfa969"
+        },
+        {
+            "name": "0.37.0",
+            "sha256": "b354d451183fcb8455e6a61d31e18c7f4af13e16a86b71216738f0991a7bcd50"
         },
         {
             "name": "0.36.1",

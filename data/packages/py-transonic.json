@@ -40,7 +40,32 @@
             "name": "python-venv"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "Efficient and easy Fast Fourier Transform (FFT) for Python.",
+            "name": "py-fluidfft"
+        },
+        {
+            "description": "Fluidfft plugin using fftw.",
+            "name": "py-fluidfft-fftw"
+        },
+        {
+            "description": "Fluidfft plugin using fftwmpi.",
+            "name": "py-fluidfft-fftwmpi"
+        },
+        {
+            "description": "Fluidfft MPI plugin using fftw.",
+            "name": "py-fluidfft-mpi-with-fftw"
+        },
+        {
+            "description": "Fluidfft MPI plugin using p3dfft.",
+            "name": "py-fluidfft-p3dfft"
+        },
+        {
+            "description": "Fluidfft MPI plugin using pfft.",
+            "name": "py-fluidfft-pfft"
+        }
+    ],
     "description": "Make your Python code fly at transonic speeds!\n",
     "homepage": "https://pypi.org/project/transonic/",
     "latest_version": "0.7.2",

@@ -146,6 +146,10 @@
             "name": "py-nbmake"
         },
         {
+            "description": "Documentation generator for C++",
+            "name": "py-poxy"
+        },
+        {
             "description": "Full-screen console debugger for Python",
             "name": "py-pudb"
         },

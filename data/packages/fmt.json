@@ -134,6 +134,10 @@
             "name": "py-libsonata"
         },
         {
+            "description": "The rocprofiler-register library is a helper library that coordinates\nthe modification of the intercept API table(s) of the HSA/HIP/ROCTx\nruntime libraries by the ROCprofiler (v2) library",
+            "name": "rocprofiler-register"
+        },
+        {
             "description": "rocSOLVER is a work-in-progress implementation of a subset of LAPACK\nfunctionality on the ROCm platform.",
             "name": "rocsolver"
         },

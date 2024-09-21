@@ -18,10 +18,6 @@
             "name": "gnuconfig"
         },
         {
-            "description": "libtool -- library building part of autotools.",
-            "name": "libtool"
-        },
-        {
             "description": "libXext - library for common extensions to the X11 protocol.",
             "name": "libxext"
         },

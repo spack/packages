@@ -135,7 +135,7 @@
     ],
     "description": "The Emacs programmable text editor.\n",
     "homepage": "https://www.gnu.org/software/emacs",
-    "latest_version": "29.3",
+    "latest_version": "29.4",
     "maintainers": [
         "alecbcs"
     ],
@@ -188,6 +188,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "29.4",
+            "sha256": "1adb1b9a2c6cdb316609b3e86b0ba1ceb523f8de540cfdda2aec95b6a5343abf"
         },
         {
             "name": "29.3",

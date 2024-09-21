@@ -445,7 +445,7 @@
     ],
     "description": "XGBoost is an optimized distributed gradient boosting library designed\nto be highly efficient, flexible and portable. It implements machine\nlearning algorithms under the Gradient Boosting framework. XGBoost\nprovides a parallel tree boosting (also known as GBDT, GBM) that solve\nmany data science problems in a fast and accurate way. The same code\nruns on major distributed environment (Hadoop, SGE, MPI) and can solve\nproblems beyond billions of examples.\n",
     "homepage": "https://xgboost.ai/",
-    "latest_version": "2.1.0",
+    "latest_version": "2.1.1",
     "maintainers": [
         "adamjstewart"
     ],
@@ -498,6 +498,11 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "commit": "9c9db1259240bffe9040ed7ca6e3fb2c1bda80e4",
+            "name": "2.1.1",
+            "tag": "v2.1.1"
         },
         {
             "commit": "213ebf7796b757448dfa2cfba532074696fa1524",

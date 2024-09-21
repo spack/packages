@@ -54,10 +54,6 @@
             "name": "libtiff"
         },
         {
-            "description": "libtool -- library building part of autotools.",
-            "name": "libtool"
-        },
-        {
             "description": "Pango is a library for laying out and rendering of text, with an\nemphasis on internationalization. It can be used anywhere that text\nlayout is needed, though most of the work on Pango so far has been done\nin the context of the GTK+ widget toolkit.",
             "name": "pango"
         },

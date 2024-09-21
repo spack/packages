@@ -114,6 +114,10 @@
             "name": "py-dask-ml"
         },
         {
+            "description": "Framework for studying fluid dynamics.",
+            "name": "py-fluiddyn"
+        },
+        {
             "description": "ipdb is the iPython debugger and has many additional features, including\na better interactive debugging experience via colorized output.",
             "name": "py-ipdb"
         },

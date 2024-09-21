@@ -4,6 +4,10 @@
     "conflicts": [],
     "dependencies": [
         {
+            "description": "High level compatibility layer for multiple asynchronous event loop\nimplementations.",
+            "name": "py-anyio"
+        },
+        {
             "description": "Certifi: A carefully curated collection of Root Certificates for\nvalidating the trustworthiness of SSL certificates while verifying the\nidentity of TLS hosts.",
             "name": "py-certifi"
         },
@@ -100,7 +104,7 @@
     ],
     "description": "HTTPX is a fully featured HTTP client for Python 3, which provides sync\nand async APIs, and support for both HTTP/1.1 and HTTP/2.\n",
     "homepage": "https://github.com/encode/httpx",
-    "latest_version": "0.23.3",
+    "latest_version": "0.27.2",
     "maintainers": [],
     "name": "py-httpx",
     "patches": [],
@@ -118,6 +122,14 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.27.2",
+            "sha256": "f7c2be1d2f3c3c3160d441802406b206c2b76f5947b11115e6df10c6c65e66c2"
+        },
+        {
+            "name": "0.27.0",
+            "sha256": "a0cb88a46f32dc874e04ee956e4c2764aba2aa228f650b06788ba6bda2962ab5"
+        },
         {
             "name": "0.23.3",
             "sha256": "9818458eb565bb54898ccb9b8b251a28785dd4a55afbc23d0eb410754fe7d0f9"

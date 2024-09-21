@@ -1136,6 +1136,10 @@
             "name": "scine-xtb"
         },
         {
+            "description": "scanf for modern C++",
+            "name": "scnlib"
+        },
+        {
             "description": "SeqAn is an open source C++ library of efficient algorithms and data\nstructures for the analysis of sequences with the focus on biological\ndata. Our library applies a unique generic design that guarantees high\nperformance, generality, extensibility, and integration with other\nlibraries. SeqAn is easy to use and simplifies the development of new\nsoftware tools with a minimal loss of performance",
             "name": "seqan"
         },
@@ -1330,7 +1334,7 @@
     ],
     "description": "Boost provides free peer-reviewed portable C++ source libraries,\nemphasizing libraries that work well with the C++ Standard Library.\nBoost libraries are intended to be widely useful, and usable across a\nbroad spectrum of applications. The Boost license encourages both\ncommercial and non-commercial use.\n",
     "homepage": "https://www.boost.org",
-    "latest_version": "1.85.0",
+    "latest_version": "1.86.0",
     "maintainers": [
         "hainest"
     ],
@@ -1675,6 +1679,11 @@
         },
         {
             "default": false,
+            "description": "Compile with charconv library",
+            "name": "charconv"
+        },
+        {
+            "default": false,
             "description": "Compile with chrono library",
             "name": "chrono"
         },
@@ -1682,6 +1691,11 @@
             "default": false,
             "description": "Compile with clang libc++ instead of libstdc++",
             "name": "clanglibcpp"
+        },
+        {
+            "default": false,
+            "description": "Compile with cobalt library",
+            "name": "cobalt"
         },
         {
             "default": false,
@@ -1880,6 +1894,11 @@
         },
         {
             "default": false,
+            "description": "Compile with url library",
+            "name": "url"
+        },
+        {
+            "default": false,
             "description": "Augment library layout with versioned subdirs",
             "name": "versionedlayout"
         },
@@ -1898,6 +1917,10 @@
         {
             "branch": "develop",
             "name": "develop"
+        },
+        {
+            "name": "1.86.0",
+            "sha256": "1bed88e40401b2cb7a1f76d4bab499e352fa4d0c5f31c0dbae64e24d34d7513b"
         },
         {
             "name": "1.85.0",

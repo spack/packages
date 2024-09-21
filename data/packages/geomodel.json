@@ -70,7 +70,7 @@
     ],
     "description": "GeoModel is a user-friendly C++ Toolkit and Suite for HEP Detector\nDescription with minimal dependencies.\n",
     "homepage": "https://gitlab.cern.ch/GeoModelDev/GeoModel",
-    "latest_version": "6.4.0",
+    "latest_version": "6.5.0",
     "maintainers": [
         "stephenswat",
         "wdconinc"
@@ -141,6 +141,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.5.0",
+            "sha256": "8a2f71493e54ea4d393f4c0075f3ca13df132f172c891825f3ab949cda052c5f"
+        },
         {
             "name": "6.4.0",
             "sha256": "369f91f021be83d294ba6a9bdbe00077625e9fe798a396aceece8970e7dd5838"

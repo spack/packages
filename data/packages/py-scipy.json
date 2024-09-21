@@ -481,6 +481,10 @@
             "name": "py-fitter"
         },
         {
+            "description": "Framework for studying fluid dynamics.",
+            "name": "py-fluiddyn"
+        },
+        {
             "description": "Formulaic is a high-performance implementation of Wilkinson formulas for\nPython.",
             "name": "py-formulaic"
         },

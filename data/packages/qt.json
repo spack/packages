@@ -556,7 +556,7 @@
     ],
     "description": "Qt is a comprehensive cross-platform C++ application framework.\n",
     "homepage": "https://qt.io",
-    "latest_version": "5.15.14",
+    "latest_version": "5.15.15",
     "maintainers": [],
     "name": "qt",
     "patches": [
@@ -933,6 +933,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "5.15.15",
+            "sha256": "b423c30fe3ace7402e5301afbb464febfb3da33d6282a37a665be1e51502335e"
+        },
         {
             "name": "5.15.14",
             "sha256": "fdd3a4f197d2c800ee0085c721f4bef60951cbda9e9c46e525d1412f74264ed7"

@@ -213,6 +213,10 @@
             "name": "rccl"
         },
         {
+            "description": "RE2 is a fast, safe, thread-friendly alternative to backtracking regular\nexpression engines like those used in PCRE, Perl, and Python.",
+            "name": "re2"
+        },
+        {
             "description": "rocALUTION is a sparse linear algebra library with focus on exploring\nfine-grained parallelism on top of AMD's Radeon Open eCosystem Platform\nROCm runtime and toolchains, targeting modern CPU and GPU platforms.\nBased on C++ and HIP, it provides a portable, generic and flexible\ndesign that allows seamless integration with other scientific software\npackages.",
             "name": "rocalution"
         },
@@ -287,6 +291,10 @@
         {
             "description": "Contains functionality which is used in most SCINE modules.",
             "name": "scine-utilities"
+        },
+        {
+            "description": "scanf for modern C++",
+            "name": "scnlib"
         },
         {
             "description": "Subsystem focused quantum chemistry code Serenity",

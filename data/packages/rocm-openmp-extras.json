@@ -108,7 +108,7 @@
     ],
     "description": "OpenMP support for ROCm LLVM.\n",
     "homepage": "https://github.com/ROCm/aomp",
-    "latest_version": "6.1.2",
+    "latest_version": "6.2.0",
     "maintainers": [
         "estewart08",
         "renjithravindrankannath",
@@ -140,7 +140,16 @@
             "relative_path": "0001-Avoid-duplicate-registration-on-cuda-env.patch",
             "reverse": false,
             "sha256": "f6f006e0d93816ec0e81dea7ffc27ee5d7506f2ae89981545534d3dec1a56a6c",
-            "version": "@6.1:",
+            "version": "@6.1",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.rocm-openmp-extras",
+            "relative_path": "0001-Avoid-duplicate-registration-on-cuda-env-6.2.patch",
+            "reverse": false,
+            "sha256": "6f77cb208930531cd80b4bc5dde4b747d3461f45b4dcc6fbe424a4a46bf42442",
+            "version": "@6.2",
             "working_dir": "."
         }
     ],
@@ -486,6 +495,24 @@
             "name": "llvm-project",
             "placement": "llvm-project",
             "version": "@6.1.2"
+        },
+        {
+            "destination": "rocm-openmp-extras",
+            "name": "flang",
+            "placement": "flang",
+            "version": "@6.2.0"
+        },
+        {
+            "destination": "rocm-openmp-extras",
+            "name": "aomp-extras",
+            "placement": "aomp-extras",
+            "version": "@6.2.0"
+        },
+        {
+            "destination": "rocm-openmp-extras",
+            "name": "llvm-project",
+            "placement": "llvm-project",
+            "version": "@6.2.0"
         }
     ],
     "variants": [
@@ -501,6 +528,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.2.0",
+            "sha256": "5f54d7c7c798bcf1cd47d3a7f17ceaf79991bf166cc5e47e5372a68e7cf7d520"
+        },
         {
             "name": "6.1.2",
             "sha256": "3de1c7a31a88c3f05a6a66ba6854ac8fdad1ce44462e561cb1e6ad59629029ce"

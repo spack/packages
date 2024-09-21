@@ -49,7 +49,7 @@
     "dependent_to": [],
     "description": " w3m is a text-based web browser as well as a pager like `more' or\n`less'. With w3m you can browse web pages through a terminal emulator\nwindow (xterm, rxvt or something like that). Moreover, w3m can be used\nas a text formatting tool which typesets HTML into plain text.\n",
     "homepage": "https://w3m.sourceforge.net/index.en.html",
-    "latest_version": "0.5.3",
+    "latest_version": "0.5.3.git20230121",
     "maintainers": [
         "ronin_gw"
     ],
@@ -61,7 +61,7 @@
             "relative_path": "fix_redef.patch",
             "reverse": false,
             "sha256": "5a188c73eb4e34467a5ca91ccf8d86b50cc96f73dc480b13d4651e93c40a4f51",
-            "version": "",
+            "version": "@=0.5.3",
             "working_dir": "."
         },
         {
@@ -70,7 +70,7 @@
             "relative_path": "fix_gc.patch",
             "reverse": false,
             "sha256": "029dfd2e92f5e34b75a3b45cacba73bbce24cfb56c8c4586d06a9d9c9440a9b1",
-            "version": "",
+            "version": "@=0.5.3",
             "working_dir": "."
         }
     ],
@@ -103,6 +103,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.5.3.git20230121",
+            "sha256": "8f0592e1cf7cf1de053e22c114cd79b85ebdb8dab925be7d343a130343b97c25"
+        },
         {
             "name": "0.5.3",
             "sha256": "e994d263f2fd2c22febfbe45103526e00145a7674a0fda79c822b97c2770a9e3"

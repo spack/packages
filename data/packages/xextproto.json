@@ -28,6 +28,10 @@
     ],
     "dependent_to": [
         {
+            "description": "X Fixes Extension. The extension makes changes to many areas of the\nprotocol to resolve issues raised by application interaction with core\nprotocol mechanisms that cannot be adequately worked around on the\nclient side of the wire.",
+            "name": "fixesproto"
+        },
+        {
             "description": "AppleWM is a simple library designed to interface with the Apple-WM\nextension. This extension allows X window managers to better interact\nwith the Mac OS X Aqua user interface when running X11 in a rootless\nmode.",
             "name": "libapplewm"
         },

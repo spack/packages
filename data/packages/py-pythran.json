@@ -78,6 +78,10 @@
     ],
     "dependent_to": [
         {
+            "description": "Efficient and easy Fast Fourier Transform (FFT) for Python.",
+            "name": "py-fluidfft"
+        },
+        {
             "description": "Image processing algorithms for SciPy, including IO, morphology,\nfiltering, warping, color manipulation, object detection, etc.",
             "name": "py-scikit-image"
         },

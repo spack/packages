@@ -657,6 +657,10 @@
             "name": "perl-bio-ensembl-funcgen"
         },
         {
+            "description": "File parsing and writing code for Ensembl.",
+            "name": "perl-bio-ensembl-io"
+        },
+        {
             "description": "BioPerl low-level API for retrieving and storing data from NCBI eUtils",
             "name": "perl-bio-eutilities"
         },

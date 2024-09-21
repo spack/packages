@@ -66,6 +66,10 @@
             "name": "hypre"
         },
         {
+            "description": "AMD's library for high performance machine learning primitives.",
+            "name": "miopen-hip"
+        },
+        {
             "description": "PETSc is a suite of data structures and routines for the scalable\n(parallel) solution of scientific applications modeled by partial\ndifferential equations.",
             "name": "petsc"
         },
@@ -100,7 +104,7 @@
     ],
     "description": "The rocRAND project provides functions that generate pseudo-random and\nquasi-random numbers.\n",
     "homepage": "https://github.com/ROCm/rocRAND",
-    "latest_version": "6.1.2",
+    "latest_version": "6.2.0",
     "maintainers": [
         "cgmb",
         "renjithravindrankannath",
@@ -201,6 +205,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "6.2.0",
+            "sha256": "7f5318e9c9eb36fb3660392e97520268920c59af3a51af19633aabe5046ef1af"
         },
         {
             "name": "6.1.2",

@@ -24,6 +24,10 @@
         {
             "description": "This is a set of autoconf macros used by the configure.ac scripts in\nother Xorg modular packages, and is needed to generate new versions of\ntheir configure scripts with autoconf.",
             "name": "util-macros"
+        },
+        {
+            "description": "X Protocol Extensions.",
+            "name": "xextproto"
         }
     ],
     "dependent_to": [

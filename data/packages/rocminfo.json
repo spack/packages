@@ -76,7 +76,7 @@
     ],
     "description": "Radeon Open Compute (ROCm) Runtime rocminfo tool\n",
     "homepage": "https://github.com/ROCm/rocminfo",
-    "latest_version": "6.1.2",
+    "latest_version": "6.2.0",
     "maintainers": [
         "haampie",
         "renjithravindrankannath",
@@ -111,6 +111,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "6.2.0",
+            "sha256": "4d9a9051bda3355f8d2050e981435cd02528a04264a7f61162d685e7e1629f73"
         },
         {
             "name": "6.1.2",

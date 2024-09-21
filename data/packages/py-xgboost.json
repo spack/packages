@@ -16,6 +16,10 @@
             "name": "py-graphviz"
         },
         {
+            "description": "Modern, extensible Python build backend.",
+            "name": "py-hatchling"
+        },
+        {
             "description": "Matplotlib is a comprehensive library for creating static, animated, and\ninteractive visualizations in Python.",
             "name": "py-matplotlib"
         },
@@ -72,7 +76,7 @@
     ],
     "description": "XGBoost is an optimized distributed gradient boosting library designed\nto be highly efficient, flexible and portable.\n",
     "homepage": "https://xgboost.ai/",
-    "latest_version": "1.6.2",
+    "latest_version": "2.1.1",
     "maintainers": [
         "adamjstewart"
     ],
@@ -107,6 +111,18 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.1.1",
+            "sha256": "4b1729837f9f1ba88a32ef1be3f8efb860fee6454a68719b196dc88032c23d97"
+        },
+        {
+            "name": "2.1.0",
+            "sha256": "7144980923e76ce741c7b03a14d3bd7514db6de5c7cabe96ba95b229d274f5ca"
+        },
+        {
+            "name": "1.7.6",
+            "sha256": "1c527554a400445e0c38186039ba1a00425dcdb4e40b37eed0e74cb39a159c47"
+        },
         {
             "name": "1.6.2",
             "sha256": "e1f5c91ba88cf8edb409d7fd2ca150dcd80b6f2115587d87365f0c10b2d4f009"

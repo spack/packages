@@ -478,7 +478,7 @@
         },
         {
             "default": false,
-            "description": "Enables support for the CUDA memory kind in some conduits.\nNOTE: Requires CUDA Driver library be present on the build system",
+            "description": "Build with CUDA",
             "name": "cuda"
         },
         {
@@ -498,7 +498,7 @@
         },
         {
             "default": false,
-            "description": "Enables support for the ROCm/HIP memory kind in some conduits",
+            "description": "Enable ROCm support",
             "name": "rocm"
         }
     ],

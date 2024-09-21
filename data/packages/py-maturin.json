@@ -58,6 +58,10 @@
             "name": "py-polars"
         },
         {
+            "description": "Core functionality for Pydantic validation and serialization",
+            "name": "py-pydantic-core"
+        },
+        {
             "description": "Python binding for Rust's library for reading excel and odf file -\ncalamine.",
             "name": "py-python-calamine"
         },

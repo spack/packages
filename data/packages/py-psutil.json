@@ -114,6 +114,10 @@
             "name": "py-flufl-lock"
         },
         {
+            "description": "Framework for studying fluid dynamics.",
+            "name": "py-fluiddyn"
+        },
+        {
             "description": "Simple Client for Earth Engine Uploads with Selenium Support.",
             "name": "py-geeup"
         },

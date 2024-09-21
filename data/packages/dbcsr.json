@@ -665,6 +665,11 @@
         {
             "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
             "name": "+cuda",
+            "spec": "cuda_arch=90a"
+        },
+        {
+            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "name": "+cuda",
             "spec": "cuda_arch=none"
         },
         {

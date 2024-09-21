@@ -473,6 +473,11 @@
             "spec": "+flash-infer"
         },
         {
+            "description": "mlc-llm: CUDA architecture 90a is not supported when +flash-infer",
+            "name": "cuda_arch=90a",
+            "spec": "+flash-infer"
+        },
+        {
             "description": null,
             "name": "cuda_arch=none",
             "spec": "+flash-infer"

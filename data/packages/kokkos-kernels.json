@@ -455,7 +455,7 @@
     ],
     "description": "Kokkos Kernels provides math kernels, often BLAS or LAPACK for small\nmatrices, that can be used in larger Kokkos parallel routines\n",
     "homepage": "https://github.com/kokkos/kokkos-kernels",
-    "latest_version": "4.4.00",
+    "latest_version": "4.4.01",
     "maintainers": [
         "brian-kelley",
         "lucbv",
@@ -634,6 +634,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "4.4.01",
+            "sha256": "9f741449f5ace5a7d8a5a81194ff2108e5525d16f08fcd9bb6c9bb4853d7720d"
         },
         {
             "name": "4.4.00",

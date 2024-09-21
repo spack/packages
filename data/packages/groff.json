@@ -77,6 +77,10 @@
             "name": "cyrus-sasl"
         },
         {
+            "description": "Enchant is a library (and command-line program) that wraps a number of\ndifferent spelling libraries and programs with a consistent interface.",
+            "name": "enchant"
+        },
+        {
             "description": "Graph Visualization Software",
             "name": "graphviz"
         },

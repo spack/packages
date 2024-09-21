@@ -104,7 +104,7 @@
                 "4",
                 "d"
             ],
-            "description": "Set precision (_4/_d/_8 library versions)",
+            "description": "Set precision (_4/_d library versions)",
             "name": "precision"
         },
         {

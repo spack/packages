@@ -6086,6 +6086,10 @@
             "name": "py-pox"
         },
         {
+            "description": "Documentation generator for C++",
+            "name": "py-poxy"
+        },
+        {
             "description": "A lightweight YAML Parser for Python",
             "name": "py-poyo"
         },
@@ -7764,6 +7768,10 @@
         {
             "description": "Alternative regular expression module, to replace re.",
             "name": "py-regex"
+        },
+        {
+            "description": "Create masks of geospatial regions for arbitrary grids",
+            "name": "py-regionmask"
         },
         {
             "description": "Change Python (.py) files to use 4-space indents and no hard tab\ncharacters. Also trim excess spaces and tabs from ends of lines, and\nremove empty lines at the end of files. Also ensure the last line ends\nwith a newline.",

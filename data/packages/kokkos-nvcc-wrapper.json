@@ -28,7 +28,7 @@
     ],
     "description": "The NVCC wrapper provides a wrapper around NVCC to make it a 'full' C++\ncompiler that accepts all flags\n",
     "homepage": "https://github.com/kokkos/kokkos",
-    "latest_version": "4.4.00",
+    "latest_version": "4.4.01",
     "maintainers": [
         "Rombur"
     ],
@@ -50,6 +50,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "4.4.01",
+            "sha256": "3f7096d17eaaa4004c7497ac082bf1ae3ff47b5104149e54af021a89414c3682"
         },
         {
             "name": "4.4.00",

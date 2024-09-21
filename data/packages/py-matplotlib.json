@@ -490,6 +490,10 @@
             "name": "py-fitter"
         },
         {
+            "description": "Framework for studying fluid dynamics.",
+            "name": "py-fluiddyn"
+        },
+        {
             "description": "Object-oriented pure Python B-Spline and NURBS library.",
             "name": "py-geomdl"
         },
@@ -836,6 +840,10 @@
         {
             "description": "Quality Assessment Tool for Genome Assemblies",
             "name": "py-quast"
+        },
+        {
+            "description": "Create masks of geospatial regions for arbitrary grids",
+            "name": "py-regionmask"
         },
         {
             "description": "Roifile is a Python library to read, write, create, and plot ImageJ ROIs",

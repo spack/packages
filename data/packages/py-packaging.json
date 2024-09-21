@@ -482,6 +482,10 @@
             "name": "py-pygmt"
         },
         {
+            "description": "Vectorized spatial vector file format I/O using GDAL/OGR",
+            "name": "py-pyogrio"
+        },
+        {
             "description": "This package provides python language bindings for the C++ library\npreCICE.",
             "name": "py-pyprecice"
         },
@@ -536,6 +540,10 @@
         {
             "description": "RADICAL Ensemble Toolkit is used for developing and executing large-\nscale ensemble-based workflows.",
             "name": "py-radical-entk"
+        },
+        {
+            "description": "Create masks of geospatial regions for arbitrary grids",
+            "name": "py-regionmask"
         },
         {
             "description": "rasterio xarray extension.",

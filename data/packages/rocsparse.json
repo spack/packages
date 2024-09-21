@@ -96,7 +96,7 @@
     ],
     "description": "rocSPARSE exposes a common interface that provides Basic Linear Algebra\nSubroutines for sparse computation implemented on top of AMD's Radeon\nOpen eCosystem Platform ROCm runtime and toolchains. rocSPARSE is\ncreated using the HIP programming language and optimized for AMD's\nlatest discrete GPUs.\n",
     "homepage": "https://github.com/ROCm/rocSPARSE",
-    "latest_version": "6.1.2",
+    "latest_version": "6.2.0",
     "maintainers": [
         "cgmb",
         "renjithravindrankannath",
@@ -307,6 +307,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.2.0",
+            "sha256": "d07357d180423cedbabc849983a2d4d79b0e9f4c9b5e07d4993043e646fe6df9"
+        },
         {
             "name": "6.1.2",
             "sha256": "e8989c28085275e7c044b19fd2bc86d8493ce6a1b8545126f787722c535fe6eb"

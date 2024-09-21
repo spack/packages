@@ -22,6 +22,10 @@
     ],
     "dependent_to": [
         {
+            "description": "The NOAA bufr-query Library can be used to read NCEP and WMO formated\nBUFR files using a simple interface that does not require the user to\nknow the details of the BUFR format. Detailed documentation for the BUFR\nLibrary can be found at https://bufr-\nquery.readthedocs.io/en/latest/index.html",
+            "name": "bufr-query"
+        },
+        {
             "description": "The Community Radiative Transfer Model (CRTM) package. The CRTM is\ncomposed of four important modules for gaseous transmittance, surface\nemission and reflection, cloud and aerosol absorption and scattering,\nand a solver for a radiative transfer.",
             "name": "crtm"
         },

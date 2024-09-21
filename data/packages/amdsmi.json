@@ -36,10 +36,15 @@
             "name": "python"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "ROCm Data Center Tool",
+            "name": "rdc"
+        }
+    ],
     "description": "The AMD System Management Interface Library, or AMD SMI library, is a C\nlibrary for Linux that provides a user space interface for applications\nto monitor and control AMD device.\n",
     "homepage": "https://github.com/ROCm/amdsmi",
-    "latest_version": "6.1.2",
+    "latest_version": "6.2.0",
     "maintainers": [
         "renjithravindrankannath",
         "srekolam"
@@ -70,6 +75,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.2.0",
+            "sha256": "49e4b15af62bf9800c02a24c75c6cd99dc8b146d69cc7f00ecbbcd60f6106315"
+        },
         {
             "name": "6.1.2",
             "sha256": "4583ea9bc71d55e987db4a42f9b3b730def22892953d30bca64ca29ac844e058"

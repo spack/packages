@@ -42,6 +42,10 @@
             "name": "py-earth2mip"
         },
         {
+            "description": "Framework for studying fluid dynamics.",
+            "name": "py-fluiddyn"
+        },
+        {
             "description": "N-D labeled arrays and datasets in Python",
             "name": "py-xarray"
         }

@@ -373,11 +373,6 @@
             "spec": "+cuda ^cuda@:9~allow-unsupported-compilers arch=None-None-ppc64le:"
         },
         {
-            "description": "aluminum: CUDA RMA support requires CUDA",
-            "name": "~cuda",
-            "spec": "+cuda_rma"
-        },
-        {
             "description": "aluminum: CUDA and ROCm support are mutually exclusive",
             "name": "+cuda",
             "spec": "+rocm"

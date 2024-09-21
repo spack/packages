@@ -379,6 +379,11 @@
         },
         {
             "description": null,
+            "name": "^boost@1.85.0",
+            "spec": ""
+        },
+        {
+            "description": null,
             "name": "%gcc@:9",
             "spec": "cxxstd=20"
         }
@@ -516,7 +521,7 @@
     "dependent_to": [],
     "description": " A Common Tracking Software (Acts) This project contains an experiment-\nindependent set of track reconstruction tools. The main philosophy is to\nprovide high-level track reconstruction modules that can be used for any\ntracking detector. The description of the tracking detector's geometry\nis optimized for efficient navigation and quick extrapolation of tracks.\nConverters for several common geometry description languages exist.\nHaving a highly performant, yet largely customizable implementation of\ntrack reconstruction algorithms was a primary objective for the design\nof this toolset. Additionally, the applicability to real-life HEP\nexperiments plays major role in the development process. Apart from\nalgorithmic code, this project also provides an event data model for the\ndescription of track parameters and measurements. Key features of this\nproject include: tracking geometry description which can be constructed\nfrom TGeo, DD4Hep, or GDML input, simple and efficient event data model,\nperformant and highly flexible algorithms for track propagation and\nfitting, basic seed finding algorithms.\n",
     "homepage": "https://acts.web.cern.ch/ACTS/",
-    "latest_version": "36.2.0",
+    "latest_version": "36.3.0",
     "maintainers": [
         "stephenswat",
         "wdconinc"
@@ -571,7 +576,7 @@
             "name": "cuda_arch"
         },
         {
-            "default": "20",
+            "default": "17",
             "description": "Use the specified C++ standard when building.",
             "name": "cxxstd"
         },
@@ -587,7 +592,7 @@
         },
         {
             "default": false,
-            "description": "Build the EDM4hep examples",
+            "description": "Build EDM4hep plugin",
             "name": "edm4hep"
         },
         {
@@ -735,6 +740,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "commit": "3b875cebabdd10462e224279558429f49ed75945",
+            "name": "36.3.0"
         },
         {
             "commit": "e2fb53da911dc481969e56d635898a46b8d78df9",

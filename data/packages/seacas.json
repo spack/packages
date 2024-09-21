@@ -57,6 +57,10 @@
             "name": "hdf5"
         },
         {
+            "description": "Catalyst is an API specification developed for simulations (and other\nscientific data producers) to analyze and visualize data in situ.",
+            "name": "libcatalyst"
+        },
+        {
             "description": "libX11 - Core X11 protocol client library.",
             "name": "libx11"
         },
@@ -176,6 +180,11 @@
             "default": true,
             "description": "Build all \"legacy\" SEACAS applications. This includes a debatable list of \"legacy\" applications: algebra, blot, exomatlab, exotxt, fastq, gen3d, genshell, gjoin, mapvar, mapvar-kd, numbers, txtexo, nemesis",
             "name": "legacy"
+        },
+        {
+            "default": false,
+            "description": "Enable libcatalyst tpl (catalyst api 2); Kitware insitu library",
+            "name": "libcatalyst"
         },
         {
             "default": true,

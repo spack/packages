@@ -61,6 +61,10 @@
             "name": "ffmpeg"
         },
         {
+            "description": "FreeXL is an open source library to extract valid data from within an\nExcel (.xls) spreadsheet.",
+            "name": "freexl"
+        },
+        {
             "description": "FSL is a comprehensive library of analysis tools for FMRI, MRI and DTI\nbrain imaging data.",
             "name": "fsl"
         },

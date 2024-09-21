@@ -28,10 +28,6 @@
     ],
     "dependent_to": [
         {
-            "description": "3proxy - tiny free proxy server",
-            "name": "3proxy"
-        },
-        {
             "description": "Commands for Manipulating POSIX Access Control Lists.",
             "name": "acl"
         },

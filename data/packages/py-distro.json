@@ -54,6 +54,10 @@
             "name": "py-dvc"
         },
         {
+            "description": "Framework for studying fluid dynamics.",
+            "name": "py-fluiddyn"
+        },
+        {
             "description": "Library for retrieving information about ROS packages and stacks.",
             "name": "py-rospkg"
         },

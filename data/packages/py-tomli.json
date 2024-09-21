@@ -122,6 +122,10 @@
             "name": "py-poetry"
         },
         {
+            "description": "Documentation generator for C++",
+            "name": "py-poxy"
+        },
+        {
             "description": "Python docstring style checker.",
             "name": "py-pydocstyle"
         },

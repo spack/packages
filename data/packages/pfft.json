@@ -40,6 +40,10 @@
             "name": "pnfft"
         },
         {
+            "description": "Fluidfft MPI plugin using pfft.",
+            "name": "py-fluidfft-pfft"
+        },
+        {
             "description": "ScaFaCoS is a library of scalable fast coulomb solvers.",
             "name": "scafacos"
         }

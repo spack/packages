@@ -44,6 +44,10 @@
         {
             "description": "ParaView is an open-source, multi-platform data analysis and\nvisualization application. This package includes the Catalyst in-situ\nlibrary for versions 5.7 and greater, otherwise use the catalyst\npackage.",
             "name": "paraview"
+        },
+        {
+            "description": "The SEACAS Project contains the Exodus and IOSS I/O libraries and a\ncollection of applications which create, query, modify, or translate\nExodus databases. Exodus is a finite element mesh and results database\nfile format. Default is to build the Exodus and IOSS libraries and the\nio_shell, io_info, io_modify, struc_to_unstruc apps.",
+            "name": "seacas"
         }
     ],
     "description": "Catalyst is an API specification developed for simulations (and other\nscientific data producers) to analyze and visualize data in situ.\n",

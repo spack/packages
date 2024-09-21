@@ -48,10 +48,6 @@
     ],
     "dependent_to": [
         {
-            "description": "3proxy - tiny free proxy server",
-            "name": "3proxy"
-        },
-        {
             "description": "ABySS is a de novo, parallel, paired-end sequence assembler that is\ndesigned for short reads. The single-processor version is useful for\nassembling genomes up to 100 Mbases in size.",
             "name": "abyss"
         },
@@ -588,10 +584,6 @@
             "name": "grackle"
         },
         {
-            "description": "GraphicsMagick is the swiss army knife of image processing. Provides a\nrobust and efficient collection of tools and libraries which support\nreading, writing, and manipulating an image in over 88 major formats\nincluding important formats like DPX, GIF, JPEG, JPEG-2000, PNG, PDF,\nPNM, and TIFF.",
-            "name": "graphicsmagick"
-        },
-        {
             "description": "Graph Visualization Software",
             "name": "graphviz"
         },
@@ -714,10 +706,6 @@
         {
             "description": "IMA/EVM control utilities.",
             "name": "ima-evm-utils"
-        },
-        {
-            "description": "ImageMagick is a software suite to create, edit, compose, or convert\nbitmap images.",
-            "name": "imagemagick"
         },
         {
             "description": "The IOR software is used for benchmarking parallel file systems using\nPOSIX, MPI-IO, or HDF5 interfaces.",
@@ -994,10 +982,6 @@
         {
             "description": "The paper library and accompanying files are intended to provide a\nsimple way for applications to take actions based on a system- or user-\nspecified paper size.",
             "name": "libpaper"
-        },
-        {
-            "description": "Generic PCI access library.",
-            "name": "libpciaccess"
         },
         {
             "description": "Library for Apple Binary- and XML-Property Lists.",
@@ -1440,10 +1424,6 @@
             "name": "qucs"
         },
         {
-            "description": "The Racket programming language.",
-            "name": "racket"
-        },
-        {
             "description": "Rasdaemon is a RAS (Reliability, Availability and Serviceability)\nlogging tool. It records memory errors, using the EDAC tracing events.\nEDAC is a Linux kernel subsystem with handles detection of ECC errors\nfrom memory controllers for most chipsets on i386 and x86_64\narchitectures. EDAC drivers for other architectures like arm also\nexists.",
             "name": "rasdaemon"
         },
@@ -1490,10 +1470,6 @@
         {
             "description": "Screen is a full-screen window manager that multiplexes a physical\nterminal between several processes, typically interactive shells.",
             "name": "screen"
-        },
-        {
-            "description": "scrot (SCReenshOT) is a simple command line screen capture utility that\nuses imlib2 to grab and save images. Multiple image formats are\nsupported through imlib2's dynamic saver modules.",
-            "name": "scrot"
         },
         {
             "description": "SGA is a de novo genome assembler based on the concept of string graphs.\nThe major goal of SGA is to be very memory efficient, which is achieved\nby using a compressed representation of DNA sequence reads.",
@@ -1664,10 +1640,6 @@
             "name": "universal-ctags"
         },
         {
-            "description": "ODBC is an open specification for providing application developers with\na predictable API with which to access Data Sources. Data Sources\ninclude SQL Servers and any Data Source with an ODBC Driver.",
-            "name": "unixodbc"
-        },
-        {
             "description": "This is a collection of USB tools for use on Linux and BSD systems to\nquery what type of USB devices are connected to the system.",
             "name": "usbutils"
         },
@@ -1738,10 +1710,6 @@
         {
             "description": "Openwsman command line client",
             "name": "wsmancli"
-        },
-        {
-            "description": "The Xbae widget set consists of the well known XbaeMatrix widget, and\nCaption and XbaeInput widgets.",
-            "name": "xbae"
         },
         {
             "description": "XCB util-xrm module provides the 'xrm' library, i.e. utility functions\nfor the X resource manager.",

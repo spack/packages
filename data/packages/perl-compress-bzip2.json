@@ -12,7 +12,12 @@
             "name": "perl"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "File parsing and writing code for Ensembl.",
+            "name": "perl-bio-ensembl-io"
+        }
+    ],
     "description": "Interface to Bzip2 compression library\n",
     "homepage": "https://metacpan.org/pod/Compress::Bzip2",
     "latest_version": "2.28",

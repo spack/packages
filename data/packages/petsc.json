@@ -644,6 +644,10 @@
             "name": "rocblas"
         },
         {
+            "description": "rocm-core is a utility which can be used to get ROCm release version. It\nalso provides the Lmod modules files for the ROCm release.\ngetROCmVersion function provides the ROCm version.",
+            "name": "rocm-core"
+        },
+        {
             "description": "Radeon Open Compute Parallel Primitives Library",
             "name": "rocprim"
         },
@@ -871,6 +875,24 @@
             "sha256": "ba327f8b2a0fa45209dfb7a4278f3e9a323965b5a668be204c1c77c17a963a7f",
             "url": "https://gitlab.com/petsc/petsc/-/commit/ef7140cce45367033b48bbd2624dfd2b6aa4b997.diff",
             "version": "@3.20.0+rocm",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.petsc",
+            "reverse": false,
+            "sha256": "2904ea20c71e2f21b8475513c3e5de7465e328e2485ae706b003aa79314e3e7c",
+            "url": "https://gitlab.com/petsc/petsc/-/commit/20d5ecbf88175ced320006c488dcefa2efb1e67f.diff",
+            "version": "@3.21+rocm ^hip@6:",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.petsc",
+            "reverse": false,
+            "sha256": "89cf2c9a01d4a3233c889dd98496a29bf43db1bc69195892f9e5405c537b87e3",
+            "url": "https://gitlab.com/petsc/petsc/-/commit/bdb83d9f3e3c55b3bd4c8732bfe2066c23f10f61.diff",
+            "version": "@3.21+rocm ^hip@6:",
             "working_dir": "."
         },
         {

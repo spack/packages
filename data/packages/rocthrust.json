@@ -84,7 +84,7 @@
     ],
     "description": "Thrust is a parallel algorithm library. This library has been ported to\nHIP/ROCm platform, which uses the rocPRIM library. The HIP ported\nlibrary works on HIP/ROCm platforms\n",
     "homepage": "https://github.com/ROCm/rocThrust",
-    "latest_version": "6.1.2",
+    "latest_version": "6.2.0",
     "maintainers": [
         "cgmb",
         "renjithravindrankannath",
@@ -121,6 +121,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.2.0",
+            "sha256": "8037aadf7ec3d548aa17944e0a47465d608dc6eb7347173a6d76cbf5342e4ab6"
+        },
         {
             "name": "6.1.2",
             "sha256": "149ca325fb8a8527781ec2853282a73bf66f60366652c19e8583afc3f1a9c4b6"

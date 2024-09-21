@@ -149,6 +149,10 @@
             "name": "py-py-spy"
         },
         {
+            "description": "Core functionality for Pydantic validation and serialization",
+            "name": "py-pydantic-core"
+        },
+        {
             "description": "A better TOML library for python implemented in rust.",
             "name": "py-rtoml"
         },

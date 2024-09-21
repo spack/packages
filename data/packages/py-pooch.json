@@ -66,6 +66,10 @@
             "name": "py-pyvista"
         },
         {
+            "description": "Create masks of geospatial regions for arbitrary grids",
+            "name": "py-regionmask"
+        },
+        {
             "description": "Image processing algorithms for SciPy, including IO, morphology,\nfiltering, warping, color manipulation, object detection, etc.",
             "name": "py-scikit-image"
         },

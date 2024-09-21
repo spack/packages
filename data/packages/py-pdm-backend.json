@@ -30,6 +30,10 @@
             "name": "py-docopt-ng"
         },
         {
+            "description": "Framework for studying fluid dynamics.",
+            "name": "py-fluiddyn"
+        },
+        {
             "description": "Make your Python code fly at transonic speeds!",
             "name": "py-transonic"
         }

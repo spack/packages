@@ -3214,6 +3214,38 @@
             "name": "py-flufl-lock"
         },
         {
+            "description": "Framework for studying fluid dynamics.",
+            "name": "py-fluiddyn"
+        },
+        {
+            "description": "Efficient and easy Fast Fourier Transform (FFT) for Python.",
+            "name": "py-fluidfft"
+        },
+        {
+            "description": "Fluidfft plugin dependencies",
+            "name": "py-fluidfft-builder"
+        },
+        {
+            "description": "Fluidfft plugin using fftw.",
+            "name": "py-fluidfft-fftw"
+        },
+        {
+            "description": "Fluidfft plugin using fftwmpi.",
+            "name": "py-fluidfft-fftwmpi"
+        },
+        {
+            "description": "Fluidfft MPI plugin using fftw.",
+            "name": "py-fluidfft-mpi-with-fftw"
+        },
+        {
+            "description": "Fluidfft MPI plugin using p3dfft.",
+            "name": "py-fluidfft-p3dfft"
+        },
+        {
+            "description": "Fluidfft MPI plugin using pfft.",
+            "name": "py-fluidfft-pfft"
+        },
+        {
             "description": "Fast and accurate de novo assembler for single molecule sequencing reads",
             "name": "py-flye"
         },
@@ -6542,6 +6574,10 @@
             "name": "py-pox"
         },
         {
+            "description": "Documentation generator for C++",
+            "name": "py-poxy"
+        },
+        {
             "description": "A lightweight YAML Parser for Python",
             "name": "py-poyo"
         },
@@ -6908,6 +6944,10 @@
         {
             "description": "Data validation and settings management using Python type hinting.",
             "name": "py-pydantic"
+        },
+        {
+            "description": "Core functionality for Pydantic validation and serialization",
+            "name": "py-pydantic-core"
         },
         {
             "description": "Pydantic Models for the GA4GH Task Execution Service",
@@ -7330,6 +7370,10 @@
             "name": "py-pyodbc"
         },
         {
+            "description": "Vectorized spatial vector file format I/O using GDAL/OGR",
+            "name": "py-pyogrio"
+        },
+        {
             "description": "Pyomo is a Python-based open-source software package that supports a\ndiverse set of optimization capabilities for formulating and analyzing\noptimization models.",
             "name": "py-pyomo"
         },
@@ -7352,6 +7396,10 @@
         {
             "description": "A Python Parsing Module.",
             "name": "py-pyparsing"
+        },
+        {
+            "description": "A pure-python PDF library capable of splitting, merging, cropping, and\ntransforming PDF files",
+            "name": "py-pypdf"
         },
         {
             "description": "PyPDF2 is a free and open source pure-python PDF library capable of\nsplitting, merging, cropping, and transforming the pages of PDF files.\nIt can also add custom data, viewing options, and passwords to PDF\nfiles. PyPDF2 can retrieve text and metadata from PDFs as well.",
@@ -8300,6 +8348,10 @@
         {
             "description": "Alternative regular expression module, to replace re.",
             "name": "py-regex"
+        },
+        {
+            "description": "Create masks of geospatial regions for arbitrary grids",
+            "name": "py-regionmask"
         },
         {
             "description": "Change Python (.py) files to use 4-space indents and no hard tab\ncharacters. Also trim excess spaces and tabs from ends of lines, and\nremove empty lines at the end of files. Also ensure the last line ends\nwith a newline.",

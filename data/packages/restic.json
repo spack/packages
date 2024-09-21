@@ -11,7 +11,7 @@
     "dependent_to": [],
     "description": "Fast, secure, efficient backup program.\n",
     "homepage": "https://restic.net",
-    "latest_version": "0.16.4",
+    "latest_version": "0.17.1",
     "maintainers": [
         "alecbcs"
     ],
@@ -26,6 +26,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.17.1",
+            "sha256": "cba3a5759690d11dae4b5620c44f56be17a5688e32c9856776db8a9a93d6d59a"
+        },
         {
             "name": "0.16.4",
             "sha256": "d736a57972bb7ee3398cf6b45f30e5455d51266f5305987534b45a4ef505f965"

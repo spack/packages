@@ -62,6 +62,10 @@
             "name": "py-pybids"
         },
         {
+            "description": "Vectorized spatial vector file format I/O using GDAL/OGR",
+            "name": "py-pyogrio"
+        },
+        {
             "description": "PyRevolve. Python wrapper for Revolve:\nhttps://dl.acm.org/doi/10.1145/347837.347846",
             "name": "py-pyrevolve"
         },

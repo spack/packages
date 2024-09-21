@@ -94,6 +94,10 @@
             "name": "py-py2neo"
         },
         {
+            "description": "Vectorized spatial vector file format I/O using GDAL/OGR",
+            "name": "py-pyogrio"
+        },
+        {
             "description": "Python interface to PROJ (cartographic projections and coordinate\ntransformations library).",
             "name": "py-pyproj"
         },

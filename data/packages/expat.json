@@ -68,6 +68,10 @@
             "name": "fluxbox"
         },
         {
+            "description": "FreeXL is an open source library to extract valid data from within an\nExcel (.xls) spreadsheet.",
+            "name": "freexl"
+        },
+        {
             "description": "The Frontier distributed database caching system distributes data from\ndata sources to many client systems around the world. The name comes\nfrom \"N Tier\" where N is any number and tiers are layers of locations of\ndistribution.",
             "name": "frontier-client"
         },

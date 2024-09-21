@@ -26,10 +26,6 @@
             "name": "imlib2"
         },
         {
-            "description": "libtool -- library building part of autotools.",
-            "name": "libtool"
-        },
-        {
             "description": "libXcomposite - client library for the Composite extension to the X11\nprotocol.",
             "name": "libxcomposite"
         },

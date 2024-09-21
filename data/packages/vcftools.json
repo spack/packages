@@ -36,6 +36,10 @@
             "name": "freebayes"
         },
         {
+            "description": "File parsing and writing code for Ensembl.",
+            "name": "perl-bio-ensembl-io"
+        },
+        {
             "description": "VCF-kit is a command-line based collection of utilities for performing\nanalysis on Variant Call Format (VCF) files.",
             "name": "py-vcf-kit"
         }

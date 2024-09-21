@@ -142,6 +142,10 @@
             "name": "py-openmim"
         },
         {
+            "description": "Documentation generator for C++",
+            "name": "py-poxy"
+        },
+        {
             "description": "Prettifies Python exception output to make it legible.",
             "name": "py-pretty-errors"
         },

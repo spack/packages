@@ -399,11 +399,6 @@
         },
         {
             "description": null,
-            "name": "+hypre",
-            "spec": "@:2.6.1a+hypre+int64"
-        },
-        {
-            "description": null,
             "name": "+cuda",
             "spec": "@:2.7.0"
         },

@@ -58,6 +58,10 @@
             "name": "py-poetry"
         },
         {
+            "description": "Documentation generator for C++",
+            "name": "py-poxy"
+        },
+        {
             "description": "Python Cortical mapping software for fMRI data.",
             "name": "py-pycortex"
         },

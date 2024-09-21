@@ -1340,6 +1340,10 @@
         "name": "bufr"
     },
     {
+        "description": "The NOAA bufr-query Library can be used to read NCEP and WMO formated\nBUFR files using a simple interface that does not require the user to\nknow the details of the BUFR format. Detailed documentation for the BUFR\nLibrary can be found at https://bufr-\nquery.readthedocs.io/en/latest/index.html\n",
+        "name": "bufr-query"
+    },
+    {
         "description": "Bulker: multi-container environment manager\n",
         "name": "bulker"
     },
@@ -3538,6 +3542,10 @@
     {
         "description": "Fasd (pronounced similar to \"fast\") is a command-line productivity\nbooster. Fasd offers quick access to files and directories for POSIX\nshells.\n",
         "name": "fasd"
+    },
+    {
+        "description": "Fast and exact implementation of the C++ from_chars functions for number\ntypes.\n",
+        "name": "fast-float"
     },
     {
         "description": "provides a scalable mechanism to retrieve such information of a file,\nincluding its degree of distribution or replication and consistency.\n",
@@ -8368,6 +8376,10 @@
         "name": "makedepend"
     },
     {
+        "description": "Makedepf90 is a program for automatic creation of Makefile-style\ndependency lists for Fortran source code.\n",
+        "name": "makedepf90"
+    },
+    {
         "description": "MAKER is a portable and easily configurable genome annotation pipeline.\nIt's purpose is to allow smaller eukaryotic and prokaryotic\ngenomeprojects to independently annotate their genomes and to create\ngenome databases. MAKER identifies repeats, aligns ESTs and proteins to\na genome, produces ab-initio gene predictions and automatically\nsynthesizes these data into gene annotations having evidence-based\nquality values. MAKER is also easily trainable: outputs of preliminary\nruns can be used to automatically retrain its gene prediction algorithm,\nproducing higher quality gene-models on subsequent runs. MAKER's inputs\nare minimal and its ouputs can be directly loaded into a GMOD database.\nThey can also be viewed in the Apollo genome browser; this feature of\nMAKER provides an easy means to annotate, view and edit individual\ncontigs and BACs without the overhead of a database. MAKER should prove\nespecially useful for emerging model organism projects with minimal\nbioinformatics expertise and computer resources. Note: MAKER requires\nregistration. Fill out the form at\nhttp://yandell.topaz.genetics.utah.edu/cgi-bin/maker_license.cgi to get\na download link. Spack will search your current directory for the\ndownload file. Alternatively, add this file to a mirror so that Spack\ncan find it. For instructions on how to set up a mirror, see\nhttps://spack.readthedocs.io/en/latest/mirrors.html\n",
         "name": "maker"
     },
@@ -10842,6 +10854,10 @@
     {
         "description": "Ensembl Funcgen Perl API and SQL schema.\n",
         "name": "perl-bio-ensembl-funcgen"
+    },
+    {
+        "description": "File parsing and writing code for Ensembl.\n",
+        "name": "perl-bio-ensembl-io"
     },
     {
         "description": "BioPerl low-level API for retrieving and storing data from NCBI eUtils\n",
@@ -16360,6 +16376,38 @@
         "name": "py-flufl-lock"
     },
     {
+        "description": "Framework for studying fluid dynamics.\n",
+        "name": "py-fluiddyn"
+    },
+    {
+        "description": "Efficient and easy Fast Fourier Transform (FFT) for Python.\n",
+        "name": "py-fluidfft"
+    },
+    {
+        "description": "Fluidfft plugin dependencies\n",
+        "name": "py-fluidfft-builder"
+    },
+    {
+        "description": "Fluidfft plugin using fftw.\n",
+        "name": "py-fluidfft-fftw"
+    },
+    {
+        "description": "Fluidfft plugin using fftwmpi.\n",
+        "name": "py-fluidfft-fftwmpi"
+    },
+    {
+        "description": "Fluidfft MPI plugin using fftw.\n",
+        "name": "py-fluidfft-mpi-with-fftw"
+    },
+    {
+        "description": "Fluidfft MPI plugin using p3dfft.\n",
+        "name": "py-fluidfft-p3dfft"
+    },
+    {
+        "description": "Fluidfft MPI plugin using pfft.\n",
+        "name": "py-fluidfft-pfft"
+    },
+    {
         "description": "Fast and accurate de novo assembler for single molecule sequencing reads\n",
         "name": "py-flye"
     },
@@ -19712,6 +19760,10 @@
         "name": "py-pox"
     },
     {
+        "description": "Documentation generator for C++\n",
+        "name": "py-poxy"
+    },
+    {
         "description": "A lightweight YAML Parser for Python\n",
         "name": "py-poyo"
     },
@@ -20082,6 +20134,10 @@
     {
         "description": "Data validation and settings management using Python type hinting.\n",
         "name": "py-pydantic"
+    },
+    {
+        "description": "Core functionality for Pydantic validation and serialization\n",
+        "name": "py-pydantic-core"
     },
     {
         "description": "Pydantic Models for the GA4GH Task Execution Service\n",
@@ -20512,6 +20568,10 @@
         "name": "py-pyodbc"
     },
     {
+        "description": "Vectorized spatial vector file format I/O using GDAL/OGR\n",
+        "name": "py-pyogrio"
+    },
+    {
         "description": "Pyomo is a Python-based open-source software package that supports a\ndiverse set of optimization capabilities for formulating and analyzing\noptimization models.\n",
         "name": "py-pyomo"
     },
@@ -20534,6 +20594,10 @@
     {
         "description": "A Python Parsing Module.\n",
         "name": "py-pyparsing"
+    },
+    {
+        "description": "A pure-python PDF library capable of splitting, merging, cropping, and\ntransforming PDF files\n",
+        "name": "py-pypdf"
     },
     {
         "description": "PyPDF2 is a free and open source pure-python PDF library capable of\nsplitting, merging, cropping, and transforming the pages of PDF files.\nIt can also add custom data, viewing options, and passwords to PDF\nfiles. PyPDF2 can retrieve text and metadata from PDFs as well.\n",
@@ -21494,6 +21558,10 @@
     {
         "description": "Alternative regular expression module, to replace re.\n",
         "name": "py-regex"
+    },
+    {
+        "description": "Create masks of geospatial regions for arbitrary grids\n",
+        "name": "py-regionmask"
     },
     {
         "description": "Change Python (.py) files to use 4-space indents and no hard tab\ncharacters. Also trim excess spaces and tabs from ends of lines, and\nremove empty lines at the end of files. Also ensure the last line ends\nwith a newline.\n",
@@ -29112,6 +29180,10 @@
         "name": "rocprofiler-dev"
     },
     {
+        "description": "The rocprofiler-register library is a helper library that coordinates\nthe modification of the intercept API table(s) of the HSA/HIP/ROCTx\nruntime libraries by the ROCprofiler (v2) library\n",
+        "name": "rocprofiler-register"
+    },
+    {
         "description": "The rocRAND project provides functions that generate pseudo-random and\nquasi-random numbers.\n",
         "name": "rocrand"
     },
@@ -29510,6 +29582,10 @@
     {
         "description": "A C++ implementation of the SciTokens library with a C library\ninterface. SciTokens provide a token format for distributed\nauthorization.\n",
         "name": "scitokens-cpp"
+    },
+    {
+        "description": "scanf for modern C++\n",
+        "name": "scnlib"
     },
     {
         "description": "SCons is a software construction tool\n",

@@ -84,6 +84,10 @@
             "name": "rocmlir"
         },
         {
+            "description": "The rocRAND project provides functions that generate pseudo-random and\nquasi-random numbers.",
+            "name": "rocrand"
+        },
+        {
             "description": "ROC-tracer library: Runtimes Generic Callback/Activity APIs. The goal of\nthe implementation is to provide a generic independent from specific\nruntime profiler to trace API and asyncronous activity.",
             "name": "roctracer-dev"
         },
@@ -124,7 +128,7 @@
     ],
     "description": "AMD's library for high performance machine learning primitives.\n",
     "homepage": "https://github.com/ROCm/MIOpen",
-    "latest_version": "6.1.2",
+    "latest_version": "6.2.0",
     "maintainers": [
         "renjithravindrankannath",
         "srekolam"
@@ -197,6 +201,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.2.0",
+            "sha256": "f4473f724362732019d505a0e01c17b060b542350859cb1e4bd4e3898b609276"
+        },
         {
             "name": "6.1.2",
             "sha256": "c8ff4af72264b2049bfe2685d581ea0f3e43319db7bd00dc347159bcf2731614"

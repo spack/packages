@@ -474,7 +474,7 @@
         },
         {
             "default": false,
-            "description": "Enables UPC++ support for the CUDA memory kind on NVIDIA GPUs.\nNOTE: Requires CUDA Driver library be present on the build system",
+            "description": "Build with CUDA",
             "name": "cuda"
         },
         {
@@ -499,7 +499,7 @@
         },
         {
             "default": false,
-            "description": "Enables UPC++ support for the ROCm/HIP memory kind on AMD GPUs",
+            "description": "Enable ROCm support",
             "name": "rocm"
         }
     ],

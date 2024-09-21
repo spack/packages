@@ -2865,6 +2865,10 @@
             "name": "makedepend"
         },
         {
+            "description": "Makedepf90 is a program for automatic creation of Makefile-style\ndependency lists for Fortran source code.",
+            "name": "makedepf90"
+        },
+        {
             "description": "MALOC (Minimal Abstraction Layer for Object-oriented C) is a small,\nportable, abstract C environment library for object-oriented C\nprogramming. MALOC is used as the foundation layer for a number of\nscientific applications, including MC, SG, and APBS.",
             "name": "maloc"
         },

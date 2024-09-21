@@ -352,6 +352,10 @@
         {
             "description": "virtualenv is a tool to create isolated Python environments.",
             "name": "py-virtualenv"
+        },
+        {
+            "description": "XGBoost is an optimized distributed gradient boosting library designed\nto be highly efficient, flexible and portable.",
+            "name": "py-xgboost"
         }
     ],
     "description": "Modern, extensible Python build backend.\n",

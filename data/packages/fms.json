@@ -59,7 +59,26 @@
         "rem1776"
     ],
     "name": "fms",
-    "patches": [],
+    "patches": [
+        {
+            "level": 1,
+            "owner": "builtin.fms",
+            "reverse": false,
+            "sha256": "07d5b68838bba61ee547bd4cd7c12d81228c91a80a966b8693694fa236d0ac30",
+            "url": "https://github.com/NOAA-GFDL/FMS/commit/c9bba516ba1115d4a7660fba92f9d67cf3fd32ad.patch?full_index=1",
+            "version": "@2023.03",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.fms",
+            "reverse": false,
+            "sha256": "2b12a6c35f357c3dddcfa5282576e56ab0e8e6c1ad1dab92a2c85ce3dfb815d4",
+            "url": "https://github.com/NOAA-GFDL/fms/pull/1559.patch?full_index=1",
+            "version": "@2024.02",
+            "working_dir": "."
+        }
+    ],
     "resources": [],
     "variants": [
         {
@@ -126,6 +145,11 @@
             "default": true,
             "description": "quad precision reals",
             "name": "quad_precision"
+        },
+        {
+            "default": false,
+            "description": "Build shared libraries",
+            "name": "shared"
         },
         {
             "default": false,

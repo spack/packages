@@ -15,7 +15,7 @@
     "dependent_to": [],
     "description": " Kubectl is a command-line interface for Kubernetes clusters.\n",
     "homepage": "https://kubernetes.io",
-    "latest_version": "1.27.1",
+    "latest_version": "1.31.0",
     "maintainers": [
         "alecbcs"
     ],
@@ -30,6 +30,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.31.0",
+            "sha256": "6679eb90815cc4c3bef6c1b93f7a8451bf3f40d003f45ab57fdc9f8c4e8d4b4f"
+        },
         {
             "name": "1.27.1",
             "sha256": "3a3f7c6b8cf1d9f03aa67ba2f04669772b1205b89826859f1636062d5f8bec3f"

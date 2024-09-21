@@ -399,11 +399,6 @@
         },
         {
             "description": null,
-            "name": "+latte",
-            "spec": "@:20170921"
-        },
-        {
-            "description": null,
             "name": "+body",
             "spec": "@:20180628+poems"
         },

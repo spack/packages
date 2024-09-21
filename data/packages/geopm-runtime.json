@@ -50,6 +50,10 @@
     ],
     "dependencies": [
         {
+            "description": "Autoconf -- system configuration part of autotools",
+            "name": "autoconf"
+        },
+        {
             "description": "Automake -- make file builder part of autotools",
             "name": "automake"
         },

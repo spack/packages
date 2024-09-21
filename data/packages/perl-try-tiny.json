@@ -14,6 +14,10 @@
             "name": "perl-apache-logformat-compiler"
         },
         {
+            "description": "File parsing and writing code for Ensembl.",
+            "name": "perl-bio-ensembl-io"
+        },
+        {
             "description": "The Catalyst Framework Runtime",
             "name": "perl-catalyst-runtime"
         },

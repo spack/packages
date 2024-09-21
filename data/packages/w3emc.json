@@ -6,11 +6,6 @@
             "description": "w3emc: Shared library cannot be built with unknown dependencies",
             "name": "+extradeps+shared",
             "spec": ""
-        },
-        {
-            "description": "w3emc: Shared library requires PIC",
-            "name": "~pic+shared",
-            "spec": ""
         }
     ],
     "dependencies": [

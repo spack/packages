@@ -639,7 +639,7 @@
             "name": "cuda_arch"
         },
         {
-            "default": "1,2,3",
+            "default": "3",
             "description": "Dimensionality",
             "name": "dimensions"
         },

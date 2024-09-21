@@ -84,7 +84,7 @@
     ],
     "description": "Manipulate JSON-like data with NumPy-like idioms.\n",
     "homepage": "https://awkward-array.org",
-    "latest_version": "2.1.1",
+    "latest_version": "2.6.6",
     "maintainers": [
         "vvolkl"
     ],
@@ -121,6 +121,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "2.6.6",
+            "sha256": "6eeb426ca41b51fe3c36fbe767b90259979b08c14e3562497a71195a447c8b3c"
         },
         {
             "name": "2.1.1",

@@ -54,6 +54,10 @@
             "name": "py-httpcore"
         },
         {
+            "description": "HTTPX is a fully featured HTTP client for Python 3, which provides sync\nand async APIs, and support for both HTTP/1.1 and HTTP/2.",
+            "name": "py-httpx"
+        },
+        {
             "description": "The Jupyter Server provides the backend (i.e. the core services, APIs,\nand REST endpoints) for Jupyter web applications like Jupyter notebook,\nJupyterLab, and Voila.",
             "name": "py-jupyter-server"
         },

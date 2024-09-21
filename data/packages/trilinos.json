@@ -634,11 +634,6 @@
         },
         {
             "description": null,
-            "name": "~uvm",
-            "spec": "@:13.1+cuda"
-        },
-        {
-            "description": null,
             "name": "+cuda+stokhos",
             "spec": "^cuda@11.6:"
         },
@@ -1581,7 +1576,7 @@
         },
         {
             "default": false,
-            "description": "Build PyTrilinos wrappers",
+            "description": "Build PyTrilinos2 wrappers",
             "name": "python"
         },
         {

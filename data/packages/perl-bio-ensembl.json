@@ -44,6 +44,10 @@
         {
             "description": "Ensembl Funcgen Perl API and SQL schema.",
             "name": "perl-bio-ensembl-funcgen"
+        },
+        {
+            "description": "File parsing and writing code for Ensembl.",
+            "name": "perl-bio-ensembl-io"
         }
     ],
     "description": "The Ensembl Core Perl API and SQL schema\n",

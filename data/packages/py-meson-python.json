@@ -70,6 +70,30 @@
             "name": "py-contourpy"
         },
         {
+            "description": "Efficient and easy Fast Fourier Transform (FFT) for Python.",
+            "name": "py-fluidfft"
+        },
+        {
+            "description": "Fluidfft plugin using fftw.",
+            "name": "py-fluidfft-fftw"
+        },
+        {
+            "description": "Fluidfft plugin using fftwmpi.",
+            "name": "py-fluidfft-fftwmpi"
+        },
+        {
+            "description": "Fluidfft MPI plugin using fftw.",
+            "name": "py-fluidfft-mpi-with-fftw"
+        },
+        {
+            "description": "Fluidfft MPI plugin using p3dfft.",
+            "name": "py-fluidfft-p3dfft"
+        },
+        {
+            "description": "Fluidfft MPI plugin using pfft.",
+            "name": "py-fluidfft-pfft"
+        },
+        {
             "description": "Matplotlib is a comprehensive library for creating static, animated, and\ninteractive visualizations in Python.",
             "name": "py-matplotlib"
         },

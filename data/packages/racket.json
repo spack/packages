@@ -18,10 +18,6 @@
             "name": "libffi"
         },
         {
-            "description": "libtool -- library building part of autotools.",
-            "name": "libtool"
-        },
-        {
             "description": "This is patchutils, a collection of tools that operate on patch files.",
             "name": "patchutils"
         }

@@ -74,6 +74,10 @@
             "name": "mivisionx"
         },
         {
+            "description": "PETSc is a suite of data structures and routines for the scalable\n(parallel) solution of scientific applications modeled by partial\ndifferential equations.",
+            "name": "petsc"
+        },
+        {
             "description": "TensorFlow is an open source machine learning framework for everyone.",
             "name": "py-tensorflow"
         },
@@ -140,7 +144,7 @@
     ],
     "description": "rocm-core is a utility which can be used to get ROCm release version. It\nalso provides the Lmod modules files for the ROCm release.\ngetROCmVersion function provides the ROCm version.\n",
     "homepage": "https://github.com/ROCm/rocm-core",
-    "latest_version": "6.1.2",
+    "latest_version": "6.2.0",
     "maintainers": [
         "renjithravindrankannath",
         "srekolam"
@@ -176,6 +180,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.2.0",
+            "sha256": "9bafaf801721e98b398624c8d2fa78618d297d6800f96113e26c275889205526"
+        },
         {
             "name": "6.1.2",
             "sha256": "ce9cbe12977f2058564ecb4cdcef4fd0d7880f6eff8591630f542441092f4fa3"

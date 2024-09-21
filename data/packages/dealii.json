@@ -483,16 +483,6 @@
             "spec": "@:9.2"
         },
         {
-            "description": "dealii: The interface to taskflow is supported from version 9.6.0 onwards. Please explicitly disable this variant via ~taskflow",
-            "name": "+taskflow",
-            "spec": "@:9.5"
-        },
-        {
-            "description": "dealii: The interface to vtk is supported from version 9.6.0 onwards. Please explicitly disable this variant via ~vtk",
-            "name": "+vtk",
-            "spec": "@:9.5"
-        },
-        {
             "description": "dealii: Symbol clash between the ADOL-C library and Trilinos SEACAS Chaco.",
             "name": "+adol-c",
             "spec": "^trilinos+chaco"
@@ -854,7 +844,7 @@
             "name": "cuda_arch"
         },
         {
-            "default": "17",
+            "default": "default",
             "description": "Compile using the specified C++ standard",
             "name": "cxxstd"
         },

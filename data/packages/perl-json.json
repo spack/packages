@@ -22,6 +22,10 @@
             "name": "mlst"
         },
         {
+            "description": "File parsing and writing code for Ensembl.",
+            "name": "perl-bio-ensembl-io"
+        },
+        {
             "description": "polymake is open source software for research in polyhedral geometry",
             "name": "polymake"
         },

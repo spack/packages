@@ -544,6 +544,11 @@
         },
         {
             "default": true,
+            "description": "Enable amrex package build",
+            "name": "amrex"
+        },
+        {
+            "default": true,
             "description": "Enable ArborX build",
             "name": "arborx"
         },

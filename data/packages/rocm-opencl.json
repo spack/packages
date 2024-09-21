@@ -56,6 +56,10 @@
             "name": "numactl"
         },
         {
+            "description": "Khronos official OpenCL ICD Loader",
+            "name": "opencl-icd-loader"
+        },
+        {
             "description": "rocm-core is a utility which can be used to get ROCm release version. It\nalso provides the Lmod modules files for the ROCm release.\ngetROCmVersion function provides the ROCm version.",
             "name": "rocm-core"
         },
@@ -92,7 +96,7 @@
     ],
     "description": "OpenCL: Open Computing Language on ROCclr\n",
     "homepage": "https://github.com/ROCm/ROCm-OpenCL-Runtime",
-    "latest_version": "6.1.2",
+    "latest_version": "6.2.0",
     "maintainers": [
         "renjithravindrankannath",
         "srekolam"
@@ -208,6 +212,10 @@
         {
             "branch": "main",
             "name": "master"
+        },
+        {
+            "name": "6.2.0",
+            "sha256": "620e4c6a7f05651cc7a170bc4700fef8cae002420307a667c638b981d00b25e8"
         },
         {
             "name": "6.1.2",

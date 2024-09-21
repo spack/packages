@@ -1175,6 +1175,10 @@
         {
             "default": false,
             "package": "h5bench"
+        },
+        {
+            "default": true,
+            "package": "xsdk"
         }
     ],
     "analysis": [
@@ -4245,6 +4249,10 @@
             "package": "bufr"
         },
         {
+            "default": "cmake",
+            "package": "bufr-query"
+        },
+        {
             "default": "python_pip",
             "package": "bulker"
         },
@@ -6427,6 +6435,10 @@
         {
             "default": "makefile",
             "package": "fasd"
+        },
+        {
+            "default": "cmake",
+            "package": "fast-float"
         },
         {
             "default": "autotools",
@@ -11185,6 +11197,10 @@
             "package": "makedepend"
         },
         {
+            "default": "autotools",
+            "package": "makedepf90"
+        },
+        {
             "default": "generic",
             "package": "maker"
         },
@@ -12281,7 +12297,7 @@
             "package": "neko"
         },
         {
-            "default": "generic",
+            "default": "cmake",
             "package": "nekrs"
         },
         {
@@ -13627,6 +13643,10 @@
         {
             "default": "generic",
             "package": "perl-bio-ensembl-funcgen"
+        },
+        {
+            "default": "generic",
+            "package": "perl-bio-ensembl-io"
         },
         {
             "default": "perl",
@@ -19138,6 +19158,38 @@
         },
         {
             "default": "python_pip",
+            "package": "py-fluiddyn"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-fluidfft"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-fluidfft-builder"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-fluidfft-fftw"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-fluidfft-fftwmpi"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-fluidfft-mpi-with-fftw"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-fluidfft-p3dfft"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-fluidfft-pfft"
+        },
+        {
+            "default": "python_pip",
             "package": "py-flye"
         },
         {
@@ -22490,6 +22542,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-poxy"
+        },
+        {
+            "default": "python_pip",
             "package": "py-poyo"
         },
         {
@@ -22859,6 +22915,10 @@
         {
             "default": "python_pip",
             "package": "py-pydantic"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-pydantic-core"
         },
         {
             "default": "python_pip",
@@ -23290,6 +23350,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-pyogrio"
+        },
+        {
+            "default": "python_pip",
             "package": "py-pyomo"
         },
         {
@@ -23311,6 +23375,10 @@
         {
             "default": "python_pip",
             "package": "py-pyparsing"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-pypdf"
         },
         {
             "default": "python_pip",
@@ -24271,6 +24339,10 @@
         {
             "default": "python_pip",
             "package": "py-regex"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-regionmask"
         },
         {
             "default": "python_pip",
@@ -31886,6 +31958,10 @@
         },
         {
             "default": "cmake",
+            "package": "rocprofiler-register"
+        },
+        {
+            "default": "cmake",
             "package": "rocrand"
         },
         {
@@ -32275,6 +32351,10 @@
         {
             "default": "cmake",
             "package": "scitokens-cpp"
+        },
+        {
+            "default": "cmake",
+            "package": "scnlib"
         },
         {
             "default": "python_pip",
@@ -35774,6 +35854,10 @@
         },
         {
             "default": "Release",
+            "package": "bufr-query"
+        },
+        {
+            "default": "Release",
             "package": "butterflypack"
         },
         {
@@ -36551,6 +36635,10 @@
         {
             "default": "Release",
             "package": "fargparse"
+        },
+        {
+            "default": "Release",
+            "package": "fast-float"
         },
         {
             "default": "Release",
@@ -38286,6 +38374,10 @@
         },
         {
             "default": "Release",
+            "package": "nekrs"
+        },
+        {
+            "default": "Release",
             "package": "nektar"
         },
         {
@@ -39270,6 +39362,10 @@
         },
         {
             "default": "Release",
+            "package": "rocprofiler-register"
+        },
+        {
+            "default": "Release",
             "package": "rocrand"
         },
         {
@@ -39407,6 +39503,10 @@
         {
             "default": "Release",
             "package": "scitokens-cpp"
+        },
+        {
+            "default": "Release",
+            "package": "scnlib"
         },
         {
             "default": "Release",
@@ -41009,7 +41109,7 @@
     ],
     "ccpp_suites": [
         {
-            "default": "FV3_GFS_v16,FV3_GFS_v16_flake,FV3_GFS_v17_p8,FV3_GFS_v17_p8_rrtmgp,FV3_GFS_v15_thompson_mynn_lam3km,FV3_WoFS_v0,FV3_GFS_v17_p8_mynn,FV3_GFS_v17_p8_ugwpv1",
+            "default": "FV3_GFS_v15p2,FV3_RRFS_v1alpha",
             "package": "ufs-weather-model"
         }
     ],
@@ -41157,6 +41257,12 @@
         {
             "default": false,
             "package": "flexi"
+        }
+    ],
+    "charconv": [
+        {
+            "default": false,
+            "package": "boost"
         }
     ],
     "check": [
@@ -41451,6 +41557,12 @@
         {
             "default": "/dev/shm",
             "package": "scr"
+        }
+    ],
+    "cobalt": [
+        {
+            "default": false,
+            "package": "boost"
         }
     ],
     "code_coverage": [
@@ -44787,7 +44899,7 @@
             "package": "abseil-cpp"
         },
         {
-            "default": "20",
+            "default": "17",
             "package": "acts"
         },
         {
@@ -44835,11 +44947,11 @@
             "package": "davix"
         },
         {
-            "default": "17",
+            "default": "default",
             "package": "dealii"
         },
         {
-            "default": "20",
+            "default": "17",
             "package": "detray"
         },
         {
@@ -45007,7 +45119,7 @@
             "package": "xerces-c"
         },
         {
-            "default": "17",
+            "default": "98",
             "package": "xrootd"
         },
         {
@@ -46339,7 +46451,7 @@
     ],
     "dimensions": [
         {
-            "default": "1,2,3",
+            "default": "3",
             "package": "amrex"
         },
         {
@@ -46367,7 +46479,7 @@
             "package": "chombo"
         },
         {
-            "default": "1,2,rz,3",
+            "default": "3",
             "package": "warpx"
         }
     ],
@@ -46505,6 +46617,10 @@
         {
             "default": false,
             "package": "cp2k"
+        },
+        {
+            "default": false,
+            "package": "elsi"
         },
         {
             "default": false,
@@ -50932,6 +51048,10 @@
         },
         {
             "default": "make",
+            "package": "bufr-query"
+        },
+        {
+            "default": "make",
             "package": "butterflypack"
         },
         {
@@ -51575,7 +51695,7 @@
             "package": "elmerfem"
         },
         {
-            "default": "make",
+            "default": "ninja",
             "package": "elsi"
         },
         {
@@ -51705,6 +51825,10 @@
         {
             "default": "make",
             "package": "fargparse"
+        },
+        {
+            "default": "make",
+            "package": "fast-float"
         },
         {
             "default": "make",
@@ -53432,6 +53556,10 @@
         },
         {
             "default": "make",
+            "package": "nekrs"
+        },
+        {
+            "default": "make",
             "package": "nektar"
         },
         {
@@ -54416,6 +54544,10 @@
         },
         {
             "default": "make",
+            "package": "rocprofiler-register"
+        },
+        {
+            "default": "make",
             "package": "rocrand"
         },
         {
@@ -54553,6 +54685,10 @@
         {
             "default": "make",
             "package": "scitokens-cpp"
+        },
+        {
+            "default": "make",
+            "package": "scnlib"
         },
         {
             "default": "make",
@@ -56898,6 +57034,10 @@
         },
         {
             "default": false,
+            "package": "geant4"
+        },
+        {
+            "default": false,
             "package": "gmsh"
         },
         {
@@ -57825,6 +57965,14 @@
         {
             "default": false,
             "package": "openldap"
+        },
+        {
+            "default": false,
+            "package": "re2"
+        },
+        {
+            "default": false,
+            "package": "scnlib"
         }
     ],
     "icu4c": [
@@ -58433,7 +58581,7 @@
     ],
     "internal_elpa_version": [
         {
-            "default": "2024",
+            "default": "2020",
             "package": "elsi"
         }
     ],
@@ -59031,6 +59179,10 @@
         {
             "default": false,
             "package": "bufr"
+        },
+        {
+            "default": false,
+            "package": "bufr-query"
         },
         {
             "default": false,
@@ -59807,6 +59959,10 @@
         {
             "default": false,
             "package": "fargparse"
+        },
+        {
+            "default": false,
+            "package": "fast-float"
         },
         {
             "default": false,
@@ -61530,6 +61686,10 @@
         },
         {
             "default": false,
+            "package": "nekrs"
+        },
+        {
+            "default": false,
             "package": "nektar"
         },
         {
@@ -62514,6 +62674,10 @@
         },
         {
             "default": false,
+            "package": "rocprofiler-register"
+        },
+        {
+            "default": false,
             "package": "rocrand"
         },
         {
@@ -62651,6 +62815,10 @@
         {
             "default": false,
             "package": "scitokens-cpp"
+        },
+        {
+            "default": false,
+            "package": "scnlib"
         },
         {
             "default": false,
@@ -64839,6 +65007,10 @@
         {
             "default": false,
             "package": "paraview"
+        },
+        {
+            "default": false,
+            "package": "seacas"
         }
     ],
     "libceed": [
@@ -69275,6 +69447,10 @@
         {
             "default": true,
             "package": "librsb"
+        },
+        {
+            "default": false,
+            "package": "py-fluidfft"
         },
         {
             "default": true,
@@ -75231,6 +75407,10 @@
             "package": "bufr"
         },
         {
+            "default": true,
+            "package": "bufr-query"
+        },
+        {
             "default": false,
             "package": "caffe"
         },
@@ -76635,6 +76815,12 @@
             "package": "wgrib2"
         }
     ],
+    "regex-backend": [
+        {
+            "default": "std",
+            "package": "scnlib"
+        }
+    ],
     "rel_tol": [
         {
             "default": 1e-12,
@@ -77329,7 +77515,7 @@
             "package": "mpich"
         },
         {
-            "default": false,
+            "default": true,
             "package": "openmpi"
         }
     ],
@@ -78035,6 +78221,10 @@
         {
             "default": false,
             "package": "perl-bio-ensembl-funcgen"
+        },
+        {
+            "default": false,
+            "package": "perl-bio-ensembl-io"
         }
     ],
     "sdb": [
@@ -78764,6 +78954,10 @@
         },
         {
             "default": false,
+            "package": "fms"
+        },
+        {
+            "default": false,
             "package": "fmt"
         },
         {
@@ -79469,6 +79663,10 @@
         {
             "default": false,
             "package": "samrai"
+        },
+        {
+            "default": true,
+            "package": "scnlib"
         },
         {
             "default": true,
@@ -84145,6 +84343,12 @@
         {
             "default": false,
             "package": "spdk"
+        }
+    ],
+    "url": [
+        {
+            "default": false,
+            "package": "boost"
         }
     ],
     "use_arch": [

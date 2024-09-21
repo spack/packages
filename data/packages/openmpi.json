@@ -1,11 +1,15 @@
 {
     "aliases": [
         {
-            "alias_for": "openmpi@1.6.5",
+            "alias_for": "openmpi@1.3:1.7.2",
             "name": "mpi"
         },
         {
-            "alias_for": "openmpi@1.7.5:",
+            "alias_for": "openmpi@1.7.3:1.7.4",
+            "name": "mpi"
+        },
+        {
+            "alias_for": "openmpi@1.7.5:1.10.7",
             "name": "mpi"
         },
         {
@@ -13,7 +17,7 @@
             "name": "mpi"
         },
         {
-            "alias_for": "openmpi",
+            "alias_for": "openmpi@:1.2",
             "name": "mpi"
         }
     ],
@@ -393,11 +397,6 @@
             "description": null,
             "name": "%gcc@6:",
             "spec": "+cuda ^cuda@:9~allow-unsupported-compilers arch=None-None-ppc64le:"
-        },
-        {
-            "description": "openmpi: +pmi is required for openmpi to work with Slurm.",
-            "name": "~pmi schedulers=slurm",
-            "spec": "@1.5.4"
         },
         {
             "description": "openmpi: The loadleveler scheduler is not supported with openmpi(>=3).",
@@ -967,7 +966,7 @@
             "name": "pmi"
         },
         {
-            "default": false,
+            "default": true,
             "description": "Enable ROMIO support",
             "name": "romio"
         },

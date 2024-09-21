@@ -32,7 +32,12 @@
             "name": "python-venv"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "Framework for studying fluid dynamics.",
+            "name": "py-fluiddyn"
+        }
+    ],
     "description": "Pytest fixture extending Numpy's allclose function.\n",
     "homepage": "https://pypi.org/project/pytest-allclose/",
     "latest_version": "1.0.0",

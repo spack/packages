@@ -86,6 +86,10 @@
             "name": "py-rasterstats"
         },
         {
+            "description": "Create masks of geospatial regions for arbitrary grids",
+            "name": "py-regionmask"
+        },
+        {
             "description": "rasterio xarray extension.",
             "name": "py-rioxarray"
         },

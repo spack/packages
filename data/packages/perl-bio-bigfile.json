@@ -36,7 +36,12 @@
             "name": "perl-module-build"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "File parsing and writing code for Ensembl.",
+            "name": "perl-bio-ensembl-io"
+        }
+    ],
     "description": "Bio::DB::BigFile -- Low-level interface to BigWig & BigBed files for\nperl\n",
     "homepage": "https://metacpan.org/pod/Bio::DB::BigFile",
     "latest_version": "1.07",

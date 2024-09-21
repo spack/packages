@@ -283,6 +283,15 @@
             "level": 1,
             "owner": "builtin.quantum-espresso",
             "reverse": false,
+            "sha256": "f43b7411e535629d9ef564a2e1695359df2651ecbdbca563f7265412afc2228a",
+            "url": "https://gitlab.com/QEF/q-e/-/commit/081409ea90cba0ddc07bea5ac29e3cd422c67d3d.diff",
+            "version": "@6.6:7.3.1",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.quantum-espresso",
+            "reverse": false,
             "sha256": "57cb1b06ee2653a87c3acc0dd4f09032fcf6ce6b8cbb9677ae9ceeb6a78f85e2",
             "url": "https://raw.githubusercontent.com/QMCPACK/qmcpack/v3.13.0/external_codes/quantum_espresso/add_pw2qmcpack_to_qe-6.4.1.diff",
             "version": "@6.4.1+qmcpack",

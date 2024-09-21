@@ -483,6 +483,11 @@
             "spec": "+cuda cuda_arch=89"
         },
         {
+            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "name": "+cuda",
+            "spec": "+cuda cuda_arch=90a"
+        },
+        {
             "description": null,
             "name": "~mpi_f08",
             "spec": "+mpi ^mpich@4.1:"
@@ -837,7 +842,7 @@
     ],
     "description": "CP2K is a quantum chemistry and solid state physics software package\nthat can perform atomistic simulations of solid state, liquid,\nmolecular, periodic, material, crystal, and biological systems\n",
     "homepage": "https://www.cp2k.org",
-    "latest_version": "2024.2",
+    "latest_version": "2024.3",
     "maintainers": [
         "dev-zero",
         "mtaillefumier"
@@ -1075,6 +1080,10 @@
             "branch": "master",
             "name": "master",
             "submodules": "True"
+        },
+        {
+            "name": "2024.3",
+            "sha256": "a6eeee773b6b1fb417def576e4049a89a08a0ed5feffcd7f0b33c7d7b48f19ba"
         },
         {
             "name": "2024.2",

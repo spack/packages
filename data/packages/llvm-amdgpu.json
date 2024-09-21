@@ -9,7 +9,11 @@
             "name": "libllvm"
         },
         {
-            "alias_for": "llvm-amdgpu@5.7:",
+            "alias_for": "llvm-amdgpu@5.7:6.1",
+            "name": "libllvm"
+        },
+        {
+            "alias_for": "llvm-amdgpu@6.2:",
             "name": "libllvm"
         }
     ],
@@ -522,7 +526,7 @@
     ],
     "description": "Toolkit for the construction of highly optimized compilers, optimizers,\nand run-time environments.\n",
     "homepage": "https://github.com/ROCm/llvm-project",
-    "latest_version": "6.1.2",
+    "latest_version": "6.2.0",
     "maintainers": [
         "haampie",
         "renjithravindrankannath",
@@ -668,6 +672,12 @@
             "destination": "",
             "name": "hsa-runtime",
             "placement": "hsa-runtime",
+            "version": "@6.2.0"
+        },
+        {
+            "destination": "",
+            "name": "hsa-runtime",
+            "placement": "hsa-runtime",
             "version": "@6.1.2"
         },
         {
@@ -808,6 +818,10 @@
         {
             "branch": "amd-stg-open",
             "name": "master"
+        },
+        {
+            "name": "6.2.0",
+            "sha256": "12ce17dc920ec6dac0c5484159b3eec00276e4a5b301ab1250488db3b2852200"
         },
         {
             "name": "6.1.2",

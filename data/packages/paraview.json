@@ -589,6 +589,11 @@
         },
         {
             "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=90a",
+            "spec": "cuda_arch=10"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
             "name": "cuda_arch=10",
             "spec": "cuda_arch=11"
         },
@@ -700,6 +705,11 @@
         {
             "description": "paraview: Paraview only accepts one architecture value",
             "name": "cuda_arch=90",
+            "spec": "cuda_arch=11"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=90a",
             "spec": "cuda_arch=11"
         },
         {
@@ -819,6 +829,11 @@
         },
         {
             "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=90a",
+            "spec": "cuda_arch=12"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
             "name": "cuda_arch=10",
             "spec": "cuda_arch=13"
         },
@@ -930,6 +945,11 @@
         {
             "description": "paraview: Paraview only accepts one architecture value",
             "name": "cuda_arch=90",
+            "spec": "cuda_arch=13"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=90a",
             "spec": "cuda_arch=13"
         },
         {
@@ -1049,6 +1069,11 @@
         },
         {
             "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=90a",
+            "spec": "cuda_arch=20"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
             "name": "cuda_arch=10",
             "spec": "cuda_arch=21"
         },
@@ -1160,6 +1185,11 @@
         {
             "description": "paraview: Paraview only accepts one architecture value",
             "name": "cuda_arch=90",
+            "spec": "cuda_arch=21"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=90a",
             "spec": "cuda_arch=21"
         },
         {
@@ -1279,6 +1309,11 @@
         },
         {
             "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=90a",
+            "spec": "cuda_arch=30"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
             "name": "cuda_arch=10",
             "spec": "cuda_arch=32"
         },
@@ -1390,6 +1425,11 @@
         {
             "description": "paraview: Paraview only accepts one architecture value",
             "name": "cuda_arch=90",
+            "spec": "cuda_arch=32"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=90a",
             "spec": "cuda_arch=32"
         },
         {
@@ -1509,6 +1549,11 @@
         },
         {
             "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=90a",
+            "spec": "cuda_arch=35"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
             "name": "cuda_arch=10",
             "spec": "cuda_arch=37"
         },
@@ -1620,6 +1665,11 @@
         {
             "description": "paraview: Paraview only accepts one architecture value",
             "name": "cuda_arch=90",
+            "spec": "cuda_arch=37"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=90a",
             "spec": "cuda_arch=37"
         },
         {
@@ -1739,6 +1789,11 @@
         },
         {
             "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=90a",
+            "spec": "cuda_arch=50"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
             "name": "cuda_arch=10",
             "spec": "cuda_arch=52"
         },
@@ -1850,6 +1905,11 @@
         {
             "description": "paraview: Paraview only accepts one architecture value",
             "name": "cuda_arch=90",
+            "spec": "cuda_arch=52"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=90a",
             "spec": "cuda_arch=52"
         },
         {
@@ -1969,6 +2029,11 @@
         },
         {
             "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=90a",
+            "spec": "cuda_arch=53"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
             "name": "cuda_arch=10",
             "spec": "cuda_arch=60"
         },
@@ -2080,6 +2145,11 @@
         {
             "description": "paraview: Paraview only accepts one architecture value",
             "name": "cuda_arch=90",
+            "spec": "cuda_arch=60"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=90a",
             "spec": "cuda_arch=60"
         },
         {
@@ -2199,6 +2269,11 @@
         },
         {
             "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=90a",
+            "spec": "cuda_arch=61"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
             "name": "cuda_arch=10",
             "spec": "cuda_arch=62"
         },
@@ -2310,6 +2385,11 @@
         {
             "description": "paraview: Paraview only accepts one architecture value",
             "name": "cuda_arch=90",
+            "spec": "cuda_arch=62"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=90a",
             "spec": "cuda_arch=62"
         },
         {
@@ -2429,6 +2509,11 @@
         },
         {
             "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=90a",
+            "spec": "cuda_arch=70"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
             "name": "cuda_arch=10",
             "spec": "cuda_arch=72"
         },
@@ -2540,6 +2625,11 @@
         {
             "description": "paraview: Paraview only accepts one architecture value",
             "name": "cuda_arch=90",
+            "spec": "cuda_arch=72"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=90a",
             "spec": "cuda_arch=72"
         },
         {
@@ -2659,6 +2749,11 @@
         },
         {
             "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=90a",
+            "spec": "cuda_arch=75"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
             "name": "cuda_arch=10",
             "spec": "cuda_arch=80"
         },
@@ -2774,6 +2869,11 @@
         },
         {
             "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=90a",
+            "spec": "cuda_arch=80"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
             "name": "cuda_arch=10",
             "spec": "cuda_arch=86"
         },
@@ -2885,6 +2985,11 @@
         {
             "description": "paraview: Paraview only accepts one architecture value",
             "name": "cuda_arch=90",
+            "spec": "cuda_arch=86"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=90a",
             "spec": "cuda_arch=86"
         },
         {
@@ -3008,6 +3113,11 @@
             "spec": "cuda_arch=87"
         },
         {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=90a",
+            "spec": "cuda_arch=87"
+        },
+        {
             "description": null,
             "name": "cmake@:3.17",
             "spec": "cuda_arch=89"
@@ -3128,6 +3238,136 @@
             "spec": "cuda_arch=89"
         },
         {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=90a",
+            "spec": "cuda_arch=89"
+        },
+        {
+            "description": null,
+            "name": "cmake@:3.17",
+            "spec": "cuda_arch=90a"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=10",
+            "spec": "cuda_arch=90a"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=11",
+            "spec": "cuda_arch=90a"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=12",
+            "spec": "cuda_arch=90a"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=13",
+            "spec": "cuda_arch=90a"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=20",
+            "spec": "cuda_arch=90a"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=21",
+            "spec": "cuda_arch=90a"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=30",
+            "spec": "cuda_arch=90a"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=32",
+            "spec": "cuda_arch=90a"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=35",
+            "spec": "cuda_arch=90a"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=37",
+            "spec": "cuda_arch=90a"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=50",
+            "spec": "cuda_arch=90a"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=52",
+            "spec": "cuda_arch=90a"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=53",
+            "spec": "cuda_arch=90a"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=60",
+            "spec": "cuda_arch=90a"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=61",
+            "spec": "cuda_arch=90a"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=62",
+            "spec": "cuda_arch=90a"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=70",
+            "spec": "cuda_arch=90a"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=72",
+            "spec": "cuda_arch=90a"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=75",
+            "spec": "cuda_arch=90a"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=80",
+            "spec": "cuda_arch=90a"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=86",
+            "spec": "cuda_arch=90a"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=87",
+            "spec": "cuda_arch=90a"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=89",
+            "spec": "cuda_arch=90a"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=90",
+            "spec": "cuda_arch=90a"
+        },
+        {
             "description": null,
             "name": "cmake@:3.17",
             "spec": "cuda_arch=90"
@@ -3245,6 +3485,11 @@
         {
             "description": "paraview: Paraview only accepts one architecture value",
             "name": "cuda_arch=89",
+            "spec": "cuda_arch=90"
+        },
+        {
+            "description": "paraview: Paraview only accepts one architecture value",
+            "name": "cuda_arch=90a",
             "spec": "cuda_arch=90"
         },
         {

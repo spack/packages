@@ -51,6 +51,10 @@
             "name": "gmake"
         },
         {
+            "description": "HDF5 is a data model, library, and file format for storing and managing\ndata. It supports an unlimited variety of datatypes, and is designed for\nflexible and efficient I/O and for high volume and complex data.",
+            "name": "hdf5"
+        },
+        {
             "description": "libX11 - Core X11 protocol client library.",
             "name": "libx11"
         },
@@ -247,6 +251,11 @@
             "default": "make",
             "description": "the build system generator to use",
             "name": "generator"
+        },
+        {
+            "default": false,
+            "description": "Enable HDF5 support",
+            "name": "hdf5"
         },
         {
             "default": false,

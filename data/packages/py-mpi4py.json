@@ -158,6 +158,22 @@
             "name": "py-fenics-dolfinx"
         },
         {
+            "description": "Fluidfft plugin using fftwmpi.",
+            "name": "py-fluidfft-fftwmpi"
+        },
+        {
+            "description": "Fluidfft MPI plugin using fftw.",
+            "name": "py-fluidfft-mpi-with-fftw"
+        },
+        {
+            "description": "Fluidfft MPI plugin using p3dfft.",
+            "name": "py-fluidfft-p3dfft"
+        },
+        {
+            "description": "Fluidfft MPI plugin using pfft.",
+            "name": "py-fluidfft-pfft"
+        },
+        {
             "description": "Python bindings and ensemble workflow management for GROMACS. The\nGROMACS C++ API is affected by its package variants. You can specify a\nparticular GROMACS API by making the dependency variant explicit. E.g.\n``spack install gmxapi ^gromacs+mpi~double``",
             "name": "py-gmxapi"
         },

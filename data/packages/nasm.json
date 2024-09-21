@@ -75,7 +75,7 @@
     ],
     "description": "NASM (Netwide Assembler) is an 80x86 assembler designed for portability\nand modularity. It includes a disassembler as well.\n",
     "homepage": "https://www.nasm.us",
-    "latest_version": "2.15.05",
+    "latest_version": "2.16.03",
     "maintainers": [],
     "name": "nasm",
     "patches": [
@@ -107,6 +107,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.16.03",
+            "sha256": "5bc940dd8a4245686976a8f7e96ba9340a0915f2d5b88356874890e207bdb581"
+        },
         {
             "name": "2.15.05",
             "sha256": "9182a118244b058651c576baa9d0366ee05983c4d4ae1d9ddd3236a9f2304997"

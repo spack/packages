@@ -452,7 +452,7 @@
         },
         {
             "default": false,
-            "description": "Enable CUDA",
+            "description": "Build with CUDA",
             "name": "cuda"
         },
         {

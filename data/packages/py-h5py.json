@@ -138,6 +138,10 @@
             "name": "py-earth2mip"
         },
         {
+            "description": "Framework for studying fluid dynamics.",
+            "name": "py-fluiddyn"
+        },
+        {
             "description": "A toolbox for accurate single-trial estimates in fMRI time-series data.",
             "name": "py-glmsingle"
         },

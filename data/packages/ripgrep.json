@@ -11,7 +11,7 @@
     "dependent_to": [],
     "description": "ripgrep is a line-oriented search tool that recursively searches your\ncurrent directory for a regex pattern. ripgrep is similar to other\npopular search tools like The Silver Searcher, ack and grep.\n",
     "homepage": "https://github.com/BurntSushi/ripgrep",
-    "latest_version": "14.1.0",
+    "latest_version": "14.1.1",
     "maintainers": [
         "alecbcs"
     ],
@@ -26,6 +26,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "14.1.1",
+            "sha256": "4dad02a2f9c8c3c8d89434e47337aa654cb0e2aa50e806589132f186bf5c2b66"
+        },
         {
             "name": "14.1.0",
             "sha256": "33c6169596a6bbfdc81415910008f26e0809422fda2d849562637996553b2ab6"

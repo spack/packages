@@ -443,7 +443,7 @@
         },
         {
             "default": false,
-            "description": "Enables solver to offload large operations to CUDA GPUs",
+            "description": "Build with CUDA",
             "name": "cuda"
         },
         {

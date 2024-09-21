@@ -10,24 +10,8 @@
     ],
     "dependencies": [
         {
-            "description": "Autoconf -- system configuration part of autotools",
-            "name": "autoconf"
-        },
-        {
-            "description": "Automake -- make file builder part of autotools",
-            "name": "automake"
-        },
-        {
             "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
             "name": "gmake"
-        },
-        {
-            "description": "libtool -- library building part of autotools.",
-            "name": "libtool"
-        },
-        {
-            "description": "GNU M4 is an implementation of the traditional Unix macro processor.",
-            "name": "m4"
         }
     ],
     "dependent_to": [],

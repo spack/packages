@@ -28,7 +28,12 @@
             "name": "python-venv"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "Documentation generator for C++",
+            "name": "py-poxy"
+        }
+    ],
     "description": "Miscellaneous useful bits for Python 3.\n",
     "homepage": "https://github.com/marzer/misk",
     "latest_version": "0.8.1",
