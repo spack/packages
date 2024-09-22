@@ -24,7 +24,7 @@
     ],
     "dependent_to": [],
     "description": "A suite of communication-intensive proxy applications that mimic\ncommonly found communication patterns in HPC codes. These codes can be\nused as synthetic codes for benchmarking, or for trace generation using\nScore-P / OTF2.\n",
-    "homepage": "https://chatterbug.readthedocs.io",
+    "homepage": "https://github.com/hpcgroup/chatterbug",
     "latest_version": "1.0",
     "maintainers": [],
     "name": "chatterbug",

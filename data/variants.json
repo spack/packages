@@ -986,6 +986,10 @@
         },
         {
             "default": "none",
+            "package": "py-onnxruntime"
+        },
+        {
+            "default": "none",
             "package": "py-pennylane-lightning-kokkos"
         },
         {
@@ -77325,6 +77329,10 @@
         {
             "default": false,
             "package": "py-horovod"
+        },
+        {
+            "default": false,
+            "package": "py-onnxruntime"
         },
         {
             "default": false,

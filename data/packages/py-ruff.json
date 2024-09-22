@@ -36,7 +36,7 @@
     ],
     "description": "An extremely fast Python linter, written in Rust.\n",
     "homepage": "https://beta.ruff.rs/docs",
-    "latest_version": "0.5.7",
+    "latest_version": "0.6.5",
     "maintainers": [
         "adamjstewart"
     ],
@@ -51,6 +51,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.6.5",
+            "sha256": "4d32d87fab433c0cf285c3683dd4dae63be05fd7a1d65b3f5bf7cdd05a6b96fb"
+        },
         {
             "name": "0.5.7",
             "sha256": "8dfc0a458797f5d9fb622dd0efc52d796f23f0a1493a9527f4e49a550ae9a7e5"

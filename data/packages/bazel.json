@@ -9,13 +9,13 @@
         },
         {
             "description": null,
-            "name": "@:6",
-            "spec": "%gcc@13:"
+            "name": "arch=darwin-None-aarch64:",
+            "spec": "@:4.0"
         },
         {
             "description": null,
-            "name": "arch=darwin-None-aarch64:",
-            "spec": "@:4.0"
+            "name": "%gcc@13:",
+            "spec": "@:5"
         }
     ],
     "dependencies": [
@@ -214,6 +214,15 @@
         {
             "level": 1,
             "owner": "builtin.bazel",
+            "reverse": false,
+            "sha256": "85dde31d129bbd31e004c5c87f23cdda9295fbb22946dc6d362f23d83bae1fd8",
+            "url": "https://github.com/bazelbuild/bazel/pull/20785.patch?full_index=1",
+            "version": "@6.0:6.4",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.bazel",
             "relative_path": "gcc11_1.patch",
             "reverse": false,
             "sha256": "86735e5e53d7635d0e71f5233640b3da8d78582f1d351b59a839e7fe4198e3b5",
@@ -254,6 +263,12 @@
             "name": "bazel_skylib",
             "placement": null,
             "version": "@4:6"
+        },
+        {
+            "destination": "archive",
+            "name": "com_google_absl",
+            "placement": null,
+            "version": "@6.0:6.4"
         },
         {
             "destination": "archive",

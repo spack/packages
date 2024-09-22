@@ -24,7 +24,7 @@
     ],
     "dependent_to": [],
     "description": "CaNS (Canonical Navier-Stokes) is a code for massively-parallel\nnumerical simulations of fluid flows. It aims at solving any fluid flow\nof an incompressible, Newtonian fluid that can benefit from a FFT-based\nsolver for the second-order finite-difference Poisson equation in a 3D\nCartesian grid.\n",
-    "homepage": "https://github.com/p-costa/CaNS",
+    "homepage": "https://github.com/CaNS-World/CaNS",
     "latest_version": "1.1.4",
     "maintainers": [
         "GabrieleBoga",

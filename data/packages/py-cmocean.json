@@ -1,7 +1,13 @@
 {
     "aliases": [],
     "build_system": "PythonPackage",
-    "conflicts": [],
+    "conflicts": [
+        {
+            "description": null,
+            "name": "^py-numpy@2:",
+            "spec": "@:3.0"
+        }
+    ],
     "dependencies": [
         {
             "description": "Matplotlib is a comprehensive library for creating static, animated, and\ninteractive visualizations in Python.",
@@ -39,7 +45,7 @@
     "dependent_to": [],
     "description": "Colormaps for Oceanography.\n",
     "homepage": "https://matplotlib.org/cmocean/",
-    "latest_version": "3.0.3",
+    "latest_version": "4.0.3",
     "maintainers": [],
     "name": "py-cmocean",
     "patches": [],
@@ -52,6 +58,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "4.0.3",
+            "sha256": "37868399fb5f41b4eac596e69803f9bfaea49946514dfb2e7f48886854250d7c"
+        },
         {
             "name": "3.0.3",
             "sha256": "abaf99383c1a60f52970c86052ae6c14eafa84fc16984488040283c02db77c0b"

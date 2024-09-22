@@ -8,6 +8,10 @@
             "name": "cmake"
         },
         {
+            "description": "Google's data interchange format.",
+            "name": "protobuf"
+        },
+        {
             "description": "Fundamental package for array computing in Python.",
             "name": "py-numpy"
         },
