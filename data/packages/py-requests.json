@@ -462,6 +462,10 @@
             "name": "py-lightning-cloud"
         },
         {
+            "description": "Check for broken links in web sites.",
+            "name": "py-linkchecker"
+        },
+        {
             "description": "Matminer is a library for performing data mining in the field of\nmaterials science.",
             "name": "py-matminer"
         },

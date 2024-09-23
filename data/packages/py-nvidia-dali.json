@@ -44,7 +44,7 @@
     ],
     "description": "A GPU-accelerated library containing highly optimized building blocks\nand an execution engine for data processing to accelerate deep learning\ntraining and inference applications.\n",
     "homepage": "https://developer.nvidia.com/dali",
-    "latest_version": "1.36.0-cuda120",
+    "latest_version": "1.41.0-cuda120",
     "maintainers": [
         "thomas-bouvier"
     ],
@@ -59,6 +59,16 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.41.0-cuda120",
+            "sha256": "240b4135e7c71c5f669d2f2970fa350f7ad1a0a4aab588a3ced578f9b6d7abd9",
+            "url": "https://developer.download.nvidia.com/compute/redist/nvidia-dali-cuda120/nvidia_dali_cuda120-1.41.0-17427117-py3-none-manylinux2014_x86_64.whl"
+        },
+        {
+            "name": "1.41.0.cuda110",
+            "sha256": "6b12993384b694463c651a6c22621e6982b8834946eefcc864ab061b5c6e972e",
+            "url": "https://developer.download.nvidia.com/compute/redist/nvidia-dali-cuda110/nvidia_dali_cuda110-1.41.0-17427118-py3-none-manylinux2014_x86_64.whl"
+        },
         {
             "name": "1.36.0-cuda120",
             "sha256": "9a7754aacb245785462592aec89cbaec72e0a84d84399a061a563546bbf44805",

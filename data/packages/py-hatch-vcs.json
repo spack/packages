@@ -70,6 +70,10 @@
             "name": "py-jsonschema"
         },
         {
+            "description": "Check for broken links in web sites.",
+            "name": "py-linkchecker"
+        },
+        {
             "description": "MNE python project for MEG and EEG data analysis.",
             "name": "py-mne"
         },

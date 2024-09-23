@@ -10458,10 +10458,6 @@
             "name": "stat"
         },
         {
-            "description": "SAS (Static Analysis Suite) is a powerful tool for running static\nanalysis on C++ code.",
-            "name": "static-analysis-suite"
-        },
-        {
             "description": "STC: The Swift-Turbine Compiler",
             "name": "stc"
         },

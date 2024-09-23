@@ -483,7 +483,17 @@
         "jonas-eschle"
     ],
     "name": "py-jaxlib",
-    "patches": [],
+    "patches": [
+        {
+            "level": 1,
+            "owner": "builtin.py-jaxlib",
+            "reverse": false,
+            "sha256": "4dfb9f32d4eeb0a0fb3a6f4124c4170e3fe49511f1b768cd634c78d489962275",
+            "url": "https://github.com/google/jax/pull/20101.patch?full_index=1",
+            "version": "@:0.4.25",
+            "working_dir": "."
+        }
+    ],
     "resources": [],
     "variants": [
         {

@@ -228,6 +228,15 @@
             "sha256": "2979cb7c8005643ae9edb9f0f5747582807f288e88a8c6dddf2b349c954b69ae",
             "version": "@10.7.0:11.1.2 ^cmake@3.17:",
             "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.geant4",
+            "relative_path": "twisted-tubes.patch",
+            "reverse": false,
+            "sha256": "d5979049b0953ee5ca549111c117037f043f758f784a8d9ba3ecaf07b7615148",
+            "version": "@11.2.0:11.2.2",
+            "working_dir": "."
         }
     ],
     "resources": [],

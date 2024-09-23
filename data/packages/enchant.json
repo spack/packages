@@ -34,7 +34,12 @@
             "name": "hunspell"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "Sphinx Documentation Generator.",
+            "name": "py-pyenchant"
+        }
+    ],
     "description": "Enchant is a library (and command-line program) that wraps a number of\ndifferent spelling libraries and programs with a consistent interface.\n",
     "homepage": "https://rrthomas.github.io/enchant/",
     "latest_version": "2.8.2",

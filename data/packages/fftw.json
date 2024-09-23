@@ -449,6 +449,15 @@
             "working_dir": "."
         },
         {
+            "level": 1,
+            "owner": "builtin.fftw",
+            "reverse": false,
+            "sha256": "872cff9a7d346e91a108ffd3540bfcebeb8cf86c7f40f6b31fd07a80267cbf53",
+            "url": "https://github.com/FFTW/fftw3/commit/f69fef7aa546d4477a2a3fd7f13fa8b2f6c54af7.patch?full_index=1",
+            "version": "@3.3.7:",
+            "working_dir": "."
+        },
+        {
             "level": 0,
             "owner": "builtin.fftw",
             "relative_path": "pfft-3.3.5.patch",

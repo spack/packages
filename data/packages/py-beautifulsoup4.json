@@ -98,6 +98,10 @@
             "name": "py-lightning"
         },
         {
+            "description": "Check for broken links in web sites.",
+            "name": "py-linkchecker"
+        },
+        {
             "description": "lxml is the most feature-rich and easy-to-use library for processing XML\nand HTML in the Python language.",
             "name": "py-lxml"
         },
@@ -136,7 +140,7 @@
     ],
     "description": "Beautiful Soup is a Python library for pulling data out of HTML and XML\nfiles. It works with your favorite parser to provide idiomatic ways of\nnavigating, searching, and modifying the parse tree.\n",
     "homepage": "https://www.crummy.com/software/BeautifulSoup",
-    "latest_version": "4.12.2",
+    "latest_version": "4.12.3",
     "maintainers": [],
     "name": "py-beautifulsoup4",
     "patches": [],
@@ -159,6 +163,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "4.12.3",
+            "sha256": "74e3d1928edc070d21748185c46e3fb33490f22f52a3addee9aee0f4f7781051"
+        },
         {
             "name": "4.12.2",
             "sha256": "492bbc69dca35d12daac71c4db1bfff0c876c00ef4a2ffacce226d4638eb72da"

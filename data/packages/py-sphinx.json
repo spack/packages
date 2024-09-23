@@ -346,6 +346,10 @@
             "name": "py-sphinx-design"
         },
         {
+            "description": "Fortran domain and autodoc extensions to Sphinx",
+            "name": "py-sphinx-fortran"
+        },
+        {
             "description": "A `Sphinx` extension that builds an HTML version of any Python script\nand puts it into an examples gallery.",
             "name": "py-sphinx-gallery"
         },

@@ -48,6 +48,10 @@
             "name": "gaussian-src"
         },
         {
+            "description": "Grackle is a chemistry and radiative cooling library for astrophysical\nsimulations with interfaces for C, C++, and Fortran codes. It is a\ngeneralized and trimmed down version of the chemistry network of the\nEnzo simulation code",
+            "name": "grackle"
+        },
+        {
             "description": "NCL is an interpreted language designed specifically for scientific data\nanalysis and visualization. Supports NetCDF 3/4, GRIB 1/2, HDF 4/5, HDF-\nEOD 2/5, shapefile, ASCII, binary. Numerous analysis functions are\nbuilt-in.",
             "name": "ncl"
         },

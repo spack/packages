@@ -1054,6 +1054,10 @@
             "name": "py-sphinx"
         },
         {
+            "description": "Fortran domain and autodoc extensions to Sphinx",
+            "name": "py-sphinx-fortran"
+        },
+        {
             "description": "A Sphinx extension for BibTeX style citations.",
             "name": "py-sphinxcontrib-bibtex"
         },

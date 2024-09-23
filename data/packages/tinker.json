@@ -23,7 +23,7 @@
     "dependent_to": [],
     "description": "The Tinker molecular modeling software is a complete and general package\nfor molecular mechanics and dynamics, with some special features for\nbiopolymers.\n",
     "homepage": "https://dasher.wustl.edu/tinker/",
-    "latest_version": "8.7.1",
+    "latest_version": "8.7.2",
     "maintainers": [],
     "name": "tinker",
     "patches": [
@@ -62,9 +62,14 @@
     ],
     "versions": [
         {
+            "name": "8.7.2",
+            "sha256": "f9e94ae0684d527cd2772a4a7a05c41864ce6246f1194f6c1c402a94598151c2"
+        }
+    ],
+    "versions_deprecated": [
+        {
             "name": "8.7.1",
             "sha256": "0d6eff8bbc9be0b37d62b6fd3da35bb5499958eafe67aa9c014c4648c8b46d0f"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

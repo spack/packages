@@ -2414,6 +2414,10 @@
             "name": "py-dipy"
         },
         {
+            "description": "JSON decoder for Python that can extract data from the muck",
+            "name": "py-dirtyjson"
+        },
+        {
             "description": "Test discovery for unittest.",
             "name": "py-discover"
         },
@@ -6534,6 +6538,10 @@
             "name": "py-pyem"
         },
         {
+            "description": "Sphinx Documentation Generator.",
+            "name": "py-pyenchant"
+        },
+        {
             "description": "Provides simple access to https://epsg.io/.",
             "name": "py-pyepsg"
         },
@@ -8696,6 +8704,10 @@
         {
             "description": "The fastest way to build data apps in Python.",
             "name": "py-streamlit"
+        },
+        {
+            "description": "A simple library to convert rtf to text",
+            "name": "py-striprtf"
         },
         {
             "description": "This package contains utilities used to package some of STScI's Python\nprojects.",

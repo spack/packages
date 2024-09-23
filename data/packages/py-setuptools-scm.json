@@ -466,6 +466,10 @@
             "name": "py-linear-operator"
         },
         {
+            "description": "Check for broken links in web sites.",
+            "name": "py-linkchecker"
+        },
+        {
             "description": "lz4 (compression library) bindings for Python",
             "name": "py-lz4"
         },

@@ -80,7 +80,7 @@
     ],
     "description": "Fiona reads and writes spatial data files.\n",
     "homepage": "https://github.com/Toblerity/Fiona",
-    "latest_version": "1.10.0",
+    "latest_version": "1.10.1",
     "maintainers": [
         "adamjstewart"
     ],
@@ -98,6 +98,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "1.10.1",
+            "sha256": "b00ae357669460c6491caba29c2022ff0acfcbde86a95361ea8ff5cd14a86b68"
         },
         {
             "name": "1.10.0",

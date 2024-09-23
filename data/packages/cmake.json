@@ -4819,10 +4819,6 @@
             "name": "starlight"
         },
         {
-            "description": "SAS (Static Analysis Suite) is a powerful tool for running static\nanalysis on C++ code.",
-            "name": "static-analysis-suite"
-        },
-        {
             "description": "The proposed C++ framework for asynchronous and parallel programming.",
             "name": "stdexec"
         },

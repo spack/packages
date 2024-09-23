@@ -15676,6 +15676,10 @@
         "name": "py-dipy"
     },
     {
+        "description": "JSON decoder for Python that can extract data from the muck\n",
+        "name": "py-dirtyjson"
+    },
+    {
         "description": "Test discovery for unittest.\n",
         "name": "py-discover"
     },
@@ -17592,6 +17596,10 @@
         "name": "py-jinja2-time"
     },
     {
+        "description": "Fast iterable JSON parser.\n",
+        "name": "py-jiter"
+    },
+    {
         "description": "JSON Matching Expressions.\n",
         "name": "py-jmespath"
     },
@@ -18026,6 +18034,10 @@
     {
         "description": "The line enhancer is only used by crYOLO internally\n",
         "name": "py-lineenhancer"
+    },
+    {
+        "description": "Check for broken links in web sites.\n",
+        "name": "py-linkchecker"
     },
     {
         "description": "Links recognition library with FULL unicode support.\n",
@@ -20236,6 +20248,10 @@
         "name": "py-pyem"
     },
     {
+        "description": "Sphinx Documentation Generator.\n",
+        "name": "py-pyenchant"
+    },
+    {
         "description": "Provides simple access to https://epsg.io/.\n",
         "name": "py-pyepsg"
     },
@@ -22432,6 +22448,10 @@
         "name": "py-sphinx-design"
     },
     {
+        "description": "Fortran domain and autodoc extensions to Sphinx\n",
+        "name": "py-sphinx-fortran"
+    },
+    {
         "description": "A `Sphinx` extension that builds an HTML version of any Python script\nand puts it into an examples gallery.\n",
         "name": "py-sphinx-gallery"
     },
@@ -22654,6 +22674,10 @@
     {
         "description": "The fastest way to build data apps in Python.\n",
         "name": "py-streamlit"
+    },
+    {
+        "description": "A simple library to convert rtf to text\n",
+        "name": "py-striprtf"
     },
     {
         "description": "This package contains utilities used to package some of STScI's Python\nprojects.\n",
@@ -30422,10 +30446,6 @@
     {
         "description": "STATA is a general-purpose statistical software package developed by\nStataCorp.\n",
         "name": "stata"
-    },
-    {
-        "description": "SAS (Static Analysis Suite) is a powerful tool for running static\nanalysis on C++ code.\n",
-        "name": "static-analysis-suite"
     },
     {
         "description": "STC: The Swift-Turbine Compiler\n",

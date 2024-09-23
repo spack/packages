@@ -182,6 +182,10 @@
             "name": "py-refgenconf"
         },
         {
+            "description": "Fortran domain and autodoc extensions to Sphinx",
+            "name": "py-sphinx-fortran"
+        },
+        {
             "description": "tensorflow/datasets is a library of datasets ready to use with\nTensorFlow.",
             "name": "py-tensorflow-datasets"
         },

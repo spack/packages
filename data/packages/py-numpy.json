@@ -2760,6 +2760,10 @@
             "name": "py-spherical"
         },
         {
+            "description": "Fortran domain and autodoc extensions to Sphinx",
+            "name": "py-sphinx-fortran"
+        },
+        {
             "description": "Python code for calculating non-parametric morphological diagnostics of\ngalaxy images.",
             "name": "py-statmorph"
         },

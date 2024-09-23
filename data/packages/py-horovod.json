@@ -383,6 +383,11 @@
             "spec": "@:0.19"
         },
         {
+            "description": null,
+            "name": "%gcc@13:",
+            "spec": "@:0.20"
+        },
+        {
             "description": "py-horovod: Gloo cannot be compiled on MacOS",
             "name": "controllers=gloo",
             "spec": "@:0.20.0 arch=darwin-None-None"
@@ -390,7 +395,7 @@
         {
             "description": null,
             "name": "^py-torch@2.1:",
-            "spec": "@:0.28.1"
+            "spec": "@:0.24"
         },
         {
             "description": "py-horovod: NCCL requires either CUDA or ROCm support",
@@ -557,6 +562,24 @@
     ],
     "name": "py-horovod",
     "patches": [
+        {
+            "level": 1,
+            "owner": "builtin.py-horovod",
+            "reverse": false,
+            "sha256": "9ecd4e8e315764afab20f2086e24baccf8178779a3c663196b24dc55a23a6aca",
+            "url": "https://github.com/horovod/horovod/pull/3998.patch?full_index=1",
+            "version": "@0.25:0.28.1",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.py-horovod",
+            "reverse": false,
+            "sha256": "9e22e312c0cbf224b4135ba70bd4fd2e4170d8316c996643e360112abaac8f93",
+            "url": "https://github.com/horovod/horovod/pull/3957.patch?full_index=1",
+            "version": "@0.21:0.28.1",
+            "working_dir": "."
+        },
         {
             "level": 1,
             "owner": "builtin.py-horovod",

@@ -414,6 +414,11 @@
         },
         {
             "description": null,
+            "name": "%gcc@13:",
+            "spec": "@:2.14"
+        },
+        {
+            "description": null,
             "name": "arch=None-None-aarch64:",
             "spec": "@:2.2"
         },

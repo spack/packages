@@ -2806,6 +2806,10 @@
             "name": "py-dipy"
         },
         {
+            "description": "JSON decoder for Python that can extract data from the muck",
+            "name": "py-dirtyjson"
+        },
+        {
             "description": "Test discovery for unittest.",
             "name": "py-discover"
         },
@@ -4714,6 +4718,10 @@
             "name": "py-jinja2-time"
         },
         {
+            "description": "Fast iterable JSON parser.",
+            "name": "py-jiter"
+        },
+        {
             "description": "JSON Matching Expressions.",
             "name": "py-jmespath"
         },
@@ -5148,6 +5156,10 @@
         {
             "description": "The line enhancer is only used by crYOLO internally",
             "name": "py-lineenhancer"
+        },
+        {
+            "description": "Check for broken links in web sites.",
+            "name": "py-linkchecker"
         },
         {
             "description": "Links recognition library with FULL unicode support.",
@@ -7354,6 +7366,10 @@
             "name": "py-pyem"
         },
         {
+            "description": "Sphinx Documentation Generator.",
+            "name": "py-pyenchant"
+        },
+        {
             "description": "Provides simple access to https://epsg.io/.",
             "name": "py-pyepsg"
         },
@@ -9546,6 +9562,10 @@
             "name": "py-sphinx-design"
         },
         {
+            "description": "Fortran domain and autodoc extensions to Sphinx",
+            "name": "py-sphinx-fortran"
+        },
+        {
             "description": "A `Sphinx` extension that builds an HTML version of any Python script\nand puts it into an examples gallery.",
             "name": "py-sphinx-gallery"
         },
@@ -9768,6 +9788,10 @@
         {
             "description": "The fastest way to build data apps in Python.",
             "name": "py-streamlit"
+        },
+        {
+            "description": "A simple library to convert rtf to text",
+            "name": "py-striprtf"
         },
         {
             "description": "This package contains utilities used to package some of STScI's Python\nprojects.",

@@ -1387,10 +1387,6 @@
             "name": "sst-macro"
         },
         {
-            "description": "SAS (Static Analysis Suite) is a powerful tool for running static\nanalysis on C++ code.",
-            "name": "static-analysis-suite"
-        },
-        {
             "description": "SymEngine is a fast symbolic manipulation library, written in C++.",
             "name": "symengine"
         },

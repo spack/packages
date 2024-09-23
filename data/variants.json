@@ -18462,6 +18462,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-dirtyjson"
+        },
+        {
+            "default": "python_pip",
             "package": "py-discover"
         },
         {
@@ -20378,6 +20382,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-jiter"
+        },
+        {
+            "default": "python_pip",
             "package": "py-jmespath"
         },
         {
@@ -20811,6 +20819,10 @@
         {
             "default": "python_pip",
             "package": "py-lineenhancer"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-linkchecker"
         },
         {
             "default": "python_pip",
@@ -23022,6 +23034,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-pyenchant"
+        },
+        {
+            "default": "python_pip",
             "package": "py-pyepsg"
         },
         {
@@ -25218,6 +25234,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-sphinx-fortran"
+        },
+        {
+            "default": "python_pip",
             "package": "py-sphinx-gallery"
         },
         {
@@ -25439,6 +25459,10 @@
         {
             "default": "python_pip",
             "package": "py-streamlit"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-striprtf"
         },
         {
             "default": "python_pip",
@@ -33197,10 +33221,6 @@
             "package": "stata"
         },
         {
-            "default": "cmake",
-            "package": "static-analysis-suite"
-        },
-        {
             "default": "autotools",
             "package": "stc"
         },
@@ -39775,10 +39795,6 @@
         {
             "default": "Release",
             "package": "starlight"
-        },
-        {
-            "default": "Release",
-            "package": "static-analysis-suite"
         },
         {
             "default": "Release",
@@ -54960,10 +54976,6 @@
         },
         {
             "default": "make",
-            "package": "static-analysis-suite"
-        },
-        {
-            "default": "make",
             "package": "stdexec"
         },
         {
@@ -63087,10 +63099,6 @@
         {
             "default": false,
             "package": "starlight"
-        },
-        {
-            "default": false,
-            "package": "static-analysis-suite"
         },
         {
             "default": false,

@@ -86,6 +86,14 @@
             "name": "lapack"
         },
         {
+            "description": "libjpeg-turbo is a fork of the original IJG libjpeg which uses SIMD to\naccelerate baseline JPEG compression and decompression. libjpeg is a\nlibrary that implements JPEG image encoding, decoding and transcoding.",
+            "name": "libjpeg-turbo"
+        },
+        {
+            "description": "libpng is the official PNG reference library.",
+            "name": "libpng"
+        },
+        {
             "description": "The MED file format is a specialization of the HDF5 standard.",
             "name": "med"
         },

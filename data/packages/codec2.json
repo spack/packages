@@ -19,7 +19,7 @@
     "dependent_to": [],
     "description": "Open source speech codec designed for communications quality speech\nbetween 450 and 3200 bit/s. The main application is low bandwidth HF/VHF\ndigital radio.\n",
     "homepage": "https://www.rowetel.com/?page_id=452",
-    "latest_version": "1.1.0",
+    "latest_version": "1.2.0",
     "maintainers": [],
     "name": "codec2",
     "patches": [],
@@ -47,6 +47,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.2.0",
+            "sha256": "cbccae52b2c2ecc5d2757e407da567eb681241ff8dadce39d779a7219dbcf449"
+        },
         {
             "name": "1.1.0",
             "sha256": "d56ba661008a780b823d576a5a2742c94d0b0507574643a7d4f54c76134826a3"

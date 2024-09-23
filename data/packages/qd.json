@@ -46,7 +46,7 @@
     ],
     "description": "C++/Fortran-90 double-double and quad-double package. With modifications\nfor easier integration with NJet. see http://crd-\nlegacy.lbl.gov/~dhbailey/mpdist/ for authors page\n",
     "homepage": "https://bitbucket.org/njet/qd-library/src/master/",
-    "latest_version": "2.3.13",
+    "latest_version": "2.3.24",
     "maintainers": [],
     "name": "qd",
     "patches": [],
@@ -60,8 +60,16 @@
     ],
     "versions": [
         {
-            "commit": "a57dde96b3255b80f7f39cd80217c213bf78d949",
-            "name": "2.3.13"
+            "name": "2.3.24",
+            "sha256": "a47b6c73f86e6421e86a883568dd08e299b20e36c11a99bdfbe50e01bde60e38"
+        },
+        {
+            "name": "2.3.23",
+            "sha256": "b3eaf41ce413ec08f348ee73e606bd3ff9203e411c377c3c0467f89acf69ee26"
+        },
+        {
+            "name": "2.3.13",
+            "sha256": "b3eaf41ce413ec08f348ee73e606bd3ff9203e411c377c3c0467f89acf69ee26"
         }
     ],
     "versions_deprecated": []

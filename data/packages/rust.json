@@ -129,6 +129,10 @@
             "name": "py-cryptography"
         },
         {
+            "description": "Fast iterable JSON parser.",
+            "name": "py-jiter"
+        },
+        {
             "description": "Low level implementations for computer vision in Rust.",
             "name": "py-kornia-rs"
         },

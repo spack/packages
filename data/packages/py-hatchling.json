@@ -210,6 +210,10 @@
             "name": "py-jupytext"
         },
         {
+            "description": "Check for broken links in web sites.",
+            "name": "py-linkchecker"
+        },
+        {
             "description": "Version numbering for anarchists and software realists.",
             "name": "py-looseversion"
         },
