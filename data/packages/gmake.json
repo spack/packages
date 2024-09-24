@@ -7138,6 +7138,10 @@
             "name": "msmc2"
         },
         {
+            "description": "msr_safe provides controlled userspace access to model-specific\nregisters (MSRs). It allows system administrators to give register-level\nread access and bit-level write access to trusted users in production\nenvironments. This access is useful where kernel drivers have not caught\nup with new processor features, or performance constraints requires\nbatch access across dozens or hundreds of registers.",
+            "name": "msr-safe"
+        },
+        {
             "description": "MSTK is a mesh framework that allows users to represent, manipulate and\nquery unstructured 3D arbitrary topology meshes in a general manner\nwithout the need to code their own data structures. MSTK is a flexible\nframework in that it allows a variety of underlying representations for\nthe mesh while maintaining a common interface. It allows users to choose\nfrom different mesh representations either at initialization\n(implemented) or during the program execution (not yet implemented) so\nthat the optimal data structures are used for the particular algorithm.\nThe interaction of users and applications with MSTK is through a\nfunctional interface that acts as though the mesh always contains\nvertices, edges, faces and regions and maintains connectivity between\nall these entities.",
             "name": "mstk"
         },

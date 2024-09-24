@@ -12009,6 +12009,10 @@
             "package": "msmpi"
         },
         {
+            "default": "makefile",
+            "package": "msr-safe"
+        },
+        {
             "default": "cmake",
             "package": "mstk"
         },
@@ -82743,6 +82747,12 @@
         {
             "default": "none",
             "package": "bufr"
+        }
+    ],
+    "test_linux699": [
+        {
+            "default": false,
+            "package": "msr-safe"
         }
     ],
     "test_ssl": [

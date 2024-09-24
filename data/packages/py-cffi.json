@@ -204,10 +204,20 @@
     ],
     "description": "Foreign Function Interface for Python calling C code\n",
     "homepage": "https://cffi.readthedocs.io/en/latest/",
-    "latest_version": "1.16.0",
+    "latest_version": "1.17.1",
     "maintainers": [],
     "name": "py-cffi",
-    "patches": [],
+    "patches": [
+        {
+            "level": 1,
+            "owner": "builtin.py-cffi",
+            "reverse": false,
+            "sha256": "db836e67e2973ba7d3f4185b385fda49e2398281fc10362e5e413b75fdf93bf0",
+            "url": "https://raw.githubusercontent.com/conda-forge/cffi-feedstock/refs/heads/main/recipe/0003-apple-api.patch",
+            "version": "@1.16: arch=darwin-None-None",
+            "working_dir": "."
+        }
+    ],
     "resources": [],
     "variants": [
         {
@@ -217,6 +227,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.17.1",
+            "sha256": "1c39c6016c32bc48dd54561950ebd6836e1670f2ae46128f67cf49e789c52824"
+        },
         {
             "name": "1.16.0",
             "sha256": "bcb3ef43e58665bbda2fb198698fcae6776483e0c4a631aa5647806c25e02cc0"

@@ -62,12 +62,17 @@
             "name": "util-linux"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "msr_safe provides controlled userspace access to model-specific\nregisters (MSRs). It allows system administrators to give register-level\nread access and bit-level write access to trusted users in production\nenvironments. This access is useful where kernel drivers have not caught\nup with new processor features, or performance constraints requires\nbatch access across dozens or hundreds of registers.",
+            "name": "msr-safe"
+        }
+    ],
     "description": "The Linux kernel provides services to start and stop programs, handles\nthe file system and other common \"low-level\" tasks that most programs\nshare, and schedules access to avoid conflicts when programs try to\naccess the same resource or device simultaneously. The kernel has a\nmodular design such that modules can be integrated as software\ncomponents. In this package, Linux has been configured to build out-of-\ntree kernel modules.\n",
     "homepage": "https://github.com/torvalds/linux",
     "latest_version": "6.10.3",
     "maintainers": [
-        "fleshling",
+        "kyotsukete",
         "rountree"
     ],
     "name": "linux-external-modules",
