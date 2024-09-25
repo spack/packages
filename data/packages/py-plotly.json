@@ -74,6 +74,10 @@
             "name": "py-cufflinks"
         },
         {
+            "description": "Dash is the most downloaded, trusted Python framework for building ML &\ndata science web apps.",
+            "name": "py-dash"
+        },
+        {
             "description": "deepTools addresses the challenge of handling the large amounts of data\nthat are now routinely generated from DNA sequencing centers.",
             "name": "py-deeptools"
         },

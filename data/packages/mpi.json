@@ -1510,6 +1510,10 @@
             "name": "opencoarrays"
         },
         {
+            "description": "OpenCV (Open Source Computer Vision Library) is an open source computer\nvision and machine learning software library.",
+            "name": "opencv"
+        },
+        {
             "description": "Wind turbine simulation package from NREL",
             "name": "openfast"
         },

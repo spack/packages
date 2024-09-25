@@ -94,6 +94,10 @@
             "name": "py-cylc-flow"
         },
         {
+            "description": "Dash is the most downloaded, trusted Python framework for building ML &\ndata science web apps.",
+            "name": "py-dash"
+        },
+        {
             "description": "Dask is a flexible parallel computing library for analytics.",
             "name": "py-dask"
         },

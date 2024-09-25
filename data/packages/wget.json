@@ -6,6 +6,11 @@
             "description": null,
             "name": "arch=windows-None-None",
             "spec": "build_system=autotools"
+        },
+        {
+            "description": null,
+            "name": "openssl@3.0",
+            "spec": "ssl=openssl"
         }
     ],
     "dependencies": [
@@ -63,6 +68,10 @@
         }
     ],
     "dependent_to": [
+        {
+            "description": "Install casacore measures tables, and a tool to maintain them.",
+            "name": "casacore-measures"
+        },
         {
             "description": "Crosstool-NG is a versatile (cross) toolchain generator. It supports\nmany architectures and components and has a simple yet powerful\nmenuconfig-style interface.",
             "name": "crosstool-ng"

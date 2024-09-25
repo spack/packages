@@ -920,6 +920,15 @@
             "sha256": "10f79dfe3fec2a915f6c58e7e769412c8e75bf24fe04ed1b40c912aa1b6ec08f",
             "version": "@2024.1 build_system=cmake",
             "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.cp2k",
+            "relative_path": "d4-dispersion-bugfix-2024.3.patch",
+            "reverse": false,
+            "sha256": "cf8e9cfc078a048e64fb0001a8a241533e0cfd77d6a287a052d81d6d3e4a63c9",
+            "version": "@2024.3",
+            "working_dir": "."
         }
     ],
     "resources": [],

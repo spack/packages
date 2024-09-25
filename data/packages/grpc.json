@@ -46,6 +46,10 @@
             "name": "bear"
         },
         {
+            "description": "C++ Client Libraries for Google Cloud Platform.",
+            "name": "google-cloud-cpp"
+        },
+        {
             "description": "ROCm Data Center Tool",
             "name": "rdc"
         },

@@ -388,6 +388,10 @@
             "name": "py-cupy"
         },
         {
+            "description": "XLA library for Jax",
+            "name": "py-jaxlib"
+        },
+        {
             "description": "ONNX Runtime is a performance-focused complete scoring engine for Open\nNeural Network Exchange (ONNX) models, with an open extensible\narchitecture to continually address the latest developments in AI and\nDeep Learning. ONNX Runtime stays up to date with the ONNX standard with\ncomplete implementation of all ONNX operators, and supports all ONNX\nreleases (1.2+) with both future and backwards compatibility.",
             "name": "py-onnxruntime"
         },
@@ -418,6 +422,10 @@
         {
             "description": "ReSolve is a library of GPU-resident sparse linear solvers. It contains\niterative and direct solvers designed to run on NVIDIA and AMD GPUs, as\nwell as CPU devices.",
             "name": "resolve"
+        },
+        {
+            "description": "The AMD rocAL is designed to efficiently decode and process images and\nvideos from a variety of storage formats and modify them through a\nprocessing graph programmable by the user.",
+            "name": "rocal"
         },
         {
             "description": "Radeon Open Compute BLAS library",

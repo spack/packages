@@ -206,6 +206,14 @@
             "name": "r-animation"
         },
         {
+            "description": "The AMD rocAL is designed to efficiently decode and process images and\nvideos from a variety of storage formats and modify them through a\nprocessing graph programmable by the user.",
+            "name": "rocal"
+        },
+        {
+            "description": "rocPyDecode is a set of Python bindings to rocDecode C++ library which\nprovides full HW acceleration for video decoding on AMD GPUs.",
+            "name": "rocpydecode"
+        },
+        {
             "description": "Eclipse SUMO is an open source, highly portable, microscopic and\ncontinuous road traffic simulation package designed to handle large road\nnetworks. It allows for intermodal simulation including pedestrians and\ncomes with a large set of tools for scenario creation.",
             "name": "sumo"
         },

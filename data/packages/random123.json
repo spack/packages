@@ -28,7 +28,9 @@
     "description": "Random123 is a library of 'counter-based' random number generators\n(CBRNGs), in which the Nth random number can be obtained by applying a\nstateless mixing function to N instead of the conventional approach of\nusing N iterations of a stateful transformation.\n",
     "homepage": "https://www.deshawresearch.com/resources_random123.html",
     "latest_version": "1.14.0",
-    "maintainers": [],
+    "maintainers": [
+        "KineticTheory"
+    ],
     "name": "random123",
     "patches": [
         {
@@ -56,6 +58,15 @@
             "reverse": false,
             "sha256": "ceda9371f95401922515a1acd35891079cdbaa825ee1d998d6f31995e96aa282",
             "version": "@1.13.2",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.random123",
+            "relative_path": "v1140-hip.patch",
+            "reverse": false,
+            "sha256": "2d69277ecbcc42fc918753165788fff7564f349f247025416d95bc5490101710",
+            "version": "@1.14.0",
             "working_dir": "."
         }
     ],

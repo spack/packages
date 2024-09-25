@@ -871,7 +871,7 @@
     "resources": [],
     "variants": [
         {
-            "default": false,
+            "default": true,
             "description": "Enable built-in atomics",
             "name": "atomics"
         },

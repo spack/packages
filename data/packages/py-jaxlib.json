@@ -379,6 +379,11 @@
         },
         {
             "description": null,
+            "name": "amdgpu_target=none",
+            "spec": "+rocm"
+        },
+        {
+            "description": null,
             "name": "@0.4.4:",
             "spec": "arch=None-None-ppc64le:"
         }
@@ -397,6 +402,34 @@
             "name": "cudnn"
         },
         {
+            "description": "HIP is a C++ Runtime API and Kernel Language that allows developers to\ncreate portable applications for AMD and NVIDIA GPUs from single source\ncode.",
+            "name": "hip"
+        },
+        {
+            "description": "Radeon Open Compute Parallel Primitives Library",
+            "name": "hipcub"
+        },
+        {
+            "description": "hipFFT is an FFT marshalling library. Currently, hipFFT supports either\nrocFFT or cuFFT as backends.hipFFT exports an interface that does not\nrequire the client to change, regardless of the chosen backend. It sits\nbetween the application and the backend FFT library, marshalling inputs\ninto the backend and results back to the application.",
+            "name": "hipfft"
+        },
+        {
+            "description": "hipSPARSE is a SPARSE marshalling library, with multiple supported\nbackends",
+            "name": "hipsparse"
+        },
+        {
+            "description": "This repository includes the user mode API nterfaces and libraries\nnecessary for host applications to launch computer kernels to available\nHSA ROCm kernel agents.AMD Heterogeneous System Architecture HSA - Linux\nHSA Runtime for Boltzmann (ROCm) platforms.",
+            "name": "hsa-rocr-dev"
+        },
+        {
+            "description": "Toolkit for the construction of highly optimized compilers, optimizers,\nand run-time environments.",
+            "name": "llvm-amdgpu"
+        },
+        {
+            "description": "AMD's library for high performance machine learning primitives.",
+            "name": "miopen-hip"
+        },
+        {
             "description": "Optimized primitives for collective multi-GPU communication.",
             "name": "nccl"
         },
@@ -407,6 +440,10 @@
         {
             "description": "A stand-alone implementation of several NumPy dtype extensions used in\nmachine learning libraries.",
             "name": "py-ml-dtypes"
+        },
+        {
+            "description": "nanobind is a small binding library that exposes C++ types in Python and\nvice versa. It is reminiscent of Boost.Python and pybind11 and uses\nnear-identical syntax. In contrast to these existing tools, nanobind is\nmore efficient: bindings compile in a shorter amount of time, produce\nsmaller binaries, and have better runtime performance.",
+            "name": "py-nanobind"
         },
         {
             "description": "Fundamental package for array computing in Python.",
@@ -435,6 +472,38 @@
         {
             "description": "A Spack managed Python virtual environment",
             "name": "python-venv"
+        },
+        {
+            "description": "RCCL (pronounced \"Rickle\") is a stand-alone library of standard\ncollective communication routines for GPUs, implementing all-reduce,\nall-gather, reduce, broadcast, and reduce-scatter.",
+            "name": "rccl"
+        },
+        {
+            "description": "Radeon Open Compute BLAS library",
+            "name": "rocblas"
+        },
+        {
+            "description": "Radeon Open Compute FFT library",
+            "name": "rocfft"
+        },
+        {
+            "description": "Radeon Open Compute (ROCm) Runtime rocminfo tool",
+            "name": "rocminfo"
+        },
+        {
+            "description": "Radeon Open Compute Parallel Primitives Library",
+            "name": "rocprim"
+        },
+        {
+            "description": "The rocRAND project provides functions that generate pseudo-random and\nquasi-random numbers.",
+            "name": "rocrand"
+        },
+        {
+            "description": "Thrust is a parallel algorithm library. This library has been ported to\nHIP/ROCm platform, which uses the rocPRIM library. The HIP ported\nlibrary works on HIP/ROCm platforms",
+            "name": "rocthrust"
+        },
+        {
+            "description": "ROC-tracer library: Runtimes Generic Callback/Activity APIs. The goal of\nthe implementation is to provide a generic independent from specific\nruntime profiler to trace API and asyncronous activity.",
+            "name": "roctracer-dev"
         }
     ],
     "dependent_to": [
@@ -497,6 +566,11 @@
     "resources": [],
     "variants": [
         {
+            "default": "none",
+            "description": "AMD GPU architecture",
+            "name": "amdgpu_target"
+        },
+        {
             "default": "python_pip",
             "description": "Build systems supported by the package",
             "name": "build_system"
@@ -515,6 +589,11 @@
             "default": true,
             "description": "Build with NCCL enabled",
             "name": "nccl"
+        },
+        {
+            "default": false,
+            "description": "Enable ROCm support",
+            "name": "rocm"
         }
     ],
     "versions": [

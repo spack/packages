@@ -11,6 +11,10 @@
         {
             "description": "Manipulate JSON-like data with NumPy-like idioms.",
             "name": "py-awkward"
+        },
+        {
+            "description": "rocPyDecode is a set of Python bindings to rocDecode C++ library which\nprovides full HW acceleration for video decoding on AMD GPUs.",
+            "name": "rocpydecode"
         }
     ],
     "description": "DLPack is an RFC for common tensor and operator guidelines in deep\nlearning systems.\n",

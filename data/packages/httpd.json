@@ -54,7 +54,7 @@
     ],
     "description": "The Apache HTTP Server is a powerful and flexible HTTP/1.1 compliant web\nserver.\n",
     "homepage": "https://httpd.apache.org/",
-    "latest_version": "2.4.59",
+    "latest_version": "2.4.62",
     "maintainers": [],
     "name": "httpd",
     "patches": [],
@@ -68,30 +68,18 @@
     ],
     "versions": [
         {
+            "name": "2.4.62",
+            "sha256": "674188e7bf44ced82da8db522da946849e22080d73d16c93f7f4df89e25729ec"
+        }
+    ],
+    "versions_deprecated": [
+        {
             "name": "2.4.59",
             "sha256": "ec51501ec480284ff52f637258135d333230a7d229c3afa6f6c2f9040e321323"
         },
         {
             "name": "2.4.55",
             "sha256": "11d6ba19e36c0b93ca62e47e6ffc2d2f2884942694bce0f23f39c71bdc5f69ac"
-        }
-    ],
-    "versions_deprecated": [
-        {
-            "name": "2.4.43",
-            "sha256": "a497652ab3fc81318cdc2a203090a999150d86461acff97c1065dc910fe10f43"
-        },
-        {
-            "name": "2.4.41",
-            "sha256": "133d48298fe5315ae9366a0ec66282fa4040efa5d566174481077ade7d18ea40"
-        },
-        {
-            "name": "2.4.39",
-            "sha256": "b4ca9d05773aa59b54d66cd8f4744b945289f084d3be17d7981d1783a5decfa2"
-        },
-        {
-            "name": "2.4.38",
-            "sha256": "7dc65857a994c98370dc4334b260101a7a04be60e6e74a5c57a6dee1bc8f394a"
         }
     ]
 }

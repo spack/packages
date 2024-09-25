@@ -1391,6 +1391,11 @@
         },
         {
             "default": false,
+            "description": "Enable relaxed constexpr functions for CUDA build",
+            "name": "cuda_constexpr"
+        },
+        {
+            "default": false,
             "description": "Turn on RDC for CUDA build",
             "name": "cuda_rdc"
         },

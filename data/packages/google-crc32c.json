@@ -18,6 +18,10 @@
     ],
     "dependent_to": [
         {
+            "description": "C++ Client Libraries for Google Cloud Platform.",
+            "name": "google-cloud-cpp"
+        },
+        {
             "description": "This package wraps the google/crc32c hardware-based implementation of\nthe CRC32C hashing algorithm.",
             "name": "py-google-crc32c"
         }

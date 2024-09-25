@@ -198,6 +198,10 @@
             "name": "py-melissa-core"
         },
         {
+            "description": "METIS partitioner for mesh and graphMETIS partitioner for mesh and graph",
+            "name": "py-mgmetis"
+        },
+        {
             "description": "Zero-copy MPI communication of JAX arrays, for turbo-charged HPC\napplications in Python.",
             "name": "py-mpi4jax"
         },

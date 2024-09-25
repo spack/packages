@@ -986,6 +986,10 @@
         },
         {
             "default": "none",
+            "package": "py-jaxlib"
+        },
+        {
+            "default": "none",
             "package": "py-onnxruntime"
         },
         {
@@ -1027,6 +1031,10 @@
         {
             "default": "auto",
             "package": "rocblas"
+        },
+        {
+            "default": "auto",
+            "package": "rocdecode"
         },
         {
             "default": "auto",
@@ -1869,7 +1877,7 @@
             "package": "libpsm3"
         },
         {
-            "default": false,
+            "default": true,
             "package": "openmpi"
         }
     ],
@@ -4431,6 +4439,10 @@
         {
             "default": "cmake",
             "package": "casacore"
+        },
+        {
+            "default": "generic",
+            "package": "casacore-measures"
         },
         {
             "default": "generic",
@@ -7687,6 +7699,10 @@
         {
             "default": "generic",
             "package": "google-cloud-cli"
+        },
+        {
+            "default": "cmake",
+            "package": "google-cloud-cpp"
         },
         {
             "default": "cmake",
@@ -12811,6 +12827,10 @@
         {
             "default": "makefile",
             "package": "omm-bundle"
+        },
+        {
+            "default": "cmake",
+            "package": "omniperf"
         },
         {
             "default": "cmake",
@@ -18254,6 +18274,18 @@
         },
         {
             "default": "python_pip",
+            "package": "py-dash"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-dash-bootstrap-components"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-dash-svg"
+        },
+        {
+            "default": "python_pip",
             "package": "py-dask"
         },
         {
@@ -21166,6 +21198,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-mgmetis"
+        },
+        {
+            "default": "python_pip",
             "package": "py-mido"
         },
         {
@@ -21727,6 +21763,10 @@
         {
             "default": "python_pip",
             "package": "py-nodeenv"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-non-regression-test-tools"
         },
         {
             "default": "python_pip",
@@ -22467,6 +22507,10 @@
         {
             "default": "python_pip",
             "package": "py-plotext"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-plotille"
         },
         {
             "default": "python_pip",
@@ -31898,11 +31942,19 @@
         },
         {
             "default": "cmake",
+            "package": "rocal"
+        },
+        {
+            "default": "cmake",
             "package": "rocalution"
         },
         {
             "default": "cmake",
             "package": "rocblas"
+        },
+        {
+            "default": "cmake",
+            "package": "rocdecode"
         },
         {
             "default": "cmake",
@@ -31991,6 +32043,10 @@
         {
             "default": "cmake",
             "package": "rocprofiler-register"
+        },
+        {
+            "default": "cmake",
+            "package": "rocpydecode"
         },
         {
             "default": "cmake",
@@ -37066,6 +37122,10 @@
         },
         {
             "default": "Release",
+            "package": "google-cloud-cpp"
+        },
+        {
+            "default": "Release",
             "package": "google-crc32c"
         },
         {
@@ -38574,6 +38634,10 @@
         },
         {
             "default": "Release",
+            "package": "omniperf"
+        },
+        {
+            "default": "Release",
             "package": "omnitrace"
         },
         {
@@ -39318,11 +39382,19 @@
         },
         {
             "default": "Release",
+            "package": "rocal"
+        },
+        {
+            "default": "Release",
             "package": "rocalution"
         },
         {
             "default": "Release",
             "package": "rocblas"
+        },
+        {
+            "default": "Release",
+            "package": "rocdecode"
         },
         {
             "default": "Release",
@@ -39391,6 +39463,10 @@
         {
             "default": "Release",
             "package": "rocprofiler-register"
+        },
+        {
+            "default": "Release",
+            "package": "rocpydecode"
         },
         {
             "default": "Release",
@@ -44457,6 +44533,10 @@
         {
             "default": false,
             "package": "kokkos"
+        },
+        {
+            "default": false,
+            "package": "trilinos"
         }
     ],
     "cuda_fft": [
@@ -44979,7 +45059,7 @@
             "package": "detray"
         },
         {
-            "default": "17",
+            "default": "20",
             "package": "edm4hep"
         },
         {
@@ -45013,6 +45093,10 @@
         {
             "default": "17",
             "package": "gitconddb"
+        },
+        {
+            "default": "11",
+            "package": "google-cloud-cpp"
         },
         {
             "default": "11",
@@ -52244,6 +52328,10 @@
         },
         {
             "default": "make",
+            "package": "google-cloud-cpp"
+        },
+        {
+            "default": "make",
             "package": "google-crc32c"
         },
         {
@@ -53752,6 +53840,10 @@
         },
         {
             "default": "make",
+            "package": "omniperf"
+        },
+        {
+            "default": "make",
             "package": "omnitrace"
         },
         {
@@ -54496,11 +54588,19 @@
         },
         {
             "default": "make",
+            "package": "rocal"
+        },
+        {
+            "default": "make",
             "package": "rocalution"
         },
         {
             "default": "make",
             "package": "rocblas"
+        },
+        {
+            "default": "make",
+            "package": "rocdecode"
         },
         {
             "default": "make",
@@ -54569,6 +54669,10 @@
         {
             "default": "make",
             "package": "rocprofiler-register"
+        },
+        {
+            "default": "make",
+            "package": "rocpydecode"
         },
         {
             "default": "make",
@@ -60374,6 +60478,10 @@
         },
         {
             "default": false,
+            "package": "google-cloud-cpp"
+        },
+        {
+            "default": false,
             "package": "google-crc32c"
         },
         {
@@ -61878,6 +61986,10 @@
         },
         {
             "default": false,
+            "package": "omniperf"
+        },
+        {
+            "default": false,
             "package": "omnitrace"
         },
         {
@@ -62622,11 +62734,19 @@
         },
         {
             "default": false,
+            "package": "rocal"
+        },
+        {
+            "default": false,
             "package": "rocalution"
         },
         {
             "default": false,
             "package": "rocblas"
+        },
+        {
+            "default": false,
+            "package": "rocdecode"
         },
         {
             "default": false,
@@ -62695,6 +62815,10 @@
         {
             "default": false,
             "package": "rocprofiler-register"
+        },
+        {
+            "default": false,
+            "package": "rocpydecode"
         },
         {
             "default": false,
@@ -77344,6 +77468,10 @@
         },
         {
             "default": false,
+            "package": "py-jaxlib"
+        },
+        {
+            "default": false,
             "package": "py-onnxruntime"
         },
         {
@@ -79043,6 +79171,10 @@
         {
             "default": true,
             "package": "gnds"
+        },
+        {
+            "default": false,
+            "package": "google-cloud-cpp"
         },
         {
             "default": true,

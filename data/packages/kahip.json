@@ -82,6 +82,15 @@
             "sha256": "fcdd40aa1422aff7c82cb39d9930c2621ecec5dc34f2efb41f7542ac91d43d35",
             "version": "@2.00 ^python@3:",
             "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.kahip",
+            "relative_path": "cstdint.patch",
+            "reverse": false,
+            "sha256": "1cef97e08cc461f51596064cfb015cbb68f2822f026392651c5c72bb8c6a200d",
+            "version": "@3:",
+            "working_dir": "."
         }
     ],
     "resources": [],

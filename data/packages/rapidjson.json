@@ -64,6 +64,10 @@
             "name": "py-awkward"
         },
         {
+            "description": "The AMD rocAL is designed to efficiently decode and process images and\nvideos from a variety of storage formats and modify them through a\nprocessing graph programmable by the user.",
+            "name": "rocal"
+        },
+        {
             "description": "Sarus is an OCI-compliant container engine for HPC systems.",
             "name": "sarus"
         }

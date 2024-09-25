@@ -330,6 +330,10 @@
             "name": "reprimand"
         },
         {
+            "description": "rocPyDecode is a set of Python bindings to rocDecode C++ library which\nprovides full HW acceleration for video decoding on AMD GPUs.",
+            "name": "rocpydecode"
+        },
+        {
             "description": "The SCINE database module is a database wrapper for a MongoDB encoding\nreaction networks.",
             "name": "scine-database"
         },
@@ -404,7 +408,7 @@
     ],
     "description": "pybind11 -- Seamless operability between C++11 and Python. pybind11 is a\nlightweight header-only library that exposes C++ types in Python and\nvice versa, mainly to create Python bindings of existing C++ code. Its\ngoals and syntax are similar to the excellent Boost.Python library by\nDavid Abrahams: to minimize boilerplate code in traditional extension\nmodules by inferring type information using compile-time introspection.\n",
     "homepage": "https://pybind11.readthedocs.io",
-    "latest_version": "2.13.4",
+    "latest_version": "2.13.5",
     "maintainers": [
         "ax3l"
     ],
@@ -437,6 +441,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "2.13.5",
+            "sha256": "b1e209c42b3a9ed74da3e0b25a4f4cd478d89d5efbb48f04b277df427faf6252"
         },
         {
             "name": "2.13.4",

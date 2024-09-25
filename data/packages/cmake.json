@@ -1743,6 +1743,10 @@
             "name": "goma"
         },
         {
+            "description": "C++ Client Libraries for Google Cloud Platform.",
+            "name": "google-cloud-cpp"
+        },
+        {
             "description": "CRC32C implementation with support for CPU-specific acceleration\ninstructions.",
             "name": "google-crc32c"
         },
@@ -3299,6 +3303,10 @@
             "name": "omm"
         },
         {
+            "description": "Advanced Profiling and Analytics for AMD Hardware",
+            "name": "omniperf"
+        },
+        {
             "description": "Application Profiling, Tracing, and Analysis",
             "name": "omnitrace"
         },
@@ -4319,12 +4327,20 @@
             "name": "rmlab"
         },
         {
+            "description": "The AMD rocAL is designed to efficiently decode and process images and\nvideos from a variety of storage formats and modify them through a\nprocessing graph programmable by the user.",
+            "name": "rocal"
+        },
+        {
             "description": "rocALUTION is a sparse linear algebra library with focus on exploring\nfine-grained parallelism on top of AMD's Radeon Open eCosystem Platform\nROCm runtime and toolchains, targeting modern CPU and GPU platforms.\nBased on C++ and HIP, it provides a portable, generic and flexible\ndesign that allows seamless integration with other scientific software\npackages.",
             "name": "rocalution"
         },
         {
             "description": "Radeon Open Compute BLAS library",
             "name": "rocblas"
+        },
+        {
+            "description": "rocDecode is a high performance video decode SDK for AMD hardware",
+            "name": "rocdecode"
         },
         {
             "description": "Radeon Open Compute FFT library",
@@ -4401,6 +4417,10 @@
         {
             "description": "The rocprofiler-register library is a helper library that coordinates\nthe modification of the intercept API table(s) of the HSA/HIP/ROCTx\nruntime libraries by the ROCprofiler (v2) library",
             "name": "rocprofiler-register"
+        },
+        {
+            "description": "rocPyDecode is a set of Python bindings to rocDecode C++ library which\nprovides full HW acceleration for video decoding on AMD GPUs.",
+            "name": "rocpydecode"
         },
         {
             "description": "The rocRAND project provides functions that generate pseudo-random and\nquasi-random numbers.",

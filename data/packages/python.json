@@ -1339,6 +1339,10 @@
             "name": "ome-model"
         },
         {
+            "description": "Advanced Profiling and Analytics for AMD Hardware",
+            "name": "omniperf"
+        },
+        {
             "description": "Application Profiling, Tracing, and Analysis",
             "name": "omnitrace"
         },
@@ -3605,6 +3609,18 @@
         {
             "description": "Dasbus is a DBus library written in Python 3, based on GLib and inspired\nby pydbus.",
             "name": "py-dasbus"
+        },
+        {
+            "description": "Dash is the most downloaded, trusted Python framework for building ML &\ndata science web apps.",
+            "name": "py-dash"
+        },
+        {
+            "description": "Bootstrap themed components for use in Plotly Dash",
+            "name": "py-dash-bootstrap-components"
+        },
+        {
+            "description": "SVG support library for Plotly/Dash",
+            "name": "py-dash-svg"
         },
         {
             "description": "Dask is a flexible parallel computing library for analytics.",
@@ -6515,6 +6531,10 @@
             "name": "py-mg-rast-tools"
         },
         {
+            "description": "METIS partitioner for mesh and graphMETIS partitioner for mesh and graph",
+            "name": "py-mgmetis"
+        },
+        {
             "description": "Mido is a library for working with MIDI messages and ports. It's\ndesigned to be as straight forward and Pythonic as possible.",
             "name": "py-mido"
         },
@@ -7077,6 +7097,10 @@
         {
             "description": "Node.js virtual environment",
             "name": "py-nodeenv"
+        },
+        {
+            "description": "non regression test tools.",
+            "name": "py-non-regression-test-tools"
         },
         {
             "description": "nose extends the test loading and running features of unittest, making\nit easier to write, find and run tests.",
@@ -7817,6 +7841,10 @@
         {
             "description": "Plotext plots directly on terminal.",
             "name": "py-plotext"
+        },
+        {
+            "description": "Plot in the terminal using braille dots.",
+            "name": "py-plotille"
         },
         {
             "description": "An interactive, browser-based graphing library for Python",

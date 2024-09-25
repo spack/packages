@@ -262,6 +262,10 @@
             "name": "py-mdanalysistests"
         },
         {
+            "description": "METIS partitioner for mesh and graphMETIS partitioner for mesh and graph",
+            "name": "py-mgmetis"
+        },
+        {
             "description": "Basis Functions and Node Sets for Interpolation",
             "name": "py-modepy"
         },

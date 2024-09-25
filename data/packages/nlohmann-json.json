@@ -79,6 +79,10 @@
             "name": "gitconddb"
         },
         {
+            "description": "C++ Client Libraries for Google Cloud Platform.",
+            "name": "google-cloud-cpp"
+        },
+        {
             "description": "A header only library for creating and validating JSON Web Tokens in\nC++11.",
             "name": "jwt-cpp"
         },

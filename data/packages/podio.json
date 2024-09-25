@@ -74,7 +74,7 @@
     ],
     "description": "PODIO, or plain-old-data I/O, is a C++ library to support the creation\nand handling of data models in particle physics.\n",
     "homepage": "https://github.com/AIDASoft/podio",
-    "latest_version": "1.0.1",
+    "latest_version": "1.1",
     "maintainers": [
         "drbenmorgan",
         "jmcarcell",
@@ -140,6 +140,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "1.1",
+            "sha256": "2cb5040761f3da4383e1f126da25d68e99ecd8398e0ff12e7475a3745a7030a6"
         },
         {
             "name": "1.0.1",

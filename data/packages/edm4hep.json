@@ -68,7 +68,7 @@
     ],
     "description": "Event data model of Key4hep.\n",
     "homepage": "https://github.com/key4hep/EDM4hep",
-    "latest_version": "0.99",
+    "latest_version": "0.99.1",
     "maintainers": [
         "jmcarcell",
         "tmadlener",
@@ -89,7 +89,7 @@
             "name": "build_type"
         },
         {
-            "default": "17",
+            "default": "20",
             "description": "Use the specified C++ standard when building.",
             "name": "cxxstd"
         },
@@ -108,6 +108,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "0.99.1",
+            "sha256": "84d990f09dbd0ad2198596c0c51238a4b15391f51febfb15dd3d191dc7aae9f4"
         },
         {
             "name": "0.99",

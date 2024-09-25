@@ -57,6 +57,10 @@
             "name": "gnina"
         },
         {
+            "description": "C++ Client Libraries for Google Cloud Platform.",
+            "name": "google-cloud-cpp"
+        },
+        {
             "description": "A high performance, open-source universal RPC framework.",
             "name": "grpc"
         },

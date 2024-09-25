@@ -143,7 +143,12 @@
             "name": "rpp"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "The AMD rocAL is designed to efficiently decode and process images and\nvideos from a variety of storage formats and modify them through a\nprocessing graph programmable by the user.",
+            "name": "rocal"
+        }
+    ],
     "description": "MIVisionX toolkit is a set of comprehensive computer vision and machine\nintelligence libraries, utilities, and applications bundled into a\nsingle toolkit.\n",
     "homepage": "https://github.com/GPUOpen-ProfessionalCompute-Libraries/MIVisionX",
     "latest_version": "6.2.0",

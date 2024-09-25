@@ -30,6 +30,10 @@
             "name": "mongodb"
         },
         {
+            "description": "Advanced Profiling and Analytics for AMD Hardware",
+            "name": "omniperf"
+        },
+        {
             "description": "Apache Beam is a unified programming model for Batch and Streaming.",
             "name": "py-apache-beam"
         },

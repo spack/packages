@@ -43,7 +43,7 @@
     "dependent_to": [],
     "description": "The Dakota toolkit provides a flexible, extensible interface between\nanalysis codes and iterative systems analysis methods. Dakota contains\nalgorithms for: - optimization with gradient and non gradient-based\nmethods; - uncertainty quantification with sampling, reliability,\nstochastic - expansion, and epistemic methods; - parameter estimation\nwith nonlinear least squares methods; - sensitivity/variance analysis\nwith design of experiments and - parameter study methods. These\ncapabilities may be used on their own or as components within advanced\nstrategies such as hybrid optimization, surrogate-based optimization,\nmixed integer nonlinear programming, or optimization under uncertainty.\n",
     "homepage": "https://dakota.sandia.gov/",
-    "latest_version": "6.19.0",
+    "latest_version": "6.20.0",
     "maintainers": [],
     "name": "dakota",
     "patches": [],
@@ -86,6 +86,11 @@
         }
     ],
     "versions": [
+        {
+            "commit": "494027b37264ec9268f2de8649d071de0232c534",
+            "name": "6.20.0",
+            "tag": "v6.20.0"
+        },
         {
             "commit": "603f448b916a8f629d258922e26e7e40dcaaf8ce",
             "name": "6.19.0",

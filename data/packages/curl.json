@@ -211,6 +211,10 @@
             "name": "gmt"
         },
         {
+            "description": "C++ Client Libraries for Google Cloud Platform.",
+            "name": "google-cloud-cpp"
+        },
+        {
             "description": "HapCUT2 is a maximum-likelihood-based tool for assembling haplotypes\nfrom DNA sequence reads, designed to 'just work' with excellent speed\nand accuracy.",
             "name": "hapcut2"
         },

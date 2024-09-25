@@ -172,6 +172,10 @@
             "name": "ppopen-appl-fvm"
         },
         {
+            "description": "METIS partitioner for mesh and graphMETIS partitioner for mesh and graph",
+            "name": "py-mgmetis"
+        },
+        {
             "description": "PyFR is an open-source Python based framework for solving advection-\ndiffusion type problems on streaming architectures using the Flux\nReconstruction approach of Huynh.",
             "name": "py-pyfr"
         },

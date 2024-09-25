@@ -50,6 +50,10 @@
             "name": "gatetools"
         },
         {
+            "description": "Advanced Profiling and Analytics for AMD Hardware",
+            "name": "omniperf"
+        },
+        {
             "description": "ABCpy is a highly modular, scientific library for approximate Bayesian\ncomputation (ABC) written in Python. It is designed to run all included\nABC algorithms in parallel, either using multiple cores of a single\ncomputer or using an Apache Spark or MPI enabled cluster.",
             "name": "py-abcpy"
         },

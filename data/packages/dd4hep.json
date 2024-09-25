@@ -131,7 +131,7 @@
     ],
     "description": "DD4hep is a software framework for providing a complete solution for\nfull detector description (geometry, materials, visualization, readout,\nalignment, calibration, etc.) for the full experiment life cycle\n(detector concept development, detector optimization, construction,\noperation). It offers a consistent description through a single source\nof detector information for simulation, reconstruction, analysis, etc.\nIt distributed under the LGPLv3 License.\n",
     "homepage": "https://dd4hep.web.cern.ch/dd4hep/",
-    "latest_version": "1.29",
+    "latest_version": "1.30",
     "maintainers": [
         "drbenmorgan",
         "jmcarcell",
@@ -270,6 +270,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "1.30",
+            "sha256": "02de46151e945eff58cffd84b4b86d35051f4436608199c3efb4d2e1183889fe"
         },
         {
             "name": "1.29",

@@ -1524,6 +1524,10 @@
         "name": "casacore"
     },
     {
+        "description": "Install casacore measures tables, and a tool to maintain them.\n",
+        "name": "casacore-measures"
+    },
+    {
         "description": "Cask is a project management tool for Emacs Lisp to automate the package\ndevelopment cycle; development, dependencies, testing, building,\npackaging and more.\n",
         "name": "cask"
     },
@@ -4822,6 +4826,10 @@
     {
         "description": "Create and manage Google Cloud resources and services directly on the\ncommand line or via scripts using the Google Cloud CLI.\n",
         "name": "google-cloud-cli"
+    },
+    {
+        "description": "C++ Client Libraries for Google Cloud Platform.\n",
+        "name": "google-cloud-cpp"
     },
     {
         "description": "CRC32C implementation with support for CPU-specific acceleration\ninstructions.\n",
@@ -10006,6 +10014,10 @@
     {
         "description": "Omm-bundle is a library implementing the orbital minimization method for\nsolving the Kohn-Sham equation as a generalized eigenvalue problem and a\nbundle of four separate libraries: pspBLAS, MatrixSwitch, libOMM,\ntomato.\n",
         "name": "omm-bundle"
+    },
+    {
+        "description": "Advanced Profiling and Analytics for AMD Hardware\n",
+        "name": "omniperf"
     },
     {
         "description": "Application Profiling, Tracing, and Analysis\n",
@@ -15468,6 +15480,18 @@
         "name": "py-dasbus"
     },
     {
+        "description": "Dash is the most downloaded, trusted Python framework for building ML &\ndata science web apps.\n",
+        "name": "py-dash"
+    },
+    {
+        "description": "Bootstrap themed components for use in Plotly Dash\n",
+        "name": "py-dash-bootstrap-components"
+    },
+    {
+        "description": "SVG support library for Plotly/Dash\n",
+        "name": "py-dash-svg"
+    },
+    {
         "description": "Dask is a flexible parallel computing library for analytics.\n",
         "name": "py-dask"
     },
@@ -18380,6 +18404,10 @@
         "name": "py-mg-rast-tools"
     },
     {
+        "description": "METIS partitioner for mesh and graphMETIS partitioner for mesh and graph\n",
+        "name": "py-mgmetis"
+    },
+    {
         "description": "Mido is a library for working with MIDI messages and ports. It's\ndesigned to be as straight forward and Pythonic as possible.\n",
         "name": "py-mido"
     },
@@ -18942,6 +18970,10 @@
     {
         "description": "Node.js virtual environment\n",
         "name": "py-nodeenv"
+    },
+    {
+        "description": "non regression test tools.\n",
+        "name": "py-non-regression-test-tools"
     },
     {
         "description": "nose extends the test loading and running features of unittest, making\nit easier to write, find and run tests.\n",
@@ -19682,6 +19714,10 @@
     {
         "description": "Plotext plots directly on terminal.\n",
         "name": "py-plotext"
+    },
+    {
+        "description": "Plot in the terminal using braille dots.\n",
+        "name": "py-plotille"
     },
     {
         "description": "An interactive, browser-based graphing library for Python\n",
@@ -29116,12 +29152,20 @@
         "name": "roary"
     },
     {
+        "description": "The AMD rocAL is designed to efficiently decode and process images and\nvideos from a variety of storage formats and modify them through a\nprocessing graph programmable by the user.\n",
+        "name": "rocal"
+    },
+    {
         "description": "rocALUTION is a sparse linear algebra library with focus on exploring\nfine-grained parallelism on top of AMD's Radeon Open eCosystem Platform\nROCm runtime and toolchains, targeting modern CPU and GPU platforms.\nBased on C++ and HIP, it provides a portable, generic and flexible\ndesign that allows seamless integration with other scientific software\npackages.\n",
         "name": "rocalution"
     },
     {
         "description": "Radeon Open Compute BLAS library\n",
         "name": "rocblas"
+    },
+    {
+        "description": "rocDecode is a high performance video decode SDK for AMD hardware\n",
+        "name": "rocdecode"
     },
     {
         "description": "Radeon Open Compute FFT library\n",
@@ -29210,6 +29254,10 @@
     {
         "description": "The rocprofiler-register library is a helper library that coordinates\nthe modification of the intercept API table(s) of the HSA/HIP/ROCTx\nruntime libraries by the ROCprofiler (v2) library\n",
         "name": "rocprofiler-register"
+    },
+    {
+        "description": "rocPyDecode is a set of Python bindings to rocDecode C++ library which\nprovides full HW acceleration for video decoding on AMD GPUs.\n",
+        "name": "rocpydecode"
     },
     {
         "description": "The rocRAND project provides functions that generate pseudo-random and\nquasi-random numbers.\n",

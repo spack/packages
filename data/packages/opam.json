@@ -25,7 +25,7 @@
     "dependent_to": [],
     "description": "OPAM: OCaml Package Manager OPAM is a source-based package manager for\nOCaml. It supports multiple simultaneous compiler installations,\nflexible package constraints, and a Git-friendly development workflow.\n",
     "homepage": "https://opam.ocaml.org/",
-    "latest_version": "2.1.3",
+    "latest_version": "2.2.1",
     "maintainers": [
         "scemama"
     ],
@@ -40,6 +40,26 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.2.1",
+            "sha256": "07ad3887f61e0bc61a0923faae16fcc141285ece5b248a9e2cd4f902523cc121"
+        },
+        {
+            "name": "2.2.0",
+            "sha256": "39334f36adbe280683487cf204b7b0642080fc5965747f7d6f7cc7b83cd7a192"
+        },
+        {
+            "name": "2.1.6",
+            "sha256": "d2af5edc85f552e0cf5ec0ddcc949d94f2dc550dc5df595174a06a4eaf8af628"
+        },
+        {
+            "name": "2.1.5",
+            "sha256": "09f8d9e410b2f5723c2bfedbf7970e3b305f5017895fcd91759f05e753ddcea5"
+        },
+        {
+            "name": "2.1.4",
+            "sha256": "1643609f4eea758eb899dc8df57b88438e525d91592056f135e6e045d0d916cb"
+        },
         {
             "name": "2.1.3",
             "sha256": "cb2ab00661566178318939918085aa4b5c35c727df83751fd92d114fdd2fa001"

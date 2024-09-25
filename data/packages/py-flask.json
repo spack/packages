@@ -62,6 +62,10 @@
             "name": "py-dace"
         },
         {
+            "description": "Dash is the most downloaded, trusted Python framework for building ML &\ndata science web apps.",
+            "name": "py-dash"
+        },
+        {
             "description": "DataLad extension for exposing commands via a web request API",
             "name": "py-datalad-webapp"
         },

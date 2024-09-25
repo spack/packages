@@ -26,6 +26,10 @@
     ],
     "dependent_to": [
         {
+            "description": "Advanced Profiling and Analytics for AMD Hardware",
+            "name": "omniperf"
+        },
+        {
             "description": "Productivity Tools for Plotly + Pandas. This library binds the power of\nplotly with the flexibility of pandas for easy plotting.",
             "name": "py-cufflinks"
         }

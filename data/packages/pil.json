@@ -13,6 +13,10 @@
             "name": "pil"
         },
         {
+            "alias_for": "py-pillow-simd@9.5.0.post1",
+            "name": "pil"
+        },
+        {
             "alias_for": "py-pillow-simd",
             "name": "pil"
         }
@@ -316,7 +320,7 @@
     ],
     "description": "Pillow-SIMD is a SIMD-enabled fork of Pillow. It is usually 4-6x faster\nthan the original Pillow in image processing benchmarks.\n",
     "homepage": "https://github.com/uploadcare/pillow-simd",
-    "latest_version": "9.0.0.post1",
+    "latest_version": "9.5.0.post1",
     "maintainers": [
         "adamjstewart"
     ],
@@ -386,6 +390,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "9.5.0.post1",
+            "sha256": "8c89b85c4085532752625f2cc066a28547cebb98529acf932d5d84c1a7ab2abc"
+        },
         {
             "name": "9.0.0.post1",
             "sha256": "918541cfaa90ba3c0e1bae5da31ba1b1f52b09c0009bd90183b787af4e018263"

@@ -398,6 +398,10 @@
             "name": "py-memray"
         },
         {
+            "description": "METIS partitioner for mesh and graphMETIS partitioner for mesh and graph",
+            "name": "py-mgmetis"
+        },
+        {
             "description": "Mikado is a lightweight Python3 pipeline whose purpose is to facilitate\nthe identification of expressed loci from RNA-Seq data * and to select\nthe best models in each locus.",
             "name": "py-mikado"
         },

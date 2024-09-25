@@ -61,6 +61,10 @@
             "name": "mivisionx"
         },
         {
+            "description": "The AMD rocAL is designed to efficiently decode and process images and\nvideos from a variety of storage formats and modify them through a\nprocessing graph programmable by the user.",
+            "name": "rocal"
+        },
+        {
             "description": "Radeon Performance Primitives (RPP) library is a comprehensive high-\nperformance computer vision library for AMD (CPU and GPU) with HIP and\nOPENCL back-ends",
             "name": "rpp"
         },
