@@ -136,7 +136,7 @@
     ],
     "description": "Intel oneAPI Math Kernel Library (Intel oneMKL; formerly Intel Math\nKernel Library or Intel MKL), is a library of optimized math routines\nfor science, engineering, and financial applications. Core math\nfunctions include BLAS, LAPACK, ScaLAPACK, sparse solvers, fast Fourier\ntransforms, and vector math. LICENSE INFORMATION: By downloading and\nusing this software, you agree to the terms and conditions of the\nsoftware license agreements at https://intel.ly/393CijO.\n",
     "homepage": "https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/onemkl.html",
-    "latest_version": "2024.2.1",
+    "latest_version": "2024.2.2",
     "maintainers": [
         "rscohn2"
     ],
@@ -186,6 +186,11 @@
         }
     ],
     "versions": [
+        {
+            "name": "2024.2.2",
+            "sha256": "6b64ab95567bee53d6cf7e78f9f7b15695902fb9da0d20c29e638ad001b6b348",
+            "url": "https://registrationcenter-download.intel.com/akdlm/IRC_NAS/89a381f6-f85d-4dda-ae62-30d51470f53c/l_onemkl_p_2024.2.2.17_offline.sh"
+        },
         {
             "name": "2024.2.1",
             "sha256": "adfb1391f87a0a638772ac3146db92126a4accf4da1fe8707a000b27dd2448ef",

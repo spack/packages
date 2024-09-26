@@ -56,7 +56,7 @@
     ],
     "description": "The Natural Language Toolkit (NLTK) is a Python package for natural\nlanguage processing.\n",
     "homepage": "https://www.nltk.org/",
-    "latest_version": "3.8.1",
+    "latest_version": "3.9.1",
     "maintainers": [
         "meyersbs"
     ],
@@ -73,12 +73,6 @@
             "destination": "nltk_data/misc",
             "name": "mwa_ppdb",
             "placement": "mwa_ppdb",
-            "version": "+data"
-        },
-        {
-            "destination": "nltk_data/tokenizers",
-            "name": "punkt",
-            "placement": "punkt",
             "version": "+data"
         },
         {
@@ -740,6 +734,18 @@
             "name": "tagsets",
             "placement": "tagsets",
             "version": "+data"
+        },
+        {
+            "destination": "nltk_data/tokenizers",
+            "name": "punkt",
+            "placement": "punkt",
+            "version": "@:3.8.1+data"
+        },
+        {
+            "destination": "nltk_data/tokenizers",
+            "name": "punkt_tab",
+            "placement": "punkt_tab",
+            "version": "@3.8.2:+data"
         }
     ],
     "variants": [
@@ -755,6 +761,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.9.1",
+            "sha256": "87d127bd3de4bd89a4f81265e5fa59cb1b199b27440175370f7417d2bc7ae868"
+        },
         {
             "name": "3.8.1",
             "sha256": "1834da3d0682cba4f2cede2f9aad6b0fafb6461ba451db0efb6f9c39798d64d3"

@@ -140,7 +140,7 @@
     ],
     "description": "Hatch plugin for versioning with your preferred VCS\n",
     "homepage": "https://github.com/ofek/hatch-vcs",
-    "latest_version": "0.3.0",
+    "latest_version": "0.4.0",
     "maintainers": [],
     "name": "py-hatch-vcs",
     "patches": [],
@@ -153,6 +153,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.4.0",
+            "sha256": "093810748fe01db0d451fabcf2c1ac2688caefd232d4ede967090b1c1b07d9f7"
+        },
         {
             "name": "0.3.0",
             "sha256": "cec5107cfce482c67f8bc96f18bbc320c9aa0d068180e14ad317bbee5a153fee"

@@ -453,7 +453,7 @@
     ],
     "description": "Faiss is a library for efficient similarity search and clustering of\ndense vectors. Faiss contains algorithms that search in sets of vectors\nof any size, up to ones that possibly do not fit in RAM. It also\ncontains supporting code for evaluation and parameter tuning. Faiss is\nwritten in C++ with complete wrappers for Python/numpy. Some of the most\nuseful algorithms are implemented on the GPU. It is developed by\nFacebook AI Research.\n",
     "homepage": "https://github.com/facebookresearch/faiss",
-    "latest_version": "1.7.4",
+    "latest_version": "1.8.0",
     "maintainers": [
         "bhatiaharsh",
         "lpottier",
@@ -538,6 +538,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.8.0",
+            "sha256": "56ece0a419d62eaa11e39022fa27c8ed6d5a9b9eb7416cc5a0fdbeab07ec2f0c"
+        },
         {
             "name": "1.7.4",
             "sha256": "d9a7b31bf7fd6eb32c10b7ea7ff918160eed5be04fe63bb7b4b4b5f2bbde01ad"

@@ -33,6 +33,14 @@
             "name": "libllvm"
         },
         {
+            "alias_for": "llvm@18.0.0:18",
+            "name": "libllvm"
+        },
+        {
+            "alias_for": "llvm@19.0.0:19",
+            "name": "libllvm"
+        },
+        {
             "alias_for": "llvm@3.0.0:3",
             "name": "libllvm"
         },
@@ -1060,6 +1068,11 @@
         },
         {
             "description": null,
+            "name": "^python@3.12:",
+            "spec": "@:14"
+        },
+        {
+            "description": null,
             "name": "%gcc@8:",
             "spec": "@:5"
         },
@@ -1401,7 +1414,7 @@
     ],
     "description": "The LLVM Project is a collection of modular and reusable compiler and\ntoolchain technologies. Despite its name, LLVM has little to do with\ntraditional virtual machines, though it does provide helpful libraries\nthat can be used to build them. The name \"LLVM\" itself is not an\nacronym; it is the full name of the project.\n",
     "homepage": "https://llvm.org/",
-    "latest_version": "18.1.8",
+    "latest_version": "19.1.0",
     "maintainers": [
         "haampie",
         "skosukhin",
@@ -1883,6 +1896,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "19.1.0",
+            "sha256": "0a08341036ca99a106786f50f9c5cb3fbe458b3b74cab6089fd368d0edb2edfe"
         },
         {
             "name": "18.1.8",

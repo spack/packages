@@ -25,7 +25,7 @@
         }
     ],
     "description": "Crypto++ is an open-source C++ library of cryptographic schemes. The\nlibrary supports a number of different cryptography algorithms,\nincluding authenticated encryption schemes (GCM, CCM), hash functions\n(SHA-1, SHA2), public-key encryption (RSA, DSA), and a few\nobsolete/historical encryption algorithms (MD5, Panama).\n",
-    "homepage": "https://www.cryptopp.com",
+    "homepage": "https://github.com/weidai11/cryptopp",
     "latest_version": "8.9.0",
     "maintainers": [],
     "name": "cryptopp",

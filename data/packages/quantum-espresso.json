@@ -23,6 +23,16 @@
             "spec": "%nvhpc+cuda"
         },
         {
+            "description": "quantum-espresso: Support for ifx has been added to configure in release 7.3.1",
+            "name": "@:7.3.0",
+            "spec": "%oneapi build_system=generic"
+        },
+        {
+            "description": "quantum-espresso: ifx added f_c_string in the ISO_C_BINDING module since version 2024.1 which conflictswith the libmbd provided one.",
+            "name": "@7.3.1",
+            "spec": "%oneapi@2024.1:"
+        },
+        {
             "description": "quantum-espresso: +elpa requires QE >= 6.0",
             "name": "@:5.4.0",
             "spec": "+elpa"

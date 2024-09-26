@@ -90,6 +90,10 @@
             "name": "py-comm"
         },
         {
+            "description": "DNS toolkit",
+            "name": "py-dnspython"
+        },
+        {
             "description": "Flexible and powerful tensor operations for readable and reliable code.\nSupports numpy, pytorch, tensorflow, and others.",
             "name": "py-einops"
         },

@@ -56,7 +56,7 @@
     ],
     "description": "Create tabbed content in Sphinx documentation when building HTML.\n",
     "homepage": "https://github.com/executablebooks/sphinx-tabs",
-    "latest_version": "3.4.4",
+    "latest_version": "3.4.5",
     "maintainers": [
         "schmitts"
     ],
@@ -71,6 +71,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.4.5",
+            "sha256": "ba9d0c1e3e37aaadd4b5678449eb08176770e0fc227e769b6ce747df3ceea531"
+        },
         {
             "name": "3.4.4",
             "sha256": "f1b72c4f23d1ba9cdcaf880fd883524bc70689f561b9785719b8b3c3c5ed0aca"
