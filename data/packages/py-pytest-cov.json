@@ -34,6 +34,10 @@
     ],
     "dependent_to": [
         {
+            "description": "An experiment-independent HEP event data processing framework",
+            "name": "gaudi"
+        },
+        {
             "description": "N2p2 (The neural network potential package) provides ready-to-use\nsoftware for high-dimensional neural network potentials in computational\nphysics and chemistry.",
             "name": "n2p2"
         },

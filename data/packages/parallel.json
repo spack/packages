@@ -50,7 +50,7 @@
     ],
     "description": "GNU parallel is a shell tool for executing jobs in parallel using one or\nmore computers. A job can be a single command or a small script that has\nto be run for each of the lines in the input.\n",
     "homepage": "https://www.gnu.org/software/parallel/",
-    "latest_version": "20220522",
+    "latest_version": "20240822",
     "maintainers": [],
     "name": "parallel",
     "patches": [],
@@ -63,6 +63,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "20240822",
+            "sha256": "d7bbd95b7631980b172be04cbd2138d5f7d8c063d6da5ad8f9f70dfd88c8309d"
+        },
         {
             "name": "20220522",
             "sha256": "bb6395f8d964e68f3bdb26a764d3c48b69bc5b759a92ac3ab2bd1895c7fa8c1f"

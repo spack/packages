@@ -1,7 +1,13 @@
 {
     "aliases": [],
     "build_system": "CMakePackage",
-    "conflicts": [],
+    "conflicts": [
+        {
+            "description": "gaudi: Gaudi needs a c++20 capable compiler for this version",
+            "name": "%gcc@:10",
+            "spec": "@39:"
+        }
+    ],
     "dependencies": [
         {
             "description": "Abstract Interfaces for Data Analysis",
@@ -92,6 +98,10 @@
             "name": "py-pytest"
         },
         {
+            "description": "Pytest plugin for measuring coverage.",
+            "name": "py-pytest-cov"
+        },
+        {
             "description": "PyYAML is a YAML parser and emitter for Python.",
             "name": "py-pyyaml"
         },
@@ -131,7 +141,7 @@
     "dependent_to": [],
     "description": "An experiment-independent HEP event data processing framework\n",
     "homepage": "https://gaudi.web.cern.ch/gaudi/",
-    "latest_version": "38.3",
+    "latest_version": "39.0",
     "maintainers": [
         "drbenmorgan",
         "jmcarcell",
@@ -164,6 +174,15 @@
             "sha256": "41aa1587a3e59d49e0fa9659577073c091871c2eca1b8b237c177ab98fbacf3f",
             "url": "https://gitlab.cern.ch/gaudi/Gaudi/-/commit/54b727f08a685606420703098131b387d3026637.diff",
             "version": "@:38.1",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.gaudi",
+            "relative_path": "includes.patch",
+            "reverse": false,
+            "sha256": "15998568b089b48a6cc7ee525fba5e832955b3ca6b8a7e72117bc4c62d687ae2",
+            "version": "@37:38",
             "working_dir": "."
         }
     ],
@@ -249,6 +268,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "39.0",
+            "sha256": "faa3653e2e6c769292c0592e3fc35cd98a2820bd6fc0c967cac565808b927262"
         },
         {
             "name": "38.3",

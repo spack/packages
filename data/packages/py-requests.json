@@ -578,6 +578,10 @@
             "name": "py-pacifica-uploader"
         },
         {
+            "description": "Up-to-date remote data access for pandas. Works for multiple versions of\npandas",
+            "name": "py-pandas-datareader"
+        },
+        {
             "description": "A high level app and dashboarding solution for Python.",
             "name": "py-panel"
         },

@@ -594,6 +594,10 @@
             "name": "py-arcgis"
         },
         {
+            "description": "Autoregressive Conditional Heteroskedasticity (ARCH) and other tools for\nfinancial econometrics, written in Python (with Cython and/or Numba used\nto improve performance)",
+            "name": "py-arch"
+        },
+        {
             "description": "arcp (Archive and Package) URI parser and generator",
             "name": "py-arcp"
         },
@@ -5716,6 +5720,10 @@
         {
             "description": "pandas is a fast, powerful, flexible and easy to use open source data\nanalysis and manipulation tool, built on top of the Python programming\nlanguage.",
             "name": "py-pandas"
+        },
+        {
+            "description": "Up-to-date remote data access for pandas. Works for multiple versions of\npandas",
+            "name": "py-pandas-datareader"
         },
         {
             "description": "A python module for writing pandoc filters",

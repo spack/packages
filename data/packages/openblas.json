@@ -31,6 +31,11 @@
         },
         {
             "description": null,
+            "name": "arch=None-None-x86_64_v4:",
+            "spec": "%intel@2021"
+        },
+        {
+            "description": null,
             "name": "%intel@16",
             "spec": "@0.2.15:0.2.19"
         },

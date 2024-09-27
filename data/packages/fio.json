@@ -13,6 +13,11 @@
             "spec": "arch=darwin-None-None"
         },
         {
+            "description": "fio: libaio does not support Windows",
+            "name": "+libaio",
+            "spec": "arch=windows-None-None"
+        },
+        {
             "description": null,
             "name": "arch=windows-None-None",
             "spec": "build_system=autotools"
@@ -40,8 +45,16 @@
             "name": "libaio"
         },
         {
+            "description": "pkgconf is a program which helps to configure compiler and linker flags\nfor development frameworks. It is similar to pkg-config from\nfreedesktop.org, providing additional functionality while also\nmaintaining compatibility.",
+            "name": "pkgconfig"
+        },
+        {
             "description": "Sphinx Documentation Generator.",
             "name": "py-sphinx"
+        },
+        {
+            "description": "zlib replacement with optimizations for next generation systems.",
+            "name": "zlib-api"
         }
     ],
     "dependent_to": [

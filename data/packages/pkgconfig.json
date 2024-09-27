@@ -358,6 +358,10 @@
             "name": "fgsl"
         },
         {
+            "description": "Flexible I/O Tester. Fio spawns a number of threads or processes doing a\nparticular type of I/O action as specified by the user. fio takes a\nnumber of global parameters, each inherited by the thread unless\notherwise parameters given to them overriding that setting is given.",
+            "name": "fio"
+        },
+        {
             "description": "The integrity check is only one of many requirements needed for\nvalidation of a software cryptographic module.",
             "name": "fipscheck"
         },

@@ -90,6 +90,10 @@
             "name": "py-apipkg"
         },
         {
+            "description": "Autoregressive Conditional Heteroskedasticity (ARCH) and other tools for\nfinancial econometrics, written in Python (with Cython and/or Numba used\nto improve performance)",
+            "name": "py-arch"
+        },
+        {
             "description": "Bash tab completion for argparse.",
             "name": "py-argcomplete"
         },
@@ -564,6 +568,10 @@
         {
             "description": "Python Pacifica Uploader Library",
             "name": "py-pacifica-uploader"
+        },
+        {
+            "description": "Up-to-date remote data access for pandas. Works for multiple versions of\npandas",
+            "name": "py-pandas-datareader"
         },
         {
             "description": "Particle provides a pythonic interface to the Particle Data Group (PDG)\nparticle data tables and particle identification codes, with extended\nparticle information and extra goodies.",

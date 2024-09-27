@@ -122,6 +122,10 @@
             "name": "py-openmc"
         },
         {
+            "description": "Up-to-date remote data access for pandas. Works for multiple versions of\npandas",
+            "name": "py-pandas-datareader"
+        },
+        {
             "description": "Documentation generator for C++",
             "name": "py-poxy"
         },

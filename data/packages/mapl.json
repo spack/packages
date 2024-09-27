@@ -106,6 +106,10 @@
             "name": "python"
         },
         {
+            "description": "Automated units conversion",
+            "name": "udunits"
+        },
+        {
             "description": "yet another Fortran (implementation of) YAML There is at least one\nother open source Fortran-based YAML parser. The rationale for this one\nis simply to be compatible with the containers in gFTL. It is not\nintended to be a complete YAML parser, just the subset needed by my own\nprojects.",
             "name": "yafyaml"
         }
@@ -118,7 +122,7 @@
     ],
     "description": " MAPL is a foundation layer of the GEOS architecture, whose original\npurpose is to supplement the Earth System Modeling Framework (ESMF).\nMAPL fills in missing capabilities of ESMF, provides higher-level\ninterfaces for common boiler-plate logic, and enforces various\ncomponentization conventions across ESMF gridded components within GEOS.\n",
     "homepage": "https://github.com/GEOS-ESM/MAPL",
-    "latest_version": "2.47.2",
+    "latest_version": "2.48.0",
     "maintainers": [
         "AlexanderRichert-NOAA",
         "Hang-Lei-NOAA",
@@ -162,7 +166,13 @@
             "destination": "",
             "name": "esma_cmake",
             "placement": null,
-            "version": "@2.47:"
+            "version": "@2.48:"
+        },
+        {
+            "destination": "",
+            "name": "esma_cmake",
+            "placement": null,
+            "version": "@2.47"
         },
         {
             "destination": "",
@@ -283,6 +293,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "2.48.0",
+            "sha256": "60a0fc4fd82b1a05050666ae478da7d79d86305aff1643a57bc09cb5347323b7"
         },
         {
             "name": "2.47.2",

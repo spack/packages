@@ -386,6 +386,11 @@
             "description": "omega-h: Thrust is broken in CUDA = 11.2.* see https://github.com/sandialabs/omega_h/issues/366",
             "name": "^cuda@11.2",
             "spec": "@scorec.10.1.0:"
+        },
+        {
+            "description": "omega-h: see https://github.com/SCOREC/omega_h/issues/66",
+            "name": "^cuda@:11.3",
+            "spec": "@scorec.10.8.5:"
         }
     ],
     "dependencies": [
@@ -592,6 +597,11 @@
         {
             "name": "9.13.13",
             "sha256": "753702edf4bda9ae57ea21f09ca071e341604a468d8c86468c9aebba049f581c"
+        },
+        {
+            "commit": "62026fc305356abb5e02a9fce3fead9cf5077fbe",
+            "git": "https://github.com/SCOREC/omega_h.git",
+            "name": "scorec.10.8.5"
         },
         {
             "commit": "0e5de8618c3370f702e08c1b1af476dbbc118892",

@@ -140,7 +140,7 @@
     ],
     "description": "ngspice is the open source spice simulator for electric and electronic\ncircuits.\n",
     "homepage": "https://ngspice.sourceforge.net/",
-    "latest_version": "42",
+    "latest_version": "43",
     "maintainers": [
         "aweits",
         "cessenat"
@@ -204,6 +204,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "43",
+            "sha256": "14dd6a6f08531f2051c13ae63790a45708bd43f3e77886a6a84898c297b13699"
         },
         {
             "name": "42",

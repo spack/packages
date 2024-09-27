@@ -242,6 +242,10 @@
             "name": "py-arcgis"
         },
         {
+            "description": "Autoregressive Conditional Heteroskedasticity (ARCH) and other tools for\nfinancial econometrics, written in Python (with Cython and/or Numba used\nto improve performance)",
+            "name": "py-arch"
+        },
+        {
             "description": "Python ARM Radar Toolkit. A growing collection of weather radar\nalgorithms and utilities build on top of the Scientific Python stack and\ndistributed under the 3-Clause BSD license. Py-ART is used by the\nAtmospheric Radiation Measurement (ARM) Climate Research Facility for\nworking with data from a number of precipitation and cloud radars, but\nhas been designed so that it can be used by others in the radar and\natmospheric communities to examine, processes, and analyse data from\nmany types of weather radars.",
             "name": "py-arm-pyart"
         },
@@ -610,6 +614,10 @@
             "name": "py-openmim"
         },
         {
+            "description": "Up-to-date remote data access for pandas. Works for multiple versions of\npandas",
+            "name": "py-pandas-datareader"
+        },
+        {
             "description": "Panedr uses the Pyedr library to read a Gromacs EDR binary energy XDR\nfile and returns its contents as a pandas dataframe",
             "name": "py-panedr"
         },
@@ -836,7 +844,7 @@
     ],
     "description": "pandas is a fast, powerful, flexible and easy to use open source data\nanalysis and manipulation tool, built on top of the Python programming\nlanguage.\n",
     "homepage": "https://pandas.pydata.org/",
-    "latest_version": "2.2.2",
+    "latest_version": "2.2.3",
     "maintainers": [
         "adamjstewart",
         "rgommers"
@@ -862,6 +870,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.2.3",
+            "sha256": "4f18ba62b61d7e192368b84517265a99b4d7ee8912f8708660fb4a366cc82667"
+        },
         {
             "name": "2.2.2",
             "sha256": "9e79019aba43cb4fda9e4d983f8e88ca0373adbb697ae9c6c43093218de28b54"

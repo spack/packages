@@ -114,6 +114,10 @@
             "name": "py-pydotplus"
         },
         {
+            "description": "Rasterio reads and writes geospatial raster data. Geographic information\nsystems use GeoTIFF and other formats to organize and store gridded, or\nraster, datasets. Rasterio reads and writes these formats and provides a\nPython API based on N-D arrays.",
+            "name": "py-rasterio"
+        },
+        {
             "description": "RDFLib is a pure Python package for working with RDF. RDFLib contains\nmost things you need to work with RDF, including: parsers and\nserializers for RDF/XML, N3, NTriples, N-Quads, Turtle, TriX, Trig and\nJSON-LD (via a plugin). a Graph interface which can be backed by any one\nof a number of Store implementations store implementations for in-memory\nstorage and persistent storage on top of the Berkeley DB a SPARQL 1.1\nimplementation - supporting SPARQL 1.1 Queries and Update statements",
             "name": "py-rdflib"
         },

@@ -390,12 +390,12 @@
         {
             "description": "chapel: ROCm support in spack requires Chapel 2.0.0 or later",
             "name": "+rocm",
-            "spec": "@:1.99.99"
+            "spec": "@:1"
         },
         {
             "description": "chapel: Chapel versions prior to 2.1.0 may produce SyntaxWarnings with Python >= 3.12",
             "name": "^python@3.12:",
-            "spec": "@:2.0.99"
+            "spec": "@:2.0"
         },
         {
             "description": "chapel: Only system jemalloc may be used on Darwin (MacOS) systems, see https://chapel-lang.org/docs/usingchapel/chplenv.html#chpl-host-jemalloc",
@@ -538,7 +538,7 @@
     "dependent_to": [],
     "description": "Chapel is a modern programming language that is parallel, productive,\nportable, scalable and open-source. The Chapel package comes with many\noptions in the form of variants, most of which can be left unset to\nallow Chapel's built-in scripts to determine the proper values based on\nthe environment.\n",
     "homepage": "https://chapel-lang.org/",
-    "latest_version": "2.1.0",
+    "latest_version": "2.2.0",
     "maintainers": [
         "arezaii",
         "bonachea"
@@ -589,7 +589,7 @@
         },
         {
             "default": false,
-            "description": "Build with CUDA",
+            "description": "Enable Nvidia CUDA GPU support",
             "name": "cuda"
         },
         {
@@ -699,7 +699,7 @@
         },
         {
             "default": false,
-            "description": "Enable ROCm support",
+            "description": "Enable AMD ROCm GPU support",
             "name": "rocm"
         },
         {
@@ -752,6 +752,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "2.2.0",
+            "sha256": "9b0ce16ed0b1c777647c3aa852d8d8cacea2c3d8a952548a238f07c0f357a0f9"
         },
         {
             "name": "2.1.0",

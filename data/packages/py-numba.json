@@ -69,6 +69,10 @@
             "name": "py-anvio"
         },
         {
+            "description": "Autoregressive Conditional Heteroskedasticity (ARCH) and other tools for\nfinancial econometrics, written in Python (with Cython and/or Numba used\nto improve performance)",
+            "name": "py-arch"
+        },
+        {
             "description": "Built based on the Apache Arrow columnar memory format, cuDF is a GPU\nDataFrame library for loading, joining, aggregating, filtering, and\notherwise manipulating data.",
             "name": "py-cudf"
         },

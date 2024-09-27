@@ -16522,6 +16522,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-arch"
+        },
+        {
+            "default": "python_pip",
             "package": "py-archspec"
         },
         {
@@ -22143,6 +22147,10 @@
         {
             "default": "python_pip",
             "package": "py-pandas"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-pandas-datareader"
         },
         {
             "default": "python_pip",
@@ -32343,6 +32351,10 @@
         {
             "default": "autotools",
             "package": "saws"
+        },
+        {
+            "default": "generic",
+            "package": "sbcl-bootstrap"
         },
         {
             "default": "autotools",
@@ -67849,6 +67861,12 @@
             "package": "symengine"
         }
     ],
+    "mpers": [
+        {
+            "default": false,
+            "package": "strace"
+        }
+    ],
     "mpfr": [
         {
             "default": false,
@@ -70462,6 +70480,10 @@
         }
     ],
     "numba": [
+        {
+            "default": false,
+            "package": "py-arch"
+        },
         {
             "default": true,
             "package": "py-numpy-quaternion"
@@ -75459,6 +75481,10 @@
         {
             "default": true,
             "package": "evtgen"
+        },
+        {
+            "default": false,
+            "package": "madgraph5amc"
         },
         {
             "default": false,
@@ -84156,6 +84182,10 @@
         }
     ],
     "tutorial": [
+        {
+            "default": true,
+            "package": "py-arch"
+        },
         {
             "default": false,
             "package": "rose"

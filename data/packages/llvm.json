@@ -1068,8 +1068,43 @@
         },
         {
             "description": null,
+            "name": "cuda_arch=75",
+            "spec": "@:13"
+        },
+        {
+            "description": null,
+            "name": "cuda_arch=80",
+            "spec": "@:13"
+        },
+        {
+            "description": null,
+            "name": "cuda_arch=86",
+            "spec": "@:13"
+        },
+        {
+            "description": null,
             "name": "^python@3.12:",
             "spec": "@:14"
+        },
+        {
+            "description": null,
+            "name": "cuda_arch=87",
+            "spec": "@:15"
+        },
+        {
+            "description": null,
+            "name": "cuda_arch=89",
+            "spec": "@:15"
+        },
+        {
+            "description": null,
+            "name": "cuda_arch=90",
+            "spec": "@:15"
+        },
+        {
+            "description": null,
+            "name": "cuda_arch=90a",
+            "spec": "@:17"
         },
         {
             "description": null,
@@ -1090,6 +1125,26 @@
             "description": null,
             "name": "+libomptarget",
             "spec": "arch=windows-None-None"
+        },
+        {
+            "description": null,
+            "name": "cuda_arch=10",
+            "spec": ""
+        },
+        {
+            "description": null,
+            "name": "cuda_arch=11",
+            "spec": ""
+        },
+        {
+            "description": null,
+            "name": "cuda_arch=12",
+            "spec": ""
+        },
+        {
+            "description": null,
+            "name": "cuda_arch=13",
+            "spec": ""
         },
         {
             "description": null,

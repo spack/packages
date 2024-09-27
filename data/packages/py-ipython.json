@@ -196,7 +196,7 @@
     ],
     "description": "IPython provides a rich toolkit to help you make the most out of using\nPython interactively.\n",
     "homepage": "https://ipython.readthedocs.org/",
-    "latest_version": "8.25.0",
+    "latest_version": "8.27.0",
     "maintainers": [],
     "name": "py-ipython",
     "patches": [],
@@ -209,6 +209,14 @@
         }
     ],
     "versions": [
+        {
+            "name": "8.27.0",
+            "sha256": "0b99a2dc9f15fd68692e898e5568725c6d49c527d36a9fb5960ffbdeaa82ff7e"
+        },
+        {
+            "name": "8.26.0",
+            "sha256": "1cec0fbba8404af13facebe83d04436a7434c7400e59f47acf467c64abd0956c"
+        },
         {
             "name": "8.25.0",
             "sha256": "c6ed726a140b6e725b911528f80439c534fac915246af3efc39440a6b0f9d716"

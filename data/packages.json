@@ -13728,6 +13728,10 @@
         "name": "py-arcgis"
     },
     {
+        "description": "Autoregressive Conditional Heteroskedasticity (ARCH) and other tools for\nfinancial econometrics, written in Python (with Cython and/or Numba used\nto improve performance)\n",
+        "name": "py-arch"
+    },
+    {
         "description": "A library for detecting, labeling and reasoning about\nmicroarchitectures.\n",
         "name": "py-archspec"
     },
@@ -19350,6 +19354,10 @@
     {
         "description": "pandas is a fast, powerful, flexible and easy to use open source data\nanalysis and manipulation tool, built on top of the Python programming\nlanguage.\n",
         "name": "py-pandas"
+    },
+    {
+        "description": "Up-to-date remote data access for pandas. Works for multiple versions of\npandas\n",
+        "name": "py-pandas-datareader"
     },
     {
         "description": "These are public type stubs for pandas, following the convention of\nproviding stubs in a separate package, as specified in PEP 561. The\nstubs cover the most typical use cases of pandas. In general, these\nstubs are narrower than what is possibly allowed by pandas, but follow a\nconvention of suggesting best recommended practices for using pandas.\n",
@@ -29558,6 +29566,10 @@
     {
         "description": "The Scientific Application Web server (SAWs) turns any C or C++\nscientific or engineering application code into a webserver, allowing\none to examine (and even modify) the state of the simulation with any\nbrowser from anywhere.\n",
         "name": "saws"
+    },
+    {
+        "description": "Steel Bank Common Lisp (SBCL) is a high performance Common Lisp\ncompiler. It is open source / free software, with a permissive license.\nIn addition to the compiler and runtime system for ANSI Common Lisp, it\nprovides an interactive environment including a debugger, a statistical\nprofiler, a code coverage tool, and many other extensions.\n",
+        "name": "sbcl-bootstrap"
     },
     {
         "description": "Small Footprint CIM Client Library\n",

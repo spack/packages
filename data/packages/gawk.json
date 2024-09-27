@@ -87,6 +87,10 @@
         {
             "description": "SRILM (SRI Language Modeling Toolkit) is a toolkit for building and\napplying statistical language models (LMs), primarily for use in speech\nrecognition, statistical tagging and segmentation, and machine\ntranslation.",
             "name": "srilm"
+        },
+        {
+            "description": "Strace is a diagnostic, debugging and instructional userspace utility\nfor Linux. It is used to monitor and tamper with interactions between\nprocesses and the Linux kernel, which include system calls, signal\ndeliveries, and changes of process state.",
+            "name": "strace"
         }
     ],
     "description": "If you are like many computer users, you would frequently like to make\nchanges in various text files wherever certain patterns appear, or\nextract data from parts of certain lines while discarding the rest. To\nwrite a program to do this in a language such as C or Pascal is a time-\nconsuming inconvenience that may take many lines of code. The job is\neasy with awk, especially the GNU implementation: gawk. The awk utility\ninterprets a special-purpose programming language that makes it possible\nto handle simple data-reformatting jobs with just a few lines of code.\n",
