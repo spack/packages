@@ -82,6 +82,10 @@
             "name": "py-fluidfft"
         },
         {
+            "description": "Framework for studying fluid dynamics with simulations.",
+            "name": "py-fluidsim"
+        },
+        {
             "description": "Image processing algorithms for SciPy, including IO, morphology,\nfiltering, warping, color manipulation, object detection, etc.",
             "name": "py-scikit-image"
         },

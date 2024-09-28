@@ -1,13 +1,7 @@
 {
     "aliases": [],
     "build_system": "CMakePackage",
-    "conflicts": [
-        {
-            "description": null,
-            "name": "arch=None-None-aarch64:",
-            "spec": "@:1.8.15"
-        }
-    ],
+    "conflicts": [],
     "dependencies": [
         {
             "description": "Boost provides free peer-reviewed portable C++ source libraries,\nemphasizing libraries that work well with the C++ Standard Library.\nBoost libraries are intended to be widely useful, and usable across a\nbroad spectrum of applications. The Boost license encourages both\ncommercial and non-commercial use.",
@@ -67,9 +61,9 @@
         }
     ],
     "dependent_to": [],
-    "description": "OpenImageIO is a library for reading and writing images, and a bunch of\nrelated classes, utilities, and applications.\n",
-    "homepage": "https://www.openimageio.org",
-    "latest_version": "2.2.7.0",
+    "description": "Reading, writing, and processing images in a wide variety of file\nformats, using a format-agnostic API, aimed at VFX applications.\n",
+    "homepage": "https://openimageio.readthedocs.io",
+    "latest_version": "2.5.15.0",
     "maintainers": [],
     "name": "openimageio",
     "patches": [],
@@ -118,12 +112,8 @@
     ],
     "versions": [
         {
-            "name": "2.2.7.0",
-            "sha256": "857ac83798d6d2bda5d4d11a90618ff19486da2e5a4c4ff022c5976b5746fe8c"
-        },
-        {
-            "name": "1.8.15",
-            "sha256": "4d5b4ed3f2daaed69989f53c0f9364dd87c82dc0a09807b5b6e9008e2426e86f"
+            "name": "2.5.15.0",
+            "sha256": "7779ef2c3d03c5ed95e13ff292de85c3f8cee301cd46baad0d2dc83c93bfe85c"
         }
     ],
     "versions_deprecated": []

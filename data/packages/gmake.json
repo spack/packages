@@ -7862,7 +7862,7 @@
             "name": "openimagedenoise"
         },
         {
-            "description": "OpenImageIO is a library for reading and writing images, and a bunch of\nrelated classes, utilities, and applications.",
+            "description": "Reading, writing, and processing images in a wide variety of file\nformats, using a format-agnostic API, aimed at VFX applications.",
             "name": "openimageio"
         },
         {
@@ -9780,6 +9780,10 @@
         {
             "description": "The Scientific Application Web server (SAWs) turns any C or C++\nscientific or engineering application code into a webserver, allowing\none to examine (and even modify) the state of the simulation with any\nbrowser from anywhere.",
             "name": "saws"
+        },
+        {
+            "description": "Steel Bank Common Lisp (SBCL) is a high performance Common Lisp\ncompiler. It is open source / free software, with a permissive license.\nIn addition to the compiler and runtime system for ANSI Common Lisp, it\nprovides an interactive environment including a debugger, a statistical\nprofiler, a code coverage tool, and many other extensions.",
+            "name": "sbcl"
         },
         {
             "description": "Small Footprint CIM Client Library",

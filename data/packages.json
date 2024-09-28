@@ -10188,7 +10188,7 @@
         "name": "openimagedenoise"
     },
     {
-        "description": "OpenImageIO is a library for reading and writing images, and a bunch of\nrelated classes, utilities, and applications.\n",
+        "description": "Reading, writing, and processing images in a wide variety of file\nformats, using a format-agnostic API, aimed at VFX applications.\n",
         "name": "openimageio"
     },
     {
@@ -16444,6 +16444,14 @@
         "name": "py-fluidfft-pfft"
     },
     {
+        "description": "Framework for studying fluid dynamics with simulations.\n",
+        "name": "py-fluidsim"
+    },
+    {
+        "description": "Pure-Python core library for FluidSim framework.\n",
+        "name": "py-fluidsim-core"
+    },
+    {
         "description": "Fast and accurate de novo assembler for single molecule sequencing reads\n",
         "name": "py-flye"
     },
@@ -18774,6 +18782,10 @@
     {
         "description": "Background noise and signal reverberation due to reflections in an\nenclosure are the two main impairments in acoustic signal processing and\nfar-field speech recognition. This work addresses signal dereverberation\ntechniques based on WPE for speech recognition and other far-field\napplications. WPE is a compelling algorithm to blindly dereverberate\nacoustic signals based on long-term linear prediction.\n",
         "name": "py-nara-wpe"
+    },
+    {
+        "description": "Extremely lightweight compatibility layer between dataframe libraries\n",
+        "name": "py-narwhals"
     },
     {
         "description": "Simple yet flexible natural sorting in Python.\n",
@@ -29566,6 +29578,10 @@
     {
         "description": "The Scientific Application Web server (SAWs) turns any C or C++\nscientific or engineering application code into a webserver, allowing\none to examine (and even modify) the state of the simulation with any\nbrowser from anywhere.\n",
         "name": "saws"
+    },
+    {
+        "description": "Steel Bank Common Lisp (SBCL) is a high performance Common Lisp\ncompiler. It is open source / free software, with a permissive license.\nIn addition to the compiler and runtime system for ANSI Common Lisp, it\nprovides an interactive environment including a debugger, a statistical\nprofiler, a code coverage tool, and many other extensions.\n",
+        "name": "sbcl"
     },
     {
         "description": "Steel Bank Common Lisp (SBCL) is a high performance Common Lisp\ncompiler. It is open source / free software, with a permissive license.\nIn addition to the compiler and runtime system for ANSI Common Lisp, it\nprovides an interactive environment including a debugger, a statistical\nprofiler, a code coverage tool, and many other extensions.\n",

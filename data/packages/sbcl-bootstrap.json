@@ -23,23 +23,23 @@
             "spec": "@2.3.11"
         },
         {
-            "description": "sbcl-bootstrap: linux x86_64 is the only supported platform",
+            "description": "sbcl-bootstrap: Not a supported platform. See https://www.sbcl.org/platform-table.html",
             "name": "arch=None-None-ppc64le",
             "spec": ""
         },
         {
-            "description": "sbcl-bootstrap: linux x86_64 is the only supported platform",
-            "name": "arch=darwin-None-None",
-            "spec": ""
-        },
-        {
-            "description": "sbcl-bootstrap: linux x86_64 is the only supported platform",
+            "description": "sbcl-bootstrap: Not a supported platform. See https://www.sbcl.org/platform-table.html",
             "name": "arch=windows-None-None",
             "spec": ""
         }
     ],
     "dependencies": [],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "Steel Bank Common Lisp (SBCL) is a high performance Common Lisp\ncompiler. It is open source / free software, with a permissive license.\nIn addition to the compiler and runtime system for ANSI Common Lisp, it\nprovides an interactive environment including a debugger, a statistical\nprofiler, a code coverage tool, and many other extensions.",
+            "name": "sbcl"
+        }
+    ],
     "description": "Steel Bank Common Lisp (SBCL) is a high performance Common Lisp\ncompiler. It is open source / free software, with a permissive license.\nIn addition to the compiler and runtime system for ANSI Common Lisp, it\nprovides an interactive environment including a debugger, a statistical\nprofiler, a code coverage tool, and many other extensions.\n",
     "homepage": "https://www.sbcl.org/",
     "latest_version": "2.3.11",

@@ -230,6 +230,10 @@
             "name": "py-mne-bids"
         },
         {
+            "description": "Extremely lightweight compatibility layer between dataframe libraries",
+            "name": "py-narwhals"
+        },
+        {
             "description": "A client library for executing notebooks. Formally nbconvert's\nExecutePreprocessor.",
             "name": "py-nbclient"
         },

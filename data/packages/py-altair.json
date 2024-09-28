@@ -1,7 +1,13 @@
 {
     "aliases": [],
     "build_system": "PythonPackage",
-    "conflicts": [],
+    "conflicts": [
+        {
+            "description": null,
+            "name": "~pandas",
+            "spec": "@:5.3.0"
+        }
+    ],
     "dependencies": [
         {
             "description": "Discover and load entry points from installed packages.",
@@ -22,6 +28,10 @@
         {
             "description": "Jsonschema: An(other) implementation of JSON Schema for Python.",
             "name": "py-jsonschema"
+        },
+        {
+            "description": "Extremely lightweight compatibility layer between dataframe libraries",
+            "name": "py-narwhals"
         },
         {
             "description": "Fundamental package for array computing in Python.",
@@ -80,7 +90,7 @@
     ],
     "description": "Declarative statistical visualization library for Python\n",
     "homepage": "https://pypi.org/project/altair/",
-    "latest_version": "5.2.0",
+    "latest_version": "5.4.1",
     "maintainers": [],
     "name": "py-altair",
     "patches": [],
@@ -90,9 +100,18 @@
             "default": "python_pip",
             "description": "Build systems supported by the package",
             "name": "build_system"
+        },
+        {
+            "default": true,
+            "description": "Enable pandas support",
+            "name": "pandas"
         }
     ],
     "versions": [
+        {
+            "name": "5.4.1",
+            "sha256": "0ce8c2e66546cb327e5f2d7572ec0e7c6feece816203215613962f0ec1d76a82"
+        },
         {
             "name": "5.2.0",
             "sha256": "2ad7f0c8010ebbc46319cc30febfb8e59ccf84969a201541c207bc3a4fa6cf81"

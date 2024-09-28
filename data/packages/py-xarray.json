@@ -142,6 +142,10 @@
             "name": "py-earth2mip"
         },
         {
+            "description": "Framework for studying fluid dynamics with simulations.",
+            "name": "py-fluidsim"
+        },
+        {
             "description": "Tool to convert geopandas vector data into rasterized xarray data.",
             "name": "py-geocube"
         },

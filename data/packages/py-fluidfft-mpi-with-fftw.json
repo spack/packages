@@ -8,6 +8,10 @@
             "name": "fftw"
         },
         {
+            "description": "The Cython compiler for writing C extensions for the Python language.",
+            "name": "py-cython"
+        },
+        {
             "description": "Efficient and easy Fast Fourier Transform (FFT) for Python.",
             "name": "py-fluidfft"
         },

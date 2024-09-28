@@ -3,6 +3,11 @@
     "build_system": "MakefilePackage",
     "conflicts": [
         {
+            "description": "mpas-model: ifx internal compiler error triggered by maps-model fixed in oneapi@2024.2",
+            "name": "%oneapi@:2024.1",
+            "spec": ""
+        },
+        {
             "description": null,
             "name": "arch=windows-None-None",
             "spec": "build_system=makefile"

@@ -74,6 +74,10 @@
             "name": "py-flax"
         },
         {
+            "description": "Framework for studying fluid dynamics with simulations.",
+            "name": "py-fluidsim"
+        },
+        {
             "description": "Cloud-native genomic dataframes and batch computing (Python API)",
             "name": "py-hail"
         },

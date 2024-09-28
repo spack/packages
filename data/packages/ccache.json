@@ -71,10 +71,6 @@
             "name": "ns-3-dev"
         },
         {
-            "description": "Run Llama 2, Code Llama, and other models. Customize and create your\nown.",
-            "name": "ollama"
-        },
-        {
             "description": "Spack is a multi-platform package manager that builds and installs\nmultiple versions and configurations of software. It works on Linux,\nmacOS, and many supercomputers. Spack is non-destructive: installing a\nnew version of a package does not break existing installations, so many\nconfigurations of the same package can coexist.",
             "name": "spack"
         },

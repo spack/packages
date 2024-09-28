@@ -381,10 +381,6 @@
             "name": "mppp"
         },
         {
-            "description": "Run Llama 2, Code Llama, and other models. Customize and create your\nown.",
-            "name": "ollama"
-        },
-        {
             "description": "Yade is an free software for particle based simulations.",
             "name": "yade"
         }
@@ -729,6 +725,10 @@
         {
             "name": "12.1.0",
             "sha256": "62fd634889f31c02b64af2c468f064b47ad1ca78411c45abe6ac4b5f8dd19c7b"
+        },
+        {
+            "name": "11.5.0",
+            "sha256": "a6e21868ead545cf87f0c01f84276e4b5281d672098591c1c896241f09363478"
         },
         {
             "name": "11.4.0",

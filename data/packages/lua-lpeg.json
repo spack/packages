@@ -24,6 +24,10 @@
         {
             "description": "Neovim: Vim-fork focused on extensibility and usability",
             "name": "neovim"
+        },
+        {
+            "description": "TeX Live is an easy (we hope) way to get up and running with the TeX\ndocument production system. It provides a comprehensive TeX system with\nbinaries for most flavors of Unix, including GNU/Linux, macOS, and also\nWindows. It includes all the major TeX-related programs, macro packages,\nand fonts that are free software, including support for many languages\naround the world.",
+            "name": "texlive"
         }
     ],
     "description": "pattern-matching for lua\n",

@@ -19238,6 +19238,14 @@
         },
         {
             "default": "python_pip",
+            "package": "py-fluidsim"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-fluidsim-core"
+        },
+        {
+            "default": "python_pip",
             "package": "py-flye"
         },
         {
@@ -21567,6 +21575,10 @@
         {
             "default": "python_pip",
             "package": "py-nara-wpe"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-narwhals"
         },
         {
             "default": "python_pip",
@@ -32265,7 +32277,7 @@
             "package": "rust"
         },
         {
-            "default": "generic",
+            "default": "cargo",
             "package": "rust-bindgen"
         },
         {
@@ -32351,6 +32363,10 @@
         {
             "default": "autotools",
             "package": "saws"
+        },
+        {
+            "default": "makefile",
+            "package": "sbcl"
         },
         {
             "default": "generic",
@@ -43288,6 +43304,10 @@
         },
         {
             "default": false,
+            "package": "ollama"
+        },
+        {
+            "default": false,
             "package": "omega-h"
         },
         {
@@ -44219,6 +44239,10 @@
         {
             "default": "none",
             "package": "octopus"
+        },
+        {
+            "default": "none",
+            "package": "ollama"
         },
         {
             "default": "none",
@@ -48997,6 +49021,12 @@
         {
             "default": false,
             "package": "py-sentry-sdk"
+        }
+    ],
+    "fancy": [
+        {
+            "default": true,
+            "package": "sbcl"
         }
     ],
     "fann": [
@@ -69611,6 +69641,10 @@
             "package": "py-fluidfft"
         },
         {
+            "default": false,
+            "package": "py-fluidsim"
+        },
+        {
             "default": true,
             "package": "py-hail"
         },
@@ -72828,6 +72862,10 @@
         }
     ],
     "pandas": [
+        {
+            "default": true,
+            "package": "py-altair"
+        },
         {
             "default": false,
             "package": "py-hypothesis"

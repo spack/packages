@@ -166,7 +166,7 @@
             "name": "opencv"
         },
         {
-            "description": "OpenImageIO is a library for reading and writing images, and a bunch of\nrelated classes, utilities, and applications.",
+            "description": "Reading, writing, and processing images in a wide variety of file\nformats, using a format-agnostic API, aimed at VFX applications.",
             "name": "openimageio"
         },
         {

@@ -302,6 +302,30 @@
             "name": "py-fisher"
         },
         {
+            "description": "Fluidfft plugin dependencies",
+            "name": "py-fluidfft-builder"
+        },
+        {
+            "description": "Fluidfft plugin using fftw.",
+            "name": "py-fluidfft-fftw"
+        },
+        {
+            "description": "Fluidfft plugin using fftwmpi.",
+            "name": "py-fluidfft-fftwmpi"
+        },
+        {
+            "description": "Fluidfft MPI plugin using fftw.",
+            "name": "py-fluidfft-mpi-with-fftw"
+        },
+        {
+            "description": "Fluidfft MPI plugin using p3dfft.",
+            "name": "py-fluidfft-p3dfft"
+        },
+        {
+            "description": "Fluidfft MPI plugin using pfft.",
+            "name": "py-fluidfft-pfft"
+        },
+        {
             "description": "Gensim is a Python library for topic modelling, document indexing and\nsimilarity retrieval with large corpora. Target audience is the natural\nlanguage processing (NLP) and information retrieval (IR) community.",
             "name": "py-gensim"
         },

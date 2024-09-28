@@ -4,6 +4,10 @@
     "conflicts": [],
     "dependencies": [
         {
+            "description": "The Cython compiler for writing C extensions for the Python language.",
+            "name": "py-cython"
+        },
+        {
             "description": "Distribution-building parts of Flit.",
             "name": "py-flit-core"
         },

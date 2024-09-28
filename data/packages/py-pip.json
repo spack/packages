@@ -3282,6 +3282,14 @@
             "name": "py-fluidfft-pfft"
         },
         {
+            "description": "Framework for studying fluid dynamics with simulations.",
+            "name": "py-fluidsim"
+        },
+        {
+            "description": "Pure-Python core library for FluidSim framework.",
+            "name": "py-fluidsim-core"
+        },
+        {
             "description": "Fast and accurate de novo assembler for single molecule sequencing reads",
             "name": "py-flye"
         },
@@ -5596,6 +5604,10 @@
         {
             "description": "Background noise and signal reverberation due to reflections in an\nenclosure are the two main impairments in acoustic signal processing and\nfar-field speech recognition. This work addresses signal dereverberation\ntechniques based on WPE for speech recognition and other far-field\napplications. WPE is a compelling algorithm to blindly dereverberate\nacoustic signals based on long-term linear prediction.",
             "name": "py-nara-wpe"
+        },
+        {
+            "description": "Extremely lightweight compatibility layer between dataframe libraries",
+            "name": "py-narwhals"
         },
         {
             "description": "Simple yet flexible natural sorting in Python.",

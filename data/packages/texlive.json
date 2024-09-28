@@ -62,6 +62,10 @@
             "name": "libxt"
         },
         {
+            "description": "pattern-matching for lua",
+            "name": "lua-lpeg"
+        },
+        {
             "description": "The MPFR library is a C library for multiple-precision floating-point\ncomputations with correct rounding.",
             "name": "mpfr"
         },

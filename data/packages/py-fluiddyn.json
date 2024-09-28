@@ -76,6 +76,10 @@
         {
             "description": "Efficient and easy Fast Fourier Transform (FFT) for Python.",
             "name": "py-fluidfft"
+        },
+        {
+            "description": "Pure-Python core library for FluidSim framework.",
+            "name": "py-fluidsim-core"
         }
     ],
     "description": "Framework for studying fluid dynamics.\n",

@@ -203,7 +203,7 @@
     ],
     "description": "The Rust programming language toolchain.\n",
     "homepage": "https://www.rust-lang.org",
-    "latest_version": "1.78.0",
+    "latest_version": "1.81.0",
     "maintainers": [
         "alecbcs"
     ],
@@ -236,6 +236,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "1.81.0",
+            "sha256": "872448febdff32e50c3c90a7e15f9bb2db131d13c588fe9071b0ed88837ccfa7"
         },
         {
             "name": "1.78.0",

@@ -64,6 +64,10 @@
         {
             "description": "Fluidfft MPI plugin using pfft.",
             "name": "py-fluidfft-pfft"
+        },
+        {
+            "description": "Framework for studying fluid dynamics with simulations.",
+            "name": "py-fluidsim"
         }
     ],
     "description": "Efficient and easy Fast Fourier Transform (FFT) for Python.\n",

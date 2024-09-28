@@ -36,7 +36,7 @@
     ],
     "description": "OCaml is an industrial strength programming language supporting\nfunctional, imperative and object-oriented styles\n",
     "homepage": "https://ocaml.org/",
-    "latest_version": "4.13.1",
+    "latest_version": "5.2.0",
     "maintainers": [
         "scemama"
     ],
@@ -75,6 +75,22 @@
         }
     ],
     "versions": [
+        {
+            "name": "5.2.0",
+            "sha256": "3a7b5fb6d81bb42bbda84aadf5d84ff8bcbb149988087e7863bf5c2f4b27b187"
+        },
+        {
+            "name": "5.1.1",
+            "sha256": "33b8c1df88700ba1f5123aa4bdbc7a125482feafc77e5081ef1725fddf290be1"
+        },
+        {
+            "name": "5.1.0",
+            "sha256": "5e91492d87b193728a0729122b679039c73e75820dcf2724a31b262390d210c2"
+        },
+        {
+            "name": "5.0.0",
+            "sha256": "969e1f7939736d39f2af533cd12cc64b05f060dbed087d7b760ee2503bfe56de"
+        },
         {
             "name": "4.13.1",
             "sha256": "66a5353c5e7b33a8981446e857657aad45a3b82080ea5c67d4baa434eacfcf5f"

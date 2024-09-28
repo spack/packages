@@ -94,6 +94,10 @@
             "name": "py-fluidfft-pfft"
         },
         {
+            "description": "Framework for studying fluid dynamics with simulations.",
+            "name": "py-fluidsim"
+        },
+        {
             "description": "Matplotlib is a comprehensive library for creating static, animated, and\ninteractive visualizations in Python.",
             "name": "py-matplotlib"
         },
