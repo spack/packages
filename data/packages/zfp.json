@@ -426,6 +426,10 @@
             "name": "conduit"
         },
         {
+            "description": "Data & Vis SDK ** This package is a post-ECP port from the ECP Data &\nVis SDK **",
+            "name": "dav-sdk"
+        },
+        {
             "description": "ECP Data & Vis SDK",
             "name": "ecp-data-vis-sdk"
         },

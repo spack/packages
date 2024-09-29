@@ -433,11 +433,6 @@
             "spec": "@:2.7.4-a,2.7.4.0:2.11.0-a,2.11.0.0:2.14-a,2.14-z:2.16.1-a,2.16.1-z:"
         },
         {
-            "description": null,
-            "name": "^py-protobuf~cpp",
-            "spec": ""
-        },
-        {
             "description": "py-tensorflow: There is no GPU support for macOS",
             "name": "+cuda",
             "spec": "arch=darwin-None-None"

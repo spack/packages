@@ -76,7 +76,7 @@
     ],
     "description": "The carputils framework for running simulations with the openCARP\nsoftware.\n",
     "homepage": "https://www.opencarp.org",
-    "latest_version": "oc15.0",
+    "latest_version": "oc16.0",
     "maintainers": [
         "MarieHouillon"
     ],
@@ -94,6 +94,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "commit": "c40783d884de5ad8ae1b5102b68013b28e14cbe4",
+            "name": "oc16.0"
         },
         {
             "commit": "50e2580b3f75711388eb55982a9b43871c3201f3",

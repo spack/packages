@@ -2568,6 +2568,10 @@
         "name": "dateutils"
     },
     {
+        "description": "Data & Vis SDK ** This package is a post-ECP port from the ECP Data &\nVis SDK **\n",
+        "name": "dav-sdk"
+    },
+    {
         "description": "High-performance file management over WebDAV/HTTP.\n",
         "name": "davix"
     },

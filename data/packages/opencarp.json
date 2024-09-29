@@ -59,7 +59,7 @@
     "dependent_to": [],
     "description": "The openCARP simulation software, an open cardiac electrophysiology\nsimulator for in-silico experiments.\n",
     "homepage": "https://www.opencarp.org",
-    "latest_version": "15.0",
+    "latest_version": "16.0",
     "maintainers": [
         "MarieHouillon"
     ],
@@ -112,6 +112,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "commit": "295055b6a3859709730f62fc8d4fe0e87c4e20b9",
+            "name": "16.0"
         },
         {
             "commit": "2271a3cccd7137f1e28c043c10adbd80480f1462",

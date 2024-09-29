@@ -20,7 +20,12 @@
             "name": "ninja"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "Data & Vis SDK ** This package is a post-ECP port from the ECP Data &\nVis SDK **",
+            "name": "dav-sdk"
+        }
+    ],
     "description": "Data-parallel out-of-core library\n",
     "homepage": "https://github.com/diatomic/diy",
     "latest_version": "3.6.0",

@@ -43,8 +43,10 @@
     "dependent_to": [],
     "description": "A Snakemake executor plugin for submitting jobs to a SLURM cluster.\n",
     "homepage": "https://github.com/snakemake/snakemake-executor-plugin-slurm",
-    "latest_version": "0.3.2",
-    "maintainers": [],
+    "latest_version": "0.10.0",
+    "maintainers": [
+        "w8jcik"
+    ],
     "name": "py-snakemake-executor-plugin-slurm",
     "patches": [],
     "resources": [],
@@ -56,6 +58,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.10.0",
+            "sha256": "d970bd08e00f1664adbd3c421c956b2ce926359ff10a4d7650c444c1179bec3f"
+        },
         {
             "name": "0.3.2",
             "sha256": "3912f2895eab1270d7a42959a2e221ce53428dfffb847e03ec6bc4eead88e30b"

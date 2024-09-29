@@ -241,6 +241,10 @@
             "name": "darshan-runtime"
         },
         {
+            "description": "Data & Vis SDK ** This package is a post-ECP port from the ECP Data &\nVis SDK **",
+            "name": "dav-sdk"
+        },
+        {
             "description": "C++ software library providing well-documented tools to build finite\nelement codes for a broad variety of PDEs.",
             "name": "dealii"
         },

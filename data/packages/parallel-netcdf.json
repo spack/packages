@@ -71,6 +71,10 @@
             "name": "darshan-runtime"
         },
         {
+            "description": "Data & Vis SDK ** This package is a post-ECP port from the ECP Data &\nVis SDK **",
+            "name": "dav-sdk"
+        },
+        {
             "description": "The SCORPIO (Software for Caching Output and Reads for Parallel I/O)\nlibrary is used by all the model components in DOE's Energy Exascale\nEarth System Model (E3SM) for reading input data and writing model\noutput",
             "name": "e3sm-scorpio"
         },

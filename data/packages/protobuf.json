@@ -175,7 +175,7 @@
     ],
     "description": "Google's data interchange format.\n",
     "homepage": "https://developers.google.com/protocol-buffers",
-    "latest_version": "3.25.3",
+    "latest_version": "3.28.2",
     "maintainers": [
         "hyoklee"
     ],
@@ -283,6 +283,18 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.28.2",
+            "sha256": "1b6b6a7a7894f509f099c4469b5d4df525c2f3c9e4009e5b2db5b0f66cb8ee0e"
+        },
+        {
+            "name": "3.27.5",
+            "sha256": "a4aa92d0a207298149bf553d9a3192f3562eb91740086f50fa52331e60fa480c"
+        },
+        {
+            "name": "3.26.1",
+            "sha256": "f3c0830339eaa5036eba8ff8ce7fca5aa3088f7d616f7c3713d946f611ae92bf"
+        },
         {
             "name": "3.25.3",
             "sha256": "da82be8acc5347c7918ef806ebbb621b24988f7e1a19b32cd7fc73bc29b59186"

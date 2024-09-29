@@ -124,8 +124,10 @@
     ],
     "description": "Common functions and classes for Snakemake and its plugins.\n",
     "homepage": "https://github.com/snakemake/snakemake-interface-common",
-    "latest_version": "1.17.1",
-    "maintainers": [],
+    "latest_version": "1.17.3",
+    "maintainers": [
+        "w8jcik"
+    ],
     "name": "py-snakemake-interface-common",
     "patches": [],
     "resources": [],
@@ -137,6 +139,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.17.3",
+            "sha256": "cca6e2c728072a285a8e750f00fdd98d9c50063912184c41f8b89e4cab66c7b0"
+        },
         {
             "name": "1.17.1",
             "sha256": "555c8218d9b68ddc1046f94a517e7d0f22e15bdc839d6ce149608d8ec137b9ae"

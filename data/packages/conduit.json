@@ -104,6 +104,10 @@
             "name": "axom"
         },
         {
+            "description": "Data & Vis SDK ** This package is a post-ECP port from the ECP Data &\nVis SDK **",
+            "name": "dav-sdk"
+        },
+        {
             "description": "High-Order Mesh Ray Tracer.",
             "name": "dray"
         },

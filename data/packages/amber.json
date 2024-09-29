@@ -386,6 +386,11 @@
             "description": null,
             "name": "%gcc@6:",
             "spec": "+cuda ^cuda@:9~allow-unsupported-compilers arch=None-None-ppc64le:"
+        },
+        {
+            "description": "amber: x11 amber applications not available for cray",
+            "name": "+x11",
+            "spec": "arch=cray-None-None"
         }
     ],
     "dependencies": [

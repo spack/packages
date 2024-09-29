@@ -500,6 +500,10 @@
             "name": "daos"
         },
         {
+            "description": "DLB is a dynamic library designed to speed up HPC hybrid applications\n(i.e., two levels of parallelism) by improving the load balance of the\nouter level of parallelism (e.g., MPI) by dynamically redistributing the\ncomputational resources at the inner level of parallelism (e.g.,\nOpenMP). at run time.",
+            "name": "dlb"
+        },
+        {
             "description": "A next-generation resource manager (pre-alpha)",
             "name": "flux-core"
         },

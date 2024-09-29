@@ -22,7 +22,7 @@
     ],
     "description": "Meshtool - A mesh manipulation utility\n",
     "homepage": "https://bitbucket.org/aneic/meshtool/",
-    "latest_version": "oc15.0",
+    "latest_version": "oc16.0",
     "maintainers": [
         "MarieHouillon"
     ],
@@ -40,6 +40,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "commit": "867431d6bde35ad41104f611aa57130ef58cfb79",
+            "name": "oc16.0"
         },
         {
             "commit": "867431d6bde35ad41104f611aa57130ef58cfb79",

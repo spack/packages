@@ -1263,6 +1263,15 @@
         {
             "level": 1,
             "owner": "builtin.trilinos",
+            "relative_path": "cstdint_gcc13.patch",
+            "reverse": false,
+            "sha256": "016a9793592b8f526e757d1cc8380e954892c1fda592d90b0fcd912a04017d41",
+            "version": "@13.4.0:13.4.1%gcc@13.0.0:",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.trilinos",
             "reverse": false,
             "sha256": "063a38f402439fa39fd8d57315a321e6510adcd04aec5400a88e744aaa60bc8e",
             "url": "https://github.com/trilinos/Trilinos/commit/b17f20a0b91e0b9fc5b1b0af3c8a34e2a4874f3f.patch?full_index=1",

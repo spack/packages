@@ -106,6 +106,10 @@
             "name": "darshan-runtime"
         },
         {
+            "description": "DLB is a dynamic library designed to speed up HPC hybrid applications\n(i.e., two levels of parallelism) by improving the load balance of the\nouter level of parallelism (e.g., MPI) by dynamically redistributing the\ncomputational resources at the inner level of parallelism (e.g.,\nOpenMP). at run time.",
+            "name": "dlb"
+        },
+        {
             "description": "Extrae is the package devoted to generate tracefiles which can be\nanalyzed later by Paraver. Extrae is a tool that uses different\ninterposition mechanisms to inject probes into the target application so\nas to gather information regarding the application performance. The\nExtrae instrumentation package can instrument the MPI programin model,\nand the following parallel programming models either alone or in\nconjunction with MPI : OpenMP, CUDA, OpenCL, pthread, OmpSs",
             "name": "extrae"
         },

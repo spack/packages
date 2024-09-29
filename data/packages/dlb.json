@@ -26,12 +26,20 @@
             "name": "gnuconfig"
         },
         {
+            "description": "The Hardware Locality (hwloc) software project. The Portable Hardware\nLocality (hwloc) software package provides a portable abstraction\n(across OS, versions, architectures, ...) of the hierarchical topology\nof modern architectures, including NUMA memory nodes, sockets, shared\ncaches, cores and simultaneous multithreading. It also gathers various\nsystem attributes such as cache and memory information as well as the\nlocality of I/O devices such as network interfaces, InfiniBand HCAs or\nGPUs. It primarily aims at helping applications with gathering\ninformation about modern computing hardware so as to exploit it\naccordingly and efficiently.",
+            "name": "hwloc"
+        },
+        {
             "description": "libtool -- library building part of autotools.",
             "name": "libtool"
         },
         {
             "description": "IBM MPI implementation from Spectrum MPI.",
             "name": "mpi"
+        },
+        {
+            "description": "PAPI provides the tool designer and application engineer with a\nconsistent interface and methodology for use of the performance counter\nhardware found in most major microprocessors. PAPI enables software\nengineers to see, in near real time, the relation between software\nperformance and processor events. In addition Component PAPI provides\naccess to a collection of components that expose performance measurement\nopportunities across the hardware and software stack.",
+            "name": "papi"
         },
         {
             "description": "The Python programming language.",
@@ -41,7 +49,7 @@
     "dependent_to": [],
     "description": "DLB is a dynamic library designed to speed up HPC hybrid applications\n(i.e., two levels of parallelism) by improving the load balance of the\nouter level of parallelism (e.g., MPI) by dynamically redistributing the\ncomputational resources at the inner level of parallelism (e.g.,\nOpenMP). at run time.\n",
     "homepage": "https://pm.bsc.es/dlb",
-    "latest_version": "3.4",
+    "latest_version": "3.4.1",
     "maintainers": [
         "vlopezh"
     ],
@@ -56,19 +64,33 @@
         },
         {
             "default": false,
-            "description": "Builds additional debug libraries",
+            "description": "Build additional debug libraries",
             "name": "debug"
         },
         {
-            "default": false,
-            "description": "Builds MPI libraries",
+            "default": true,
+            "description": "Enable HWLOC support",
+            "name": "hwloc"
+        },
+        {
+            "default": true,
+            "description": "Build MPI libraries",
             "name": "mpi"
+        },
+        {
+            "default": true,
+            "description": "Enable PAPI support",
+            "name": "papi"
         }
     ],
     "versions": [
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "3.4.1",
+            "sha256": "7c071b75c126f8e77c1a30369348751624d5636edcbd663bf3d41fa04733c894"
         },
         {
             "name": "3.4",

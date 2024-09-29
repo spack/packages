@@ -130,6 +130,10 @@
             "name": "cp2k"
         },
         {
+            "description": "Data & Vis SDK ** This package is a post-ECP port from the ECP Data &\nVis SDK **",
+            "name": "dav-sdk"
+        },
+        {
             "description": "Distributed Block Compressed Sparse Row matrix library.",
             "name": "dbcsr"
         },

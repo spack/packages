@@ -40,8 +40,10 @@
     ],
     "description": "A Snakemake executor plugin for running srun jobs inside of SLURM jobs\n(meant for internal use by snakemake-executor-plugin-slurm).\n",
     "homepage": "https://github.com/snakemake/snakemake-executor-plugin-slurm-jobstep",
-    "latest_version": "0.1.10",
-    "maintainers": [],
+    "latest_version": "0.2.1",
+    "maintainers": [
+        "w8jcik"
+    ],
     "name": "py-snakemake-executor-plugin-slurm-jobstep",
     "patches": [],
     "resources": [],
@@ -53,6 +55,14 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.2.1",
+            "sha256": "58894d52b5998a34fa6f60ec511ff0bfde4a9ec96714bcaa3cd2f46cf8a33859"
+        },
+        {
+            "name": "0.1.11",
+            "sha256": "cafdac937796ab0dfc0354c42380167a44a1db00c4edc98ab736a6ace2201a94"
+        },
         {
             "name": "0.1.10",
             "sha256": "321b6bdf7883a8fb40ff4aeeb88633502e4db8394e40b6628db41a430c2eae2b"

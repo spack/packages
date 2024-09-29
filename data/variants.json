@@ -340,6 +340,10 @@
         },
         {
             "default": false,
+            "package": "dav-sdk"
+        },
+        {
+            "default": false,
             "package": "ecp-data-vis-sdk"
         },
         {
@@ -775,6 +779,10 @@
         {
             "default": "none",
             "package": "cp2k"
+        },
+        {
+            "default": "none",
+            "package": "dav-sdk"
         },
         {
             "default": "none",
@@ -1715,6 +1723,10 @@
         {
             "default": false,
             "package": "amr-wind"
+        },
+        {
+            "default": false,
+            "package": "dav-sdk"
         },
         {
             "default": false,
@@ -5475,6 +5487,10 @@
         {
             "default": "autotools",
             "package": "dateutils"
+        },
+        {
+            "default": "bundle",
+            "package": "dav-sdk"
         },
         {
             "default": "cmake",
@@ -42342,10 +42358,6 @@
         },
         {
             "default": false,
-            "package": "py-protobuf"
-        },
-        {
-            "default": false,
             "package": "sbml"
         }
     ],
@@ -42841,6 +42853,10 @@
         {
             "default": true,
             "package": "cutlass"
+        },
+        {
+            "default": false,
+            "package": "dav-sdk"
         },
         {
             "default": false,
@@ -43883,6 +43899,10 @@
         {
             "default": "none",
             "package": "cutlass"
+        },
+        {
+            "default": "none",
+            "package": "dav-sdk"
         },
         {
             "default": "none",
@@ -46745,6 +46765,12 @@
         {
             "default": false,
             "package": "pocl"
+        }
+    ],
+    "diy": [
+        {
+            "default": false,
+            "package": "dav-sdk"
         }
     ],
     "django": [
@@ -49905,6 +49931,10 @@
         {
             "default": true,
             "package": "damaris"
+        },
+        {
+            "default": true,
+            "package": "dav-sdk"
         },
         {
             "default": true,
@@ -57151,6 +57181,10 @@
             "package": "darshan-runtime"
         },
         {
+            "default": false,
+            "package": "dav-sdk"
+        },
+        {
             "default": true,
             "package": "dealii"
         },
@@ -57901,6 +57935,10 @@
         {
             "default": "bundled",
             "package": "chapel"
+        },
+        {
+            "default": true,
+            "package": "dlb"
         },
         {
             "default": false,
@@ -68193,7 +68231,7 @@
             "package": "dftbplus"
         },
         {
-            "default": false,
+            "default": true,
             "package": "dlb"
         },
         {
@@ -72926,6 +72964,10 @@
         },
         {
             "default": true,
+            "package": "dlb"
+        },
+        {
+            "default": true,
             "package": "extrae"
         },
         {
@@ -73080,6 +73122,10 @@
         }
     ],
     "paraview": [
+        {
+            "default": false,
+            "package": "dav-sdk"
+        },
         {
             "default": false,
             "package": "ecp-data-vis-sdk"
@@ -74449,6 +74495,10 @@
         {
             "default": true,
             "package": "accfft"
+        },
+        {
+            "default": false,
+            "package": "dav-sdk"
         },
         {
             "default": false,
@@ -77297,6 +77347,10 @@
         {
             "default": false,
             "package": "cp2k"
+        },
+        {
+            "default": false,
+            "package": "dav-sdk"
         },
         {
             "default": false,
@@ -85398,6 +85452,10 @@
         },
         {
             "default": false,
+            "package": "dav-sdk"
+        },
+        {
+            "default": false,
             "package": "ecp-data-vis-sdk"
         },
         {
@@ -85602,6 +85660,10 @@
         }
     ],
     "vtkm": [
+        {
+            "default": false,
+            "package": "dav-sdk"
+        },
         {
             "default": false,
             "package": "ecp-data-vis-sdk"
@@ -86399,6 +86461,10 @@
         {
             "default": false,
             "package": "conduit"
+        },
+        {
+            "default": false,
+            "package": "dav-sdk"
         },
         {
             "default": false,

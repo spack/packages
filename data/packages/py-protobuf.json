@@ -4,13 +4,8 @@
     "conflicts": [
         {
             "description": null,
-            "name": "%gcc@14",
+            "name": "%gcc@14:",
             "spec": "@:4.24.3"
-        },
-        {
-            "description": null,
-            "name": "+cpp",
-            "spec": "^python@3.11:"
         }
     ],
     "dependencies": [
@@ -223,7 +218,7 @@
     ],
     "description": "Protocol buffers are Google's language-neutral, platform-neutral,\nextensible mechanism for serializing structured data - think XML, but\nsmaller, faster, and simpler. You define how you want your data to be\nstructured once, then you can use special generated source code to\neasily write and read your structured data to and from a variety of data\nstreams and using a variety of languages.\n",
     "homepage": "https://developers.google.com/protocol-buffers/",
-    "latest_version": "5.26.1",
+    "latest_version": "5.28.2",
     "maintainers": [],
     "name": "py-protobuf",
     "patches": [],
@@ -233,14 +228,17 @@
             "default": "python_pip",
             "description": "Build systems supported by the package",
             "name": "build_system"
-        },
-        {
-            "default": false,
-            "description": "Enable the cpp implementation",
-            "name": "cpp"
         }
     ],
     "versions": [
+        {
+            "name": "5.28.2",
+            "sha256": "59379674ff119717404f7454647913787034f03fe7049cbef1d74a97bb4593f0"
+        },
+        {
+            "name": "5.27.5",
+            "sha256": "7fa81bc550201144a32f4478659da06e0b2ebe4d5303aacce9a202a1c3d5178d"
+        },
         {
             "name": "5.26.1",
             "sha256": "8ca2a1d97c290ec7b16e4e5dff2e5ae150cc1582f55b5ab300d45cb0dfa90e51"
