@@ -46,6 +46,10 @@
         {
             "description": "The Adaptable Input Output System version 2, developed in the Exascale\nComputing Program",
             "name": "adios2"
+        },
+        {
+            "description": "Hermes Shared Memory contains a variety of data structures and\nsynchronization primitives which are compatible with shared memory.",
+            "name": "hermes-shm"
         }
     ],
     "description": "Next generation c-blosc with a new API, a new container and other bells\nand whistles\n",

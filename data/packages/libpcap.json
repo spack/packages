@@ -66,7 +66,7 @@
     ],
     "description": "libpcap is a portable library in C/C++ for packet capture.\n",
     "homepage": "https://www.tcpdump.org/",
-    "latest_version": "1.10.4",
+    "latest_version": "1.10.5",
     "maintainers": [],
     "name": "libpcap",
     "patches": [],
@@ -79,6 +79,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.10.5",
+            "sha256": "37ced90a19a302a7f32e458224a00c365c117905c2cd35ac544b6880a81488f0"
+        },
         {
             "name": "1.10.4",
             "sha256": "ed19a0383fad72e3ad435fd239d7cd80d64916b87269550159d20e47160ebe5f"

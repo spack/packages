@@ -72,7 +72,7 @@
     ],
     "description": "The DBI is the standard database interface module for Perl. It defines a\nset of methods, variables and conventions that provide a consistent\ndatabase interface independent of the actual database being used.\n",
     "homepage": "https://dbi.perl.org/",
-    "latest_version": "1.643",
+    "latest_version": "1.645",
     "maintainers": [],
     "name": "perl-dbi",
     "patches": [],
@@ -85,6 +85,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.645",
+            "sha256": "e38b7a5efee129decda12383cf894963da971ffac303f54cc1b93e40e3cf9921"
+        },
         {
             "name": "1.643",
             "sha256": "8a2b993db560a2c373c174ee976a51027dd780ec766ae17620c20393d2e836fa"

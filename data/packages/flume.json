@@ -10,8 +10,8 @@
     ],
     "dependent_to": [],
     "description": " Apache Flume is a distributed, reliable, and available service for\nefficiently collecting, aggregating, and moving large amounts of log\ndata. It has a simple and flexible architecture based on streaming data\nflows. It is robust and fault tolerant with tunable reliability\nmechanisms and many failover and recovery mechanisms. The system is\ncentrally managed and allows for intelligent dynamic management. It uses\na simple extensible data model that allows for online analytic\napplication.\n",
-    "homepage": "https://cwiki.apache.org/FLUME",
-    "latest_version": "1.9.0",
+    "homepage": "https://flume.apache.org",
+    "latest_version": "1.11.0",
     "maintainers": [],
     "name": "flume",
     "patches": [],
@@ -24,6 +24,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.11.0",
+            "sha256": "6eb7806076bdc3dcadb728275eeee7ba5cb12b63a2d981de3da9063008dba678"
+        },
         {
             "name": "1.9.0",
             "sha256": "0373ed5abfd44dc4ab23d9a02251ffd7e3b32c02d83a03546e97ec15a7b23619"

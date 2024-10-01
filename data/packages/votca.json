@@ -95,7 +95,7 @@
     "dependent_to": [],
     "description": "VOTCA is a software package which focuses on the analysis of molecular\ndynamics data, the development of systematic coarse-graining techniques\nas well as methods used for simulating microscopic charge (and exciton)\ntransport in disordered semiconductors.\n",
     "homepage": "https://www.votca.org",
-    "latest_version": "2024.1",
+    "latest_version": "2024.2",
     "maintainers": [
         "junghans"
     ],
@@ -143,6 +143,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "2024.2",
+            "sha256": "aa9ea3ad54dae31d3f68685d12f3bad4910ef3034a7f51c9ddd573b3856f4bc8"
         },
         {
             "name": "2024.1",

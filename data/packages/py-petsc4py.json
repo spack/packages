@@ -68,7 +68,7 @@
     ],
     "description": "This package provides Python bindings for the PETSc package.\n",
     "homepage": "https://gitlab.com/petsc/petsc4py",
-    "latest_version": "3.21.5",
+    "latest_version": "3.22.0",
     "maintainers": [
         "balay"
     ],
@@ -101,6 +101,14 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "3.22.0",
+            "sha256": "b35fc833d41c7969be8a530494fcc81741d77e0dc33fba2f4050cdbd0ad881ae"
+        },
+        {
+            "name": "3.21.6",
+            "sha256": "d7a6d41e1463b04b9711b53b347d15f590f9354fae37aae14ad69100286129aa"
         },
         {
             "name": "3.21.5",

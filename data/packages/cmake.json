@@ -567,7 +567,7 @@
             "name": "cardioid"
         },
         {
-            "description": "Algorithms for chai managed arrays.",
+            "description": "CHAI and RAJA extensions (includes data structures and algorithms).",
             "name": "care"
         },
         {
@@ -1929,6 +1929,10 @@
         {
             "description": "Hermes is a heterogeneous-aware, multi-tiered, dynamic, and distributed\nI/O buffering system that aims to significantly accelerate I/O\nperformance.",
             "name": "hermes"
+        },
+        {
+            "description": "Hermes Shared Memory contains a variety of data structures and\nsynchronization primitives which are compatible with shared memory.",
+            "name": "hermes-shm"
         },
         {
             "description": "heyoka is a C++ library for integration of ODEs via Taylor\u2019s method",
@@ -4217,6 +4221,10 @@
         {
             "description": "RAJA Parallel Framework.",
             "name": "raja"
+        },
+        {
+            "description": "RAJA Performance Suite.",
+            "name": "raja-perf"
         },
         {
             "description": "Range v3 forms the basis of a proposal to add range support to the\nstandard library (N4128: Ranges for the Standard Library). It also will\nbe the reference implementation for an upcoming Technical Specification.\nThese are the first steps toward turning ranges into an international\nstandard.",

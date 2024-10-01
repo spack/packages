@@ -34,7 +34,7 @@
     ],
     "description": "pacparser is a library to parse proxy auto-config (PAC) files.\n",
     "homepage": "https://pacparser.github.io/",
-    "latest_version": "1.4.0",
+    "latest_version": "1.4.5",
     "maintainers": [],
     "name": "pacparser",
     "patches": [],
@@ -52,6 +52,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.4.5",
+            "sha256": "fac205f41d000e245519244dc3e730e649a0ac1c61b5f2d1d0660056e1680b2d"
+        },
         {
             "name": "1.4.0",
             "sha256": "2e66c5fe635cd5dcb9bccca4aced925eca712632b81bada3b63682159c0f910e"

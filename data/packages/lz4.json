@@ -68,6 +68,10 @@
             "name": "goshimmer"
         },
         {
+            "description": "Hermes Shared Memory contains a variety of data structures and\nsynchronization primitives which are compatible with shared memory.",
+            "name": "hermes-shm"
+        },
+        {
             "description": "Data compression library based on Jointed Hierarchical Precision\nCompression Number - Data Format JHPCN-DF is a novel lossy compression\nalgorithm taylored for floating point dataset. The algorithm enhances\nthe effect of employing standard compression algorithms like deflate\nbecause this approach makes the occurence rate of the same byte pattern\nin data stream higher owing to truncating some lower bits of\nsignificand.",
             "name": "jhpcn-df"
         },

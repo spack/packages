@@ -42,6 +42,10 @@
             "name": "hermes"
         },
         {
+            "description": "Hermes Shared Memory contains a variety of data structures and\nsynchronization primitives which are compatible with shared memory.",
+            "name": "hermes-shm"
+        },
+        {
             "description": "LBANN: Livermore Big Artificial Neural Network Toolkit. A distributed\nmemory, HPC-optimized, model and data parallel training toolkit for deep\nneural networks.",
             "name": "lbann"
         },

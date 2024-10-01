@@ -108,7 +108,7 @@
     ],
     "description": "The Gdk Pixbuf is a toolkit for image loading and pixel buffer\nmanipulation. It is used by GTK+ 2 and GTK+ 3 to load and manipulate\nimages. In the past it was distributed as part of GTK+ 2 but it was\nsplit off into a separate package in preparation for the change to GTK+\n3.\n",
     "homepage": "https://gitlab.gnome.org/GNOME/gdk-pixbuf",
-    "latest_version": "2.42.10",
+    "latest_version": "2.42.12",
     "maintainers": [],
     "name": "gdk-pixbuf",
     "patches": [
@@ -147,6 +147,12 @@
     ],
     "versions": [
         {
+            "name": "2.42.12",
+            "sha256": "b9505b3445b9a7e48ced34760c3bcb73e966df3ac94c95a148cb669ab748e3c7"
+        }
+    ],
+    "versions_deprecated": [
+        {
             "name": "2.42.10",
             "sha256": "ee9b6c75d13ba096907a2e3c6b27b61bcd17f5c7ebeab5a5b439d2f2e39fe44b"
         },
@@ -161,9 +167,7 @@
         {
             "name": "2.42.2",
             "sha256": "83c66a1cfd591d7680c144d2922c5955d38b4db336d7cd3ee109f7bcf9afef15"
-        }
-    ],
-    "versions_deprecated": [
+        },
         {
             "name": "2.40.0",
             "sha256": "1582595099537ca8ff3b99c6804350b4c058bb8ad67411bbaae024ee7cead4e6"

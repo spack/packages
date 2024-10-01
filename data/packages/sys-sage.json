@@ -41,7 +41,7 @@
     "dependent_to": [],
     "description": "A library for capturing hardware topology and attributes of compute\nsystems.\n",
     "homepage": "https://github.com/caps-tum/sys-sage",
-    "latest_version": "0.4.3",
+    "latest_version": "0.5.0",
     "maintainers": [
         "stepanvanecek"
     ],
@@ -103,6 +103,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "0.5.0",
+            "sha256": "044e53bf0f3873325fa4dedb510849d58b23b5a2c654d41b1389a318b2cb7ee1"
         },
         {
             "name": "0.4.3",

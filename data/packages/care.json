@@ -4,6 +4,11 @@
     "conflicts": [
         {
             "description": null,
+            "name": "~tests",
+            "spec": "+benchmarks"
+        },
+        {
+            "description": null,
             "name": "%clang@7:",
             "spec": "+cuda ^cuda@10.0.130~allow-unsupported-compilers arch=None-None-ppc64le:"
         },
@@ -448,11 +453,12 @@
         }
     ],
     "dependent_to": [],
-    "description": " Algorithms for chai managed arrays.\n",
+    "description": " CHAI and RAJA extensions (includes data structures and algorithms).\n",
     "homepage": "https://github.com/LLNL/CARE",
-    "latest_version": "0.13.1",
+    "latest_version": "0.13.3",
     "maintainers": [
-        "adayton1"
+        "adayton1",
+        "adrienbernede"
     ],
     "name": "care",
     "patches": [],
@@ -464,7 +470,7 @@
             "name": "amdgpu_target"
         },
         {
-            "default": true,
+            "default": false,
             "description": "Build benchmarks.",
             "name": "benchmarks"
         },
@@ -494,7 +500,7 @@
             "name": "docs"
         },
         {
-            "default": true,
+            "default": false,
             "description": "Build examples.",
             "name": "examples"
         },
@@ -504,7 +510,7 @@
             "name": "generator"
         },
         {
-            "default": true,
+            "default": false,
             "description": "Enable implicitconversions to/from raw pointers",
             "name": "implicit_conversions"
         },
@@ -520,7 +526,12 @@
         },
         {
             "default": false,
-            "description": "Build Shared Libs",
+            "description": "Enable MPI support",
+            "name": "mpi"
+        },
+        {
+            "default": false,
+            "description": "Build with OpenMP support",
             "name": "openmp"
         },
         {
@@ -537,31 +548,41 @@
     "versions": [
         {
             "branch": "develop",
-            "name": "develop",
-            "submodules": "True"
+            "name": "develop"
         },
         {
-            "branch": "main",
-            "name": "master",
-            "submodules": "True"
+            "branch": "master",
+            "name": "master"
+        },
+        {
+            "commit": "93853696b452647278eae9311b835ad206236522",
+            "name": "0.13.3",
+            "tag": "v0.13.3"
+        },
+        {
+            "commit": "b25dcd2a35683a68db1c25173e849be69833ed4f",
+            "name": "0.13.2",
+            "tag": "v0.13.2"
         },
         {
             "commit": "0fd0d47aaaa57076f26caad88e667fbc01ff7214",
             "name": "0.13.1",
-            "submodules": "True",
             "tag": "v0.13.1"
         },
         {
             "commit": "2b288e2c557c3b14befeebc8e14a7d48348bd857",
             "name": "0.13.0",
-            "submodules": "True",
             "tag": "v0.13.0"
         },
         {
             "commit": "a9978083035eb00a090451bd36d7987bc935204d",
             "name": "0.12.0",
-            "submodules": "True",
             "tag": "v0.12.0"
+        },
+        {
+            "name": "0.10.0",
+            "submodules": "True",
+            "tag": "v0.10.0"
         },
         {
             "commit": "5e2b69b2836c9f2215207ca9a36a690cb77eea33",

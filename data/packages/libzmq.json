@@ -102,6 +102,10 @@
             "name": "helics"
         },
         {
+            "description": "Hermes Shared Memory contains a variety of data structures and\nsynchronization primitives which are compatible with shared memory.",
+            "name": "hermes-shm"
+        },
+        {
             "description": "Libnrm, the application instrumentation library for the Node Resource\nManager(NRM).",
             "name": "libnrm"
         },

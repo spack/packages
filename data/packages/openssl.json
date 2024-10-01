@@ -206,6 +206,10 @@
             "name": "helics"
         },
         {
+            "description": "Hermes Shared Memory contains a variety of data structures and\nsynchronization primitives which are compatible with shared memory.",
+            "name": "hermes-shm"
+        },
+        {
             "description": "Hiredis is a minimalistic C client library for the Redis database.",
             "name": "hiredis"
         },

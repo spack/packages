@@ -316,6 +316,10 @@
         },
         {
             "default": false,
+            "package": "hermes-shm"
+        },
+        {
+            "default": false,
             "package": "lammps"
         }
     ],
@@ -1022,6 +1026,10 @@
         },
         {
             "default": "none",
+            "package": "raja-perf"
+        },
+        {
+            "default": "none",
             "package": "ratel"
         },
         {
@@ -1453,6 +1461,12 @@
         {
             "default": false,
             "package": "gdal"
+        }
+    ],
+    "ares": [
+        {
+            "default": false,
+            "package": "hermes-shm"
         }
     ],
     "argobots": [
@@ -2289,7 +2303,7 @@
             "package": "aocl-sparse"
         },
         {
-            "default": true,
+            "default": false,
             "package": "care"
         },
         {
@@ -2729,6 +2743,10 @@
         {
             "default": false,
             "package": "henson"
+        },
+        {
+            "default": true,
+            "package": "hermes-shm"
         },
         {
             "default": false,
@@ -4487,6 +4505,10 @@
         {
             "default": "makefile",
             "package": "cbflib"
+        },
+        {
+            "default": "cargo",
+            "package": "cbindgen"
         },
         {
             "default": "generic",
@@ -8241,6 +8263,10 @@
             "package": "hermes"
         },
         {
+            "default": "cmake",
+            "package": "hermes-shm"
+        },
+        {
             "default": "autotools",
             "package": "herwig3"
         },
@@ -10613,7 +10639,7 @@
             "package": "libverto"
         },
         {
-            "default": "autotools",
+            "default": "meson",
             "package": "libvips"
         },
         {
@@ -12359,6 +12385,10 @@
         {
             "default": "maven",
             "package": "neo4j"
+        },
+        {
+            "default": "cargo",
+            "package": "neocmakelsp"
         },
         {
             "default": "cmake",
@@ -31613,6 +31643,10 @@
             "package": "raja"
         },
         {
+            "default": "cmake",
+            "package": "raja-perf"
+        },
+        {
             "default": "makefile",
             "package": "ramulator"
         },
@@ -32299,6 +32333,10 @@
         {
             "default": "generic",
             "package": "rust-bootstrap"
+        },
+        {
+            "default": "cargo",
+            "package": "rust-clap"
         },
         {
             "default": "generic",
@@ -37354,6 +37392,10 @@
         },
         {
             "default": "Release",
+            "package": "hermes-shm"
+        },
+        {
+            "default": "Release",
             "package": "heyoka"
         },
         {
@@ -39326,6 +39368,10 @@
         },
         {
             "default": "Release",
+            "package": "raja-perf"
+        },
+        {
+            "default": "Release",
             "package": "range-v3"
         },
         {
@@ -41094,6 +41140,10 @@
         },
         {
             "default": false,
+            "package": "raja-perf"
+        },
+        {
+            "default": false,
             "package": "steps"
         },
         {
@@ -41276,6 +41326,10 @@
         }
     ],
     "cereal": [
+        {
+            "default": true,
+            "package": "hermes-shm"
+        },
         {
             "default": true,
             "package": "mochi-thallium"
@@ -41994,6 +42048,10 @@
         }
     ],
     "compress": [
+        {
+            "default": false,
+            "package": "hermes-shm"
+        },
         {
             "default": false,
             "package": "lammps"
@@ -43504,6 +43562,10 @@
         },
         {
             "default": false,
+            "package": "raja-perf"
+        },
+        {
+            "default": false,
             "package": "ratel"
         },
         {
@@ -44407,6 +44469,10 @@
         {
             "default": "none",
             "package": "raja"
+        },
+        {
+            "default": "none",
+            "package": "raja-perf"
         },
         {
             "default": "none",
@@ -47963,6 +48029,12 @@
             "package": "libfort"
         }
     ],
+    "encrypt": [
+        {
+            "default": false,
+            "package": "hermes-shm"
+        }
+    ],
     "encryption": [
         {
             "default": true,
@@ -48329,7 +48401,7 @@
             "package": "cabana"
         },
         {
-            "default": true,
+            "default": false,
             "package": "care"
         },
         {
@@ -49799,6 +49871,12 @@
         {
             "default": true,
             "package": "mppp"
+        }
+    ],
+    "fmt_header_only": [
+        {
+            "default": true,
+            "package": "umpire"
         }
     ],
     "fnal": [
@@ -52588,6 +52666,10 @@
         },
         {
             "default": "make",
+            "package": "hermes-shm"
+        },
+        {
+            "default": "make",
             "package": "heyoka"
         },
         {
@@ -54557,6 +54639,10 @@
         {
             "default": "make",
             "package": "raja"
+        },
+        {
+            "default": "make",
+            "package": "raja-perf"
         },
         {
             "default": "make",
@@ -58439,7 +58525,7 @@
     ],
     "implicit_conversions": [
         {
-            "default": true,
+            "default": false,
             "package": "care"
         }
     ],
@@ -60746,6 +60832,10 @@
         },
         {
             "default": false,
+            "package": "hermes-shm"
+        },
+        {
+            "default": false,
             "package": "heyoka"
         },
         {
@@ -62711,6 +62801,10 @@
         {
             "default": false,
             "package": "raja"
+        },
+        {
+            "default": false,
+            "package": "raja-perf"
         },
         {
             "default": false,
@@ -67735,6 +67829,12 @@
             "package": "petsc"
         }
     ],
+    "mochi": [
+        {
+            "default": true,
+            "package": "hermes-shm"
+        }
+    ],
     "mode": [
         {
             "default": "interactive",
@@ -68117,6 +68217,10 @@
         {
             "default": true,
             "package": "camx"
+        },
+        {
+            "default": false,
+            "package": "care"
         },
         {
             "default": false,
@@ -68955,6 +69059,10 @@
             "package": "quo-vadis"
         },
         {
+            "default": false,
+            "package": "raja-perf"
+        },
+        {
             "default": true,
             "package": "raxml"
         },
@@ -69317,6 +69425,10 @@
         {
             "default": true,
             "package": "gslib"
+        },
+        {
+            "default": true,
+            "package": "hermes-shm"
         },
         {
             "default": false,
@@ -71037,10 +71149,32 @@
             "package": "timemory"
         }
     ],
+    "omptarget": [
+        {
+            "default": false,
+            "package": "camp"
+        },
+        {
+            "default": false,
+            "package": "raja"
+        },
+        {
+            "default": false,
+            "package": "raja-perf"
+        },
+        {
+            "default": false,
+            "package": "umpire"
+        }
+    ],
     "omptask": [
         {
             "default": false,
             "package": "raja"
+        },
+        {
+            "default": false,
+            "package": "raja-perf"
         }
     ],
     "on_demand": [
@@ -72127,6 +72261,10 @@
             "package": "raja"
         },
         {
+            "default": false,
+            "package": "raja-perf"
+        },
+        {
             "default": true,
             "package": "rocm-tensile"
         },
@@ -72383,12 +72521,6 @@
         {
             "default": "none",
             "package": "gromacs-swaxs"
-        }
-    ],
-    "openmp_target": [
-        {
-            "default": false,
-            "package": "umpire"
         }
     ],
     "openmpi": [
@@ -76142,6 +76274,10 @@
         },
         {
             "default": false,
+            "package": "tandem"
+        },
+        {
+            "default": false,
             "package": "tasmanian"
         },
         {
@@ -77611,6 +77747,10 @@
         {
             "default": false,
             "package": "raja"
+        },
+        {
+            "default": false,
+            "package": "raja-perf"
         },
         {
             "default": false,
@@ -79893,6 +80033,10 @@
         {
             "default": false,
             "package": "raja"
+        },
+        {
+            "default": false,
+            "package": "raja-perf"
         },
         {
             "default": true,
@@ -82297,6 +82441,10 @@
             "package": "cabana"
         },
         {
+            "default": false,
+            "package": "camp"
+        },
+        {
             "default": true,
             "package": "double-batched-fft-library"
         },
@@ -82351,6 +82499,14 @@
         {
             "default": false,
             "package": "py-pennylane-lightning-kokkos"
+        },
+        {
+            "default": false,
+            "package": "raja"
+        },
+        {
+            "default": false,
+            "package": "raja-perf"
         },
         {
             "default": false,
@@ -83201,6 +83357,10 @@
         {
             "default": false,
             "package": "raja"
+        },
+        {
+            "default": "basic",
+            "package": "raja-perf"
         },
         {
             "default": false,
@@ -85343,6 +85503,10 @@
         {
             "default": false,
             "package": "hermes"
+        },
+        {
+            "default": false,
+            "package": "hermes-shm"
         }
     ],
     "vfs": [
@@ -86663,6 +86827,10 @@
         {
             "default": true,
             "package": "helics"
+        },
+        {
+            "default": false,
+            "package": "hermes-shm"
         }
     ],
     "zoltan": [

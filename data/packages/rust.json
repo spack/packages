@@ -61,6 +61,10 @@
             "name": "bat"
         },
         {
+            "description": "A project for generating C bindings from Rust code.",
+            "name": "cbindgen"
+        },
+        {
             "description": "du + rust = dust. Like du but more intuitive.",
             "name": "dust"
         },
@@ -119,6 +123,10 @@
         {
             "description": "An interactive cheatsheet tool for the command-line",
             "name": "navi"
+        },
+        {
+            "description": "Another cmake lsp",
+            "name": "neocmakelsp"
         },
         {
             "description": "Polypolish is a tool for polishing genome assemblies with short reads.\nUnlike other tools in this category, Polypolish uses SAM files where\neach read has been aligned to all possible locations (not just a single\nbest location). This allows it to repair errors in repeat regions that\nother alignment-based polishers cannot fix.",
@@ -187,6 +195,10 @@
         {
             "description": "The rust programming language toolchain",
             "name": "rust-bindgen"
+        },
+        {
+            "description": "A full featured, fast Command Line Argument Parser for Rust",
+            "name": "rust-clap"
         },
         {
             "description": "Sourmash: Quickly search, compare, and analyze genomic and metagenomic\ndata sets with k-mer sketches.",

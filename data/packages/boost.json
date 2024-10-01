@@ -540,6 +540,10 @@
             "name": "henson"
         },
         {
+            "description": "Hermes Shared Memory contains a variety of data structures and\nsynchronization primitives which are compatible with shared memory.",
+            "name": "hermes-shm"
+        },
+        {
             "description": "Herwig is a multi-purpose particle physics event generator.",
             "name": "herwig3"
         },

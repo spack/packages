@@ -62,7 +62,7 @@
     ],
     "description": "ODBC is an open specification for providing application developers with\na predictable API with which to access Data Sources. Data Sources\ninclude SQL Servers and any Data Source with an ODBC Driver.\n",
     "homepage": "https://www.unixodbc.org/",
-    "latest_version": "2.3.4",
+    "latest_version": "2.3.12",
     "maintainers": [],
     "name": "unixodbc",
     "patches": [],
@@ -75,6 +75,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.3.12",
+            "sha256": "f210501445ce21bf607ba51ef8c125e10e22dffdffec377646462df5f01915ec"
+        },
         {
             "name": "2.3.4",
             "sha256": "2e1509a96bb18d248bf08ead0d74804957304ff7c6f8b2e5965309c632421e39"

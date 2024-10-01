@@ -898,6 +898,10 @@
             "name": "hermes"
         },
         {
+            "description": "Hermes Shared Memory contains a variety of data structures and\nsynchronization primitives which are compatible with shared memory.",
+            "name": "hermes-shm"
+        },
+        {
             "description": "HH-suite is a widely used open source software suite for sensitive\nsequence similarity searches and protein fold recognition. It is based\non pairwise alignment of profile Hidden Markov models (HMMs), which\nrepresent multiple sequence alignments of homologous proteins.",
             "name": "hh-suite"
         },
@@ -1912,6 +1916,10 @@
         {
             "description": "RAFT: Reconstruct Algorithms for Tomography. Toolbox under development\nat Brazilian Synchrotron Light Source.",
             "name": "raft"
+        },
+        {
+            "description": "RAJA Performance Suite.",
+            "name": "raja-perf"
         },
         {
             "description": "Assign one-to-one mapping of MPI ranks to strings",

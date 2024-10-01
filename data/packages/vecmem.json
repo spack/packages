@@ -415,7 +415,7 @@
     ],
     "description": "VecMem is a vectorised data model base and helper classes.\n",
     "homepage": "https://github.com/acts-project/vecmem",
-    "latest_version": "1.8.0",
+    "latest_version": "1.9.0",
     "maintainers": [
         "stephenswat",
         "wdconinc"
@@ -466,6 +466,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.9.0",
+            "sha256": "c1ddc43ff0d742306cbee71afd80efd348b6b0b1ba9e4210ca7f8b607f03bd70"
+        },
         {
             "name": "1.8.0",
             "sha256": "d04f1bfcd08837f85c794a69da9f248e163985214a302c22381037feb5b3a7a9"

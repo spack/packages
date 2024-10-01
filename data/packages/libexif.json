@@ -37,8 +37,8 @@
         }
     ],
     "description": "A library to parse an EXIF file and read the data from those tags\n",
-    "homepage": "https://sourceforge.net/projects/libexif/",
-    "latest_version": "0.6.21",
+    "homepage": "https://libexif.github.io/",
+    "latest_version": "0.6.24",
     "maintainers": [
         "TheQueasle"
     ],
@@ -53,6 +53,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.6.24",
+            "sha256": "d47564c433b733d83b6704c70477e0a4067811d184ec565258ac563d8223f6ae"
+        },
         {
             "name": "0.6.21",
             "sha256": "16cdaeb62eb3e6dfab2435f7d7bccd2f37438d21c5218ec4e58efa9157d4d41a"

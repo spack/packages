@@ -38,7 +38,7 @@
     ],
     "description": "CUPS is the standards-based, open source printing system developed by\nApple Inc. for macOS and other UNIX-like operating systems. CUPS uses\nthe Internet Printing Protocol (IPP) to support printing to local and\nnetwork printers. This provides the core CUPS libraries, not a complete\nCUPS install.\n",
     "homepage": "https://www.cups.org/",
-    "latest_version": "2.3.3",
+    "latest_version": "2.4.10",
     "maintainers": [],
     "name": "cups",
     "patches": [],
@@ -51,6 +51,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.4.10",
+            "sha256": "d75757c2bc0f7a28b02ee4d52ca9e4b1aa1ba2affe16b985854f5336940e5ad7"
+        },
         {
             "name": "2.3.3",
             "sha256": "261fd948bce8647b6d5cb2a1784f0c24cc52b5c4e827b71d726020bcc502f3ee"

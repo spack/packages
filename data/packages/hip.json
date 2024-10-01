@@ -193,7 +193,7 @@
             "name": "camp"
         },
         {
-            "description": "Algorithms for chai managed arrays.",
+            "description": "CHAI and RAJA extensions (includes data structures and algorithms).",
             "name": "care"
         },
         {
@@ -495,6 +495,10 @@
         {
             "description": "RAJA Parallel Framework.",
             "name": "raja"
+        },
+        {
+            "description": "RAJA Performance Suite.",
+            "name": "raja-perf"
         },
         {
             "description": "Extensible, performance-portable solid mechanics with libCEED and PETSc",

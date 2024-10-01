@@ -431,7 +431,7 @@
     ],
     "dependent_to": [
         {
-            "description": "Algorithms for chai managed arrays.",
+            "description": "CHAI and RAJA extensions (includes data structures and algorithms).",
             "name": "care"
         },
         {
@@ -445,9 +445,10 @@
     ],
     "description": " Copy-hiding array interface for data migration between memory spaces\n",
     "homepage": "https://github.com/LLNL/CHAI",
-    "latest_version": "2024.02.2",
+    "latest_version": "2024.07.0",
     "maintainers": [
         "adayton1",
+        "adrienbernede",
         "davidbeckingsale"
     ],
     "name": "chai",
@@ -549,6 +550,11 @@
         {
             "branch": "develop",
             "name": "develop"
+        },
+        {
+            "commit": "df7741f1dbbdc5fff5f7d626151fdf1904e62b19",
+            "name": "2024.07.0",
+            "tag": "v2024.07.0"
         },
         {
             "commit": "5ba0944d862513f600432c34b009824875df27e5",

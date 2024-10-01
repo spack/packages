@@ -51,7 +51,7 @@
     "dependent_to": [],
     "description": "High-performance computational chemistry software\n",
     "homepage": "https://nwchemgit.github.io",
-    "latest_version": "7.2.2",
+    "latest_version": "7.2.3",
     "maintainers": [
         "jeffhammond"
     ],
@@ -72,7 +72,16 @@
             "relative_path": "fftw_splans.patch",
             "reverse": false,
             "sha256": "235134c148b7b683197cc6dced6e4ccdbfe4b4d2380c3173a2f55f5900ead51d",
-            "version": "@7.2.0:7.2.2+fftw3",
+            "version": "@7.2.0:7.2.3+fftw3",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.nwchem",
+            "relative_path": "dft-d3_url.patch",
+            "reverse": false,
+            "sha256": "2af3b353eed94c30fdb0552b21edfa8e1a5547c5886dce435652d1eabbee98ab",
+            "version": "@7.2.0:7.2.2",
             "working_dir": "."
         }
     ],
@@ -115,6 +124,11 @@
         }
     ],
     "versions": [
+        {
+            "name": "7.2.3",
+            "sha256": "8cb4ec065215bc0316d8e01f67f1674a572f7d0f565c52e4a327975c04ddb6eb",
+            "url": "https://github.com/nwchemgit/nwchem/releases/download/v7.2.3-release/nwchem-7.2.3-release.revision-d690e065-srconly.2024-08-27.tar.bz2"
+        },
         {
             "name": "7.2.2",
             "sha256": "6b68e9c12eec38c09d92472bdd1ff130b93c1b5e1f65e4702aa7ee36c80e4af7",

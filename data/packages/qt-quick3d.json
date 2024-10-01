@@ -53,7 +53,7 @@
     "dependent_to": [],
     "description": "A new module and API for defining 3D content in Qt Quick.\n",
     "homepage": "https://www.qt.io",
-    "latest_version": "6.7.2",
+    "latest_version": "6.7.3",
     "maintainers": [
         "wdconinc"
     ],
@@ -83,6 +83,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.7.3",
+            "sha256": "3e68f3a9a330e7b9a92ddf5b8d7a0874a107ea77636c788f598de65e327eb4a0"
+        },
         {
             "name": "6.7.2",
             "sha256": "67021658cb10bfa6d969c4219d599ab2f4775d08fb4ae56da17fbec305088b55"

@@ -385,12 +385,12 @@
         {
             "description": "umpire: Cant support both rocm and openmp device backends at once",
             "name": "+rocm",
-            "spec": "+openmp_target"
+            "spec": "+omptarget"
         },
         {
             "description": "umpire: OpenMP target requires OpenMP",
             "name": "~openmp",
-            "spec": "+openmp_target"
+            "spec": "+omptarget"
         },
         {
             "description": null,
@@ -517,7 +517,7 @@
             "name": "axom"
         },
         {
-            "description": "Algorithms for chai managed arrays.",
+            "description": "CHAI and RAJA extensions (includes data structures and algorithms).",
             "name": "care"
         },
         {
@@ -563,7 +563,7 @@
     ],
     "description": "An application-focused API for memory management on NUMA & GPU\narchitectures\n",
     "homepage": "https://github.com/LLNL/Umpire",
-    "latest_version": "2024.02.1",
+    "latest_version": "2024.07.0",
     "maintainers": [
         "adrienbernede",
         "davidbeckingsale"
@@ -724,6 +724,11 @@
             "name": "examples"
         },
         {
+            "default": true,
+            "description": "Link to header-only fmt target",
+            "name": "fmt_header_only"
+        },
+        {
             "default": false,
             "description": "Build C/Fortran API",
             "name": "fortran"
@@ -755,13 +760,13 @@
         },
         {
             "default": false,
-            "description": "Build with OpenMP support",
-            "name": "openmp"
+            "description": "Build with OpenMP 4.5 support",
+            "name": "omptarget"
         },
         {
             "default": false,
-            "description": "Build with OpenMP 4.5 support",
-            "name": "openmp_target"
+            "description": "Build with OpenMP support",
+            "name": "openmp"
         },
         {
             "default": false,
@@ -803,6 +808,11 @@
         {
             "branch": "develop",
             "name": "develop"
+        },
+        {
+            "commit": "abd729f40064175e999a83d11d6b073dac4c01d2",
+            "name": "2024.07.0",
+            "tag": "v2024.07.0"
         },
         {
             "commit": "3058d562fc707650e904f9321b1ee9bcebad3ae2",

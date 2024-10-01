@@ -860,7 +860,7 @@
     ],
     "description": "PETSc is a suite of data structures and routines for the scalable\n(parallel) solution of scientific applications modeled by partial\ndifferential equations.\n",
     "homepage": "https://petsc.org",
-    "latest_version": "3.21.5",
+    "latest_version": "3.22.0",
     "maintainers": [
         "balay",
         "barrysmith",
@@ -1239,6 +1239,14 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "3.22.0",
+            "sha256": "2c03f7c0f7ad2649240d4989355cf7fb7f211b75156cd7d424e1d9dd7dfb290b"
+        },
+        {
+            "name": "3.21.6",
+            "sha256": "cb2dc00742a89cf8acf9ff8aae189e6864e8b90f4997f087be6e54ff39c30d74"
         },
         {
             "name": "3.21.5",

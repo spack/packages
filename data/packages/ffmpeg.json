@@ -228,7 +228,7 @@
     ],
     "description": "FFmpeg is a complete, cross-platform solution to record, convert and\nstream audio and video.\n",
     "homepage": "https://ffmpeg.org",
-    "latest_version": "7.0",
+    "latest_version": "7.0.2",
     "maintainers": [
         "xjrc"
     ],
@@ -426,6 +426,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "7.0.2",
+            "sha256": "1ed250407ea8f955cca2f1139da3229fbc13032a0802e4b744be195865ff1541"
         },
         {
             "name": "7.0",

@@ -11,7 +11,7 @@
     "dependent_to": [],
     "description": " Apache Flink is an open source stream processing framework with\npowerful stream- and batch-processing capabilities.\n",
     "homepage": "https://flink.apache.org/",
-    "latest_version": "1.9.1",
+    "latest_version": "1.20.0",
     "maintainers": [],
     "name": "flink",
     "patches": [],
@@ -24,6 +24,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.20.0",
+            "sha256": "708fd544ccf9ddc0d4b192fe035797ce16de2c26f1d764c55907305efe140af0"
+        },
         {
             "name": "1.9.1",
             "sha256": "f69de344cd593e92f8261e19ae8a47b3910e9a70a7cd1ccfb1ecd1ff000b93ea"

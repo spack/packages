@@ -31,7 +31,7 @@
     "dependent_to": [],
     "description": "Stateful programmatic web browsing.\n",
     "homepage": "https://github.com/python-mechanize/mechanize",
-    "latest_version": "0.4.3",
+    "latest_version": "0.4.10",
     "maintainers": [],
     "name": "py-mechanize",
     "patches": [],
@@ -44,6 +44,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.4.10",
+            "sha256": "1dea947f9be7ea0ab610f7bbc4a4e36b45d6bfdfceea29ad3d389a88a1957ddf"
+        },
         {
             "name": "0.4.3",
             "sha256": "d7d7068be5e1b3069575c98c870aaa96dd26603fe8c8697b470e2f65259fddbf"

@@ -213,7 +213,7 @@
             "relative_path": "fmt-no-variable-initialize_10.0.0.patch",
             "reverse": false,
             "sha256": "74b75da32eebe092e2784a602406386e60fc7d9d73d59c2da1a659982fde5648",
-            "version": "@10.0.0:10.2.1%clang@12.0.1.ibm.gcc.8.3.1",
+            "version": "@10.0.0:11.0.2%clang@12.0.1.ibm.gcc.8.3.1",
             "working_dir": "."
         },
         {
@@ -222,7 +222,7 @@
             "relative_path": "fmt-no-variable-initialize_10.0.0.patch",
             "reverse": false,
             "sha256": "74b75da32eebe092e2784a602406386e60fc7d9d73d59c2da1a659982fde5648",
-            "version": "@10.0.0:10.2.1%clang@14.0.5.ibm.gcc.8.3.1",
+            "version": "@10.0.0:11.0.2%clang@14.0.5.ibm.gcc.8.3.1",
             "working_dir": "."
         }
     ],

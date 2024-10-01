@@ -531,6 +531,10 @@
             "name": "omnitrace"
         },
         {
+            "description": "RAJA Performance Suite.",
+            "name": "raja-perf"
+        },
+        {
             "description": "STochastic Engine for Pathway Simulation",
             "name": "steps"
         },
@@ -547,6 +551,7 @@
     "homepage": "https://github.com/LLNL/Caliper",
     "latest_version": "2.11.0",
     "maintainers": [
+        "adrienbernede",
         "daboehme"
     ],
     "name": "caliper",

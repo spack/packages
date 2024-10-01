@@ -15,7 +15,7 @@
     "dependent_to": [],
     "description": "Hazelcast is an open-source distributed in-memory data store and\ncomputation platform. It provides a wide variety of distributed data\nstructures and concurrency primitives.\n",
     "homepage": "http://www.hazelcast.com/",
-    "latest_version": "5.2.3",
+    "latest_version": "5.5.0",
     "maintainers": [],
     "name": "hazelcast",
     "patches": [],
@@ -28,6 +28,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "5.5.0",
+            "sha256": "bbf0c9b9de89512a41d698c02477c88c4955600f34741ee42e26838409e2e526"
+        },
         {
             "name": "5.2.3",
             "sha256": "026c213d3bb520b6c44587ae2a67eca50b9a5a0fc56d2cdedfb2c09c7858a11f"

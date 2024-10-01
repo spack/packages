@@ -58,14 +58,14 @@
     ],
     "description": "libvips is a demand-driven, horizontally threaded image processing\nlibrary. Compared to similar libraries, libvips runs quickly and uses\nlittle memory.\n",
     "homepage": "https://libvips.github.io/libvips/",
-    "latest_version": "8.13.3",
+    "latest_version": "8.15.3",
     "maintainers": [],
     "name": "libvips",
     "patches": [],
     "resources": [],
     "variants": [
         {
-            "default": "autotools",
+            "default": "meson",
             "description": "Build systems supported by the package",
             "name": "build_system"
         },
@@ -96,6 +96,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "8.15.3",
+            "sha256": "3e27d9f536eafad64013958fe9e8a1964c90b564c731d49db7c1a1c11b1052a0"
+        },
         {
             "name": "8.13.3",
             "sha256": "4eff5cdc8dbe1a05a926290a99014e20ba386f5dcca38d9774bef61413435d4c"

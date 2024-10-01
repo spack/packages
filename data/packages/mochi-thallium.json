@@ -38,6 +38,10 @@
         {
             "description": "Hermes is a heterogeneous-aware, multi-tiered, dynamic, and distributed\nI/O buffering system that aims to significantly accelerate I/O\nperformance.",
             "name": "hermes"
+        },
+        {
+            "description": "Hermes Shared Memory contains a variety of data structures and\nsynchronization primitives which are compatible with shared memory.",
+            "name": "hermes-shm"
         }
     ],
     "description": "A Mochi C++14 library wrapping Margo, Mercury, and Argobots and\nproviding an object-oriented way to use these libraries.\n",

@@ -13,7 +13,7 @@
             "name": "camp"
         },
         {
-            "description": "Algorithms for chai managed arrays.",
+            "description": "CHAI and RAJA extensions (includes data structures and algorithms).",
             "name": "care"
         },
         {

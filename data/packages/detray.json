@@ -48,7 +48,7 @@
     ],
     "description": "Detray is a description library for high energy physics experiments that\nworks entirely without polymorphism, making it exceptionally suitable\nfor use on GPU platforms.\n",
     "homepage": "https://github.com/acts-project/detray",
-    "latest_version": "0.75.2",
+    "latest_version": "0.76.1",
     "maintainers": [
         "stephenswat"
     ],
@@ -113,6 +113,18 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.76.1",
+            "sha256": "54d9abee395e9faf0f56b5d9c137a9990f23712fbcc88fd90af20643bcae635e"
+        },
+        {
+            "name": "0.76.0",
+            "sha256": "affa0e28ca96d168e377ba33642e0b626aacdc79f9436233f5561006018f9b9e"
+        },
+        {
+            "name": "0.75.3",
+            "sha256": "1249d7398d1e534bd36b6f5a7d06a5e67adf6adeb8bca188d7e35490a675de7a"
+        },
         {
             "name": "0.75.2",
             "sha256": "249066c138eac4114032e8d558f3a05885140a809332a347c7667978dbff54ee"

@@ -52,6 +52,10 @@
             "name": "goshimmer"
         },
         {
+            "description": "Hermes Shared Memory contains a variety of data structures and\nsynchronization primitives which are compatible with shared memory.",
+            "name": "hermes-shm"
+        },
+        {
             "description": "LevelDB is a fast key-value storage library written at Google that\nprovides an ordered mapping from string keys to string values.",
             "name": "leveldb"
         },

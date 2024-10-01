@@ -118,6 +118,10 @@
             "name": "heaptrack"
         },
         {
+            "description": "Hermes Shared Memory contains a variety of data structures and\nsynchronization primitives which are compatible with shared memory.",
+            "name": "hermes-shm"
+        },
+        {
             "description": "libarchive: C library and command-line tools for reading and writing\ntar, cpio, zip, ISO, and other archive formats.",
             "name": "libarchive"
         },

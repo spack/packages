@@ -23,13 +23,18 @@
             "spec": "@0.9.1:"
         },
         {
+            "description": null,
+            "name": "^gcc@12",
+            "spec": "@23.10.0"
+        },
+        {
             "description": "hipsycl: hipSYCL needs proper C++14 support to be built, %gcc is too old",
             "name": "%gcc@:4",
             "spec": "@:0.9.0"
         },
         {
             "description": null,
-            "name": "^llvm@16:",
+            "name": "^gcc@12.2.0",
             "spec": "@:0.9.4"
         }
     ],

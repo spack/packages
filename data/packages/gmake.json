@@ -1122,7 +1122,7 @@
             "name": "cardioid"
         },
         {
-            "description": "Algorithms for chai managed arrays.",
+            "description": "CHAI and RAJA extensions (includes data structures and algorithms).",
             "name": "care"
         },
         {
@@ -4052,6 +4052,10 @@
         {
             "description": "Hermes is a heterogeneous-aware, multi-tiered, dynamic, and distributed\nI/O buffering system that aims to significantly accelerate I/O\nperformance.",
             "name": "hermes"
+        },
+        {
+            "description": "Hermes Shared Memory contains a variety of data structures and\nsynchronization primitives which are compatible with shared memory.",
+            "name": "hermes-shm"
         },
         {
             "description": "Herwig is a multi-purpose particle physics event generator.",
@@ -9244,6 +9248,10 @@
         {
             "description": "RAJA Parallel Framework.",
             "name": "raja"
+        },
+        {
+            "description": "RAJA Performance Suite.",
+            "name": "raja-perf"
         },
         {
             "description": "Ramulator is a fast and cycle-accurate DRAM simulator that supports a\nwide array of commercial, as well as academic, DRAM standards.",

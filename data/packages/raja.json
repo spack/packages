@@ -374,6 +374,21 @@
         },
         {
             "description": null,
+            "name": "+omptarget+rocm",
+            "spec": ""
+        },
+        {
+            "description": null,
+            "name": "+omptarget+sycl",
+            "spec": ""
+        },
+        {
+            "description": null,
+            "name": "+rocm+sycl",
+            "spec": ""
+        },
+        {
+            "description": null,
             "name": "^blt@:0.3.6",
             "spec": "+rocm"
         },
@@ -386,6 +401,11 @@
             "description": null,
             "name": "+openmp",
             "spec": "@0.12.0:2022.3+rocm"
+        },
+        {
+            "description": "raja: Support for SYCL was introduced in RAJA after 2024.02 release, please use a newer release.",
+            "name": "+sycl",
+            "spec": "@:2024.2.99"
         }
     ],
     "dependencies": [
@@ -444,7 +464,7 @@
             "name": "axom"
         },
         {
-            "description": "Algorithms for chai managed arrays.",
+            "description": "CHAI and RAJA extensions (includes data structures and algorithms).",
             "name": "care"
         },
         {
@@ -482,7 +502,7 @@
     ],
     "description": "RAJA Parallel Framework.\n",
     "homepage": "https://github.com/LLNL/RAJA",
-    "latest_version": "2024.02.2",
+    "latest_version": "2024.07.0",
     "maintainers": [
         "adrienbernede",
         "davidbeckingsale"
@@ -562,6 +582,11 @@
         },
         {
             "default": false,
+            "description": "Build OpenMP on target device support",
+            "name": "omptarget"
+        },
+        {
+            "default": false,
             "description": "Build OpenMP task variants of internal algorithms",
             "name": "omptask"
         },
@@ -592,6 +617,11 @@
         },
         {
             "default": false,
+            "description": "Build sycl backend",
+            "name": "sycl"
+        },
+        {
+            "default": false,
             "description": "Build tests",
             "name": "tests"
         },
@@ -609,6 +639,11 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "commit": "4d7fcba55ebc7cb972b7cc9f6778b48e43792ea1",
+            "name": "2024.07.0",
+            "tag": "v2024.07.0"
         },
         {
             "commit": "593f756b14ac57ded33ee61d8d2292d4beb840e6",

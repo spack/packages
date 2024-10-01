@@ -35,7 +35,7 @@
     "dependent_to": [],
     "description": " QPDF is a command-line tool and C++ library that performs content-\npreserving transformations on PDF files.\n",
     "homepage": "https://qpdf.sourceforge.io/",
-    "latest_version": "11.9.0",
+    "latest_version": "11.9.1",
     "maintainers": [
         "taliaferro"
     ],
@@ -70,6 +70,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "11.9.1",
+            "sha256": "2ba4d248f9567a27c146b9772ef5dc93bd9622317978455ffe91b259340d13d1"
+        },
         {
             "name": "11.9.0",
             "sha256": "9f5d6335bb7292cc24a7194d281fc77be2bbf86873e8807b85aeccfbff66082f"

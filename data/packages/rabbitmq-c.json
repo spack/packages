@@ -31,7 +31,7 @@
     "dependent_to": [],
     "description": "This is a C-language AMQP client library for use with v2.0+ of the\nRabbitMQ broker.\n",
     "homepage": "https://github.com/alanxz/rabbitmq-c",
-    "latest_version": "0.13.0",
+    "latest_version": "0.14.0",
     "maintainers": [
         "lpottier"
     ],
@@ -86,6 +86,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.14.0",
+            "sha256": "839b28eae20075ac58f45925fe991d16a3138cbde015db0ee11df1acb1c493df"
+        },
         {
             "name": "0.13.0",
             "sha256": "8b224e41bba504fc52b02f918d8df7e4bf5359d493cbbff36c06078655c676e6"

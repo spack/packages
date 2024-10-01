@@ -118,6 +118,10 @@
             "name": "raja"
         },
         {
+            "description": "RAJA Performance Suite.",
+            "name": "raja-perf"
+        },
+        {
             "description": "A Redis module for serving tensors and executing deep learning graphs",
             "name": "redis-ai"
         },

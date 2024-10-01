@@ -24,6 +24,10 @@
             "name": "blast-plus"
         },
         {
+            "description": "Hermes Shared Memory contains a variety of data structures and\nsynchronization primitives which are compatible with shared memory.",
+            "name": "hermes-shm"
+        },
+        {
             "description": "Kyoto Cabinet is a library of routines for managing a database.",
             "name": "kyotocabinet"
         },

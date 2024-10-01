@@ -128,6 +128,10 @@
             "name": "grid"
         },
         {
+            "description": "Hermes Shared Memory contains a variety of data structures and\nsynchronization primitives which are compatible with shared memory.",
+            "name": "hermes-shm"
+        },
+        {
             "description": "HOOMD-blue is a general-purpose particle simulation toolkit. It scales\nfrom a single CPU core to thousands of GPUs. You define particle initial\nconditions and interactions in a high-level python script. Then tell\nHOOMD-blue how you want to execute the job and it takes care of the\nrest. Python job scripts give you unlimited flexibility to create custom\ninitialization routines, control simulation parameters, and perform in\nsitu analysis.",
             "name": "hoomd-blue"
         },
