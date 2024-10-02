@@ -63,7 +63,7 @@
     "dependent_to": [],
     "description": "rocALUTION is a sparse linear algebra library with focus on exploring\nfine-grained parallelism on top of AMD's Radeon Open eCosystem Platform\nROCm runtime and toolchains, targeting modern CPU and GPU platforms.\nBased on C++ and HIP, it provides a portable, generic and flexible\ndesign that allows seamless integration with other scientific software\npackages.\n",
     "homepage": "https://github.com/ROCm/rocALUTION",
-    "latest_version": "6.2.0",
+    "latest_version": "6.2.1",
     "maintainers": [
         "cgmb",
         "renjithravindrankannath",
@@ -115,6 +115,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.2.1",
+            "sha256": "94f15add5316c81529ce84ae8bf2701e9a4df57d08eda04a2f70147d31b12632"
+        },
         {
             "name": "6.2.0",
             "sha256": "fd9ad0aae5524d3995343d4d7c1948e7b21f0bdf5b1203d1de58548a814a9c39"

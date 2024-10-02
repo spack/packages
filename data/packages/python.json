@@ -739,6 +739,10 @@
             "name": "gexiv2"
         },
         {
+            "description": "CLI for gfal2.",
+            "name": "gfal2-util"
+        },
+        {
             "description": "GiNaC is a C++ library. It is designed to allow the creation of\nintegrated systems that embed symbolic manipulations together with more\nestablished areas of computer science (like computation-intense numeric\napplications, graphical interfaces, etc.) under one roof.",
             "name": "ginac"
         },

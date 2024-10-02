@@ -32,7 +32,7 @@
     ],
     "description": "The rocprofiler-register library is a helper library that coordinates\nthe modification of the intercept API table(s) of the HSA/HIP/ROCTx\nruntime libraries by the ROCprofiler (v2) library\n",
     "homepage": "https://github.com/ROCm/rocprofiler-register",
-    "latest_version": "6.2.0",
+    "latest_version": "6.2.1",
     "maintainers": [
         "afzpatel",
         "renjithravindrankannath",
@@ -74,6 +74,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.2.1",
+            "sha256": "161d3502863147df4daeadc538d0eb156c314c94634f8c34ee5994f046f8753f"
+        },
         {
             "name": "6.2.0",
             "sha256": "5cdfdfc621da9ef5a6b828d1a3a342db222b648c91359f71651b9404bf7ba62c"

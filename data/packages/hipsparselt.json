@@ -81,7 +81,7 @@
     "dependent_to": [],
     "description": "hipSPARSELt is a SPARSE marshalling library, with multiple supported\nbackends. It sits between the application and a 'worker' SPARSE library,\nmarshalling inputs into the backend library and marshalling results back\nto the application. hipSPARSELt exports an interface that does not\nrequire the client to change, regardless of the chosen backend.\nCurrently, hipSPARSELt supports rocSPARSELt and cuSPARSELt v0.4 as\nbackends.\n",
     "homepage": "https://github.com/ROCm/hipsparselt",
-    "latest_version": "6.2.0",
+    "latest_version": "6.2.1",
     "maintainers": [
         "afzpatel",
         "renjithravindrankannath",
@@ -156,6 +156,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.2.1",
+            "sha256": "a23287bc759442aebaccce0306f5e3938865240e13553847356c25c54214a0d4"
+        },
         {
             "name": "6.2.0",
             "sha256": "a25a3ce0ed3cc616b1a4e38bfdd5e68463bb9fe791a56d1367b8a6373bb63d12"

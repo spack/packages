@@ -29,6 +29,10 @@
             "name": "chlorop"
         },
         {
+            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGSSAPI library.",
+            "name": "globus-gssapi-gsi"
+        },
+        {
             "description": "Common error values for all GnuPG components.",
             "name": "libgpg-error"
         },

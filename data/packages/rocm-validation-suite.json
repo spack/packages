@@ -59,7 +59,7 @@
     "dependent_to": [],
     "description": "The ROCm Validation Suite (RVS) is a system administrators and cluster\nmanager's tool for detecting and troubleshooting common problems\naffecting AMD GPU(s) running in a high-performance computing\nenvironment, enabled using the ROCm software stack on a compatible\nplatform.\n",
     "homepage": "https://github.com/ROCm/ROCmValidationSuite",
-    "latest_version": "6.2.0",
+    "latest_version": "6.2.1",
     "maintainers": [
         "renjithravindrankannath",
         "srekolam"
@@ -136,6 +136,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.2.1",
+            "sha256": "7e1f4f391a5b31087585b250136f3a8c1fdf4c609880499575291c61b3ebbc15"
+        },
         {
             "name": "6.2.0",
             "sha256": "03913a1aae426b9fbb7a4870f408a3af1b8b7d32766515eaccb43107673fe631"

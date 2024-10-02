@@ -28,6 +28,11 @@
             "spec": "@23.10.0"
         },
         {
+            "description": null,
+            "name": "^llvm@19",
+            "spec": "@24.02.0:24.6.0"
+        },
+        {
             "description": "hipsycl: hipSYCL needs proper C++14 support to be built, %gcc is too old",
             "name": "%gcc@:4",
             "spec": "@:0.9.0"
@@ -83,7 +88,7 @@
     "dependent_to": [],
     "description": "hipSYCL is an implementation of the SYCL standard programming model over\nNVIDIA CUDA/AMD HIP\n",
     "homepage": "https://github.com/illuhad/hipSYCL",
-    "latest_version": "24.02.0",
+    "latest_version": "24.06.0",
     "maintainers": [],
     "name": "hipsycl",
     "patches": [],
@@ -133,6 +138,10 @@
         {
             "branch": "stable",
             "name": "stable"
+        },
+        {
+            "commit": "fc51dae9006d6858fc9c33148cc5f935bb56b075",
+            "name": "24.06.0"
         },
         {
             "commit": "974adc33ea5a35dd8b5be68c7a744b37482b8b64",

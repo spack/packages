@@ -31,7 +31,7 @@
     "dependent_to": [],
     "description": "Radeon Open Compute Parallel Primitives Library\n",
     "homepage": "https://github.com/ROCm/hipfort",
-    "latest_version": "6.2.0",
+    "latest_version": "6.2.1",
     "maintainers": [
         "cgmb",
         "renjithravindrankannath",
@@ -63,6 +63,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.2.1",
+            "sha256": "5258f2dd63aeebe29ce566e654c47b8e2e1f5eb8ca3da92af09c54517b259f32"
+        },
         {
             "name": "6.2.0",
             "sha256": "7f6db61a0ac7771e5c4604a6113b36736f6c7f05cabd7e1df8e832c98b87311d"

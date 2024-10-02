@@ -56,6 +56,10 @@
             "name": "gdal"
         },
         {
+            "description": "Multi-protocol data management library.",
+            "name": "gfal2"
+        },
+        {
             "description": "libHIO is a flexible, high-performance parallel IO package developed at\nLANL. libHIO supports IO to either a conventional PFS or to Cray\nDataWarp with management of Cray DataWarp space and stage-in and stage-\nout from and to the PFS.",
             "name": "libhio"
         },

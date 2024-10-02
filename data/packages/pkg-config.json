@@ -46,6 +46,10 @@
             "name": "bigdft-spred"
         },
         {
+            "description": "Client and server side library to secure gSOAP using the Globus Security\nInfrastructure.",
+            "name": "cgsi-gsoap"
+        },
+        {
             "description": "Encrypted overlay filesystem written in Go",
             "name": "gocryptfs"
         }

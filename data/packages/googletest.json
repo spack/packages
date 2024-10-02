@@ -81,6 +81,10 @@
             "name": "genfit"
         },
         {
+            "description": "Multi-protocol data management library.",
+            "name": "gfal2"
+        },
+        {
             "description": "High-performance linear algebra library for manycore systems, with a\nfocus on sparse solution of linear systems.",
             "name": "ginkgo"
         },

@@ -89,7 +89,7 @@
     ],
     "description": "Radeon Performance Primitives (RPP) library is a comprehensive high-\nperformance computer vision library for AMD (CPU and GPU) with HIP and\nOPENCL back-ends\n",
     "homepage": "https://github.com/GPUOpen-ProfessionalCompute-Libraries/rpp",
-    "latest_version": "6.2.0",
+    "latest_version": "6.2.1",
     "maintainers": [
         "afzpatel",
         "srekolam"
@@ -191,6 +191,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.2.1",
+            "sha256": "5ae9d0c6733ba0e00be1cda13003e98acebd3f86de59e6f1969e297d673f124e"
+        },
         {
             "name": "6.2.0",
             "sha256": "69fbebf50b734e055258ea3c5b0399a51babab8f66074166d2b0fc4f1904c09c"

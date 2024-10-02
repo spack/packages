@@ -1281,6 +1281,94 @@
             "name": "globalarrays"
         },
         {
+            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus Callout Library - provides a platform independent way of dealing\nwith runtime loadable functions.",
+            "name": "globus-callout"
+        },
+        {
+            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nCommon Library Programs.",
+            "name": "globus-common"
+        },
+        {
+            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGridFTP Client Library.",
+            "name": "globus-ftp-client"
+        },
+        {
+            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGridFTP Control Library.",
+            "name": "globus-ftp-control"
+        },
+        {
+            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus Gass Copy Programs.",
+            "name": "globus-gass-copy"
+        },
+        {
+            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus Gass Transfer.",
+            "name": "globus-gass-transfer"
+        },
+        {
+            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus GSI Callback Library.",
+            "name": "globus-gsi-callback"
+        },
+        {
+            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus GSI Cert Utils Library Programs.",
+            "name": "globus-gsi-cert-utils"
+        },
+        {
+            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus GSI Credential Library.",
+            "name": "globus-gsi-credential"
+        },
+        {
+            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus OpenSSL Error Handling.",
+            "name": "globus-gsi-openssl-error"
+        },
+        {
+            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus GSI Proxy Core Library.",
+            "name": "globus-gsi-proxy-core"
+        },
+        {
+            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus GSI Proxy SSL Library.",
+            "name": "globus-gsi-proxy-ssl"
+        },
+        {
+            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus GSI System Config Library.",
+            "name": "globus-gsi-sysconfig"
+        },
+        {
+            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGSSAPI Assist library Programs.",
+            "name": "globus-gss-assist"
+        },
+        {
+            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGSSAPI Error Library.",
+            "name": "globus-gssapi-error"
+        },
+        {
+            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGSSAPI library.",
+            "name": "globus-gssapi-gsi"
+        },
+        {
+            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nuniform I/O interface to stream and datagram style communications.",
+            "name": "globus-io"
+        },
+        {
+            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus OpenSSL Module Wrapper.",
+            "name": "globus-openssl-module"
+        },
+        {
+            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus XIO Framework.",
+            "name": "globus-xio"
+        },
+        {
+            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus XIO GSI Driver.",
+            "name": "globus-xio-gsi-driver"
+        },
+        {
+            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus Pipe Driver.",
+            "name": "globus-xio-pipe-driver"
+        },
+        {
+            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus XIO Pipe Open Driver, which allows a user to execute a program\nand treat it as a transport driver by routing data through pipes.",
+            "name": "globus-xio-popen-driver"
+        },
+        {
             "description": "The GLPK (GNU Linear Programming Kit) package is intended for solving\nlarge-scale linear programming (LP), mixed integer programming (MIP),\nand other related problems. It is a set of routines written in ANSI C\nand organized in the form of a callable library.",
             "name": "glpk"
         },
@@ -4495,6 +4583,10 @@
         {
             "description": "Virtuoso is a high-performance and scalable Multi-Model RDBMS, Data\nIntegration Middleware, Linked Data Deployment, and HTTP Application\nServer Platform",
             "name": "virtuoso"
+        },
+        {
+            "description": "The VOMS native service and APIs.",
+            "name": "voms"
         },
         {
             "description": "VSEARCH is a versatile open-source tool for metagenomics.",

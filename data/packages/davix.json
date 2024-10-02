@@ -46,6 +46,10 @@
     ],
     "dependent_to": [
         {
+            "description": "Multi-protocol data management library.",
+            "name": "gfal2"
+        },
+        {
             "description": "ROOT is a data analysis framework.",
             "name": "root"
         },

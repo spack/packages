@@ -310,6 +310,10 @@
             "name": "dtc"
         },
         {
+            "description": "Tiny collection of programs used for ECDSA.",
+            "name": "ecdsautils"
+        },
+        {
             "description": "ecFlow is a work flow package that enables users to run a large number\nof programs (with dependencies on each other and on time) in a\ncontrolled environment. It provides tolerance for hardware and software\nfailures, combined with good restart capabilities.",
             "name": "ecflow"
         },
@@ -592,6 +596,10 @@
         {
             "description": "HDF5 is a data model, library, and file format for storing and managing\ndata. It supports an unlimited variety of datatypes, and is designed for\nflexible and efficient I/O and for high volume and complex data.",
             "name": "hdf5"
+        },
+        {
+            "description": "Hermes Shared Memory contains a variety of data structures and\nsynchronization primitives which are compatible with shared memory.",
+            "name": "hermes-shm"
         },
         {
             "description": "HiCOPS is a software framework for accelerating database peptide search\nworkflows on supercomputers. HiCOPS provided algorithm-independent\nparallelizations and optimizations can be extended into new HPC database\nsearch algorithms or scalably accelerate the existing ones.",
@@ -1944,6 +1952,10 @@
         {
             "description": "viewres displays a tree showing the widget class hierarchy of the Athena\nWidget Set (libXaw).",
             "name": "viewres"
+        },
+        {
+            "description": "The VOMS native service and APIs.",
+            "name": "voms"
         },
         {
             "description": "WarpX is an advanced electromagnetic Particle-In-Cell code. It supports\nmany features including Perfectly-Matched Layers (PML) and mesh\nrefinement. In addition, WarpX is a highly-parallel and highly-optimized\ncode and features hybrid GPU/OpenMP/MPI parallelization and load\nbalancing capabilities.",

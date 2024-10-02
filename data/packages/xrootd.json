@@ -136,6 +136,10 @@
     ],
     "dependent_to": [
         {
+            "description": "Multi-protocol data management library.",
+            "name": "gfal2"
+        },
+        {
             "description": "Connector between Hadoop and XRootD protocols (EOS compatible).",
             "name": "hadoop-xrootd"
         },

@@ -150,6 +150,10 @@
             "name": "getorganelle"
         },
         {
+            "description": "CLI for gfal2.",
+            "name": "gfal2-util"
+        },
+        {
             "description": "Halide is a programming language designed to make it easier to write\nhigh-performance image and array processing code on modern machines.",
             "name": "halide"
         },

@@ -178,6 +178,30 @@
             "name": "git"
         },
         {
+            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGridFTP Client Library.",
+            "name": "globus-ftp-client"
+        },
+        {
+            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus GSI Cert Utils Library Programs.",
+            "name": "globus-gsi-cert-utils"
+        },
+        {
+            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus OpenSSL Error Handling.",
+            "name": "globus-gsi-openssl-error"
+        },
+        {
+            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus GSI Proxy Core Library.",
+            "name": "globus-gsi-proxy-core"
+        },
+        {
+            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus GSI Proxy SSL Library.",
+            "name": "globus-gsi-proxy-ssl"
+        },
+        {
+            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGSSAPI library.",
+            "name": "globus-gssapi-gsi"
+        },
+        {
             "description": "Encrypted overlay filesystem written in Go",
             "name": "gocryptfs"
         },
@@ -558,6 +582,10 @@
             "name": "sqlcipher"
         },
         {
+            "description": "Client side implementation of the SRMv2 specification.",
+            "name": "srm-ifce"
+        },
+        {
             "description": "A program that replaces sendmail on workstations that should send their\nmail via the departmental mailhub from which they pick up their mail.",
             "name": "ssmtp"
         },
@@ -592,6 +620,10 @@
         {
             "description": "Virtuoso is a high-performance and scalable Multi-Model RDBMS, Data\nIntegration Middleware, Linked Data Deployment, and HTTP Application\nServer Platform",
             "name": "virtuoso"
+        },
+        {
+            "description": "The VOMS native service and APIs.",
+            "name": "voms"
         },
         {
             "description": "w3m is a text-based web browser as well as a pager like `more' or\n`less'. With w3m you can browse web pages through a terminal emulator\nwindow (xterm, rxvt or something like that). Moreover, w3m can be used\nas a text formatting tool which typesets HTML into plain text.",

@@ -4664,6 +4664,10 @@
         },
         {
             "default": "cmake",
+            "package": "cgsi-gsoap"
+        },
+        {
+            "default": "cmake",
             "package": "chaco"
         },
         {
@@ -7451,6 +7455,14 @@
             "package": "gexiv2"
         },
         {
+            "default": "cmake",
+            "package": "gfal2"
+        },
+        {
+            "default": "python_pip",
+            "package": "gfal2-util"
+        },
+        {
             "default": "makefile",
             "package": "gffcompare"
         },
@@ -7593,6 +7605,94 @@
         {
             "default": "autotools",
             "package": "globalarrays"
+        },
+        {
+            "default": "autotools",
+            "package": "globus-callout"
+        },
+        {
+            "default": "autotools",
+            "package": "globus-common"
+        },
+        {
+            "default": "autotools",
+            "package": "globus-ftp-client"
+        },
+        {
+            "default": "autotools",
+            "package": "globus-ftp-control"
+        },
+        {
+            "default": "autotools",
+            "package": "globus-gass-copy"
+        },
+        {
+            "default": "autotools",
+            "package": "globus-gass-transfer"
+        },
+        {
+            "default": "autotools",
+            "package": "globus-gsi-callback"
+        },
+        {
+            "default": "autotools",
+            "package": "globus-gsi-cert-utils"
+        },
+        {
+            "default": "autotools",
+            "package": "globus-gsi-credential"
+        },
+        {
+            "default": "autotools",
+            "package": "globus-gsi-openssl-error"
+        },
+        {
+            "default": "autotools",
+            "package": "globus-gsi-proxy-core"
+        },
+        {
+            "default": "autotools",
+            "package": "globus-gsi-proxy-ssl"
+        },
+        {
+            "default": "autotools",
+            "package": "globus-gsi-sysconfig"
+        },
+        {
+            "default": "autotools",
+            "package": "globus-gss-assist"
+        },
+        {
+            "default": "autotools",
+            "package": "globus-gssapi-error"
+        },
+        {
+            "default": "autotools",
+            "package": "globus-gssapi-gsi"
+        },
+        {
+            "default": "autotools",
+            "package": "globus-io"
+        },
+        {
+            "default": "autotools",
+            "package": "globus-openssl-module"
+        },
+        {
+            "default": "autotools",
+            "package": "globus-xio"
+        },
+        {
+            "default": "autotools",
+            "package": "globus-xio-gsi-driver"
+        },
+        {
+            "default": "autotools",
+            "package": "globus-xio-pipe-driver"
+        },
+        {
+            "default": "autotools",
+            "package": "globus-xio-popen-driver"
         },
         {
             "default": "cmake",
@@ -33279,6 +33379,10 @@
             "package": "srilm"
         },
         {
+            "default": "cmake",
+            "package": "srm-ifce"
+        },
+        {
             "default": "generic",
             "package": "sse2neon"
         },
@@ -34557,6 +34661,10 @@
         {
             "default": "cmake",
             "package": "volk"
+        },
+        {
+            "default": "autotools",
+            "package": "voms"
         },
         {
             "default": "makefile",
@@ -36152,6 +36260,10 @@
         },
         {
             "default": "Release",
+            "package": "cgsi-gsoap"
+        },
+        {
+            "default": "Release",
             "package": "chaco"
         },
         {
@@ -37113,6 +37225,10 @@
         {
             "default": "Release",
             "package": "geos"
+        },
+        {
+            "default": "Release",
+            "package": "gfal2"
         },
         {
             "default": "Release",
@@ -39953,6 +40069,10 @@
         {
             "default": "Release",
             "package": "srcml-identifier-getter-tool"
+        },
+        {
+            "default": "Release",
+            "package": "srm-ifce"
         },
         {
             "default": "Release",
@@ -45627,6 +45747,12 @@
             "package": "root"
         }
     ],
+    "dcap": [
+        {
+            "default": false,
+            "package": "gfal2"
+        }
+    ],
     "dcmtk": [
         {
             "default": false,
@@ -49609,6 +49735,12 @@
             "package": "ascent"
         }
     ],
+    "file": [
+        {
+            "default": false,
+            "package": "gfal2"
+        }
+    ],
     "file_lock": [
         {
             "default": "FLOCK",
@@ -51438,6 +51570,10 @@
         },
         {
             "default": "make",
+            "package": "cgsi-gsoap"
+        },
+        {
+            "default": "make",
             "package": "chaco"
         },
         {
@@ -52387,6 +52523,10 @@
         {
             "default": "ninja",
             "package": "geos"
+        },
+        {
+            "default": "make",
+            "package": "gfal2"
         },
         {
             "default": "make",
@@ -55230,6 +55370,10 @@
         },
         {
             "default": "make",
+            "package": "srm-ifce"
+        },
+        {
+            "default": "make",
             "package": "ssht"
         },
         {
@@ -56745,6 +56889,12 @@
             "package": "cabana"
         }
     ],
+    "gridftp": [
+        {
+            "default": false,
+            "package": "gfal2"
+        }
+    ],
     "grpc": [
         {
             "default": false,
@@ -57954,6 +58104,10 @@
         }
     ],
     "http": [
+        {
+            "default": false,
+            "package": "gfal2"
+        },
         {
             "default": false,
             "package": "py-fsspec"
@@ -59604,6 +59758,10 @@
         },
         {
             "default": false,
+            "package": "cgsi-gsoap"
+        },
+        {
+            "default": false,
             "package": "chaco"
         },
         {
@@ -60553,6 +60711,10 @@
         {
             "default": false,
             "package": "geos"
+        },
+        {
+            "default": false,
+            "package": "gfal2"
         },
         {
             "default": false,
@@ -63389,6 +63551,10 @@
         {
             "default": false,
             "package": "srcml-identifier-getter-tool"
+        },
+        {
+            "default": false,
+            "package": "srm-ifce"
         },
         {
             "default": false,
@@ -67247,12 +67413,6 @@
         {
             "default": true,
             "package": "py-pykokkos-base"
-        }
-    ],
-    "memoryscape": [
-        {
-            "default": true,
-            "package": "totalview"
         }
     ],
     "memspace_cudaspace": [
@@ -78877,6 +79037,12 @@
             "package": "opencv"
         }
     ],
+    "sftp": [
+        {
+            "default": false,
+            "package": "gfal2"
+        }
+    ],
     "shadow": [
         {
             "default": false,
@@ -81243,6 +81409,12 @@
         {
             "default": false,
             "package": "lammps"
+        }
+    ],
+    "srm": [
+        {
+            "default": false,
+            "package": "gfal2"
         }
     ],
     "ssc": [
@@ -86474,6 +86646,10 @@
         }
     ],
     "xrootd": [
+        {
+            "default": false,
+            "package": "gfal2"
+        },
         {
             "default": true,
             "package": "py-uproot"

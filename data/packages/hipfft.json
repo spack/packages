@@ -470,7 +470,7 @@
     ],
     "description": "hipFFT is an FFT marshalling library. Currently, hipFFT supports either\nrocFFT or cuFFT as backends.hipFFT exports an interface that does not\nrequire the client to change, regardless of the chosen backend. It sits\nbetween the application and the backend FFT library, marshalling inputs\ninto the backend and results back to the application.\n",
     "homepage": "https://github.com/ROCm/hipFFT",
-    "latest_version": "6.2.0",
+    "latest_version": "6.2.1",
     "maintainers": [
         "renjithravindrankannath",
         "srekolam"
@@ -539,6 +539,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "6.2.1",
+            "sha256": "5f668fa8b5ed10d47d164d887699d3c14d900d78f6a31bf953f8fbbc08bc5fd1"
         },
         {
             "name": "6.2.0",

@@ -144,7 +144,7 @@
     ],
     "description": "Radeon Open Compute Parallel Primitives Library\n",
     "homepage": "https://github.com/ROCm/rocPRIM",
-    "latest_version": "6.2.0",
+    "latest_version": "6.2.1",
     "maintainers": [
         "cgmb",
         "renjithravindrankannath",
@@ -196,6 +196,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.2.1",
+            "sha256": "55cfa8a4224bcd2dcf2298e7938c983a8bb0c1c072fc8295c198e53785b521ac"
+        },
         {
             "name": "6.2.0",
             "sha256": "cd9be3a030830c96c940dc69e4a00f2701539a7e10b62ab1181ab83eeef31e57"

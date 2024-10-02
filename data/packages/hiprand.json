@@ -462,7 +462,7 @@
     ],
     "description": "The hipRAND project provides an interface for generating pseudo-random\nand quasi-random numbers with either cuRAND or rocRAND backends.\n",
     "homepage": "https://github.com/ROCm/hipRAND",
-    "latest_version": "6.2.0",
+    "latest_version": "6.2.1",
     "maintainers": [
         "cgmb",
         "renjithravindrankannath",
@@ -526,6 +526,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "6.2.1",
+            "sha256": "0d4585b8adbc299f3fdc2c74bb20ffd4285027b861a759c3e62ce564589465da"
         },
         {
             "name": "6.2.0",

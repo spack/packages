@@ -27,7 +27,7 @@
     "dependent_to": [],
     "description": "Web Application framework for low overhead web services\n",
     "homepage": "https://github.com/unbit/uwsgi/",
-    "latest_version": "2.0.18",
+    "latest_version": "2.0.27",
     "maintainers": [],
     "name": "py-uwsgi",
     "patches": [],
@@ -40,6 +40,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.0.27",
+            "sha256": "3ee5bfb7e6e9c93478c22aa8183eef35b95a2d5b14cca16172e67f135565c458"
+        },
         {
             "name": "2.0.18",
             "sha256": "4972ac538800fb2d421027f49b4a1869b66048839507ccf0aa2fda792d99f583"

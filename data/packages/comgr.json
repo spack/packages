@@ -96,7 +96,7 @@
     ],
     "description": "This provides various Lightning Compiler related services. It currently\ncontains one library, the Code Object Manager (Comgr)\n",
     "homepage": "https://github.com/ROCm/ROCm-CompilerSupport",
-    "latest_version": "6.2.0",
+    "latest_version": "6.2.1",
     "maintainers": [
         "haampie",
         "renjithravindrankannath",
@@ -146,6 +146,10 @@
         {
             "branch": "amd-stg-open",
             "name": "master"
+        },
+        {
+            "name": "6.2.1",
+            "sha256": "4840f109d8f267c28597e936c869c358de56b8ad6c3ed4881387cf531846e5a7"
         },
         {
             "name": "6.2.0",

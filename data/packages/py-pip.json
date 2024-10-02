@@ -158,6 +158,10 @@
             "name": "getorganelle"
         },
         {
+            "description": "CLI for gfal2.",
+            "name": "gfal2-util"
+        },
+        {
             "description": "hipSPARSELt is a SPARSE marshalling library, with multiple supported\nbackends. It sits between the application and a 'worker' SPARSE library,\nmarshalling inputs into the backend library and marshalling results back\nto the application. hipSPARSELt exports an interface that does not\nrequire the client to change, regardless of the chosen backend.\nCurrently, hipSPARSELt supports rocSPARSELt and cuSPARSELt v0.4 as\nbackends.",
             "name": "hipsparselt"
         },

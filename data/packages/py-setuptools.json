@@ -154,6 +154,10 @@
             "name": "getorganelle"
         },
         {
+            "description": "CLI for gfal2.",
+            "name": "gfal2-util"
+        },
+        {
             "description": "GPTune is an autotuning framework that relies on multitask and transfer\nlearnings to help solve the underlying black-box optimization problem\nusing Bayesian optimization methodologies.",
             "name": "gptune"
         },

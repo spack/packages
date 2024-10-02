@@ -1771,6 +1771,10 @@
             "name": "vizglow"
         },
         {
+            "description": "The VOMS native service and APIs.",
+            "name": "voms"
+        },
+        {
             "description": "VSEARCH is a versatile open-source tool for metagenomics.",
             "name": "vsearch"
         },

@@ -148,7 +148,7 @@
     ],
     "description": "rocm-core is a utility which can be used to get ROCm release version. It\nalso provides the Lmod modules files for the ROCm release.\ngetROCmVersion function provides the ROCm version.\n",
     "homepage": "https://github.com/ROCm/rocm-core",
-    "latest_version": "6.2.0",
+    "latest_version": "6.2.1",
     "maintainers": [
         "renjithravindrankannath",
         "srekolam"
@@ -184,6 +184,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.2.1",
+            "sha256": "35cb5f6dfb1847469930bf0fa0913499b6c3f59b2b573a9f598b0956104ba5e2"
+        },
         {
             "name": "6.2.0",
             "sha256": "9bafaf801721e98b398624c8d2fa78618d297d6800f96113e26c275889205526"

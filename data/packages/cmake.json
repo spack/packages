@@ -643,6 +643,10 @@
             "name": "cgns"
         },
         {
+            "description": "Client and server side library to secure gSOAP using the Globus Security\nInfrastructure.",
+            "name": "cgsi-gsoap"
+        },
+        {
             "description": "Graph partitioning library",
             "name": "chaco"
         },
@@ -1653,6 +1657,10 @@
         {
             "description": "gexiv2 is a GObject wrapper around the Exiv2 photo metadata library. It\nallows for GNOME applications to easily inspect and update EXIF, IPTC,\nand XMP metadata in photo and video files of various formats.",
             "name": "gexiv2"
+        },
+        {
+            "description": "Multi-protocol data management library.",
+            "name": "gfal2"
         },
         {
             "description": "The gflags package contains a C++ library that implements commandline\nflags processing. It includes built-in support for standard types such\nas string and the ability to define flags in the source file in which\nthey are used. Online documentation available at:\nhttps://gflags.github.io/gflags/",
@@ -4833,6 +4841,10 @@
         {
             "description": "SCANL's srcml_identifier_getter_tool. reads a srcML archive and outputs\nall identifiers in that archive through standard out.",
             "name": "srcml-identifier-getter-tool"
+        },
+        {
+            "description": "Client side implementation of the SRMv2 specification.",
+            "name": "srm-ifce"
         },
         {
             "description": "ssht: Spin spherical harmonic transforms. The SSHT code provides\nfunctionality to perform fast and exact spin spherical harmonic\ntransforms based on the sampling theorem on the sphere derived in our\npaper: A novel sampling theorem on the sphere\n<http://dx.doi.org/10.1109/TSP.2011.2166394>.",

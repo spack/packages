@@ -72,7 +72,7 @@
     ],
     "description": "Composable Kernel: Performance Portable Programming Model for Machine\nLearning Tensor Operators.\n",
     "homepage": "https://github.com/ROCm/composable_kernel",
-    "latest_version": "6.2.0",
+    "latest_version": "6.2.1",
     "maintainers": [
         "afzpatel",
         "srekolam"
@@ -111,6 +111,10 @@
         {
             "branch": "develop",
             "name": "master"
+        },
+        {
+            "name": "6.2.1",
+            "sha256": "708ff25218dc5fa977af4a37105b380d7612a70c830fa7977b40b3df8b8d3162"
         },
         {
             "name": "6.2.0",

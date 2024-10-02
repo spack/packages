@@ -128,7 +128,7 @@
     ],
     "description": "ROCPROFILER library for AMD HSA runtime API extension support\n",
     "homepage": "https://github.com/ROCm/rocprofiler",
-    "latest_version": "6.2.0",
+    "latest_version": "6.2.1",
     "maintainers": [
         "renjithravindrankannath",
         "srekolam"
@@ -214,6 +214,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.2.1",
+            "sha256": "6eb36dad67e3b294f210e21987c52aec666652cffa87b8af1f8077d5b7812245"
+        },
         {
             "name": "6.2.0",
             "sha256": "79b4f29d051e62639b4bf2ca288035514d32e055fc759ff4a82d377bf7ca97ea"

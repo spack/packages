@@ -28,7 +28,7 @@
     ],
     "description": "rocDecode is a high performance video decode SDK for AMD hardware\n",
     "homepage": "https://github.com/ROCm/rocDecode",
-    "latest_version": "6.2.0",
+    "latest_version": "6.2.1",
     "maintainers": [
         "afzpatel",
         "renjithravindrankannath",
@@ -65,6 +65,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.2.1",
+            "sha256": "d4a636415d61fef94f97197cb9ebbff59e3a18dc4850612ee142e3e14a35e6d4"
+        },
         {
             "name": "6.2.0",
             "sha256": "fe0d7c19a4e65b93405566511880b94f25ef68c830d0088f9458da9baea1d4f9"

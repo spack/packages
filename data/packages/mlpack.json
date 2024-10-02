@@ -99,7 +99,7 @@
     ],
     "description": "mlpack is an intuitive, fast, and flexible header-only C++ machine\nlearning library with bindings to other languages. It is meant to be a\nmachine learning analog to LAPACK, and aims to implement a wide array of\nmachine learning methods and functions as a \"swiss army knife\" for\nmachine learning researchers.\n",
     "homepage": "https://www.mlpack.org/",
-    "latest_version": "4.4.0",
+    "latest_version": "4.5.0",
     "maintainers": [
         "wdconinc"
     ],
@@ -159,6 +159,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "4.5.0",
+            "sha256": "aab70aee10c134ef3fe568843fe4b3bb5e8901af30ea666f57462ad950682317"
+        },
         {
             "name": "4.4.0",
             "sha256": "61c604026d05af26c244b0e47024698bbf150dfcc9d77b64057941d7d64d6cf6"

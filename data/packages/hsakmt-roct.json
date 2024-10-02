@@ -80,7 +80,7 @@
     ],
     "description": "This is a thunk python recipe to build and install Thunk Interface.\nThunk Interface is a user-mode API interfaces used to interact with the\nROCk driver.\n",
     "homepage": "https://github.com/ROCm/ROCT-Thunk-Interface",
-    "latest_version": "6.2.0",
+    "latest_version": "6.2.1",
     "maintainers": [
         "renjithravindrankannath",
         "srekolam"
@@ -134,6 +134,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "6.2.1",
+            "sha256": "bba5dd8cce595d94d6a8e467dbd6de9e921f81e665ca8aac1e346e0ade7620f0"
         },
         {
             "name": "6.2.0",

@@ -112,7 +112,7 @@
     ],
     "description": "The rocRAND project provides functions that generate pseudo-random and\nquasi-random numbers.\n",
     "homepage": "https://github.com/ROCm/rocRAND",
-    "latest_version": "6.2.0",
+    "latest_version": "6.2.1",
     "maintainers": [
         "cgmb",
         "renjithravindrankannath",
@@ -213,6 +213,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "6.2.1",
+            "sha256": "ed07f638b5e30199251ddda6dd9ee53ee0ec49bcf37cc571a3de85c3a9833248"
         },
         {
             "name": "6.2.0",

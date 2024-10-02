@@ -522,7 +522,7 @@
     ],
     "description": "hipBLAS is a BLAS marshalling library, with multiple supported backends\n",
     "homepage": "https://github.com/ROCm/hipBLAS",
-    "latest_version": "6.2.0",
+    "latest_version": "6.2.1",
     "maintainers": [
         "cgmb",
         "haampie",
@@ -606,6 +606,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "6.2.1",
+            "sha256": "b770b6ebd27d5c12ad01827195e996469bfc826e8a2531831df475fc8d7f6b2e"
         },
         {
             "name": "6.2.0",

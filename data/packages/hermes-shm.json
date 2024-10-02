@@ -84,6 +84,10 @@
             "name": "openssl"
         },
         {
+            "description": "pkgconf is a program which helps to configure compiler and linker flags\nfor development frameworks. It is similar to pkg-config from\nfreedesktop.org, providing additional functionality while also\nmaintaining compatibility.",
+            "name": "pkgconfig"
+        },
+        {
             "description": "A fast compressor/decompressor: https://code.google.com/p/snappy",
             "name": "snappy"
         },

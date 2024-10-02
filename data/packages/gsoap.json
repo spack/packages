@@ -36,8 +36,20 @@
     ],
     "dependent_to": [
         {
+            "description": "Client and server side library to secure gSOAP using the Globus Security\nInfrastructure.",
+            "name": "cgsi-gsoap"
+        },
+        {
             "description": "High-performance file management over WebDAV/HTTP.",
             "name": "davix"
+        },
+        {
+            "description": "Client side implementation of the SRMv2 specification.",
+            "name": "srm-ifce"
+        },
+        {
+            "description": "The VOMS native service and APIs.",
+            "name": "voms"
         }
     ],
     "description": "The gSOAP toolkit is an extensive suite of portable C and C++ software\nto develop XML Web services with powerful type-safe XML data bindings.\n",

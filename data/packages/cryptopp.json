@@ -20,6 +20,10 @@
             "name": "gdal"
         },
         {
+            "description": "Multi-protocol data management library.",
+            "name": "gfal2"
+        },
+        {
             "description": "QuantStack C++ implementation of Jupyter kernel protocol",
             "name": "xeus"
         }
