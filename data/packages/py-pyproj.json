@@ -84,7 +84,7 @@
     ],
     "description": "Python interface to PROJ (cartographic projections and coordinate\ntransformations library).\n",
     "homepage": "https://github.com/pyproj4/pyproj",
-    "latest_version": "3.6.1",
+    "latest_version": "3.7.0",
     "maintainers": [
         "adamjstewart",
         "citibeth"
@@ -100,6 +100,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.7.0",
+            "sha256": "bf658f4aaf815d9d03c8121650b6f0b8067265c36e31bc6660b98ef144d81813"
+        },
         {
             "name": "3.6.1",
             "sha256": "44aa7c704c2b7d8fb3d483bbf75af6cb2350d30a63b144279a09b75fead501bf"

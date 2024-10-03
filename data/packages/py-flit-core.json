@@ -150,6 +150,10 @@
             "name": "py-jeepney"
         },
         {
+            "description": "Jinja2 is a template engine written in pure Python. It provides a Django\ninspired non-XML syntax but supports inline expressions and an optional\nsandboxed environment.",
+            "name": "py-jinja2"
+        },
+        {
             "description": "lazy_loader makes it easy to load subpackages and functions on demand.",
             "name": "py-lazy-loader"
         },

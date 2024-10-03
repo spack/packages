@@ -92,6 +92,10 @@
             "name": "openldap"
         },
         {
+            "description": "PostgreSQL is a powerful, open source object-relational database system.\nIt has more than 15 years of active development and a proven\narchitecture that has earned it a strong reputation for reliability,\ndata integrity, and correctness.",
+            "name": "postgresql"
+        },
+        {
             "description": "Qt is a comprehensive cross-platform C++ application framework.",
             "name": "qt"
         },

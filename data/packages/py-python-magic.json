@@ -38,13 +38,17 @@
             "name": "py-mikado"
         },
         {
+            "description": "Rucio Client Lite Package",
+            "name": "py-rucio-clients"
+        },
+        {
             "description": "S3cmd (s3cmd) is a free command line tool and client for uploading,\nretrieving and managing data in Amazon S3 and other cloud storage\nservice providers that use the S3 protocol, such as Google Cloud Storage\nor DreamHost DreamObjects. It is best suited for power users who are\nfamiliar with command line programs.",
             "name": "py-s3cmd"
         }
     ],
     "description": "A python wrapper for libmagic. This project is named python-magic but\nimports as the module name \"magic\".\n",
     "homepage": "https://github.com/ahupp/python-magic",
-    "latest_version": "0.4.24",
+    "latest_version": "0.4.27",
     "maintainers": [],
     "name": "py-python-magic",
     "patches": [],
@@ -57,6 +61,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.4.27",
+            "sha256": "c1ba14b08e4a5f5c31a302b7721239695b2f0f058d125bd5ce1ee36b9d9d3c3b"
+        },
         {
             "name": "0.4.24",
             "sha256": "de800df9fb50f8ec5974761054a708af6e4246b03b4bdaee993f948947b0ebcf"

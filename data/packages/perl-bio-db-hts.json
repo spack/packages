@@ -24,6 +24,10 @@
         {
             "description": "File parsing and writing code for Ensembl.",
             "name": "perl-bio-ensembl-io"
+        },
+        {
+            "description": "The Ensembl Variation Perl API and SQL schema.",
+            "name": "perl-bio-ensembl-variation"
         }
     ],
     "description": "Bio::DB::HTS - This is a Perl interface to the HTS Library.\n",

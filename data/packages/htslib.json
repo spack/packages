@@ -137,6 +137,10 @@
             "name": "perl-bio-db-hts"
         },
         {
+            "description": "The Ensembl Variation Perl API and SQL schema.",
+            "name": "perl-bio-ensembl-variation"
+        },
+        {
             "description": "Pindel can detect breakpoints from next-gen sequence data.",
             "name": "pindel"
         },

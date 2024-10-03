@@ -59,9 +59,10 @@
     ],
     "description": "Ipopt (Interior Point OPTimizer, pronounced eye-pea-Opt) is a software\npackage for large-scale nonlinear optimization.\n",
     "homepage": "https://github.com/coin-or/Ipopt",
-    "latest_version": "3.14.9",
+    "latest_version": "3.14.14",
     "maintainers": [
-        "goxberry"
+        "chapman39",
+        "tepperly"
     ],
     "name": "ipopt",
     "patches": [
@@ -72,6 +73,15 @@
             "reverse": false,
             "sha256": "712f72973cde8fa5cfb0a2cf619338246a918ad696c3100109c15b212407254d",
             "version": "arch=None-None-ppc64le",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.ipopt",
+            "relative_path": "ipopt_mumps_mpi_comm_option.patch",
+            "reverse": false,
+            "sha256": "cc52643fde221609a0e136d0cd5f3262ba88b7333996da223b89d8584ce4b569",
+            "version": "+mumps",
             "working_dir": "."
         }
     ],
@@ -94,6 +104,11 @@
         },
         {
             "default": false,
+            "description": "Include Java support",
+            "name": "java"
+        },
+        {
+            "default": false,
             "description": "Build with METIS partitioning support",
             "name": "metis"
         },
@@ -104,6 +119,18 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.14.14",
+            "sha256": "264d2d3291cd1cd2d0fa0ad583e0a18199e3b1378c3cb015b6c5600083f1e036"
+        },
+        {
+            "name": "3.14.13",
+            "sha256": "2afcb057e7cf8ed7e07f50ee0a4a06d2e4d39e0f964777e9dd55fe56199a5e0a"
+        },
+        {
+            "name": "3.14.12",
+            "sha256": "6b06cd6280d5ca52fc97ca95adaaddd43529e6e8637c274e21ee1072c3b4577f"
+        },
         {
             "name": "3.14.9",
             "sha256": "e12eba451269ec30f4cf6e2acb8b35399f0d029c97dff10465416f5739c8cf7a"

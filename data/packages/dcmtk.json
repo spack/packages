@@ -54,7 +54,7 @@
     ],
     "description": "DCMTK is a collection of libraries and applications implementing large\nparts of the DICOM standard.\n",
     "homepage": "https://dicom.offis.de",
-    "latest_version": "3.6.7",
+    "latest_version": "3.6.8",
     "maintainers": [],
     "name": "dcmtk",
     "patches": [
@@ -64,7 +64,7 @@
             "relative_path": "tiff-3.6.7.patch",
             "reverse": false,
             "sha256": "e125a0834eccd67a8b76c5530b7a49eb33a838e8807cd87b6927299a0acedbce",
-            "version": "@3.6.7",
+            "version": "@3.6.7:3.6.8",
             "working_dir": "."
         }
     ],
@@ -137,6 +137,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.6.8",
+            "sha256": "fca429a215739702fe8d96178964036246a35e2ea8adb12da33851e2be8e9a07"
+        },
         {
             "name": "3.6.7",
             "sha256": "17705dcdb2047d1266bb4e92dbf4aa6d4967819e8e3e94f39b7df697661b4860"

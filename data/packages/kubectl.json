@@ -1,6 +1,6 @@
 {
     "aliases": [],
-    "build_system": "Package",
+    "build_system": "GoPackage",
     "conflicts": [],
     "dependencies": [
         {
@@ -15,7 +15,7 @@
     "dependent_to": [],
     "description": " Kubectl is a command-line interface for Kubernetes clusters.\n",
     "homepage": "https://kubernetes.io",
-    "latest_version": "1.31.0",
+    "latest_version": "1.31.1",
     "maintainers": [
         "alecbcs"
     ],
@@ -24,12 +24,16 @@
     "resources": [],
     "variants": [
         {
-            "default": "generic",
+            "default": "go",
             "description": "Build systems supported by the package",
             "name": "build_system"
         }
     ],
     "versions": [
+        {
+            "name": "1.31.1",
+            "sha256": "83094915698a9c24f93d1ffda3f17804a4024d3b65eabf681e77a62b35137208"
+        },
         {
             "name": "1.31.0",
             "sha256": "6679eb90815cc4c3bef6c1b93f7a8451bf3f40d003f45ab57fdc9f8c4e8d4b4f"

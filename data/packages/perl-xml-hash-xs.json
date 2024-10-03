@@ -8,7 +8,12 @@
             "name": "perl"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "The Ensembl Variation Perl API and SQL schema.",
+            "name": "perl-bio-ensembl-variation"
+        }
+    ],
     "description": "Simple and fast hash to XML and XML to hash conversion written in C\n",
     "homepage": "https://metacpan.org/pod/XML::Hash::XS",
     "latest_version": "0.56",

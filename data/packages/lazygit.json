@@ -11,7 +11,7 @@
     "dependent_to": [],
     "description": "A simple terminal UI for git commands\n",
     "homepage": "https://github.com/jesseduffield/lazygit",
-    "latest_version": "0.41.0",
+    "latest_version": "0.44.1",
     "maintainers": [
         "twrs"
     ],
@@ -26,6 +26,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.44.1",
+            "sha256": "02b67d38e07ae89b0ddd3b4917bd0cfcdfb5e158ed771566d3eb81f97f78cc26"
+        },
         {
             "name": "0.41.0",
             "sha256": "f2176fa253588fe4b7118bf83f4316ae3ecb914ae1e99aad8c474e23cea49fb8"

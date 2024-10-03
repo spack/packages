@@ -1,6 +1,6 @@
 {
     "aliases": [],
-    "build_system": "Package",
+    "build_system": "GoPackage",
     "conflicts": [],
     "dependencies": [
         {
@@ -20,7 +20,7 @@
     "resources": [],
     "variants": [
         {
-            "default": "generic",
+            "default": "go",
             "description": "Build systems supported by the package",
             "name": "build_system"
         }

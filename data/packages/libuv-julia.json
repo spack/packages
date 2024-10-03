@@ -26,7 +26,7 @@
     ],
     "description": "Multi-platform library with a focus on asynchronous IO\n",
     "homepage": "https://libuv.org",
-    "latest_version": "1.44.3",
+    "latest_version": "1.48.0",
     "maintainers": [],
     "name": "libuv-julia",
     "patches": [],
@@ -39,6 +39,10 @@
         }
     ],
     "versions": [
+        {
+            "commit": "ca3a5a431a1c37859b6508e6b2a288092337029a",
+            "name": "1.48.0"
+        },
         {
             "commit": "2723e256e952be0b015b3c0086f717c3d365d97e",
             "name": "1.44.3"

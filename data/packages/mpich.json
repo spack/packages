@@ -304,6 +304,11 @@
         },
         {
             "description": null,
+            "name": "%gcc@13.2.0",
+            "spec": "+cuda ^cuda@:12.4~allow-unsupported-compilers arch=None-None-aarch64:"
+        },
+        {
+            "description": null,
             "name": "%clang@18:",
             "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
         },
@@ -681,7 +686,7 @@
     ],
     "description": "MPICH is a high performance and widely portable implementation of the\nMessage Passing Interface (MPI) standard.\n",
     "homepage": "https://www.mpich.org",
-    "latest_version": "4.2.2",
+    "latest_version": "4.2.3",
     "maintainers": [
         "raffenet",
         "yfguo"
@@ -931,6 +936,10 @@
     "versions": [
         {
             "name": "develop"
+        },
+        {
+            "name": "4.2.3",
+            "sha256": "7a019180c51d1738ad9c5d8d452314de65e828ee240bcb2d1f80de9a65be88a8"
         },
         {
             "name": "4.2.2",

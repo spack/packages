@@ -38,6 +38,10 @@
             "name": "py-bandit"
         },
         {
+            "description": "dogpile.cache is a Python caching API which provides a generic interface\nto caching backends of any variety.",
+            "name": "py-dogpile-cache"
+        },
+        {
             "description": "This package contains tools for authenticating to an OpenStack-based\ncloud",
             "name": "py-keystoneauth1"
         },

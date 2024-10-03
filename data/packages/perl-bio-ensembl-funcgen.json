@@ -16,7 +16,12 @@
             "name": "perl-role-tiny"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "The Ensembl Variation Perl API and SQL schema.",
+            "name": "perl-bio-ensembl-variation"
+        }
+    ],
     "description": "Ensembl Funcgen Perl API and SQL schema.\n",
     "homepage": "http://ensembl.org/info/docs/api/funcgen/index.html",
     "latest_version": "112",

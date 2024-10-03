@@ -35,7 +35,7 @@
     ],
     "description": "The proposed C++ framework for asynchronous and parallel programming.\n",
     "homepage": "https://github.com/NVIDIA/stdexec",
-    "latest_version": "23.03",
+    "latest_version": "24.09",
     "maintainers": [
         "aurianer",
         "msimberg"
@@ -69,6 +69,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "24.09",
+            "sha256": "d2d811c852dc6c53527a244a54ae343d6b65a50c23ea49f93723e3082435fff4"
         },
         {
             "name": "23.03",

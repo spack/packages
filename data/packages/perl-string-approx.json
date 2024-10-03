@@ -8,7 +8,12 @@
             "name": "perl"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "The Ensembl Variation Perl API and SQL schema.",
+            "name": "perl-bio-ensembl-variation"
+        }
+    ],
     "description": "Perl extension for approximate matching (fuzzy matching)\n",
     "homepage": "https://metacpan.org/pod/String::Approx",
     "latest_version": "3.28",

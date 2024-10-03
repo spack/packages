@@ -182,6 +182,10 @@
             "name": "perl-bio-ensembl-io"
         },
         {
+            "description": "The Ensembl Variation Perl API and SQL schema.",
+            "name": "perl-bio-ensembl-variation"
+        },
+        {
             "description": "BioPerl low-level API for retrieving and storing data from NCBI eUtils",
             "name": "perl-bio-eutilities"
         },

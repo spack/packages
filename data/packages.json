@@ -1568,6 +1568,10 @@
         "name": "cblas"
     },
     {
+        "description": "A BQN implementation in C\n",
+        "name": "cbqn"
+    },
+    {
         "description": "CBTF project contains the base code for CBTF that supports creating\ncomponents, component networks and the support to connect these\ncomponents and component networks into sequential and distributed\nnetwork tools.\n",
         "name": "cbtf"
     },
@@ -10992,6 +10996,10 @@
         "name": "perl-bio-ensembl-io"
     },
     {
+        "description": "The Ensembl Variation Perl API and SQL schema.\n",
+        "name": "perl-bio-ensembl-variation"
+    },
+    {
         "description": "BioPerl low-level API for retrieving and storing data from NCBI eUtils\n",
         "name": "perl-bio-eutilities"
     },
@@ -15916,6 +15924,10 @@
         "name": "py-docutils-stubs"
     },
     {
+        "description": "dogpile.cache is a Python caching API which provides a generic interface\nto caching backends of any variety.\n",
+        "name": "py-dogpile-cache"
+    },
+    {
         "description": "doit - Automation Tool.\n",
         "name": "py-doit"
     },
@@ -17840,6 +17852,10 @@
         "name": "py-jsonschema"
     },
     {
+        "description": "The JSON Schema meta-schemas and vocabularies, exposed as a Registry.\n",
+        "name": "py-jsonschema-specifications"
+    },
+    {
         "description": "Creates JUnit XML test result documents that can be read by tools such\nas Jenkins\n",
         "name": "py-junit-xml"
     },
@@ -18010,6 +18026,10 @@
     {
         "description": " Kosh allows codes to store, query, share data via an easy-to-use Python\nAPI. Kosh lies on top of Sina and can use any database backend supported\nby Sina. In adition Kosh aims to make data access and sharing as simple\nas possible.\n",
         "name": "py-kosh"
+    },
+    {
+        "description": "Kerberos API bindings for Python.\n",
+        "name": "py-krb5"
     },
     {
         "description": "This repository is to support the deprecated import name of Keras Tuner.\nWith this repo, you can import Keras Tuner as kerastuner. In the main\nKeras Tuner repository the import name has been changed to keras_tuner.\n",
@@ -20996,6 +21016,10 @@
         "name": "py-pyspellchecker"
     },
     {
+        "description": "Python SPNEGO authentication library.\n",
+        "name": "py-pyspnego"
+    },
+    {
         "description": "Python bindings to spoa\n",
         "name": "py-pyspoa"
     },
@@ -21740,6 +21764,10 @@
         "name": "py-redis"
     },
     {
+        "description": "JSON Referencing + Python.\n",
+        "name": "py-referencing"
+    },
+    {
         "description": "A Python object for standardized reference genome assets.\n",
         "name": "py-refgenconf"
     },
@@ -21794,6 +21822,10 @@
     {
         "description": "Asynchronous Python HTTP Requests for Humans using Futures\n",
         "name": "py-requests-futures"
+    },
+    {
+        "description": "An authentication handler for using Kerberos with Python Requests.\n",
+        "name": "py-requests-kerberos"
     },
     {
         "description": "Mock out responses from the requests package.\n",
@@ -21948,6 +21980,10 @@
         "name": "py-routes"
     },
     {
+        "description": "Python bindings to the Rust rpds crate for persistent data structures.\n",
+        "name": "py-rpds-py"
+    },
+    {
         "description": "A pure Python Lex/Yacc that works with RPython.\n",
         "name": "py-rply"
     },
@@ -21998,6 +22034,10 @@
     {
         "description": "jinja2 pre and post-processor to update with YAML.\n",
         "name": "py-ruamel-yaml-jinja2"
+    },
+    {
+        "description": "Rucio Client Lite Package\n",
+        "name": "py-rucio-clients"
     },
     {
         "description": "An extremely fast Python linter, written in Rust.\n",
@@ -22786,6 +22826,10 @@
     {
         "description": "Pure python SSH tunnels.\n",
         "name": "py-sshtunnel"
+    },
+    {
+        "description": "SSPI API bindings for Python.\n",
+        "name": "py-sspilib"
     },
     {
         "description": "Extract data from python stack frames and tracebacks for informative\ndisplays.\n",

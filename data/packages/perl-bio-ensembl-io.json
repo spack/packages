@@ -44,7 +44,12 @@
             "name": "vcftools"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "The Ensembl Variation Perl API and SQL schema.",
+            "name": "perl-bio-ensembl-variation"
+        }
+    ],
     "description": "File parsing and writing code for Ensembl.\n",
     "homepage": "https://github.com/Ensembl/ensembl-io/",
     "latest_version": "112",

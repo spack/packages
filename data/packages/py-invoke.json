@@ -36,7 +36,7 @@
     ],
     "description": "Pythonic task execution\n",
     "homepage": "https://www.pyinvoke.org/",
-    "latest_version": "1.4.1",
+    "latest_version": "2.2.0",
     "maintainers": [],
     "name": "py-invoke",
     "patches": [],
@@ -49,6 +49,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.2.0",
+            "sha256": "ee6cbb101af1a859c7fe84f2a264c059020b0cb7fe3535f9424300ab568f6bd5"
+        },
         {
             "name": "1.4.1",
             "sha256": "de3f23bfe669e3db1085789fd859eb8ca8e0c5d9c20811e2407fa042e8a5e15d"

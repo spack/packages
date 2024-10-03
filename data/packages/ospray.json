@@ -66,7 +66,7 @@
     ],
     "description": "Intel OSPRay is an open source, scalable, and portable ray tracing\nengine for high-performance, high-fidelity visualization on Intel\nArchitecture CPUs.\n",
     "homepage": "https://www.ospray.org/",
-    "latest_version": "3.1.0",
+    "latest_version": "3.2.0",
     "maintainers": [],
     "name": "ospray",
     "patches": [],
@@ -119,6 +119,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.2.0",
+            "sha256": "2c8108df2950bc5d1bc2a62f74629233dbe4f36e3f6a8ea032907d4a3fdc6750"
+        },
         {
             "name": "3.1.0",
             "sha256": "0b9d7df900fe0474b12e5a2641bb9c3f5a1561217b2789834ebf994a15288a82"

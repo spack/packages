@@ -279,6 +279,11 @@
         },
         {
             "description": null,
+            "name": "%gcc@13.2.0",
+            "spec": "+cuda ^cuda@:12.4~allow-unsupported-compilers arch=None-None-aarch64:"
+        },
+        {
+            "description": null,
             "name": "%clang@18:",
             "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
         },
@@ -374,17 +379,27 @@
         },
         {
             "description": null,
+            "name": "backend=sycl_cpu",
+            "spec": "@0.9.0:"
+        },
+        {
+            "description": null,
+            "name": "backend=sycl_fpga",
+            "spec": "@0.9.0:"
+        },
+        {
+            "description": null,
+            "name": "backend=sycl_gpu",
+            "spec": "@0.9.0:"
+        },
+        {
+            "description": null,
             "name": "backend=cuda,cuda_only",
             "spec": ""
         },
         {
             "description": null,
             "name": "backend=cuda,hip_only",
-            "spec": ""
-        },
-        {
-            "description": null,
-            "name": "backend=cuda_only,fiber",
             "spec": ""
         },
         {
@@ -399,11 +414,6 @@
         },
         {
             "description": null,
-            "name": "backend=cuda_only,oacc",
-            "spec": ""
-        },
-        {
-            "description": null,
             "name": "backend=cuda_only,omp2_blockthread",
             "spec": ""
         },
@@ -414,12 +424,22 @@
         },
         {
             "description": null,
-            "name": "backend=cuda_only,omp5",
+            "name": "backend=cuda_only,serial",
             "spec": ""
         },
         {
             "description": null,
-            "name": "backend=cuda_only,serial",
+            "name": "backend=cuda_only,sycl_cpu",
+            "spec": ""
+        },
+        {
+            "description": null,
+            "name": "backend=cuda_only,sycl_fpga",
+            "spec": ""
+        },
+        {
+            "description": null,
+            "name": "backend=cuda_only,sycl_gpu",
             "spec": ""
         },
         {
@@ -434,17 +454,7 @@
         },
         {
             "description": null,
-            "name": "backend=fiber,hip_only",
-            "spec": ""
-        },
-        {
-            "description": null,
             "name": "backend=hip,hip_only",
-            "spec": ""
-        },
-        {
-            "description": null,
-            "name": "backend=hip_only,oacc",
             "spec": ""
         },
         {
@@ -459,12 +469,22 @@
         },
         {
             "description": null,
-            "name": "backend=hip_only,omp5",
+            "name": "backend=hip_only,serial",
             "spec": ""
         },
         {
             "description": null,
-            "name": "backend=hip_only,serial",
+            "name": "backend=hip_only,sycl_cpu",
+            "spec": ""
+        },
+        {
+            "description": null,
+            "name": "backend=hip_only,sycl_fpga",
+            "spec": ""
+        },
+        {
+            "description": null,
+            "name": "backend=hip_only,sycl_gpu",
             "spec": ""
         },
         {
@@ -475,21 +495,6 @@
         {
             "description": null,
             "name": "backend=hip_only,threads",
-            "spec": ""
-        },
-        {
-            "description": null,
-            "name": "backend=oacc,omp2_blockthread",
-            "spec": ""
-        },
-        {
-            "description": null,
-            "name": "backend=oacc,omp2_blockthread",
-            "spec": ""
-        },
-        {
-            "description": null,
-            "name": "backend=oacc,omp5",
             "spec": ""
         }
     ],
@@ -522,8 +527,8 @@
         }
     ],
     "description": "Abstraction Library for Parallel Kernel Acceleration.\n",
-    "homepage": "https://alpaka.readthedocs.io",
-    "latest_version": "0.8.0",
+    "homepage": "https://github.com/alpaka-group/alpaka",
+    "latest_version": "1.2.0",
     "maintainers": [
         "vvolkl"
     ],
@@ -578,6 +583,24 @@
             "name": "develop"
         },
         {
+            "name": "1.2.0",
+            "sha256": "069ea68ac950b17cffb3a3e790973aa5115f07ab23c0247a167e815b3c6e6fa2"
+        },
+        {
+            "name": "1.1.0",
+            "sha256": "95a8f1b706105d8a213116b6ba00e27bd904855c377f5a22a04aa0b86054dc35"
+        },
+        {
+            "name": "1.0.0",
+            "sha256": "38223dc1ca5bcf3916ff91f8825fb8caab7047430877222847e0ceb93bffecc9"
+        },
+        {
+            "name": "0.9.0",
+            "sha256": "3b2a5631366619fab5f3ceaf860219362f35db6c1148a601a3779a836cf29363"
+        }
+    ],
+    "versions_deprecated": [
+        {
             "name": "0.8.0",
             "sha256": "e01bc377a7657d9a3e0c5f8d3f83dffbd7d0b830283c59efcbc1fb98cf88de43"
         },
@@ -597,6 +620,5 @@
             "name": "0.4.0",
             "sha256": "ad7905b13c22abcee4344ba225a65078e3f452ad45a9eda907e7d27c08315e46"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

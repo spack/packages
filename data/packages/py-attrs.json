@@ -122,6 +122,10 @@
             "name": "py-ray"
         },
         {
+            "description": "JSON Referencing + Python.",
+            "name": "py-referencing"
+        },
+        {
             "description": "A persistent HTTP cache that provides an easy way to get better\nperformance with the python requests library.",
             "name": "py-requests-cache"
         },

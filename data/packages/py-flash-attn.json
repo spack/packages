@@ -12,10 +12,6 @@
             "name": "py-einops"
         },
         {
-            "description": "Ninja is a small build system with a focus on speed. Deprecated: use\nninja instead.",
-            "name": "py-ninja"
-        },
-        {
             "description": "Core utilities for Python packages.",
             "name": "py-packaging"
         },
@@ -60,7 +56,7 @@
     ],
     "description": " This package provides the official implementation of FlashAttention.\n",
     "homepage": "https://github.com/Dao-AILab/flash-attention.git",
-    "latest_version": "2.5.9.post1",
+    "latest_version": "2.6.3",
     "maintainers": [
         "aurianer"
     ],
@@ -78,6 +74,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "2.6.3",
+            "sha256": "5bfae9500ad8e7d2937ebccb4906f3bc464d1bf66eedd0e4adabd520811c7b52"
         },
         {
             "name": "2.5.9.post1",

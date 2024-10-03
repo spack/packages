@@ -1469,6 +1469,12 @@
             "package": "hermes-shm"
         }
     ],
+    "argcomplete": [
+        {
+            "default": false,
+            "package": "py-rucio-clients"
+        }
+    ],
     "argobots": [
         {
             "default": false,
@@ -4515,6 +4521,10 @@
             "package": "cblas"
         },
         {
+            "default": "makefile",
+            "package": "cbqn"
+        },
+        {
             "default": "cmake",
             "package": "cbtf"
         },
@@ -5531,7 +5541,7 @@
             "package": "dbow2"
         },
         {
-            "default": "autotools",
+            "default": "meson",
             "package": "dbus"
         },
         {
@@ -5707,7 +5717,7 @@
             "package": "dire"
         },
         {
-            "default": "generic",
+            "default": "go",
             "package": "direnv"
         },
         {
@@ -7559,7 +7569,7 @@
             "package": "gl2ps"
         },
         {
-            "default": "generic",
+            "default": "go",
             "package": "glab"
         },
         {
@@ -8663,7 +8673,7 @@
             "package": "hudi"
         },
         {
-            "default": "generic",
+            "default": "go",
             "package": "hugo"
         },
         {
@@ -9455,7 +9465,7 @@
             "package": "kripke"
         },
         {
-            "default": "generic",
+            "default": "go",
             "package": "kubectl"
         },
         {
@@ -13821,6 +13831,10 @@
         {
             "default": "generic",
             "package": "perl-bio-ensembl-io"
+        },
+        {
+            "default": "generic",
+            "package": "perl-bio-ensembl-variation"
         },
         {
             "default": "perl",
@@ -18740,6 +18754,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-dogpile-cache"
+        },
+        {
+            "default": "python_pip",
             "package": "py-doit"
         },
         {
@@ -20664,6 +20682,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-jsonschema-specifications"
+        },
+        {
+            "default": "python_pip",
             "package": "py-junit-xml"
         },
         {
@@ -20833,6 +20855,10 @@
         {
             "default": "python_pip",
             "package": "py-kosh"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-krb5"
         },
         {
             "default": "python_pip",
@@ -23820,6 +23846,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-pyspnego"
+        },
+        {
+            "default": "python_pip",
             "package": "py-pyspoa"
         },
         {
@@ -24564,6 +24594,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-referencing"
+        },
+        {
+            "default": "python_pip",
             "package": "py-refgenconf"
         },
         {
@@ -24617,6 +24651,10 @@
         {
             "default": "python_pip",
             "package": "py-requests-futures"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-requests-kerberos"
         },
         {
             "default": "python_pip",
@@ -24772,6 +24810,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-rpds-py"
+        },
+        {
+            "default": "python_pip",
             "package": "py-rply"
         },
         {
@@ -24821,6 +24863,10 @@
         {
             "default": "python_pip",
             "package": "py-ruamel-yaml-jinja2"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-rucio-clients"
         },
         {
             "default": "python_pip",
@@ -25609,6 +25655,10 @@
         {
             "default": "python_pip",
             "package": "py-sshtunnel"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-sspilib"
         },
         {
             "default": "python_pip",
@@ -31827,7 +31877,7 @@
             "package": "rccl-tests"
         },
         {
-            "default": "generic",
+            "default": "go",
             "package": "rclone"
         },
         {
@@ -31987,7 +32037,7 @@
             "package": "resourceproto"
         },
         {
-            "default": "generic",
+            "default": "go",
             "package": "restic"
         },
         {
@@ -36201,6 +36251,10 @@
         {
             "default": "Release",
             "package": "catch2"
+        },
+        {
+            "default": "o3",
+            "package": "cbqn"
         },
         {
             "default": "RelWithDebInfo",
@@ -40761,6 +40815,10 @@
         {
             "default": "release",
             "package": "coinhsl"
+        },
+        {
+            "default": "release",
+            "package": "dbus"
         },
         {
             "default": "release",
@@ -46346,6 +46404,10 @@
         },
         {
             "default": "shared",
+            "package": "dbus"
+        },
+        {
+            "default": "shared",
             "package": "dftd4"
         },
         {
@@ -47711,6 +47773,12 @@
         {
             "default": false,
             "package": "nektar"
+        }
+    ],
+    "dumper": [
+        {
+            "default": false,
+            "package": "py-rucio-clients"
         }
     ],
     "dumpi": [
@@ -49485,6 +49553,12 @@
         {
             "default": "git",
             "package": "spack"
+        }
+    ],
+    "ffi": [
+        {
+            "default": true,
+            "package": "cbqn"
         }
     ],
     "ffmpeg": [
@@ -58411,6 +58485,10 @@
             "package": "openldap"
         },
         {
+            "default": true,
+            "package": "postgresql"
+        },
+        {
             "default": false,
             "package": "re2"
         },
@@ -64354,6 +64432,10 @@
         },
         {
             "default": false,
+            "package": "ipopt"
+        },
+        {
+            "default": false,
             "package": "libkml"
         },
         {
@@ -64783,6 +64865,16 @@
         {
             "default": false,
             "package": "gdal"
+        }
+    ],
+    "kerberos": [
+        {
+            "default": false,
+            "package": "py-pyspnego"
+        },
+        {
+            "default": false,
+            "package": "py-rucio-clients"
         }
     ],
     "kernel": [
@@ -65243,6 +65335,10 @@
         {
             "default": false,
             "package": "gdb"
+        },
+        {
+            "default": false,
+            "package": "perl-bio-ensembl-variation"
         }
     ],
     "ldap": [
@@ -70397,6 +70493,12 @@
             "package": "libtiff"
         }
     ],
+    "nextflow": [
+        {
+            "default": false,
+            "package": "perl-bio-ensembl-variation"
+        }
+    ],
     "nfft": [
         {
             "default": false,
@@ -72055,6 +72157,10 @@
         {
             "default": true,
             "package": "fckit"
+        },
+        {
+            "default": false,
+            "package": "fds"
         },
         {
             "default": true,
@@ -77409,6 +77515,12 @@
             "package": "recon"
         }
     ],
+    "repl": [
+        {
+            "default": true,
+            "package": "cbqn"
+        }
+    ],
     "replica": [
         {
             "default": false,
@@ -78627,6 +78739,12 @@
             "package": "openmpi"
         }
     ],
+    "schema": [
+        {
+            "default": false,
+            "package": "perl-bio-ensembl-variation"
+        }
+    ],
     "sciconst": [
         {
             "default": false,
@@ -78791,6 +78909,10 @@
         {
             "default": false,
             "package": "perl-bio-ensembl-io"
+        },
+        {
+            "default": false,
+            "package": "perl-bio-ensembl-variation"
         }
     ],
     "sdb": [
@@ -81299,6 +81421,10 @@
             "package": "perl-bio-ensembl-funcgen"
         },
         {
+            "default": false,
+            "package": "perl-bio-ensembl-variation"
+        },
+        {
             "default": true,
             "package": "qt"
         },
@@ -81445,6 +81571,10 @@
         {
             "default": false,
             "package": "py-dvc"
+        },
+        {
+            "default": false,
+            "package": "py-rucio-clients"
         },
         {
             "default": false,
@@ -82050,6 +82180,10 @@
         },
         {
             "default": false,
+            "package": "dbus"
+        },
+        {
+            "default": false,
             "package": "dftd4"
         },
         {
@@ -82549,6 +82683,12 @@
         {
             "default": false,
             "package": "flexi"
+        }
+    ],
+    "swift": [
+        {
+            "default": false,
+            "package": "py-rucio-clients"
         }
     ],
     "swig": [
@@ -84269,6 +84409,10 @@
         {
             "default": true,
             "package": "pajeng"
+        },
+        {
+            "default": false,
+            "package": "perl-bio-ensembl-variation"
         },
         {
             "default": true,

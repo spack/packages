@@ -12,7 +12,9 @@
     "description": "Streaming replication for SQLite.\n",
     "homepage": "https://github.com/benbjohnson/litestream",
     "latest_version": "0.3.13",
-    "maintainers": [],
+    "maintainers": [
+        "alecbcs"
+    ],
     "name": "litestream",
     "patches": [],
     "resources": [],

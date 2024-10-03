@@ -32,6 +32,10 @@
         {
             "description": "Very small utility class for using Kerberos authentication with Python\nrequests.",
             "name": "py-lcls-krtc"
+        },
+        {
+            "description": "Rucio Client Lite Package",
+            "name": "py-rucio-clients"
         }
     ],
     "description": "This Python package is a high-level wrapper for Kerberos (GSSAPI)\noperations.\n",

@@ -1,6 +1,6 @@
 {
     "aliases": [],
-    "build_system": "Package",
+    "build_system": "GoPackage",
     "conflicts": [],
     "dependencies": [
         {
@@ -11,7 +11,7 @@
     "dependent_to": [],
     "description": "Rclone is a command line program to sync files and directories to and\nfrom various cloud storage providers\n",
     "homepage": "https://rclone.org",
-    "latest_version": "1.65.2",
+    "latest_version": "1.68.1",
     "maintainers": [
         "alecbcs"
     ],
@@ -20,12 +20,16 @@
     "resources": [],
     "variants": [
         {
-            "default": "generic",
+            "default": "go",
             "description": "Build systems supported by the package",
             "name": "build_system"
         }
     ],
     "versions": [
+        {
+            "name": "1.68.1",
+            "sha256": "c5d45b83dd008d08a0903eebf1578a11a40a77152226e22ce5e9287b9db05579"
+        },
         {
             "name": "1.65.2",
             "sha256": "1305c913ac3684d02ce2bade0a23a2115c1ec03c9447d1562bb6cd9fa2573412"

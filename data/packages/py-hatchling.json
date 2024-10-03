@@ -182,6 +182,10 @@
             "name": "py-jsonschema"
         },
         {
+            "description": "The JSON Schema meta-schemas and vocabularies, exposed as a Registry.",
+            "name": "py-jsonschema-specifications"
+        },
+        {
             "description": "Jupyter protocol client APIs",
             "name": "py-jupyter-client"
         },
@@ -300,6 +304,10 @@
         {
             "description": "A way to write reusable components in a React-like way, to make Python-\nbased UI's using the ipywidgets ecosystem (ipywidgets, ipyvolume,\nbqplot, threejs, leaflet, ipyvuetify, ...).",
             "name": "py-reacton"
+        },
+        {
+            "description": "JSON Referencing + Python.",
+            "name": "py-referencing"
         },
         {
             "description": "rich-argparse improves the look and readability of argparse's help while\nrequiring minimal changes to the code.",

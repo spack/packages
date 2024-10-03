@@ -50,6 +50,10 @@
             "name": "py-jsonpointer"
         },
         {
+            "description": "The JSON Schema meta-schemas and vocabularies, exposed as a Registry.",
+            "name": "py-jsonschema-specifications"
+        },
+        {
             "description": "The PyPA recommended tool for installing Python packages.",
             "name": "py-pip"
         },
@@ -62,12 +66,20 @@
             "name": "py-pyrsistent"
         },
         {
+            "description": "JSON Referencing + Python.",
+            "name": "py-referencing"
+        },
+        {
             "description": "A pure python RFC3339 validator.",
             "name": "py-rfc3339-validator"
         },
         {
             "description": "Pure python rfc3986 validator.",
             "name": "py-rfc3986-validator"
+        },
+        {
+            "description": "Python bindings to the Rust rpds crate for persistent data structures.",
+            "name": "py-rpds-py"
         },
         {
             "description": "A Python utility that aids in the process of downloading, building,\nupgrading, installing, and uninstalling Python packages.",
@@ -240,6 +252,10 @@
             "name": "py-refgenconf"
         },
         {
+            "description": "Rucio Client Lite Package",
+            "name": "py-rucio-clients"
+        },
+        {
             "description": "Sphinx objects.inv Inspection/Manipulation Tool.",
             "name": "py-sphobjinv"
         },
@@ -281,8 +297,8 @@
         }
     ],
     "description": "Jsonschema: An(other) implementation of JSON Schema for Python.\n",
-    "homepage": "https://github.com/Julian/jsonschema",
-    "latest_version": "4.17.3",
+    "homepage": "https://github.com/python-jsonschema/jsonschema",
+    "latest_version": "4.22.0",
     "maintainers": [],
     "name": "py-jsonschema",
     "patches": [],
@@ -300,6 +316,26 @@
         }
     ],
     "versions": [
+        {
+            "name": "4.22.0",
+            "sha256": "5b22d434a45935119af990552c862e5d6d564e8f6601206b305a61fdf661a2b7"
+        },
+        {
+            "name": "4.21.1",
+            "sha256": "85727c00279f5fa6bedbe6238d2aa6403bedd8b4864ab11207d07df3cc1b2ee5"
+        },
+        {
+            "name": "4.20.0",
+            "sha256": "4f614fd46d8d61258610998997743ec5492a648b33cf478c1ddc23ed4598a5fa"
+        },
+        {
+            "name": "4.19.2",
+            "sha256": "c9ff4d7447eed9592c23a12ccee508baf0dd0d59650615e847feb6cdca74f392"
+        },
+        {
+            "name": "4.18.6",
+            "sha256": "ce71d2f8c7983ef75a756e568317bf54bc531dc3ad7e66a128eae0d51623d8a3"
+        },
         {
             "name": "4.17.3",
             "sha256": "0f864437ab8b6076ba6707453ef8f98a6a0d512a80e93f8abdb676f737ecb60d"

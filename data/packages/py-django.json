@@ -56,7 +56,7 @@
     ],
     "description": "The Web framework for perfectionists with deadlines.\n",
     "homepage": "https://www.djangoproject.com/",
-    "latest_version": "5.0.1",
+    "latest_version": "5.1.1",
     "maintainers": [],
     "name": "py-django",
     "patches": [],
@@ -69,6 +69,14 @@
         }
     ],
     "versions": [
+        {
+            "name": "5.1.1",
+            "sha256": "021ffb7fdab3d2d388bc8c7c2434eb9c1f6f4d09e6119010bbb1694dda286bc2"
+        },
+        {
+            "name": "5.0.9",
+            "sha256": "6333870d342329b60174da3a60dbd302e533f3b0bb0971516750e974a99b5a39"
+        },
         {
             "name": "5.0.1",
             "sha256": "8c8659665bc6e3a44fefe1ab0a291e5a3fb3979f9a8230be29de975e57e8f854"

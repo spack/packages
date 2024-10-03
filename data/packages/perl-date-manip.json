@@ -10,6 +10,10 @@
     ],
     "dependent_to": [
         {
+            "description": "The Ensembl Variation Perl API and SQL schema.",
+            "name": "perl-bio-ensembl-variation"
+        },
+        {
             "description": "Log to Files that Archive/Rotate Themselves",
             "name": "perl-log-dispatch-filerotate"
         }

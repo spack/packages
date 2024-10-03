@@ -22,7 +22,7 @@
     ],
     "description": "Using PLT trampolines to provide a BLAS and LAPACK demuxing library.\n",
     "homepage": "https://github.com/JuliaLinearAlgebra/libblastrampoline",
-    "latest_version": "5.8.0",
+    "latest_version": "5.11.0",
     "maintainers": [
         "giordano",
         "haampie"
@@ -38,6 +38,18 @@
         }
     ],
     "versions": [
+        {
+            "name": "5.11.0",
+            "sha256": "4ea6c134843bd868f78d7ee0c61bf8bdda5334f20deaa6d3cd5bc6caafc4af17"
+        },
+        {
+            "name": "5.10.1",
+            "sha256": "1185a2a85453827823c224727e7cd665b7af8f48af5d2cd0225bd45389112e81"
+        },
+        {
+            "name": "5.9.0",
+            "sha256": "fe62c48eab6000a348d6d0cc3f2ebd2c38c6cae460468b56539b8438d42dc589"
+        },
         {
             "name": "5.8.0",
             "sha256": "aeceb01ebebdd1068a1147b636451c46c16d64f9e22694075abda4dddfffe13d"

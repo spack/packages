@@ -70,6 +70,10 @@
             "name": "py-jsonschema"
         },
         {
+            "description": "The JSON Schema meta-schemas and vocabularies, exposed as a Registry.",
+            "name": "py-jsonschema-specifications"
+        },
+        {
             "description": "Check for broken links in web sites.",
             "name": "py-linkchecker"
         },
@@ -112,6 +116,10 @@
         {
             "description": "PrettyTable is a simple Python library designed to make it quick and\neasy to represent tabular data in visually appealing ASCII tables.",
             "name": "py-prettytable"
+        },
+        {
+            "description": "JSON Referencing + Python.",
+            "name": "py-referencing"
         },
         {
             "description": "scikit-build is an improved build system generator for CPython\nC/C++/Fortran/Cython extensions. It provides better support for\nadditional compilers, build systems, cross compilation, and locating\ndependencies and their associated build requirements. The scikit-build\npackage is fundamentally just glue between the setuptools Python module\nand CMake.",

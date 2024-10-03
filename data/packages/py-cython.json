@@ -382,6 +382,10 @@
             "name": "py-imbalanced-learn"
         },
         {
+            "description": "Kerberos API bindings for Python.",
+            "name": "py-krb5"
+        },
+        {
             "description": "lap is a linear assignment problem solver using Jonker-Volgenant\nalgorithm for dense (LAPJV) or sparse (LAPMOD) matrices.",
             "name": "py-lap"
         },
@@ -716,6 +720,10 @@
         {
             "description": "srsly: Modern high-performance serialization utilities for Python.",
             "name": "py-srsly"
+        },
+        {
+            "description": "SSPI API bindings for Python.",
+            "name": "py-sspilib"
         },
         {
             "description": "Statistical computations and models for use with SciPy",

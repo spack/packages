@@ -2514,6 +2514,10 @@
             "name": "py-docutils-stubs"
         },
         {
+            "description": "dogpile.cache is a Python caching API which provides a generic interface\nto caching backends of any variety.",
+            "name": "py-dogpile-cache"
+        },
+        {
             "description": "doit - Automation Tool.",
             "name": "py-doit"
         },
@@ -4332,6 +4336,10 @@
         {
             "description": "Kosh allows codes to store, query, share data via an easy-to-use Python\nAPI. Kosh lies on top of Sina and can use any database backend supported\nby Sina. In adition Kosh aims to make data access and sharing as simple\nas possible.",
             "name": "py-kosh"
+        },
+        {
+            "description": "Kerberos API bindings for Python.",
+            "name": "py-krb5"
         },
         {
             "description": "This repository is to support the deprecated import name of Keras Tuner.\nWith this repo, you can import Keras Tuner as kerastuner. In the main\nKeras Tuner repository the import name has been changed to keras_tuner.",
@@ -7094,6 +7102,10 @@
             "name": "py-pyspellchecker"
         },
         {
+            "description": "Python SPNEGO authentication library.",
+            "name": "py-pyspnego"
+        },
+        {
             "description": "Python bindings to spoa",
             "name": "py-pyspoa"
         },
@@ -7850,6 +7862,10 @@
             "name": "py-requests-futures"
         },
         {
+            "description": "An authentication handler for using Kerberos with Python Requests.",
+            "name": "py-requests-kerberos"
+        },
+        {
             "description": "Mock out responses from the requests package.",
             "name": "py-requests-mock"
         },
@@ -8036,6 +8052,10 @@
         {
             "description": "jinja2 pre and post-processor to update with YAML.",
             "name": "py-ruamel-yaml-jinja2"
+        },
+        {
+            "description": "Rucio Client Lite Package",
+            "name": "py-rucio-clients"
         },
         {
             "description": "Rustworkx was originally called retworkx and was was created initially\nto be a replacement for qiskit's previous (and current) networkx usage\n(hence the original name). The project was originally started to build a\nfaster directed graph to use as the underlying data structure for the\nDAG at the center of qiskit-terra's transpiler. However, since it's\ninitial introduction the project has grown substantially and now covers\nall applications that need to work with graphs which includes Qiskit.",
@@ -8688,6 +8708,10 @@
         {
             "description": "Pure python SSH tunnels.",
             "name": "py-sshtunnel"
+        },
+        {
+            "description": "SSPI API bindings for Python.",
+            "name": "py-sspilib"
         },
         {
             "description": "Extract data from python stack frames and tracebacks for informative\ndisplays.",

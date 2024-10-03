@@ -26,6 +26,10 @@
             "name": "perl-bio-ensembl-io"
         },
         {
+            "description": "The Ensembl Variation Perl API and SQL schema.",
+            "name": "perl-bio-ensembl-variation"
+        },
+        {
             "description": "polymake is open source software for research in polyhedral geometry",
             "name": "polymake"
         },

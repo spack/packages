@@ -1,6 +1,6 @@
 {
     "aliases": [],
-    "build_system": "Package",
+    "build_system": "GoPackage",
     "conflicts": [],
     "dependencies": [
         {
@@ -11,7 +11,7 @@
     "dependent_to": [],
     "description": "The world's fastest framework for building websites.\n",
     "homepage": "https://gohugo.io",
-    "latest_version": "0.127.0",
+    "latest_version": "0.135.0",
     "maintainers": [
         "alecbcs"
     ],
@@ -20,7 +20,7 @@
     "resources": [],
     "variants": [
         {
-            "default": "generic",
+            "default": "go",
             "description": "Build systems supported by the package",
             "name": "build_system"
         },
@@ -31,6 +31,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.135.0",
+            "sha256": "a75c4c684d2125255f214d11b9834a5ec6eb64353f4de2c06952d2b3b7430f0e"
+        },
         {
             "name": "0.127.0",
             "sha256": "549c7ebdf2ee6b3107ea10a9fbd9932a91bb3f30f7e8839245f6d8e318aca88c"

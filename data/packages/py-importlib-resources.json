@@ -78,6 +78,10 @@
             "name": "py-jsonschema"
         },
         {
+            "description": "The JSON Schema meta-schemas and vocabularies, exposed as a Registry.",
+            "name": "py-jsonschema-specifications"
+        },
+        {
             "description": "JupyterLab is the next-generation web-based user interface for Project\nJupyter.",
             "name": "py-jupyterlab"
         },

@@ -11,7 +11,7 @@
     "dependent_to": [],
     "description": " Sloc, Cloc and Code: scc is a very fast accurate code counter with\ncomplexity calculations and COCOMO estimates written in pure Go.\n",
     "homepage": "https://github.com/boyter/scc",
-    "latest_version": "3.3.2",
+    "latest_version": "3.4.0",
     "maintainers": [],
     "name": "scc",
     "patches": [],
@@ -24,6 +24,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.4.0",
+            "sha256": "bdedb6f32d1c3d73ac7e55780021c742bc8ed32f6fb878ee3e419f9acc76bdaa"
+        },
         {
             "name": "3.3.2",
             "sha256": "2bbfed4cf34bbe50760217b479331cf256285335556a0597645b7250fb603388"

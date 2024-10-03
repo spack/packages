@@ -11,7 +11,7 @@
     "dependent_to": [],
     "description": "yq is a portable command-line YAML, JSON, XML, CSV, TOML and properties\nprocessor. This is different from the py-yq package that is a wrapper\naround jq.\n",
     "homepage": "https://mikefarah.gitbook.io/yq",
-    "latest_version": "4.43.1",
+    "latest_version": "4.44.3",
     "maintainers": [
         "teaguesterling"
     ],
@@ -26,6 +26,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "4.44.3",
+            "sha256": "ea950f5622480fc0ff3708c52589426a737cd4ec887a52922a74efa1be8f2fbf"
+        },
         {
             "name": "4.43.1",
             "sha256": "e5581d28bae2bcdf70501dfd251233c592eb3e39a210956ee74965b784435d63"

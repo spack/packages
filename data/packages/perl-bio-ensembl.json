@@ -48,6 +48,10 @@
         {
             "description": "File parsing and writing code for Ensembl.",
             "name": "perl-bio-ensembl-io"
+        },
+        {
+            "description": "The Ensembl Variation Perl API and SQL schema.",
+            "name": "perl-bio-ensembl-variation"
         }
     ],
     "description": "The Ensembl Core Perl API and SQL schema\n",
@@ -79,7 +83,7 @@
     "versions": [
         {
             "name": "112",
-            "sha256": "8a6b46840df71c4332d2de6027596ed4417a26111800d7ff0636199363568235"
+            "sha256": "7c2c5265abe74b462cd4f8b26f140a4c4945cd0e2971f40711afbb4b38db5997"
         },
         {
             "name": "111",

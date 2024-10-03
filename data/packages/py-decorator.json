@@ -26,6 +26,10 @@
     ],
     "dependent_to": [
         {
+            "description": "dogpile.cache is a Python caching API which provides a generic interface\nto caching backends of any variety.",
+            "name": "py-dogpile-cache"
+        },
+        {
             "description": "Pythonic file-system for Google Cloud Storage.",
             "name": "py-gcsfs"
         },

@@ -150,6 +150,14 @@
             "name": "py-pyopenssl"
         },
         {
+            "description": "Python SPNEGO authentication library.",
+            "name": "py-pyspnego"
+        },
+        {
+            "description": "An authentication handler for using Kerberos with Python Requests.",
+            "name": "py-requests-kerberos"
+        },
+        {
             "description": "This package allows for HTTP NTLM authentication using the requests\nlibrary.",
             "name": "py-requests-ntlm"
         },

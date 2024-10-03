@@ -32,7 +32,12 @@
             "name": "perl-test-warn"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "The Ensembl Variation Perl API and SQL schema.",
+            "name": "perl-bio-ensembl-variation"
+        }
+    ],
     "description": "Fast, compact, powerful binary (de-)serialization\n",
     "homepage": "https://metacpan.org/pod/Sereal",
     "latest_version": "5.004",

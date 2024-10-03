@@ -38,10 +38,6 @@
     ],
     "dependent_to": [
         {
-            "description": "This package provides the official implementation of FlashAttention.",
-            "name": "py-flash-attn"
-        },
-        {
             "description": "AI Toolkit for Healthcare Imaging",
             "name": "py-monai"
         }

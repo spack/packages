@@ -40,6 +40,10 @@
         {
             "description": "htgettoken gets OIDC authentication tokens for High Throughput Computing\nvia a Hashicorp vault server.",
             "name": "py-htgettoken"
+        },
+        {
+            "description": "Python SPNEGO authentication library.",
+            "name": "py-pyspnego"
         }
     ],
     "description": "Python-GSSAPI provides both low-level and high level wrappers around the\nGSSAPI C libraries.\n",

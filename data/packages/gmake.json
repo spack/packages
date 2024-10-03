@@ -1158,6 +1158,10 @@
             "name": "cbflib"
         },
         {
+            "description": "A BQN implementation in C",
+            "name": "cbqn"
+        },
+        {
             "description": "CBTF project contains the base code for CBTF that supports creating\ncomponents, component networks and the support to connect these\ncomponents and component networks into sequential and distributed\nnetwork tools.",
             "name": "cbtf"
         },
@@ -8460,6 +8464,10 @@
         {
             "description": "Bio::DB::BigFile -- Low-level interface to BigWig & BigBed files for\nperl",
             "name": "perl-bio-bigfile"
+        },
+        {
+            "description": "The Ensembl Variation Perl API and SQL schema.",
+            "name": "perl-bio-ensembl-variation"
         },
         {
             "description": "PEST++ is a software suite aimed at supporting complex numerical models\nin the decision-support context. Much focus has been devoted to\nsupporting environmental models (groundwater, surface water, etc) but\nthese tools are readily applicable to any computer model.",

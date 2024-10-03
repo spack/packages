@@ -18,6 +18,10 @@
             "name": "gnuconfig"
         },
         {
+            "description": "ICU is a mature, widely used set of C/C++ and Java libraries providing\nUnicode and Globalization support for software applications. ICU4C is\nthe C/C++ interface.",
+            "name": "icu4c"
+        },
+        {
             "description": "An autotools compatible port of the NetBSD editline library",
             "name": "libedit"
         },
@@ -146,6 +150,11 @@
             "default": false,
             "description": "Build with GSSAPI functionality.",
             "name": "gssapi"
+        },
+        {
+            "default": true,
+            "description": "Build with ICU support.",
+            "name": "icu"
         },
         {
             "default": "readline",

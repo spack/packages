@@ -178,6 +178,10 @@
             "name": "py-dm-haiku"
         },
         {
+            "description": "dogpile.cache is a Python caching API which provides a generic interface\nto caching backends of any variety.",
+            "name": "py-dogpile-cache"
+        },
+        {
             "description": "Helpful functions for Python",
             "name": "py-domdf-python-tools"
         },

@@ -204,10 +204,19 @@
     ],
     "description": "OpenBLAS: An optimized BLAS library\n",
     "homepage": "https://www.openblas.net",
-    "latest_version": "0.3.27",
+    "latest_version": "0.3.28",
     "maintainers": [],
     "name": "openblas",
     "patches": [
+        {
+            "level": 1,
+            "owner": "builtin.openblas",
+            "relative_path": "openblas-0.3.28-thread-buffer.patch",
+            "reverse": false,
+            "sha256": "d0b9276ac0f5f6f281620aae72c17161eb7baa7b46e66c57b764c0d0d3337944",
+            "version": "@0.3.28",
+            "working_dir": "."
+        },
         {
             "level": 1,
             "owner": "builtin.openblas",
@@ -565,6 +574,10 @@
         {
             "branch": "develop",
             "name": "develop"
+        },
+        {
+            "name": "0.3.28",
+            "sha256": "f1003466ad074e9b0c8d421a204121100b0751c96fc6fcf3d1456bd12f8a00a1"
         },
         {
             "name": "0.3.27",

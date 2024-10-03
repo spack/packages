@@ -88,6 +88,10 @@
             "name": "py-kerberos"
         },
         {
+            "description": "Kerberos API bindings for Python.",
+            "name": "py-krb5"
+        },
+        {
             "description": "This Python package is a high-level wrapper for Kerberos (GSSAPI)\noperations.",
             "name": "py-pykerberos"
         },

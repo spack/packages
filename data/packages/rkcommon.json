@@ -31,8 +31,8 @@
         }
     ],
     "description": "This project represents a common set of C++ infrastructure and CMake\nutilities used by various components of Intel\u00ae oneAPI Rendering Toolkit.\n",
-    "homepage": "https://github.com/ospray/rkcommon",
-    "latest_version": "1.13.0",
+    "homepage": "https://github.com/RenderKit/rkcommon",
+    "latest_version": "1.14.2",
     "maintainers": [],
     "name": "rkcommon",
     "patches": [],
@@ -60,6 +60,14 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.14.2",
+            "sha256": "79334ef3dadddb03ec0483fbf49bf690fb8902d5c2732d977b2c116651484cc6"
+        },
+        {
+            "name": "1.14.0",
+            "sha256": "5aef75afc8d4fccf9e70df4cbdf29a1b28b39ee51b5588b94b83a14c6a166d83"
+        },
         {
             "name": "1.13.0",
             "sha256": "8ae9f911420085ceeca36e1f16d1316a77befbf6bf6de2a186d65440ac66ff1f"
