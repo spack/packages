@@ -5,7 +5,7 @@
     "dependencies": [],
     "dependent_to": [],
     "description": "The minimalist bootstrap toolset for conda and Python3.\n",
-    "homepage": "https://conda.io/miniconda.html",
+    "homepage": "https://docs.anaconda.com/miniconda/",
     "latest_version": "24.3.0",
     "maintainers": [],
     "name": "miniconda3",

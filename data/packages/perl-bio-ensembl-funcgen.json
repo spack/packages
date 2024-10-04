@@ -20,6 +20,10 @@
         {
             "description": "The Ensembl Variation Perl API and SQL schema.",
             "name": "perl-bio-ensembl-variation"
+        },
+        {
+            "description": "Ensembl Variant Effect Predictor (VEP) determines the effect of your\nvariants (SNPs, insertions, deletions, CNVs or structural variants) on\ngenes, transcripts, and protein sequence, as well as regulatory regions.\n(Requires addtional data available via the `vep-cache` package)",
+            "name": "vep"
         }
     ],
     "description": "Ensembl Funcgen Perl API and SQL schema.\n",

@@ -213,10 +213,6 @@
             "name": "pass"
         },
         {
-            "description": "C++ runtime system for parallellism and concurrency.",
-            "name": "pika"
-        },
-        {
             "description": "C++ parallel algorithms built on pika.",
             "name": "pika-algorithms"
         },

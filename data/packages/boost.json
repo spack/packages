@@ -184,6 +184,10 @@
             "name": "alpaka"
         },
         {
+            "description": "AmberTools is a free, useful standalone package and a prerequisite for\ninstalling Amber itself. The AmberTools suite is free of charge, and its\ncomponents are mostly released under the GNU General Public License\n(GPL). A few components are included that are in the public domain or\nwhich have other, open-source, licenses. The libsander and libpbsa\nlibraries use the LGPL license.",
+            "name": "ambertools"
+        },
+        {
             "description": "The Advanced Multi-Physics (AMP) package. The Advanced Multi-Physics\n(AMP) package is an open source parallel object-oriented computational\nframework that is designed with single and multi-domain multi-physics\napplications in mind.",
             "name": "amp"
         },

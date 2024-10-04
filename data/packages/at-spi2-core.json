@@ -78,7 +78,7 @@
     ],
     "description": "The At-Spi2 Core package provides a Service Provider Interface for the\nAssistive Technologies available on the GNOME platform and a library\nagainst which applications can be linked.\n",
     "homepage": "https://www.linuxfromscratch.org/blfs/view/cvs/x/at-spi2-core.html",
-    "latest_version": "2.51.91",
+    "latest_version": "2.54.0",
     "maintainers": [],
     "name": "at-spi2-core",
     "patches": [],
@@ -106,6 +106,14 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.54.0",
+            "sha256": "d7eee7e75beddcc272cedc2b60535600f3aae6e481589ebc667afc437c0a6079"
+        },
+        {
+            "name": "2.52.0",
+            "sha256": "0ac3fc8320c8d01fa147c272ba7fa03806389c6b03d3c406d0823e30e35ff5ab"
+        },
         {
             "name": "2.51.91",
             "sha256": "1344bd5c1732b55fcf3df9e3b87569f60984ae83ce75881b5a057c69f8d73e34"

@@ -68,6 +68,10 @@
         {
             "description": "Trinotate is a comprehensive annotation suite designed for automatic\nfunctional annotation of transcriptomes, particularly de novo assembled\ntranscriptomes, from model or non-model organisms",
             "name": "trinotate"
+        },
+        {
+            "description": "Ensembl Variant Effect Predictor (VEP) determines the effect of your\nvariants (SNPs, insertions, deletions, CNVs or structural variants) on\ngenes, transcripts, and protein sequence, as well as regulatory regions.\n(Requires addtional data available via the `vep-cache` package)",
+            "name": "vep"
         }
     ],
     "description": "The DBI is the standard database interface module for Perl. It defines a\nset of methods, variables and conventions that provide a consistent\ndatabase interface independent of the actual database being used.\n",

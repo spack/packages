@@ -4142,6 +4142,10 @@
             "name": "py-igraph"
         },
         {
+            "description": "Module for embedding igv.js in an IPython notebook",
+            "name": "py-igv-notebook"
+        },
+        {
             "description": "A library and collection of scripts to work with Illumina paired-end\ndata (for CASAVA 1.8+).",
             "name": "py-illumina-utils"
         },

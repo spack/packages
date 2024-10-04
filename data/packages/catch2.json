@@ -84,7 +84,7 @@
     ],
     "description": "Catch2 is a multi-paradigm test framework for C++, which also supports\nObjective-C (and maybe C).\n",
     "homepage": "https://github.com/catchorg/Catch2",
-    "latest_version": "3.6.0",
+    "latest_version": "3.7.1",
     "maintainers": [
         "ax3l",
         "greenc-FNAL"
@@ -133,6 +133,10 @@
         {
             "branch": "devel",
             "name": "develop"
+        },
+        {
+            "name": "3.7.1",
+            "sha256": "c991b247a1a0d7bb9c39aa35faf0fe9e19764213f28ffba3109388e62ee0269c"
         },
         {
             "name": "3.6.0",

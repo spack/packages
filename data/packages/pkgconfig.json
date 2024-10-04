@@ -310,6 +310,14 @@
             "name": "dtc"
         },
         {
+            "description": "DuckDB is an in-process SQL OLAP Database Management System.",
+            "name": "duckdb"
+        },
+        {
+            "description": "It provides the filesystem utilities for use with the ext2 filesystem.\nIt also supports the ext3 and ext4 filesystems.",
+            "name": "e2fsprogs"
+        },
+        {
             "description": "Tiny collection of programs used for ECDSA.",
             "name": "ecdsautils"
         },

@@ -18,6 +18,10 @@
     ],
     "dependent_to": [
         {
+            "description": "AmberTools is a free, useful standalone package and a prerequisite for\ninstalling Amber itself. The AmberTools suite is free of charge, and its\ncomponents are mostly released under the GNU General Public License\n(GPL). A few components are included that are in the public domain or\nwhich have other, open-source, licenses. The libsander and libpbsa\nlibraries use the LGPL license.",
+            "name": "ambertools"
+        },
+        {
             "description": "A presentable text document format for writing articles, UNIX man pages\nand other small to medium sized documents.",
             "name": "asciidoc"
         },
@@ -3820,6 +3824,10 @@
         {
             "description": "Python interface to the igraph high performance graph library, primarily\naimed at complex network research and analysis.",
             "name": "py-igraph"
+        },
+        {
+            "description": "Module for embedding igv.js in an IPython notebook",
+            "name": "py-igv-notebook"
         },
         {
             "description": "A library and collection of scripts to work with Illumina paired-end\ndata (for CASAVA 1.8+).",

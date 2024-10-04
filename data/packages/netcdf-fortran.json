@@ -40,6 +40,10 @@
             "name": "amber"
         },
         {
+            "description": "AmberTools is a free, useful standalone package and a prerequisite for\ninstalling Amber itself. The AmberTools suite is free of charge, and its\ncomponents are mostly released under the GNU General Public License\n(GPL). A few components are included that are in the public domain or\nwhich have other, open-source, licenses. The libsander and libpbsa\nlibraries use the LGPL license.",
+            "name": "ambertools"
+        },
+        {
             "description": "CPRNC is a netcdf file comparison tool used by CESM and other scientific\nprograms.",
             "name": "cprnc"
         },

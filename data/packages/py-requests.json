@@ -406,6 +406,10 @@
             "name": "py-ibm-watson"
         },
         {
+            "description": "Module for embedding igv.js in an IPython notebook",
+            "name": "py-igv-notebook"
+        },
+        {
             "description": "An interactive toolkit for assembly and analysis of restriction-site\nassociated genomic data sets (e.g., RAD, ddRAD, GBS) for population\ngenetic and phylogenetic studies.",
             "name": "py-ipyrad"
         },

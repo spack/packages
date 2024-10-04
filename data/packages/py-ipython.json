@@ -118,6 +118,10 @@
             "name": "py-fluiddyn"
         },
         {
+            "description": "Module for embedding igv.js in an IPython notebook",
+            "name": "py-igv-notebook"
+        },
+        {
             "description": "ipdb is the iPython debugger and has many additional features, including\na better interactive debugging experience via colorized output.",
             "name": "py-ipdb"
         },

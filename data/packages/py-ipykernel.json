@@ -108,6 +108,10 @@
             "name": "py-dask-ml"
         },
         {
+            "description": "Module for embedding igv.js in an IPython notebook",
+            "name": "py-igv-notebook"
+        },
+        {
             "description": "IPython's architecture for parallel and distributed computing.",
             "name": "py-ipyparallel"
         },

@@ -26,6 +26,10 @@
             "name": "akantu"
         },
         {
+            "description": "AmberTools is a free, useful standalone package and a prerequisite for\ninstalling Amber itself. The AmberTools suite is free of charge, and its\ncomponents are mostly released under the GNU General Public License\n(GPL). A few components are included that are in the public domain or\nwhich have other, open-source, licenses. The libsander and libpbsa\nlibraries use the LGPL license.",
+            "name": "ambertools"
+        },
+        {
             "description": "ScaLAPACK is a library of high-performance linear algebra routines for\nparallel distributed memory machines. It depends on external libraries\nincluding BLAS and LAPACK for Linear Algebra computations. AMD's\noptimized version of ScaLAPACK enables using BLIS and LibFLAME library\nthat have optimized dense matrix functions and solvers for AMD EPYC\nprocessor family CPUs. LICENSING INFORMATION: By downloading, installing\nand using this software, you agree to the terms and conditions of the\nAMD AOCL-ScaLAPACK license agreement. You may obtain a copy of this\nlicense agreement from\nhttps://www.amd.com/en/developer/aocl/scalapack/eula/scalapack-\nlibraries-4-2-eula.html\nhttps://www.amd.com/en/developer/aocl/scalapack/eula/scalapack-\nlibraries-eula.html",
             "name": "amdscalapack"
         },

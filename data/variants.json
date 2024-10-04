@@ -3205,6 +3205,10 @@
             "package": "amber"
         },
         {
+            "default": "cmake",
+            "package": "ambertools"
+        },
+        {
             "default": "bundle",
             "package": "amd-aocl"
         },
@@ -20278,6 +20282,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-igv-notebook"
+        },
+        {
+            "default": "python_pip",
             "package": "py-illumina-utils"
         },
         {
@@ -34614,6 +34622,10 @@
         },
         {
             "default": "generic",
+            "package": "vep"
+        },
+        {
+            "default": "generic",
             "package": "verible"
         },
         {
@@ -35823,6 +35835,10 @@
         {
             "default": "Release",
             "package": "aluminum"
+        },
+        {
+            "default": "Release",
+            "package": "ambertools"
         },
         {
             "default": "Release",
@@ -41041,6 +41057,18 @@
         {
             "default": false,
             "package": "sperr"
+        }
+    ],
+    "bundled_bioperl": [
+        {
+            "default": false,
+            "package": "vep"
+        }
+    ],
+    "bundled_htslib": [
+        {
+            "default": false,
+            "package": "vep"
         }
     ],
     "burstbuffer": [
@@ -49025,6 +49053,24 @@
             "package": "regcm"
         }
     ],
+    "extension_autoinstall": [
+        {
+            "default": false,
+            "package": "duckdb"
+        }
+    ],
+    "extension_autoload": [
+        {
+            "default": false,
+            "package": "duckdb"
+        }
+    ],
+    "extension_repo": [
+        {
+            "default": true,
+            "package": "duckdb"
+        }
+    ],
     "external": [
         {
             "default": false,
@@ -51161,6 +51207,10 @@
         {
             "default": "make",
             "package": "aluminum"
+        },
+        {
+            "default": "make",
+            "package": "ambertools"
         },
         {
             "default": "make",
@@ -57277,6 +57327,10 @@
         {
             "default": true,
             "package": "squashfs"
+        },
+        {
+            "default": true,
+            "package": "vep"
         }
     ],
     "h5ad": [
@@ -59353,6 +59407,10 @@
         {
             "default": false,
             "package": "aluminum"
+        },
+        {
+            "default": false,
+            "package": "ambertools"
         },
         {
             "default": false,
@@ -64505,12 +64563,6 @@
             "package": "libtiff"
         }
     ],
-    "jdbc": [
-        {
-            "default": false,
-            "package": "duckdb"
-        }
-    ],
     "jdk": [
         {
             "default": false,
@@ -64773,6 +64825,10 @@
         {
             "default": false,
             "package": "mctc-lib"
+        },
+        {
+            "default": true,
+            "package": "vep"
         }
     ],
     "json-xs": [
@@ -70187,6 +70243,12 @@
             "package": "libpressio"
         }
     ],
+    "nearest": [
+        {
+            "default": true,
+            "package": "vep"
+        }
+    ],
     "nek": [
         {
             "default": true,
@@ -71207,10 +71269,6 @@
         {
             "default": false,
             "package": "apr-util"
-        },
-        {
-            "default": false,
-            "package": "duckdb"
         },
         {
             "default": false,
@@ -76119,7 +76177,7 @@
             "package": "dftd4"
         },
         {
-            "default": false,
+            "default": true,
             "package": "duckdb"
         },
         {
@@ -81993,6 +82051,12 @@
             "package": "pdsh"
         }
     ],
+    "static_openssl": [
+        {
+            "default": false,
+            "package": "duckdb"
+        }
+    ],
     "static_tools": [
         {
             "default": false,
@@ -84471,6 +84535,18 @@
             "package": "py-sentry-sdk"
         }
     ],
+    "tpce": [
+        {
+            "default": false,
+            "package": "duckdb"
+        }
+    ],
+    "tpch": [
+        {
+            "default": false,
+            "package": "duckdb"
+        }
+    ],
     "tpetra": [
         {
             "default": true,
@@ -85475,6 +85551,12 @@
             "package": "zfp"
         }
     ],
+    "utility_scripts": [
+        {
+            "default": true,
+            "package": "vep"
+        }
+    ],
     "utilityapps": [
         {
             "default": true,
@@ -85731,6 +85813,12 @@
         {
             "default": false,
             "package": "ecp-data-vis-sdk"
+        }
+    ],
+    "vep_installer": [
+        {
+            "default": false,
+            "package": "vep"
         }
     ],
     "verbose": [

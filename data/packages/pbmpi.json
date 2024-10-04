@@ -24,7 +24,7 @@
     ],
     "dependent_to": [],
     "description": "A Bayesian software for phylogenetic reconstruction using mixture models\n",
-    "homepage": "https://megasun.bch.umontreal.ca/People/lartillot/www/index.htm",
+    "homepage": "https://github.com/bayesiancook/pbmpi",
     "latest_version": "1.9",
     "maintainers": [
         "snehring"

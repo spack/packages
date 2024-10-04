@@ -236,6 +236,10 @@
         "name": "amber"
     },
     {
+        "description": "AmberTools is a free, useful standalone package and a prerequisite for\ninstalling Amber itself. The AmberTools suite is free of charge, and its\ncomponents are mostly released under the GNU General Public License\n(GPL). A few components are included that are in the public domain or\nwhich have other, open-source, licenses. The libsander and libpbsa\nlibraries use the LGPL license.\n",
+        "name": "ambertools"
+    },
+    {
         "description": "AMD Optimizing CPU Libraries (AOCL) - AOCL is a set of numerical\nlibraries tuned specifically for AMD EPYC processor family. They have a\nsimple interface to take advantage of the latest hardware innovations.\nThe tuned implementations of industry standard math libraries enable\nfast development of scientific and high performance computing projects\nLICENSING INFORMATION: By downloading, installing and using this\nsoftware, you agree to the terms and conditions of the AMD AOCL license\nagreement. You may obtain a copy of this license agreement from\nhttps://www.amd.com/en/developer/aocl/aocl-eula.html\nhttps://www.amd.com/en/developer/aocl/eula/aocl-4-1-eula.html\n",
         "name": "amd-aocl"
     },
@@ -17448,6 +17452,10 @@
         "name": "py-igraph"
     },
     {
+        "description": "Module for embedding igv.js in an IPython notebook\n",
+        "name": "py-igv-notebook"
+    },
+    {
         "description": "A library and collection of scripts to work with Illumina paired-end\ndata (for CASAVA 1.8+).\n",
         "name": "py-illumina-utils"
     },
@@ -31814,6 +31822,10 @@
     {
         "description": "Automatically optimise three of Velvet's assembly parameters.\n",
         "name": "velvetoptimiser"
+    },
+    {
+        "description": " Ensembl Variant Effect Predictor (VEP) determines the effect of your\nvariants (SNPs, insertions, deletions, CNVs or structural variants) on\ngenes, transcripts, and protein sequence, as well as regulatory regions.\n(Requires addtional data available via the `vep-cache` package)\n",
+        "name": "vep"
     },
     {
         "description": "The Verible project\u2019s main mission is to parse SystemVerilog (IEEE\n1800-2017) (as standardized in the [SV-LRM]) for a wide variety of\napplications, including developer tools. It was born out of a need to\nparse un-preprocessed source files, which is suitable for single-file\napplications like style-linting and formatting. In doing so, it can be\nadapted to parse preprocessed source files, which is what real compilers\nand toolchains require. The spirit of the project is that no-one should\never have to develop a SystemVerilog parser for their own application,\nbecause developing a standard-compliant parser is an enormous task due\nto the syntactic complexity of the language. Verible\u2019s parser is also\nregularly tested against an ever-growing suite of (tool-independent)\nlanguage compliance tests at https://symbiflow.github.io/sv-tests/. A\nlesser (but notable) objective is that the language-agnostic components\nof Verible be usable for rapidly developing language support tools for\nother languages.\n",

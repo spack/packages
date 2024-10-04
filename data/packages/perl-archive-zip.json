@@ -8,7 +8,12 @@
             "name": "perl"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "Ensembl Variant Effect Predictor (VEP) determines the effect of your\nvariants (SNPs, insertions, deletions, CNVs or structural variants) on\ngenes, transcripts, and protein sequence, as well as regulatory regions.\n(Requires addtional data available via the `vep-cache` package)",
+            "name": "vep"
+        }
+    ],
     "description": "Archive::Zip - Provide an interface to ZIP archive files.\n",
     "homepage": "https://metacpan.org/pod/Archive::Zip",
     "latest_version": "1.68",

@@ -22,6 +22,10 @@
             "name": "gnuconfig"
         },
         {
+            "description": "pkgconf is a program which helps to configure compiler and linker flags\nfor development frameworks. It is similar to pkg-config from\nfreedesktop.org, providing additional functionality while also\nmaintaining compatibility.",
+            "name": "pkgconfig"
+        },
+        {
             "description": "Texinfo is the official documentation format of the GNU project. It was\ninvented by Richard Stallman and Bob Chassell many years ago, loosely\nbased on Brian Reid's Scribe and other formatting languages of the time.\nIt is used by many non-GNU projects as well.",
             "name": "texinfo"
         }

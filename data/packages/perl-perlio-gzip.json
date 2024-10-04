@@ -12,7 +12,12 @@
             "name": "zlib-api"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "Ensembl Variant Effect Predictor (VEP) determines the effect of your\nvariants (SNPs, insertions, deletions, CNVs or structural variants) on\ngenes, transcripts, and protein sequence, as well as regulatory regions.\n(Requires addtional data available via the `vep-cache` package)",
+            "name": "vep"
+        }
+    ],
     "description": "Perl extension to provide a PerlIO layer to gzip/gunzip\n",
     "homepage": "https://metacpan.org/pod/PerlIO::gzip",
     "latest_version": "0.20",

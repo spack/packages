@@ -175,6 +175,10 @@
         {
             "description": "SHAPEIT4 is a fast and accurate method for estimation of haplotypes (aka\nphasing) for SNP array and high coverage sequencing data.",
             "name": "shapeit4"
+        },
+        {
+            "description": "Ensembl Variant Effect Predictor (VEP) determines the effect of your\nvariants (SNPs, insertions, deletions, CNVs or structural variants) on\ngenes, transcripts, and protein sequence, as well as regulatory regions.\n(Requires addtional data available via the `vep-cache` package)",
+            "name": "vep"
         }
     ],
     "description": "C library for high-throughput sequencing data formats.\n",

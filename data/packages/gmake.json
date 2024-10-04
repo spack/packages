@@ -198,6 +198,10 @@
             "name": "aluminum"
         },
         {
+            "description": "AmberTools is a free, useful standalone package and a prerequisite for\ninstalling Amber itself. The AmberTools suite is free of charge, and its\ncomponents are mostly released under the GNU General Public License\n(GPL). A few components are included that are in the public domain or\nwhich have other, open-source, licenses. The libsander and libpbsa\nlibraries use the LGPL license.",
+            "name": "ambertools"
+        },
+        {
             "description": "AMD Optimized BLIS. BLIS is a portable software framework for\ninstantiating high-performance BLAS-like dense linear algebra libraries.\nThe framework was designed to isolate essential kernels of computation\nthat, when optimized, immediately enable optimized implementations of\nmost of its commonly used and computationally intensive operations.\nLICENSING INFORMATION: By downloading, installing and using this\nsoftware, you agree to the terms and conditions of the AMD AOCL-BLIS\nlicense agreement. You may obtain a copy of this license agreement from\nhttps://www.amd.com/en/developer/aocl/dense/eula/blas-4-2-eula.html\nhttps://www.amd.com/en/developer/aocl/dense/eula/blas-eula.html",
             "name": "amdblis"
         },
@@ -11480,6 +11484,10 @@
         {
             "description": "Velvet is a de novo genomic assembler specially designed for short read\nsequencing technologies.",
             "name": "velvet"
+        },
+        {
+            "description": "Ensembl Variant Effect Predictor (VEP) determines the effect of your\nvariants (SNPs, insertions, deletions, CNVs or structural variants) on\ngenes, transcripts, and protein sequence, as well as regulatory regions.\n(Requires addtional data available via the `vep-cache` package)",
+            "name": "vep"
         },
         {
             "description": "Verilator is the fastest free Verilog HDL simulator. It compiles\nsynthesizable Verilog (not test-bench code!), plus some PSL,\nSystemVerilog and Synthesis assertions into C++ or SystemC code. It is\ndesigned for large projects where fast simulation performance is of\nprimary concern, and is especially well suited to generate executable\nmodels of CPUs for embedded software design teams. Please do not\ndownload this program if you are expecting a full featured replacement\nfor NC-Verilog, VCS or another commercial Verilog simulator or Verilog\ncompiler for a little project! (Try Icarus instead.) However, if you are\nlooking for a path to migrate synthesizable Verilog to C++ or SystemC,\nand writing just a touch of C code and Makefiles doesn't scare you off,\nthis is the free Verilog compiler for you. Verilator supports the\nsynthesis subset of Verilog, plus initial statements, proper\nblocking/non-blocking assignments, functions, tasks, multi-dimensional\narrays, and signed numbers. It also supports very simple forms of\nSystemVerilog assertions and coverage analysis. Verilator supports the\nmore important Verilog 2005 constructs, and some SystemVerilog features,\nwith additional constructs being added as users request them. Verilator\nhas been used to simulate many very large multi-million gate designs\nwith thousands of modules.",

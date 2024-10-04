@@ -35,14 +35,34 @@
             "name": "openssl"
         },
         {
+            "description": "pkgconf is a program which helps to configure compiler and linker flags\nfor development frameworks. It is similar to pkg-config from\nfreedesktop.org, providing additional functionality while also\nmaintaining compatibility.",
+            "name": "pkgconfig"
+        },
+        {
+            "description": "The PyPA recommended tool for installing Python packages.",
+            "name": "py-pip"
+        },
+        {
+            "description": "The blessed package to manage your versions by scm tags.",
+            "name": "py-setuptools-scm"
+        },
+        {
             "description": "The Python programming language.",
             "name": "python"
+        },
+        {
+            "description": "A Spack managed Python virtual environment",
+            "name": "python-venv"
+        },
+        {
+            "description": "zlib replacement with optimizations for next generation systems.",
+            "name": "zlib-api"
         }
     ],
     "dependent_to": [],
     "description": "DuckDB is an in-process SQL OLAP Database Management System.\n",
     "homepage": "https://duckdb.org",
-    "latest_version": "1.1.0",
+    "latest_version": "1.1.1",
     "maintainers": [
         "glentner",
         "teaguesterling"
@@ -72,6 +92,21 @@
             "name": "excel"
         },
         {
+            "default": false,
+            "description": "Enable extension auto-installing",
+            "name": "extension_autoinstall"
+        },
+        {
+            "default": false,
+            "description": "Enable extension auto-loading",
+            "name": "extension_autoload"
+        },
+        {
+            "default": true,
+            "description": "Copy extensions to prefix",
+            "name": "extension_repo"
+        },
+        {
             "default": true,
             "description": "Include FTS (full text search) support in build",
             "name": "fts"
@@ -92,11 +127,6 @@
             "name": "inet"
         },
         {
-            "default": false,
-            "description": "Build JDBC driver (may not work)",
-            "name": "jdbc"
-        },
-        {
             "default": true,
             "description": "Include JSON support in build",
             "name": "json"
@@ -105,11 +135,6 @@
             "default": true,
             "description": "Use GEN=ninja to build",
             "name": "ninjabuild"
-        },
-        {
-            "default": false,
-            "description": "Build with ODBC driver (may not work)",
-            "name": "odbc"
         },
         {
             "default": false,
@@ -122,15 +147,34 @@
             "name": "parquet"
         },
         {
-            "default": false,
-            "description": "Build with Python driver (may not work)",
+            "default": true,
+            "description": "Build with Python driver",
             "name": "python"
+        },
+        {
+            "default": false,
+            "description": "Build with static openSSL",
+            "name": "static_openssl"
+        },
+        {
+            "default": false,
+            "description": "Include TPCE in build",
+            "name": "tpce"
+        },
+        {
+            "default": false,
+            "description": "Include TPCH in build",
+            "name": "tpch"
         }
     ],
     "versions": [
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "1.1.1",
+            "sha256": "a764cef80287ccfd8555884d8facbe962154e7c747043c0842cd07873b4d6752"
         },
         {
             "name": "1.1.0",
@@ -165,18 +209,6 @@
         {
             "name": "0.9.0",
             "sha256": "3dbf3326a831bf0797591572440e81a3d6d668f8e33a25ce04efae19afc3a23d"
-        },
-        {
-            "name": "0.8.1",
-            "sha256": "a0674f7e320dc7ebcf51990d7fc1c0e7f7b2c335c08f5953702b5285e6c30694"
-        },
-        {
-            "name": "0.8.0",
-            "sha256": "df3b8e0b72bce38914f0fb1cd02235d8b616df9209beb14beb06bfbcaaf2e97f"
-        },
-        {
-            "name": "0.7.1",
-            "sha256": "67f840f861e5ffbe137d65a8543642d016f900b89dd035492d562ad11acf0e1e"
         }
     ]
 }

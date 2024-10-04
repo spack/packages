@@ -58,7 +58,7 @@
     ],
     "description": "Library for specialized dense and sparse matrix operations, and deep\nlearning primitives.\n",
     "homepage": "https://github.com/hfp/libxsmm",
-    "latest_version": "1.17",
+    "latest_version": "1.17-cp2k",
     "maintainers": [
         "hfp"
     ],
@@ -110,6 +110,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "commit": "6f883620f58afdeebab28039fc9cf580e76a5ec6",
+            "name": "1.17-cp2k"
         },
         {
             "name": "1.17",

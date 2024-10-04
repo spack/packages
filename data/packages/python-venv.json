@@ -170,6 +170,10 @@
             "name": "dsqss"
         },
         {
+            "description": "DuckDB is an in-process SQL OLAP Database Management System.",
+            "name": "duckdb"
+        },
+        {
             "description": "DXT Explorer is an interactive web-based log analysis tool to visualize\nDarshan DXT logs and help understand the I/O behavior of applications.",
             "name": "dxt-explorer"
         },
@@ -4436,6 +4440,10 @@
         {
             "description": "Python interface to the igraph high performance graph library, primarily\naimed at complex network research and analysis.",
             "name": "py-igraph"
+        },
+        {
+            "description": "Module for embedding igv.js in an IPython notebook",
+            "name": "py-igv-notebook"
         },
         {
             "description": "A library and collection of scripts to work with Illumina paired-end\ndata (for CASAVA 1.8+).",
