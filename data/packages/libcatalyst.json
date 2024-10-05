@@ -38,6 +38,10 @@
             "name": "adios2"
         },
         {
+            "description": "AMReX is a publicly available software framework designed for building\nmassively parallel block- structured adaptive mesh refinement (AMR)\napplications.",
+            "name": "amrex"
+        },
+        {
             "description": "Data & Vis SDK ** This package is a post-ECP port from the ECP Data &\nVis SDK **",
             "name": "dav-sdk"
         },
@@ -52,6 +56,10 @@
         {
             "description": "The SEACAS Project contains the Exodus and IOSS I/O libraries and a\ncollection of applications which create, query, modify, or translate\nExodus databases. Exodus is a finite element mesh and results database\nfile format. Default is to build the Exodus and IOSS libraries and the\nio_shell, io_info, io_modify, struc_to_unstruc apps.",
             "name": "seacas"
+        },
+        {
+            "description": "WarpX is an advanced electromagnetic Particle-In-Cell code. It supports\nmany features including Perfectly-Matched Layers (PML) and mesh\nrefinement. In addition, WarpX is a highly-parallel and highly-optimized\ncode and features hybrid GPU/OpenMP/MPI parallelization and load\nbalancing capabilities.",
+            "name": "warpx"
         }
     ],
     "description": "Catalyst is an API specification developed for simulations (and other\nscientific data producers) to analyze and visualize data in situ.\n",

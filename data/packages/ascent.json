@@ -500,6 +500,10 @@
             "name": "amr-wind"
         },
         {
+            "description": "AMReX is a publicly available software framework designed for building\nmassively parallel block- structured adaptive mesh refinement (AMR)\napplications.",
+            "name": "amrex"
+        },
+        {
             "description": "Data & Vis SDK ** This package is a post-ECP port from the ECP Data &\nVis SDK **",
             "name": "dav-sdk"
         },

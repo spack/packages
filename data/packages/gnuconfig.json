@@ -3853,6 +3853,10 @@
             "name": "rasqal"
         },
         {
+            "description": "re2c: a free and open-source lexer generator for C and C++",
+            "name": "re2c"
+        },
+        {
             "description": "The GNU Readline library provides a set of functions for use by\napplications that allow users to edit command lines as they are typed\nin. Both Emacs and vi editing modes are available. The Readline library\nincludes additional functions to maintain a list of previously-entered\ncommand lines, to recall and perhaps reedit those lines, and perform\ncsh-like history expansion on previous commands.",
             "name": "readline"
         },

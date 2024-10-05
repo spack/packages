@@ -4118,6 +4118,10 @@
             "name": "re2"
         },
         {
+            "description": "re2c: a free and open-source lexer generator for C and C++",
+            "name": "re2c"
+        },
+        {
             "description": "REcursive Computation of One-Loop Amplitudes: a fortran library for the\nperturbative computation of next-to-leading-order transition amplitudes\nin the Standard Model of particle physics.",
             "name": "recola"
         },

@@ -66,6 +66,10 @@
             "name": "lapackpp"
         },
         {
+            "description": "Catalyst is an API specification developed for simulations (and other\nscientific data producers) to analyze and visualize data in situ.",
+            "name": "libcatalyst"
+        },
+        {
             "description": "The OpenMP subproject of LLVM contains the components required to build\nan executable OpenMP program that are outside the compiler itself.",
             "name": "llvm-openmp"
         },
@@ -154,7 +158,7 @@
     ],
     "description": "WarpX is an advanced electromagnetic Particle-In-Cell code. It supports\nmany features including Perfectly-Matched Layers (PML) and mesh\nrefinement. In addition, WarpX is a highly-parallel and highly-optimized\ncode and features hybrid GPU/OpenMP/MPI parallelization and load\nbalancing capabilities.\n",
     "homepage": "https://ecp-warpx.github.io",
-    "latest_version": "24.08",
+    "latest_version": "24.10",
     "maintainers": [
         "EZoni",
         "RemiLehe",
@@ -223,6 +227,11 @@
             "name": "build_type"
         },
         {
+            "default": false,
+            "description": "Enable Catalyst2 in situ visualization",
+            "name": "catalyst"
+        },
+        {
             "default": "omp",
             "description": "On-node, accelerated computing backend",
             "name": "compute"
@@ -233,8 +242,8 @@
             "name": "dims"
         },
         {
-            "default": false,
-            "description": "Embedded boundary support (in development)",
+            "default": true,
+            "description": "Embedded boundary support",
             "name": "eb"
         },
         {
@@ -319,11 +328,15 @@
             "name": "develop"
         },
         {
-            "name": "24.08",
-            "sha256": "8da1f2967f613a65a295260260aa4f081ac1d1b7c1d6987d294e02b86099df08"
+            "name": "24.10",
+            "sha256": "1fe3a86bf820a2ecef853cdcd9427fba4e0cb1efb05326da7dc9dbf94551202f"
         }
     ],
     "versions_deprecated": [
+        {
+            "name": "24.08",
+            "sha256": "8da1f2967f613a65a295260260aa4f081ac1d1b7c1d6987d294e02b86099df08"
+        },
         {
             "name": "23.08",
             "sha256": "67695ff04b83d1823ea621c19488e54ebaf268532b0e5eb4ea8ad293d7ab3ddc"

@@ -1746,6 +1746,10 @@
         },
         {
             "default": false,
+            "package": "amrex"
+        },
+        {
+            "default": false,
             "package": "dav-sdk"
         },
         {
@@ -9551,6 +9555,10 @@
         {
             "default": "autotools",
             "package": "launchmon"
+        },
+        {
+            "default": "makefile",
+            "package": "laynii"
         },
         {
             "default": "go",
@@ -31913,7 +31921,7 @@
             "package": "re2"
         },
         {
-            "default": "generic",
+            "default": "autotools",
             "package": "re2c"
         },
         {
@@ -39606,6 +39614,10 @@
         },
         {
             "default": "Release",
+            "package": "re2c"
+        },
+        {
+            "default": "Release",
             "package": "recola"
         },
         {
@@ -41436,6 +41448,10 @@
     "catalyst": [
         {
             "default": false,
+            "package": "amrex"
+        },
+        {
+            "default": false,
             "package": "damaris"
         },
         {
@@ -41449,6 +41465,10 @@
         {
             "default": false,
             "package": "sensei"
+        },
+        {
+            "default": false,
+            "package": "warpx"
         }
     ],
     "categories": [
@@ -42352,6 +42372,10 @@
         }
     ],
     "conduit": [
+        {
+            "default": false,
+            "package": "amrex"
+        },
         {
             "default": "none",
             "package": "legion"
@@ -47931,11 +47955,11 @@
     ],
     "eb": [
         {
-            "default": false,
+            "default": true,
             "package": "amrex"
         },
         {
-            "default": false,
+            "default": true,
             "package": "warpx"
         }
     ],
@@ -54955,6 +54979,10 @@
         {
             "default": "make",
             "package": "re2"
+        },
+        {
+            "default": "make",
+            "package": "re2c"
         },
         {
             "default": "make",
@@ -63151,6 +63179,10 @@
         {
             "default": false,
             "package": "re2"
+        },
+        {
+            "default": false,
+            "package": "re2c"
         },
         {
             "default": false,
@@ -87321,6 +87353,10 @@
         {
             "default": false,
             "package": "llvm"
+        },
+        {
+            "default": true,
+            "package": "mapl"
         },
         {
             "default": true,

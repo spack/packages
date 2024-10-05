@@ -3763,7 +3763,7 @@
     ],
     "description": "ParaView is an open-source, multi-platform data analysis and\nvisualization application. This package includes the Catalyst in-situ\nlibrary for versions 5.7 and greater, otherwise use the catalyst\npackage.\n",
     "homepage": "https://www.paraview.org",
-    "latest_version": "5.13.0",
+    "latest_version": "5.13.1",
     "maintainers": [
         "danlipsa",
         "kwryankrattiger",
@@ -4092,6 +4092,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "5.13.1",
+            "sha256": "a16503ce37b999c2967d84234596e7bf67ac98221851a288bb1399c7e1dc2004"
         },
         {
             "name": "5.13.0",

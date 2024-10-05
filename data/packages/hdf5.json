@@ -889,6 +889,15 @@
         {
             "level": 1,
             "owner": "builtin.hdf5",
+            "relative_path": "find_package_zlib.patch",
+            "reverse": false,
+            "sha256": "f42732a453669334acde3e369c4be2f21537754e769e0895a0a0da246bff1cee",
+            "version": "@1.8.16:",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.hdf5",
             "relative_path": "hdf5_1_14_3_fpe.patch",
             "reverse": false,
             "sha256": "82088c8da2dcd8d138e60a1bb23f9fc203ea5f7bb40c698ca1d549b82dd40bc0",

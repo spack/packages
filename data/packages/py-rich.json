@@ -62,6 +62,10 @@
             "name": "py-colossalai"
         },
         {
+            "description": "A command-line utility that creates projects from cookiecutters (project\ntemplates). E.g. Python package projects, jQuery plugin projects.",
+            "name": "py-cookiecutter"
+        },
+        {
             "description": "A generic correction library",
             "name": "py-correctionlib"
         },

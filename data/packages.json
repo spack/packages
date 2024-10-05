@@ -6664,6 +6664,10 @@
         "name": "launchmon"
     },
     {
+        "description": "Stand alone fMRI software suite for layer-fMRI analyses.\n",
+        "name": "laynii"
+    },
+    {
         "description": "A simple terminal UI for git commands\n",
         "name": "lazygit"
     },

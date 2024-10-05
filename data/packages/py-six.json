@@ -282,6 +282,10 @@
             "name": "py-configobj"
         },
         {
+            "description": "A command-line utility that creates projects from cookiecutters (project\ntemplates). E.g. Python package projects, jQuery plugin projects.",
+            "name": "py-cookiecutter"
+        },
+        {
             "description": "cryptography is a package which provides cryptographic recipes and\nprimitives to Python developers",
             "name": "py-cryptography"
         },

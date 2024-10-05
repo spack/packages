@@ -473,7 +473,7 @@
     ],
     "description": "AMReX Python Bindings with pybind11\n",
     "homepage": "https://amrex-codes.github.io/amrex/",
-    "latest_version": "24.08",
+    "latest_version": "24.10",
     "maintainers": [
         "RTSandberg",
         "WeiqunZhang",
@@ -561,11 +561,15 @@
             "name": "develop"
         },
         {
-            "name": "24.08",
-            "sha256": "e7179d88261f64744f392a2194ff2744fe323fe0e21d0742ba60458709a1b47e"
+            "name": "24.10",
+            "sha256": "dc1752ed3fbd5113dcfdbddcfe6c3c458e572b288ac9d41ed3ed7db130591d74"
         }
     ],
     "versions_deprecated": [
+        {
+            "name": "24.08",
+            "sha256": "e7179d88261f64744f392a2194ff2744fe323fe0e21d0742ba60458709a1b47e"
+        },
         {
             "name": "24.04",
             "sha256": "ab85695bb9644b702d0fc84e77205d264d27ba94999cab912c8a3212a7eb77fc"

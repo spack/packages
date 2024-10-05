@@ -315,7 +315,7 @@
     ],
     "description": "FreeType is a freely available software library to render fonts. It is\nwritten in C, designed to be small, efficient, highly customizable, and\nportable while capable of producing high-quality output (glyph images)\nof most vector and bitmap font formats.\n",
     "homepage": "https://www.freetype.org/index.html",
-    "latest_version": "2.13.2",
+    "latest_version": "2.13.3",
     "maintainers": [
         "michaelkuhn"
     ],
@@ -365,6 +365,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.13.3",
+            "sha256": "5c3a8e78f7b24c20b25b54ee575d6daa40007a5f4eea2845861c3409b3021747"
+        },
         {
             "name": "2.13.2",
             "sha256": "1ac27e16c134a7f2ccea177faba19801131116fd682efc1f5737037c5db224b5"

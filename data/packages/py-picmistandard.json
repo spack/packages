@@ -44,7 +44,7 @@
     ],
     "description": "Standard input format for Particle-In-Cell codes\n",
     "homepage": "https://picmi-standard.github.io",
-    "latest_version": "0.29.0",
+    "latest_version": "0.30.0",
     "maintainers": [
         "RemiLehe",
         "ax3l",
@@ -64,6 +64,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "0.30.0",
+            "sha256": "28b892b242e0cc044ad987d6bdc12811fe4a478d5096d6bc5989038ee9d9dab6"
         },
         {
             "name": "0.29.0",

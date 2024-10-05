@@ -503,6 +503,16 @@
             "spec": "@:21.5"
         },
         {
+            "description": "amrex: AMReX Ascent support needs Conduit interfaces (+conduit)",
+            "name": "+ascent",
+            "spec": "~conduit"
+        },
+        {
+            "description": "amrex: AMReX Catalyst2 support needs Conduit interfaces (+conduit)",
+            "name": "+catalyst",
+            "spec": "~conduit"
+        },
+        {
             "description": "amrex: AMReX Hypre support needs variant +linear_solvers",
             "name": "+hypre",
             "spec": "~linear_solvers"
@@ -515,8 +525,16 @@
     ],
     "dependencies": [
         {
+            "description": "Ascent is an open source many-core capable lightweight in situ\nvisualization and analysis infrastructure for multi-physics HPC\nsimulations.",
+            "name": "ascent"
+        },
+        {
             "description": "A cross-platform, open-source build system. CMake is a family of tools\ndesigned to build, test and package software.",
             "name": "cmake"
+        },
+        {
+            "description": "Conduit is an open source project from Lawrence Livermore National\nLaboratory that provides an intuitive model for describing hierarchical\nscientific data in C++, C, Fortran, and Python. It is used for data\ncoupling between packages in-core, serialization, and I/O tasks.",
+            "name": "conduit"
         },
         {
             "description": "CUDA is a parallel computing platform and programming model invented by\nNVIDIA. It enables dramatic increases in computing performance by\nharnessing the power of the graphics processing unit (GPU). Note: This\npackage does not currently install the drivers necessary to run CUDA.\nThese will need to be installed manually. See:\nhttps://docs.nvidia.com/cuda/ for details.",
@@ -549,6 +567,10 @@
         {
             "description": "Intel oneAPI Math Kernel Library (Intel oneMKL; formerly Intel Math\nKernel Library or Intel MKL), is a library of optimized math routines\nfor science, engineering, and financial applications. Core math\nfunctions include BLAS, LAPACK, ScaLAPACK, sparse solvers, fast Fourier\ntransforms, and vector math. LICENSE INFORMATION: By downloading and\nusing this software, you agree to the terms and conditions of the\nsoftware license agreements at https://intel.ly/393CijO.",
             "name": "intel-oneapi-mkl"
+        },
+        {
+            "description": "Catalyst is an API specification developed for simulations (and other\nscientific data producers) to analyze and visualize data in situ.",
+            "name": "libcatalyst"
         },
         {
             "description": "Toolkit for the construction of highly optimized compilers, optimizers,\nand run-time environments.",
@@ -624,6 +646,11 @@
             "name": "amrdata"
         },
         {
+            "default": false,
+            "description": "Enable Ascent in situ visualization",
+            "name": "ascent"
+        },
+        {
             "default": "cmake",
             "description": "Build systems supported by the package",
             "name": "build_system"
@@ -632,6 +659,16 @@
             "default": "Release",
             "description": "CMake build type",
             "name": "build_type"
+        },
+        {
+            "default": false,
+            "description": "Enable Catalyst2 in situ visualization",
+            "name": "catalyst"
+        },
+        {
+            "default": false,
+            "description": "Enable Conduit for data exchange (in situ visualization)",
+            "name": "conduit"
         },
         {
             "default": false,
@@ -649,7 +686,7 @@
             "name": "dimensions"
         },
         {
-            "default": false,
+            "default": true,
             "description": "Build Embedded Boundary classes",
             "name": "eb"
         },

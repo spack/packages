@@ -1,7 +1,13 @@
 {
     "aliases": [],
     "build_system": "PythonPackage",
-    "conflicts": [],
+    "conflicts": [
+        {
+            "description": null,
+            "name": "^py-matplotlib@3.9.1",
+            "spec": ""
+        }
+    ],
     "dependencies": [
         {
             "description": "Testing coverage checker for python",
@@ -26,6 +32,10 @@
         {
             "description": "Matplotlib is a comprehensive library for creating static, animated, and\ninteractive visualizations in Python.",
             "name": "py-matplotlib"
+        },
+        {
+            "description": "NetworkX is a Python package for the creation, manipulation, and study\nof the structure, dynamics, and functions of complex networks.",
+            "name": "py-networkx"
         },
         {
             "description": "Fundamental package for array computing in Python.",
@@ -87,7 +97,7 @@
     "dependent_to": [],
     "description": "Representational Similarity Analysis (RSA) in Python.\n",
     "homepage": "https://github.com/rsagroup/rsatoolbox",
-    "latest_version": "0.1.5",
+    "latest_version": "0.2.0",
     "maintainers": [],
     "name": "py-rsatoolbox",
     "patches": [],
@@ -103,6 +113,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "0.2.0",
+            "sha256": "ecdcb50387c4b6330077ec2a3a221696078071319b8a0c32ed8128cd38da6863"
         },
         {
             "name": "0.1.5",

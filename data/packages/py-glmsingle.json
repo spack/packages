@@ -44,6 +44,10 @@
             "name": "py-numpy"
         },
         {
+            "description": "pandas is a fast, powerful, flexible and easy to use open source data\nanalysis and manipulation tool, built on top of the Python programming\nlanguage.",
+            "name": "py-pandas"
+        },
+        {
             "description": "The PyPA recommended tool for installing Python packages.",
             "name": "py-pip"
         },
@@ -99,7 +103,7 @@
     "dependent_to": [],
     "description": "A toolbox for accurate single-trial estimates in fMRI time-series data.\n",
     "homepage": "https://github.com/cvnlab/GLMsingle",
-    "latest_version": "1.1",
+    "latest_version": "1.2",
     "maintainers": [],
     "name": "py-glmsingle",
     "patches": [],
@@ -115,6 +119,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "1.2",
+            "sha256": "1826e716d29451c6f64912f180e3c5aa5b1e45957f1df75d0bce32711448cc9b"
         },
         {
             "name": "1.1",

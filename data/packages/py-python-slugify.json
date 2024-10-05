@@ -34,6 +34,10 @@
             "name": "py-agate"
         },
         {
+            "description": "A command-line utility that creates projects from cookiecutters (project\ntemplates). E.g. Python package projects, jQuery plugin projects.",
+            "name": "py-cookiecutter"
+        },
+        {
             "description": "Official API for https://www.kaggle.com, accessible using a command line\ntool implemented in Python. Beta release - Kaggle reserves the right to\nmodify the API functionality currently offered.",
             "name": "py-kaggle"
         },

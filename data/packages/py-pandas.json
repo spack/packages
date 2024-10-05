@@ -426,6 +426,10 @@
             "name": "py-geopmpy"
         },
         {
+            "description": "A toolbox for accurate single-trial estimates in fMRI time-series data.",
+            "name": "py-glmsingle"
+        },
+        {
             "description": "GluonCV provides implementations of state-of-the-art (SOTA) deep\nlearning algorithms in computer vision. It aims to help engineers,\nresearchers, and students quickly prototype products, validate new ideas\nand learn computer vision.",
             "name": "py-gluoncv"
         },

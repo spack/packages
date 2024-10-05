@@ -265,6 +265,10 @@
             "name": "py-conda-inject"
         },
         {
+            "description": "A command-line utility that creates projects from cookiecutters (project\ntemplates). E.g. Python package projects, jQuery plugin projects.",
+            "name": "py-cookiecutter"
+        },
+        {
             "description": "coveralls.io is a service for publishing your coverage stats online.",
             "name": "py-coveralls"
         },

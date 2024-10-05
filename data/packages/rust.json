@@ -165,6 +165,10 @@
             "name": "py-pydantic-core"
         },
         {
+            "description": "Python bindings to the Rust rpds crate for persistent data structures.",
+            "name": "py-rpds-py"
+        },
+        {
             "description": "A better TOML library for python implemented in rust.",
             "name": "py-rtoml"
         },

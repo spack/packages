@@ -4990,6 +4990,10 @@
             "name": "launchmon"
         },
         {
+            "description": "Stand alone fMRI software suite for layer-fMRI analyses.",
+            "name": "laynii"
+        },
+        {
             "description": "Lightweight linear algebra library based on lazy matrices",
             "name": "lazyten"
         },
