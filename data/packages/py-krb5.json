@@ -40,7 +40,7 @@
     ],
     "description": "Kerberos API bindings for Python.\n",
     "homepage": "https://github.com/jborean93/pykrb5",
-    "latest_version": "0.6.0",
+    "latest_version": "0.7.0",
     "maintainers": [
         "wdconinc"
     ],
@@ -55,6 +55,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.7.0",
+            "sha256": "6a308f2e17d151c395b24e6aec7bdff6a56fe3627a32042fc86d412398a92ddd"
+        },
         {
             "name": "0.6.0",
             "sha256": "712ba092fbe3a28ec18820bb1b1ed2cc1037b75c5c7033f970c6a8c97bbd1209"
