@@ -50,7 +50,7 @@
     ],
     "description": "GNU dbm (or GDBM, for short) is a library of database functions that use\nextensible hashing and work similar to the standard UNIX dbm. These\nroutines are provided to a programmer needing to create and manipulate a\nhashed database.\n",
     "homepage": "https://www.gnu.org.ua/software/gdbm/gdbm.html",
-    "latest_version": "1.23",
+    "latest_version": "1.24",
     "maintainers": [],
     "name": "gdbm",
     "patches": [
@@ -127,6 +127,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.24",
+            "sha256": "695e9827fdf763513f133910bc7e6cfdb9187943a4fec943e57449723d2b8dbf"
+        },
         {
             "name": "1.23",
             "sha256": "74b1081d21fff13ae4bd7c16e5d6e504a4c26f7cde1dca0d963a484174bbcacd"

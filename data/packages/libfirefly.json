@@ -19,7 +19,7 @@
     "dependent_to": [],
     "description": "A standalone C++ Library for vectors calculations\n",
     "homepage": "https://libfirefly.tbhaxor.com",
-    "latest_version": "2.1.0",
+    "latest_version": "3.0.0",
     "maintainers": [
         "tbhaxor"
     ],
@@ -57,6 +57,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "3.0.0",
+            "sha256": "af7477962bf052452f4ba906ee85d55c1bbfaad6fc8e03403ed265b264ca209a"
         },
         {
             "name": "2.1.0",
