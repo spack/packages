@@ -198,6 +198,10 @@
             "name": "lvarray"
         },
         {
+            "description": "mdb is a command line debugger aimed at parallel programs using the MPI\nprogramming paradigm.",
+            "name": "mdb"
+        },
+        {
             "description": "N2p2 (The neural network potential package) provides ready-to-use\nsoftware for high-dimensional neural network potentials in computational\nphysics and chemistry.",
             "name": "n2p2"
         },
@@ -336,6 +340,10 @@
         {
             "description": "Lightweight Sphinx theme designed to mimic the look-and-feel of an\ninteractive book.",
             "name": "py-sphinx-book-theme"
+        },
+        {
+            "description": "Sphinx plugin that allows you to automatically extract documentation\nfrom a Click-based application and include it in your docs",
+            "name": "py-sphinx-click"
         },
         {
             "description": "A small sphinx extension to add a \"copy\" button to code blocks.",

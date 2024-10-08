@@ -34,6 +34,10 @@
             "name": "libtool"
         },
         {
+            "description": "Lustre is a type of parallel distributed file system, generally used for\nlarge-scale cluster computing.",
+            "name": "lustre"
+        },
+        {
             "description": "GNU M4 is an implementation of the traditional Unix macro processor.",
             "name": "m4"
         },
@@ -93,8 +97,28 @@
         },
         {
             "default": false,
+            "description": "Write group-readable logs",
+            "name": "group_readable_logs"
+        },
+        {
+            "default": false,
             "description": "Compile with HDF5 module",
             "name": "hdf5"
+        },
+        {
+            "default": "none",
+            "description": "Path to centralized, formatted Darshan log directory",
+            "name": "log_path"
+        },
+        {
+            "default": false,
+            "description": "Compile with Lustre module",
+            "name": "lustre"
+        },
+        {
+            "default": false,
+            "description": "Use mmap to store Darshan log data",
+            "name": "mmap_logs"
         },
         {
             "default": true,
@@ -108,7 +132,7 @@
         },
         {
             "default": "NONE",
-            "description": "queue system scheduler JOB ID",
+            "description": "Queue system scheduler JOB ID",
             "name": "scheduler"
         }
     ],

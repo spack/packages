@@ -5,6 +5,10 @@
     "dependencies": [],
     "dependent_to": [
         {
+            "description": "Darshan (runtime) is a scalable HPC I/O characterization tool designed\nto capture an accurate picture of application I/O behavior, including\nproperties such as patterns of access within files, with minimum\noverhead. DarshanRuntime package should be installed on systems where\nyou intend to instrument MPI applications.",
+            "name": "darshan-runtime"
+        },
+        {
             "description": "FDB (Fields DataBase) is a domain-specific object store developed at\nECMWF for storing, indexing and retrieving GRIB data.",
             "name": "fdb"
         },

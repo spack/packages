@@ -16,6 +16,14 @@
             "name": "py-constantly"
         },
         {
+            "description": "Fancy PyPI READMEs with Hatch.",
+            "name": "py-hatch-fancy-pypi-readme"
+        },
+        {
+            "description": "Modern, extensible Python build backend.",
+            "name": "py-hatchling"
+        },
+        {
             "description": "A featureful, immutable, and correct URL for Python.",
             "name": "py-hyperlink"
         },
@@ -72,7 +80,7 @@
     ],
     "description": "An asynchronous networking framework written in Python\n",
     "homepage": "https://twistedmatrix.com/",
-    "latest_version": "21.7.0",
+    "latest_version": "24.7.0",
     "maintainers": [],
     "name": "py-twisted",
     "patches": [],
@@ -86,6 +94,16 @@
     ],
     "versions": [
         {
+            "name": "24.7.0",
+            "sha256": "5a60147f044187a127ec7da96d170d49bcce50c6fd36f594e60f4587eff4d394"
+        },
+        {
+            "name": "22.10.0",
+            "sha256": "32acbd40a94f5f46e7b42c109bfae2b302250945561783a8b7a059048f2d4d31"
+        }
+    ],
+    "versions_deprecated": [
+        {
             "name": "21.7.0",
             "sha256": "2cd652542463277378b0d349f47c62f20d9306e57d1247baabd6d1d38a109006"
         },
@@ -97,6 +115,5 @@
             "name": "15.3.0",
             "sha256": "025729751cf898842262375a40f70ae1d246daea88369eab9f6bb96e528bf285"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

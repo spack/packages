@@ -36,7 +36,7 @@
     ],
     "description": "Python Data Validation for Humans.\n",
     "homepage": "https://github.com/kvesteri/validators",
-    "latest_version": "0.20.0",
+    "latest_version": "0.34.0",
     "maintainers": [],
     "name": "py-validators",
     "patches": [],
@@ -49,6 +49,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.34.0",
+            "sha256": "647fe407b45af9a74d245b943b18e6a816acf4926974278f6dd617778e1e781f"
+        },
         {
             "name": "0.20.0",
             "sha256": "24148ce4e64100a2d5e267233e23e7afeb55316b47d30faae7eb6e7292bc226a"

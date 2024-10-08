@@ -33,7 +33,7 @@
     "dependent_to": [],
     "description": "The sysstat package contains various utilities, common to many\ncommercial Unixes, to monitor system performance and usage activity\nSysstat also contains tools you can schedule via cron or systemd to\ncollect and historize performance and activity data.\n",
     "homepage": "https://github.com/sysstat",
-    "latest_version": "12.4.5",
+    "latest_version": "12.7.6",
     "maintainers": [],
     "name": "sysstat",
     "patches": [],
@@ -47,6 +47,12 @@
     ],
     "versions": [
         {
+            "name": "12.7.6",
+            "sha256": "dc77a08871f8e8813448ea31048833d4acbab7276dd9a456cd2526c008bd5301"
+        }
+    ],
+    "versions_deprecated": [
+        {
             "name": "12.4.5",
             "sha256": "4e35abdd9eaf766ecdab55786f459093f3e1c350db23e57a15561afda417ff0d"
         },
@@ -54,6 +60,5 @@
             "name": "12.2.0",
             "sha256": "614ab9fe8e7937a3edb7b2b6760792a3764ea3a7310ac540292dd0e3dfac86a6"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

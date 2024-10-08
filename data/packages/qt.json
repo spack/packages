@@ -13,6 +13,11 @@
             "spec": ""
         },
         {
+            "description": "qt: QT cannot be built as a framework except on macOS.",
+            "name": "+framework",
+            "spec": ""
+        },
+        {
             "description": null,
             "name": "~dbus",
             "spec": "+webkit"
@@ -56,6 +61,16 @@
             "description": null,
             "name": "%oneapi",
             "spec": "@:5.15.13"
+        },
+        {
+            "description": "qt: Apple Silicon requires a very new version of qt",
+            "name": "arch=None-None-aarch64:",
+            "spec": "@:5.15.3 arch=darwin-None-None"
+        },
+        {
+            "description": "qt: QT 4 for macOS is only patched for 4.8.7",
+            "name": "@:4.8.6",
+            "spec": "arch=darwin-None-None"
         }
     ],
     "dependencies": [
@@ -268,6 +283,10 @@
         {
             "description": "The Computational Geometry Algorithms Library (CGAL) is a C++ library\nthat aims to provide easy access to efficient and reliable algorithms in\ncomputational geometry. CGAL is used in various areas needing geometric\ncomputation, such as geographic information systems, computer aided\ndesign, molecular biology, medical imaging, computer graphics, and\nrobotics.",
             "name": "cgal"
+        },
+        {
+            "description": "A cross-platform, open-source build system. CMake is a family of tools\ndesigned to build, test and package software.",
+            "name": "cmake"
         },
         {
             "description": "COOL provides specific software components and tools for the handling of\nthe time variation and versioning of the experiment conditions data.",
@@ -770,6 +789,15 @@
         {
             "level": 1,
             "owner": "builtin.qt",
+            "relative_path": "qt515_masm_python.patch",
+            "reverse": false,
+            "sha256": "7d8a94e16ff231142a04c7803dcfb8464b41e374d182f7f1458ac118de85ddcc",
+            "version": "@5.15 arch=windows-None-None",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.qt",
             "reverse": false,
             "sha256": "9378afd071ad5c0ec8f7aef48421e4b9fab02f24c856bee9c0951143941913c5",
             "url": "https://src.fedoraproject.org/rpms/qt5-qtbase/raw/6ae41be8260f0f5403367eb01f7cd8319779674a/f/qt5-qtbase-gcc11.patch",
@@ -898,7 +926,7 @@
         },
         {
             "default": false,
-            "description": "Build with OpenGL support.",
+            "description": "Build with OpenGL support",
             "name": "opengl"
         },
         {

@@ -30,6 +30,10 @@
     ],
     "dependent_to": [
         {
+            "description": "mdb is a command line debugger aimed at parallel programs using the MPI\nprogramming paradigm.",
+            "name": "mdb"
+        },
+        {
             "description": "MongoDB is a source-available cross-platform document-oriented database\nprogram. Classified as a NoSQL database program, MongoDB uses JSON-like\ndocuments with optional schemas.",
             "name": "mongodb"
         },

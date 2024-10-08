@@ -206,6 +206,10 @@
             "name": "liftoff"
         },
         {
+            "description": "mdb is a command line debugger aimed at parallel programs using the MPI\nprogramming paradigm.",
+            "name": "mdb"
+        },
+        {
             "description": "MemSurfer is a tool to compute and analyze membrane surfaces found in a\nwide variety of large-scale molecular simulations.",
             "name": "memsurfer"
         },
@@ -9338,6 +9342,10 @@
             "name": "py-sphinx-bootstrap-theme"
         },
         {
+            "description": "Sphinx plugin that allows you to automatically extract documentation\nfrom a Click-based application and include it in your docs",
+            "name": "py-sphinx-click"
+        },
+        {
             "description": "A small sphinx extension to add a \"copy\" button to code blocks.",
             "name": "py-sphinx-copybutton"
         },
@@ -9740,6 +9748,10 @@
         {
             "description": "ANSII Color formatting for output in terminal.",
             "name": "py-termcolor"
+        },
+        {
+            "description": "Command-line tool that draws basic graphs in the terminal, written in\nPython.",
+            "name": "py-termgraph"
         },
         {
             "description": "Terminals served to term.js using Tornado websockets",

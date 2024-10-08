@@ -1798,6 +1798,10 @@
             "name": "cuba"
         },
         {
+            "description": "multi-dimensional adaptive integration (cubature) in C",
+            "name": "cubature"
+        },
+        {
             "description": "Cube the profile viewer for Score-P and Scalasca profiles. It displays a\nmulti-dimensional performance space consisting of the dimensions: -\nperformance metric - call path - system resource",
             "name": "cube"
         },

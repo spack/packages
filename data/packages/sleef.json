@@ -51,7 +51,7 @@
     ],
     "description": "SIMD Library for Evaluating Elementary Functions, vectorized libm and\nDFT.\n",
     "homepage": "https://sleef.org",
-    "latest_version": "3.6.1",
+    "latest_version": "3.7.0",
     "maintainers": [
         "blapie"
     ],
@@ -84,6 +84,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "commit": "c5494730bf601599a55f4e77f357b51ba590585e",
+            "name": "3.7.0"
         },
         {
             "commit": "6ee14bcae5fe92c2ff8b000d5a01102dab08d774",

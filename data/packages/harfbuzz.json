@@ -124,7 +124,7 @@
     ],
     "description": "The Harfbuzz package contains an OpenType text shaping engine.\n",
     "homepage": "https://github.com/harfbuzz/harfbuzz",
-    "latest_version": "9.0.0",
+    "latest_version": "10.0.1",
     "maintainers": [],
     "name": "harfbuzz",
     "patches": [],
@@ -162,6 +162,14 @@
         }
     ],
     "versions": [
+        {
+            "name": "10.0.1",
+            "sha256": "b2cb13bd351904cb9038f907dc0dee0ae07127061242fe3556b2795c4e9748fc"
+        },
+        {
+            "name": "10.0.0",
+            "sha256": "c2dfe016ad833a5043ecc6579043f04e8e6d50064e02ad449bb466e6431e3e04"
+        },
         {
             "name": "9.0.0",
             "sha256": "a41b272ceeb920c57263ec851604542d9ec85ee3030506d94662067c7b6ab89e"

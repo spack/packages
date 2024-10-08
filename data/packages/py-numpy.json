@@ -3330,7 +3330,7 @@
     ],
     "description": "Fundamental package for array computing in Python.\n",
     "homepage": "https://numpy.org/",
-    "latest_version": "2.1.1",
+    "latest_version": "2.1.2",
     "maintainers": [
         "adamjstewart",
         "rgommers"
@@ -3431,6 +3431,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "2.1.2",
+            "sha256": "13532a088217fa624c99b843eeb54640de23b3414b14aa66d023805eb731066c"
         },
         {
             "name": "2.1.1",

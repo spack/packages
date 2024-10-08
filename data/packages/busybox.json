@@ -17,7 +17,7 @@
     "dependent_to": [],
     "description": "BusyBox combines tiny versions of many common UNIX utilities into a\nsingle small executable. It provides replacements for most of the\nutilities you usually find in GNU fileutils, shellutils, etc\n",
     "homepage": "https://busybox.net",
-    "latest_version": "1.36.1",
+    "latest_version": "1.37.0",
     "maintainers": [],
     "name": "busybox",
     "patches": [],
@@ -30,6 +30,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.37.0",
+            "sha256": "3311dff32e746499f4df0d5df04d7eb396382d7e108bb9250e7b519b837043a4"
+        },
         {
             "name": "1.36.1",
             "sha256": "b8cc24c9574d809e7279c3be349795c5d5ceb6fdf19ca709f80cde50e47de314"

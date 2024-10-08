@@ -194,6 +194,10 @@
             "name": "py-sphinx"
         },
         {
+            "description": "Command-line tool that draws basic graphs in the terminal, written in\nPython.",
+            "name": "py-termgraph"
+        },
+        {
             "description": "Generate simple tables in terminals from a nested list of strings.",
             "name": "py-terminaltables"
         },

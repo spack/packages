@@ -95,7 +95,7 @@
     ],
     "description": "A userspace library for accessing the DRM, direct rendering manager, on\nLinux, BSD and other systems supporting the ioctl interface.\n",
     "homepage": "https://dri.freedesktop.org/libdrm/",
-    "latest_version": "2.4.122",
+    "latest_version": "2.4.123",
     "maintainers": [
         "wdconinc"
     ],
@@ -130,6 +130,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.4.123",
+            "sha256": "a2b98567a149a74b0f50e91e825f9c0315d86e7be9b74394dae8b298caadb79e"
+        },
         {
             "name": "2.4.122",
             "sha256": "d9f5079b777dffca9300ccc56b10a93588cdfbc9dde2fae111940dfb6292f251"

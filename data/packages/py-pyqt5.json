@@ -34,6 +34,10 @@
             "name": "gnuradio"
         },
         {
+            "description": "mdb is a command line debugger aimed at parallel programs using the MPI\nprogramming paradigm.",
+            "name": "mdb"
+        },
+        {
             "description": "NumaProf is a NUMA memory access profiling tool. It is based on Intel-\nPIN to intercept all the memory access and report them on NUMA counters\nso we can tell by annotating the source code where you make local,\nremote, unpinned memory accessed. It also provide some charts to better\nunderstand the NUMA behavior of the application.",
             "name": "numaprof"
         },

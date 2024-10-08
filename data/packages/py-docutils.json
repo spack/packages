@@ -156,6 +156,10 @@
             "name": "py-sphinx"
         },
         {
+            "description": "Sphinx plugin that allows you to automatically extract documentation\nfrom a Click-based application and include it in your docs",
+            "name": "py-sphinx-click"
+        },
+        {
             "description": "Sphinx directive to add unselectable prompt.",
             "name": "py-sphinx-prompt"
         },

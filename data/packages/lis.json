@@ -25,7 +25,7 @@
     "dependent_to": [],
     "description": "Lis (Library of Iterative Solvers for linear systems, pronounced [lis])\nis a parallel software library for solving discretized linear equations\nand eigenvalue problems that arise in the numerical solution of partial\ndifferential equations using iterative methods.\n",
     "homepage": "https://www.ssisc.org/lis/index.en.html",
-    "latest_version": "2.1.4",
+    "latest_version": "2.1.6",
     "maintainers": [],
     "name": "lis",
     "patches": [],
@@ -53,6 +53,14 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.1.6",
+            "sha256": "7e2c4c5a1b96d2aa21fe799c073d7ca3cd5be79f350593d83102e37ca9780821"
+        },
+        {
+            "name": "2.1.5",
+            "sha256": "4b78335cf85c327976536b8ac584f258dc9ae085e91b5d4a40879422b3e71543"
+        },
         {
             "name": "2.1.4",
             "sha256": "d94d634db49fff2368bb615225ee4fdde919c63b7a9bc1f81f7d166a8c105f92"

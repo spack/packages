@@ -850,6 +850,10 @@
             "name": "ctre"
         },
         {
+            "description": "multi-dimensional adaptive integration (cubature) in C",
+            "name": "cubature"
+        },
+        {
             "description": "Maintained and updated fork of cuda_memtest. original homepage:\nhttp://sourceforge.net/projects/cudagpumemtest . This software tests GPU\nmemory for hardware errors and soft errors using CUDA or OpenCL.",
             "name": "cuda-memtest"
         },
@@ -3592,6 +3596,10 @@
         {
             "description": "The PCRE package contains Perl Compatible Regular Expression libraries.\nThese are useful for implementing regular expression pattern matching\nusing the same syntax and semantics as Perl 5.",
             "name": "pcre"
+        },
+        {
+            "description": "The PCRE2 package contains Perl Compatible Regular Expression libraries.\nThese are useful for implementing regular expression pattern matching\nusing the same syntax and semantics as Perl 5.",
+            "name": "pcre2"
         },
         {
             "description": "PDAL is a C++ library for translating and manipulating point cloud data.\nIt is very much like the GDAL library which handles raster and vector\ndata.",

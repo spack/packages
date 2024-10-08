@@ -11,7 +11,7 @@
     "dependent_to": [],
     "description": "Gradle is an open source build automation system that builds upon the\nconcepts of Apache Ant and Apache Maven and introduces a Groovy-based\ndomain-specific language (DSL) instead of the XML form used by Apache\nMaven for declaring the project configuration. Gradle uses a directed\nacyclic graph (\"DAG\") to determine the order in which tasks can be run.\n",
     "homepage": "https://gradle.org",
-    "latest_version": "8.9",
+    "latest_version": "8.10.2",
     "maintainers": [],
     "name": "gradle",
     "patches": [],
@@ -24,6 +24,18 @@
         }
     ],
     "versions": [
+        {
+            "name": "8.10.2",
+            "sha256": "2ab88d6de2c23e6adae7363ae6e29cbdd2a709e992929b48b6530fd0c7133bd6"
+        },
+        {
+            "name": "8.10.1",
+            "sha256": "fdfca5dbc2834f0ece5020465737538e5ba679deeff5ab6c09621d67f8bb1a15"
+        },
+        {
+            "name": "8.10",
+            "sha256": "682b4df7fe5accdca84a4d1ef6a3a6ab096b3efd5edf7de2bd8c758d95a93703"
+        },
         {
             "name": "8.9",
             "sha256": "258e722ec21e955201e31447b0aed14201765a3bfbae296a46cf60b70e66db70"

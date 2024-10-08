@@ -65,6 +65,10 @@
             "name": "python"
         },
         {
+            "description": "Qt is a comprehensive cross-platform C++ application framework.",
+            "name": "qt"
+        },
+        {
             "description": "RHash is a console utility for computing and verifying hash sums of\nfiles. It supports CRC32, MD4, MD5, SHA1, SHA256, SHA512, SHA3, Tiger,\nTTH, Torrent BTIH, AICH, ED2K, GOST R 34.11-94, RIPEMD-160, HAS-160,\nEDON-R 256/512, WHIRLPOOL and SNEFRU hash sums.",
             "name": "rhash"
         },
@@ -917,6 +921,10 @@
         {
             "description": "Compile time regular expressions for C++",
             "name": "ctre"
+        },
+        {
+            "description": "multi-dimensional adaptive integration (cubature) in C",
+            "name": "cubature"
         },
         {
             "description": "Maintained and updated fork of cuda_memtest. original homepage:\nhttp://sourceforge.net/projects/cudagpumemtest . This software tests GPU\nmemory for hardware errors and soft errors using CUDA or OpenCL.",
@@ -3619,6 +3627,10 @@
             "name": "pcre"
         },
         {
+            "description": "The PCRE2 package contains Perl Compatible Regular Expression libraries.\nThese are useful for implementing regular expression pattern matching\nusing the same syntax and semantics as Perl 5.",
+            "name": "pcre2"
+        },
+        {
             "description": "PDAL is a C++ library for translating and manipulating point cloud data.\nIt is very much like the GDAL library which handles raster and vector\ndata.",
             "name": "pdal"
         },
@@ -5671,6 +5683,11 @@
             "default": true,
             "description": "Use CMake-provided third-party libraries",
             "name": "ownlibs"
+        },
+        {
+            "default": false,
+            "description": "Enables the build of the Qt GUI",
+            "name": "qtgui"
         }
     ],
     "versions": [

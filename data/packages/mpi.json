@@ -1182,6 +1182,10 @@
             "name": "mct"
         },
         {
+            "description": "mdb is a command line debugger aimed at parallel programs using the MPI\nprogramming paradigm.",
+            "name": "mdb"
+        },
+        {
             "description": "mdtest is an MPI-coordinated metadata benchmark test that performs\nopen/stat/close operations on files and directories and then reports the\nperformance.",
             "name": "mdtest"
         },

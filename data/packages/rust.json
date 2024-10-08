@@ -3,6 +3,16 @@
     "build_system": "Package",
     "conflicts": [
         {
+            "description": "rust: Rust not compatible with Intel Classic compilers",
+            "name": "%intel",
+            "spec": ""
+        },
+        {
+            "description": "rust: Rust not compatible with Intel oneAPI compilers",
+            "name": "%oneapi",
+            "spec": ""
+        },
+        {
             "description": "rust: Host GCC version must be at least 7.4",
             "name": "%gcc@:7.3",
             "spec": "@1.73:"

@@ -48,6 +48,10 @@
             "name": "compiz"
         },
         {
+            "description": "The GTK+ package contains libraries used for creating graphical user\ninterfaces for applications.",
+            "name": "gtkplus"
+        },
+        {
             "description": "libcanberra is an implementation of the XDG Sound Theme and Name\nSpecifications, for generating event sounds on free desktops, such as\nGNOME.",
             "name": "libcanberra"
         },

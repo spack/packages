@@ -6,11 +6,6 @@
             "description": null,
             "name": "^py-cython@3:",
             "spec": "@:20.5.0"
-        },
-        {
-            "description": "py-gevent: py-gevent fails to build when using cython@3.0.10",
-            "name": "^py-cython@3.0.10",
-            "spec": "@:23.9.0"
         }
     ],
     "dependencies": [
@@ -86,6 +81,15 @@
             "reverse": false,
             "sha256": "44a3aa7ec3a9f056145c25492012f494166dee4c816a3a998a7e3b2d85b57c77",
             "version": "@:21.12.0%intel",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.py-gevent",
+            "relative_path": "cython.patch",
+            "reverse": false,
+            "sha256": "2d195343c2757f881d7360a67a80fcceb62a908a0fa08b731e9fc683504391de",
+            "version": "@:24.2.1 ^py-cython@3.0.10:3.0.11",
             "working_dir": "."
         }
     ],

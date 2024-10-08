@@ -34,6 +34,10 @@
             "name": "fish"
         },
         {
+            "description": "mdb is a command line debugger aimed at parallel programs using the MPI\nprogramming paradigm.",
+            "name": "mdb"
+        },
+        {
             "description": "A Jupyter kernel for bash.",
             "name": "py-bash-kernel"
         },
@@ -59,9 +63,11 @@
         }
     ],
     "description": "Pexpect allows easy control of interactive console applications.\n",
-    "homepage": "https://pypi.org/project/pexpect/",
-    "latest_version": "4.8.0",
-    "maintainers": [],
+    "homepage": "https://pexpect.readthedocs.io/en/stable/",
+    "latest_version": "4.9.0",
+    "maintainers": [
+        "TomMelt"
+    ],
     "name": "py-pexpect",
     "patches": [],
     "resources": [],
@@ -73,6 +79,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "4.9.0",
+            "sha256": "ee7d41123f3c9911050ea2c2dac107568dc43b2d3b0c7557a33212c398ead30f"
+        },
         {
             "name": "4.8.0",
             "sha256": "fc65a43959d153d0114afe13997d439c22823a27cefceb5ff35c2178c6784c0c"

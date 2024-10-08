@@ -34,6 +34,16 @@
         },
         {
             "description": null,
+            "name": "%clang",
+            "spec": "@:1.12.0 kernel_lib=tpetra"
+        },
+        {
+            "description": null,
+            "name": "%oneapi",
+            "spec": "@:1.12.0 kernel_lib=tpetra"
+        },
+        {
+            "description": null,
             "name": "+fortran",
             "spec": "@:1.6"
         },
@@ -138,7 +148,7 @@
     ],
     "description": "The Pipelined, Hybrid-parallel Iterative Solver Toolkit provides\nimplementations of and interfaces to block iterative solvers for sparse\nlinear and eigenvalue problems. In contrast to other libraries we\nsupport multiple backends (e.g. Trilinos, PETSc and our own optimized\nkernels), and interfaces in multiple languages such as C, C++, Fortran\n2003 and Python. PHIST has a clear focus on portability and hardware\nperformance: in particular support row-major storage of block vectors\nand using GPUs (via the ghost library or Trilinos/Tpetra).\n",
     "homepage": "https://bitbucket.org/essex/phist/",
-    "latest_version": "1.12.0",
+    "latest_version": "1.12.1",
     "maintainers": [
         "jthies"
     ],
@@ -294,6 +304,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "1.12.1",
+            "sha256": "6b8fe8a994bf6baf698aa691fc2cbecd62cc60219073e48bfe6fd954c0303b9f"
         },
         {
             "name": "1.12.0",

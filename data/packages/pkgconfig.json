@@ -474,6 +474,10 @@
             "name": "gdk-pixbuf"
         },
         {
+            "description": "A fast GPU memory copy library based on NVIDIA GPUDirect RDMA\ntechnology.",
+            "name": "gdrcopy"
+        },
+        {
             "description": "GEGL (Generic Graphics Library) is a data flow based image processing\nframework, providing floating point processing and non-destructive image\nprocessing capabilities to GNU Image Manipulation Program and other\nprojects (imgflo, GNOME Photos, iconographer, ...)",
             "name": "gegl"
         },

@@ -62,12 +62,22 @@
     ],
     "description": "libwmf is a library for reading vector images in Microsft's native\nWindows Metafile Format (WMF)\n",
     "homepage": "https://github.com/caolanm/libwmf",
-    "latest_version": "0.2.12",
+    "latest_version": "0.2.13",
     "maintainers": [
         "benkirk"
     ],
     "name": "libwmf",
-    "patches": [],
+    "patches": [
+        {
+            "level": 1,
+            "owner": "builtin.libwmf",
+            "reverse": false,
+            "sha256": "80ae84a904baa21e1566e3d2bca1c6aaa0a2a30f684fe50f25e7e5751ef3ec93",
+            "url": "https://github.com/caolanm/libwmf/commit/1f87c35bc2a36fdca760a4577761d30d9cc876e2.patch?full_index=1",
+            "version": "@:0.2.13",
+            "working_dir": "."
+        }
+    ],
     "resources": [],
     "variants": [
         {
@@ -77,6 +87,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.2.13",
+            "sha256": "18ba69febd2f515d98a2352de284a8051896062ac9728d2ead07bc39ea75a068"
+        },
         {
             "name": "0.2.12",
             "sha256": "464ff63605d7eaf61a4a12dbd420f7a41a4d854675d8caf37729f5bc744820e2"

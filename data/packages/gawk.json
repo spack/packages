@@ -95,7 +95,7 @@
     ],
     "description": "If you are like many computer users, you would frequently like to make\nchanges in various text files wherever certain patterns appear, or\nextract data from parts of certain lines while discarding the rest. To\nwrite a program to do this in a language such as C or Pascal is a time-\nconsuming inconvenience that may take many lines of code. The job is\neasy with awk, especially the GNU implementation: gawk. The awk utility\ninterprets a special-purpose programming language that makes it possible\nto handle simple data-reformatting jobs with just a few lines of code.\n",
     "homepage": "https://www.gnu.org/software/gawk/",
-    "latest_version": "5.3.0",
+    "latest_version": "5.3.1",
     "maintainers": [],
     "name": "gawk",
     "patches": [],
@@ -113,6 +113,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "5.3.1",
+            "sha256": "694db764812a6236423d4ff40ceb7b6c4c441301b72ad502bb5c27e00cd56f78"
+        },
         {
             "name": "5.3.0",
             "sha256": "ca9c16d3d11d0ff8c69d79dc0b47267e1329a69b39b799895604ed447d3ca90b"

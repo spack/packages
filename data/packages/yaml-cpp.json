@@ -164,7 +164,7 @@
     ],
     "description": "A YAML parser and emitter in C++\n",
     "homepage": "https://github.com/jbeder/yaml-cpp",
-    "latest_version": "0.7.0",
+    "latest_version": "0.8.0",
     "maintainers": [
         "eschnett"
     ],
@@ -212,6 +212,10 @@
         {
             "branch": "master",
             "name": "develop"
+        },
+        {
+            "name": "0.8.0",
+            "sha256": "fbe74bbdcee21d656715688706da3c8becfd946d92cd44705cc6098bb23b3a16"
         },
         {
             "name": "0.7.0",

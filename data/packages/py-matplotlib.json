@@ -246,6 +246,10 @@
             "name": "hybpiper"
         },
         {
+            "description": "mdb is a command line debugger aimed at parallel programs using the MPI\nprogramming paradigm.",
+            "name": "mdb"
+        },
+        {
             "description": "METplus is a verification framework that spans a wide range of temporal\n(warn-on-forecast to climate) and spatial (storm to global) scales.",
             "name": "metplus"
         },

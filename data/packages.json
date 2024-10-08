@@ -2404,6 +2404,10 @@
         "name": "cuba"
     },
     {
+        "description": "multi-dimensional adaptive integration (cubature) in C\n",
+        "name": "cubature"
+    },
+    {
         "description": "Cube the profile viewer for Score-P and Scalasca profiles. It displays a\nmulti-dimensional performance space consisting of the dimensions: -\nperformance metric - call path - system resource\n",
         "name": "cube"
     },
@@ -8642,6 +8646,10 @@
     {
         "description": "A collection of routines for classification and manipulation of particle\nphysics simulated HepMC event records.\n",
         "name": "mcutils"
+    },
+    {
+        "description": "mdb is a command line debugger aimed at parallel programs using the MPI\nprogramming paradigm.\n",
+        "name": "mdb"
     },
     {
         "description": "Extension of std::span to enable multidimensional arrays\n",
@@ -22668,6 +22676,10 @@
         "name": "py-sphinx-bootstrap-theme"
     },
     {
+        "description": "Sphinx plugin that allows you to automatically extract documentation\nfrom a Click-based application and include it in your docs\n",
+        "name": "py-sphinx-click"
+    },
+    {
         "description": "A small sphinx extension to add a \"copy\" button to code blocks.\n",
         "name": "py-sphinx-copybutton"
     },
@@ -23070,6 +23082,10 @@
     {
         "description": "ANSII Color formatting for output in terminal.\n",
         "name": "py-termcolor"
+    },
+    {
+        "description": "Command-line tool that draws basic graphs in the terminal, written in\nPython.\n",
+        "name": "py-termgraph"
     },
     {
         "description": "Terminals served to term.js using Tornado websockets\n",

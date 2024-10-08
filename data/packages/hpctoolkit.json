@@ -114,6 +114,10 @@
             "name": "gnuconfig"
         },
         {
+            "description": "Google test framework for C++. Also called gtest.",
+            "name": "googletest"
+        },
+        {
             "description": "C software library for shared library function wrapping, enables tools\nto intercept calls into shared libraries",
             "name": "gotcha"
         },

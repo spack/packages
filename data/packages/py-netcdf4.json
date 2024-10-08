@@ -40,6 +40,10 @@
             "name": "py-setuptools"
         },
         {
+            "description": "The blessed package to manage your versions by scm tags.",
+            "name": "py-setuptools-scm"
+        },
+        {
             "description": "A built-package format for Python.",
             "name": "py-wheel"
         },
@@ -124,7 +128,7 @@
     ],
     "description": "Python interface to the netCDF Library.\n",
     "homepage": "https://github.com/Unidata/netcdf4-python",
-    "latest_version": "1.6.5",
+    "latest_version": "1.7.1.post2",
     "maintainers": [
         "skosukhin"
     ],
@@ -163,6 +167,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.7.1.post2",
+            "sha256": "37d557e36654889d7020192bfb56f9d5f93894cb32997eb837ae586c538fd7b6"
+        },
         {
             "name": "1.6.5",
             "sha256": "824881d0aacfde5bd982d6adedd8574259c85553781e7b83e0ce82b890bfa0ef"

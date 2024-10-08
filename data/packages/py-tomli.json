@@ -78,6 +78,10 @@
             "name": "py-hatchling"
         },
         {
+            "description": "A small library that versions your Python projects.",
+            "name": "py-incremental"
+        },
+        {
             "description": "ipdb is the iPython debugger and has many additional features, including\na better interactive debugging experience via colorized output.",
             "name": "py-ipdb"
         },

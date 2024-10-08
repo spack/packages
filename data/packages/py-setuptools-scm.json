@@ -526,6 +526,10 @@
             "name": "py-nest-asyncio"
         },
         {
+            "description": "Python interface to the netCDF Library.",
+            "name": "py-netcdf4"
+        },
+        {
             "description": "Python library neuron morphology analysis",
             "name": "py-neurom"
         },

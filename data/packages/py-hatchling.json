@@ -346,6 +346,10 @@
             "name": "py-traitlets"
         },
         {
+            "description": "An asynchronous networking framework written in Python",
+            "name": "py-twisted"
+        },
+        {
             "description": "Unified Histogram Interface: tools to help library authors work with\nhistograms",
             "name": "py-uhi"
         },

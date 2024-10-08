@@ -6,6 +6,16 @@
             "description": null,
             "name": "arch=windows-None-None",
             "spec": "build_system=autotools"
+        },
+        {
+            "description": null,
+            "name": "arch=darwin-None-None",
+            "spec": "build_system=msbuild"
+        },
+        {
+            "description": null,
+            "name": "arch=linux-None-None",
+            "spec": "build_system=msbuild"
         }
     ],
     "dependencies": [

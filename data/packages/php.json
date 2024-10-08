@@ -18,6 +18,10 @@
             "name": "automake"
         },
         {
+            "description": "The GNU Project's Bourne Again SHell.",
+            "name": "bash"
+        },
+        {
             "description": "Bison is a general-purpose parser generator that converts an annotated\ncontext-free grammar into a deterministic LR or generalized LR (GLR)\nparser employing LALR(1) parser tables.",
             "name": "bison"
         },
@@ -28,6 +32,10 @@
         {
             "description": "The GNU config.guess and config.sub scripts versioned by timestamp.\nThis package can be used as a build dependency for autotools packages\nthat ship a tarball with outdated config.guess and config.sub files.",
             "name": "gnuconfig"
+        },
+        {
+            "description": "GNU libiconv provides an implementation of the iconv() function and the\niconv program for character set conversion.",
+            "name": "libiconv"
         },
         {
             "description": "libtool -- library building part of autotools.",
@@ -66,17 +74,26 @@
     ],
     "description": " PHP is a popular general-purpose scripting language that is especially\nsuited to web development. Fast, flexible and pragmatic, PHP powers\neverything from your blog to the most popular websites in the world.\n",
     "homepage": "https://php.net/",
-    "latest_version": "7.4.1",
+    "latest_version": "8.3.12",
     "maintainers": [],
     "name": "php",
     "patches": [
         {
             "level": 1,
             "owner": "builtin.php",
-            "relative_path": "sbang.patch",
+            "relative_path": "sbang-7.patch",
             "reverse": false,
             "sha256": "969a3f5ed8847c93142c3ffc62ebf3f56229d30e6970c1f1a9e33bdb734fa518",
-            "version": "",
+            "version": "@7",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.php",
+            "relative_path": "sbang-8.patch",
+            "reverse": false,
+            "sha256": "74aa1c2ca76e4ff3330b6f4ebca856226fc27389bbf10e201007781b660fe828",
+            "version": "@8",
             "working_dir": "."
         }
     ],
@@ -89,6 +106,16 @@
         }
     ],
     "versions": [
+        {
+            "name": "8.3.12",
+            "sha256": "d5d4e6ffc6d6b2f02a87c45741623e08045ec6509ade44a1033e0f8bbb374119"
+        },
+        {
+            "name": "7.4.33",
+            "sha256": "dfbb2111160589054768a37086bda650a0041c89878449d078684d70d6a0e411"
+        }
+    ],
+    "versions_deprecated": [
         {
             "name": "7.4.1",
             "sha256": "4d9d7c5681bec3af38a935d033657dce09a9913498f8022d7ca163a7f2f493a7"
@@ -125,6 +152,5 @@
             "name": "7.1.33",
             "sha256": "f80a795a09328a9441bae4a8a60fa0d6d43ec5adc98f5aa5f51d06f4522c07fe"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }
