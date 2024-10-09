@@ -58,6 +58,10 @@
             "name": "py-altair"
         },
         {
+            "description": "Reusable constraint types to use with typing.Annotated.",
+            "name": "py-annotated-types"
+        },
+        {
             "description": "Core (offline) functionality for the apeye library.",
             "name": "py-apeye-core"
         },
@@ -76,6 +80,10 @@
         {
             "description": "BigDFT: the python interface of BigDFT for electronic structure\ncalculation based on Daubechies wavelets.",
             "name": "py-bigdft"
+        },
+        {
+            "description": "Biotite is your Swiss army knife for bioinformatics. Whether you want to\nidentify homologous sequence regions in a protein family or you would\nlike to find disulfide bonds in a protein structure: Biotite has the\nright tool for you. This package bundles popular tasks in computational\nmolecular biology into a uniform Python library.",
+            "name": "py-biotite"
         },
         {
             "description": "Black is the uncompromising Python code formatter. By using it, you\nagree to cede control over minutiae of hand-formatting. In return, Black\ngives you speed, determinism, and freedom from pycodestyle nagging about\nformatting.",
@@ -124,6 +132,14 @@
         {
             "description": "Python library for easily interacting with trained machine learning\nmodels",
             "name": "py-gradio-client"
+        },
+        {
+            "description": "Modern, extensible Python project management",
+            "name": "py-hatch"
+        },
+        {
+            "description": "cython hooks for hatch",
+            "name": "py-hatch-cython"
         },
         {
             "description": "Fancy PyPI READMEs with Hatch.",
@@ -286,6 +302,10 @@
             "name": "py-prettytable"
         },
         {
+            "description": "Data validation and settings management using Python type hinting.",
+            "name": "py-pydantic"
+        },
+        {
             "description": "Pygments is a syntax highlighting package written in Python.",
             "name": "py-pygments"
         },
@@ -384,7 +404,7 @@
     ],
     "description": "Modern, extensible Python build backend.\n",
     "homepage": "https://hatch.pypa.io/latest/",
-    "latest_version": "1.21.0",
+    "latest_version": "1.25.0",
     "maintainers": [],
     "name": "py-hatchling",
     "patches": [],
@@ -397,6 +417,14 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.25.0",
+            "sha256": "7064631a512610b52250a4d3ff1bd81551d6d1431c4eb7b72e734df6c74f4262"
+        },
+        {
+            "name": "1.24.2",
+            "sha256": "41ddc27cdb25db9ef7b68bef075f829c84cb349aa1bff8240797d012510547b0"
+        },
         {
             "name": "1.21.0",
             "sha256": "5c086772357a50723b825fd5da5278ac7e3697cdf7797d07541a6c90b6ff754c"

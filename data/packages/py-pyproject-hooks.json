@@ -34,6 +34,10 @@
             "name": "py-build"
         },
         {
+            "description": "Modern, extensible Python project management",
+            "name": "py-hatch"
+        },
+        {
             "description": "Python dependency management and packaging made easy.",
             "name": "py-poetry"
         }

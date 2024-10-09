@@ -86,6 +86,10 @@
             "name": "py-hail"
         },
         {
+            "description": "Modern, extensible Python project management",
+            "name": "py-hatch"
+        },
+        {
             "description": "Multi-backend Keras. Keras 3 is a new multi-backend implementation of\nthe Keras API, with support for TensorFlow, JAX, and PyTorch.",
             "name": "py-keras"
         },

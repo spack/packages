@@ -558,6 +558,10 @@
     "all": [
         {
             "default": false,
+            "package": "cabana"
+        },
+        {
+            "default": false,
             "package": "h5bench"
         },
         {
@@ -3179,6 +3183,10 @@
         {
             "default": "makefile",
             "package": "alglib"
+        },
+        {
+            "default": "cmake",
+            "package": "all"
         },
         {
             "default": "autotools",
@@ -16606,6 +16614,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-annotated-types"
+        },
+        {
+            "default": "python_pip",
             "package": "py-annoy"
         },
         {
@@ -17582,6 +17594,14 @@
         },
         {
             "default": "python_pip",
+            "package": "py-biotite"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-biotraj"
+        },
+        {
+            "default": "python_pip",
             "package": "py-bitarray"
         },
         {
@@ -17631,6 +17651,10 @@
         {
             "default": "python_pip",
             "package": "py-blosc2"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-blosum"
         },
         {
             "default": "python_pip",
@@ -19038,6 +19062,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-evodiff"
+        },
+        {
+            "default": "python_pip",
             "package": "py-exarl"
         },
         {
@@ -19095,6 +19123,10 @@
         {
             "default": "python_pip",
             "package": "py-fabric3"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-fair-esm"
         },
         {
             "default": "python_pip",
@@ -20047,6 +20079,14 @@
         {
             "default": "python_pip",
             "package": "py-haphpipe"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-hatch"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-hatch-cython"
         },
         {
             "default": "python_pip",
@@ -22515,6 +22555,10 @@
         {
             "default": "python_pip",
             "package": "py-pbr"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-pdb-tools"
         },
         {
             "default": "python_pip",
@@ -25090,6 +25134,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-sequence-models"
+        },
+        {
+            "default": "python_pip",
             "package": "py-seriate"
         },
         {
@@ -26491,6 +26539,10 @@
         {
             "default": "python_pip",
             "package": "py-utils"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-uv"
         },
         {
             "default": "python_pip",
@@ -35847,6 +35899,10 @@
         {
             "default": "Release",
             "package": "alembic"
+        },
+        {
+            "default": "Release",
+            "package": "all"
         },
         {
             "default": "Release",
@@ -48533,6 +48589,12 @@
             "package": "esmf"
         }
     ],
+    "esmfold": [
+        {
+            "default": true,
+            "package": "py-fair-esm"
+        }
+    ],
     "esmumps": [
         {
             "default": false,
@@ -50284,6 +50346,10 @@
         },
         {
             "default": false,
+            "package": "all"
+        },
+        {
+            "default": false,
             "package": "amrex"
         },
         {
@@ -51247,6 +51313,10 @@
         {
             "default": "make",
             "package": "alembic"
+        },
+        {
+            "default": "make",
+            "package": "all"
         },
         {
             "default": "make",
@@ -58781,6 +58851,10 @@
             "package": "py-matplotlib"
         },
         {
+            "default": false,
+            "package": "py-torchmetrics"
+        },
+        {
             "default": true,
             "package": "w3m"
         }
@@ -59465,6 +59539,10 @@
         {
             "default": false,
             "package": "alembic"
+        },
+        {
+            "default": false,
+            "package": "all"
         },
         {
             "default": false,
@@ -66999,6 +67077,12 @@
         {
             "default": false,
             "package": "gdal"
+        }
+    ],
+    "lusol": [
+        {
+            "default": true,
+            "package": "resolve"
         }
     ],
     "lustre": [
@@ -79392,6 +79476,10 @@
         },
         {
             "default": true,
+            "package": "all"
+        },
+        {
+            "default": true,
             "package": "alquimia"
         },
         {
@@ -86286,6 +86374,10 @@
         }
     ],
     "vtk": [
+        {
+            "default": false,
+            "package": "all"
+        },
         {
             "default": true,
             "package": "dealii"

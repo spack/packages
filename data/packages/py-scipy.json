@@ -297,6 +297,10 @@
             "name": "py-biom-format"
         },
         {
+            "description": "Reading structures from trajectory files.",
+            "name": "py-biotraj"
+        },
+        {
             "description": "Blue Brain Python E-feature extraction",
             "name": "py-bluepyefe"
         },
@@ -467,6 +471,10 @@
         {
             "description": "General Equation Parser and Evaluator",
             "name": "py-equation"
+        },
+        {
+            "description": "Evolutionary Scale Modeling",
+            "name": "py-fair-esm"
         },
         {
             "description": "You can use fastai without any installation by using Google Colab. In\nfact, every page of this documentation is also available as an\ninteractive notebook - click \"Open in colab\" at the top of any page to\nopen it (be sure to change the Colab runtime to \"GPU\" to have it run\nfast!) See the fast.ai documentation on Using Colab for more\ninformation.",
@@ -1283,6 +1291,10 @@
         {
             "description": "TorchGeo: datasets, samplers, transforms, and pre-trained models for\ngeospatial data.",
             "name": "py-torchgeo"
+        },
+        {
+            "description": "Machine learning metrics for distributed, scalable PyTorch applications.",
+            "name": "py-torchmetrics"
         },
         {
             "description": "A Python Automated Machine Learning tool that optimizes machine\nlearning pipelines using genetic programming.",

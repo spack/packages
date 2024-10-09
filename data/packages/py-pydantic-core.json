@@ -32,7 +32,12 @@
             "name": "rust"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "Data validation and settings management using Python type hinting.",
+            "name": "py-pydantic"
+        }
+    ],
     "description": "Core functionality for Pydantic validation and serialization\n",
     "homepage": "https://github.com/pydantic/pydantic-core",
     "latest_version": "2.18.4",

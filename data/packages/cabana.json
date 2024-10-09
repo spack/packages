@@ -389,13 +389,18 @@
         },
         {
             "description": null,
+            "name": "+hdf5~mpi",
+            "spec": ""
+        },
+        {
+            "description": null,
             "name": "amdgpu_target=none",
             "spec": "+rocm"
         },
         {
             "description": null,
             "name": "~hdf5",
-            "spec": "@0.6.0 ^cmake@:3.26"
+            "spec": "@0.6.0: ^cmake@3.26:"
         },
         {
             "description": null,
@@ -419,6 +424,11 @@
         },
         {
             "description": null,
+            "name": "+grid",
+            "spec": "@:0.6%gcc@13:"
+        },
+        {
+            "description": null,
             "name": "+rocm",
             "spec": "amdgpu_target=none"
         },
@@ -429,6 +439,10 @@
         }
     ],
     "dependencies": [
+        {
+            "description": "A Load Balancing Library (ALL) The library aims to provide an easy way\nto include dynamic domain-based load balancing into particle based\nsimulation codes.",
+            "name": "all"
+        },
         {
             "description": "ArborX is a performance-portable library for geometric search",
             "name": "arborx"
@@ -514,7 +528,7 @@
     ],
     "description": "The Exascale Co-Design Center for Particle Applications Toolkit\n",
     "homepage": "https://github.com/ECP-copa/Cabana",
-    "latest_version": "0.6.0",
+    "latest_version": "0.7.0",
     "maintainers": [
         "junghans",
         "sslattery",
@@ -524,6 +538,11 @@
     "patches": [],
     "resources": [],
     "variants": [
+        {
+            "default": false,
+            "description": "Build with ALL support",
+            "name": "all"
+        },
         {
             "default": "none",
             "description": "AMD GPU architecture",
@@ -654,6 +673,14 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "0.7.0",
+            "sha256": "3d46532144ea9a3f36429a65cccb7562d1244f1389dd8aff0d253708d1ec9838"
+        },
+        {
+            "name": "0.6.1",
+            "sha256": "fea381069fe707921831756550a665280da59032ea7914f7ce2a01ed467198bc"
         },
         {
             "name": "0.6.0",

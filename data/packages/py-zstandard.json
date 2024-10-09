@@ -32,7 +32,12 @@
             "name": "zstd"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "Modern, extensible Python project management",
+            "name": "py-hatch"
+        }
+    ],
     "description": "Python bindings to the Zstandard (zstd) compression library.\n",
     "homepage": "https://github.com/indygreg/python-zstandard",
     "latest_version": "0.22.0",

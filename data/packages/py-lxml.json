@@ -122,6 +122,10 @@
             "name": "py-openmc"
         },
         {
+            "description": "OWSLib is a Python package for client programming with Open Geospatial\nConsortium (OGC) web service (hence OWS) interface standards, and their\nrelated content models.",
+            "name": "py-owslib"
+        },
+        {
             "description": "Up-to-date remote data access for pandas. Works for multiple versions of\npandas",
             "name": "py-pandas-datareader"
         },

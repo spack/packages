@@ -158,6 +158,14 @@
             "name": "py-biom-format"
         },
         {
+            "description": "Biotite is your Swiss army knife for bioinformatics. Whether you want to\nidentify homologous sequence regions in a protein family or you would\nlike to find disulfide bonds in a protein structure: Biotite has the\nright tool for you. This package bundles popular tasks in computational\nmolecular biology into a uniform Python library.",
+            "name": "py-biotite"
+        },
+        {
+            "description": "Reading structures from trajectory files.",
+            "name": "py-biotraj"
+        },
+        {
             "description": "Filter for improving compression of typed binary data.",
             "name": "py-bitshuffle"
         },
@@ -360,6 +368,10 @@
         {
             "description": "The h5py package provides both a high- and low-level interface to the\nHDF5 library from Python.",
             "name": "py-h5py"
+        },
+        {
+            "description": "cython hooks for hatch",
+            "name": "py-hatch-cython"
         },
         {
             "description": "HDBSCAN - Hierarchical Density-Based Spatial Clustering of Applications\nwith Noise. Performs DBSCAN over varying epsilon values and integrates\nthe result to find a clustering that gives the best stability over\nepsilon. This allows HDBSCAN to find clusters of varying densities\n(unlike DBSCAN), and be more robust to parameter selection. In practice\nthis means that HDBSCAN returns a good clustering straight away with\nlittle or no parameter tuning -- and the primary parameter, minimum\ncluster size, is intuitive and easy to select. HDBSCAN is ideal for\nexploratory data analysis; it's a fast and robust algorithm that you can\ntrust to return meaningful clusters (if there are any).",

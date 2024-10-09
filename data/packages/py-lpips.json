@@ -44,7 +44,12 @@
             "name": "python-venv"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "Machine learning metrics for distributed, scalable PyTorch applications.",
+            "name": "py-torchmetrics"
+        }
+    ],
     "description": "LPIPS Similarity metric\n",
     "homepage": "https://github.com/richzhang/PerceptualSimilarity",
     "latest_version": "0.1.4",

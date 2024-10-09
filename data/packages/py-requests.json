@@ -174,6 +174,10 @@
             "name": "py-biomine"
         },
         {
+            "description": "Biotite is your Swiss army knife for bioinformatics. Whether you want to\nidentify homologous sequence regions in a protein family or you would\nlike to find disulfide bonds in a protein structure: Biotite has the\nright tool for you. This package bundles popular tasks in computational\nmolecular biology into a uniform Python library.",
+            "name": "py-biotite"
+        },
+        {
             "description": "Statistical and novel interactive HTML plots for Python",
             "name": "py-bokeh"
         },
@@ -280,6 +284,10 @@
         {
             "description": "A lightweight python client to communicate with the etelemetry server",
             "name": "py-etelemetry"
+        },
+        {
+            "description": "Python package for generation of protein sequences and evolutionary\nalignments via discrete diffusion models",
+            "name": "py-evodiff"
         },
         {
             "description": "You can use fastai without any installation by using Google Colab. In\nfact, every page of this documentation is also available as an\ninteractive notebook - click \"Open in colab\" at the top of any page to\nopen it (be sure to change the Colab runtime to \"GPU\" to have it run\nfast!) See the fast.ai documentation on Using Colab for more\ninformation.",

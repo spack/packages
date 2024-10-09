@@ -58,6 +58,10 @@
             "name": "py-anndata"
         },
         {
+            "description": "Reusable constraint types to use with typing.Annotated.",
+            "name": "py-annotated-types"
+        },
+        {
             "description": "High level compatibility layer for multiple asynchronous event loop\nimplementations.",
             "name": "py-anyio"
         },
@@ -260,6 +264,10 @@
         {
             "description": "Cloud-native genomic dataframes and batch computing (Python API)",
             "name": "py-hail"
+        },
+        {
+            "description": "cython hooks for hatch",
+            "name": "py-hatch-cython"
         },
         {
             "description": "Fancy PyPI READMEs with Hatch.",

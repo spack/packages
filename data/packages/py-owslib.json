@@ -4,6 +4,10 @@
     "conflicts": [],
     "dependencies": [
         {
+            "description": "lxml is the most feature-rich and easy-to-use library for processing XML\nand HTML in the Python language.",
+            "name": "py-lxml"
+        },
+        {
             "description": "The PyPA recommended tool for installing Python packages.",
             "name": "py-pip"
         },
@@ -56,7 +60,7 @@
     ],
     "description": "OWSLib is a Python package for client programming with Open Geospatial\nConsortium (OGC) web service (hence OWS) interface standards, and their\nrelated content models.\n",
     "homepage": "http://http://geopython.github.io/OWSLib/#installation",
-    "latest_version": "0.25.0",
+    "latest_version": "0.31.0",
     "maintainers": [],
     "name": "py-owslib",
     "patches": [],
@@ -69,6 +73,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.31.0",
+            "sha256": "2ed6540087445cc57d905138a590b6ae58624ec7661b5c1682ed4e3303bcd150"
+        },
         {
             "name": "0.25.0",
             "sha256": "20d79bce0be10277caa36f3134826bd0065325df0301a55b2c8b1c338d8d8f0a"

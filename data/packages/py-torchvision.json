@@ -189,6 +189,10 @@
             "name": "py-torchmeta"
         },
         {
+            "description": "Machine learning metrics for distributed, scalable PyTorch applications.",
+            "name": "py-torchmetrics"
+        },
+        {
             "description": "A library for accelerating Transformer models on NVIDIA GPUs, including\nfp8 precision on Hopper GPUs.",
             "name": "py-transformer-engine"
         },

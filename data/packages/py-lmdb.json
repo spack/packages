@@ -30,6 +30,10 @@
     ],
     "dependent_to": [
         {
+            "description": "Python package for generation of protein sequences and evolutionary\nalignments via discrete diffusion models",
+            "name": "py-evodiff"
+        },
+        {
             "description": "Reference implementation for the MLPerf HPC OpenCatalyst DimeNet++\nbenchmark",
             "name": "py-ocp-models"
         }

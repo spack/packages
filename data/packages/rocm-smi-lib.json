@@ -58,6 +58,10 @@
             "name": "rdc"
         },
         {
+            "description": "Radeon Open Compute BLAS library",
+            "name": "rocblas"
+        },
+        {
             "description": "Radeon Open Compute Tensile library",
             "name": "rocm-tensile"
         },

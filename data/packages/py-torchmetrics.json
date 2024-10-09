@@ -8,6 +8,10 @@
             "name": "py-lightning-utilities"
         },
         {
+            "description": "LPIPS Similarity metric",
+            "name": "py-lpips"
+        },
+        {
             "description": "Fundamental package for array computing in Python.",
             "name": "py-numpy"
         },
@@ -28,12 +32,24 @@
             "name": "py-pydeprecate"
         },
         {
+            "description": "Fundamental algorithms for scientific computing in Python.",
+            "name": "py-scipy"
+        },
+        {
             "description": "A Python utility that aids in the process of downloading, building,\nupgrading, installing, and uninstalling Python packages.",
             "name": "py-setuptools"
         },
         {
             "description": "Tensors and Dynamic neural networks in Python with strong GPU\nacceleration.",
             "name": "py-torch"
+        },
+        {
+            "description": "High-fidelity performance metrics for generative models in PyTorch",
+            "name": "py-torch-fidelity"
+        },
+        {
+            "description": "Image and video datasets and models for torch deep learning.",
+            "name": "py-torchvision"
         },
         {
             "description": "The typing_extensions module contains both backports of these changes as\nwell as experimental types that will eventually be added to the typing\nmodule, such as Protocol (see PEP 544 for details about protocols and\nstatic duck typing).",
@@ -80,6 +96,11 @@
             "default": "python_pip",
             "description": "Build systems supported by the package",
             "name": "build_system"
+        },
+        {
+            "default": false,
+            "description": "image support",
+            "name": "image"
         }
     ],
     "versions": [
@@ -98,10 +119,6 @@
         {
             "name": "1.3.1",
             "sha256": "8d371f7597a1a5eb02d5f2ed59642d6fef09093926997ce91e18b1147cc8defa"
-        },
-        {
-            "name": "1.3.0",
-            "sha256": "e8ac3adcc61e7a847d0504b0a0e0a3b7f57796178b239c6fafb5d20c0c9460ac"
         },
         {
             "name": "1.2.1",
@@ -196,5 +213,10 @@
             "sha256": "481a28759acd2d77cc088acba6bc7dc4a356c7cb767da2e1495e91e612e2d548"
         }
     ],
-    "versions_deprecated": []
+    "versions_deprecated": [
+        {
+            "name": "1.3.0",
+            "sha256": "e8ac3adcc61e7a847d0504b0a0e0a3b7f57796178b239c6fafb5d20c0c9460ac"
+        }
+    ]
 }

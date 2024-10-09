@@ -1398,6 +1398,10 @@
             "name": "py-biopython"
         },
         {
+            "description": "Reading structures from trajectory files.",
+            "name": "py-biotraj"
+        },
+        {
             "description": "Efficient array of booleans - C extension",
             "name": "py-bitarray"
         },
@@ -1448,6 +1452,10 @@
         {
             "description": "Python wrapper for the C-Blosc2 library.",
             "name": "py-blosc2"
+        },
+        {
+            "description": "The BLOcks SUbstitution Matrices (BLOSUM) are used to score alignments\nbetween protein sequences and are therefore mainly used in\nbioinformatics.",
+            "name": "py-blosum"
         },
         {
             "description": "Blue Brain Python E-feature extraction",
@@ -2738,6 +2746,10 @@
             "name": "py-eventlet"
         },
         {
+            "description": "Python package for generation of protein sequences and evolutionary\nalignments via discrete diffusion models",
+            "name": "py-evodiff"
+        },
+        {
             "description": "A scalable software framework for reinforcement learning environments\nand agents/policies used for the Design and Control applications",
             "name": "py-exarl"
         },
@@ -2788,6 +2800,10 @@
         {
             "description": "Fabric is a simple, Pythonic tool for remote execution and deployment\n(py2.7/py3.4+ compatible fork).",
             "name": "py-fabric3"
+        },
+        {
+            "description": "Evolutionary Scale Modeling",
+            "name": "py-fair-esm"
         },
         {
             "description": "FairScale is a PyTorch extension library for high performance and large\nscale training. This library extends basic PyTorch capabilities while\nadding new SOTA scaling techniques.",
@@ -3608,6 +3624,10 @@
         {
             "description": "HAplotype and PHylodynamics pipeline for viral assembly, population\ngenetics, and phylodynamics.",
             "name": "py-haphpipe"
+        },
+        {
+            "description": "cython hooks for hatch",
+            "name": "py-hatch-cython"
         },
         {
             "description": "Hatchet is a performance tool for analyzing hierarchical performance\ndata using a graph-indexed Pandas dataframe.",
@@ -5892,6 +5912,10 @@
         {
             "description": "PBR is a library that injects some useful and sensible default behaviors\ninto your setuptools run.",
             "name": "py-pbr"
+        },
+        {
+            "description": "A swiss army knife for manipulating and editing PDB files.",
+            "name": "py-pdb-tools"
         },
         {
             "description": "PDBFixer is an easy to use application for fixing problems in Protein\nData Bank files in preparation for simulating them.",
@@ -8254,6 +8278,10 @@
             "name": "py-seqeval"
         },
         {
+            "description": "Pytorch modules and utilities for modeling biological sequence data.",
+            "name": "py-sequence-models"
+        },
+        {
             "description": "This is a Python implementation of Seriation algorithm. Seriation is an\napproach for ordering elements in a set so that the sum of the\nsequential pairwise distances is minimal. We state this task as a\nTravelling Salesman Problem (TSP) and leverage the powerful Google's or-\ntools to do heavy-lifting. Since TSP is NP-hard, it is not possible to\ncalculate the precise solution for a big number of elements. However,\nthe or-tools' heuristics work very well in practice, and they are used\nin e.g. Google Maps.",
             "name": "py-seriate"
         },
@@ -9432,6 +9460,10 @@
         {
             "description": "US state meta information and other fun stuff.",
             "name": "py-us"
+        },
+        {
+            "description": "Cross-platform tool for adding locations to the user PATH.",
+            "name": "py-userpath"
         },
         {
             "description": "Client library for interfacing with USGS datasets",

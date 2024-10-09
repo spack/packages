@@ -42,6 +42,10 @@
             "name": "py-earth2mip"
         },
         {
+            "description": "Evolutionary Scale Modeling",
+            "name": "py-fair-esm"
+        },
+        {
             "description": "Optimizing Protein Structure Prediction Model Training and Inference on\nGPU Clusters.",
             "name": "py-fastfold"
         },

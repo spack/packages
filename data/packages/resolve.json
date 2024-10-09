@@ -484,6 +484,11 @@
             "name": "klu"
         },
         {
+            "default": true,
+            "description": "Build the LUSOL Library. Requires fortran",
+            "name": "lusol"
+        },
+        {
             "default": false,
             "description": "Enable ROCm support",
             "name": "rocm"

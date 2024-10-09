@@ -190,6 +190,10 @@
             "name": "py-gravity"
         },
         {
+            "description": "Modern, extensible Python project management",
+            "name": "py-hatch"
+        },
+        {
             "description": "Validation schema and code for HEPdata submissions.",
             "name": "py-hepdata-validator"
         },

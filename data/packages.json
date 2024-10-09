@@ -204,6 +204,10 @@
         "name": "alglib"
     },
     {
+        "description": "A Load Balancing Library (ALL) The library aims to provide an easy way\nto include dynamic domain-based load balancing into particle based\nsimulation codes.\n",
+        "name": "all"
+    },
+    {
         "description": "ALLPATHS-LG is our original short read assembler and it works on both\nsmall and large (mammalian size) genomes.\n",
         "name": "allpaths-lg"
     },
@@ -13768,6 +13772,10 @@
         "name": "py-annexremote"
     },
     {
+        "description": "Reusable constraint types to use with typing.Annotated.\n",
+        "name": "py-annotated-types"
+    },
+    {
         "description": "Annoy (Approximate Nearest Neighbors Oh Yeah) is a C++ library with\nPython bindings to search for points in space that are close to a given\nquery point. It also creates large read-only file-based data structures\nthat are mmapped into memory so that many processes may share the same\ndata.\n",
         "name": "py-annoy"
     },
@@ -14744,6 +14752,14 @@
         "name": "py-biopython"
     },
     {
+        "description": "Biotite is your Swiss army knife for bioinformatics. Whether you want to\nidentify homologous sequence regions in a protein family or you would\nlike to find disulfide bonds in a protein structure: Biotite has the\nright tool for you. This package bundles popular tasks in computational\nmolecular biology into a uniform Python library.\n",
+        "name": "py-biotite"
+    },
+    {
+        "description": "Reading structures from trajectory files.\n",
+        "name": "py-biotraj"
+    },
+    {
         "description": "Efficient array of booleans - C extension\n",
         "name": "py-bitarray"
     },
@@ -14794,6 +14810,10 @@
     {
         "description": "Python wrapper for the C-Blosc2 library.\n",
         "name": "py-blosc2"
+    },
+    {
+        "description": "The BLOcks SUbstitution Matrices (BLOSUM) are used to score alignments\nbetween protein sequences and are therefore mainly used in\nbioinformatics.\n",
+        "name": "py-blosum"
     },
     {
         "description": "Blue Brain Python E-feature extraction\n",
@@ -16200,6 +16220,10 @@
         "name": "py-eventlet"
     },
     {
+        "description": "Python package for generation of protein sequences and evolutionary\nalignments via discrete diffusion models\n",
+        "name": "py-evodiff"
+    },
+    {
         "description": "A scalable software framework for reinforcement learning environments\nand agents/policies used for the Design and Control applications\n",
         "name": "py-exarl"
     },
@@ -16258,6 +16282,10 @@
     {
         "description": "Fabric is a simple, Pythonic tool for remote execution and deployment\n(py2.7/py3.4+ compatible fork).\n",
         "name": "py-fabric3"
+    },
+    {
+        "description": "Evolutionary Scale Modeling\n",
+        "name": "py-fair-esm"
     },
     {
         "description": "FairScale is a PyTorch extension library for high performance and large\nscale training. This library extends basic PyTorch capabilities while\nadding new SOTA scaling techniques.\n",
@@ -17210,6 +17238,14 @@
     {
         "description": "HAplotype and PHylodynamics pipeline for viral assembly, population\ngenetics, and phylodynamics.\n",
         "name": "py-haphpipe"
+    },
+    {
+        "description": "Modern, extensible Python project management\n",
+        "name": "py-hatch"
+    },
+    {
+        "description": "cython hooks for hatch\n",
+        "name": "py-hatch-cython"
     },
     {
         "description": "Fancy PyPI READMEs with Hatch.\n",
@@ -19678,6 +19714,10 @@
     {
         "description": "PBR is a library that injects some useful and sensible default behaviors\ninto your setuptools run.\n",
         "name": "py-pbr"
+    },
+    {
+        "description": "A swiss army knife for manipulating and editing PDB files.\n",
+        "name": "py-pdb-tools"
     },
     {
         "description": "PDBFixer is an easy to use application for fixing problems in Protein\nData Bank files in preparation for simulating them.\n",
@@ -22252,6 +22292,10 @@
         "name": "py-seqeval"
     },
     {
+        "description": "Pytorch modules and utilities for modeling biological sequence data.\n",
+        "name": "py-sequence-models"
+    },
+    {
         "description": "This is a Python implementation of Seriation algorithm. Seriation is an\napproach for ordering elements in a set so that the sum of the\nsequential pairwise distances is minimal. We state this task as a\nTravelling Salesman Problem (TSP) and leverage the powerful Google's or-\ntools to do heavy-lifting. Since TSP is NP-hard, it is not possible to\ncalculate the precise solution for a big number of elements. However,\nthe or-tools' heuristics work very well in practice, and they are used\nin e.g. Google Maps.\n",
         "name": "py-seriate"
     },
@@ -23654,6 +23698,10 @@
     {
         "description": "Useful, oft-repeated things for Python\n",
         "name": "py-utils"
+    },
+    {
+        "description": "An extremely fast Python package and project manager, written in Rust.\n",
+        "name": "py-uv"
     },
     {
         "description": "The lightning-fast ASGI server.\n",

@@ -62,6 +62,10 @@
             "name": "py-datalad"
         },
         {
+            "description": "Modern, extensible Python project management",
+            "name": "py-hatch"
+        },
+        {
             "description": "Rose, a framework for meteorological suites.",
             "name": "py-metomi-rose"
         },

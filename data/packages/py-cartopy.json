@@ -120,7 +120,7 @@
     ],
     "description": "Cartopy - a cartographic python library with matplotlib support.\n",
     "homepage": "https://scitools.org.uk/cartopy/docs/latest/",
-    "latest_version": "0.23.0",
+    "latest_version": "0.24.0",
     "maintainers": [
         "adamjstewart"
     ],
@@ -160,6 +160,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.24.0",
+            "sha256": "e044e0e0fa76bb7afde937bec541743dcbf6b6f23b933a21ebddcd20cfffb755"
+        },
         {
             "name": "0.23.0",
             "sha256": "231f37b35701f2ba31d94959cca75e6da04c2eea3a7f14ce1c75ee3b0eae7676"

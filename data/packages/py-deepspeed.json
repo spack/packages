@@ -60,7 +60,12 @@
             "name": "python-venv"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "Evolutionary Scale Modeling",
+            "name": "py-fair-esm"
+        }
+    ],
     "description": "DeepSpeed library. DeepSpeed enables world's most powerful language\nmodels like MT-530B and BLOOM. It is an easy-to-use deep learning\noptimization software suite that powers unprecedented scale and speed\nfor both training and inference.\n",
     "homepage": "http://deepspeed.ai/",
     "latest_version": "0.10.0",

@@ -42,6 +42,10 @@
     ],
     "dependent_to": [
         {
+            "description": "Evolutionary Scale Modeling",
+            "name": "py-fair-esm"
+        },
+        {
             "description": "A framework for elegantly configuring complex applications.",
             "name": "py-hydra-core"
         },

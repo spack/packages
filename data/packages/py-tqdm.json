@@ -142,6 +142,10 @@
             "name": "py-elephant"
         },
         {
+            "description": "Python package for generation of protein sequences and evolutionary\nalignments via discrete diffusion models",
+            "name": "py-evodiff"
+        },
+        {
             "description": "FireWorks stores, executes, and manages calculation workflows.",
             "name": "py-fireworks"
         },

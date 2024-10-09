@@ -199,6 +199,10 @@
             "name": "py-tokenizers"
         },
         {
+            "description": "An extremely fast Python package and project manager, written in Rust.",
+            "name": "py-uv"
+        },
+        {
             "description": "ripgrep is a line-oriented search tool that recursively searches your\ncurrent directory for a regex pattern. ripgrep is similar to other\npopular search tools like The Silver Searcher, ack and grep.",
             "name": "ripgrep"
         },

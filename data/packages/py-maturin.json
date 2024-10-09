@@ -90,6 +90,10 @@
             "name": "py-tokenizers"
         },
         {
+            "description": "An extremely fast Python package and project manager, written in Rust.",
+            "name": "py-uv"
+        },
+        {
             "description": "Convert Vega-Lite chart specifications to SVG, PNG, PDF, or Vega",
             "name": "py-vl-convert-python"
         },

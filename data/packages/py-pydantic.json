@@ -4,8 +4,24 @@
     "conflicts": [],
     "dependencies": [
         {
+            "description": "Reusable constraint types to use with typing.Annotated.",
+            "name": "py-annotated-types"
+        },
+        {
+            "description": "Fancy PyPI READMEs with Hatch.",
+            "name": "py-hatch-fancy-pypi-readme"
+        },
+        {
+            "description": "Modern, extensible Python build backend.",
+            "name": "py-hatchling"
+        },
+        {
             "description": "The PyPA recommended tool for installing Python packages.",
             "name": "py-pip"
+        },
+        {
+            "description": "Core functionality for Pydantic validation and serialization",
+            "name": "py-pydantic-core"
         },
         {
             "description": "Read key-value pairs from a .env file and set them as environment\nvariables",
@@ -144,7 +160,7 @@
     ],
     "description": "Data validation and settings management using Python type hinting.\n",
     "homepage": "https://github.com/samuelcolvin/pydantic",
-    "latest_version": "1.10.9",
+    "latest_version": "2.7.4",
     "maintainers": [],
     "name": "py-pydantic",
     "patches": [],
@@ -162,6 +178,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.7.4",
+            "sha256": "0c84efd9548d545f63ac0060c1e4d39bb9b14db8b3c0652338aecc07b5adec52"
+        },
         {
             "name": "1.10.9",
             "sha256": "95c70da2cd3b6ddf3b9645ecaa8d98f3d80c606624b6d245558d202cd23ea3be"

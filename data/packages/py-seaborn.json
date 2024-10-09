@@ -74,6 +74,10 @@
             "name": "py-drep"
         },
         {
+            "description": "Python package for generation of protein sequences and evolutionary\nalignments via discrete diffusion models",
+            "name": "py-evodiff"
+        },
+        {
             "description": "A scalable software framework for reinforcement learning environments\nand agents/policies used for the Design and Control applications",
             "name": "py-exarl"
         },

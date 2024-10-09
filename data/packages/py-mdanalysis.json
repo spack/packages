@@ -126,6 +126,10 @@
     ],
     "dependent_to": [
         {
+            "description": "Python package for generation of protein sequences and evolutionary\nalignments via discrete diffusion models",
+            "name": "py-evodiff"
+        },
+        {
             "description": "Test suite for MDAnalysis",
             "name": "py-mdanalysistests"
         }

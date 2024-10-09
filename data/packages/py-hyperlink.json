@@ -30,6 +30,10 @@
     ],
     "dependent_to": [
         {
+            "description": "Modern, extensible Python project management",
+            "name": "py-hatch"
+        },
+        {
             "description": "An asynchronous networking framework written in Python",
             "name": "py-twisted"
         }

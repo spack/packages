@@ -48,7 +48,12 @@
             "name": "python-venv"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "Machine learning metrics for distributed, scalable PyTorch applications.",
+            "name": "py-torchmetrics"
+        }
+    ],
     "description": "High-fidelity performance metrics for generative models in PyTorch\n",
     "homepage": "https://www.github.com/toshas/torch-fidelity",
     "latest_version": "0.3.0",

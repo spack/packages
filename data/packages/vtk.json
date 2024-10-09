@@ -179,6 +179,10 @@
     ],
     "dependent_to": [
         {
+            "description": "A Load Balancing Library (ALL) The library aims to provide an easy way\nto include dynamic domain-based load balancing into particle based\nsimulation codes.",
+            "name": "all"
+        },
+        {
             "description": "C++ software library providing well-documented tools to build finite\nelement codes for a broad variety of PDEs.",
             "name": "dealii"
         },
