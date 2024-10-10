@@ -99,6 +99,10 @@
     ],
     "dependent_to": [
         {
+            "description": "Combined array and automatic differentiation library in C++.",
+            "name": "adept"
+        },
+        {
             "description": "Library for automatic acceleration of array operations",
             "name": "bohrium"
         },

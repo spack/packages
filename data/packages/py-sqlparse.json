@@ -4,6 +4,10 @@
     "conflicts": [],
     "dependencies": [
         {
+            "description": "Modern, extensible Python build backend.",
+            "name": "py-hatchling"
+        },
+        {
             "description": "The PyPA recommended tool for installing Python packages.",
             "name": "py-pip"
         },
@@ -40,7 +44,7 @@
     ],
     "description": "A non-validating SQL parser module for Python.\n",
     "homepage": "https://github.com/andialbrecht/sqlparse",
-    "latest_version": "0.4.1",
+    "latest_version": "0.5.1",
     "maintainers": [],
     "name": "py-sqlparse",
     "patches": [],
@@ -53,6 +57,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.5.1",
+            "sha256": "a9f1a42ca749a019aa98d996b58e917f4c9e1b9ff164610355f35248733767bb"
+        },
         {
             "name": "0.4.1",
             "sha256": "f75cdec98a4cc8296890279d744e1ae8618bb14dbad77e3d0637f0d7bb5d6535"

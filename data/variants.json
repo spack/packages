@@ -2497,6 +2497,10 @@
     ],
     "blas": [
         {
+            "default": false,
+            "package": "adept"
+        },
+        {
             "default": true,
             "package": "amdblis"
         },
@@ -3091,6 +3095,10 @@
         {
             "default": "autotools",
             "package": "addrwatch"
+        },
+        {
+            "default": "autotools",
+            "package": "adept"
         },
         {
             "default": "cmake",
@@ -65332,6 +65340,10 @@
         }
     ],
     "lapack": [
+        {
+            "default": false,
+            "package": "adept"
+        },
         {
             "default": true,
             "package": "blaze"

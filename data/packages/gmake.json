@@ -94,6 +94,10 @@
             "name": "addrwatch"
         },
         {
+            "description": "Combined array and automatic differentiation library in C++.",
+            "name": "adept"
+        },
+        {
             "description": "Utility libraries for LLNL performance tools.",
             "name": "adept-utils"
         },
