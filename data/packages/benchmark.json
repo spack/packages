@@ -34,6 +34,10 @@
             "name": "re2"
         },
         {
+            "description": "SOPT is an open-source C++ package available under the license below. It\nperforms Sparse OPTimisation using state-of-the-art convex optimisation\nalgorithms. It solves a variety of sparse regularisation problems,\nincluding the Sparsity Averaging Reweighted Analysis (SARA) algorithm.",
+            "name": "sopt"
+        },
+        {
             "description": "STochastic Engine for Pathway Simulation",
             "name": "steps"
         }

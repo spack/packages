@@ -34,7 +34,12 @@
             "name": "python"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "QEMU is a generic and open source machine emulator and virtualizer.",
+            "name": "qemu"
+        }
+    ],
     "description": "Device Tree Compiler (dtc) toolchain for working with device tree source\nand binary files and also libfdt, a utility library for reading and\nmanipulating the binary format.\n",
     "homepage": "https://github.com/dgibson/dtc",
     "latest_version": "1.6.1",

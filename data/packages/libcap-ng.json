@@ -50,7 +50,12 @@
             "name": "swig"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "QEMU is a generic and open source machine emulator and virtualizer.",
+            "name": "qemu"
+        }
+    ],
     "description": "Libcap-ng is a library that makes using posix capabilities easier\n",
     "homepage": "https://github.com/stevegrubb/libcap-ng/",
     "latest_version": "0.8.3",

@@ -3248,6 +3248,10 @@
             "name": "steps"
         },
         {
+            "description": "SU2 is a suite of open-source software tools written in C++ for the\nnumerical solution of partial differential equations (PDE) and\nperforming PDE constrained optimization.",
+            "name": "su2"
+        },
+        {
             "description": "Error-bounded Lossy Compressor for HPC Data",
             "name": "sz"
         },

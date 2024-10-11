@@ -24,6 +24,16 @@
         {
             "description": null,
             "name": "pmi_version=pmi2",
+            "spec": "process_managers=hydra"
+        },
+        {
+            "description": null,
+            "name": "pmi_version=pmix",
+            "spec": "process_managers=hydra"
+        },
+        {
+            "description": null,
+            "name": "pmi_version=pmi2",
             "spec": "process_managers=slurm"
         }
     ],

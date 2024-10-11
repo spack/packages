@@ -280,6 +280,10 @@
             "name": "python"
         },
         {
+            "description": "QEMU is a generic and open source machine emulator and virtualizer.",
+            "name": "qemu"
+        },
+        {
             "description": "R is 'GNU S', a freely available language and environment for\nstatistical computing and graphics which provides a wide variety of\nstatistical and graphical techniques: linear and nonlinear modelling,\nstatistical tests, time series analysis, classification, clustering,\netc. Please consult the R project homepage for further information.",
             "name": "r"
         },

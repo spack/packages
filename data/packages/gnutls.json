@@ -107,6 +107,10 @@
             "name": "openldap"
         },
         {
+            "description": "QEMU is a generic and open source machine emulator and virtualizer.",
+            "name": "qemu"
+        },
+        {
             "description": "QPDF is a command-line tool and C++ library that performs content-\npreserving transformations on PDF files.",
             "name": "qpdf"
         },

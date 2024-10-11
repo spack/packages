@@ -210,6 +210,10 @@
             "name": "py-scipy"
         },
         {
+            "description": "QEMU is a generic and open source machine emulator and virtualizer.",
+            "name": "qemu"
+        },
+        {
             "description": "RePrimAnd: Recovery of Primitives And EOS framework RePrimAnd is a\nsupport library for numerical simulations of general relativistic\nmagnetohydrodynamics. It provides methods for recovering primitive\nvariables like pressure and velocity from the variables evolved in\nquasi-conservative formulations. Further, it provides a general\nframework for handling matter equations of state.",
             "name": "reprimand"
         },

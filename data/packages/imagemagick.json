@@ -106,7 +106,7 @@
     ],
     "description": "ImageMagick is a software suite to create, edit, compose, or convert\nbitmap images.\n",
     "homepage": "https://www.imagemagick.org",
-    "latest_version": "7.1.1-29",
+    "latest_version": "7.1.1-39",
     "maintainers": [],
     "name": "imagemagick",
     "patches": [],
@@ -130,13 +130,19 @@
     ],
     "versions": [
         {
+            "name": "7.1.1-39",
+            "sha256": "b2eb652d9221bdeb65772503891d8bfcfc36b3b1a2c9bb35b9d247a08965fd5d"
+        },
+        {
             "name": "7.1.1-29",
             "sha256": "27bd25f945efdd7e38f6f9845a7c0a391fdb732f652dda140b743769c5f106e8"
         },
         {
             "name": "7.1.1-11",
             "sha256": "98bb2783da7d5b06e7543529bd07b50d034fba611ff15e8817a0f4f73957d934"
-        },
+        }
+    ],
+    "versions_deprecated": [
         {
             "name": "7.1.0-62",
             "sha256": "d282117bc6d0e91ad1ad685d096623b96ed8e229f911c891d83277b350ef884a"
@@ -173,6 +179,5 @@
             "name": "7.0.2-6",
             "sha256": "7d49ca8030f895c683cae69c52d8edfc4876de651f5b8bfdbea907e222480bd3"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

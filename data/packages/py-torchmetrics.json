@@ -84,7 +84,7 @@
     ],
     "description": "Machine learning metrics for distributed, scalable PyTorch applications.\n",
     "homepage": "https://github.com/PyTorchLightning/metrics",
-    "latest_version": "1.4.2",
+    "latest_version": "1.4.3",
     "maintainers": [
         "adamjstewart"
     ],
@@ -104,6 +104,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.4.3",
+            "sha256": "5554a19167e91f543afe82ff58a01059c8eec854359ad22896449c2c8fb0ad89"
+        },
         {
             "name": "1.4.2",
             "sha256": "7a40cbec85e5645090812b87601696b4adf158294ec8c407ae58a71710938b87"

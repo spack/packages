@@ -2351,6 +2351,10 @@
         {
             "default": true,
             "package": "qmd-progress"
+        },
+        {
+            "default": false,
+            "package": "sopt"
         }
     ],
     "berkeley-db": [
@@ -11062,6 +11066,10 @@
         },
         {
             "default": "generic",
+            "package": "lima"
+        },
+        {
+            "default": "generic",
             "package": "linaro-forge"
         },
         {
@@ -15227,6 +15235,10 @@
         {
             "default": "perl",
             "package": "perl-soap-lite"
+        },
+        {
+            "default": "perl",
+            "package": "perl-sort-naturally"
         },
         {
             "default": "perl",
@@ -33290,6 +33302,10 @@
         },
         {
             "default": "cmake",
+            "package": "sopt"
+        },
+        {
+            "default": "cmake",
             "package": "sortmerna"
         },
         {
@@ -34667,6 +34683,10 @@
         {
             "default": "generic",
             "package": "vcsh"
+        },
+        {
+            "default": "autotools",
+            "package": "vde"
         },
         {
             "default": "cmake",
@@ -40162,6 +40182,10 @@
         },
         {
             "default": "Release",
+            "package": "sopt"
+        },
+        {
+            "default": "Release",
             "package": "sortmerna"
         },
         {
@@ -42709,6 +42733,10 @@
         {
             "default": false,
             "package": "dihydrogen"
+        },
+        {
+            "default": false,
+            "package": "sopt"
         },
         {
             "default": false,
@@ -47616,6 +47644,10 @@
         },
         {
             "default": false,
+            "package": "sopt"
+        },
+        {
+            "default": false,
             "package": "upp"
         },
         {
@@ -48939,6 +48971,10 @@
         {
             "default": false,
             "package": "simgrid"
+        },
+        {
+            "default": false,
+            "package": "sopt"
         },
         {
             "default": true,
@@ -55553,6 +55589,10 @@
         {
             "default": "make",
             "package": "somatic-sniper"
+        },
+        {
+            "default": "make",
+            "package": "sopt"
         },
         {
             "default": "make",
@@ -63778,6 +63818,10 @@
         },
         {
             "default": false,
+            "package": "sopt"
+        },
+        {
+            "default": false,
             "package": "sortmerna"
         },
         {
@@ -69663,6 +69707,10 @@
             "package": "snap"
         },
         {
+            "default": false,
+            "package": "sopt"
+        },
+        {
             "default": true,
             "package": "spath"
         },
@@ -71763,6 +71811,12 @@
             "package": "py-torch"
         }
     ],
+    "onnxrt": [
+        {
+            "default": false,
+            "package": "sopt"
+        }
+    ],
     "opari": [
         {
             "default": false,
@@ -72843,6 +72897,10 @@
         {
             "default": false,
             "package": "snap"
+        },
+        {
+            "default": false,
+            "package": "sopt"
         },
         {
             "default": false,
@@ -83981,6 +84039,10 @@
         {
             "default": false,
             "package": "sirius"
+        },
+        {
+            "default": false,
+            "package": "sopt"
         },
         {
             "default": false,

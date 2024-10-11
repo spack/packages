@@ -115,7 +115,7 @@
     ],
     "description": "The Earth System Modeling Framework (ESMF) is high-performance, flexible\nsoftware infrastructure for building and coupling weather, climate, and\nrelated Earth science applications. The ESMF defines an architecture for\ncomposing complex, coupled modeling systems and includes data structures\nand utilities for developing individual models. The National Unified\nOperational Prediction Capability (NUOPC) Layer defines a common model\narchitecture to support interoperable ESMF components. The NUOPC Layer\nis included with the ESMF package.\n",
     "homepage": "https://earthsystemmodeling.org/",
-    "latest_version": "8.6.1",
+    "latest_version": "8.7.0",
     "maintainers": [
         "AlexanderRichert-NOAA",
         "climbfuji",
@@ -275,6 +275,10 @@
         {
             "branch": "develop",
             "name": "develop"
+        },
+        {
+            "name": "8.7.0",
+            "sha256": "d7ab266e2af8c8b230721d4df59e61aa03c612a95cc39c07a2d5695746f21f56"
         },
         {
             "name": "8.6.1",

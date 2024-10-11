@@ -8168,6 +8168,10 @@
         "name": "likwid"
     },
     {
+        "description": "Linux virtual machines, with a focus on running containers\n",
+        "name": "lima"
+    },
+    {
         "description": "Build reliable and optimized code for the right results on multiple\nServer and HPC architectures, from the latest compilers and C++\nstandards to Intel, 64-bit Arm, AMD, OpenPOWER and Nvidia GPU hardware.\nLinaro Forge combines Linaro DDT, the leading debugger for time-saving\nhigh performance application debugging, Linaro MAP, the trusted\nperformance profiler for invaluable optimization advice across native\nand Python HPC codes, and Linaro Performance Reports for advanced\nreporting capabilities.\n",
         "name": "linaro-forge"
     },
@@ -12374,6 +12378,10 @@
     {
         "description": "Perl's Web Services Toolkit\n",
         "name": "perl-soap-lite"
+    },
+    {
+        "description": "Sort lexically, but sort numeral parts numerically\n",
+        "name": "perl-sort-naturally"
     },
     {
         "description": "Type constraints and coercions for Perl .\n",
@@ -30456,6 +30464,10 @@
         "name": "sonlib"
     },
     {
+        "description": "SOPT is an open-source C++ package available under the license below. It\nperforms Sparse OPTimisation using state-of-the-art convex optimisation\nalgorithms. It solves a variety of sparse regularisation problems,\nincluding the Sparsity Averaging Reweighted Analysis (SARA) algorithm.\n",
+        "name": "sopt"
+    },
+    {
         "description": "SortMeRNA is a program tool for filtering, mapping and OTU-picking NGS\nreads in metatranscriptomic and metagenomic data\n",
         "name": "sortmerna"
     },
@@ -31854,6 +31866,10 @@
     {
         "description": "config manager based on git\n",
         "name": "vcsh"
+    },
+    {
+        "description": "Ethernet compliant virtual network\n",
+        "name": "vde"
     },
     {
         "description": "Vectorised math. A collection of fast and inline implementations of\nmathematical functions.\n",

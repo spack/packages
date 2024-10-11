@@ -38,6 +38,10 @@
         {
             "description": "OpenCV (Open Source Computer Vision Library) is an open source computer\nvision and machine learning software library.",
             "name": "opencv"
+        },
+        {
+            "description": "SOPT is an open-source C++ package available under the license below. It\nperforms Sparse OPTimisation using state-of-the-art convex optimisation\nalgorithms. It solves a variety of sparse regularisation problems,\nincluding the Sparsity Averaging Reweighted Analysis (SARA) algorithm.",
+            "name": "sopt"
         }
     ],
     "description": "Open Neural Network Exchange (ONNX). ONNX provides an open source format\nfor AI models, both deep learning and traditional ML. It defines an\nextensible computation graph model, as well as definitions of built-in\noperators and standard data types.\n",

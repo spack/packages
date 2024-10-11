@@ -124,6 +124,10 @@
             "name": "octave"
         },
         {
+            "description": "Application Profiling, Tracing, and Analysis",
+            "name": "omnitrace"
+        },
+        {
             "description": "Pinfo is user-friendly, console-based viewer for Info documents.",
             "name": "pinfo"
         },

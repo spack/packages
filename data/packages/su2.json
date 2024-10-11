@@ -4,6 +4,11 @@
     "conflicts": [
         {
             "description": null,
+            "name": "%gcc@13:",
+            "spec": "@:7"
+        },
+        {
+            "description": null,
             "name": "^python@3.12:",
             "spec": "build_system=meson ^meson@:1.0"
         }
@@ -52,6 +57,14 @@
         {
             "description": "This package provides Python bindings for the Message Passing Interface\n(MPI) standard. It is implemented on top of the MPI-1/MPI-2\nspecification and exposes an API which grounds on the standard MPI-2 C++\nbindings.",
             "name": "py-mpi4py"
+        },
+        {
+            "description": "Fundamental package for array computing in Python.",
+            "name": "py-numpy"
+        },
+        {
+            "description": "Fundamental algorithms for scientific computing in Python.",
+            "name": "py-scipy"
         },
         {
             "description": "The Python programming language.",

@@ -8,7 +8,7 @@
             "spec": "@1.10:"
         },
         {
-            "description": "py-scipy: SciPy requires GCC >= 8.0",
+            "description": "py-scipy: SciPy 1.10-1.13 requires GCC >= 8.0",
             "name": "%gcc@:7",
             "spec": "@1.10:"
         },
@@ -16,6 +16,11 @@
             "description": "py-scipy: SciPy requires at least vc142 (default with Visual Studio 2019) when building with MSVC",
             "name": "%msvc@:19.19",
             "spec": "@1.10:"
+        },
+        {
+            "description": "py-scipy: SciPy 1.14: requires GCC >= 9.1",
+            "name": "%gcc@:9.0",
+            "spec": "@1.14:"
         },
         {
             "description": null,
@@ -1403,6 +1408,10 @@
         {
             "description": "STochastic Engine for Pathway Simulation",
             "name": "steps"
+        },
+        {
+            "description": "SU2 is a suite of open-source software tools written in C++ for the\nnumerical solution of partial differential equations (PDE) and\nperforming PDE constrained optimization.",
+            "name": "su2"
         },
         {
             "description": "Tamaas is a C++ library with a Python interface that efficiently solves\ncontact mechanics problems with periodic rough surfaces, plasticity,\nadhesion and friction.",

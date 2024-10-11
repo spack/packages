@@ -109,6 +109,10 @@
         {
             "description": "zlib replacement with optimizations for next generation systems.",
             "name": "zlib-api"
+        },
+        {
+            "description": "zlib replacement with optimizations for next generation systems.",
+            "name": "zlib-ng"
         }
     ],
     "dependent_to": [

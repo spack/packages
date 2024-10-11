@@ -68,6 +68,10 @@
             "name": "py-tables"
         },
         {
+            "description": "QEMU is a generic and open source machine emulator and virtualizer.",
+            "name": "qemu"
+        },
+        {
             "description": "Squashfs - read only compressed filesystem",
             "name": "squashfs"
         },

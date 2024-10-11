@@ -22,6 +22,10 @@
             "name": "linux-perf"
         },
         {
+            "description": "QEMU is a generic and open source machine emulator and virtualizer.",
+            "name": "qemu"
+        },
+        {
             "description": "A real time, nanosecond resolution, remote telemetry, hybrid frame and\nsampling profiler for games and other applications. Server applications.",
             "name": "tracy"
         },

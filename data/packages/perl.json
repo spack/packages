@@ -2017,6 +2017,10 @@
             "name": "perl-soap-lite"
         },
         {
+            "description": "Sort lexically, but sort numeral parts numerically",
+            "name": "perl-sort-naturally"
+        },
+        {
             "description": "Type constraints and coercions for Perl .",
             "name": "perl-specio"
         },

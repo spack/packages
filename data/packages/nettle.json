@@ -34,6 +34,10 @@
         {
             "description": "libarchive: C library and command-line tools for reading and writing\ntar, cpio, zip, ISO, and other archive formats.",
             "name": "libarchive"
+        },
+        {
+            "description": "QEMU is a generic and open source machine emulator and virtualizer.",
+            "name": "qemu"
         }
     ],
     "description": "The Nettle package contains the low-level cryptographic library that is\ndesigned to fit easily in many contexts.\n",

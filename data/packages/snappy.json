@@ -76,6 +76,10 @@
             "name": "py-imagecodecs"
         },
         {
+            "description": "QEMU is a generic and open source machine emulator and virtualizer.",
+            "name": "qemu"
+        },
+        {
             "description": "RocksDB: A Persistent Key-Value Store for Flash and RAM Storage",
             "name": "rocksdb"
         },

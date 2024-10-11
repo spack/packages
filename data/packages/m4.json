@@ -992,6 +992,10 @@
             "name": "octopus"
         },
         {
+            "description": "Application Profiling, Tracing, and Analysis",
+            "name": "omnitrace"
+        },
+        {
             "description": "OpenFOAM is a GPL-opensource C++ CFD-toolbox. This offering is supported\nby OpenCFD Ltd, producer and distributor of the OpenFOAM software via\nwww.openfoam.com, and owner of the OPENFOAM trademark. OpenCFD Ltd has\nbeen developing and releasing OpenFOAM since its debut in 2004.",
             "name": "openfoam"
         },
@@ -1282,6 +1286,10 @@
         {
             "description": "VBFNLO is a fully flexible parton level Monte Carlo program for the\nsimulation of vector boson fusion, double and triple vector boson\nproduction in hadronic collisions at next to leading order in the strong\ncoupling constant.",
             "name": "vbfnlo"
+        },
+        {
+            "description": "Ethernet compliant virtual network",
+            "name": "vde"
         },
         {
             "description": "A floating-point error checker. Verrou helps you look for floating-point\nround-off errors in programs. It implements a stochastic floating-point\narithmetic based on random rounding: all floating-point operations are\nperturbed by randomly switching rounding modes. This can be seen as an\nasynchronous variant of the CESTAC method, or a subset of Monte Carlo\nArithmetic, performing only output randomization through random\nrounding.",

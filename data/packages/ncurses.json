@@ -33,6 +33,10 @@
             "name": "aocc"
         },
         {
+            "description": "Apache TVM is an open source machine learning compiler framework for\nCPUs, GPUs, and machine learning accelerators. It aims to enable machine\nlearning engineers to optimize and run computations efficiently on any\nhardware backend.",
+            "name": "apache-tvm"
+        },
+        {
             "description": "Atop is an ASCII full-screen performance monitor for Linux",
             "name": "atop"
         },
@@ -327,6 +331,10 @@
         {
             "description": "The Python programming language.",
             "name": "python"
+        },
+        {
+            "description": "QEMU is a generic and open source machine emulator and virtualizer.",
+            "name": "qemu"
         },
         {
             "description": "R is 'GNU S', a freely available language and environment for\nstatistical computing and graphics which provides a wide variety of\nstatistical and graphical techniques: linear and nonlinear modelling,\nstatistical tests, time series analysis, classification, clustering,\netc. Please consult the R project homepage for further information.",

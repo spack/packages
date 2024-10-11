@@ -384,6 +384,10 @@
             "name": "py-sip"
         },
         {
+            "description": "QEMU is a generic and open source machine emulator and virtualizer.",
+            "name": "qemu"
+        },
+        {
             "description": "QGIS is a free and open-source cross-platform desktop geographic\ninformation system application that supports viewing, editing, and\nanalysis of geospatial data.",
             "name": "qgis"
         },

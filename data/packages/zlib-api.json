@@ -79,6 +79,10 @@
             "name": "aocc"
         },
         {
+            "description": "Apache TVM is an open source machine learning compiler framework for\nCPUs, GPUs, and machine learning accelerators. It aims to enable machine\nlearning engineers to optimize and run computations efficiently on any\nhardware backend.",
+            "name": "apache-tvm"
+        },
+        {
             "description": "Autonomic Performance Environment for eXascale (APEX).",
             "name": "apex"
         },

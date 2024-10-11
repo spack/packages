@@ -94,7 +94,7 @@
     ],
     "description": "C++ & Python API for Scientific I/O\n",
     "homepage": "https://www.openPMD.org",
-    "latest_version": "0.15.2",
+    "latest_version": "0.16.0",
     "maintainers": [
         "ax3l",
         "franzpoeschel"
@@ -135,6 +135,15 @@
             "sha256": "c306483f1f94b308775a401c9cd67ee549fac6824a2264f5985499849fe210d5",
             "url": "https://github.com/openPMD/openPMD-api/pull/1417.patch?full_index=1",
             "version": "@0.15.1",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.openpmd-api",
+            "reverse": false,
+            "sha256": "e49fe79691bbb5aae2224d218f29801630d33f3a923c518f6bfb39ec22fd6a72",
+            "url": "https://github.com/openPMD/openPMD-api/pull/1678.patch?full_index=1",
+            "version": "@0.16.0",
             "working_dir": "."
         }
     ],
@@ -195,6 +204,10 @@
         {
             "branch": "dev",
             "name": "develop"
+        },
+        {
+            "name": "0.16.0",
+            "sha256": "b52222a4ab2511f9e3f6e21af222f57ab4fb6228623024fc5d982066333e104f"
         },
         {
             "name": "0.15.2",

@@ -151,7 +151,7 @@
     "dependent_to": [],
     "description": "GIMP is a cross-platform image editor available for GNU/Linux, macOS,\nWindows and more operating systems. It is free software, you can change\nits source code and distribute your changes. Whether you are a graphic\ndesigner, photographer, illustrator, or scientist, GIMP provides you\nwith sophisticated tools to get your job done. You can further enhance\nyour productivity with GIMP thanks to many customization options and 3rd\nparty plugins.\n",
     "homepage": "https://www.gimp.org",
-    "latest_version": "2.10.32",
+    "latest_version": "2.10.38",
     "maintainers": [
         "benkirk"
     ],
@@ -201,6 +201,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.10.38",
+            "sha256": "50a845eec11c8831fe8661707950f5b8446e35f30edfb9acf98f85c1133f856e"
+        },
         {
             "name": "2.10.32",
             "sha256": "3f15c70554af5dcc1b46e6dc68f3d8f0a6cc9fe56b6d78ac08c0fd859ab89a25"

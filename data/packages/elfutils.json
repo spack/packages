@@ -162,6 +162,10 @@
             "name": "openspeedshop-utils"
         },
         {
+            "description": "QEMU is a generic and open source machine emulator and virtualizer.",
+            "name": "qemu"
+        },
+        {
             "description": "Radeon Open Compute (ROCm) debug agent",
             "name": "rocm-debug-agent"
         },

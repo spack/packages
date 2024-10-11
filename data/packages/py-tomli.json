@@ -202,6 +202,10 @@
             "name": "py-yt"
         },
         {
+            "description": "QEMU is a generic and open source machine emulator and virtualizer.",
+            "name": "qemu"
+        },
+        {
             "description": "Workflow management system to create reproducible and scalable data\nanalyses.",
             "name": "snakemake"
         }

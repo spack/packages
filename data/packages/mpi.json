@@ -1198,6 +1198,10 @@
             "name": "med"
         },
         {
+            "description": "MeDiPack (Message Differentiation Package) is a tool that handles the\nMPI communication of Algorithmic Differentiation (AD) tools like\nCoDiPack.",
+            "name": "medipack"
+        },
+        {
             "description": "Meep (or MEEP) is a free finite-difference time-domain (FDTD) simulation\nsoftware package developed at MIT to model electromagnetic systems.",
             "name": "meep"
         },
@@ -2112,6 +2116,10 @@
         {
             "description": "A next-generation conjugate gradient benchmark from computational\nparticle physics",
             "name": "sombrero"
+        },
+        {
+            "description": "SOPT is an open-source C++ package available under the license below. It\nperforms Sparse OPTimisation using state-of-the-art convex optimisation\nalgorithms. It solves a variety of sparse regularisation problems,\nincluding the Sparsity Averaging Reweighted Analysis (SARA) algorithm.",
+            "name": "sopt"
         },
         {
             "description": "SOSflow provides a flexible, scalable, and programmable framework for\nobservation, introspection, feedback, and control of HPC applications.",

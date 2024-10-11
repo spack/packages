@@ -69,11 +69,6 @@
         },
         {
             "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "arch=None-None-ppc64le",
             "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
         },
@@ -420,7 +415,7 @@
     ],
     "description": "VecMem is a vectorised data model base and helper classes.\n",
     "homepage": "https://github.com/acts-project/vecmem",
-    "latest_version": "1.9.0",
+    "latest_version": "1.10.0",
     "maintainers": [
         "stephenswat",
         "wdconinc"
@@ -471,6 +466,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.10.0",
+            "sha256": "1fbdc599a65ad7b2cd1176844c7578da38911bc747fbe51a71e00d20e6105330"
+        },
         {
             "name": "1.9.0",
             "sha256": "c1ddc43ff0d742306cbee71afd80efd348b6b0b1ba9e4210ca7f8b607f03bd70"

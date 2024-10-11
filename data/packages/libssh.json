@@ -38,6 +38,10 @@
             "name": "ffmpeg"
         },
         {
+            "description": "QEMU is a generic and open source machine emulator and virtualizer.",
+            "name": "qemu"
+        },
+        {
             "description": "Redland Language Bindings for language APIs to Redland",
             "name": "redland-bindings"
         },

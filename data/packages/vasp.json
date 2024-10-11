@@ -84,11 +84,6 @@
         },
         {
             "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "arch=None-None-ppc64le",
             "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
         },

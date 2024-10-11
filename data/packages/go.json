@@ -123,6 +123,10 @@
             "name": "lazygit"
         },
         {
+            "description": "Linux virtual machines, with a focus on running containers",
+            "name": "lima"
+        },
+        {
             "description": "Streaming replication for SQLite.",
             "name": "litestream"
         },

@@ -28,6 +28,10 @@
     ],
     "dependent_to": [
         {
+            "description": "QEMU is a generic and open source machine emulator and virtualizer.",
+            "name": "qemu"
+        },
+        {
             "description": "User-mode networking for unprivileged network namespaces",
             "name": "slirp4netns"
         }

@@ -113,7 +113,7 @@
     ],
     "description": "MUMPS: a MUltifrontal Massively Parallel sparse direct Solver\n",
     "homepage": "https://mumps-solver.org/index.php",
-    "latest_version": "5.7.2",
+    "latest_version": "5.7.3",
     "maintainers": [
         "jcortial-safran"
     ],
@@ -239,6 +239,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "5.7.3",
+            "sha256": "84a47f7c4231b9efdf4d4f631a2cae2bdd9adeaabc088261d15af040143ed112"
+        },
         {
             "name": "5.7.2",
             "sha256": "1362d377ce7422fc886c55212b4a4d2c381918b5ca4478f682a22d0627a8fbf8"

@@ -21,7 +21,7 @@
     ],
     "description": "A collection of C routines that can be used to access the Sesame data\nlibrary.\n",
     "homepage": "https://laws.lanl.gov/projects/data/eos.html",
-    "latest_version": "6.5.9",
+    "latest_version": "6.5.11",
     "maintainers": [
         "KineticTheory"
     ],
@@ -105,6 +105,16 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.5.11",
+            "sha256": "ed821b5a1bf45df1443d5f72d86190317ed9f5bad6a7c73e23bb4365bd76e24c",
+            "url": "https://laws.lanl.gov/projects/data/eos/get_file.php?package=eospac&filename=eospac_v6.5.11_e87627a204786491b3316d7fe3bda14dd9b52ce7.tgz"
+        },
+        {
+            "name": "6.5.10",
+            "sha256": "ddf8475ec41df1102ac9d85404a1954e39d8e410f0f2babafabd218cba9812eb",
+            "url": "https://laws.lanl.gov/projects/data/eos/get_file.php?package=eospac&filename=eospac_v6.5.10_3bf1ad6aab64ad0c665a48978315ba2383ab294f.tgz"
+        },
         {
             "name": "6.5.9",
             "sha256": "54df29b1dc3b35c654ef2ebfbfa42d960a230cfb2d3c04a75ba93d3a789a312a",
