@@ -87295,6 +87295,12 @@
             "package": "icon"
         }
     ],
+    "yjit": [
+        {
+            "default": false,
+            "package": "ruby"
+        }
+    ],
     "z3": [
         {
             "default": false,

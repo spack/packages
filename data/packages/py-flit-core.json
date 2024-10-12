@@ -266,8 +266,24 @@
             "name": "py-sphinx-theme-builder"
         },
         {
+            "description": "sphinxcontrib-applehelp is a sphinx extension which outputs Apple help\nbooks.",
+            "name": "py-sphinxcontrib-applehelp"
+        },
+        {
+            "description": "sphinxcontrib-devhelp is a sphinx extension which outputs Devhelp\ndocument.",
+            "name": "py-sphinxcontrib-devhelp"
+        },
+        {
+            "description": "sphinxcontrib-htmlhelp is a sphinx extension which outputs htmlhelp\ndocument.",
+            "name": "py-sphinxcontrib-htmlhelp"
+        },
+        {
             "description": "A sphinx extension which ensure that jQuery is installed with Sphinx.",
             "name": "py-sphinxcontrib-jquery"
+        },
+        {
+            "description": "sphinxcontrib-qthelp is a sphinx extension which outputs QtHelp\ndocument.",
+            "name": "py-sphinxcontrib-qthelp"
         },
         {
             "description": "sphinxcontrib-serializinghtml is a sphinx extension which outputs\n\"serialized\" HTML files (json and pickle).",

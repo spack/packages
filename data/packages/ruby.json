@@ -52,6 +52,10 @@
             "name": "readline"
         },
         {
+            "description": "The Rust programming language toolchain.",
+            "name": "rust"
+        },
+        {
             "description": "Tcl (Tool Command Language) is a very powerful but easy to learn dynamic\nprogramming language, suitable for a very wide range of uses, including\nweb and desktop applications, networking, administration, testing and\nmany more. Open source and business-friendly, Tcl is a mature yet\nevolving language that is truly cross platform, easily deployed and\nhighly extensible.",
             "name": "tcl"
         },
@@ -176,7 +180,7 @@
     ],
     "description": "A dynamic, open source programming language with a focus on simplicity\nand productivity.\n",
     "homepage": "https://www.ruby-lang.org/",
-    "latest_version": "3.3.4",
+    "latest_version": "3.3.5",
     "maintainers": [
         "Kerilk"
     ],
@@ -233,9 +237,18 @@
             "default": false,
             "description": "Enable Readline support",
             "name": "readline"
+        },
+        {
+            "default": false,
+            "description": "Enable Rust JIT",
+            "name": "yjit"
         }
     ],
     "versions": [
+        {
+            "name": "3.3.5",
+            "sha256": "3781a3504222c2f26cb4b9eb9c1a12dbf4944d366ce24a9ff8cf99ecbce75196"
+        },
         {
             "name": "3.3.4",
             "sha256": "fe6a30f97d54e029768f2ddf4923699c416cdbc3a6e96db3e2d5716c7db96a34"

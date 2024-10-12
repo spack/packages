@@ -30,7 +30,7 @@
     ],
     "description": "Redis is an open source (BSD licensed), in-memory data structure store,\nused as a database, cache and message broker. It supports data\nstructures such as strings, hashes, lists, sets, sorted sets with range\nqueries, bitmaps, hyperloglogs, geospatial indexes with radius queries\nand streams. Redis has built-in replication, Lua scripting, LRU\neviction, transactions and different levels of on-disk persistence, and\nprovides high availability via Redis Sentinel and automatic partitioning\nwith Redis Cluster\n",
     "homepage": "https://redis.io",
-    "latest_version": "7.0.5",
+    "latest_version": "7.4.0",
     "maintainers": [
         "lpottier"
     ],
@@ -55,6 +55,12 @@
         }
     ],
     "versions": [
+        {
+            "name": "7.4.0",
+            "sha256": "57b47c2c6682636d697dbf5d66d8d495b4e653afc9cd32b7adf9da3e433b8aaf"
+        }
+    ],
+    "versions_deprecated": [
         {
             "name": "7.0.5",
             "sha256": "67054cc37b58c125df93bd78000261ec0ef4436a26b40f38262c780e56315cc3"
@@ -147,6 +153,5 @@
             "name": "4.0.11",
             "sha256": "fc53e73ae7586bcdacb4b63875d1ff04f68c5474c1ddeda78f00e5ae2eed1bbb"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

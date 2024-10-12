@@ -3,6 +3,11 @@
     "build_system": "PythonPackage",
     "conflicts": [
         {
+            "description": "py-scipy: SciPy doesn't compile with AOCC yet",
+            "name": "%aocc",
+            "spec": ""
+        },
+        {
             "description": "py-scipy: SciPy requires Apple Clang >= 10",
             "name": "%apple-clang@:9",
             "spec": "@1.10:"

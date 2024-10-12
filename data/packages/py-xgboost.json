@@ -81,7 +81,17 @@
         "adamjstewart"
     ],
     "name": "py-xgboost",
-    "patches": [],
+    "patches": [
+        {
+            "level": 1,
+            "owner": "builtin.py-xgboost",
+            "relative_path": "add-lib64.patch",
+            "reverse": false,
+            "sha256": "118db5af08d1b42ff52faf83d74dd1d26d27e9314e380ccb033a84c2669f9639",
+            "version": "@2:",
+            "working_dir": "."
+        }
+    ],
     "resources": [],
     "variants": [
         {

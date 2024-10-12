@@ -4,6 +4,10 @@
     "conflicts": [],
     "dependencies": [
         {
+            "description": "Distribution-building parts of Flit.",
+            "name": "py-flit-core"
+        },
+        {
             "description": "The PyPA recommended tool for installing Python packages.",
             "name": "py-pip"
         },
@@ -32,7 +36,7 @@
     ],
     "description": "sphinxcontrib-htmlhelp is a sphinx extension which outputs htmlhelp\ndocument.\n",
     "homepage": "http://sphinx-doc.org/",
-    "latest_version": "2.0.1",
+    "latest_version": "2.1.0",
     "maintainers": [],
     "name": "py-sphinxcontrib-htmlhelp",
     "patches": [],
@@ -45,6 +49,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.1.0",
+            "sha256": "c9e2916ace8aad64cc13a0d233ee22317f2b9025b9cf3295249fa985cc7082e9"
+        },
         {
             "name": "2.0.1",
             "sha256": "0cbdd302815330058422b98a113195c9249825d681e18f11e8b1f78a2f11efff"

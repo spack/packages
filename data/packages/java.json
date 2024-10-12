@@ -712,6 +712,10 @@
             "name": "zipkin"
         },
         {
+            "description": "Apache ZooKeeper is an effort to develop and maintain an open-source\nserver which enables highly reliable distributed coordination.",
+            "name": "zookeeper"
+        },
+        {
             "description": "It is designed to measure the per-request latency of a ZooKeeper\nensemble for a predetermined length of time",
             "name": "zookeeper-benchmark"
         }

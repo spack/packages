@@ -108,6 +108,10 @@
         {
             "description": "Python interface to the next generation FEniCS problem solving\nenvironment",
             "name": "py-fenics-dolfinx"
+        },
+        {
+            "description": "nanobind is a small binding library that exposes C++ types in Python and\nvice versa. It is reminiscent of Boost.Python and pybind11 and uses\nnear-identical syntax. In contrast to these existing tools, nanobind is\nmore efficient: bindings compile in a shorter amount of time, produce\nsmaller binaries, and have better runtime performance.",
+            "name": "py-nanobind"
         }
     ],
     "description": "scikit-build-core is a doubly improved build system generator for\nCPython C/C++/Fortran/Cython extensions. It features several\nimprovements over the classic scikit-build build system generator.\n",

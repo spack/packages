@@ -4,6 +4,10 @@
     "conflicts": [],
     "dependencies": [
         {
+            "description": "Distribution-building parts of Flit.",
+            "name": "py-flit-core"
+        },
+        {
             "description": "The PyPA recommended tool for installing Python packages.",
             "name": "py-pip"
         },
@@ -32,7 +36,7 @@
     ],
     "description": "sphinxcontrib-qthelp is a sphinx extension which outputs QtHelp\ndocument.\n",
     "homepage": "http://sphinx-doc.org/",
-    "latest_version": "1.0.3",
+    "latest_version": "2.0.0",
     "maintainers": [],
     "name": "py-sphinxcontrib-qthelp",
     "patches": [],
@@ -45,6 +49,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.0.0",
+            "sha256": "4fe7d0ac8fc171045be623aba3e2a8f613f8682731f9153bb2e40ece16b9bbab"
+        },
         {
             "name": "1.0.3",
             "sha256": "4c33767ee058b70dba89a6fc5c1892c0d57a54be67ddd3e7875a18d14cba5a72"

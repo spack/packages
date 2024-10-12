@@ -2,7 +2,12 @@
     "aliases": [],
     "build_system": "Package",
     "conflicts": [],
-    "dependencies": [],
+    "dependencies": [
+        {
+            "description": "The free and opensource java implementation",
+            "name": "java"
+        }
+    ],
     "dependent_to": [
         {
             "description": "Storm is a distributed realtime computation system. Similar to how\nHadoop provides a set of general primitives for doing batch processing,\nStorm provides a set of general primitives for doing realtime\ncomputation.",
@@ -15,7 +20,7 @@
     ],
     "description": " Apache ZooKeeper is an effort to develop and maintain an open-source\nserver which enables highly reliable distributed coordination.\n",
     "homepage": "https://archive.apache.org",
-    "latest_version": "3.4.11",
+    "latest_version": "3.8.4",
     "maintainers": [],
     "name": "zookeeper",
     "patches": [],
@@ -29,9 +34,14 @@
     ],
     "versions": [
         {
+            "name": "3.8.4",
+            "sha256": "284cb4675adb64794c63d95bf202d265cebddc0cda86ac86fb0ede8049de9187"
+        }
+    ],
+    "versions_deprecated": [
+        {
             "name": "3.4.11",
             "sha256": "f6bd68a1c8f7c13ea4c2c99f13082d0d71ac464ffaf3bf7a365879ab6ad10e84"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

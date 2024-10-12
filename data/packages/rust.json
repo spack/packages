@@ -211,6 +211,10 @@
             "name": "routinator"
         },
         {
+            "description": "A dynamic, open source programming language with a focus on simplicity\nand productivity.",
+            "name": "ruby"
+        },
+        {
             "description": "The rust programming language toolchain",
             "name": "rust-bindgen"
         },

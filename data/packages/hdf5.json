@@ -878,8 +878,8 @@
         }
     ],
     "description": "HDF5 is a data model, library, and file format for storing and managing\ndata. It supports an unlimited variety of datatypes, and is designed for\nflexible and efficient I/O and for high volume and complex data.\n",
-    "homepage": "https://portal.hdfgroup.org",
-    "latest_version": "1.14.3",
+    "homepage": "https://support.hdfgroup.org",
+    "latest_version": "1.14.5",
     "maintainers": [
         "brtnfld",
         "byrnHDF",
@@ -896,7 +896,7 @@
             "relative_path": "find_package_zlib.patch",
             "reverse": false,
             "sha256": "f42732a453669334acde3e369c4be2f21537754e769e0895a0a0da246bff1cee",
-            "version": "@1.8.16:",
+            "version": "@1.8.16:1.14.4",
             "working_dir": "."
         },
         {
@@ -1067,7 +1067,11 @@
     "versions": [
         {
             "branch": "develop",
-            "name": "develop-1.15"
+            "name": "develop-1.17"
+        },
+        {
+            "branch": "hdf5_1_16",
+            "name": "develop-1.16"
         },
         {
             "branch": "hdf5_1_14",
@@ -1086,20 +1090,34 @@
             "name": "develop-1.8"
         },
         {
+            "name": "1.14.5",
+            "sha256": "ec2e13c52e60f9a01491bb3158cb3778c985697131fc6a342262d32a26e58e44",
+            "url": "https://support.hdfgroup.org/releases/hdf5/v1_14/v1_14_5/downloads/hdf5-1.14.5.tar.gz"
+        },
+        {
+            "name": "1.14.4-3",
+            "sha256": "019ac451d9e1cf89c0482ba2a06f07a46166caf23f60fea5ef3c37724a318e03",
+            "url": "https://support.hdfgroup.org/releases/hdf5/v1_14/v1_14_4/downloads/hdf5-1.14.4-3.tar.gz"
+        },
+        {
             "name": "1.14.3",
-            "sha256": "09cdb287aa7a89148c1638dd20891fdbae08102cf433ef128fd345338aa237c7"
+            "sha256": "09cdb287aa7a89148c1638dd20891fdbae08102cf433ef128fd345338aa237c7",
+            "url": "https://support.hdfgroup.org/releases/hdf5/v1_14/v1_14_3/downloads/hdf5-1.14.3.tar.gz"
         },
         {
             "name": "1.14.2",
-            "sha256": "1c342e634008284a8c2794c8e7608e2eaf26d01d445fb3dfd7f33cb2fb51ac53"
+            "sha256": "1c342e634008284a8c2794c8e7608e2eaf26d01d445fb3dfd7f33cb2fb51ac53",
+            "url": "https://support.hdfgroup.org/releases/hdf5/v1_14/v1_14_2/downloads/hdf5-1.14.2.tar.gz"
         },
         {
             "name": "1.14.1-2",
-            "sha256": "cbe93f275d5231df28ced9549253793e40cd2b555e3d288df09d7b89a9967b07"
+            "sha256": "cbe93f275d5231df28ced9549253793e40cd2b555e3d288df09d7b89a9967b07",
+            "url": "https://support.hdfgroup.org/releases/hdf5/v1_14/v1_14_1/downloads/hdf5-1.14.1-2.tar.gz"
         },
         {
             "name": "1.14.0",
-            "sha256": "a571cc83efda62e1a51a0a912dd916d01895801c5025af91669484a1575a6ef4"
+            "sha256": "a571cc83efda62e1a51a0a912dd916d01895801c5025af91669484a1575a6ef4",
+            "url": "https://support.hdfgroup.org/releases/hdf5/v1_14/v1_14_0/downloads/hdf5-1.14.0.tar.gz"
         },
         {
             "name": "1.12.3",

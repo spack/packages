@@ -15,7 +15,7 @@
     "dependent_to": [],
     "description": "Neo4j is the world's leading Graph Database. It is a high performance\ngraph store with all the features expected of a mature and robust\ndatabase, like a friendly query language and ACID transactions. The\nprogrammer works with a flexible network structure of nodes and\nrelationships rather than static tables--yet enjoys all the benefits of\nenterprise-quality database. For many applications, Neo4j offers orders\nof magnitude performance benefits compared to relational DBs.\n",
     "homepage": "https://neo4j.com/",
-    "latest_version": "4.0.3",
+    "latest_version": "5.17.0",
     "maintainers": [],
     "name": "neo4j",
     "patches": [],
@@ -28,6 +28,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "5.17.0",
+            "sha256": "13f43f099978ac639fd9008decaa783f04e3bd3d6957dd5109539e894dad879b"
+        },
         {
             "name": "4.0.3",
             "sha256": "19d79052657665dd661bbe906b3552b88108bf379d39fa007b883fff718cabee"

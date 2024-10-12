@@ -399,6 +399,11 @@
         },
         {
             "description": null,
+            "name": "datatype-engine=dataloop",
+            "spec": "+cuda"
+        },
+        {
+            "description": null,
             "name": "pmi=cray",
             "spec": "+hydra"
         },
@@ -415,6 +420,11 @@
         {
             "description": null,
             "name": "amdgpu_target=none",
+            "spec": "+rocm"
+        },
+        {
+            "description": null,
+            "name": "datatype-engine=dataloop",
             "spec": "+rocm"
         },
         {

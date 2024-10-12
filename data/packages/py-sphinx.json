@@ -468,7 +468,7 @@
     ],
     "description": "Sphinx Documentation Generator.\n",
     "homepage": "https://www.sphinx-doc.org/en/master/",
-    "latest_version": "8.0.2",
+    "latest_version": "8.1.0",
     "maintainers": [
         "adamjstewart"
     ],
@@ -483,6 +483,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "8.1.0",
+            "sha256": "109454425dbf4c78ecfdd481e56f078376d077edbda29804dba05c5161c8de06"
+        },
         {
             "name": "8.0.2",
             "sha256": "0cce1ddcc4fd3532cf1dd283bc7d886758362c5c1de6598696579ce96d8ffa5b"
