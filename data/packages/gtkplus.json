@@ -1,7 +1,12 @@
 {
     "aliases": [],
-    "build_system": "MesonPackage",
+    "build_system": "AutotoolsPackage",
     "conflicts": [
+        {
+            "description": null,
+            "name": "arch=windows-None-None",
+            "spec": "build_system=autotools"
+        },
         {
             "description": null,
             "name": "^python@3.12:",
@@ -44,6 +49,14 @@
         {
             "description": "GLib provides the core application building blocks for libraries and\napplications written in C. The GLib package contains a low-level\nlibraries useful for providing data structure handling for C,\nportability wrappers and interfaces for such runtime functionality as an\nevent loop, threads, dynamic loading and an object system.",
             "name": "glib"
+        },
+        {
+            "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
+            "name": "gmake"
+        },
+        {
+            "description": "The GNU config.guess and config.sub scripts versioned by timestamp.\nThis package can be used as a build dependency for autotools packages\nthat ship a tarball with outdated config.guess and config.sub files.",
+            "name": "gnuconfig"
         },
         {
             "description": "The GObject Introspection is used to describe the program APIs and\ncollect them in a uniform, machine readable format.Cairo is a 2D\ngraphics library with support for multiple output",
@@ -255,7 +268,7 @@
     "resources": [],
     "variants": [
         {
-            "default": "meson",
+            "default": "autotools",
             "description": "Build systems supported by the package",
             "name": "build_system"
         },

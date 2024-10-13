@@ -8137,7 +8137,7 @@
             "package": "gtkorvo-enet"
         },
         {
-            "default": "meson",
+            "default": "autotools",
             "package": "gtkplus"
         },
         {
