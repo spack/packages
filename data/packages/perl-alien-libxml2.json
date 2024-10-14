@@ -16,6 +16,10 @@
             "name": "perl-alien-build"
         },
         {
+            "description": "Alien::Build plugin to download from GitLab",
+            "name": "perl-alien-build-plugin-download-gitlab"
+        },
+        {
             "description": "pkgconf is a program which helps to configure compiler and linker flags\nfor development frameworks. It is similar to pkg-config from\nfreedesktop.org, providing additional functionality while also\nmaintaining compatibility.",
             "name": "pkgconfig"
         }
@@ -28,7 +32,7 @@
     ],
     "description": "This module provides libxml2 for other modules to use.\n",
     "homepage": "https://metacpan.org/pod/Alien::Libxml2",
-    "latest_version": "0.10_01",
+    "latest_version": "0.19",
     "maintainers": [],
     "name": "perl-alien-libxml2",
     "patches": [],
@@ -41,6 +45,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.19",
+            "sha256": "f4a674099bbd5747c0c3b75ead841f3b244935d9ef42ba35368024bd611174c9"
+        },
         {
             "name": "0.10_01",
             "sha256": "2f45b308b33503292f48bf46a75fe1e653d6b209ba5caf0628d8cc103f8d61ac"

@@ -16,7 +16,7 @@
     ],
     "description": "For creating accessor/mutators to class data.\n",
     "homepage": "https://metacpan.org/pod/Class::Data::Inheritable",
-    "latest_version": "0.08",
+    "latest_version": "0.09",
     "maintainers": [],
     "name": "perl-class-data-inheritable",
     "patches": [],
@@ -29,6 +29,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.09",
+            "sha256": "44088d6e90712e187b8a5b050ca5b1c70efe2baa32ae123e9bd8f59f29f06e4d"
+        },
         {
             "name": "0.08",
             "sha256": "9967feceea15227e442ec818723163eb6d73b8947e31f16ab806f6e2391af14a"

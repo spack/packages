@@ -18,6 +18,10 @@
             "name": "automake"
         },
         {
+            "description": "GNU internationalization (i18n) and localization (l10n) library.",
+            "name": "gettext"
+        },
+        {
             "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
             "name": "gmake"
         },
@@ -37,7 +41,7 @@
     "dependent_to": [],
     "description": "dosfstools consists of the programs mkfs.fat, fsck.fat and fatlabel to\ncreate, check and label file systems of the FAT family.\n",
     "homepage": "https://github.com/dosfstools/dosfstools",
-    "latest_version": "4.1",
+    "latest_version": "4.2",
     "maintainers": [],
     "name": "dosfstools",
     "patches": [],
@@ -50,6 +54,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "4.2",
+            "sha256": "355a6725524b50e64ae94060ed28579e0e004c519fc964f7085188cd87a99ba7"
+        },
         {
             "name": "4.1",
             "sha256": "8ff9c2dcc01551fe9de8888cb41eb1051fd58bdf1ab3a93d3d88916f0a4ffd1b"

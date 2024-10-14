@@ -24,7 +24,12 @@
             "name": "perl-uri"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "This module provides libxml2 for other modules to use.",
+            "name": "perl-alien-libxml2"
+        }
+    ],
     "description": "Alien::Build plugin to download from GitLab\n",
     "homepage": "https://metacpan.org/pod/Alien::Build::Plugin::Download::GitLab",
     "latest_version": "0.01",

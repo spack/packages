@@ -11,7 +11,7 @@
     "dependent_to": [],
     "description": "Test::Output - Utilities to test STDOUT and STDERR messages.\n",
     "homepage": "https://github.com/briandfoy/test-output",
-    "latest_version": "1.033",
+    "latest_version": "1.034",
     "maintainers": [],
     "name": "perl-test-output",
     "patches": [],
@@ -24,6 +24,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.034",
+            "sha256": "cc016f9c89d3a22f461cb88318f53b03645eaec4025d483ae3bd52a166af5f72"
+        },
         {
             "name": "1.033",
             "sha256": "35f0a4ef2449fc78886b4c99e1c1d23f432c2fae98538a4489439eb17223bfc2"

@@ -24,7 +24,7 @@
     ],
     "description": "Simple, compact and correct param-checking functions\n",
     "homepage": "https://metacpan.org/pod/Params::Util",
-    "latest_version": "1.07",
+    "latest_version": "1.102",
     "maintainers": [],
     "name": "perl-params-util",
     "patches": [],
@@ -37,6 +37,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.102",
+            "sha256": "499bb1b482db24fda277a51525596ad092c2bd51dd508fa8fec2e9f849097402"
+        },
         {
             "name": "1.07",
             "sha256": "30f1ec3f2cf9ff66ae96f973333f23c5f558915bb6266881eac7423f52d7c76c"

@@ -52,7 +52,7 @@
     ],
     "description": "The Unified Form Language (UFL) is a domain specific language for\ndeclaration of finite element discretizations of variational forms. More\nprecisely, it defines a flexible interface for choosing finite element\nspaces and defining expressions for weak forms in a notation close to\nmathematical notation.\n",
     "homepage": "https://fenicsproject.org/",
-    "latest_version": "2024.1.0.post1",
+    "latest_version": "2024.2.0",
     "maintainers": [
         "chrisrichardson",
         "garth-wells",
@@ -72,6 +72,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "2024.2.0",
+            "sha256": "d9353d23ccbdd9887f8d6edab74c04fe06d818da972072081dbf0c25bc86f5a7"
         },
         {
             "name": "2024.1.0.post1",

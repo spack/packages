@@ -28,7 +28,7 @@
     ],
     "description": "Parse and validate simple name/value option pairs\n",
     "homepage": "https://metacpan.org/pod/Data::OptList",
-    "latest_version": "0.113",
+    "latest_version": "0.114",
     "maintainers": [],
     "name": "perl-data-optlist",
     "patches": [],
@@ -41,6 +41,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.114",
+            "sha256": "9fd1093b917a21fb79ae1607db53d113b4e0ad8fe0ae776cb077a7e50044fdf3"
+        },
         {
             "name": "0.113",
             "sha256": "36aebc5817b7d4686b649434c2ee41f45c8bf97d4ca5a99f607cc40f695a4285"

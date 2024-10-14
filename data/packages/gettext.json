@@ -130,6 +130,10 @@
             "name": "dos2unix"
         },
         {
+            "description": "dosfstools consists of the programs mkfs.fat, fsck.fat and fatlabel to\ncreate, check and label file systems of the FAT family.",
+            "name": "dosfstools"
+        },
+        {
             "description": "elfutils is a collection of various binary tools such as eu-objdump, eu-\nreadelf, and other utilities that allow you to inspect and manipulate\nELF files. Refer to Table 5.Tools Included in elfutils for Red Hat\nDeveloper for a complete list of binary tools that are distributed with\nthe Red Hat Developer Toolset version of elfutils.",
             "name": "elfutils"
         },

@@ -126,6 +126,10 @@
             "name": "libdrm"
         },
         {
+            "description": "Epoxy is a library for handling OpenGL function pointer management for\nyou.",
+            "name": "libepoxy"
+        },
+        {
             "description": "The reference implementation of the Linux FUSE (Filesystem in Userspace)\ninterface",
             "name": "libfuse"
         },

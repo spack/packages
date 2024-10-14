@@ -60,7 +60,7 @@
     ],
     "description": "Python interface to Basix, a finite element definition and tabulation\nruntime library\n",
     "homepage": "https://github.com/FEniCS/basix",
-    "latest_version": "0.8.0",
+    "latest_version": "0.9.0",
     "maintainers": [
         "chrisrichardson",
         "garth-wells",
@@ -81,6 +81,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "0.9.0",
+            "sha256": "60e96b2393084729b261cb10370f0e44d12735ab3dbd1f15890dec23b9e85329"
         },
         {
             "name": "0.8.0",

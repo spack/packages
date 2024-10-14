@@ -20,7 +20,7 @@
     ],
     "description": "Parse directory listing\n",
     "homepage": "https://metacpan.org/pod/File::Listing",
-    "latest_version": "6.04",
+    "latest_version": "6.16",
     "maintainers": [],
     "name": "perl-file-listing",
     "patches": [],
@@ -33,6 +33,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.16",
+            "sha256": "189b3a13fc0a1ba412b9d9ec5901e9e5e444cc746b9f0156d4399370d33655c6"
+        },
         {
             "name": "6.04",
             "sha256": "1e0050fcd6789a2179ec0db282bf1e90fb92be35d1171588bd9c47d52d959cf5"

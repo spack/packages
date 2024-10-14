@@ -24,7 +24,7 @@
     ],
     "description": "The parser contained here will only parse absolute dates, if you want a\ndate parser that can parse relative dates then take a look at the Time\nmodules by David Muir on CPAN.\n",
     "homepage": "https://metacpan.org/release/TimeDate",
-    "latest_version": "2.30",
+    "latest_version": "2.33",
     "maintainers": [],
     "name": "perl-timedate",
     "patches": [],
@@ -37,6 +37,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.33",
+            "sha256": "c0b69c4b039de6f501b0d9f13ec58c86b040c1f7e9b27ef249651c143d605eb2"
+        },
         {
             "name": "2.30",
             "sha256": "75bd254871cb5853a6aa0403ac0be270cdd75c9d1b6639f18ecba63c15298e86"

@@ -32,7 +32,7 @@
     ],
     "description": "A simple http server class\n",
     "homepage": "https://metacpan.org/pod/HTTP::Daemon",
-    "latest_version": "6.01",
+    "latest_version": "6.16",
     "maintainers": [],
     "name": "perl-http-daemon",
     "patches": [],
@@ -45,6 +45,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.16",
+            "sha256": "b38d092725e6fa4e0c4dc2a47e157070491bafa0dbe16c78a358e806aa7e173d"
+        },
         {
             "name": "6.01",
             "sha256": "43fd867742701a3f9fcc7bd59838ab72c6490c0ebaf66901068ec6997514adc2"

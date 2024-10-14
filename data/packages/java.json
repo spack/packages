@@ -680,6 +680,10 @@
             "name": "thrift"
         },
         {
+            "description": "The Apache Tomcat software is an open source implementation of the Java\nServlet, JavaServer Pages, Java Expression Language and Java WebSocket\ntechnologies.",
+            "name": "tomcat"
+        },
+        {
             "description": "A small program (which glues together other programs) that allows a user\nto input a codon alignment in FASTA format and produce an annotated\nphylogenetic tree showing which substitutions occurred on a given\nbranch. Originally written for colleagues at the MRC NIMR.",
             "name": "treesub"
         },

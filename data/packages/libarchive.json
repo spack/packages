@@ -135,7 +135,7 @@
     ],
     "description": "libarchive: C library and command-line tools for reading and writing\ntar, cpio, zip, ISO, and other archive formats.\n",
     "homepage": "https://www.libarchive.org",
-    "latest_version": "3.7.4",
+    "latest_version": "3.7.6",
     "maintainers": [
         "haampie"
     ],
@@ -181,6 +181,16 @@
     ],
     "versions": [
         {
+            "name": "3.7.6",
+            "sha256": "b4071807367b15b72777c2eaac80f42c8ea2d20212ab279514a19fe1f6f96ef4"
+        },
+        {
+            "name": "3.7.5",
+            "sha256": "37556113fe44d77a7988f1ef88bf86ab68f53d11e85066ffd3c70157cc5110f1"
+        }
+    ],
+    "versions_deprecated": [
+        {
             "name": "3.7.4",
             "sha256": "7875d49596286055b52439ed42f044bd8ad426aa4cc5aabd96bfe7abb971d5e8"
         },
@@ -203,9 +213,7 @@
         {
             "name": "3.6.2",
             "sha256": "ba6d02f15ba04aba9c23fd5f236bb234eab9d5209e95d1c4df85c44d5f19b9b3"
-        }
-    ],
-    "versions_deprecated": [
+        },
         {
             "name": "3.5.2",
             "sha256": "5f245bd5176bc5f67428eb0aa497e09979264a153a074d35416521a5b8e86189"

@@ -32,7 +32,7 @@
     ],
     "description": "Report errors from perspective of caller of a \"clan\" of modules\n",
     "homepage": "https://metacpan.org/pod/Carp::Clan",
-    "latest_version": "6.06",
+    "latest_version": "6.08",
     "maintainers": [],
     "name": "perl-carp-clan",
     "patches": [],
@@ -45,6 +45,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.08",
+            "sha256": "c75f92e34422cc5a65ab05d155842b701452434e9aefb649d6e2289c47ef6708"
+        },
         {
             "name": "6.06",
             "sha256": "ea4ac8f611354756d43cb369880032901e9cc4cc7e0bebb7b647186dac00c9d4"

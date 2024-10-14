@@ -6,6 +6,10 @@
         {
             "description": "Perl 5 is a highly capable, feature-rich programming language with over\n27 years of development.",
             "name": "perl"
+        },
+        {
+            "description": "Module::Install - Standalone, extensible Perl module installer",
+            "name": "perl-module-install"
         }
     ],
     "dependent_to": [
@@ -36,7 +40,7 @@
     ],
     "description": "Ensure that a platform has weaken support\n",
     "homepage": "https://metacpan.org/pod/Task::Weaken",
-    "latest_version": "1.04",
+    "latest_version": "1.06",
     "maintainers": [],
     "name": "perl-task-weaken",
     "patches": [],
@@ -49,6 +53,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.06",
+            "sha256": "2383fedb9dbaef646468ea824afbf7c801076720cfba0df2a7a074726dcd66be"
+        },
         {
             "name": "1.04",
             "sha256": "67e271c55900fe7889584f911daa946e177bb60c8af44c32f4584b87766af3c4"

@@ -52,6 +52,15 @@
             "sha256": "001908e385de3940afd29f2cf36133dd33cb8931194cd5c419c8bc8f3096e3f0",
             "version": "@:2.4.0",
             "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.ftgl",
+            "reverse": false,
+            "sha256": "e2a0810fbf68403931bef4fbfda22e010e01421c92eeaa45f62e4e47f2381ebd",
+            "url": "https://patch-diff.githubusercontent.com/raw/frankheckenbach/ftgl/pull/20.patch?full_index=1",
+            "version": "@2.4.0",
+            "working_dir": "."
         }
     ],
     "resources": [],

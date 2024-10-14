@@ -24,7 +24,7 @@
     ],
     "description": "Perl extension for using OpenSSL\n",
     "homepage": "https://metacpan.org/pod/Net::SSLeay",
-    "latest_version": "1.85",
+    "latest_version": "1.94",
     "maintainers": [],
     "name": "perl-net-ssleay",
     "patches": [],
@@ -37,6 +37,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.94",
+            "sha256": "9d7be8a56d1bedda05c425306cc504ba134307e0c09bda4a788c98744ebcd95d"
+        },
         {
             "name": "1.85",
             "sha256": "9d8188b9fb1cae3bd791979c20554925d5e94a138d00414f1a6814549927b0c8"

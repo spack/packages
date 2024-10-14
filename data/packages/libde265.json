@@ -19,7 +19,7 @@
     "dependent_to": [],
     "description": "libde265 is an open source implementation of the h.265 video codec. It\nis written from scratch and has a plain C API to enable a simple\nintegration into other software.\n",
     "homepage": "https://www.libde265.org",
-    "latest_version": "1.0.9",
+    "latest_version": "1.0.15",
     "maintainers": [
         "benkirk"
     ],
@@ -50,8 +50,8 @@
     ],
     "versions": [
         {
-            "name": "1.0.9",
-            "sha256": "153554f407718a75f1e0ae197d35b43147ce282118a54f894554dbe27c32163d"
+            "name": "1.0.15",
+            "sha256": "d4e55706dfc5b2c5c9702940b675ce2d3e7511025c6894eaddcdbaf0b15fd3f3"
         }
     ],
     "versions_deprecated": []

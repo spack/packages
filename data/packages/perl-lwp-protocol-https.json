@@ -44,7 +44,7 @@
     ],
     "description": "Provide https support for LWP::UserAgent\n",
     "homepage": "https://metacpan.org/pod/LWP::Protocol::https",
-    "latest_version": "6.04",
+    "latest_version": "6.14",
     "maintainers": [],
     "name": "perl-lwp-protocol-https",
     "patches": [],
@@ -57,6 +57,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.14",
+            "sha256": "59cdeabf26950d4f1bef70f096b0d77c5b1c5a7b5ad1b66d71b681ba279cbb2a"
+        },
         {
             "name": "6.04",
             "sha256": "1ef67750ee363525cf729b59afde805ac4dc80eaf8d36ca01082a4d78a7af629"

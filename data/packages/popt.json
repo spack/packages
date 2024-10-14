@@ -77,8 +77,8 @@
         }
     ],
     "description": "The popt library parses command line options.\n",
-    "homepage": "https://launchpad.net/popt",
-    "latest_version": "1.16",
+    "homepage": "https://github.com/rpm-software-management/popt",
+    "latest_version": "1.19",
     "maintainers": [],
     "name": "popt",
     "patches": [],
@@ -91,6 +91,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.19",
+            "sha256": "c25a4838fc8e4c1c8aacb8bd620edb3084a3d63bf8987fdad3ca2758c63240f9"
+        },
         {
             "name": "1.16",
             "sha256": "e728ed296fe9f069a0e005003c3d6b2dde3d9cad453422a10d6558616d304cc8"

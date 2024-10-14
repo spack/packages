@@ -48,7 +48,7 @@
     ],
     "description": "Routines for manipulating stashes\n",
     "homepage": "https://metacpan.org/pod/Package::Stash",
-    "latest_version": "0.37",
+    "latest_version": "0.40",
     "maintainers": [],
     "name": "perl-package-stash",
     "patches": [],
@@ -61,6 +61,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.40",
+            "sha256": "5a9722c6d9cb29ee133e5f7b08a5362762a0b5633ff5170642a5b0686e95e066"
+        },
         {
             "name": "0.37",
             "sha256": "06ab05388f9130cd377c0e1d3e3bafeed6ef6a1e22104571a9e1d7bfac787b2c"

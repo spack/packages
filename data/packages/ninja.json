@@ -2390,6 +2390,10 @@
             "name": "libemos"
         },
         {
+            "description": "Epoxy is a library for handling OpenGL function pointer management for\nyou.",
+            "name": "libepoxy"
+        },
+        {
             "description": "EVpath is an event transport middleware layer designed to allow for the\neasy implementation of overlay networks, with active data processing,\nrouting and management at all points in the overlay. EVPath is designed\nfor high performance systems.",
             "name": "libevpath"
         },

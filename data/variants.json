@@ -9933,7 +9933,7 @@
             "package": "libemos"
         },
         {
-            "default": "autotools",
+            "default": "meson",
             "package": "libepoxy"
         },
         {
@@ -41034,6 +41034,10 @@
         },
         {
             "default": "release",
+            "package": "libepoxy"
+        },
+        {
+            "default": "release",
             "package": "libfuse"
         },
         {
@@ -46649,6 +46653,10 @@
         {
             "default": "shared",
             "package": "libdrm"
+        },
+        {
+            "default": "shared",
+            "package": "libepoxy"
         },
         {
             "default": "shared",
@@ -82597,6 +82605,10 @@
         {
             "default": false,
             "package": "libdrm"
+        },
+        {
+            "default": false,
+            "package": "libepoxy"
         },
         {
             "default": false,

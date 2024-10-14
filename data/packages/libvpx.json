@@ -30,7 +30,7 @@
     ],
     "description": "libvpx is a free software video codec library from Google and the\nAlliance for Open Media. It serves as the reference software\nimplementation for the VP8 and VP9 video coding formats, and for AV1 a\nspecial fork named libaom that was stripped of backwards compatibility.\n",
     "homepage": "https://chromium.googlesource.com/webm/libvpx",
-    "latest_version": "1.10.0",
+    "latest_version": "1.14.1",
     "maintainers": [],
     "name": "libvpx",
     "patches": [],
@@ -49,9 +49,14 @@
     ],
     "versions": [
         {
+            "name": "1.14.1",
+            "sha256": "901747254d80a7937c933d03bd7c5d41e8e6c883e0665fadcb172542167c7977"
+        }
+    ],
+    "versions_deprecated": [
+        {
             "name": "1.10.0",
             "sha256": "85803ccbdbdd7a3b03d930187cb055f1353596969c1f92ebec2db839fa4f834a"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

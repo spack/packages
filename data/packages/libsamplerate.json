@@ -36,8 +36,8 @@
     ],
     "dependent_to": [],
     "description": "libsamplerate (also known as Secret Rabbit Code) is a library for\nperforming sample rate conversion of audio data.\n",
-    "homepage": "http://www.mega-nerd.com/libsamplerate/history.html",
-    "latest_version": "0.1.9",
+    "homepage": "http://libsndfile.github.io/libsamplerate/",
+    "latest_version": "0.2.2",
     "maintainers": [],
     "name": "libsamplerate",
     "patches": [],
@@ -50,6 +50,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.2.2",
+            "sha256": "3258da280511d24b49d6b08615bbe824d0cacc9842b0e4caf11c52cf2b043893"
+        },
         {
             "name": "0.1.9",
             "sha256": "0a7eb168e2f21353fb6d84da152e4512126f7dc48ccb0be80578c565413444c1"

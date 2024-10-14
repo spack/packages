@@ -53,7 +53,7 @@
     "dependent_to": [],
     "description": "The guacamole-server package is a set of software which forms the basis\nof the Guacamole stack. It consists of guacd, libguac, and several\nprotocol support libraries.\n",
     "homepage": "https://guacamole.apache.org/",
-    "latest_version": "1.1.0",
+    "latest_version": "1.5.5",
     "maintainers": [],
     "name": "guacamole-server",
     "patches": [],
@@ -67,9 +67,14 @@
     ],
     "versions": [
         {
+            "name": "1.5.5",
+            "sha256": "50430c0f0f3b92f2cd3e60436fab0cedee8c1a9f762696a666016347039c731e"
+        }
+    ],
+    "versions_deprecated": [
+        {
             "name": "1.1.0",
             "sha256": "d0f0c66ebfa7a4fd6689ae5240f21797b5177945a042388b691b15b8bd5c81a8"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }
