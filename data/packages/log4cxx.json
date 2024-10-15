@@ -20,6 +20,10 @@
             "name": "cmake"
         },
         {
+            "description": "Expat is an XML parser library written in C.",
+            "name": "expat"
+        },
+        {
             "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
             "name": "gmake"
         },
@@ -48,7 +52,7 @@
     ],
     "description": "A C++ port of Log4j\n",
     "homepage": "https://logging.apache.org/log4cxx/latest_stable/",
-    "latest_version": "0.12.1",
+    "latest_version": "1.2.0",
     "maintainers": [
         "nicmcd"
     ],
@@ -84,6 +88,12 @@
     ],
     "versions": [
         {
+            "name": "1.2.0",
+            "sha256": "09f4748aa5675ef5c0770bedbf5e00488668933c5a935a43ac5b85be2436c48a"
+        }
+    ],
+    "versions_deprecated": [
+        {
             "name": "0.12.1",
             "sha256": "7bea5cb477f0e31c838f0e1f4f498cc3b30c2eae74703ddda923e7e8c2268d22"
         },
@@ -91,6 +101,5 @@
             "name": "0.12.0",
             "sha256": "bd5b5009ca914c8fa7944b92ea6b4ca6fb7d146f65d526f21bf8b3c6a0520e44"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

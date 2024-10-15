@@ -21,7 +21,7 @@
     "dependent_to": [],
     "description": "libmodbus is a free software library to send/receive data according to\nthe Modbus protocol.This library is written in C and supports RTU\n(serial) and TCP (Ethernet) communications.\n",
     "homepage": "https://libmodbus.org/",
-    "latest_version": "3.1.6",
+    "latest_version": "3.1.10",
     "maintainers": [],
     "name": "libmodbus",
     "patches": [],
@@ -34,6 +34,12 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.1.10",
+            "sha256": "899be4e25ab7fe5799d43f9567510d6f063d2e8f56136dd726b6fd976f9b2253"
+        }
+    ],
+    "versions_deprecated": [
         {
             "name": "3.1.6",
             "sha256": "d7d9fa94a16edb094e5fdf5d87ae17a0dc3f3e3d687fead81835d9572cf87c16"
@@ -74,6 +80,5 @@
             "name": "3.0.5",
             "sha256": "19aad5d55fa315602d6e836a858a3802f1608f9d824afba05fa12a58a1b1e656"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

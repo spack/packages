@@ -20,12 +20,16 @@
         {
             "description": "OpenSSL is an open source project that provides a robust, commercial-\ngrade, and full-featured toolkit for the Transport Layer Security (TLS)\nand Secure Sockets Layer (SSL) protocols. It is also a general-purpose\ncryptography library.",
             "name": "openssl"
+        },
+        {
+            "description": "pkgconf is a program which helps to configure compiler and linker flags\nfor development frameworks. It is similar to pkg-config from\nfreedesktop.org, providing additional functionality while also\nmaintaining compatibility.",
+            "name": "pkgconfig"
         }
     ],
     "dependent_to": [],
     "description": " Keepalived implements a set of checkers to dynamically and adaptively\nmaintain and manage loadbalanced server pool according their health\n",
     "homepage": "https://www.keepalived.org",
-    "latest_version": "2.0.19",
+    "latest_version": "2.3.1",
     "maintainers": [],
     "name": "keepalived",
     "patches": [],
@@ -38,6 +42,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.3.1",
+            "sha256": "92f4b69bfd998e2306d1995ad16fdad1b59e70be694c883385c5f55e02c62aa3"
+        },
         {
             "name": "2.0.19",
             "sha256": "0e2f8454765bc6a5fa26758bd9cec18aae42882843cdd24848aff0ae65ce4ca7"

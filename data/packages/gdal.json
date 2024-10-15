@@ -667,7 +667,7 @@
     ],
     "description": "GDAL: Geospatial Data Abstraction Library. GDAL is a translator library\nfor raster and vector geospatial data formats that is released under an\nMIT style Open Source License by the Open Source Geospatial Foundation.\nAs a library, it presents a single raster abstract data model and single\nvector abstract data model to the calling application for all supported\nformats. It also comes with a variety of useful command line utilities\nfor data translation and processing.\n",
     "homepage": "https://www.gdal.org/",
-    "latest_version": "3.9.2",
+    "latest_version": "3.9.3",
     "maintainers": [
         "adamjstewart"
     ],
@@ -1166,6 +1166,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.9.3",
+            "sha256": "34a037852ffe6d2163f1b8948a1aa7019ff767148aea55876c1339b22ad751f1"
+        },
         {
             "name": "3.9.2",
             "sha256": "bfbcc9f087f012c36151c20c79f8eac9529e1e5298fbded79cd5a1365f0b113a"

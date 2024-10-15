@@ -53,8 +53,8 @@
         }
     ],
     "description": "Libsndfile is a C library for reading and writing files containing\nsampled sound (such as MS Windows WAV and the Apple/SGI AIFF format)\nthrough one standard library interface. It is released in source code\nformat under the Gnu Lesser General Public License.\n",
-    "homepage": "http://www.mega-nerd.com/libsndfile/",
-    "latest_version": "1.0.28",
+    "homepage": "https://github.com/libsndfile/libsndfile",
+    "latest_version": "1.2.2",
     "maintainers": [],
     "name": "libsndfile",
     "patches": [],
@@ -83,9 +83,14 @@
     ],
     "versions": [
         {
+            "name": "1.2.2",
+            "sha256": "3799ca9924d3125038880367bf1468e53a1b7e3686a934f098b7e1d286cdb80e"
+        }
+    ],
+    "versions_deprecated": [
+        {
             "name": "1.0.28",
             "sha256": "1ff33929f042fa333aed1e8923aa628c3ee9e1eb85512686c55092d1e5a9dfa9"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

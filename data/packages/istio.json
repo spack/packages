@@ -6,7 +6,7 @@
     "dependent_to": [],
     "description": "An open platform to connect, manage, and secure microservices.\n",
     "homepage": "https://istio.io/",
-    "latest_version": "1.6.7",
+    "latest_version": "1.23.2",
     "maintainers": [],
     "name": "istio",
     "patches": [],
@@ -19,6 +19,12 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.23.2",
+            "sha256": "c4bbcb95e3015f63f9aa76ac07a544d4c2f46d6d3b20971559d9216eb07b676b"
+        }
+    ],
+    "versions_deprecated": [
         {
             "name": "1.6.7",
             "sha256": "3243d2c4bb7a116aa04a6bc21d289fb73cdc704988af1749d2a1f0fb5426be36"
@@ -35,6 +41,5 @@
             "name": "1.6.4",
             "sha256": "97ce26edad734b4a324b1a3914cead3a38ac70a029dbe09777a483ec192d04df"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

@@ -37,7 +37,7 @@
         }
     ],
     "description": "Tempo is a program for pulsar timing data analysis.\n",
-    "homepage": "https://tempo.sourceforge.net/",
+    "homepage": "http://tempo.sourceforge.net/",
     "latest_version": "LWA-10-17-2020",
     "maintainers": [],
     "name": "tempo",
@@ -53,6 +53,10 @@
     "versions": [
         {
             "name": "develop"
+        },
+        {
+            "branch": "master",
+            "name": "master"
         },
         {
             "commit": "6bab1083350eca24745eafed79a55156bdd1e7d5",

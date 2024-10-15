@@ -132,6 +132,10 @@
             "name": "log4c"
         },
         {
+            "description": "A C++ port of Log4j",
+            "name": "log4cxx"
+        },
+        {
             "description": "Magics is the latest generation of the ECMWF's Meteorological plotting\nsoftware MAGICS. Although completely redesigned in C++, it is intended\nto be as backwards-compatible as possible with the Fortran interface.",
             "name": "magics"
         },
