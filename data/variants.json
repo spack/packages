@@ -49417,6 +49417,10 @@
             "package": "py-elephant"
         },
         {
+            "default": false,
+            "package": "py-metpy"
+        },
+        {
             "default": true,
             "package": "py-oauthlib"
         },

@@ -47,8 +47,8 @@
     ],
     "versions": [
         {
-            "branch": "master",
-            "name": "master"
+            "branch": "main",
+            "name": "main"
         },
         {
             "name": "3.0.0",

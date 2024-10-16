@@ -67,7 +67,7 @@
     ],
     "description": "Flast flexible JITed lua - OpenResty maintained fork\n",
     "homepage": "https://openresty.org/en/luajit.html",
-    "latest_version": "2.1-20230410",
+    "latest_version": "2.1-20240626",
     "maintainers": [],
     "name": "lua-luajit-openresty",
     "patches": [],
@@ -97,6 +97,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.1-20240626",
+            "sha256": "1e53822a1105df216b9657ccb0293a152ac5afd875abc848453bfa353ca8181b"
+        },
         {
             "name": "2.1-20230410",
             "sha256": "77bbcbb24c3c78f51560017288f3118d995fe71240aa379f5818ff6b166712ff"

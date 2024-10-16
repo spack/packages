@@ -33,7 +33,7 @@
     "dependent_to": [],
     "description": "SQLCipher is an SQLite extension that provides 256 bit AES encryption of\ndatabase files.\n",
     "homepage": "https://www.zetetic.net/sqlcipher/",
-    "latest_version": "4.4.1",
+    "latest_version": "4.6.1",
     "maintainers": [
         "rmsds"
     ],
@@ -48,6 +48,12 @@
         }
     ],
     "versions": [
+        {
+            "name": "4.6.1",
+            "sha256": "d8f9afcbc2f4b55e316ca4ada4425daf3d0b4aab25f45e11a802ae422b9f53a3"
+        }
+    ],
+    "versions_deprecated": [
         {
             "name": "4.4.1",
             "sha256": "a36ed7c879a5e9af1054942201c75fc56f1db22e46bf6c2bbae3975dfeb6782d"
@@ -80,6 +86,5 @@
             "name": "3.4.2",
             "sha256": "69897a5167f34e8a84c7069f1b283aba88cdfa8ec183165c4a5da2c816cfaadb"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

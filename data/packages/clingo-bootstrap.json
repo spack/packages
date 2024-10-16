@@ -123,15 +123,6 @@
         {
             "level": 1,
             "owner": "builtin.clingo-bootstrap",
-            "relative_path": "PyEval_InitThreads.patch",
-            "reverse": false,
-            "sha256": "0db04f3e3ed40c26cb424892f84615e18297ea8cd943347327ab951f7b3ee7ce",
-            "version": "@spack,5.3:5.4 ^python@3.9:",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.clingo-bootstrap",
             "relative_path": "mimalloc.patch",
             "reverse": false,
             "sha256": "bc4a52e336702ed3f562f0f4db8c6aab019011d0b0aae617e3aa821d7b9812b6",

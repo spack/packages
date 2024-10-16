@@ -18,6 +18,10 @@
             "name": "gegl"
         },
         {
+            "description": "GNU internationalization (i18n) and localization (l10n) library.",
+            "name": "gettext"
+        },
+        {
             "description": "GLib provides the core application building blocks for libraries and\napplications written in C. The GLib package contains a low-level\nlibraries useful for providing data structure handling for C,\nportability wrappers and interfaces for such runtime functionality as an\nevent loop, threads, dynamic loading and an object system.",
             "name": "glib"
         },
@@ -48,6 +52,10 @@
         {
             "description": "XML::Parser - A perl module for parsing XML documents",
             "name": "perl-xml-parser"
+        },
+        {
+            "description": "pkgconf is a program which helps to configure compiler and linker flags\nfor development frameworks. It is similar to pkg-config from\nfreedesktop.org, providing additional functionality while also\nmaintaining compatibility.",
+            "name": "pkgconfig"
         }
     ],
     "dependent_to": [

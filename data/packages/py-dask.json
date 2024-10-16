@@ -110,6 +110,10 @@
             "name": "py-graphcast"
         },
         {
+            "description": "Collection of tools for reading, visualizing and performing calculations\nwith weather data.",
+            "name": "py-metpy"
+        },
+        {
             "description": "Modin: Make your pandas code run faster by changing one line of code.",
             "name": "py-modin"
         },

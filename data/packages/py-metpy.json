@@ -4,6 +4,14 @@
     "conflicts": [],
     "dependencies": [
         {
+            "description": "Cartopy - a cartographic python library with matplotlib support.",
+            "name": "py-cartopy"
+        },
+        {
+            "description": "Dask is a flexible parallel computing library for analytics.",
+            "name": "py-dask"
+        },
+        {
             "description": "Read metadata from Python packages.",
             "name": "py-importlib-metadata"
         },
@@ -52,6 +60,10 @@
             "name": "py-setuptools-scm"
         },
         {
+            "description": "Manipulation and analysis of geometric objects in the Cartesian plane.",
+            "name": "py-shapely"
+        },
+        {
             "description": "Traitlets Python config system",
             "name": "py-traitlets"
         },
@@ -75,7 +87,7 @@
     "dependent_to": [],
     "description": "Collection of tools for reading, visualizing and performing calculations\nwith weather data.\n",
     "homepage": "https://github.com/Unidata/MetPy",
-    "latest_version": "1.0.1",
+    "latest_version": "1.6.2",
     "maintainers": [
         "dopplershift"
     ],
@@ -87,9 +99,18 @@
             "default": "python_pip",
             "description": "Build systems supported by the package",
             "name": "build_system"
+        },
+        {
+            "default": false,
+            "description": "Enable xarray lazy-loading and advanced plotting",
+            "name": "extras"
         }
     ],
     "versions": [
+        {
+            "name": "1.6.2",
+            "sha256": "eb065bac0d7818587fa38fa6c96dfe720d9d15b59af4e4866541894e267476bb"
+        },
         {
             "name": "1.0.1",
             "sha256": "16fa9806facc24f31f454b898741ec5639a72ba9d4ff8a19ad0e94629d93cb95"

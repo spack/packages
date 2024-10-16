@@ -40,7 +40,7 @@
     ],
     "description": "Python library to send files to Trash/Recycle on all platforms.\n",
     "homepage": "https://github.com/hsoft/send2trash",
-    "latest_version": "1.8.0",
+    "latest_version": "1.8.3",
     "maintainers": [],
     "name": "py-send2trash",
     "patches": [],
@@ -53,6 +53,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.8.3",
+            "sha256": "90bcdf2ed2a18b687040c0f58bfccd6ad2e1b7ec495a9903119dc3c47c615052"
+        },
         {
             "name": "1.8.0",
             "sha256": "937b038abd9f1e7b8c5d7a116be5dc4663beb71df74dcccffe56cacf992c7a9c"

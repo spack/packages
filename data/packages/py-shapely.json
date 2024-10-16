@@ -62,6 +62,10 @@
             "name": "py-imgaug"
         },
         {
+            "description": "Collection of tools for reading, visualizing and performing calculations\nwith weather data.",
+            "name": "py-metpy"
+        },
+        {
             "description": "Geometry Classes and Operations (opendatacube).",
             "name": "py-odc-geo"
         },

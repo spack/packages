@@ -32,6 +32,10 @@
             "name": "gegl"
         },
         {
+            "description": "GNU internationalization (i18n) and localization (l10n) library.",
+            "name": "gettext"
+        },
+        {
             "description": "gexiv2 is a GObject wrapper around the Exiv2 photo metadata library. It\nallows for GNOME applications to easily inspect and update EXIF, IPTC,\nand XMP metadata in photo and video files of various formats.",
             "name": "gexiv2"
         },
@@ -204,7 +208,9 @@
         {
             "name": "2.10.38",
             "sha256": "50a845eec11c8831fe8661707950f5b8446e35f30edfb9acf98f85c1133f856e"
-        },
+        }
+    ],
+    "versions_deprecated": [
         {
             "name": "2.10.32",
             "sha256": "3f15c70554af5dcc1b46e6dc68f3d8f0a6cc9fe56b6d78ac08c0fd859ab89a25"
@@ -225,6 +231,5 @@
             "name": "2.10.24",
             "sha256": "bd1bb762368c0dd3175cf05006812dd676949c3707e21f4e6857435cb435989e"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

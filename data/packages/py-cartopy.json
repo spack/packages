@@ -114,6 +114,10 @@
             "name": "py-graphcast"
         },
         {
+            "description": "Collection of tools for reading, visualizing and performing calculations\nwith weather data.",
+            "name": "py-metpy"
+        },
+        {
             "description": "Create masks of geospatial regions for arbitrary grids",
             "name": "py-regionmask"
         }

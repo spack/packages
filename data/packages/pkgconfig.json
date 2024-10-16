@@ -98,6 +98,10 @@
             "name": "babeltrace"
         },
         {
+            "description": "babl is pixel encoding and color space conversion engine in C. It allows\nconverting between different methods of storing pixels known as pixel\nformats that have with different bitdepths and other data\nrepresentations, color models, color spaces and component permutations.",
+            "name": "babl"
+        },
+        {
             "description": "Bcache is a patch for the Linux kernel to use SSDs to cache other block\ndevices.",
             "name": "bcache"
         },
@@ -506,6 +510,10 @@
             "name": "glib"
         },
         {
+            "description": "Network-related giomodules for glib.",
+            "name": "glib-networking"
+        },
+        {
             "description": "Glibmm is a C++ wrapper for the glib library.",
             "name": "glibmm"
         },
@@ -572,6 +580,10 @@
         {
             "description": "Modified Gromacs for small-angle scattering calculations\n(SAXS/WAXS/SANS)",
             "name": "gromacs-swaxs"
+        },
+        {
+            "description": "gsettings-desktop-schemas contains a collection of GSettings schemas for\nsettings shared by various components of a desktop.",
+            "name": "gsettings-desktop-schemas"
         },
         {
             "description": "The gSOAP toolkit is an extensive suite of portable C and C++ software\nto develop XML Web services with powerful type-safe XML data bindings.",
@@ -842,12 +854,20 @@
             "name": "libjwt"
         },
         {
+            "description": "JPEG XL image format reference implementation.",
+            "name": "libjxl"
+        },
+        {
             "description": "liblbxutil - Low Bandwith X extension (LBX) utility routines.",
             "name": "liblbxutil"
         },
         {
             "description": "Libmetalink is a library to read Metalink XML download description\nformat. It supports both Metalink version 3 and Metalink version 4 (RFC\n5854).",
             "name": "libmetalink"
+        },
+        {
+            "description": "libmypaint - MyPaint brush engine library. This is the brush library\nused by MyPaint. A number of other painting programs use it too.",
+            "name": "libmypaint"
         },
         {
             "description": "libnetfilter_conntrack is a userspace library providing a programming\ninterface (API) to the in-kernel connection tracking state table.",
@@ -2400,6 +2420,10 @@
         {
             "description": "xwud allows X users to display in a window an image saved in a specially\nformatted dump file, such as produced by xwd.",
             "name": "xwud"
+        },
+        {
+            "description": "YARA is a tool aimed at (but not limited to) helping malware researchers\nto identify and classify malware samples",
+            "name": "yara"
         },
         {
             "description": "Yosys is a framework for RTL synthesis tools. It currently has extensive\nVerilog-2005 support and provides a basic set of synthesis algorithms\nfor various application domains. Yosys can be adapted to perform any\nsynthesis job by combining the existing passes (algorithms) using\nsynthesis scripts and adding additional passes as needed by extending\nthe yosys C++ code base. Yosys is free software licensed under the ISC\nlicense (a GPL compatible license that is similar in terms to the MIT\nlicense or the 2-clause BSD license).",

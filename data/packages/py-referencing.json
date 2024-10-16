@@ -44,6 +44,10 @@
         {
             "description": "The JSON Schema meta-schemas and vocabularies, exposed as a Registry.",
             "name": "py-jsonschema-specifications"
+        },
+        {
+            "description": "Jupyter Event System library.",
+            "name": "py-jupyter-events"
         }
     ],
     "description": "JSON Referencing + Python.\n",

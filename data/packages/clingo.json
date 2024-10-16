@@ -94,15 +94,6 @@
             "sha256": "27e06d9e4173211db5918a214f97b9455f93e25660cc01f92f43e9f33b446aa9",
             "version": "@:5.7.0%msvc@19.38:",
             "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.clingo",
-            "relative_path": "PyEval_InitThreads.patch",
-            "reverse": false,
-            "sha256": "0db04f3e3ed40c26cb424892f84615e18297ea8cd943347327ab951f7b3ee7ce",
-            "version": "@spack,5.3:5.4 ^python@3.9:",
-            "working_dir": "."
         }
     ],
     "resources": [],

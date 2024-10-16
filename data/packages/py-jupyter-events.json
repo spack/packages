@@ -24,6 +24,10 @@
             "name": "py-pyyaml"
         },
         {
+            "description": "JSON Referencing + Python.",
+            "name": "py-referencing"
+        },
+        {
             "description": "A pure python RFC3339 validator.",
             "name": "py-rfc3339-validator"
         },
@@ -56,7 +60,7 @@
     ],
     "description": "Jupyter Event System library.\n",
     "homepage": "https://github.com/jupyter/jupyter_events",
-    "latest_version": "0.6.3",
+    "latest_version": "0.10.0",
     "maintainers": [],
     "name": "py-jupyter-events",
     "patches": [],
@@ -69,6 +73,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.10.0",
+            "sha256": "670b8229d3cc882ec782144ed22e0d29e1c2d639263f92ca8383e66682845e22"
+        },
         {
             "name": "0.6.3",
             "sha256": "9a6e9995f75d1b7146b436ea24d696ce3a35bfa8bfe45e0c33c334c79464d0b3"

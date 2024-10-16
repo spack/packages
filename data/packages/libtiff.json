@@ -290,7 +290,7 @@
     ],
     "description": "LibTIFF - Tag Image File Format (TIFF) Library and Utilities.\n",
     "homepage": "http://www.simplesystems.org/libtiff/",
-    "latest_version": "4.6.0",
+    "latest_version": "4.7.0",
     "maintainers": [
         "adamjstewart"
     ],
@@ -421,6 +421,12 @@
     ],
     "versions": [
         {
+            "name": "4.7.0",
+            "sha256": "67160e3457365ab96c5b3286a0903aa6e78bdc44c4bc737d2e486bcecb6ba976"
+        }
+    ],
+    "versions_deprecated": [
+        {
             "name": "4.6.0",
             "sha256": "88b3979e6d5c7e32b50d7ec72fb15af724f6ab2cbf7e10880c360a77e4b5d99a"
         },
@@ -480,6 +486,5 @@
             "name": "3.9.7",
             "sha256": "f5d64dd4ce61c55f5e9f6dc3920fbe5a41e02c2e607da7117a35eb5c320cef6a"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }
