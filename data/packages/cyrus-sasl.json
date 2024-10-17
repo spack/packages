@@ -4,6 +4,11 @@
     "conflicts": [
         {
             "description": null,
+            "name": "%gcc@14:",
+            "spec": "@:2.1.26"
+        },
+        {
+            "description": null,
             "name": "arch=windows-None-None",
             "spec": "build_system=autotools"
         }
@@ -57,7 +62,17 @@
     "latest_version": "2.1.28",
     "maintainers": [],
     "name": "cyrus-sasl",
-    "patches": [],
+    "patches": [
+        {
+            "level": 1,
+            "owner": "builtin.cyrus-sasl",
+            "reverse": false,
+            "sha256": "819342fe68475ac1690136ff4ce9b73c028f433ae150898add36f724a8e2274b",
+            "url": "https://github.com/cyrusimap/cyrus-sasl/commit/266f0acf7f5e029afbb3e263437039e50cd6c262.patch?full_index=1",
+            "version": "@2.1.27:2.1.28",
+            "working_dir": "."
+        }
+    ],
     "resources": [],
     "variants": [
         {

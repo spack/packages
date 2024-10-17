@@ -191,6 +191,10 @@
             "name": "isescan"
         },
         {
+            "description": "IsoQuant: Transcript discovery and quantification with long RNA reads",
+            "name": "isoquant"
+        },
+        {
             "description": "ldsc is a command line tool for estimating heritability and genetic\ncorrelation from GWAS summary statistics. ldsc also computes LD scores",
             "name": "ldsc"
         },

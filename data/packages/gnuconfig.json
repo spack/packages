@@ -2981,10 +2981,6 @@
             "name": "maq"
         },
         {
-            "description": "A library that provides Argobots bindings to the Mercury RPC\nimplementation. This name will be deprecated soon; please use the mochi-\nmargo package instead.",
-            "name": "margo"
-        },
-        {
             "description": "MASA (Manufactured Analytical Solution Abstraction) is a library written\nin C++ (with C, python and Fortran90 interfaces) which provides a suite\nof manufactured solutions for the software verification of partial\ndifferential equation solvers in multiple dimensions.",
             "name": "masa"
         },
@@ -5207,7 +5203,7 @@
     ],
     "description": " The GNU config.guess and config.sub scripts versioned by timestamp.\nThis package can be used as a build dependency for autotools packages\nthat ship a tarball with outdated config.guess and config.sub files.\n",
     "homepage": "https://www.gnu.org/software/config/",
-    "latest_version": "2022-09-17",
+    "latest_version": "2024-07-27",
     "maintainers": [
         "haampie"
     ],
@@ -5225,6 +5221,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "2024-07-27",
+            "sha256": "1135044961853c7f116145cee9bb15c3d29b1b081cf8293954efd0f05d801a7c"
         },
         {
             "name": "2022-09-17",

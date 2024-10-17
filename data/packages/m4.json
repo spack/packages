@@ -880,10 +880,6 @@
             "name": "lxc"
         },
         {
-            "description": "A library that provides Argobots bindings to the Mercury RPC\nimplementation. This name will be deprecated soon; please use the mochi-\nmargo package instead.",
-            "name": "margo"
-        },
-        {
             "description": "Fast genome and metagenome distance estimation using MinHash.",
             "name": "mash"
         },

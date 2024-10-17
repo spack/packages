@@ -25,6 +25,10 @@
             "name": "pil"
         },
         {
+            "alias_for": "py-pillow@11.0.0",
+            "name": "pil"
+        },
+        {
             "alias_for": "py-pillow@6.2.1",
             "name": "pil"
         },
@@ -86,13 +90,7 @@
         }
     ],
     "build_system": "PythonPackage",
-    "conflicts": [
-        {
-            "description": null,
-            "name": "+raqm",
-            "spec": "~freetype"
-        }
-    ],
+    "conflicts": [],
     "dependencies": [
         {
             "description": "FreeType is a freely available software library to render fonts. It is\nwritten in C, designed to be small, efficient, highly customizable, and\nportable while capable of producing high-quality output (glyph images)\nof most vector and bitmap font formats.",
@@ -203,7 +201,7 @@
     ],
     "description": "Pillow is a fork of the Python Imaging Library (PIL). It adds image\nprocessing capabilities to your Python interpreter. This library\nsupports many file formats, and provides powerful image processing and\ngraphics capabilities.\n",
     "homepage": "https://python-pillow.org/",
-    "latest_version": "10.4.0",
+    "latest_version": "11.0.0",
     "maintainers": [
         "adamjstewart"
     ],
@@ -273,6 +271,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "11.0.0",
+            "sha256": "72bacbaf24ac003fea9bff9837d1eedb6088758d41e100c1552930151f677739"
+        },
         {
             "name": "10.4.0",
             "sha256": "166c1cd4d24309b30d61f79f4a9114b7b2313d7450912277855ff5dfd7cd4a06"

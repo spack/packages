@@ -308,6 +308,10 @@
             "name": "isescan"
         },
         {
+            "description": "IsoQuant: Transcript discovery and quantification with long RNA reads",
+            "name": "isoquant"
+        },
+        {
             "description": "LAMMPS stands for Large-scale Atomic/Molecular Massively Parallel\nSimulator.",
             "name": "lammps"
         },

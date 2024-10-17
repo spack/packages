@@ -27,11 +27,6 @@
             "description": null,
             "name": "arch=None-None-aarch64:",
             "spec": ""
-        },
-        {
-            "description": null,
-            "name": "+raqm",
-            "spec": "~freetype"
         }
     ],
     "dependencies": [

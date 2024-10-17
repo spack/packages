@@ -64,7 +64,7 @@
     ],
     "description": "Python interface to map GRIB files to the NetCDF Common Data Model\nfollowing the CF Convention using ecCodes.\n",
     "homepage": "https://github.com/ecmwf/cfgrib",
-    "latest_version": "0.9.10.4",
+    "latest_version": "0.9.14.1",
     "maintainers": [],
     "name": "py-cfgrib",
     "patches": [],
@@ -82,6 +82,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.9.14.1",
+            "sha256": "a6e66e8a3d8f9823d3eef0c2c6ebca602d5bcc324f0baf4f3d13f68b0b40501e"
+        },
         {
             "name": "0.9.10.4",
             "sha256": "b490078192aa13ec89c77296110355521442325866b16a996f4b3cf421542909"

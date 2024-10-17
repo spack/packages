@@ -3046,6 +3046,10 @@
             "name": "py-flask-socketio"
         },
         {
+            "description": "Add SQLAlchemy support to your Flask application.",
+            "name": "py-flask-sqlalchemy"
+        },
+        {
             "description": "The FlatBuffers serialization format implemented in Python. For a\nfaster and feature-complete version check out the C++ implementation in\n`flatbuffers` package.",
             "name": "py-flatbuffers"
         },

@@ -66,6 +66,10 @@
             "name": "hybpiper"
         },
         {
+            "description": "IsoQuant: Transcript discovery and quantification with long RNA reads",
+            "name": "isoquant"
+        },
+        {
             "description": "MapSplice is a software for mapping RNA-seq data to reference genome for\nsplice junction discovery that depends only on reference genome, and not\non any further annotations.",
             "name": "mapsplice2"
         },

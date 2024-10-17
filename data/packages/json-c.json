@@ -68,10 +68,6 @@
             "name": "libmypaint"
         },
         {
-            "description": "A library that provides Argobots bindings to the Mercury RPC\nimplementation. This name will be deprecated soon; please use the mochi-\nmargo package instead.",
-            "name": "margo"
-        },
-        {
             "description": "A library that provides Argobots bindings to the Mercury RPC\nimplementation.",
             "name": "mochi-margo"
         },

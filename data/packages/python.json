@@ -939,6 +939,10 @@
             "name": "iso-codes"
         },
         {
+            "description": "IsoQuant: Transcript discovery and quantification with long RNA reads",
+            "name": "isoquant"
+        },
+        {
             "description": "Intel Implicit SPMD Program Compiler An open-source compiler for high-\nperformance SIMD programming on the CPU",
             "name": "ispc"
         },

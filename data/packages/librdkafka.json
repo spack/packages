@@ -29,7 +29,7 @@
     "dependent_to": [],
     "description": "librdkafka is a C library implementation of the Apache Kafka protocol.\n",
     "homepage": "https://github.com/edenhill/librdkafka",
-    "latest_version": "2.2.0",
+    "latest_version": "2.5.3",
     "maintainers": [],
     "name": "librdkafka",
     "patches": [],
@@ -42,6 +42,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.5.3",
+            "sha256": "eaa1213fdddf9c43e28834d9a832d9dd732377d35121e42f875966305f52b8ff"
+        },
         {
             "name": "2.2.0",
             "sha256": "af9a820cbecbc64115629471df7c7cecd40403b6c34bfdbb9223152677a47226"

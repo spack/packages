@@ -108,7 +108,12 @@
             "name": "zstd"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "Hermes is a heterogeneous-aware, multi-tiered, dynamic, and distributed\nI/O buffering system that aims to significantly accelerate I/O\nperformance.",
+            "name": "hermes"
+        }
+    ],
     "description": "Hermes Shared Memory contains a variety of data structures and\nsynchronization primitives which are compatible with shared memory.\n",
     "homepage": "https://github.com/grc-iit/hermes-shm/wiki",
     "latest_version": "1.1.0",

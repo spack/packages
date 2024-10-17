@@ -32,7 +32,12 @@
             "name": "python-venv"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "Hermes is a heterogeneous-aware, multi-tiered, dynamic, and distributed\nI/O buffering system that aims to significantly accelerate I/O\nperformance.",
+            "name": "hermes"
+        }
+    ],
     "description": "Jarvis-util is a library which contains various utilities to aid with\ncreating shell scripts within Python. This library contains wrappers for\nexecuting shell commands locally, SSH, SCP, MPI, argument parsing, and\nvarious other random utilities.\n",
     "homepage": "https://github.com/scs-lab/jarvis-util",
     "latest_version": "0.0.1",

@@ -622,6 +622,10 @@
             "name": "hdf5"
         },
         {
+            "description": "Hermes is a heterogeneous-aware, multi-tiered, dynamic, and distributed\nI/O buffering system that aims to significantly accelerate I/O\nperformance.",
+            "name": "hermes"
+        },
+        {
             "description": "Hermes Shared Memory contains a variety of data structures and\nsynchronization primitives which are compatible with shared memory.",
             "name": "hermes-shm"
         },
@@ -768,6 +772,10 @@
         {
             "description": "libcanberra is an implementation of the XDG Sound Theme and Name\nSpecifications, for generating event sounds on free desktops, such as\nGNOME.",
             "name": "libcanberra"
+        },
+        {
+            "description": "Catalyst is an API specification developed for simulations (and other\nscientific data producers) to analyze and visualize data in situ.",
+            "name": "libcatalyst"
         },
         {
             "description": "libcircle provides an efficient distributed queue on a cluster, using\nself-stabilizing work stealing.",
@@ -1224,10 +1232,6 @@
         {
             "description": "man-db is an implementation of the standard Unix documentation system\naccessed using the man command. It uses a Berkeley DB database in place\nof the traditional flat-text whatis databases.",
             "name": "man-db"
-        },
-        {
-            "description": "A library that provides Argobots bindings to the Mercury RPC\nimplementation. This name will be deprecated soon; please use the mochi-\nmargo package instead.",
-            "name": "margo"
         },
         {
             "description": "MariaDB Server is one of the most popular database servers in the world.\nMariaDB turns data into structured information in a wide array of\napplications, ranging from banking to websites. It is an enhanced, drop-\nin replacement for MySQL. MariaDB is used because it is fast, scalable\nand robust, with a rich ecosystem of storage engines, plugins and many\nother tools make it very versatile for a wide variety of use cases.",

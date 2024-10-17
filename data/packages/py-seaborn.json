@@ -62,6 +62,10 @@
             "name": "hybpiper"
         },
         {
+            "description": "IsoQuant: Transcript discovery and quantification with long RNA reads",
+            "name": "isoquant"
+        },
+        {
             "description": "Python package to automate ABINIT calculations and analyze the results.",
             "name": "py-abipy"
         },

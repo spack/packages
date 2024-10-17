@@ -24,6 +24,10 @@
             "name": "ninja"
         },
         {
+            "description": "pkgconf is a program which helps to configure compiler and linker flags\nfor development frameworks. It is similar to pkg-config from\nfreedesktop.org, providing additional functionality while also\nmaintaining compatibility.",
+            "name": "pkgconfig"
+        },
+        {
             "description": "Fundamental package for array computing in Python.",
             "name": "py-numpy"
         },

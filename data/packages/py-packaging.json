@@ -42,6 +42,10 @@
     ],
     "dependent_to": [
         {
+            "description": "IsoQuant: Transcript discovery and quantification with long RNA reads",
+            "name": "isoquant"
+        },
+        {
             "description": "MongoDB is a source-available cross-platform document-oriented database\nprogram. Classified as a NoSQL database program, MongoDB uses JSON-like\ndocuments with optional schemas.",
             "name": "mongodb"
         },

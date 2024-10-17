@@ -6,7 +6,7 @@
     "dependent_to": [],
     "description": "The minimalist bootstrap toolset for conda and Python3.\n",
     "homepage": "https://docs.anaconda.com/miniconda/",
-    "latest_version": "24.3.0",
+    "latest_version": "24.7.1",
     "maintainers": [],
     "name": "miniconda3",
     "patches": [],
@@ -19,6 +19,21 @@
         }
     ],
     "versions": [
+        {
+            "name": "24.7.1",
+            "sha256": "33442cd3813df33dcbb4a932b938ee95398be98344dff4c30f7e757cd2110e4f",
+            "url": "https://repo.anaconda.com/miniconda/Miniconda3-py312_24.7.1-0-Linux-x86_64.sh"
+        },
+        {
+            "name": "24.5.0",
+            "sha256": "4b3b3b1b99215e85fd73fb2c2d7ebf318ac942a457072de62d885056556eb83e",
+            "url": "https://repo.anaconda.com/miniconda/Miniconda3-py312_24.5.0-0-Linux-x86_64.sh"
+        },
+        {
+            "name": "24.4.0",
+            "sha256": "b6597785e6b071f1ca69cf7be6d0161015b96340b9a9e132215d5713408c3a7c",
+            "url": "https://repo.anaconda.com/miniconda/Miniconda3-py312_24.4.0-0-Linux-x86_64.sh"
+        },
         {
             "name": "24.3.0",
             "sha256": "96a44849ff17e960eeb8877ecd9055246381c4d4f2d031263b63fa7e2e930af1",

@@ -129,6 +129,11 @@
             "default": true,
             "description": "Use PAPI to collect performance counters",
             "name": "papi"
+        },
+        {
+            "default": false,
+            "description": "Enable single MPI instrumentation library that supports both Fortran and C",
+            "name": "single-mpi-lib"
         }
     ],
     "versions": [

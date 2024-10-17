@@ -145,6 +145,10 @@
             "name": "hipsparselt"
         },
         {
+            "description": "IsoQuant: Transcript discovery and quantification with long RNA reads",
+            "name": "isoquant"
+        },
+        {
             "description": "The Juelich benchmarking environment (JUBE) provides a script based\nframework to easily create benchmark sets, run those sets on different\ncomputer systems and evaluate the results.",
             "name": "jube"
         },

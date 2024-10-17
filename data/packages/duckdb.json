@@ -62,7 +62,7 @@
     "dependent_to": [],
     "description": "DuckDB is an in-process SQL OLAP Database Management System.\n",
     "homepage": "https://duckdb.org",
-    "latest_version": "1.1.1",
+    "latest_version": "1.1.2",
     "maintainers": [
         "glentner",
         "teaguesterling"
@@ -171,6 +171,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "1.1.2",
+            "sha256": "a3319a64c390ed0454c869b2e4fc0af2413cd49f55cd0f1400aaed9069cdbc4c"
         },
         {
             "name": "1.1.1",

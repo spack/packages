@@ -220,6 +220,10 @@
             "name": "pnmpi"
         },
         {
+            "description": "PURIFY is an open-source collection of routines written in C++ available\nunder the license below. It implements different tools and high-level to\nperform radio interferometric imaging, i.e. to recover images from the\nFourier measurements taken by radio interferometric telescopes.",
+            "name": "purify"
+        },
+        {
             "description": "This is an extension to reStructuredText and Sphinx to be able to read\nand render the Doxygen xml output.",
             "name": "py-breathe"
         },

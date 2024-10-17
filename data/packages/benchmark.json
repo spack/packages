@@ -26,6 +26,10 @@
             "name": "mdspan"
         },
         {
+            "description": "PURIFY is an open-source collection of routines written in C++ available\nunder the license below. It implements different tools and high-level to\nperform radio interferometric imaging, i.e. to recover images from the\nFourier measurements taken by radio interferometric telescopes.",
+            "name": "purify"
+        },
+        {
             "description": "Tensors and Dynamic neural networks in Python with strong GPU\nacceleration.",
             "name": "py-torch"
         },

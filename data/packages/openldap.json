@@ -3,6 +3,11 @@
     "build_system": "AutotoolsPackage",
     "conflicts": [
         {
+            "description": "openldap: Newer C compilers required 2.6.5 or newer",
+            "name": "%gcc@14:",
+            "spec": "@:2.6.4"
+        },
+        {
             "description": null,
             "name": "arch=windows-None-None",
             "spec": "build_system=autotools"
@@ -95,7 +100,7 @@
     ],
     "description": " OpenLDAP Software is an open source implementation of the Lightweight\nDirectory Access Protocol. The suite includes: slapd - stand-alone LDAP\ndaemon (server) libraries implementing the LDAP protocol, and utilities,\ntools, and sample clients.\n",
     "homepage": "https://www.openldap.org/",
-    "latest_version": "2.6.4",
+    "latest_version": "2.6.8",
     "maintainers": [],
     "name": "openldap",
     "patches": [],
@@ -153,6 +158,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.6.8",
+            "sha256": "48969323e94e3be3b03c6a132942dcba7ef8d545f2ad35401709019f696c3c4e"
+        },
         {
             "name": "2.6.4",
             "sha256": "d51704e50178430c06cf3d8aa174da66badf559747a47d920bb54b2d4aa40991"

@@ -44,6 +44,10 @@
     ],
     "dependent_to": [
         {
+            "description": "IsoQuant: Transcript discovery and quantification with long RNA reads",
+            "name": "isoquant"
+        },
+        {
             "description": "Liftoff is a tool that accurately maps annotations in GFF or GTF between\nassemblies of the same, or closely-related species.",
             "name": "liftoff"
         },

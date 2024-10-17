@@ -28,10 +28,6 @@
             "name": "discotec"
         },
         {
-            "description": "Hermes is a heterogeneous-aware, multi-tiered, dynamic, and distributed\nI/O buffering system that aims to significantly accelerate I/O\nperformance.",
-            "name": "hermes"
-        },
-        {
             "description": "igraph is a library for creating and manipulating graphs.",
             "name": "igraph"
         },

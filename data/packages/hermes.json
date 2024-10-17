@@ -1,35 +1,29 @@
 {
     "aliases": [],
     "build_system": "CMakePackage",
-    "conflicts": [],
-    "dependencies": [
+    "conflicts": [
         {
-            "description": "Catch2 is a multi-paradigm test framework for C++, which also supports\nObjective-C (and maybe C).",
-            "name": "catch2"
-        },
+            "description": "hermes: +mpio does not support nvhpc MPI",
+            "name": "^[virtuals=mpi] nvhpc",
+            "spec": "+mpiio"
+        }
+    ],
+    "dependencies": [
         {
             "description": "A cross-platform, open-source build system. CMake is a family of tools\ndesigned to build, test and package software.",
             "name": "cmake"
-        },
-        {
-            "description": "C++ implementation of the Google logging module.",
-            "name": "glog"
-        },
-        {
-            "description": "The GLPK (GNU Linear Programming Kit) package is intended for solving\nlarge-scale linear programming (LP), mixed integer programming (MIP),\nand other related problems. It is a set of routines written in ANSI C\nand organized in the form of a callable library.",
-            "name": "glpk"
         },
         {
             "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
             "name": "gmake"
         },
         {
-            "description": "HDF5 is a data model, library, and file format for storing and managing\ndata. It supports an unlimited variety of datatypes, and is designed for\nflexible and efficient I/O and for high volume and complex data.",
-            "name": "hdf5"
+            "description": "Hermes Shared Memory contains a variety of data structures and\nsynchronization primitives which are compatible with shared memory.",
+            "name": "hermes-shm"
         },
         {
-            "description": "A Mochi C++14 library wrapping Margo, Mercury, and Argobots and\nproviding an object-oriented way to use these libraries.",
-            "name": "mochi-thallium"
+            "description": "libelf lets you read, modify or create ELF object files in an\narchitecture-independent way. The library takes care of size and endian\nissues, e.g. you can process a file for SPARC processors on an Intel-\nbased system. Note: libelf is no longer maintained and packages that\ndepend on libelf should migrate to elfutils.",
+            "name": "libelf"
         },
         {
             "description": "IBM MPI implementation from Spectrum MPI.",
@@ -40,21 +34,36 @@
             "name": "ninja"
         },
         {
-            "description": "A YAML parser and emitter in C++",
-            "name": "yaml-cpp"
+            "description": "pkgconf is a program which helps to configure compiler and linker flags\nfor development frameworks. It is similar to pkg-config from\nfreedesktop.org, providing additional functionality while also\nmaintaining compatibility.",
+            "name": "pkgconfig"
+        },
+        {
+            "description": "Jarvis-util is a library which contains various utilities to aid with\ncreating shell scripts within Python. This library contains wrappers for\nexecuting shell commands locally, SSH, SCP, MPI, argument parsing, and\nvarious other random utilities.",
+            "name": "py-jarvis-util"
         }
     ],
     "dependent_to": [],
     "description": " Hermes is a heterogeneous-aware, multi-tiered, dynamic, and distributed\nI/O buffering system that aims to significantly accelerate I/O\nperformance.\n",
-    "homepage": "http://www.cs.iit.edu/~scs/assets/projects/Hermes/Hermes.html",
-    "latest_version": "0.9.0-beta",
+    "homepage": "https://grc.iit.edu/research/projects/hermes",
+    "latest_version": "1.2.1",
     "maintainers": [
-        "hyoklee"
+        "hyoklee",
+        "lukemartinlogan"
     ],
     "name": "hermes",
     "patches": [],
     "resources": [],
     "variants": [
+        {
+            "default": false,
+            "description": "Build Adios tests",
+            "name": "adios"
+        },
+        {
+            "default": false,
+            "description": "Enable full libfabric install",
+            "name": "ares"
+        },
         {
             "default": "cmake",
             "description": "Build systems supported by the package",
@@ -64,6 +73,16 @@
             "default": "Release",
             "description": "CMake build type",
             "name": "build_type"
+        },
+        {
+            "default": false,
+            "description": "Enable compression",
+            "name": "compress"
+        },
+        {
+            "default": false,
+            "description": "Enable encryption",
+            "name": "encrypt"
         },
         {
             "default": "make",
@@ -76,15 +95,40 @@
             "name": "ipo"
         },
         {
+            "default": true,
+            "description": "Enable MPI I/O adapter",
+            "name": "mpiio"
+        },
+        {
+            "default": false,
+            "description": "Build Python Wrapper",
+            "name": "python"
+        },
+        {
+            "default": true,
+            "description": "Enable STDIO adapter",
+            "name": "stdio"
+        },
+        {
             "default": false,
             "description": "Enable HDF5 VFD",
             "name": "vfd"
+        },
+        {
+            "default": false,
+            "description": "Build ZeroMQ tests",
+            "name": "zmq"
         }
     ],
     "versions": [
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "1.2.1",
+            "sha256": "d60ee5d6856dc1a1f389fb08f61252cc7736d1c38d3049043749640897fe3b6d",
+            "url": "https://github.com/HDFGroup/hermes/archive/refs/tags/v1.2.1.tar.gz"
         },
         {
             "name": "0.9.0-beta",

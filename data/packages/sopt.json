@@ -42,9 +42,18 @@
         {
             "description": "Open Neural Network Exchange (ONNX). ONNX provides an open source format\nfor AI models, both deep learning and traditional ML. It defines an\nextensible computation graph model, as well as definitions of built-in\noperators and standard data types.",
             "name": "onnx"
+        },
+        {
+            "description": "ONNX Runtime is a performance-focused complete scoring engine for Open\nNeural Network Exchange (ONNX) models, with an open extensible\narchitecture to continually address the latest developments in AI and\nDeep Learning. ONNX Runtime stays up to date with the ONNX standard with\ncomplete implementation of all ONNX operators, and supports all ONNX\nreleases (1.2+) with both future and backwards compatibility.",
+            "name": "py-onnxruntime"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "PURIFY is an open-source collection of routines written in C++ available\nunder the license below. It implements different tools and high-level to\nperform radio interferometric imaging, i.e. to recover images from the\nFourier measurements taken by radio interferometric telescopes.",
+            "name": "purify"
+        }
+    ],
     "description": "SOPT is an open-source C++ package available under the license below. It\nperforms Sparse OPTimisation using state-of-the-art convex optimisation\nalgorithms. It solves a variety of sparse regularisation problems,\nincluding the Sparsity Averaging Reweighted Analysis (SARA) algorithm.\n",
     "homepage": "https://astro-informatics.github.io/sopt/",
     "latest_version": "4.2.0",

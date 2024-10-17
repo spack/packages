@@ -82,10 +82,6 @@
             "name": "flux-sched"
         },
         {
-            "description": "Hermes is a heterogeneous-aware, multi-tiered, dynamic, and distributed\nI/O buffering system that aims to significantly accelerate I/O\nperformance.",
-            "name": "hermes"
-        },
-        {
             "description": "Hermes Shared Memory contains a variety of data structures and\nsynchronization primitives which are compatible with shared memory.",
             "name": "hermes-shm"
         },
@@ -124,6 +120,10 @@
         {
             "description": "Parallel mesh refinement and adaptivity tools for the finite element\nmethod.",
             "name": "percept"
+        },
+        {
+            "description": "PURIFY is an open-source collection of routines written in C++ available\nunder the license below. It implements different tools and high-level to\nperform radio interferometric imaging, i.e. to recover images from the\nFourier measurements taken by radio interferometric telescopes.",
+            "name": "purify"
         },
         {
             "description": "A low-level profiler for capture I/O calls from deep learning\napplications.",

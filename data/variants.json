@@ -316,6 +316,10 @@
         },
         {
             "default": false,
+            "package": "hermes"
+        },
+        {
+            "default": false,
             "package": "hermes-shm"
         },
         {
@@ -1470,6 +1474,10 @@
     "ares": [
         {
             "default": false,
+            "package": "hermes"
+        },
+        {
+            "default": false,
             "package": "hermes-shm"
         }
     ],
@@ -2347,6 +2355,10 @@
         {
             "default": false,
             "package": "mppp"
+        },
+        {
+            "default": false,
+            "package": "purify"
         },
         {
             "default": true,
@@ -9129,6 +9141,10 @@
             "package": "iso-codes"
         },
         {
+            "default": "generic",
+            "package": "isoquant"
+        },
+        {
             "default": "cmake",
             "package": "ispc"
         },
@@ -11455,10 +11471,6 @@
         {
             "default": "autotools",
             "package": "maq"
-        },
-        {
-            "default": "autotools",
-            "package": "margo"
         },
         {
             "default": "cmake",
@@ -16411,6 +16423,10 @@
         {
             "default": "cmake",
             "package": "pumi"
+        },
+        {
+            "default": "cmake",
+            "package": "purify"
         },
         {
             "default": "autotools",
@@ -39502,6 +39518,10 @@
         },
         {
             "default": "Release",
+            "package": "purify"
+        },
+        {
+            "default": "Release",
             "package": "py-amrex"
         },
         {
@@ -42400,6 +42420,10 @@
     "compress": [
         {
             "default": false,
+            "package": "hermes"
+        },
+        {
+            "default": false,
             "package": "hermes-shm"
         },
         {
@@ -42737,6 +42761,10 @@
         {
             "default": false,
             "package": "dihydrogen"
+        },
+        {
+            "default": false,
+            "package": "purify"
         },
         {
             "default": false,
@@ -47596,6 +47624,10 @@
         },
         {
             "default": false,
+            "package": "purify"
+        },
+        {
+            "default": false,
             "package": "py-dask-ml"
         },
         {
@@ -48412,6 +48444,10 @@
         }
     ],
     "encrypt": [
+        {
+            "default": false,
+            "package": "hermes"
+        },
         {
             "default": false,
             "package": "hermes-shm"
@@ -54921,6 +54957,10 @@
         {
             "default": "make",
             "package": "pumi"
+        },
+        {
+            "default": "make",
+            "package": "purify"
         },
         {
             "default": "make",
@@ -63149,6 +63189,10 @@
             "package": "pumi"
         },
         {
+            "default": false,
+            "package": "purify"
+        },
+        {
             "default": true,
             "package": "py-amrex"
         },
@@ -69536,6 +69580,10 @@
         },
         {
             "default": true,
+            "package": "purify"
+        },
+        {
+            "default": true,
             "package": "py-adios"
         },
         {
@@ -70001,6 +70049,10 @@
         {
             "default": true,
             "package": "gslib"
+        },
+        {
+            "default": true,
+            "package": "hermes"
         },
         {
             "default": true,
@@ -72817,6 +72869,10 @@
         {
             "default": false,
             "package": "portage"
+        },
+        {
+            "default": true,
+            "package": "purify"
         },
         {
             "default": false,
@@ -76404,6 +76460,10 @@
         },
         {
             "default": false,
+            "package": "caliper"
+        },
+        {
+            "default": false,
             "package": "cantera"
         },
         {
@@ -76521,6 +76581,10 @@
         {
             "default": false,
             "package": "hepmc3"
+        },
+        {
+            "default": false,
+            "package": "hermes"
         },
         {
             "default": false,
@@ -81227,6 +81291,12 @@
             "package": "pgi"
         }
     ],
+    "single-mpi-lib": [
+        {
+            "default": false,
+            "package": "extrae"
+        }
+    ],
     "single_cov_cat": [
         {
             "default": false,
@@ -82421,6 +82491,12 @@
         {
             "default": false,
             "package": "babelstream"
+        }
+    ],
+    "stdio": [
+        {
+            "default": true,
+            "package": "hermes"
         }
     ],
     "stdranges": [
@@ -84011,6 +84087,10 @@
         {
             "default": false,
             "package": "pnmpi"
+        },
+        {
+            "default": true,
+            "package": "purify"
         },
         {
             "default": false,
@@ -87551,6 +87631,10 @@
         {
             "default": true,
             "package": "helics"
+        },
+        {
+            "default": false,
+            "package": "hermes"
         },
         {
             "default": false,

@@ -1144,10 +1144,6 @@
             "name": "lxc"
         },
         {
-            "description": "A library that provides Argobots bindings to the Mercury RPC\nimplementation. This name will be deprecated soon; please use the mochi-\nmargo package instead.",
-            "name": "margo"
-        },
-        {
             "description": "MASA (Manufactured Analytical Solution Abstraction) is a library written\nin C++ (with C, python and Fortran90 interfaces) which provides a suite\nof manufactured solutions for the software verification of partial\ndifferential equation solvers in multiple dimensions.",
             "name": "masa"
         },

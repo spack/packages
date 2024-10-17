@@ -59,7 +59,7 @@
             "reverse": false,
             "sha256": "e2a0810fbf68403931bef4fbfda22e010e01421c92eeaa45f62e4e47f2381ebd",
             "url": "https://patch-diff.githubusercontent.com/raw/frankheckenbach/ftgl/pull/20.patch?full_index=1",
-            "version": "@2.4.0",
+            "version": "^freetype@2.13.3:",
             "working_dir": "."
         }
     ],

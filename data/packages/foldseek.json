@@ -35,7 +35,7 @@
     "dependent_to": [],
     "description": "Foldseek enables fast and sensitive comparisons of large protein\nstructure sets\n",
     "homepage": "https://foldseek.com/",
-    "latest_version": "8-ef4e960",
+    "latest_version": "9-427df8a",
     "maintainers": [],
     "name": "foldseek",
     "patches": [],
@@ -63,6 +63,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "9-427df8a",
+            "sha256": "b17d2d85b49a8508f79ffd8b15e54afc5feef5f3fb0276a291141ca5dbbbe8bc"
+        },
         {
             "name": "8-ef4e960",
             "sha256": "c74d02c4924d20275cc567783b56fff10e76ed67f3d642f53c283f67c4180a1e"

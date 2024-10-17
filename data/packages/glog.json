@@ -38,10 +38,6 @@
             "name": "gnina"
         },
         {
-            "description": "Hermes is a heterogeneous-aware, multi-tiered, dynamic, and distributed\nI/O buffering system that aims to significantly accelerate I/O\nperformance.",
-            "name": "hermes"
-        },
-        {
             "description": "OpenCV (Open Source Computer Vision Library) is an open source computer\nvision and machine learning software library.",
             "name": "opencv"
         },

@@ -238,6 +238,10 @@
             "name": "psrchive"
         },
         {
+            "description": "PURIFY is an open-source collection of routines written in C++ available\nunder the license below. It implements different tools and high-level to\nperform radio interferometric imaging, i.e. to recover images from the\nFourier measurements taken by radio interferometric telescopes.",
+            "name": "purify"
+        },
+        {
             "description": "MELD is a tool for inferring the structure of biomolecules from sparse,\nambiguous, or noisy data.",
             "name": "py-meldmd"
         },
