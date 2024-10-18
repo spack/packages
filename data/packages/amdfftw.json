@@ -147,7 +147,7 @@
     ],
     "description": "FFTW (AMD Optimized version) is a comprehensive collection of fast C\nroutines for computing the Discrete Fourier Transform (DFT) and various\nspecial cases thereof. It is an open-source implementation of the Fast\nFourier transform algorithm. It can compute transforms of real and\ncomplex-values arrays of arbitrary size and dimension. AMD Optimized\nFFTW is the optimized FFTW implementation targeted for AMD CPUs. For\nsingle precision build, please use precision value as float. Example :\nspack install amdfftw precision=float LICENSING INFORMATION: By\ndownloading, installing and using this software, you agree to the terms\nand conditions of the AMD AOCL-FFTW license agreement. You may obtain a\ncopy of this license agreement from\nhttps://www.amd.com/en/developer/aocl/fftw/eula/fftw-\nlibraries-4-2-eula.html\nhttps://www.amd.com/en/developer/aocl/fftw/eula/fftw-libraries-eula.html\n",
     "homepage": "https://www.amd.com/en/developer/aocl/fftw.html",
-    "latest_version": "4.2",
+    "latest_version": "5.0",
     "maintainers": [
         "amd-toolchain-support"
     ],
@@ -227,6 +227,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "5.0",
+            "sha256": "bead6c08309a206f8a6258971272affcca07f11eb57b5ecd8496e2e7e3ead877"
+        },
         {
             "name": "4.2",
             "sha256": "391ef7d933e696762e3547a35b58ab18d22a6cf3e199c74889bcf25a1d1fc89b"

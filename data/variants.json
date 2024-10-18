@@ -3394,6 +3394,10 @@
         },
         {
             "default": "cmake",
+            "package": "aocl-da"
+        },
+        {
+            "default": "cmake",
             "package": "aocl-libmem"
         },
         {
@@ -13467,6 +13471,10 @@
         {
             "default": "autotools",
             "package": "otf"
+        },
+        {
+            "default": "cmake",
+            "package": "otf-cpt"
         },
         {
             "default": "autotools",
@@ -34853,7 +34861,7 @@
             "package": "voms"
         },
         {
-            "default": "makefile",
+            "default": "cmake",
             "package": "voropp"
         },
         {
@@ -36027,6 +36035,10 @@
         {
             "default": "Release",
             "package": "aocl-crypto"
+        },
+        {
+            "default": "Release",
+            "package": "aocl-da"
         },
         {
             "default": "Release",
@@ -39218,6 +39230,10 @@
         },
         {
             "default": "Release",
+            "package": "otf-cpt"
+        },
+        {
+            "default": "Release",
             "package": "packmol"
         },
         {
@@ -40727,6 +40743,10 @@
         {
             "default": "Release",
             "package": "volk"
+        },
+        {
+            "default": "Release",
+            "package": "voropp"
         },
         {
             "default": "Release",
@@ -46553,6 +46573,12 @@
             "package": "linux-perf"
         }
     ],
+    "decompress_fast": [
+        {
+            "default": "OFF",
+            "package": "aocl-compression"
+        }
+    ],
     "decompression": [
         {
             "default": true,
@@ -48359,12 +48385,6 @@
             "package": "tracy-client"
         }
     ],
-    "enable-aocl-blas": [
-        {
-            "default": false,
-            "package": "amdlibflame"
-        }
-    ],
     "enable-pm": [
         {
             "default": "auto",
@@ -48381,6 +48401,12 @@
         {
             "default": false,
             "package": "kokkos-legacy"
+        }
+    ],
+    "enable_fast_math": [
+        {
+            "default": false,
+            "package": "aocl-compression"
         }
     ],
     "enable_lambda": [
@@ -48787,6 +48813,10 @@
         {
             "default": false,
             "package": "aocl-crypto"
+        },
+        {
+            "default": true,
+            "package": "aocl-da"
         },
         {
             "default": false,
@@ -51492,6 +51522,10 @@
         },
         {
             "default": "make",
+            "package": "aocl-da"
+        },
+        {
+            "default": "make",
             "package": "aocl-libmem"
         },
         {
@@ -54660,6 +54694,10 @@
         },
         {
             "default": "make",
+            "package": "otf-cpt"
+        },
+        {
+            "default": "make",
             "package": "packmol"
         },
         {
@@ -56172,6 +56210,10 @@
         },
         {
             "default": "make",
+            "package": "voropp"
+        },
+        {
+            "default": "make",
             "package": "votca"
         },
         {
@@ -57362,6 +57404,10 @@
         }
     ],
     "gtest": [
+        {
+            "default": false,
+            "package": "aocl-da"
+        },
         {
             "default": false,
             "package": "trilinos"
@@ -58890,6 +58936,10 @@
         },
         {
             "default": false,
+            "package": "aocl-da"
+        },
+        {
+            "default": false,
             "package": "aocl-sparse"
         },
         {
@@ -59723,6 +59773,10 @@
         {
             "default": false,
             "package": "aocl-crypto"
+        },
+        {
+            "default": false,
+            "package": "aocl-da"
         },
         {
             "default": false,
@@ -62890,6 +62944,10 @@
         },
         {
             "default": false,
+            "package": "otf-cpt"
+        },
+        {
+            "default": false,
             "package": "packmol"
         },
         {
@@ -64402,6 +64460,10 @@
         },
         {
             "default": false,
+            "package": "voropp"
+        },
+        {
+            "default": false,
             "package": "votca"
         },
         {
@@ -64638,6 +64700,10 @@
         }
     ],
     "ipp": [
+        {
+            "default": false,
+            "package": "aocl-crypto"
+        },
         {
             "default": true,
             "package": "intel-parallel-studio"
@@ -72332,6 +72398,14 @@
         },
         {
             "default": true,
+            "package": "aocl-da"
+        },
+        {
+            "default": true,
+            "package": "aocl-sparse"
+        },
+        {
+            "default": true,
             "package": "apcomp"
         },
         {
@@ -74936,10 +75010,6 @@
         },
         {
             "default": true,
-            "package": "voropp"
-        },
-        {
-            "default": true,
             "package": "w3emc"
         },
         {
@@ -76403,6 +76473,10 @@
             "package": "antlr"
         },
         {
+            "default": true,
+            "package": "aocl-da"
+        },
+        {
             "default": false,
             "package": "apfel"
         },
@@ -77687,6 +77761,12 @@
         {
             "default": false,
             "package": "ucx"
+        }
+    ],
+    "rdpmc": [
+        {
+            "default": true,
+            "package": "papi"
         }
     ],
     "re2": [
@@ -79666,6 +79746,10 @@
         },
         {
             "default": true,
+            "package": "aocl-da"
+        },
+        {
+            "default": true,
             "package": "aocl-libmem"
         },
         {
@@ -80963,6 +81047,10 @@
         {
             "default": true,
             "package": "veclibfort"
+        },
+        {
+            "default": true,
+            "package": "voropp"
         },
         {
             "default": true,

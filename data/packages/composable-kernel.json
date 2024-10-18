@@ -78,7 +78,17 @@
         "srekolam"
     ],
     "name": "composable-kernel",
-    "patches": [],
+    "patches": [
+        {
+            "level": 1,
+            "owner": "builtin.composable-kernel",
+            "relative_path": "0001-mark-kernels-maybe-unused.patch",
+            "reverse": false,
+            "sha256": "7cb060989c593799e4561ac53f77f8ba82c690b36ba138efc29bff751b0bc090",
+            "version": "@6.2",
+            "working_dir": "."
+        }
+    ],
     "resources": [],
     "variants": [
         {

@@ -8,13 +8,18 @@
             "spec": ""
         },
         {
-            "description": "amdlibm: supported Clang version is from 9 to 16",
-            "name": "%clang@9.0:16.0",
+            "description": "amdlibm: Maximum supported Clang version is 17.0.0",
+            "name": "%clang@17.0.0:",
             "spec": ""
         },
         {
-            "description": "amdlibm: Maximum supported GCC version is 13.1.0",
-            "name": "%gcc@13.2.0:",
+            "description": "amdlibm: Minimum supported Clang version is 9",
+            "name": "%clang@:9.0",
+            "spec": ""
+        },
+        {
+            "description": "amdlibm: Maximum supported GCC version is 14.2.0",
+            "name": "%gcc@14.3.0:",
             "spec": ""
         },
         {
@@ -53,7 +58,7 @@
     ],
     "description": "AMD LibM is a software library containing a collection of basic math\nfunctions optimized for x86-64 processor-based machines. It provides\nmany routines from the list of standard C99 math functions. Applications\ncan link into AMD LibM library and invoke math functions instead of\ncompiler's math functions for better accuracy and performance. LICENSING\nINFORMATION: By downloading, installing and using this software, you\nagree to the terms and conditions of the AMD AOCL-FFTW license\nagreement. You may obtain a copy of this license agreement from\nhttps://www.amd.com/en/developer/aocl/libm/eula/libm-4-2-eula.html\nhttps://www.amd.com/en/developer/aocl/libm/libm-eula.html\n",
     "homepage": "https://www.amd.com/en/developer/aocl/libm.html",
-    "latest_version": "4.2",
+    "latest_version": "5.0",
     "maintainers": [
         "amd-toolchain-support"
     ],
@@ -101,6 +106,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "5.0",
+            "sha256": "ba1d50c068938c9a927e37e5630f683b6149d7d5a95efffeb76e7c9a8bcb2b5e"
+        },
         {
             "name": "4.2",
             "sha256": "58847b942e998b3f52eb41ae26403c7392d244fcafa707cbf23165aac24edd9e"

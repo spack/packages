@@ -1578,6 +1578,10 @@
             "name": "osu-micro-benchmarks"
         },
         {
+            "description": "Tool to collect and report model factors (aka. fundamental performance\nfactors) for hybrid MPI + OpenMP applications on-the-fly.",
+            "name": "otf-cpt"
+        },
+        {
             "description": "P3DFFT++ (a.k.a. P3DFFT v. 3) is a new generation of P3DFFT library that\naims to provide a comprehensive framework for simulating multiscale\nphenomena. It takes the essence of P3DFFT further by creating an\nextensible, modular structure uniquely adaptable to a greater range of\nuse cases.",
             "name": "p3dfft3"
         },

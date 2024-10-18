@@ -36,11 +36,15 @@
         {
             "description": "AMD Optimizing CPU Libraries (AOCL) - AOCL is a set of numerical\nlibraries tuned specifically for AMD EPYC processor family. They have a\nsimple interface to take advantage of the latest hardware innovations.\nThe tuned implementations of industry standard math libraries enable\nfast development of scientific and high performance computing projects\nLICENSING INFORMATION: By downloading, installing and using this\nsoftware, you agree to the terms and conditions of the AMD AOCL license\nagreement. You may obtain a copy of this license agreement from\nhttps://www.amd.com/en/developer/aocl/aocl-eula.html\nhttps://www.amd.com/en/developer/aocl/eula/aocl-4-1-eula.html",
             "name": "amd-aocl"
+        },
+        {
+            "description": "The AOCL Data Analytics Library (AOCL-DA) is a data analytics library\nproviding optimized building blocks for data analysis. It is written\nwith a C-compatible interface to make it as seamless as possible to\nintegrate with the library from whichever programming language you are\nusing. The intended workflow for using the library is as follows: \u2022 load\ndata from memory by reading CSV files or using the in-built da_datastore\nobject \u2022 preprocess the data by removing missing values, standardizing,\nand selecting certain subsets of the data, before extracting contiguous\narrays of data from the da_datastore objects \u2022 data processing (e.g.\nprincipal component analysis, linear model fitting, etc.) C++ example\nprograms can be found in the examples folder of your installation.",
+            "name": "aocl-da"
         }
     ],
     "description": "AOCL-Sparse is a library that contains basic linear algebra subroutines\nfor sparse matrices and vectors optimized for AMD EPYC family of\nprocessors. It is designed to be used with C and C++. Current\nfunctionality of sparse library supports SPMV function with CSR and\nELLPACK formats. LICENSING INFORMATION: By downloading, installing and\nusing this software, you agree to the terms and conditions of the AMD\nAOCL-Sparse license agreement. You may obtain a copy of this license\nagreement from https://www.amd.com/en/developer/aocl/sparse/eula/sparse-\nlibraries-4-2-eula.html\nhttps://www.amd.com/en/developer/aocl/sparse/eula/sparse-libraries-\neula.html\n",
     "homepage": "https://www.amd.com/en/developer/aocl/sparse.html",
-    "latest_version": "4.2",
+    "latest_version": "5.0",
     "maintainers": [
         "amd-toolchain-support"
     ],
@@ -90,6 +94,11 @@
         },
         {
             "default": true,
+            "description": "Enable OpenMP support",
+            "name": "openmp"
+        },
+        {
+            "default": true,
             "description": "Build shared library",
             "name": "shared"
         },
@@ -100,6 +109,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "5.0",
+            "sha256": "7528970f41ae60563df9fe1f8cc74a435be1566c01868a603ab894e9956c3c94"
+        },
         {
             "name": "4.2",
             "sha256": "03cd67adcfea4a574fece98b60b4aba0a6e5a9c8f608ff1ccc1fb324a7185538"

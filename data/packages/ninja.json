@@ -150,6 +150,10 @@
             "name": "aocl-crypto"
         },
         {
+            "description": "The AOCL Data Analytics Library (AOCL-DA) is a data analytics library\nproviding optimized building blocks for data analysis. It is written\nwith a C-compatible interface to make it as seamless as possible to\nintegrate with the library from whichever programming language you are\nusing. The intended workflow for using the library is as follows: \u2022 load\ndata from memory by reading CSV files or using the in-built da_datastore\nobject \u2022 preprocess the data by removing missing values, standardizing,\nand selecting certain subsets of the data, before extracting contiguous\narrays of data from the da_datastore objects \u2022 data processing (e.g.\nprincipal component analysis, linear model fitting, etc.) C++ example\nprograms can be found in the examples folder of your installation.",
+            "name": "aocl-da"
+        },
+        {
             "description": "AOCL-LibMem is a Linux library of data movement and manipulation\nfunctions (such as memcpy and strcpy) highly optimized for AMD Zen\nmicro-architecture. This library has multiple implementations of each\nfunction that can be chosen based on the application requirements as per\nalignments, instruction choice, threshold values, and tunable\nparameters. By default, this library will choose the best fit\nimplementation based on the underlying micro-architectural support for\nCPU features and instructions. LICENSING INFORMATION: By downloading,\ninstalling and using this software, you agree to the terms and\nconditions of the AMD AOCL-LibMem license agreement. You may obtain a\ncopy of this license agreement from\nhttps://www.amd.com/en/developer/aocl/libmem/eula/libmem-4-2-eula.html",
             "name": "aocl-libmem"
         },
@@ -3490,6 +3494,10 @@
             "name": "osqp"
         },
         {
+            "description": "Tool to collect and report model factors (aka. fundamental performance\nfactors) for hybrid MPI + OpenMP applications on-the-fly.",
+            "name": "otf-cpt"
+        },
+        {
             "description": "Packmol creates an initial point for molecular dynamics simulations by\npacking molecules in defined regions of space.",
             "name": "packmol"
         },
@@ -5164,6 +5172,10 @@
         {
             "description": "VOLK is the Vector-Optimized Library of Kernels. It is a library that\ncontains kernels of hand-written SIMD code for different mathematical\noperations. Since each SIMD architecture can be very different and no\ncompiler has yet come along to handle vectorization properly or highly\nefficiently, VOLK approaches the problem differently. For each\narchitecture or platform that a developer wishes to vectorize for, a new\nproto-kernel is added to VOLK. At runtime, VOLK will select the correct\nproto-kernel. In this way, the users of VOLK call a kernel for\nperforming the operation that is platform/architecture agnostic. This\nallows us to write portable SIMD code.",
             "name": "volk"
+        },
+        {
+            "description": "Voro++ is a open source software library for the computation of the\nVoronoi diagram, a widely-used tessellation that has applications in\nmany scientific fields.",
+            "name": "voropp"
         },
         {
             "description": "VOTCA is a software package which focuses on the analysis of molecular\ndynamics data, the development of systematic coarse-graining techniques\nas well as methods used for simulating microscopic charge (and exciton)\ntransport in disordered semiconductors.",

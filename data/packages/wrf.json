@@ -431,7 +431,7 @@
             "owner": "builtin.wrf",
             "relative_path": "patches/4.4/ifx.patch",
             "reverse": false,
-            "sha256": "6e2d60a7e3f2b08dfed9afe852b7f50d7a1ff81d77af8e62c394472bb3f52175",
+            "sha256": "d2f296ebe6a7444784c5b6cbd1e0f3fc87aeec4f031dd4c4913aeeba5ef2f02a",
             "version": "@4.4:%oneapi",
             "working_dir": "."
         },

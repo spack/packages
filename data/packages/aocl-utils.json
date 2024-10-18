@@ -34,13 +34,17 @@
             "name": "aocl-crypto"
         },
         {
+            "description": "The AOCL Data Analytics Library (AOCL-DA) is a data analytics library\nproviding optimized building blocks for data analysis. It is written\nwith a C-compatible interface to make it as seamless as possible to\nintegrate with the library from whichever programming language you are\nusing. The intended workflow for using the library is as follows: \u2022 load\ndata from memory by reading CSV files or using the in-built da_datastore\nobject \u2022 preprocess the data by removing missing values, standardizing,\nand selecting certain subsets of the data, before extracting contiguous\narrays of data from the da_datastore objects \u2022 data processing (e.g.\nprincipal component analysis, linear model fitting, etc.) C++ example\nprograms can be found in the examples folder of your installation.",
+            "name": "aocl-da"
+        },
+        {
             "description": "AOCL-Sparse is a library that contains basic linear algebra subroutines\nfor sparse matrices and vectors optimized for AMD EPYC family of\nprocessors. It is designed to be used with C and C++. Current\nfunctionality of sparse library supports SPMV function with CSR and\nELLPACK formats. LICENSING INFORMATION: By downloading, installing and\nusing this software, you agree to the terms and conditions of the AMD\nAOCL-Sparse license agreement. You may obtain a copy of this license\nagreement from https://www.amd.com/en/developer/aocl/sparse/eula/sparse-\nlibraries-4-2-eula.html\nhttps://www.amd.com/en/developer/aocl/sparse/eula/sparse-libraries-\neula.html",
             "name": "aocl-sparse"
         }
     ],
     "description": "The library AOCL-Utils is intended to provide a uniform interface to all\nAOCL libraries to access CPU features, especially for AMD CPUs. The\nlibrary provides the following features: * Core details * Flags\navailable/usable * ISA available/usable * Topology about L1/L2/L3 AOCL-\nUtils is designed to be integrated into other AMD AOCL libraries. Each\nproject has their own mechanism to identify CPU and provide necessary\nfeatures such as \"dynamic dispatch\".The main purpose of this library is\nto provide a centralized mechanism to update/validate and provide\ninformation to the users of this library. LICENSING INFORMATION: By\ndownloading, installing and using this software, you agree to the terms\nand conditions of the AMD AOCL-Utils license agreement. You may obtain a\ncopy of this license agreement from https://www.amd.com/content/dam/amd/\nen/documents/developer/version-4-2-eulas/utils-elua-4-2.pdf\n",
     "homepage": "https://www.amd.com/en/developer/aocl/utils.html",
-    "latest_version": "4.2",
+    "latest_version": "5.0",
     "maintainers": [
         "amd-toolchain-support"
     ],
@@ -90,6 +94,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "5.0",
+            "sha256": "ee2e5d47f33a3f673b3b6fcb88a7ef1a28648f407485ad07b6e9bf1b86159c59"
+        },
         {
             "name": "4.2",
             "sha256": "1294cdf275de44d3a22fea6fc4cd5bf66260d0a19abb2e488b898aaf632486bd"

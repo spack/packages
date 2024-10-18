@@ -68,13 +68,21 @@
             "name": "amd-aocl"
         },
         {
+            "description": "ScaLAPACK is a library of high-performance linear algebra routines for\nparallel distributed memory machines. It depends on external libraries\nincluding BLAS and LAPACK for Linear Algebra computations. AMD's\noptimized version of ScaLAPACK enables using BLIS and LibFLAME library\nthat have optimized dense matrix functions and solvers for AMD EPYC\nprocessor family CPUs. LICENSING INFORMATION: By downloading, installing\nand using this software, you agree to the terms and conditions of the\nAMD AOCL-ScaLAPACK license agreement. You may obtain a copy of this\nlicense agreement from\nhttps://www.amd.com/en/developer/aocl/scalapack/eula/scalapack-\nlibraries-4-2-eula.html\nhttps://www.amd.com/en/developer/aocl/scalapack/eula/scalapack-\nlibraries-eula.html",
+            "name": "amdscalapack"
+        },
+        {
+            "description": "The AOCL Data Analytics Library (AOCL-DA) is a data analytics library\nproviding optimized building blocks for data analysis. It is written\nwith a C-compatible interface to make it as seamless as possible to\nintegrate with the library from whichever programming language you are\nusing. The intended workflow for using the library is as follows: \u2022 load\ndata from memory by reading CSV files or using the in-built da_datastore\nobject \u2022 preprocess the data by removing missing values, standardizing,\nand selecting certain subsets of the data, before extracting contiguous\narrays of data from the da_datastore objects \u2022 data processing (e.g.\nprincipal component analysis, linear model fitting, etc.) C++ example\nprograms can be found in the examples folder of your installation.",
+            "name": "aocl-da"
+        },
+        {
             "description": "AOCL-Sparse is a library that contains basic linear algebra subroutines\nfor sparse matrices and vectors optimized for AMD EPYC family of\nprocessors. It is designed to be used with C and C++. Current\nfunctionality of sparse library supports SPMV function with CSR and\nELLPACK formats. LICENSING INFORMATION: By downloading, installing and\nusing this software, you agree to the terms and conditions of the AMD\nAOCL-Sparse license agreement. You may obtain a copy of this license\nagreement from https://www.amd.com/en/developer/aocl/sparse/eula/sparse-\nlibraries-4-2-eula.html\nhttps://www.amd.com/en/developer/aocl/sparse/eula/sparse-libraries-\neula.html",
             "name": "aocl-sparse"
         }
     ],
     "description": "libFLAME (AMD Optimized version) is a portable library for dense matrix\ncomputations, providing much of the functionality present in Linear\nAlgebra Package (LAPACK). It includes a compatibility layer, FLAPACK,\nwhich includes complete LAPACK implementation. The library provides\nscientific and numerical computing communities with a modern, high-\nperformance dense linear algebra library that is extensible, easy to\nuse, and available under an open source license. libFLAME is a C-only\nimplementation and does not depend on any external FORTRAN libraries\nincluding LAPACK. There is an optional backward compatibility layer,\nlapack2flame that maps LAPACK routine invocations to their corresponding\nnative C implementations in libFLAME. This allows legacy applications to\nstart taking advantage of libFLAME with virtually no changes to their\nsource code. In combination with BLIS library which includes\noptimizations for the AMD EPYC processor family, libFLAME enables\nrunning high performing LAPACK functionalities on AMD platform.\nLICENSING INFORMATION: By downloading, installing and using this\nsoftware, you agree to the terms and conditions of the AMD AOCL-libFLAME\nlicense agreement. You may obtain a copy of this license agreement from\nhttps://www.amd.com/en/developer/aocl/dense/eula-\nlibflame/libflame-4-2-eula.html\nhttps://www.amd.com/en/developer/aocl/dense/eula-libflame/libflame-\neula.html\n",
     "homepage": "https://www.amd.com/en/developer/aocl/blis.html#libflame",
-    "latest_version": "4.2",
+    "latest_version": "5.0",
     "maintainers": [
         "amd-toolchain-support"
     ],
@@ -133,6 +141,15 @@
             "sha256": "4e9ea3fa30a6266ebcd3dcc4839be8e3a55ad5d5481e88188c973436cfb85d25",
             "version": "@4.0:4.1",
             "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.amdlibflame",
+            "relative_path": "libflame-pkgconfig.patch",
+            "reverse": false,
+            "sha256": "9c62ab50d7de63aebc01994616f96f2a81f7ca77af0cd2940bd84f867c4af956",
+            "version": "@4.2",
+            "working_dir": "."
         }
     ],
     "resources": [],
@@ -151,11 +168,6 @@
             "default": false,
             "description": "Build with debugging support",
             "name": "debug"
-        },
-        {
-            "default": false,
-            "description": "Enables tight coupling with AOCL-BLAS library in order to use AOCL-BLAS                internal routines",
-            "name": "enable-aocl-blas"
         },
         {
             "default": "make",
@@ -209,6 +221,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "5.0",
+            "sha256": "3bee3712459a8c5bd728a521d8a4c8f46735730bf35d48c878d2fc45fc000918"
+        },
         {
             "name": "4.2",
             "sha256": "93a433c169528ffba74a99df0ba3ce3d5b1fab9bf06ce8d2fd72ee84768ed84c"

@@ -314,6 +314,10 @@
             "name": "aocl-crypto"
         },
         {
+            "description": "The AOCL Data Analytics Library (AOCL-DA) is a data analytics library\nproviding optimized building blocks for data analysis. It is written\nwith a C-compatible interface to make it as seamless as possible to\nintegrate with the library from whichever programming language you are\nusing. The intended workflow for using the library is as follows: \u2022 load\ndata from memory by reading CSV files or using the in-built da_datastore\nobject \u2022 preprocess the data by removing missing values, standardizing,\nand selecting certain subsets of the data, before extracting contiguous\narrays of data from the da_datastore objects \u2022 data processing (e.g.\nprincipal component analysis, linear model fitting, etc.) C++ example\nprograms can be found in the examples folder of your installation.",
+            "name": "aocl-da"
+        },
+        {
             "description": "AOCL-LibMem is a Linux library of data movement and manipulation\nfunctions (such as memcpy and strcpy) highly optimized for AMD Zen\nmicro-architecture. This library has multiple implementations of each\nfunction that can be chosen based on the application requirements as per\nalignments, instruction choice, threshold values, and tunable\nparameters. By default, this library will choose the best fit\nimplementation based on the underlying micro-architectural support for\nCPU features and instructions. LICENSING INFORMATION: By downloading,\ninstalling and using this software, you agree to the terms and\nconditions of the AMD AOCL-LibMem license agreement. You may obtain a\ncopy of this license agreement from\nhttps://www.amd.com/en/developer/aocl/libmem/eula/libmem-4-2-eula.html",
             "name": "aocl-libmem"
         },
@@ -8196,6 +8200,10 @@
         {
             "description": "To improve scalability for very large and massively parallel traces the\nOpen Trace Format (OTF) is developed at ZIH as a successor format to the\nVampir Trace Format (VTF3).",
             "name": "otf"
+        },
+        {
+            "description": "Tool to collect and report model factors (aka. fundamental performance\nfactors) for hybrid MPI + OpenMP applications on-the-fly.",
+            "name": "otf-cpt"
         },
         {
             "description": "The Open Trace Format 2 is a highly scalable, memory efficient event\ntrace data format plus support library.",

@@ -84,6 +84,7 @@
     "homepage": "https://github.com/ROCm/llvm-project",
     "latest_version": "6.2.1",
     "maintainers": [
+        "afzpatel",
         "haampie",
         "renjithravindrankannath",
         "srekolam"

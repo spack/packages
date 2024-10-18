@@ -302,6 +302,11 @@
             "name": "rapl"
         },
         {
+            "default": true,
+            "description": "Enable use of rdpmc for reading counters, when possible",
+            "name": "rdpmc"
+        },
+        {
             "default": false,
             "description": "Enable ROCm support",
             "name": "rocm"

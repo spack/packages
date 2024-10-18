@@ -35,6 +35,10 @@
     ],
     "dependent_to": [
         {
+            "description": "The AOCL Data Analytics Library (AOCL-DA) is a data analytics library\nproviding optimized building blocks for data analysis. It is written\nwith a C-compatible interface to make it as seamless as possible to\nintegrate with the library from whichever programming language you are\nusing. The intended workflow for using the library is as follows: \u2022 load\ndata from memory by reading CSV files or using the in-built da_datastore\nobject \u2022 preprocess the data by removing missing values, standardizing,\nand selecting certain subsets of the data, before extracting contiguous\narrays of data from the da_datastore objects \u2022 data processing (e.g.\nprincipal component analysis, linear model fitting, etc.) C++ example\nprograms can be found in the examples folder of your installation.",
+            "name": "aocl-da"
+        },
+        {
             "description": "GaussView 6 is the latest iteration of a graphical interface used with\nGaussian. It aids in the creation of Gaussian input files, enables the\nuser to run Gaussian calculations from a graphical interface without the\nneed for using a command line instruction, and helps in the\ninterpretation of Gaussian output. Needs post-install steps to make it\nrun! See package installation logs for details.",
             "name": "gaussian-view"
         },

@@ -29,7 +29,12 @@
         }
     ],
     "dependencies": [],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "AOCL-Crypto is a library consisting of basic cryptographic functions\noptimized and tuned for AMD Zen\u2122 based microarchitecture. This library\nprovides a unified solution for Cryptographic routines such as AES\n(Advanced Encryption Standard) encryption/decryption routines (CFB, CTR,\nCBC, CCM, GCM, OFB, SIV, XTS), SHA (Secure Hash Algorithms) routines\n(SHA2, SHA3, SHAKE), Message Authentication Code (CMAC, HMAC), ECDH\n(Elliptic-curve Diffie\u2013Hellman) and RSA (Rivest, Shamir, and Adleman)\nkey generation functions, etc. AOCL Crypto supports a dynamic dispatcher\nfeature that executes the most optimal function variant implemented\nusing Function Multi-versioning thereby offering a single optimized\nlibrary portable across different x86 CPU architectures. AOCL Crypto\nframework is developed in C / C++ for Unix and Windows based systems.\nLICENSING INFORMATION: By downloading, installing and using this\nsoftware, you agree to the terms and conditions of the AMD AOCL-\nCryptography license agreement. You may obtain a copy of this license\nagreement from https://www.amd.com/en/developer/aocl/cryptography/eula/c\nryptography-4-2-eula.html",
+            "name": "aocl-crypto"
+        }
+    ],
     "description": "Intel Integrated Performance Primitives (Intel IPP) is an extensive\nlibrary of ready-to-use, domain-specific functions that are highly\noptimized for diverse Intel architectures. These functions take\nadvantage of Single Instruction, Multiple Data (SIMD) instructions and\nimprove the performance of computation-intensive applications, including\nsignal processing, data compression, video processing, and cryptography.\nThe intel-oneapi-ippcp package contains support for cryptography and\neverything else can be found in the intel-oneapi-ipp package. LICENSE\nINFORMATION: By downloading and using this software, you agree to the\nterms and conditions of the software license agreements at\nhttps://intel.ly/393CijO.\n",
     "homepage": "https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/ipp.html",
     "latest_version": "2021.12.1",
