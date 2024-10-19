@@ -450,6 +450,10 @@
             "name": "py-datasets"
         },
         {
+            "description": "Embedding reader is a module to make it easy to read efficiently a large\ncollection of embeddings stored in any file system.",
+            "name": "py-embedding-reader"
+        },
+        {
             "description": "Horovod is a distributed deep learning training framework for\nTensorFlow, Keras, PyTorch, and Apache MXNet.",
             "name": "py-horovod"
         },

@@ -426,6 +426,11 @@
             "description": "vtk-m: VTK-m does not support HIP without Kokkos",
             "name": "+rocm",
             "spec": "~kokkos"
+        },
+        {
+            "description": "vtk-m: VTK-m does not support SYCL without Kokkos",
+            "name": "+sycl",
+            "spec": "~kokkos"
         }
     ],
     "dependencies": [
@@ -570,6 +575,24 @@
         {
             "level": 1,
             "owner": "builtin.vtk-m",
+            "relative_path": "mr3271-contourtree-print-error.patch",
+            "reverse": false,
+            "sha256": "34704cc6b4cc102904aeb1ae68cbcb5e03647180b9b368de63d34d9bb59cf8a8",
+            "version": "@2.0:2.2",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.vtk-m",
+            "relative_path": "mr3272-bad-mir-table-method.patch",
+            "reverse": false,
+            "sha256": "34f203b0d6228a4ba86f2fb16b1d00054094575aff2e430756b6b5271568c2e9",
+            "version": "@2.0:2.2",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.vtk-m",
             "reverse": false,
             "sha256": "58dc104ba05ec99c359eeec3ac094cdb071053a4250f4ad9d72ef6a356c4346e",
             "url": "https://github.com/Kitware/VTK-m/commit/4a4466e7c8cd44d2be2bd3fe6f359faa8e9547aa.patch?full_index=1",
@@ -673,6 +696,11 @@
             "default": false,
             "description": "build shared libs",
             "name": "shared"
+        },
+        {
+            "default": false,
+            "description": "Build with SYCL backend",
+            "name": "sycl"
         },
         {
             "default": false,

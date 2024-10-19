@@ -74,6 +74,10 @@
             "name": "py-earth2mip"
         },
         {
+            "description": "Embedding reader is a module to make it easy to read efficiently a large\ncollection of embeddings stored in any file system.",
+            "name": "py-embedding-reader"
+        },
+        {
             "description": "etils (eclectic utils) is an open-source collection of utils for python.",
             "name": "py-etils"
         },

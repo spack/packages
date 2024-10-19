@@ -10,6 +10,11 @@
         {
             "description": null,
             "name": "arch=windows-None-None",
+            "spec": "@:2.1.12.5"
+        },
+        {
+            "description": null,
+            "name": "arch=windows-None-None",
             "spec": "build_system=autotools"
         }
     ],

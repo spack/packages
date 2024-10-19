@@ -2395,6 +2395,10 @@
             "name": "libaec"
         },
         {
+            "description": "libavif - Library for encoding and decoding .avif files.",
+            "name": "libavif"
+        },
+        {
             "description": "A C library for reading/parsing local and remote bigWig and bigBed\nfiles.",
             "name": "libbigwig"
         },

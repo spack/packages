@@ -54,6 +54,11 @@
         },
         {
             "description": null,
+            "name": "cxxstd=20",
+            "spec": "+cuda ^cmake@:3.25.1"
+        },
+        {
+            "description": null,
             "name": "%clang@7:",
             "spec": "+cuda ^cuda@10.0.130~allow-unsupported-compilers arch=None-None-ppc64le:"
         },
@@ -421,6 +426,11 @@
             "description": null,
             "name": "%gcc@6:",
             "spec": "+cuda ^cuda@:9~allow-unsupported-compilers arch=None-None-ppc64le:"
+        },
+        {
+            "description": null,
+            "name": "cxxstd=23",
+            "spec": "+cuda"
         },
         {
             "description": null,

@@ -58,6 +58,10 @@
             "name": "py-climax"
         },
         {
+            "description": "Welcome to an open source implementation of OpenAI's CLIP (Contrastive\nLanguage-Image Pre-training).",
+            "name": "py-open-clip-torch"
+        },
+        {
             "description": "Python library with Neural Networks for Image Segmentation based on\nPyTorch.",
             "name": "py-segmentation-models-pytorch"
         },

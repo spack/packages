@@ -2027,6 +2027,12 @@
             "package": "flexi"
         }
     ],
+    "avif": [
+        {
+            "default": false,
+            "package": "py-torchvision"
+        }
+    ],
     "avresample": [
         {
             "default": false,
@@ -2897,6 +2903,16 @@
         {
             "default": false,
             "package": "fastq-screen"
+        },
+        {
+            "default": false,
+            "package": "hicup"
+        }
+    ],
+    "bowtie2": [
+        {
+            "default": true,
+            "package": "hicup"
         }
     ],
     "bpm": [
@@ -8461,6 +8477,10 @@
             "package": "hicops"
         },
         {
+            "default": "generic",
+            "package": "hicup"
+        },
+        {
             "default": "cmake",
             "package": "highfive"
         },
@@ -8769,7 +8789,7 @@
             "package": "hypar"
         },
         {
-            "default": "generic",
+            "default": "cargo",
             "package": "hyperfine"
         },
         {
@@ -9771,6 +9791,10 @@
         {
             "default": "autotools",
             "package": "libatomic-ops"
+        },
+        {
+            "default": "cmake",
+            "package": "libavif"
         },
         {
             "default": "autotools",
@@ -18090,6 +18114,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-clip-anytorch"
+        },
+        {
+            "default": "python_pip",
             "package": "py-clipboard"
         },
         {
@@ -18143,6 +18171,10 @@
         {
             "default": "python_pip",
             "package": "py-coapthon3"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-coca-pytorch"
         },
         {
             "default": "python_pip",
@@ -19034,7 +19066,15 @@
         },
         {
             "default": "python_pip",
+            "package": "py-ema-pytorch"
+        },
+        {
+            "default": "python_pip",
             "package": "py-email-validator"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-embedding-reader"
         },
         {
             "default": "python_pip",
@@ -22254,6 +22294,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-open-clip-torch"
+        },
+        {
+            "default": "python_pip",
             "package": "py-openai"
         },
         {
@@ -24414,6 +24458,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-pytorch-warmup"
+        },
+        {
+            "default": "python_pip",
             "package": "py-pyts"
         },
         {
@@ -24806,6 +24854,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-resize-right"
+        },
+        {
+            "default": "python_pip",
             "package": "py-resolvelib"
         },
         {
@@ -24919,6 +24971,10 @@
         {
             "default": "python_pip",
             "package": "py-rospkg"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-rotary-embedding-torch"
         },
         {
             "default": "python_pip",
@@ -26875,6 +26931,10 @@
         {
             "default": "python_pip",
             "package": "py-wxpython"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-x-clip"
         },
         {
             "default": "python_pip",
@@ -32761,6 +32821,10 @@
             "package": "scc"
         },
         {
+            "default": "cargo",
+            "package": "sccache"
+        },
+        {
             "default": "cmake",
             "package": "scine-core"
         },
@@ -38143,6 +38207,10 @@
         {
             "default": "Release",
             "package": "libaec"
+        },
+        {
+            "default": "Release",
+            "package": "libavif"
         },
         {
             "default": "Release",
@@ -47217,6 +47285,12 @@
             "package": "py-pennylane-lightning"
         }
     ],
+    "dist-server": [
+        {
+            "default": false,
+            "package": "sccache"
+        }
+    ],
     "distconv": [
         {
             "default": false,
@@ -53610,6 +53684,10 @@
         },
         {
             "default": "make",
+            "package": "libavif"
+        },
+        {
+            "default": "make",
             "package": "libbigwig"
         },
         {
@@ -58171,6 +58249,12 @@
             "package": "xsdk"
         }
     ],
+    "heic": [
+        {
+            "default": false,
+            "package": "py-torchvision"
+        }
+    ],
     "heif": [
         {
             "default": false,
@@ -61861,6 +61945,10 @@
         {
             "default": false,
             "package": "libaec"
+        },
+        {
+            "default": false,
+            "package": "libavif"
         },
         {
             "default": false,
@@ -83362,6 +83450,10 @@
         },
         {
             "default": false,
+            "package": "vtk-m"
+        },
+        {
+            "default": false,
             "package": "xsdk"
         },
         {
@@ -84985,6 +85077,10 @@
         {
             "default": false,
             "package": "py-melissa-core"
+        },
+        {
+            "default": true,
+            "package": "py-resize-right"
         },
         {
             "default": true,
@@ -86887,6 +86983,10 @@
         {
             "default": false,
             "package": "py-pillow-simd"
+        },
+        {
+            "default": false,
+            "package": "py-torchvision"
         }
     ],
     "webpmux": [

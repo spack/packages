@@ -38,6 +38,10 @@
             "name": "py-ci-sdr"
         },
         {
+            "description": "CoCa, Contrastive Captioners are Image-Text Foundation Models - Pytorch",
+            "name": "py-coca-pytorch"
+        },
+        {
             "description": "Earth-2 Model Intercomparison Project (MIP). A python framework that\nenables climate researchers and scientists to explore and experiment\nwith AI models for weather and climate.",
             "name": "py-earth2mip"
         },
@@ -54,12 +58,20 @@
             "name": "py-flash-attn"
         },
         {
+            "description": "A standalone library for adding rotary embeddings to transformers in\nPytorch, following its success as relative positional encoding.\nSpecifically it will make rotating information into any axis of a tensor\neasy and efficient, whether they be fixed positional or learned. This\nlibrary will give you state of the art results for positional embedding,\nat little costs.",
+            "name": "py-rotary-embedding-torch"
+        },
+        {
             "description": "TorchGeo: datasets, samplers, transforms, and pre-trained models for\ngeospatial data.",
             "name": "py-torchgeo"
         },
         {
             "description": "A vector quantization library originally transcribed from Deepmind's\ntensorflow implementation, made conveniently into a package. It uses\nexponential moving averages to update the dictionary.",
             "name": "py-vector-quantize-pytorch"
+        },
+        {
+            "description": "A concise but complete implementation of CLIP with various experimental\nimprovements from recent papers",
+            "name": "py-x-clip"
         }
     ],
     "description": "Flexible and powerful tensor operations for readable and reliable code.\nSupports numpy, pytorch, tensorflow, and others.\n",

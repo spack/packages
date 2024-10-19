@@ -732,6 +732,14 @@
             "name": "py-climax"
         },
         {
+            "description": "CLIP (Contrastive Language-Image Pre-Training) is a neural network\ntrained on a variety of (image, text) pairs. It can be instructed in\nnatural language to predict the most relevant text snippet, given an\nimage, without directly optimizing for the task, similarly to the zero-\nshot capabilities of GPT-2 and 3. We found CLIP matches the performance\nof the original ResNet50 on ImageNet \"zero-shot\" without using any of\nthe original 1.28M labeled examples, overcoming several major challenges\nin computer vision.",
+            "name": "py-clip-anytorch"
+        },
+        {
+            "description": "CoCa, Contrastive Captioners are Image-Text Foundation Models - Pytorch",
+            "name": "py-coca-pytorch"
+        },
+        {
             "description": "An integrated large-scale model training system with efficient\nparallelization techniques.",
             "name": "py-colossalai"
         },
@@ -766,6 +774,10 @@
         {
             "description": "EfficientNet implemented in PyTorch.",
             "name": "py-efficientnet-pytorch"
+        },
+        {
+            "description": "Easy way to keep track of exponential moving average version of your\npytorch module",
+            "name": "py-ema-pytorch"
         },
         {
             "description": "A scalable software framework for reinforcement learning environments\nand agents/policies used for the Design and Control applications",
@@ -864,6 +876,10 @@
             "name": "py-ogb"
         },
         {
+            "description": "Welcome to an open source implementation of OpenAI's CLIP (Contrastive\nLanguage-Image Pre-training).",
+            "name": "py-open-clip-torch"
+        },
+        {
             "description": "An open-source toolkit for computational pathology and machine learning.",
             "name": "py-pathml"
         },
@@ -880,8 +896,20 @@
             "name": "py-pytorch-lightning"
         },
         {
+            "description": "This library contains PyTorch implementations of the warmup schedules\ndescribed in On the adequacy of untuned warmup for adaptive\noptimization.",
+            "name": "py-pytorch-warmup"
+        },
+        {
             "description": "A fast and differentiable QP solver for PyTorch",
             "name": "py-qpth"
+        },
+        {
+            "description": "This is a resizing packge for images or tensors, that supports both\nNumpy and PyTorch (fully differentiable) seamlessly. The main motivation\nfor creating this is to address some crucial incorrectness issues (see\nitem 3 in the list below) that exist in all other resizing packages I am\naware of. As far as I know, it is the only one that performs correctly\nin all cases. ResizeRight is specially made for machine learning, image\nenhancement and restoration challenges.",
+            "name": "py-resize-right"
+        },
+        {
+            "description": "A standalone library for adding rotary embeddings to transformers in\nPytorch, following its success as relative positional encoding.\nSpecifically it will make rotating information into any axis of a tensor\neasy and efficient, whether they be fixed positional or learned. This\nlibrary will give you state of the art results for positional embedding,\nat little costs.",
+            "name": "py-rotary-embedding-torch"
         },
         {
             "description": "The SDMetrics library provides a set of dataset-agnostic tools for\nevaluating the quality of a synthetic database by comparing it to the\nreal database that it is modeled after.",
@@ -988,6 +1016,10 @@
             "name": "py-visdom"
         },
         {
+            "description": "A concise but complete implementation of CLIP with various experimental\nimprovements from recent papers",
+            "name": "py-x-clip"
+        },
+        {
             "description": "A Redis module for serving tensors and executing deep learning graphs",
             "name": "redis-ai"
         },
@@ -1002,7 +1034,7 @@
     ],
     "description": "Tensors and Dynamic neural networks in Python with strong GPU\nacceleration.\n",
     "homepage": "https://pytorch.org/",
-    "latest_version": "2.4.1",
+    "latest_version": "2.5.0",
     "maintainers": [
         "adamjstewart"
     ],
@@ -1459,6 +1491,11 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "commit": "32f585d9346e316e554c8d9bf7548af9f62141fc",
+            "name": "2.5.0",
+            "tag": "v2.5.0"
         },
         {
             "commit": "ee1b6804381c57161c477caa380a840a84167676",

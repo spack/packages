@@ -277,6 +277,10 @@
             "name": "help2man"
         },
         {
+            "description": "HiCUP: a bioinformatics pipeline for processing Hi-C data",
+            "name": "hicup"
+        },
+        {
             "description": "HIP is a C++ Runtime API and Kernel Language that allows developers to\ncreate portable applications for AMD and NVIDIA GPUs from single source\ncode.",
             "name": "hip"
         },

@@ -168,6 +168,10 @@
             "name": "gatk"
         },
         {
+            "description": "HiCUP: a bioinformatics pipeline for processing Hi-C data",
+            "name": "hicup"
+        },
+        {
             "description": "KmerGenie estimates the best k-mer length for genome de novo assembly.",
             "name": "kmergenie"
         },

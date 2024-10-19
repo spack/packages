@@ -1,6 +1,6 @@
 {
     "aliases": [],
-    "build_system": "Package",
+    "build_system": "CargoPackage",
     "conflicts": [],
     "dependencies": [
         {
@@ -11,7 +11,7 @@
     "dependent_to": [],
     "description": "A command-line benchmarking tool.\n",
     "homepage": "https://github.com/sharkdp/hyperfine",
-    "latest_version": "1.17.0",
+    "latest_version": "1.18.0",
     "maintainers": [
         "michaelkuhn"
     ],
@@ -20,12 +20,16 @@
     "resources": [],
     "variants": [
         {
-            "default": "generic",
+            "default": "cargo",
             "description": "Build systems supported by the package",
             "name": "build_system"
         }
     ],
     "versions": [
+        {
+            "name": "1.18.0",
+            "sha256": "fea7b92922117ed04b9c84bb9998026264346768804f66baa40743c5528bed6b"
+        },
         {
             "name": "1.17.0",
             "sha256": "3dcd86c12e96ab5808d5c9f3cec0fcc04192a87833ff009063c4a491d5487b58"

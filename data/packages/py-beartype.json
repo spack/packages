@@ -28,6 +28,14 @@
         {
             "description": "Multiple dispatch in Python.",
             "name": "py-plum-dispatch"
+        },
+        {
+            "description": "A standalone library for adding rotary embeddings to transformers in\nPytorch, following its success as relative positional encoding.\nSpecifically it will make rotating information into any axis of a tensor\neasy and efficient, whether they be fixed positional or learned. This\nlibrary will give you state of the art results for positional embedding,\nat little costs.",
+            "name": "py-rotary-embedding-torch"
+        },
+        {
+            "description": "A concise but complete implementation of CLIP with various experimental\nimprovements from recent papers",
+            "name": "py-x-clip"
         }
     ],
     "description": "Unbearably fast near-real-time hybrid runtime-static type-checking in\npure Python.\n",

@@ -398,6 +398,10 @@
             "name": "py-elephant"
         },
         {
+            "description": "Embedding reader is a module to make it easy to read efficiently a large\ncollection of embeddings stored in any file system.",
+            "name": "py-embedding-reader"
+        },
+        {
             "description": "Python package for generation of protein sequences and evolutionary\nalignments via discrete diffusion models",
             "name": "py-evodiff"
         },

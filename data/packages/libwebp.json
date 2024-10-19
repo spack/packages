@@ -94,6 +94,10 @@
         {
             "description": "Pillow-SIMD is a SIMD-enabled fork of Pillow. It is usually 4-6x faster\nthan the original Pillow in image processing benchmarks.",
             "name": "py-pillow-simd"
+        },
+        {
+            "description": "Image and video datasets and models for torch deep learning.",
+            "name": "py-torchvision"
         }
     ],
     "description": "WebP is a modern image format that provides superior lossless and lossy\ncompression for images on the web. Using WebP, webmasters and web\ndevelopers can create smaller, richer images that make the web faster.\n",

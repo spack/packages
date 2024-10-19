@@ -10,8 +10,8 @@
     ],
     "dependent_to": [],
     "description": "Solr is highly reliable, scalable and fault tolerant, providing\ndistributed indexing, replication and load-balanced querying, automated\nfailover and recovery,centralized configuration and more. Solr powers\nthe search and navigation features of many of the world's largest\ninternet sites.\n",
-    "homepage": "https://lucene.apache.org/",
-    "latest_version": "8.11.3",
+    "homepage": "https://solr.apache.org/",
+    "latest_version": "9.7.0",
     "maintainers": [],
     "name": "solr",
     "patches": [],
@@ -24,6 +24,16 @@
         }
     ],
     "versions": [
+        {
+            "name": "9.7.0",
+            "sha256": "38548b86fa4e3c87883875952da124bf7d742cb8f7b25d37a1176833588e8552"
+        },
+        {
+            "name": "8.11.4",
+            "sha256": "163fbdf246bbd78910bc36c3257ad50cdf31ccc3329a5ef885c23c9ef69e0ebe"
+        }
+    ],
+    "versions_deprecated": [
         {
             "name": "8.11.3",
             "sha256": "178300ae095094c2060a1060cf475aa935f1202addfb5bacb38e8712ccb56455"
@@ -56,6 +66,5 @@
             "name": "7.7.3",
             "sha256": "3ec67fa430afa5b5eb43bb1cd4a659e56ee9f8541e0116d6080c0d783870baee"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

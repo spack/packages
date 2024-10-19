@@ -517,7 +517,7 @@
     ],
     "description": "cURL is an open source command line tool and library for transferring\ndata with URL syntax\n",
     "homepage": "https://curl.se/",
-    "latest_version": "8.8.0",
+    "latest_version": "8.10.1",
     "maintainers": [
         "alecbcs"
     ],
@@ -588,6 +588,12 @@
     ],
     "versions": [
         {
+            "name": "8.10.1",
+            "sha256": "3763cd97aae41dcf41950d23e87ae23b2edb2ce3a5b0cf678af058c391b6ae31"
+        }
+    ],
+    "versions_deprecated": [
+        {
             "name": "8.8.0",
             "sha256": "40d3792d38cfa244d8f692974a567e9a5f3387c547579f1124e95ea2a1020d0d"
         },
@@ -602,9 +608,7 @@
         {
             "name": "8.4.0",
             "sha256": "e5250581a9c032b1b6ed3cf2f9c114c811fc41881069e9892d115cc73f9e88c6"
-        }
-    ],
-    "versions_deprecated": [
+        },
         {
             "name": "8.1.2",
             "sha256": "b54974d32fd610acace92e3df1f643144015ac65847f0a041fdc17db6f43f243"

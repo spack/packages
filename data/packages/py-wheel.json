@@ -1906,6 +1906,10 @@
             "name": "py-clint"
         },
         {
+            "description": "CLIP (Contrastive Language-Image Pre-Training) is a neural network\ntrained on a variety of (image, text) pairs. It can be instructed in\nnatural language to predict the most relevant text snippet, given an\nimage, without directly optimizing for the task, similarly to the zero-\nshot capabilities of GPT-2 and 3. We found CLIP matches the performance\nof the original ResNet50 on ImageNet \"zero-shot\" without using any of\nthe original 1.28M labeled examples, overcoming several major challenges\nin computer vision.",
+            "name": "py-clip-anytorch"
+        },
+        {
             "description": "A cross platform clipboard operation library of Python.",
             "name": "py-clipboard"
         },
@@ -1960,6 +1964,10 @@
         {
             "description": "CoAPthon3 is a porting to python3 of my CoAPthon library. CoAPthon3 is a\npython3 library to the CoAP protocol compliant with the RFC. Branch is\navailable for the Twisted framework.",
             "name": "py-coapthon3"
+        },
+        {
+            "description": "CoCa, Contrastive Captioners are Image-Text Foundation Models - Pytorch",
+            "name": "py-coca-pytorch"
         },
         {
             "description": "Coclust provides both a Python package which implements several diagonal\nand non-diagonal co-clustering algorithms, and a ready to use script to\nperform co- clustering",
@@ -2850,8 +2858,16 @@
             "name": "py-elephant"
         },
         {
+            "description": "Easy way to keep track of exponential moving average version of your\npytorch module",
+            "name": "py-ema-pytorch"
+        },
+        {
             "description": "A robust email address syntax and deliverability validation library.",
             "name": "py-email-validator"
+        },
+        {
+            "description": "Embedding reader is a module to make it easy to read efficiently a large\ncollection of embeddings stored in any file system.",
+            "name": "py-embedding-reader"
         },
         {
             "description": "emcee is an MIT licensed pure-Python implementation of Goodman & Weare's\nAffine Invariant Markov chain Monte Carlo (MCMC) Ensemble sampler.",
@@ -6038,6 +6054,10 @@
             "name": "py-opcodes"
         },
         {
+            "description": "Welcome to an open source implementation of OpenAI's CLIP (Contrastive\nLanguage-Image Pre-training).",
+            "name": "py-open-clip-torch"
+        },
+        {
             "description": "The OpenAI Python library provides convenient access to the OpenAI API\nfrom applications written in the Python language. It includes a pre-\ndefined set of classes for API resources that initialize themselves\ndynamically from API responses which makes it compatible with a wide\nrange of versions of the OpenAI API.",
             "name": "py-openai"
         },
@@ -8170,6 +8190,10 @@
             "name": "py-pytorch-sphinx-theme"
         },
         {
+            "description": "This library contains PyTorch implementations of the warmup schedules\ndescribed in On the adequacy of untuned warmup for adaptive\noptimization.",
+            "name": "py-pytorch-warmup"
+        },
+        {
             "description": "pyts is a Python package for time series classification. It aims to make\ntime series classification easily accessible by providing preprocessing\nand utility tools, and implementations of state-of-the-art algorithms.\nMost of these algorithms transform time series, thus pyts provides\nseveral tools to perform these transformations.",
             "name": "py-pyts"
         },
@@ -8562,6 +8586,10 @@
             "name": "py-resampy"
         },
         {
+            "description": "This is a resizing packge for images or tensors, that supports both\nNumpy and PyTorch (fully differentiable) seamlessly. The main motivation\nfor creating this is to address some crucial incorrectness issues (see\nitem 3 in the list below) that exist in all other resizing packages I am\naware of. As far as I know, it is the only one that performs correctly\nin all cases. ResizeRight is specially made for machine learning, image\nenhancement and restoration challenges.",
+            "name": "py-resize-right"
+        },
+        {
             "description": "Resolve abstract dependencies into concrete ones.",
             "name": "py-resolvelib"
         },
@@ -8676,6 +8704,10 @@
         {
             "description": "Library for retrieving information about ROS packages and stacks.",
             "name": "py-rospkg"
+        },
+        {
+            "description": "A standalone library for adding rotary embeddings to transformers in\nPytorch, following its success as relative positional encoding.\nSpecifically it will make rotating information into any axis of a tensor\neasy and efficient, whether they be fixed positional or learned. This\nlibrary will give you state of the art results for positional embedding,\nat little costs.",
+            "name": "py-rotary-embedding-torch"
         },
         {
             "description": "Routing Recognition and Generation Tools",
@@ -10616,6 +10648,10 @@
         {
             "description": "Cross platform GUI toolkit for Python.",
             "name": "py-wxpython"
+        },
+        {
+            "description": "A concise but complete implementation of CLIP with various experimental\nimprovements from recent papers",
+            "name": "py-x-clip"
         },
         {
             "description": "Used for unpacking this author's obfuscated libraries",

@@ -12,6 +12,10 @@
         {
             "description": "Circos is a software package for visualizing data and information.",
             "name": "circos"
+        },
+        {
+            "description": "HiCUP: a bioinformatics pipeline for processing Hi-C data",
+            "name": "hicup"
         }
     ],
     "description": "Math::Round - Perl extension for rounding numbers\n",

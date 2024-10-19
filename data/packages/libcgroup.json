@@ -44,6 +44,10 @@
         {
             "description": "GNU M4 is an implementation of the traditional Unix macro processor.",
             "name": "m4"
+        },
+        {
+            "description": "systemd is a suite of basic building blocks for a Linux system. It\nprovides a system and service manager that runs as PID 1 and starts the\nrest of the system.",
+            "name": "systemd"
         }
     ],
     "dependent_to": [
@@ -53,8 +57,8 @@
         }
     ],
     "description": "Library of control groups.\n",
-    "homepage": "https://sourceforge.net/projects/libcg/",
-    "latest_version": "0.41",
+    "homepage": "https://github.com/libcgroup/libcgroup/",
+    "latest_version": "3.1.0",
     "maintainers": [],
     "name": "libcgroup",
     "patches": [],
@@ -68,6 +72,12 @@
     ],
     "versions": [
         {
+            "name": "3.1.0",
+            "sha256": "976ec4b1e03c0498308cfd28f1b256b40858f636abc8d1f9db24f0a7ea9e1258"
+        }
+    ],
+    "versions_deprecated": [
+        {
             "name": "0.41",
             "sha256": "e4e38bdc7ef70645ce33740ddcca051248d56b53283c0dc6d404e17706f6fb51"
         },
@@ -79,6 +89,5 @@
             "name": "0.36",
             "sha256": "8dcd2ae220435b3de736d3efb0023fdf1192d7a7f4032b439f3cf5342cff7b4c"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

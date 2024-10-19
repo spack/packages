@@ -38,8 +38,20 @@
             "name": "py-clean-text"
         },
         {
+            "description": "CLIP (Contrastive Language-Image Pre-Training) is a neural network\ntrained on a variety of (image, text) pairs. It can be instructed in\nnatural language to predict the most relevant text snippet, given an\nimage, without directly optimizing for the task, similarly to the zero-\nshot capabilities of GPT-2 and 3. We found CLIP matches the performance\nof the original ResNet50 on ImageNet \"zero-shot\" without using any of\nthe original 1.28M labeled examples, overcoming several major challenges\nin computer vision.",
+            "name": "py-clip-anytorch"
+        },
+        {
+            "description": "Welcome to an open source implementation of OpenAI's CLIP (Contrastive\nLanguage-Image Pre-training).",
+            "name": "py-open-clip-torch"
+        },
+        {
             "description": "A dict subclass with keylist/keypath support, I/O shortcuts and many\nutilities.",
             "name": "py-python-benedict"
+        },
+        {
+            "description": "A concise but complete implementation of CLIP with various experimental\nimprovements from recent papers",
+            "name": "py-x-clip"
         }
     ],
     "description": "Fixes Unicode that's broken in various ways.\n",

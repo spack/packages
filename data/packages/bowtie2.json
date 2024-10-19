@@ -72,6 +72,10 @@
             "name": "getorganelle"
         },
         {
+            "description": "HiCUP: a bioinformatics pipeline for processing Hi-C data",
+            "name": "hicup"
+        },
+        {
             "description": "HAplotype and PHylodynamics pipeline for viral assembly, population\ngenetics, and phylodynamics.",
             "name": "py-haphpipe"
         },

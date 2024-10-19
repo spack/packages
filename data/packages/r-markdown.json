@@ -22,6 +22,10 @@
     ],
     "dependent_to": [
         {
+            "description": "HiCUP: a bioinformatics pipeline for processing Hi-C data",
+            "name": "hicup"
+        },
+        {
             "description": "A General-Purpose Package for Dynamic Report Generation in R. Provides a\ngeneral-purpose tool for dynamic report generation in R using Literate\nProgramming techniques.",
             "name": "r-knitr"
         },

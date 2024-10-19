@@ -1186,6 +1186,10 @@
             "name": "libzmq"
         },
         {
+            "description": "Linux PAM (Pluggable Authentication Modules for Linux) project.",
+            "name": "linux-pam"
+        },
+        {
             "description": "The Linux perf tool.",
             "name": "linux-perf"
         },
@@ -1788,6 +1792,10 @@
         {
             "description": "Salmon is a tool for quantifying the expression of transcripts using\nRNA-seq data.",
             "name": "salmon"
+        },
+        {
+            "description": "Sccache is a ccache-like tool. It is used as a compiler wrapper and\navoids compilation when possible. Sccache has the capability to utilize\ncaching in remote storage environments, including various cloud storage\noptions, or alternatively, in local storage.",
+            "name": "sccache"
         },
         {
             "description": "Wrapper around xtb to export it into the Scine tool chain.",

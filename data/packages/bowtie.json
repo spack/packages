@@ -50,6 +50,10 @@
             "name": "fastq-screen"
         },
         {
+            "description": "HiCUP: a bioinformatics pipeline for processing Hi-C data",
+            "name": "hicup"
+        },
+        {
             "description": "MapSplice is a software for mapping RNA-seq data to reference genome for\nsplice junction discovery that depends only on reference genome, and not\non any further annotations.",
             "name": "mapsplice2"
         },

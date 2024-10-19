@@ -38,6 +38,10 @@
             "name": "py-alpaca-farm"
         },
         {
+            "description": "Welcome to an open source implementation of OpenAI's CLIP (Contrastive\nLanguage-Image Pre-training).",
+            "name": "py-open-clip-torch"
+        },
+        {
             "description": "Text utilities, models, transforms, and datasets for PyTorch.",
             "name": "py-torchtext"
         },

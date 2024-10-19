@@ -16,6 +16,10 @@
     ],
     "dependent_to": [
         {
+            "description": "HiCUP: a bioinformatics pipeline for processing Hi-C data",
+            "name": "hicup"
+        },
+        {
             "description": "nbsphinx is a Sphinx extension that provides a source parser for *.ipynb\nfiles.",
             "name": "py-nbsphinx"
         },

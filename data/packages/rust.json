@@ -223,6 +223,10 @@
             "name": "rust-clap"
         },
         {
+            "description": "Sccache is a ccache-like tool. It is used as a compiler wrapper and\navoids compilation when possible. Sccache has the capability to utilize\ncaching in remote storage environments, including various cloud storage\noptions, or alternatively, in local storage.",
+            "name": "sccache"
+        },
+        {
             "description": "Sourmash: Quickly search, compare, and analyze genomic and metagenomic\ndata sets with k-mer sketches.",
             "name": "sourmash"
         },

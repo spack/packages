@@ -5158,6 +5158,10 @@
             "name": "libatomic-ops"
         },
         {
+            "description": "libavif - Library for encoding and decoding .avif files.",
+            "name": "libavif"
+        },
+        {
             "description": "A C library that may be linked into a C/C++ program to produce symbolic\nbacktraces.",
             "name": "libbacktrace"
         },

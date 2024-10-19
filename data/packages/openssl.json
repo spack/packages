@@ -558,6 +558,10 @@
             "name": "rust"
         },
         {
+            "description": "Sccache is a ccache-like tool. It is used as a compiler wrapper and\navoids compilation when possible. Sccache has the capability to utilize\ncaching in remote storage environments, including various cloud storage\noptions, or alternatively, in local storage.",
+            "name": "sccache"
+        },
+        {
             "description": "A C++ implementation of the SciTokens library with a C library\ninterface. SciTokens provide a token format for distributed\nauthorization.",
             "name": "scitokens-cpp"
         },
