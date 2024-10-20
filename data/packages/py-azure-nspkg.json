@@ -43,7 +43,7 @@
         }
     ],
     "description": "Microsoft Azure Namespace Package [Internal].\n",
-    "homepage": "hhttps://github.com/Azure/azure-sdk-for-python",
+    "homepage": "https://github.com/Azure/azure-sdk-for-python",
     "latest_version": "3.0.2",
     "maintainers": [],
     "name": "py-azure-nspkg",

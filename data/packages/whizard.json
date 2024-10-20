@@ -111,7 +111,7 @@
     ],
     "dependent_to": [],
     "description": "WHIZARD is a program system designed for the efficient calculation of\nmulti-particle scattering cross sections and simulated event samples.\n",
-    "homepage": "whizard.hepforge.org",
+    "homepage": "https://whizard.hepforge.org",
     "latest_version": "3.1.4",
     "maintainers": [
         "vvolkl"

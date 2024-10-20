@@ -15,8 +15,8 @@
     ],
     "dependencies": [
         {
-            "description": "The At-Spi2 Atk package contains a library that bridges ATK to At-Spi2\nD-Bus service.",
-            "name": "at-spi2-atk"
+            "description": "The At-Spi2 Core package provides a Service Provider Interface for the\nAssistive Technologies available on the GNOME platform and a library\nagainst which applications can be linked.",
+            "name": "at-spi2-core"
         },
         {
             "description": "ATK provides the set of accessibility interfaces that are implemented by\nother toolkits and applications. Using the ATK interfaces, accessibility\ntools have full access to view and control running applications.",

@@ -43,7 +43,7 @@
         }
     ],
     "description": "ASDF schemas for transforms\n",
-    "homepage": "asdf-transform-schemas.readthedocs.io",
+    "homepage": "https://asdf-transform-schemas.readthedocs.io",
     "latest_version": "0.3.0",
     "maintainers": [
         "lgarrison"

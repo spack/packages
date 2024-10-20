@@ -72,6 +72,10 @@
             "name": "at-spi2-atk"
         },
         {
+            "description": "The GTK+ package contains libraries used for creating graphical user\ninterfaces for applications.",
+            "name": "gtkplus"
+        },
+        {
             "description": "Qt Base (Core, Gui, Widgets, Network, ...)",
             "name": "qt-base"
         }

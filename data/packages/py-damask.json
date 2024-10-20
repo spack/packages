@@ -59,8 +59,8 @@
         }
     ],
     "description": "Pre- and post-processing tools for DAMASK\n",
-    "homepage": "https://damask.mpie.de",
-    "latest_version": "3.0.0",
+    "homepage": "https://damask-multiphysics.org",
+    "latest_version": "3.0.1",
     "maintainers": [
         "MarDiehl"
     ],
@@ -85,6 +85,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.0.1",
+            "sha256": "3db1231f6763356e71b3bb91f66f1abb4fdae2721ce85754fc468446f3d74882"
+        },
         {
             "name": "3.0.0",
             "sha256": "aaebc65b3b10e6c313132ee97cfed427c115079b7e438cc0727c5207e159019f"

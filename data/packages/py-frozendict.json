@@ -35,7 +35,7 @@
         }
     ],
     "description": "An immutable dictionary\n",
-    "homepage": "An immutable dictionary",
+    "homepage": "https://github.com/Marco-Sulla/python-frozendict",
     "latest_version": "2.3.10",
     "maintainers": [],
     "name": "py-frozendict",

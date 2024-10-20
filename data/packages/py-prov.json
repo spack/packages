@@ -59,7 +59,7 @@
         }
     ],
     "description": "A Python library for W3C Provenance Data Model (PROV). A library for W3C\nProvenance Data Model supporting PROV-JSON, PROV-XML and PROV-O (RDF)\n",
-    "homepage": "prov.readthedocs.io/",
+    "homepage": "https://prov.readthedocs.io/",
     "latest_version": "2.0.0",
     "maintainers": [],
     "name": "py-prov",

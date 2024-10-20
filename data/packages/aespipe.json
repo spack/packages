@@ -20,7 +20,7 @@
     ],
     "dependent_to": [],
     "description": "aespipe program is AES encrypting or decrypting pipe. It reads from\nstandard input and writes to standard output.\n",
-    "homepage": "https//loop-aes.sourceforge.net/",
+    "homepage": "https://sourceforge.net/projects/loop-aes/",
     "latest_version": "2.4f",
     "maintainers": [],
     "name": "aespipe",

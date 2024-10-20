@@ -30,12 +30,7 @@
             "name": "pkgconfig"
         }
     ],
-    "dependent_to": [
-        {
-            "description": "The GTK+ package contains libraries used for creating graphical user\ninterfaces for applications.",
-            "name": "gtkplus"
-        }
-    ],
+    "dependent_to": [],
     "description": "The At-Spi2 Atk package contains a library that bridges ATK to At-Spi2\nD-Bus service.\n",
     "homepage": "https://www.linuxfromscratch.org/blfs/view/cvs/x/at-spi2-atk.html",
     "latest_version": "2.38.0",

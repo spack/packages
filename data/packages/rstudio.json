@@ -138,7 +138,7 @@
     ],
     "dependent_to": [],
     "description": "RStudio is an integrated development environment (IDE) for R.\n",
-    "homepage": "www.rstudio.com/products/rstudio/",
+    "homepage": "https://www.rstudio.com/products/rstudio/",
     "latest_version": "1.4.1717",
     "maintainers": [],
     "name": "rstudio",

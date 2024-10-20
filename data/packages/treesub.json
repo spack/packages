@@ -26,7 +26,7 @@
     ],
     "dependent_to": [],
     "description": "A small program (which glues together other programs) that allows a user\nto input a codon alignment in FASTA format and produce an annotated\nphylogenetic tree showing which substitutions occurred on a given\nbranch. Originally written for colleagues at the MRC NIMR.\n",
-    "homepage": "https:/github.com/tamuri/treesub",
+    "homepage": "https://github.com/tamuri/treesub",
     "latest_version": "0.2",
     "maintainers": [],
     "name": "treesub",

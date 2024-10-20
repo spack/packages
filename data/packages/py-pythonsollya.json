@@ -50,7 +50,7 @@
     ],
     "dependent_to": [],
     "description": "Python wrapper for the Sollya library\n",
-    "homepage": "Python wrapper for the Sollya library",
+    "homepage": "https://gitlab.com/metalibm-dev/pythonsollya",
     "latest_version": "0.4.0-alpha0",
     "maintainers": [],
     "name": "py-pythonsollya",
