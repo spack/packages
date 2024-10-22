@@ -3,9 +3,9 @@
     "build_system": "AutotoolsPackage",
     "conflicts": [
         {
-            "description": "infernal: infernal is only available for x86_64 and PowerPC",
+            "description": "infernal: infernal v1.1.4 and below are only available for x86_64 and PowerPC",
             "name": "arch=None-None-aarch64:",
-            "spec": ""
+            "spec": "@:1.1.4"
         },
         {
             "description": null,
@@ -39,7 +39,7 @@
     ],
     "description": "Infernal (INFERence of RNA ALignment) is for searching DNA sequence\ndatabases for RNA structure and sequence similarities. It is an\nimplementation of a special case of profile stochastic context-free\ngrammars called covariance models (CMs).\n",
     "homepage": "http://eddylab.org/infernal/",
-    "latest_version": "1.1.4",
+    "latest_version": "1.1.5",
     "maintainers": [],
     "name": "infernal",
     "patches": [],
@@ -57,6 +57,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.1.5",
+            "sha256": "ad4ddae02f924ca7c85bc8c4a79c9f875af8df96aeb726702fa985cbe752497f"
+        },
         {
             "name": "1.1.4",
             "sha256": "f9493c7dee9fbf25f6405706818883d24b9f5e455121a0662c96c8f0307f95fc"
