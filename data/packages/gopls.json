@@ -1,0 +1,35 @@
+{
+    "aliases": [],
+    "build_system": "GoPackage",
+    "conflicts": [],
+    "dependencies": [
+        {
+            "description": "The golang compiler and build environment",
+            "name": "go"
+        }
+    ],
+    "dependent_to": [],
+    "description": "The official Go language server developed by the Go team.\n",
+    "homepage": "https://golang.org/x/tools/gopls",
+    "latest_version": "0.16.2",
+    "maintainers": [
+        "alecbcs"
+    ],
+    "name": "gopls",
+    "patches": [],
+    "resources": [],
+    "variants": [
+        {
+            "default": "go",
+            "description": "Build systems supported by the package",
+            "name": "build_system"
+        }
+    ],
+    "versions": [
+        {
+            "name": "0.16.2",
+            "sha256": "be68b3159fcb8cde9ebb8b468f67f03531c58be2de33edbac69e5599f2d4a2c1"
+        }
+    ],
+    "versions_deprecated": []
+}

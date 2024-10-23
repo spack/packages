@@ -2333,6 +2333,10 @@
             "name": "libmicrohttpd"
         },
         {
+            "description": "THE reference library for reading, displaying, writing and examining\nMultiple-Image Network Graphics. MNG is the animation extension to the\npopular PNG image format.",
+            "name": "libmng"
+        },
+        {
             "description": "libmnl is a minimalistic user-space library oriented to Netlink\ndevelopers. There are a lot of common tasks in parsing, validating,\nconstructing of both the Netlink header and TLVs that are repetitive and\neasy to get wrong. This library aims to provide simple helpers that\nallows you to re-use code and to avoid re-inventing the wheel.",
             "name": "libmnl"
         },

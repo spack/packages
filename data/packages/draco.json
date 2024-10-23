@@ -4,6 +4,11 @@
     "conflicts": [
         {
             "description": null,
+            "name": "gcc@:9.0",
+            "spec": "@7.19.0:"
+        },
+        {
+            "description": null,
             "name": "+cuda",
             "spec": "@:7.6"
         },
@@ -90,7 +95,7 @@
     "dependent_to": [],
     "description": "Draco is an object-oriented component library geared towards numerically\nintensive, radiation (particle) transport applications built for\nparallel computing hardware. It consists of semi-independent packages\nand a robust build system.\n",
     "homepage": "https://github.com/lanl/draco",
-    "latest_version": "7.18.0",
+    "latest_version": "7.19.0",
     "maintainers": [
         "KineticTheory"
     ],
@@ -255,6 +260,10 @@
         {
             "branch": "develop",
             "name": "develop"
+        },
+        {
+            "name": "7.19.0",
+            "sha256": "04b33cfea244052efcdd40d2b9dd79348749d34647aaf4dfcb15cdfdbe989783"
         },
         {
             "name": "7.18.0",

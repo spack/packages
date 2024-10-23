@@ -45,6 +45,10 @@
             "name": "libarchive"
         },
         {
+            "description": "THE reference library for reading, displaying, writing and examining\nMultiple-Image Network Graphics. MNG is the animation extension to the\npopular PNG image format.",
+            "name": "libmng"
+        },
+        {
             "description": "Multi-platform library with a focus on asynchronous IO",
             "name": "libuv"
         },

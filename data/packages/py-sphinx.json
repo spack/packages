@@ -418,6 +418,10 @@
             "name": "py-sphinxcontrib-programoutput"
         },
         {
+            "description": "A spelling checker for Sphinx-based documentation",
+            "name": "py-sphinxcontrib-spelling"
+        },
+        {
             "description": "This sphinx extension helps you document Python code that uses\nasync/await, or abstract methods, or context managers, or generators, or\n... you get the idea.",
             "name": "py-sphinxcontrib-trio"
         },

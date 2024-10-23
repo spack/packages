@@ -3493,14 +3493,29 @@
             "spec": "cuda_arch=90"
         },
         {
+            "description": "paraview: Fides needs VTK-m",
+            "name": "+fides",
+            "spec": "use_vtkm=default"
+        },
+        {
             "description": null,
             "name": "+cuda",
+            "spec": "use_vtkm=off"
+        },
+        {
+            "description": "paraview: Fides needs VTK-m",
+            "name": "+fides",
             "spec": "use_vtkm=off"
         },
         {
             "description": null,
             "name": "+rocm",
             "spec": "use_vtkm=off"
+        },
+        {
+            "description": "paraview: Fides needs ADIOS2",
+            "name": "+fides",
+            "spec": "~adios2"
         },
         {
             "description": "paraview: openPMD needs ADIOS2 and/or HDF5",
@@ -3986,6 +4001,11 @@
             "default": false,
             "description": "Enable Eye Dome Lighting feature",
             "name": "eyedomelighting"
+        },
+        {
+            "default": false,
+            "description": "Enable Fides support",
+            "name": "fides"
         },
         {
             "default": false,

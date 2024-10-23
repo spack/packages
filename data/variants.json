@@ -7909,6 +7909,10 @@
             "package": "gocryptfs"
         },
         {
+            "default": "go",
+            "package": "goimports"
+        },
+        {
             "default": "cmake",
             "package": "goma"
         },
@@ -7927,6 +7931,10 @@
         {
             "default": "cmake",
             "package": "googletest"
+        },
+        {
+            "default": "go",
+            "package": "gopls"
         },
         {
             "default": "autotools",
@@ -25775,6 +25783,10 @@
         {
             "default": "python_pip",
             "package": "py-sphinxcontrib-serializinghtml"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-sphinxcontrib-spelling"
         },
         {
             "default": "python_pip",
@@ -50167,6 +50179,10 @@
         {
             "default": false,
             "package": "ascent"
+        },
+        {
+            "default": false,
+            "package": "paraview"
         }
     ],
     "file": [

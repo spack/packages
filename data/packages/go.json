@@ -91,6 +91,14 @@
             "name": "gocryptfs"
         },
         {
+            "description": "Updates your Go import lines, adding missing ones and removing\nunreferenced ones.",
+            "name": "goimports"
+        },
+        {
+            "description": "The official Go language server developed by the Go team.",
+            "name": "gopls"
+        },
+        {
             "description": "GoShimmer is a prototype node for exploring the implementation of IOTA\n2.0",
             "name": "goshimmer"
         },

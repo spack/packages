@@ -28,7 +28,12 @@
             "name": "python-venv"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "A spelling checker for Sphinx-based documentation",
+            "name": "py-sphinxcontrib-spelling"
+        }
+    ],
     "description": "Sphinx Documentation Generator.\n",
     "homepage": "https://pyenchant.github.io/pyenchant/",
     "latest_version": "3.2.2",

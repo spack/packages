@@ -342,6 +342,10 @@
             "name": "emacs"
         },
         {
+            "description": "Enchant is a library (and command-line program) that wraps a number of\ndifferent spelling libraries and programs with a consistent interface.",
+            "name": "enchant"
+        },
+        {
             "description": "Extended Visual Information Extension (XEVIE). This extension defines a\nprotocol for a client to determine information about core X visuals\nbeyond what the core protocol provides.",
             "name": "evieext"
         },

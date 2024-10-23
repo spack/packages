@@ -4948,6 +4948,10 @@
         "name": "gocryptfs"
     },
     {
+        "description": "Updates your Go import lines, adding missing ones and removing\nunreferenced ones.\n",
+        "name": "goimports"
+    },
+    {
         "description": "The golang compiler and build environment\n",
         "name": "golang"
     },
@@ -4970,6 +4974,10 @@
     {
         "description": "Google test framework for C++. Also called gtest.\n",
         "name": "googletest"
+    },
+    {
+        "description": "The official Go language server developed by the Go team.\n",
+        "name": "gopls"
     },
     {
         "description": "Additional libraries for GoSam MC generator\n",
@@ -22898,6 +22906,10 @@
     {
         "description": "sphinxcontrib-serializinghtml is a sphinx extension which outputs\n\"serialized\" HTML files (json and pickle).\n",
         "name": "py-sphinxcontrib-serializinghtml"
+    },
+    {
+        "description": "A spelling checker for Sphinx-based documentation\n",
+        "name": "py-sphinxcontrib-spelling"
     },
     {
         "description": "This sphinx extension helps you document Python code that uses\nasync/await, or abstract methods, or context managers, or generators, or\n... you get the idea.\n",
