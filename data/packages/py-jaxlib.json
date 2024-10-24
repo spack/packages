@@ -561,6 +561,15 @@
             "url": "https://github.com/google/jax/pull/20101.patch?full_index=1",
             "version": "@:0.4.25",
             "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.py-jaxlib",
+            "relative_path": "jaxxlatsl.patch",
+            "reverse": false,
+            "sha256": "2c5386e409fd5b6b16f3dfb52feeca22ba816fa9efda69074e7fd7aebc2af521",
+            "version": "@0.4.28:0.4.32 arch=None-None-aarch64:",
+            "working_dir": "."
         }
     ],
     "resources": [],

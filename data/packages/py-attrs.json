@@ -46,6 +46,10 @@
             "name": "py-aiohttp"
         },
         {
+            "description": "The Advanced Scientific Data Format (ASDF) is a next-generation\ninterchange format for scientific data. This package contains the Python\nimplementation of the ASDF Standard.",
+            "name": "py-asdf"
+        },
+        {
             "description": "Self-service finite-state machines for the programmer on the go.",
             "name": "py-automat"
         },

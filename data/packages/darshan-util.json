@@ -62,7 +62,7 @@
     ],
     "description": "Darshan (util) is collection of tools for parsing and summarizing log\nfiles produced by Darshan (runtime) instrumentation. This package is\ntypically installed on systems (front-end) where you intend to analyze\nlog files produced by Darshan (runtime).\n",
     "homepage": "https://www.mcs.anl.gov/research/projects/darshan/",
-    "latest_version": "3.4.5",
+    "latest_version": "3.4.6",
     "maintainers": [
         "carns",
         "shanedsnyder"
@@ -107,6 +107,10 @@
             "branch": "main",
             "name": "main",
             "submodules": "True"
+        },
+        {
+            "name": "3.4.6",
+            "sha256": "092b35e7af859af903dce0c51bcb5d3901dd0d9ad79d1b2f3282692407f032ee"
         },
         {
             "name": "3.4.5",

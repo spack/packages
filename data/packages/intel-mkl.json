@@ -71,10 +71,6 @@
             "name": "fleur"
         },
         {
-            "description": "GCTA (Genome-wide Complex Trait Analysis) was originally designed to\nestimate the proportion of phenotypic variance explained by all genome-\nwide SNPs for complex traits (the GREML method), and has subsequently\nextended for many other analyses to better understand the genetic\narchitecture of complex traits. GCTA currently supports the following\nanalyses.",
-            "name": "gcta"
-        },
-        {
             "description": "Benchmark Suite for Heterogenuous FFT Implementations",
             "name": "gearshifft"
         },

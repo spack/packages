@@ -27,7 +27,7 @@
     "dependent_to": [],
     "description": "Generates stubs for pybind11-wrapped python modules\n",
     "homepage": "https://github.com/sizmailov/pybind11-stubgen",
-    "latest_version": "0.8.7",
+    "latest_version": "2.5.1",
     "maintainers": [],
     "name": "py-pybind11-stubgen",
     "patches": [],
@@ -40,6 +40,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.5.1",
+            "sha256": "4427a67038a00c5ac1637ffa6c65728c67c5b1251ecc23c7704152be0b14cc0b"
+        },
         {
             "name": "0.8.7",
             "sha256": "79e24009137cd51ef7201c5b9f4d0d072824b260cff751ec8200a8886e06adbf"

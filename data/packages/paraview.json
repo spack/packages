@@ -3521,6 +3521,11 @@
             "description": "paraview: openPMD needs ADIOS2 and/or HDF5",
             "name": "+openpmd",
             "spec": "~adios2~hdf5"
+        },
+        {
+            "description": null,
+            "name": "mpi",
+            "spec": "~mpi"
         }
     ],
     "dependencies": [

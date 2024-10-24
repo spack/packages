@@ -88,7 +88,7 @@
     ],
     "description": "Python utilities to interact with Darshan log records of HPC\napplications.\n",
     "homepage": "https://www.mcs.anl.gov/research/projects/darshan",
-    "latest_version": "3.4.5.0",
+    "latest_version": "3.4.6.0",
     "maintainers": [
         "jeanbez",
         "shanedsnyder"
@@ -104,6 +104,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.4.6.0",
+            "sha256": "a105ec5c9bcd4a20469470ca51db8016336ede34a1c33f4488d1ba263a73c378"
+        },
         {
             "name": "3.4.5.0",
             "sha256": "1419e246b2383d3e71da14942d6579a86fb298bf6dbbc3f507accefa614c6e50"

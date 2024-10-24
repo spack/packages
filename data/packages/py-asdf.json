@@ -16,6 +16,10 @@
             "name": "py-asdf-unit-schemas"
         },
         {
+            "description": "Classes Without Boilerplate",
+            "name": "py-attrs"
+        },
+        {
             "description": "Read metadata from Python packages.",
             "name": "py-importlib-metadata"
         },
@@ -92,7 +96,7 @@
     ],
     "description": "The Advanced Scientific Data Format (ASDF) is a next-generation\ninterchange format for scientific data. This package contains the Python\nimplementation of the ASDF Standard.\n",
     "homepage": "https://asdf.readthedocs.io/",
-    "latest_version": "2.15.0",
+    "latest_version": "3.5.0",
     "maintainers": [
         "lgarrison"
     ],
@@ -112,6 +116,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.5.0",
+            "sha256": "047ad7bdd8f40b04b8625abfd119a35d18b344301c60ea9ddf63964e7ce19669"
+        },
         {
             "name": "2.15.0",
             "sha256": "686f1c91ebf987d41f915cfb6aa70940d7ad17f87ede0be70463147ad2314587"

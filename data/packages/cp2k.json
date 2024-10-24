@@ -929,6 +929,15 @@
             "sha256": "cf8e9cfc078a048e64fb0001a8a241533e0cfd77d6a287a052d81d6d3e4a63c9",
             "version": "@2024.3",
             "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.cp2k",
+            "reverse": false,
+            "sha256": "37f4f1a76634ff4a5617fe0c670e6acfe2afa2b2cfc5b2875e438a54baa4525e",
+            "url": "https://github.com/cp2k/cp2k/commit/7a99649828ecf7d5dc53d952a1bf7be6970deabe.patch?full_index=1",
+            "version": "@2024.2:2024.3",
+            "working_dir": "."
         }
     ],
     "resources": [],
