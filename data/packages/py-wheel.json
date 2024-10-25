@@ -658,6 +658,10 @@
             "name": "py-asdf-unit-schemas"
         },
         {
+            "description": "ASDL: Automatic Second-order Differentiation (for Fisher, Gradient\ncovariance, Hessian, Jacobian, and Kernel) Library.",
+            "name": "py-asdfghjkl"
+        },
+        {
             "description": "The Atomic Simulation Environment (ASE) is a set of tools and Python\nmodules for setting up, manipulating, running, visualizing and analyzing\natomistic simulations.",
             "name": "py-ase"
         },
@@ -1266,6 +1270,10 @@
             "name": "py-backoff"
         },
         {
+            "description": "BackPACK: Packing more into backprop.",
+            "name": "py-backpack-for-pytorch"
+        },
+        {
             "description": "Backports_ABC: A backport of recent additions to the 'collections.abc'\nmodule.",
             "name": "py-backports-abc"
         },
@@ -1582,6 +1590,10 @@
             "name": "py-bottleneck"
         },
         {
+            "description": "Bash-style brace expansion",
+            "name": "py-braceexpand"
+        },
+        {
             "description": "Spatial indexer for geometries and morphologies",
             "name": "py-brain-indexer"
         },
@@ -1776,6 +1788,10 @@
         {
             "description": "Chainer is a Python-based deep learning framework aiming at\nflexibility. It provides automatic differentiation APIs based on the\ndefine-by-run approach (a.k.a. dynamic computational graphs) as well as\nobject-oriented high-level APIs to build and train neural networks. It\nalso supports CUDA/cuDNN using CuPy for high performance training and\ninference.",
             "name": "py-chainer"
+        },
+        {
+            "description": "A code generator that fuses subsequent batched matrix multiplications\n(GEMMs) into a single GPU kernel, holding intermediate results in shared\nmemory as long as necessary.",
+            "name": "py-chainforgecodegen"
         },
         {
             "description": "Clone/backport of ChainMap for Python 2.6, Python 3.2, and PyPy3 based\non Python 3.2--versions that currently lack their own ChainMap\nimplementations.",
@@ -2244,6 +2260,10 @@
         {
             "description": "Module to easily plot the currents in electrical neuron models.",
             "name": "py-currentscape"
+        },
+        {
+            "description": "scipy Linear operators for curvature matrices in PyTorch.",
+            "name": "py-curvlinops-for-pytorch"
         },
         {
             "description": "Custodian is a simple, robust and flexible just-in-time (JIT) job\nmanagement framework written in Python. Using custodian, you can create\nwrappers that perform error checking, job management and error recovery.\nIt has a simple plugin framework that allows you to develop specific job\nmanagement workflows for different applications.",
@@ -2836,6 +2856,10 @@
         {
             "description": "eg provides examples of common uses of command line tools.",
             "name": "py-eg"
+        },
+        {
+            "description": "Convolutions as tensor contractions (einsums) for PyTorch.",
+            "name": "py-einconv"
         },
         {
             "description": "Flexible and powerful tensor operations for readable and reliable code.\nSupports numpy, pytorch, tensorflow, and others.",
@@ -3512,6 +3536,10 @@
         {
             "description": "Simple Client for Earth Engine Uploads with Selenium Support.",
             "name": "py-geeup"
+        },
+        {
+            "description": "GPU-GEMM generator for the Discontinuous Galerkin method",
+            "name": "py-gemmforge"
         },
         {
             "description": "Given multiple snpEff or VEP or BCFTools consequence annotations for a\nsingle variant, get an orderable python object for each annotation.",
@@ -4802,6 +4830,10 @@
             "name": "py-lap"
         },
         {
+            "description": "laplace - Laplace approximations for deep learning.",
+            "name": "py-laplace-torch"
+        },
+        {
             "description": "Lark is a modern general-purpose parsing library for Python.",
             "name": "py-lark"
         },
@@ -4932,6 +4964,10 @@
         {
             "description": "LightningLite enables pure PyTorch users to scale their existing code on\nany kind of device while retaining full control over their own loops and\noptimization logic.",
             "name": "py-lightning-lite"
+        },
+        {
+            "description": "Lighning-UQ-Box: A toolbox for uncertainty quantification in deep\nlearning.",
+            "name": "py-lightning-uq-box"
         },
         {
             "description": "Common Python utilities and GitHub Actions in Lightning Ecosystem",
@@ -10034,6 +10070,10 @@
             "name": "py-torchmetrics"
         },
         {
+            "description": "TorchSeg: Semantic Segmentation models for PyTorch.",
+            "name": "py-torchseg"
+        },
+        {
             "description": "Keras has a neat API to view the visualization of the model which is\nvery helpful while debugging your network. Here is a barebone code to\ntry and mimic the same in PyTorch. The aim is to provide information\ncomplementary to, what is not provided by print(your_model) in PyTorch.",
             "name": "py-torchsummary"
         },
@@ -10290,6 +10330,14 @@
             "name": "py-uncertainties"
         },
         {
+            "description": "Uncertainty Toolbox: a python toolbox for predictive uncertainty\nquantification, calibration, metrics, and visualization.",
+            "name": "py-uncertainty-toolbox"
+        },
+        {
+            "description": "N-dimensional unfold (im2col) and fold (col2im) in PyTorch.",
+            "name": "py-unfoldnd"
+        },
+        {
             "description": "Unicycler is an assembly pipeline for bacterial genomes. It can assemble\nIllumina-only read sets where it functions as a SPAdes-optimiser. It can\nalso assembly long-read-only sets (PacBio or Nanopore) where it runs a\nminiasm+Racon pipeline. For the best possible assemblies, give it both\nIllumina reads and long reads, and it will conduct a hybrid assembly.",
             "name": "py-unicycler"
         },
@@ -10532,6 +10580,10 @@
         {
             "description": "Working with color names and values formats defined by HTML and CSS.",
             "name": "py-webcolors"
+        },
+        {
+            "description": "Python-based I/O for deep learning problems.",
+            "name": "py-webdataset"
         },
         {
             "description": "This is a Python implementation of the WHATWG Encoding standard.",

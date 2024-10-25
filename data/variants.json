@@ -1094,6 +1094,10 @@
         },
         {
             "default": "none",
+            "package": "seissol"
+        },
+        {
+            "default": "none",
             "package": "sirius"
         },
         {
@@ -1607,6 +1611,10 @@
         {
             "default": true,
             "package": "easi"
+        },
+        {
+            "default": true,
+            "package": "seissol"
         }
     ],
     "asan": [
@@ -16870,6 +16878,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-asdfghjkl"
+        },
+        {
+            "default": "python_pip",
             "package": "py-ase"
         },
         {
@@ -17478,6 +17490,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-backpack-for-pytorch"
+        },
+        {
+            "default": "python_pip",
             "package": "py-backports-abc"
         },
         {
@@ -17794,6 +17810,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-braceexpand"
+        },
+        {
+            "default": "python_pip",
             "package": "py-brain-indexer"
         },
         {
@@ -17987,6 +18007,10 @@
         {
             "default": "python_pip",
             "package": "py-chainer"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-chainforgecodegen"
         },
         {
             "default": "python_pip",
@@ -18459,6 +18483,10 @@
         {
             "default": "python_pip",
             "package": "py-currentscape"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-curvlinops-for-pytorch"
         },
         {
             "default": "python_pip",
@@ -19051,6 +19079,10 @@
         {
             "default": "python_pip",
             "package": "py-eg"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-einconv"
         },
         {
             "default": "python_pip",
@@ -19739,6 +19771,10 @@
         {
             "default": "python_pip",
             "package": "py-geeup"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-gemmforge"
         },
         {
             "default": "generic",
@@ -21046,6 +21082,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-laplace-torch"
+        },
+        {
+            "default": "python_pip",
             "package": "py-lark"
         },
         {
@@ -21175,6 +21215,10 @@
         {
             "default": "python_pip",
             "package": "py-lightning-lite"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-lightning-uq-box"
         },
         {
             "default": "python_pip",
@@ -26322,6 +26366,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-torchseg"
+        },
+        {
+            "default": "python_pip",
             "package": "py-torchsummary"
         },
         {
@@ -26578,6 +26626,14 @@
         },
         {
             "default": "python_pip",
+            "package": "py-uncertainty-toolbox"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-unfoldnd"
+        },
+        {
+            "default": "python_pip",
             "package": "py-unicycler"
         },
         {
@@ -26819,6 +26875,10 @@
         {
             "default": "python_pip",
             "package": "py-webcolors"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-webdataset"
         },
         {
             "default": "python_pip",
@@ -32966,6 +33026,10 @@
         },
         {
             "default": "cmake",
+            "package": "seissol"
+        },
+        {
+            "default": "cmake",
             "package": "selalib"
         },
         {
@@ -33843,6 +33907,10 @@
         {
             "default": "generic",
             "package": "superlu-mt"
+        },
+        {
+            "default": "autotools",
+            "package": "supermagic"
         },
         {
             "default": "generic",
@@ -40162,6 +40230,10 @@
         },
         {
             "default": "Release",
+            "package": "seissol"
+        },
+        {
+            "default": "Release",
             "package": "selalib"
         },
         {
@@ -42739,6 +42811,12 @@
             "package": "py-horovod"
         }
     ],
+    "convergence_order": [
+        {
+            "default": "4",
+            "package": "seissol"
+        }
+    ],
     "convert": [
         {
             "default": false,
@@ -44088,6 +44166,10 @@
         },
         {
             "default": false,
+            "package": "seissol"
+        },
+        {
+            "default": false,
             "package": "singularity-eos"
         },
         {
@@ -44979,6 +45061,10 @@
         {
             "default": "none",
             "package": "rodinia"
+        },
+        {
+            "default": "none",
+            "package": "seissol"
         },
         {
             "default": "none",
@@ -47983,6 +48069,12 @@
             "package": "estarlight"
         }
     ],
+    "dr_quad_rule": [
+        {
+            "default": "stroud",
+            "package": "seissol"
+        }
+    ],
     "drafts": [
         {
             "default": false,
@@ -48741,6 +48833,12 @@
         {
             "default": "navierstokes",
             "package": "flexi"
+        }
+    ],
+    "equations": [
+        {
+            "default": "elastic",
+            "package": "seissol"
         }
     ],
     "error-checking": [
@@ -51447,6 +51545,12 @@
         {
             "default": false,
             "package": "reframe"
+        }
+    ],
+    "gemm_tools_list": [
+        {
+            "default": "LIBXSMM,PSpaMM",
+            "package": "seissol"
         }
     ],
     "gen-simd-width": [
@@ -55640,6 +55744,10 @@
         },
         {
             "default": "make",
+            "package": "seissol"
+        },
+        {
+            "default": "make",
             "package": "selalib"
         },
         {
@@ -57237,6 +57345,12 @@
         {
             "default": false,
             "package": "boost"
+        }
+    ],
+    "graph_partitioning_libs": [
+        {
+            "default": "parmetis",
+            "package": "seissol"
         }
     ],
     "graphblas": [
@@ -59467,10 +59581,20 @@
             "package": "geopm-runtime"
         }
     ],
+    "intel_gpu": [
+        {
+            "default": false,
+            "package": "seissol"
+        }
+    ],
     "intel_gpu_arch": [
         {
             "default": "none",
             "package": "kokkos"
+        },
+        {
+            "default": "none",
+            "package": "seissol"
         }
     ],
     "intel_prof": [
@@ -63900,6 +64024,10 @@
         },
         {
             "default": false,
+            "package": "seissol"
+        },
+        {
+            "default": false,
             "package": "selalib"
         },
         {
@@ -68003,6 +68131,10 @@
         {
             "default": false,
             "package": "petsc"
+        },
+        {
+            "default": true,
+            "package": "seissol"
         }
     ],
     "memopt": [
@@ -70887,6 +71019,10 @@
             "package": "py-heat"
         },
         {
+            "default": true,
+            "package": "seissol"
+        },
+        {
             "default": false,
             "package": "serialbox"
         },
@@ -71485,6 +71621,12 @@
         {
             "default": false,
             "package": "py-openpmd-viewer"
+        }
+    ],
+    "number_of_mechanisms": [
+        {
+            "default": "3",
+            "package": "seissol"
         }
     ],
     "numpy": [
@@ -75205,6 +75347,12 @@
             "package": "cosmomc"
         }
     ],
+    "plasticity_method": [
+        {
+            "default": "nb",
+            "package": "seissol"
+        }
+    ],
     "plat": [
         {
             "default": "x64",
@@ -75869,6 +76017,10 @@
         {
             "default": "double",
             "package": "py-amrex"
+        },
+        {
+            "default": "double",
+            "package": "seissol"
         },
         {
             "default": [
@@ -78633,6 +78785,10 @@
         {
             "default": false,
             "package": "roctracer-dev"
+        },
+        {
+            "default": false,
+            "package": "seissol"
         },
         {
             "default": false,
@@ -83481,6 +83637,18 @@
         {
             "default": false,
             "package": "babelstream"
+        }
+    ],
+    "sycl_backend": [
+        {
+            "default": "acpp",
+            "package": "seissol"
+        }
+    ],
+    "sycl_gemm": [
+        {
+            "default": false,
+            "package": "seissol"
         }
     ],
     "symbol_suffix": [

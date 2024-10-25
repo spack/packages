@@ -142,6 +142,10 @@
             "name": "py-ipyvuetify"
         },
         {
+            "description": "Jupyter metapackage. Install all the Jupyter components in one go.",
+            "name": "py-jupyter"
+        },
+        {
             "description": "Jupyter Server Proxy lets you run arbitrary external processes (such as\nRStudio, Shiny Server, Syncthing, PostgreSQL, Code Server, etc)\nalongside your notebook server and provide authenticated web access to\nthem using a path like /rstudio next to others like /lab.",
             "name": "py-jupyter-server-proxy"
         },

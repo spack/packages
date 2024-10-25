@@ -190,6 +190,10 @@
             "name": "py-kosh"
         },
         {
+            "description": "Lighning-UQ-Box: A toolbox for uncertainty quantification in deep\nlearning.",
+            "name": "py-lightning-uq-box"
+        },
+        {
             "description": "Work with Loom files for single-cell RNA-seq data.",
             "name": "py-loompy"
         },
@@ -380,7 +384,7 @@
     ],
     "description": "The h5py package provides both a high- and low-level interface to the\nHDF5 library from Python.\n",
     "homepage": "https://www.h5py.org/",
-    "latest_version": "3.11.0",
+    "latest_version": "3.12.1",
     "maintainers": [
         "bryanherman",
         "takluyver"
@@ -404,6 +408,14 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "3.12.1",
+            "sha256": "326d70b53d31baa61f00b8aa5f95c2fcb9621a3ee8365d770c551a13dbbcbfdf"
+        },
+        {
+            "name": "3.12.0",
+            "sha256": "00955a079e9f86c5ae2cd08accb54396c69cda87152312ddd1528e3f90acc866"
         },
         {
             "name": "3.11.0",

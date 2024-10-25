@@ -70,8 +70,16 @@
     ],
     "dependent_to": [
         {
+            "description": "laplace - Laplace approximations for deep learning.",
+            "name": "py-laplace-torch"
+        },
+        {
             "description": "The deep learning framework to pretrain, finetune and deploy AI models.",
             "name": "py-lightning"
+        },
+        {
+            "description": "Lighning-UQ-Box: A toolbox for uncertainty quantification in deep\nlearning.",
+            "name": "py-lightning-uq-box"
         },
         {
             "description": "PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers.",

@@ -234,6 +234,10 @@
             "name": "py-lightgbm"
         },
         {
+            "description": "Lighning-UQ-Box: A toolbox for uncertainty quantification in deep\nlearning.",
+            "name": "py-lightning-uq-box"
+        },
+        {
             "description": "Classification Schemes for Choropleth Maps.",
             "name": "py-mapclassify"
         },
@@ -408,6 +412,10 @@
         {
             "description": "Uniform Manifold Approximation and Projection (UMAP) is a dimension\nreduction technique that can be used for visualisation similarly to\nt-SNE, but also for general non-linear dimension reduction.",
             "name": "py-umap-learn"
+        },
+        {
+            "description": "Uncertainty Toolbox: a python toolbox for predictive uncertainty\nquantification, calibration, metrics, and visualization.",
+            "name": "py-uncertainty-toolbox"
         },
         {
             "description": "XGBoost is an optimized distributed gradient boosting library designed\nto be highly efficient, flexible and portable.",

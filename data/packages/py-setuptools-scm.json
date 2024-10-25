@@ -158,6 +158,10 @@
             "name": "py-ax-platform"
         },
         {
+            "description": "BackPACK: Packing more into backprop.",
+            "name": "py-backpack-for-pytorch"
+        },
+        {
             "description": "cached_property() - computed once per instance, cached as attribute",
             "name": "py-backports-cached-property"
         },
@@ -270,6 +274,10 @@
             "name": "py-currentscape"
         },
         {
+            "description": "scipy Linear operators for curvature matrices in PyTorch.",
+            "name": "py-curvlinops-for-pytorch"
+        },
+        {
             "description": "Cutadapt finds and removes adapter sequences, primers, poly-A tails and\nother types of unwanted sequence from your high-throughput sequencing\nreads.",
             "name": "py-cutadapt"
         },
@@ -300,6 +308,10 @@
         {
             "description": "Earth-2 Model Intercomparison Project (MIP). A python framework that\nenables climate researchers and scientists to explore and experiment\nwith AI models for weather and climate.",
             "name": "py-earth2mip"
+        },
+        {
+            "description": "Convolutions as tensor contractions (einsums) for PyTorch.",
+            "name": "py-einconv"
         },
         {
             "description": "emcee is an MIT licensed pure-Python implementation of Goodman & Weare's\nAffine Invariant Markov chain Monte Carlo (MCMC) Ensemble sampler.",
@@ -456,6 +468,10 @@
         {
             "description": "A fast implementation of the Cassowary constraint solver",
             "name": "py-kiwisolver"
+        },
+        {
+            "description": "laplace - Laplace approximations for deep learning.",
+            "name": "py-laplace-torch"
         },
         {
             "description": "A fast and thorough lazy object proxy.",
@@ -904,6 +920,10 @@
         {
             "description": "Ultra fast JSON decoder and encoder written in C with Python bindings.",
             "name": "py-ujson"
+        },
+        {
+            "description": "N-dimensional unfold (im2col) and fold (col2im) in PyTorch.",
+            "name": "py-unfoldnd"
         },
         {
             "description": "Python library for reading, writing, and manipulating large-scale\nvasculature datasets",

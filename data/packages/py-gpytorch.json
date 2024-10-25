@@ -4,8 +4,16 @@
     "conflicts": [],
     "dependencies": [
         {
+            "description": "Type annotations and runtime checking for shape and dtype of JAX arrays,\nand PyTrees.",
+            "name": "py-jaxtyping"
+        },
+        {
             "description": "A linear operator implementation, primarily designed for finite-\ndimensional positive definite operators (i.e. kernel matrices).",
             "name": "py-linear-operator"
+        },
+        {
+            "description": "A Python library for arbitrary-precision floating-point arithmetic.",
+            "name": "py-mpmath"
         },
         {
             "description": "Fundamental package for array computing in Python.",
@@ -52,11 +60,15 @@
         {
             "description": "BoTorch is a library for Bayesian Optimization built on PyTorch.",
             "name": "py-botorch"
+        },
+        {
+            "description": "Lighning-UQ-Box: A toolbox for uncertainty quantification in deep\nlearning.",
+            "name": "py-lightning-uq-box"
         }
     ],
     "description": "GPyTorch is a Gaussian process library implemented using PyTorch.\nGPyTorch is designed for creating scalable, flexible, and modular\nGaussian process models with ease.\n",
     "homepage": "https://gpytorch.ai/",
-    "latest_version": "1.10",
+    "latest_version": "1.13",
     "maintainers": [
         "adamjstewart",
         "meyersbs"
@@ -72,6 +84,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.13",
+            "sha256": "f4a488633a2a7a4ab37d12553d1d1dd39690043dbceef14ca428b7d5f89f73ba"
+        },
         {
             "name": "1.10",
             "sha256": "6dc978ab9fbf220a845a4f1ea13104180fc50e6934081f421b37f6120afb7f18"

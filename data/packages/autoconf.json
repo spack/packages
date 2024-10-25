@@ -1588,6 +1588,10 @@
             "name": "stc"
         },
         {
+            "description": "Supermagic is a very simple MPI sanity code. Nothing more, nothing less.",
+            "name": "supermagic"
+        },
+        {
             "description": "SPH With Inter-dependent Fine-grained Tasking (SWIFT) provides\nastrophysicists with a state of the art framework to perform particle\nbased simulations.",
             "name": "swiftsim"
         },

@@ -16,6 +16,10 @@
             "name": "py-numpy"
         },
         {
+            "description": "The build backend used by PDM that supports latest packaging standards",
+            "name": "py-pdm-backend"
+        },
+        {
             "description": "The PyPA recommended tool for installing Python packages.",
             "name": "py-pip"
         },
@@ -58,6 +62,10 @@
             "name": "py-climax"
         },
         {
+            "description": "Lighning-UQ-Box: A toolbox for uncertainty quantification in deep\nlearning.",
+            "name": "py-lightning-uq-box"
+        },
+        {
             "description": "Welcome to an open source implementation of OpenAI's CLIP (Contrastive\nLanguage-Image Pre-training).",
             "name": "py-open-clip-torch"
         },
@@ -72,11 +80,15 @@
         {
             "description": "TorchGeo: datasets, samplers, transforms, and pre-trained models for\ngeospatial data.",
             "name": "py-torchgeo"
+        },
+        {
+            "description": "TorchSeg: Semantic Segmentation models for PyTorch.",
+            "name": "py-torchseg"
         }
     ],
     "description": "(Unofficial) PyTorch Image Models.\n",
     "homepage": "https://github.com/rwightman/pytorch-image-models",
-    "latest_version": "0.9.7",
+    "latest_version": "1.0.11",
     "maintainers": [
         "adamjstewart"
     ],
@@ -91,6 +103,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.0.11",
+            "sha256": "a005f72b87e67ed30cdbf405a9ffd4e723360c780a43b1cefe266af8ecc9d151"
+        },
         {
             "name": "0.9.7",
             "sha256": "2bfb1029e90b72e65eb9c75556169815f2e82257eaa1f6ebd623a4b4a52867a2"

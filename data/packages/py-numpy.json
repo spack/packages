@@ -580,6 +580,10 @@
             "name": "py-asdf"
         },
         {
+            "description": "ASDL: Automatic Second-order Differentiation (for Fisher, Gradient\ncovariance, Hessian, Jacobian, and Kernel) Library.",
+            "name": "py-asdfghjkl"
+        },
+        {
             "description": "The Atomic Simulation Environment (ASE) is a set of tools and Python\nmodules for setting up, manipulating, running, visualizing and analyzing\natomistic simulations.",
             "name": "py-ase"
         },
@@ -774,6 +778,10 @@
         {
             "description": "Chainer is a Python-based deep learning framework aiming at\nflexibility. It provides automatic differentiation APIs based on the\ndefine-by-run approach (a.k.a. dynamic computational graphs) as well as\nobject-oriented high-level APIs to build and train neural networks. It\nalso supports CUDA/cuDNN using CuPy for high performance training and\ninference.",
             "name": "py-chainer"
+        },
+        {
+            "description": "A code generator that fuses subsequent batched matrix multiplications\n(GEMMs) into a single GPU kernel, holding intermediate results in shared\nmemory as long as necessary.",
+            "name": "py-chainforgecodegen"
         },
         {
             "description": "Charm4py (Charm++ for Python) is a distributed computing and parallel\nprogramming framework for Python, for the productive development of\nfast, parallel and scalable applications. It is built on top of Charm++,\na C++ adaptive runtime system that has seen extensive use in the\nscientific and high-performance computing (HPC) communities across many\ndisciplines, and has been used to develop applications that run on a\nwide range of devices: from small multi-core devices up to the largest\nsupercomputers.",
@@ -1192,6 +1200,10 @@
             "name": "py-fury"
         },
         {
+            "description": "GPU-GEMM generator for the Discontinuous Galerkin method",
+            "name": "py-gemmforge"
+        },
+        {
             "description": "Gensim is a Python library for topic modelling, document indexing and\nsimilarity retrieval with large corpora. Target audience is the natural\nlanguage processing (NLP) and information retrieval (IR) community.",
             "name": "py-gensim"
         },
@@ -1456,6 +1468,10 @@
             "name": "py-jaxlib"
         },
         {
+            "description": "Type annotations and runtime checking for shape and dtype of JAX arrays,\nand PyTrees.",
+            "name": "py-jaxtyping"
+        },
+        {
             "description": "JMP is a Mixed Precision library for JAX.",
             "name": "py-jmp"
         },
@@ -1558,6 +1574,10 @@
         {
             "description": "LightningLite enables pure PyTorch users to scale their existing code on\nany kind of device while retaining full control over their own loops and\noptimization logic.",
             "name": "py-lightning-lite"
+        },
+        {
+            "description": "Lighning-UQ-Box: A toolbox for uncertainty quantification in deep\nlearning.",
+            "name": "py-lightning-uq-box"
         },
         {
             "description": "The line enhancer is only used by crYOLO internally",
@@ -3032,6 +3052,14 @@
             "name": "py-uncertainties"
         },
         {
+            "description": "Uncertainty Toolbox: a python toolbox for predictive uncertainty\nquantification, calibration, metrics, and visualization.",
+            "name": "py-uncertainty-toolbox"
+        },
+        {
+            "description": "N-dimensional unfold (im2col) and fold (col2im) in PyTorch.",
+            "name": "py-unfoldnd"
+        },
+        {
             "description": "A package for handling numpy arrays with units.",
             "name": "py-unyt"
         },
@@ -3074,6 +3102,10 @@
         {
             "description": "WCSAxes is a framework for making plots of Astronomical data in\nMatplotlib.",
             "name": "py-wcsaxes"
+        },
+        {
+            "description": "Python-based I/O for deep learning problems.",
+            "name": "py-webdataset"
         },
         {
             "description": "WebLogo is a web based application designed to make the generation of\nsequence logos as easy and painless as possible.",
@@ -3206,6 +3238,10 @@
         {
             "description": "Contains functionality which is used in most SCINE modules.",
             "name": "scine-utilities"
+        },
+        {
+            "description": "Seissol - A scientific software for the numerical simulation of seismic\nwave phenomena and earthquake dynamics.",
+            "name": "seissol"
         },
         {
             "description": "SENSEI is a platform for scalable in-situ analysis and visualization.\nIts design motto is \"Write once, run everywhere\", this means that once\nthe application is instrumented with SENSEI it can use existing and\nfuture analysis backends. Existing backends include: Paraview/Catalyst,\nVisit/Libsim, ADIOS, Python scripts, and so on.",

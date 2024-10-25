@@ -282,6 +282,10 @@
             "name": "scine-xtb"
         },
         {
+            "description": "Seissol - A scientific software for the numerical simulation of seismic\nwave phenomena and earthquake dynamics.",
+            "name": "seissol"
+        },
+        {
             "description": "Subsystem focused quantum chemistry code Serenity",
             "name": "serenity"
         },

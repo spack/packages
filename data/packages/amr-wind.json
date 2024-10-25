@@ -483,7 +483,7 @@
     ],
     "description": "AMR-Wind is a massively parallel, block-structured adaptive-mesh,\nincompressible flow sover for wind turbine and wind farm simulations.\n",
     "homepage": "https://github.com/Exawind/amr-wind",
-    "latest_version": "3.1.5",
+    "latest_version": "3.1.6",
     "maintainers": [
         "jrood-nrel",
         "psakievich"
@@ -617,6 +617,11 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "commit": "ca437affc6fd00490d8b14e244e53bf641207224",
+            "name": "3.1.6",
+            "tag": "v3.1.6"
         },
         {
             "commit": "554f8aa1ac36c2bae17565c64d5bc33333cee396",

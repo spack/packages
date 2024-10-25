@@ -245,6 +245,10 @@
             "name": "py-cekit"
         },
         {
+            "description": "A code generator that fuses subsequent batched matrix multiplications\n(GEMMs) into a single GPU kernel, holding intermediate results in shared\nmemory as long as necessary.",
+            "name": "py-chainforgecodegen"
+        },
+        {
             "description": "Python Serverless Microframework for AWS.",
             "name": "py-chalice"
         },
@@ -347,6 +351,10 @@
         {
             "description": "Convert a Galaxy workflow to abstract Common Workflow Language (CWL)",
             "name": "py-galaxy2cwl"
+        },
+        {
+            "description": "GPU-GEMM generator for the Discontinuous Galerkin method",
+            "name": "py-gemmforge"
         },
         {
             "description": "The Global Extensible Open Power Manager (GEOPM) Service provides a user\ninterface for accessing hardware telemetry and settings securely.",

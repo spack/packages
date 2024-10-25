@@ -121,6 +121,10 @@
             "name": "minigan"
         },
         {
+            "description": "BackPACK: Packing more into backprop.",
+            "name": "py-backpack-for-pytorch"
+        },
+        {
             "description": "CLIP (Contrastive Language-Image Pre-Training) is a neural network\ntrained on a variety of (image, text) pairs. It can be instructed in\nnatural language to predict the most relevant text snippet, given an\nimage, without directly optimizing for the task, similarly to the zero-\nshot capabilities of GPT-2 and 3. We found CLIP matches the performance\nof the original ResNet50 on ImageNet \"zero-shot\" without using any of\nthe original 1.28M labeled examples, overcoming several major challenges\nin computer vision.",
             "name": "py-clip-anytorch"
         },
@@ -161,8 +165,16 @@
             "name": "py-keras"
         },
         {
+            "description": "laplace - Laplace approximations for deep learning.",
+            "name": "py-laplace-torch"
+        },
+        {
             "description": "A deep learning package for self-supervised learning.",
             "name": "py-lightly"
+        },
+        {
+            "description": "Lighning-UQ-Box: A toolbox for uncertainty quantification in deep\nlearning.",
+            "name": "py-lightning-uq-box"
         },
         {
             "description": "LPIPS Similarity metric",

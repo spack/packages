@@ -407,6 +407,10 @@
             "name": "py-cupy"
         },
         {
+            "description": "scipy Linear operators for curvature matrices in PyTorch.",
+            "name": "py-curvlinops-for-pytorch"
+        },
+        {
             "description": "Convex optimization, for everyone.",
             "name": "py-cvxpy"
         },
@@ -1335,6 +1339,10 @@
             "name": "py-umi-tools"
         },
         {
+            "description": "Uncertainty Toolbox: a python toolbox for predictive uncertainty\nquantification, calibration, metrics, and visualization.",
+            "name": "py-uncertainty-toolbox"
+        },
+        {
             "description": "Python library for reading, writing, and manipulating large-scale\nvasculature datasets",
             "name": "py-vascpy"
         },
@@ -1389,6 +1397,10 @@
         {
             "description": "Contains functionality which is used in most SCINE modules.",
             "name": "scine-utilities"
+        },
+        {
+            "description": "Seissol - A scientific software for the numerical simulation of seismic\nwave phenomena and earthquake dynamics.",
+            "name": "seissol"
         },
         {
             "description": "SGpp is a library and framework for sparse grids in different flavors.\nSGpp supports both hierarchical spatially-adaptive sparse grids and the\ndimensionally-adaptive sparse grid combination technique.",

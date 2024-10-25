@@ -34,6 +34,10 @@
             "name": "py-fluiddyn"
         },
         {
+            "description": "(Unofficial) PyTorch Image Models.",
+            "name": "py-timm"
+        },
+        {
             "description": "Make your Python code fly at transonic speeds!",
             "name": "py-transonic"
         }

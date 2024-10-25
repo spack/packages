@@ -606,6 +606,10 @@
             "name": "py-lifelines"
         },
         {
+            "description": "Lighning-UQ-Box: A toolbox for uncertainty quantification in deep\nlearning.",
+            "name": "py-lightning-uq-box"
+        },
+        {
             "description": "Tools for calculating sequence properties of disordered proteins",
             "name": "py-localcider"
         },
@@ -938,6 +942,10 @@
             "name": "py-umi-tools"
         },
         {
+            "description": "Uncertainty Toolbox: a python toolbox for predictive uncertainty\nquantification, calibration, metrics, and visualization.",
+            "name": "py-uncertainty-toolbox"
+        },
+        {
             "description": "VCF-kit is a command-line based collection of utilities for performing\nanalysis on Variant Call Format (VCF) files.",
             "name": "py-vcf-kit"
         },
@@ -996,6 +1004,10 @@
         {
             "description": "Rapid large-scale prokaryote pan genome analysis",
             "name": "roary"
+        },
+        {
+            "description": "Seissol - A scientific software for the numerical simulation of seismic\nwave phenomena and earthquake dynamics.",
+            "name": "seissol"
         },
         {
             "description": "ShapeMapper automates the calculation of RNA structure probing\nreactivities from mutational profiling (MaP) experiments, in which\nchemical adducts on RNA are detected as internal mutations in cDNA\nthrough reverse transcription and read out by massively parallel\nsequencing.",

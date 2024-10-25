@@ -34,6 +34,10 @@
             "name": "py-alpaca-farm"
         },
         {
+            "description": "BackPACK: Packing more into backprop.",
+            "name": "py-backpack-for-pytorch"
+        },
+        {
             "description": "This repository contains an implementation for the Convolutive transfer\nfunction Invariant Signal-to-Distortion Ratio objective for PyTorch as\ndescribed in the publication Convolutive Transfer Function Invariant SDR\ntraining criteria for Multi-Channel Reverberant Speech Separation",
             "name": "py-ci-sdr"
         },
@@ -42,8 +46,16 @@
             "name": "py-coca-pytorch"
         },
         {
+            "description": "scipy Linear operators for curvature matrices in PyTorch.",
+            "name": "py-curvlinops-for-pytorch"
+        },
+        {
             "description": "Earth-2 Model Intercomparison Project (MIP). A python framework that\nenables climate researchers and scientists to explore and experiment\nwith AI models for weather and climate.",
             "name": "py-earth2mip"
+        },
+        {
+            "description": "Convolutions as tensor contractions (einsums) for PyTorch.",
+            "name": "py-einconv"
         },
         {
             "description": "Evolutionary Scale Modeling",
@@ -58,12 +70,20 @@
             "name": "py-flash-attn"
         },
         {
+            "description": "Lighning-UQ-Box: A toolbox for uncertainty quantification in deep\nlearning.",
+            "name": "py-lightning-uq-box"
+        },
+        {
             "description": "A standalone library for adding rotary embeddings to transformers in\nPytorch, following its success as relative positional encoding.\nSpecifically it will make rotating information into any axis of a tensor\neasy and efficient, whether they be fixed positional or learned. This\nlibrary will give you state of the art results for positional embedding,\nat little costs.",
             "name": "py-rotary-embedding-torch"
         },
         {
             "description": "TorchGeo: datasets, samplers, transforms, and pre-trained models for\ngeospatial data.",
             "name": "py-torchgeo"
+        },
+        {
+            "description": "TorchSeg: Semantic Segmentation models for PyTorch.",
+            "name": "py-torchseg"
         },
         {
             "description": "A vector quantization library originally transcribed from Deepmind's\ntensorflow implementation, made conveniently into a package. It uses\nexponential moving averages to update the dictionary.",

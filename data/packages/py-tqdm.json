@@ -98,6 +98,10 @@
             "name": "py-conan"
         },
         {
+            "description": "scipy Linear operators for curvature matrices in PyTorch.",
+            "name": "py-curvlinops-for-pytorch"
+        },
+        {
             "description": "data distribution geared toward scientific datasets. DataLad makes data\nmanagement and data distribution more accessible. To do that, it stands\non the shoulders of Git and Git-annex to deliver a decentralized system\nfor data exchange. This includes automated ingestion of data from online\nportals and exposing it in readily usable form as Git(-annex)\nrepositories, so-called datasets. The actual data storage and permission\nmanagement, however, remains with the original data providers.",
             "name": "py-datalad"
         },
@@ -456,6 +460,10 @@
         {
             "description": "Uniform Manifold Approximation and Projection (UMAP) is a dimension\nreduction technique that can be used for visualisation similarly to\nt-SNE, but also for general non-linear dimension reduction.",
             "name": "py-umap-learn"
+        },
+        {
+            "description": "Uncertainty Toolbox: a python toolbox for predictive uncertainty\nquantification, calibration, metrics, and visualization.",
+            "name": "py-uncertainty-toolbox"
         },
         {
             "description": "Bioinformatics tools and a software library developed by the Oxford\nNanopore Technologies Applications group.",

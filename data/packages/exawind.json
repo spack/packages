@@ -523,7 +523,7 @@
     "dependent_to": [],
     "description": "Multi-application driver for Exawind project.\n",
     "homepage": "https://github.com/Exawind/exawind-driver",
-    "latest_version": "1.0.0",
+    "latest_version": "1.1.0",
     "maintainers": [
         "jrood-nrel"
     ],
@@ -596,6 +596,10 @@
         {
             "branch": "main",
             "name": "master"
+        },
+        {
+            "name": "1.1.0",
+            "tag": "v1.1.0"
         },
         {
             "name": "1.0.0",

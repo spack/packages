@@ -120,6 +120,10 @@
             "name": "py-cellprofiler"
         },
         {
+            "description": "A code generator that fuses subsequent batched matrix multiplications\n(GEMMs) into a single GPU kernel, holding intermediate results in shared\nmemory as long as necessary.",
+            "name": "py-chainforgecodegen"
+        },
+        {
             "description": "cmake-format project provides Quality Assurance (QA) tools for cmake.\nTools include cmake-annotate, cmake-format, cmake-lint, and ctest-to.",
             "name": "py-cmake-format"
         },
@@ -186,6 +190,10 @@
         {
             "description": "Gcovr provides a utility for managing the use of the GNU gcov utility\nand generating summarized code coverage results. This command is\ninspired by the Python coverage.py package, which provides a similar\nutility for Python.",
             "name": "py-gcovr"
+        },
+        {
+            "description": "GPU-GEMM generator for the Discontinuous Galerkin method",
+            "name": "py-gemmforge"
         },
         {
             "description": "Parser tools for Mozilla's Glean telemetry.",

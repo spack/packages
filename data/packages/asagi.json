@@ -38,6 +38,10 @@
         {
             "description": "easi is a library for the Easy Initialization of models in three (or\nless or more) dimensional domains.",
             "name": "easi"
+        },
+        {
+            "description": "Seissol - A scientific software for the numerical simulation of seismic\nwave phenomena and earthquake dynamics.",
+            "name": "seissol"
         }
     ],
     "description": "a pArallel Server for Adaptive GeoInformation.\n",

@@ -34,6 +34,10 @@
             "name": "py-jax"
         },
         {
+            "description": "laplace - Laplace approximations for deep learning.",
+            "name": "py-laplace-torch"
+        },
+        {
             "description": "A Python library for probabilistic modeling and inference.",
             "name": "py-pyro-ppl"
         },

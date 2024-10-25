@@ -4,6 +4,14 @@
     "conflicts": [],
     "dependencies": [
         {
+            "description": "Type annotations and runtime checking for shape and dtype of JAX arrays,\nand PyTrees.",
+            "name": "py-jaxtyping"
+        },
+        {
+            "description": "A Python library for arbitrary-precision floating-point arithmetic.",
+            "name": "py-mpmath"
+        },
+        {
             "description": "The PyPA recommended tool for installing Python packages.",
             "name": "py-pip"
         },
@@ -48,7 +56,7 @@
     ],
     "description": "A linear operator implementation, primarily designed for finite-\ndimensional positive definite operators (i.e. kernel matrices).\n",
     "homepage": "https://github.com/cornellius-gp/linear_operator/",
-    "latest_version": "0.4.0",
+    "latest_version": "0.5.3",
     "maintainers": [
         "meyersbs"
     ],
@@ -63,6 +71,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.5.3",
+            "sha256": "16122661cd8b8a89ea965c845f650affe0f688f315893bb8dfa1182f148a1a41"
+        },
         {
             "name": "0.4.0",
             "sha256": "7c57c9f8f258c9785c0db4dd7625f4dd03a340313d7314cba0b633644909f5c6"

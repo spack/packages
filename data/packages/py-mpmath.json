@@ -38,8 +38,16 @@
             "name": "py-astropy"
         },
         {
+            "description": "GPyTorch is a Gaussian process library implemented using PyTorch.\nGPyTorch is designed for creating scalable, flexible, and modular\nGaussian process models with ease.",
+            "name": "py-gpytorch"
+        },
+        {
             "description": "Library for managing ensemble-like collections of computations.",
             "name": "py-libensemble"
+        },
+        {
+            "description": "A linear operator implementation, primarily designed for finite-\ndimensional positive definite operators (i.e. kernel matrices).",
+            "name": "py-linear-operator"
         },
         {
             "description": "SymPy is a Python library for symbolic mathematics.",

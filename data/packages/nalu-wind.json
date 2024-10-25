@@ -519,7 +519,7 @@
     ],
     "description": "Nalu-Wind: Wind energy focused variant of Nalu.\n",
     "homepage": "https://nalu-wind.readthedocs.io",
-    "latest_version": "2.0.0",
+    "latest_version": "2.1.0",
     "maintainers": [
         "jrood-nrel",
         "psakievich"
@@ -653,6 +653,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "2.1.0",
+            "tag": "v2.1.0"
         },
         {
             "name": "2.0.0",

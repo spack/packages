@@ -13992,6 +13992,10 @@
         "name": "py-asdf-unit-schemas"
     },
     {
+        "description": "ASDL: Automatic Second-order Differentiation (for Fisher, Gradient\ncovariance, Hessian, Jacobian, and Kernel) Library.\n",
+        "name": "py-asdfghjkl"
+    },
+    {
         "description": "The Atomic Simulation Environment (ASE) is a set of tools and Python\nmodules for setting up, manipulating, running, visualizing and analyzing\natomistic simulations.\n",
         "name": "py-ase"
     },
@@ -14600,6 +14604,10 @@
         "name": "py-backoff"
     },
     {
+        "description": "BackPACK: Packing more into backprop.\n",
+        "name": "py-backpack-for-pytorch"
+    },
+    {
         "description": "Backports_ABC: A backport of recent additions to the 'collections.abc'\nmodule.\n",
         "name": "py-backports-abc"
     },
@@ -14916,6 +14924,10 @@
         "name": "py-bottleneck"
     },
     {
+        "description": "Bash-style brace expansion\n",
+        "name": "py-braceexpand"
+    },
+    {
         "description": "Spatial indexer for geometries and morphologies\n",
         "name": "py-brain-indexer"
     },
@@ -15110,6 +15122,10 @@
     {
         "description": " Chainer is a Python-based deep learning framework aiming at\nflexibility. It provides automatic differentiation APIs based on the\ndefine-by-run approach (a.k.a. dynamic computational graphs) as well as\nobject-oriented high-level APIs to build and train neural networks. It\nalso supports CUDA/cuDNN using CuPy for high performance training and\ninference.\n",
         "name": "py-chainer"
+    },
+    {
+        "description": "A code generator that fuses subsequent batched matrix multiplications\n(GEMMs) into a single GPU kernel, holding intermediate results in shared\nmemory as long as necessary.\n",
+        "name": "py-chainforgecodegen"
     },
     {
         "description": "Clone/backport of ChainMap for Python 2.6, Python 3.2, and PyPy3 based\non Python 3.2--versions that currently lack their own ChainMap\nimplementations.\n",
@@ -15582,6 +15598,10 @@
     {
         "description": "Module to easily plot the currents in electrical neuron models.\n",
         "name": "py-currentscape"
+    },
+    {
+        "description": "scipy Linear operators for curvature matrices in PyTorch.\n",
+        "name": "py-curvlinops-for-pytorch"
     },
     {
         "description": "Custodian is a simple, robust and flexible just-in-time (JIT) job\nmanagement framework written in Python. Using custodian, you can create\nwrappers that perform error checking, job management and error recovery.\nIt has a simple plugin framework that allows you to develop specific job\nmanagement workflows for different applications.\n",
@@ -16174,6 +16194,10 @@
     {
         "description": "eg provides examples of common uses of command line tools.\n",
         "name": "py-eg"
+    },
+    {
+        "description": "Convolutions as tensor contractions (einsums) for PyTorch.\n",
+        "name": "py-einconv"
     },
     {
         "description": "Flexible and powerful tensor operations for readable and reliable code.\nSupports numpy, pytorch, tensorflow, and others.\n",
@@ -16862,6 +16886,10 @@
     {
         "description": "Simple Client for Earth Engine Uploads with Selenium Support.\n",
         "name": "py-geeup"
+    },
+    {
+        "description": "GPU-GEMM generator for the Discontinuous Galerkin method\n",
+        "name": "py-gemmforge"
     },
     {
         "description": "Genders is a static cluster configuration database used for cluster\nconfiguration management. It is used by a variety of tools and scripts\nfor management of large clusters.\n",
@@ -18168,6 +18196,10 @@
         "name": "py-lap"
     },
     {
+        "description": "laplace - Laplace approximations for deep learning.\n",
+        "name": "py-laplace-torch"
+    },
+    {
         "description": "Lark is a modern general-purpose parsing library for Python.\n",
         "name": "py-lark"
     },
@@ -18298,6 +18330,10 @@
     {
         "description": "LightningLite enables pure PyTorch users to scale their existing code on\nany kind of device while retaining full control over their own loops and\noptimization logic.\n",
         "name": "py-lightning-lite"
+    },
+    {
+        "description": "Lighning-UQ-Box: A toolbox for uncertainty quantification in deep\nlearning.\n",
+        "name": "py-lightning-uq-box"
     },
     {
         "description": "Common Python utilities and GitHub Actions in Lightning Ecosystem\n",
@@ -23444,6 +23480,10 @@
         "name": "py-torchmetrics"
     },
     {
+        "description": "TorchSeg: Semantic Segmentation models for PyTorch.\n",
+        "name": "py-torchseg"
+    },
+    {
         "description": "Keras has a neat API to view the visualization of the model which is\nvery helpful while debugging your network. Here is a barebone code to\ntry and mimic the same in PyTorch. The aim is to provide information\ncomplementary to, what is not provided by print(your_model) in PyTorch.\n",
         "name": "py-torchsummary"
     },
@@ -23700,6 +23740,14 @@
         "name": "py-uncertainties"
     },
     {
+        "description": "Uncertainty Toolbox: a python toolbox for predictive uncertainty\nquantification, calibration, metrics, and visualization.\n",
+        "name": "py-uncertainty-toolbox"
+    },
+    {
+        "description": "N-dimensional unfold (im2col) and fold (col2im) in PyTorch.\n",
+        "name": "py-unfoldnd"
+    },
+    {
         "description": "Unicycler is an assembly pipeline for bacterial genomes. It can assemble\nIllumina-only read sets where it functions as a SPAdes-optimiser. It can\nalso assembly long-read-only sets (PacBio or Nanopore) where it runs a\nminiasm+Racon pipeline. For the best possible assemblies, give it both\nIllumina reads and long reads, and it will conduct a hybrid assembly.\n",
         "name": "py-unicycler"
     },
@@ -23942,6 +23990,10 @@
     {
         "description": "Working with color names and values formats defined by HTML and CSS.\n",
         "name": "py-webcolors"
+    },
+    {
+        "description": "Python-based I/O for deep learning problems.\n",
+        "name": "py-webdataset"
     },
     {
         "description": "This is a Python implementation of the WHATWG Encoding standard.\n",
@@ -30100,6 +30152,10 @@
         "name": "sed"
     },
     {
+        "description": "Seissol - A scientific software for the numerical simulation of seismic\nwave phenomena and earthquake dynamics.\n",
+        "name": "seissol"
+    },
+    {
         "description": "SeLaLib is a modular library for the kinetic and gyrokinetic simulation\nof tokamak plasmas by the semi-lagrangian or particle-in-cell methods\n",
         "name": "selalib"
     },
@@ -30978,6 +31034,10 @@
     {
         "description": "SuperLU is a general purpose library for the direct solution of large,\nsparse, nonsymmetric systems of linear equations on high performance\nmachines. SuperLU_MT is designed for shared memory parallel machines.\n",
         "name": "superlu-mt"
+    },
+    {
+        "description": "Supermagic is a very simple MPI sanity code. Nothing more, nothing less.\n",
+        "name": "supermagic"
     },
     {
         "description": "Supernova is a software package for de novo assembly from Chromium\nLinked-Reads that are made from a single whole-genome library from an\nindividual DNA source. A key feature of Supernova is that it creates\ndiploid assemblies, thus separately representing maternal and paternal\nchromosomes over very long distances. Almost all other methods instead\nmerge homologous chromosomes into single incorrect 'consensus'\nsequences. Supernova is the only practical method for creating diploid\nassemblies of large genomes. To install this package, you will need to\ngo to the supernova download page of supernova, register with your email\naddress and download supernova yourself. Spack will search your current\ndirectory for the download file. Alternatively, add this file yo a\nmirror so that Spack can find it. For instructions on how to set up a\nmirror, see https://spack.readthedocs.io/en/latest/mirrors.html\n",

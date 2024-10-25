@@ -522,6 +522,10 @@
             "name": "e3sm-scorpio"
         },
         {
+            "description": "easi is a library for the Easy Initialization of models in three (or\nless or more) dimensional domains.",
+            "name": "easi"
+        },
+        {
             "description": "This is a miniapp for the Energy Banding Monte Carlo (EBMC) neutron\ntransportation simulation code. It is adapted from a similar miniapp\nprovided by Andrew Siegel, whose algorithm is described in [1], where\nonly one process in a compute node is used, and the compute nodes are\ndivided into memory nodes and tracking nodes. Memory nodes do not\nparticipate in particle tracking. Obviously, there is a lot of resource\nwaste in this design.",
             "name": "ebms"
         },
@@ -2062,6 +2066,10 @@
             "name": "seacas"
         },
         {
+            "description": "Seissol - A scientific software for the numerical simulation of seismic\nwave phenomena and earthquake dynamics.",
+            "name": "seissol"
+        },
+        {
             "description": "SeLaLib is a modular library for the kinetic and gyrokinetic simulation\nof tokamak plasmas by the semi-lagrangian or particle-in-cell methods",
             "name": "selalib"
         },
@@ -2196,6 +2204,10 @@
         {
             "description": "A general purpose library for the direct solution of large, sparse,\nnonsymmetric systems of linear equations on high performance machines.",
             "name": "superlu-dist"
+        },
+        {
+            "description": "Supermagic is a very simple MPI sanity code. Nothing more, nothing less.",
+            "name": "supermagic"
         },
         {
             "description": "Survey is a high level performance tool product from Trenza, Inc. The\nsurvey collector/analytics framework is a new generation, high level,\nlightweight multiplatform Linux tool set that targets metric collection\nfor high level performance analysis of applications running on both\nsingle node and on large scale platforms, including the Cray platforms.\nThe collector is designed to work on sequential, MPI, OpenMP, and hybrid\ncodes and directly leverages several interfaces available for tools\ninside current MPI implementations including: MPICH, MVAPICH, MPT, and\nOpenMPI. It also supports multiple architectures and has been tested on\nmachines based on Intel, AMD, ARM, and IBM P8/9 processors and\nintegrated NVIDIA GPUs. Survey is a licensed product with the source not\nopenly available. To access the survey source and build with spack\nplease contact: Trenza Inc. via: dmont@trenzasynergy.com or\njeg@trenzasynergy.com",

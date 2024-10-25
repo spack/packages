@@ -4265,6 +4265,10 @@
             "name": "subversion"
         },
         {
+            "description": "Supermagic is a very simple MPI sanity code. Nothing more, nothing less.",
+            "name": "supermagic"
+        },
+        {
             "description": "SWFTools is a collection of utilities for working with Adobe Flash files\n(SWF files). The tool collection includes programs for reading SWF\nfiles, combining them, and creating them from other content (like\nimages, sound files, videos or sourcecode). SWFTools is released under\nthe GPL.",
             "name": "swftools"
         },

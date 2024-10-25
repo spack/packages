@@ -510,6 +510,10 @@
             "name": "py-lifelines"
         },
         {
+            "description": "Lighning-UQ-Box: A toolbox for uncertainty quantification in deep\nlearning.",
+            "name": "py-lightning-uq-box"
+        },
+        {
             "description": "Classification Schemes for Choropleth Maps.",
             "name": "py-mapclassify"
         },

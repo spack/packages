@@ -55,6 +55,10 @@
         {
             "description": "OpenFOAM is a GPL-opensource C++ CFD-toolbox. This offering is supported\nby OpenCFD Ltd, producer and distributor of the OpenFOAM software via\nwww.openfoam.com, and owner of the OPENFOAM trademark. OpenCFD Ltd has\nbeen developing and releasing OpenFOAM since its debut in 2004.",
             "name": "openfoam"
+        },
+        {
+            "description": "Seissol - A scientific software for the numerical simulation of seismic\nwave phenomena and earthquake dynamics.",
+            "name": "seissol"
         }
     ],
     "description": "KaHIP - Karlsruhe High Quality Partitioning - is a family of graph\npartitioning programs. It includes KaFFPa (Karlsruhe Fast Flow\nPartitioner), which is a multilevel graph partitioning algorithm, in its\nvariants Strong, Eco and Fast, KaFFPaE (KaFFPaEvolutionary) which is a\nparallel evolutionary algorithm that uses KaFFPa to provide combine and\nmutation operations, as well as KaBaPE which extends the evolutionary\nalgorithm. Moreover, specialized techniques are included to partition\nroad networks (Buffoon), to output a vertex separator from a given\npartition or techniques geared towards efficient partitioning of social\nnetworks.\n",

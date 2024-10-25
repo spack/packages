@@ -59,6 +59,10 @@
         {
             "description": "pmemkv is a local/embedded key-value datastore, optimized for persistent\nmemory.",
             "name": "pmemkv"
+        },
+        {
+            "description": "Seissol - A scientific software for the numerical simulation of seismic\nwave phenomena and earthquake dynamics.",
+            "name": "seissol"
         }
     ],
     "description": "The memkind library is a user extensible heap manager built on top of\njemalloc which enables control of memory characteristics and a\npartitioning of the heap between kinds of memory. The kinds of memory\nare defined by operating system memory policies that have been applied\nto virtual address ranges. Memory characteristics supported by memkind\nwithout user extension include control of NUMA and page size features.\nThe jemalloc non-standard interface has been extended to enable\nspecialized arenas to make requests for virtual memory from the\noperating system through the memkind partition interface. Through the\nother memkind interfaces the user can control and extend memory\npartition features and allocate memory while selecting enabled features.\n",

@@ -330,6 +330,10 @@
             "name": "py-uhi"
         },
         {
+            "description": "Uncertainty Toolbox: a python toolbox for predictive uncertainty\nquantification, calibration, metrics, and visualization.",
+            "name": "py-uncertainty-toolbox"
+        },
+        {
             "description": "Marker library to detect whether urllib3 was installed with the\ndeprecated [secure] extra",
             "name": "py-urllib3-secure-extra"
         },

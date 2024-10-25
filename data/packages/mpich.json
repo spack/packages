@@ -681,6 +681,10 @@
             "name": "pythia8"
         },
         {
+            "description": "Seissol - A scientific software for the numerical simulation of seismic\nwave phenomena and earthquake dynamics.",
+            "name": "seissol"
+        },
+        {
             "description": "A scalable and fully parallelized genome assembler.",
             "name": "swap-assembler"
         },

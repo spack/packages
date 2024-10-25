@@ -43,6 +43,10 @@
             "name": "elk"
         },
         {
+            "description": "Seissol - A scientific software for the numerical simulation of seismic\nwave phenomena and earthquake dynamics.",
+            "name": "seissol"
+        },
+        {
             "description": "Domain specific library for electronic structure calculations",
             "name": "sirius"
         },

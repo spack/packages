@@ -1465,7 +1465,7 @@
     ],
     "description": "The LLVM Project is a collection of modular and reusable compiler and\ntoolchain technologies. Despite its name, LLVM has little to do with\ntraditional virtual machines, though it does provide helpful libraries\nthat can be used to build them. The name \"LLVM\" itself is not an\nacronym; it is the full name of the project.\n",
     "homepage": "https://llvm.org/",
-    "latest_version": "19.1.0",
+    "latest_version": "19.1.2",
     "maintainers": [
         "haampie",
         "skosukhin",
@@ -1947,6 +1947,14 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "19.1.2",
+            "sha256": "622cb6c5e95a3bb7e9876c4696a65671f235bd836cfd0c096b272f6c2ada41e7"
+        },
+        {
+            "name": "19.1.1",
+            "sha256": "115dfd98a353d05bffdab3f80db22f159da48aca0124e8c416f437adcd54b77f"
         },
         {
             "name": "19.1.0",

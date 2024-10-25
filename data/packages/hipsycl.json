@@ -85,7 +85,12 @@
             "name": "python"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "Seissol - A scientific software for the numerical simulation of seismic\nwave phenomena and earthquake dynamics.",
+            "name": "seissol"
+        }
+    ],
     "description": "hipSYCL is an implementation of the SYCL standard programming model over\nNVIDIA CUDA/AMD HIP\n",
     "homepage": "https://github.com/illuhad/hipSYCL",
     "latest_version": "24.06.0",

@@ -34,6 +34,10 @@
             "name": "charliecloud"
         },
         {
+            "description": "A code generator that fuses subsequent batched matrix multiplications\n(GEMMs) into a single GPU kernel, holding intermediate results in shared\nmemory as long as necessary.",
+            "name": "py-chainforgecodegen"
+        },
+        {
             "description": "An analysis environment for satellite and other earth observation data.",
             "name": "py-datacube"
         }

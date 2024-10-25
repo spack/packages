@@ -1045,6 +1045,10 @@
             "name": "scs"
         },
         {
+            "description": "Seissol - A scientific software for the numerical simulation of seismic\nwave phenomena and earthquake dynamics.",
+            "name": "seissol"
+        },
+        {
             "description": "Singularity-EOS: A collection of closure models and tools useful for\nmultiphysics codes.",
             "name": "singularity-eos"
         },

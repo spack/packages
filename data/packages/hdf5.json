@@ -733,6 +733,10 @@
             "name": "seacas"
         },
         {
+            "description": "Seissol - A scientific software for the numerical simulation of seismic\nwave phenomena and earthquake dynamics.",
+            "name": "seissol"
+        },
+        {
             "description": "SeLaLib is a modular library for the kinetic and gyrokinetic simulation\nof tokamak plasmas by the semi-lagrangian or particle-in-cell methods",
             "name": "selalib"
         },

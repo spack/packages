@@ -400,6 +400,10 @@
             "name": "seacas"
         },
         {
+            "description": "Seissol - A scientific software for the numerical simulation of seismic\nwave phenomena and earthquake dynamics.",
+            "name": "seissol"
+        },
+        {
             "description": "Serialbox is a serialization library and tools for C/C++, Python3 and\nFortran. Serialbox is used in several projects for building validation\nframeworks against reference runs.",
             "name": "serialbox"
         },

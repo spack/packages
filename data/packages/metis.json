@@ -200,6 +200,10 @@
             "name": "seacas"
         },
         {
+            "description": "Seissol - A scientific software for the numerical simulation of seismic\nwave phenomena and earthquake dynamics.",
+            "name": "seissol"
+        },
+        {
             "description": "SIESTA performs electronic structure calculations and ab initio\nmolecular dynamics simulations of molecules and solids.",
             "name": "siesta"
         },

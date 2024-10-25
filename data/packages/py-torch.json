@@ -720,6 +720,14 @@
             "name": "py-alpaca-farm"
         },
         {
+            "description": "ASDL: Automatic Second-order Differentiation (for Fisher, Gradient\ncovariance, Hessian, Jacobian, and Kernel) Library.",
+            "name": "py-asdfghjkl"
+        },
+        {
+            "description": "BackPACK: Packing more into backprop.",
+            "name": "py-backpack-for-pytorch"
+        },
+        {
             "description": "BoTorch is a library for Bayesian Optimization built on PyTorch.",
             "name": "py-botorch"
         },
@@ -752,6 +760,10 @@
             "name": "py-ctgan"
         },
         {
+            "description": "scipy Linear operators for curvature matrices in PyTorch.",
+            "name": "py-curvlinops-for-pytorch"
+        },
+        {
             "description": "Trans-Learn is a Transfer Learning library based on pure PyTorch with\nhigh performance and friendly API.",
             "name": "py-dalib"
         },
@@ -774,6 +786,10 @@
         {
             "description": "EfficientNet implemented in PyTorch.",
             "name": "py-efficientnet-pytorch"
+        },
+        {
+            "description": "Convolutions as tensor contractions (einsums) for PyTorch.",
+            "name": "py-einconv"
         },
         {
             "description": "Easy way to keep track of exponential moving average version of your\npytorch module",
@@ -820,6 +836,10 @@
             "name": "py-kornia"
         },
         {
+            "description": "laplace - Laplace approximations for deep learning.",
+            "name": "py-laplace-torch"
+        },
+        {
             "description": "A deep learning package for self-supervised learning.",
             "name": "py-lightly"
         },
@@ -834,6 +854,10 @@
         {
             "description": "LightningLite enables pure PyTorch users to scale their existing code on\nany kind of device while retaining full control over their own loops and\noptimization logic.",
             "name": "py-lightning-lite"
+        },
+        {
+            "description": "Lighning-UQ-Box: A toolbox for uncertainty quantification in deep\nlearning.",
+            "name": "py-lightning-uq-box"
         },
         {
             "description": "A linear operator implementation, primarily designed for finite-\ndimensional positive definite operators (i.e. kernel matrices).",
@@ -988,6 +1012,10 @@
             "name": "py-torchmetrics"
         },
         {
+            "description": "TorchSeg: Semantic Segmentation models for PyTorch.",
+            "name": "py-torchseg"
+        },
+        {
             "description": "Keras has a neat API to view the visualization of the model which is\nvery helpful while debugging your network. Here is a barebone code to\ntry and mimic the same in PyTorch. The aim is to provide information\ncomplementary to, what is not provided by print(your_model) in PyTorch.",
             "name": "py-torchsummary"
         },
@@ -1006,6 +1034,10 @@
         {
             "description": "Ultralytics YOLOv8, developed by Ultralytics, is a cutting-edge, state-\nof-the-art (SOTA) model that builds upon the success of previous YOLO\nversions and introduces new features and improvements to further boost\nperformance and flexibility. YOLOv8 is designed to be fast, accurate,\nand easy to use, making it an excellent choice for a wide range of\nobject detection, image segmentation and image classification tasks.",
             "name": "py-ultralytics"
+        },
+        {
+            "description": "N-dimensional unfold (im2col) and fold (col2im) in PyTorch.",
+            "name": "py-unfoldnd"
         },
         {
             "description": "A vector quantization library originally transcribed from Deepmind's\ntensorflow implementation, made conveniently into a package. It uses\nexponential moving averages to update the dictionary.",

@@ -28,7 +28,12 @@
             "name": "python-venv"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "Seissol - A scientific software for the numerical simulation of seismic\nwave phenomena and earthquake dynamics.",
+            "name": "seissol"
+        }
+    ],
     "description": "Code Generator for Small Sparse Matrix Multiplication\n",
     "homepage": "https://github.com/SeisSol/PSpaMM/blob/master/README.md",
     "latest_version": "develop",

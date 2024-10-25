@@ -16,6 +16,10 @@
             "name": "py-jupyter-console"
         },
         {
+            "description": "JupyterLab is the next-generation web-based user interface for Project\nJupyter.",
+            "name": "py-jupyterlab"
+        },
+        {
             "description": "Jupyter Notebook Conversion",
             "name": "py-nbconvert"
         },
@@ -76,7 +80,7 @@
     ],
     "description": "Jupyter metapackage. Install all the Jupyter components in one go.\n",
     "homepage": "https://jupyter.org/",
-    "latest_version": "1.0.0",
+    "latest_version": "1.1.1",
     "maintainers": [],
     "name": "py-jupyter",
     "patches": [],
@@ -90,9 +94,14 @@
     ],
     "versions": [
         {
+            "name": "1.1.1",
+            "sha256": "d55467bceabdea49d7e3624af7e33d59c37fff53ed3a350e1ac957bed731de7a"
+        }
+    ],
+    "versions_deprecated": [
+        {
             "name": "1.0.0",
             "sha256": "d9dc4b3318f310e34c82951ea5d6683f67bed7def4b259fafbfe4f1beb1d8e5f"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }
