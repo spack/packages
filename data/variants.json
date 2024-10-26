@@ -41879,6 +41879,10 @@
     ],
     "certs": [
         {
+            "default": "none",
+            "package": "openjdk"
+        },
+        {
             "default": "mozilla",
             "package": "openssl"
         }

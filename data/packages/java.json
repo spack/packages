@@ -736,6 +736,11 @@
             "default": "generic",
             "description": "Build systems supported by the package",
             "name": "build_system"
+        },
+        {
+            "default": "none",
+            "description": "symlink system certs if requested, otherwise use default package version",
+            "name": "certs"
         }
     ],
     "versions": [

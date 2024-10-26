@@ -229,7 +229,7 @@
     ],
     "description": "The golang compiler and build environment\n",
     "homepage": "https://go.dev",
-    "latest_version": "1.23.1",
+    "latest_version": "1.23.2",
     "maintainers": [
         "alecbcs"
     ],
@@ -245,8 +245,20 @@
     ],
     "versions": [
         {
+            "name": "1.23.2",
+            "sha256": "36930162a93df417d90bd22c6e14daff4705baac2b02418edda671cdfa9cd07f"
+        },
+        {
             "name": "1.23.1",
             "sha256": "6ee44e298379d146a5e5aa6b1c5b5d5f5d0a3365eabdd70741e6e21340ec3b0d"
+        },
+        {
+            "name": "1.22.8",
+            "sha256": "df12c23ebf19dea0f4bf46a22cbeda4a3eca6f474f318390ce774974278440b8"
+        },
+        {
+            "name": "1.22.7",
+            "sha256": "66432d87d85e0cfac3edffe637d5930fc4ddf5793313fe11e4a0f333023c879f"
         },
         {
             "name": "1.22.6",
