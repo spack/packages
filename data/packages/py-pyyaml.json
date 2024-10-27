@@ -525,6 +525,10 @@
             "name": "py-ocp-models"
         },
         {
+            "description": "A tool to help with the maintenance of container build scripts on\nmultiple systems, backends (e.g podman or apptainer) and distros.",
+            "name": "py-olcf-velocity"
+        },
+        {
             "description": "A hierarchical configuration system, with support for merging\nconfigurations from multiple sources (YAML config files,\ndataclasses/objects and CLI arguments) providing a consistent API\nregardless of how the configuration was created.",
             "name": "py-omegaconf"
         },

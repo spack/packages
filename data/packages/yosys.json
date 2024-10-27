@@ -57,7 +57,7 @@
     "dependent_to": [],
     "description": "Yosys is a framework for RTL synthesis tools. It currently has extensive\nVerilog-2005 support and provides a basic set of synthesis algorithms\nfor various application domains. Yosys can be adapted to perform any\nsynthesis job by combining the existing passes (algorithms) using\nsynthesis scripts and adding additional passes as needed by extending\nthe yosys C++ code base. Yosys is free software licensed under the ISC\nlicense (a GPL compatible license that is similar in terms to the MIT\nlicense or the 2-clause BSD license).\n",
     "homepage": "https://yosyshq.net/yosys",
-    "latest_version": "0.42",
+    "latest_version": "0.46",
     "maintainers": [
         "davekeeshan"
     ],
@@ -85,6 +85,22 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "commit": "e97731b9dda91fa5fa53ed87df7c34163ba59a41",
+            "name": "0.46"
+        },
+        {
+            "commit": "9ed031ddd588442f22be13ce608547a5809b62f0",
+            "name": "0.45"
+        },
+        {
+            "commit": "80ba43d26264738c93900129dc0aab7fab36c53f",
+            "name": "0.44"
+        },
+        {
+            "commit": "ead4718e567aed2e552dcfe46294b132aa04c158",
+            "name": "0.43"
         },
         {
             "commit": "9b6afcf3f83fea413b57c3790c25ba43b9914ce2",

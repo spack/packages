@@ -419,6 +419,11 @@
         },
         {
             "description": null,
+            "name": "^python@3.11:",
+            "spec": "@:2.7"
+        },
+        {
+            "description": null,
             "name": "+rocm",
             "spec": "@:2.8"
         },

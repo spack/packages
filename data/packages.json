@@ -1408,6 +1408,10 @@
         "name": "byobu"
     },
     {
+        "description": "byte lite - A C++17-like byte type for C++98, C++11 and later in a\nsingle-file header-only library\n",
+        "name": "byte-lite"
+    },
+    {
         "description": "UnixBench is the original BYTE UNIX benchmark suite.\n",
         "name": "byte-unixbench"
     },
@@ -19422,6 +19426,10 @@
     {
         "description": "Python and MATLAB wrappers for the Okada Green's function codes\n",
         "name": "py-okada-wrapper"
+    },
+    {
+        "description": "A tool to help with the maintenance of container build scripts on\nmultiple systems, backends (e.g podman or apptainer) and distros.\n",
+        "name": "py-olcf-velocity"
     },
     {
         "description": "Python package to parse, read and write Microsoft OLE2 files\n",

@@ -382,6 +382,10 @@
             "name": "py-numpy"
         },
         {
+            "description": "A tool to help with the maintenance of container build scripts on\nmultiple systems, backends (e.g podman or apptainer) and distros.",
+            "name": "py-olcf-velocity"
+        },
+        {
             "description": "Open Neural Network Exchange (ONNX) is an open ecosystem that empowers\nAI developers to choose the right tools as their project evolves. ONNX\nprovides an open source format for AI models, both deep learning and\ntraditional ML. It defines an extensible computation graph model, as\nwell as definitions of built-in operators and standard data types.\nCurrently we focus on the capabilities needed for inferencing (scoring).",
             "name": "py-onnx"
         },

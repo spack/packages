@@ -539,6 +539,10 @@
             "name": "byfl"
         },
         {
+            "description": "byte lite - A C++17-like byte type for C++98, C++11 and later in a\nsingle-file header-only library",
+            "name": "byte-lite"
+        },
+        {
             "description": "c-ares: A C library for asynchronous DNS requests",
             "name": "c-ares"
         },

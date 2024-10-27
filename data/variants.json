@@ -4421,6 +4421,10 @@
             "package": "byobu"
         },
         {
+            "default": "cmake",
+            "package": "byte-lite"
+        },
+        {
             "default": "makefile",
             "package": "byte-unixbench"
         },
@@ -22310,6 +22314,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-olcf-velocity"
+        },
+        {
+            "default": "python_pip",
             "package": "py-olefile"
         },
         {
@@ -36487,6 +36495,10 @@
         {
             "default": "Release",
             "package": "byfl"
+        },
+        {
+            "default": "Release",
+            "package": "byte-lite"
         },
         {
             "default": "Release",
@@ -52024,6 +52036,10 @@
         },
         {
             "default": "make",
+            "package": "byte-lite"
+        },
+        {
+            "default": "make",
             "package": "c-ares"
         },
         {
@@ -60305,6 +60321,10 @@
         {
             "default": false,
             "package": "byfl"
+        },
+        {
+            "default": false,
+            "package": "byte-lite"
         },
         {
             "default": false,

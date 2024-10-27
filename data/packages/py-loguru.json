@@ -44,6 +44,10 @@
             "name": "py-earth2mip"
         },
         {
+            "description": "A tool to help with the maintenance of container build scripts on\nmultiple systems, backends (e.g podman or apptainer) and distros.",
+            "name": "py-olcf-velocity"
+        },
+        {
             "description": "An open-source toolkit for computational pathology and machine learning.",
             "name": "py-pathml"
         },

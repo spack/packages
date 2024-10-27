@@ -1046,6 +1046,10 @@
             "name": "byobu"
         },
         {
+            "description": "byte lite - A C++17-like byte type for C++98, C++11 and later in a\nsingle-file header-only library",
+            "name": "byte-lite"
+        },
+        {
             "description": "UnixBench is the original BYTE UNIX benchmark suite.",
             "name": "byte-unixbench"
         },
