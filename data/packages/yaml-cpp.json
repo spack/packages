@@ -114,6 +114,10 @@
             "name": "of-precice"
         },
         {
+            "description": "OpenColorIO (OCIO) is a complete color management solution geared\ntowards motion picture production with an emphasis on visual effects and\ncomputer animation.",
+            "name": "opencolorio"
+        },
+        {
             "description": "Wind turbine simulation package from NREL",
             "name": "openfast"
         },

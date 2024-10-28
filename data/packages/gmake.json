@@ -7966,6 +7966,10 @@
             "name": "opencoarrays"
         },
         {
+            "description": "OpenColorIO (OCIO) is a complete color management solution geared\ntowards motion picture production with an emphasis on visual effects and\ncomputer animation.",
+            "name": "opencolorio"
+        },
+        {
             "description": "OpenCV (Open Source Computer Vision Library) is an open source computer\nvision and machine learning software library.",
             "name": "opencv"
         },
@@ -9092,6 +9096,10 @@
         {
             "description": "Parallel Global Multiobjective Optimizer (and its Python alter ego\nPyGMO) is a C++ / Python platform to perform parallel computations of\noptimisation tasks (global and local) via the asynchronous generalized\nisland model.",
             "name": "pygmo"
+        },
+        {
+            "description": "Pystring is a collection of C++ functions which match the interface and\nbehavior of python's string class methods using std::string.",
+            "name": "pystring"
         },
         {
             "description": "PYTHIA is a program for the generation of high-energy physics events,\ni.e. for the description of collisions at high energies between\nelementary particles such as e+, e-, p and pbar in various combinations.\nPYTHIA6 is a Fortran package which is no longer maintained: new\nprospective users should use Pythia8 instead. This recipe includes\npatches required to interoperate with Root.",

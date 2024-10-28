@@ -474,6 +474,10 @@
             "name": "openbabel"
         },
         {
+            "description": "OpenColorIO (OCIO) is a complete color management solution geared\ntowards motion picture production with an emphasis on visual effects and\ncomputer animation.",
+            "name": "opencolorio"
+        },
+        {
             "description": "OpenCV (Open Source Computer Vision Library) is an open source computer\nvision and machine learning software library.",
             "name": "opencv"
         },

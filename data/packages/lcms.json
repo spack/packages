@@ -62,6 +62,10 @@
             "name": "libmng"
         },
         {
+            "description": "OpenColorIO (OCIO) is a complete color management solution geared\ntowards motion picture production with an emphasis on visual effects and\ncomputer animation.",
+            "name": "opencolorio"
+        },
+        {
             "description": "OpenJPEG is an open-source JPEG 2000 codec written in C language. It has\nbeen developed in order to promote the use of JPEG 2000, a still-image\ncompression standard from the Joint Photographic Experts Group (JPEG).\nSince April 2015, it is officially recognized by ISO/IEC and ITU-T as a\nJPEG 2000 Reference Software.",
             "name": "openjpeg"
         },

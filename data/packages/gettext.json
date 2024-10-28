@@ -162,6 +162,10 @@
             "name": "gdk-pixbuf"
         },
         {
+            "description": "The gem5 simulator is a modular platform for computer-system\narchitecture research, encompassing system-level architecture as well as\nprocessor microarchitecture. gem5 is a community led project with an\nopen governance model. gem5 was originally conceived for computer\narchitecture research in academia, but it has grown to be used in\ncomputer system design by academia, industry for research, and in\nteaching.",
+            "name": "gem5"
+        },
+        {
             "description": "GIMP is a cross-platform image editor available for GNU/Linux, macOS,\nWindows and more operating systems. It is free software, you can change\nits source code and distribute your changes. Whether you are a graphic\ndesigner, photographer, illustrator, or scientist, GIMP provides you\nwith sophisticated tools to get your job done. You can further enhance\nyour productivity with GIMP thanks to many customization options and 3rd\nparty plugins.",
             "name": "gimp"
         },
@@ -280,6 +284,10 @@
         {
             "description": "Mesa is an open-source implementation of the OpenGL specification - a\nsystem for rendering interactive 3D graphics.",
             "name": "mesa"
+        },
+        {
+            "description": "Tiny little text editor",
+            "name": "nano"
         },
         {
             "description": "Neovim: Vim-fork focused on extensibility and usability",

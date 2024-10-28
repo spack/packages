@@ -163,6 +163,10 @@
             "name": "flecsi"
         },
         {
+            "description": "The gem5 simulator is a modular platform for computer-system\narchitecture research, encompassing system-level architecture as well as\nprocessor microarchitecture. gem5 is a community led project with an\nopen governance model. gem5 was originally conceived for computer\narchitecture research in academia, but it has grown to be used in\ncomputer system design by academia, industry for research, and in\nteaching.",
+            "name": "gem5"
+        },
+        {
             "description": "GraphicsMagick is the swiss army knife of image processing. Provides a\nrobust and efficient collection of tools and libraries which support\nreading, writing, and manipulating an image in over 88 major formats\nincluding important formats like DPX, GIF, JPEG, JPEG-2000, PNG, PDF,\nPNM, and TIFF.",
             "name": "graphicsmagick"
         },

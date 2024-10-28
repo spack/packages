@@ -118,6 +118,10 @@
             "name": "freecad"
         },
         {
+            "description": "The gem5 simulator is a modular platform for computer-system\narchitecture research, encompassing system-level architecture as well as\nprocessor microarchitecture. gem5 is a community led project with an\nopen governance model. gem5 was originally conceived for computer\narchitecture research in academia, but it has grown to be used in\ncomputer system design by academia, industry for research, and in\nteaching.",
+            "name": "gem5"
+        },
+        {
             "description": "Halide is a programming language designed to make it easier to write\nhigh-performance image and array processing code on modern machines.",
             "name": "halide"
         },
@@ -140,6 +144,10 @@
         {
             "description": "Open3D: A Modern Library for 3D Data Processing.",
             "name": "open3d"
+        },
+        {
+            "description": "OpenColorIO (OCIO) is a complete color management solution geared\ntowards motion picture production with an emphasis on visual effects and\ncomputer animation.",
+            "name": "opencolorio"
         },
         {
             "description": "Reading, writing, and processing images in a wide variety of file\nformats, using a format-agnostic API, aimed at VFX applications.",

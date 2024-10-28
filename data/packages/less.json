@@ -30,7 +30,7 @@
     ],
     "description": "The less utility is a text file browser that resembles more, but has\nmore capabilities. Less allows you to move backwards in the file aswell\nas forwards.\n",
     "homepage": "https://www.greenwoodsoftware.com/less/",
-    "latest_version": "643",
+    "latest_version": "668",
     "maintainers": [],
     "name": "less",
     "patches": [],
@@ -44,9 +44,19 @@
     ],
     "versions": [
         {
+            "name": "668",
+            "sha256": "dbc0de59ea9c50e1e8927e6b077858db3a84954e767909bc599e6e6f602c5717"
+        },
+        {
+            "name": "661",
+            "sha256": "a900e3916738bf8c1a0a2a059810f1c59b8271ac8bb46898c6e921ea6aefd757"
+        },
+        {
             "name": "643",
             "sha256": "3bb417c4b909dfcb0adafc371ab87f0b22e8b15f463ec299d156c495fc9aa196"
-        },
+        }
+    ],
+    "versions_deprecated": [
         {
             "name": "590",
             "sha256": "69056021c365b16504cf5bd3864436a5e50cb2f98b76cd68b99b457064139375"
@@ -59,6 +69,5 @@
             "name": "530",
             "sha256": "8c1652ba88a726314aa2616d1c896ca8fe9a30253a5a67bc21d444e79a6c6bc3"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

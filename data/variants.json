@@ -7449,6 +7449,10 @@
             "package": "gegl"
         },
         {
+            "default": "scons",
+            "package": "gem5"
+        },
+        {
             "default": "makefile",
             "package": "gemma"
         },
@@ -13211,6 +13215,10 @@
         {
             "default": "cmake",
             "package": "opencoarrays"
+        },
+        {
+            "default": "cmake",
+            "package": "opencolorio"
         },
         {
             "default": "cmake",
@@ -27250,6 +27258,10 @@
         },
         {
             "default": "cmake",
+            "package": "pystring"
+        },
+        {
+            "default": "cmake",
             "package": "pythia6"
         },
         {
@@ -39274,6 +39286,10 @@
         },
         {
             "default": "Release",
+            "package": "opencolorio"
+        },
+        {
+            "default": "Release",
             "package": "opencv"
         },
         {
@@ -39751,6 +39767,10 @@
         {
             "default": "Release",
             "package": "pygmo"
+        },
+        {
+            "default": "Release",
+            "package": "pystring"
         },
         {
             "default": "Release",
@@ -49735,6 +49755,12 @@
             "package": "lis"
         }
     ],
+    "f90allocatable": [
+        {
+            "default": false,
+            "package": "nwchem"
+        }
+    ],
     "fabric": [
         {
             "default": "ibv",
@@ -54796,6 +54822,10 @@
         },
         {
             "default": "make",
+            "package": "opencolorio"
+        },
+        {
+            "default": "make",
             "package": "opencv"
         },
         {
@@ -55273,6 +55303,10 @@
         {
             "default": "make",
             "package": "pygmo"
+        },
+        {
+            "default": "make",
+            "package": "pystring"
         },
         {
             "default": "make",
@@ -63080,6 +63114,10 @@
         },
         {
             "default": false,
+            "package": "opencolorio"
+        },
+        {
+            "default": false,
             "package": "opencv"
         },
         {
@@ -63557,6 +63595,10 @@
         {
             "default": false,
             "package": "pygmo"
+        },
+        {
+            "default": false,
+            "package": "pystring"
         },
         {
             "default": false,
@@ -65972,6 +66014,10 @@
         }
     ],
     "lcms": [
+        {
+            "default": false,
+            "package": "opencolorio"
+        },
         {
             "default": false,
             "package": "py-pillow"
@@ -71891,6 +71937,12 @@
             "package": "spdk"
         }
     ],
+    "ocio": [
+        {
+            "default": false,
+            "package": "openimageio"
+        }
+    ],
     "ocl": [
         {
             "default": false,
@@ -77099,6 +77151,10 @@
         {
             "default": true,
             "package": "openbabel"
+        },
+        {
+            "default": false,
+            "package": "opencolorio"
         },
         {
             "default": false,
@@ -84039,6 +84095,12 @@
         {
             "default": true,
             "package": "xtb"
+        }
+    ],
+    "tcecuda": [
+        {
+            "default": false,
+            "package": "nwchem"
         }
     ],
     "tcl": [

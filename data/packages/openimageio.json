@@ -32,6 +32,10 @@
             "name": "ninja"
         },
         {
+            "description": "OpenColorIO (OCIO) is a complete color management solution geared\ntowards motion picture production with an emphasis on visual effects and\ncomputer animation.",
+            "name": "opencolorio"
+        },
+        {
             "description": "OpenEXR Graphics Tools (high dynamic-range image file format)",
             "name": "openexr"
         },
@@ -98,6 +102,11 @@
             "default": false,
             "description": "Support for JPEG2000 format",
             "name": "jpeg2k"
+        },
+        {
+            "default": false,
+            "description": "Support video frames",
+            "name": "ocio"
         },
         {
             "default": false,

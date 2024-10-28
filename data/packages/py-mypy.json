@@ -64,6 +64,10 @@
     ],
     "dependent_to": [
         {
+            "description": "The gem5 simulator is a modular platform for computer-system\narchitecture research, encompassing system-level architecture as well as\nprocessor microarchitecture. gem5 is a community led project with an\nopen governance model. gem5 was originally conceived for computer\narchitecture research in academia, but it has grown to be used in\ncomputer system design by academia, industry for research, and in\nteaching.",
+            "name": "gem5"
+        },
+        {
             "description": "A catch-all compile-tool wrapper.",
             "name": "py-blight"
         },

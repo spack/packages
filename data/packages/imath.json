@@ -18,6 +18,10 @@
     ],
     "dependent_to": [
         {
+            "description": "OpenColorIO (OCIO) is a complete color management solution geared\ntowards motion picture production with an emphasis on visual effects and\ncomputer animation.",
+            "name": "opencolorio"
+        },
+        {
             "description": "OpenEXR Graphics Tools (high dynamic-range image file format)",
             "name": "openexr"
         }

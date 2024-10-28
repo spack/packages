@@ -148,6 +148,10 @@
             "name": "mira"
         },
         {
+            "description": "OpenColorIO (OCIO) is a complete color management solution geared\ntowards motion picture production with an emphasis on visual effects and\ncomputer animation.",
+            "name": "opencolorio"
+        },
+        {
             "description": "OpenPBS software optimizes job scheduling and workload management in\nhigh-performance computing (HPC) environments - clusters, clouds, and\nsupercomputers - improving system efficiency and people's productivity.",
             "name": "openpbs"
         },

@@ -12,6 +12,10 @@
             "name": "blas"
         },
         {
+            "description": "CUDA is a parallel computing platform and programming model invented by\nNVIDIA. It enables dramatic increases in computing performance by\nharnessing the power of the graphics processing unit (GPU). Note: This\npackage does not currently install the drivers necessary to run CUDA.\nThese will need to be installed manually. See:\nhttps://docs.nvidia.com/cuda/ for details.",
+            "name": "cuda"
+        },
+        {
             "description": "Eigenvalue solvers for Petaflop-Applications (ELPA)",
             "name": "elpa"
         },
@@ -109,6 +113,11 @@
         },
         {
             "default": false,
+            "description": "Use F90 allocatable instead of MA",
+            "name": "f90allocatable"
+        },
+        {
+            "default": false,
             "description": "Link against the FFTW library",
             "name": "fftw3"
         },
@@ -121,6 +130,11 @@
             "default": false,
             "description": "Enables OpenMP support",
             "name": "openmp"
+        },
+        {
+            "default": false,
+            "description": "Enable TCE CCSD(T) CUDA support",
+            "name": "tcecuda"
         }
     ],
     "versions": [

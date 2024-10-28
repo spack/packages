@@ -4468,6 +4468,10 @@
         "name": "gegl"
     },
     {
+        "description": "The gem5 simulator is a modular platform for computer-system\narchitecture research, encompassing system-level architecture as well as\nprocessor microarchitecture. gem5 is a community led project with an\nopen governance model. gem5 was originally conceived for computer\narchitecture research in academia, but it has grown to be used in\ncomputer system design by academia, industry for research, and in\nteaching.\n",
+        "name": "gem5"
+    },
+    {
         "description": "GEMMA is a software toolkit for fast application of linear mixed models\n(LMMs) and related models to genome-wide association studies (GWAS) and\nother large-scale data sets.\n",
         "name": "gemma"
     },
@@ -10314,6 +10318,10 @@
     {
         "description": "OpenCoarrays is an open-source software project that produces an\napplication binary interface (ABI) supporting coarray Fortran (CAF)\ncompilers, an application programming interface (API) that supports\nusers of non-CAF compilers, and an associated compiler wrapper and\nprogram launcher.\n",
         "name": "opencoarrays"
+    },
+    {
+        "description": "OpenColorIO (OCIO) is a complete color management solution geared\ntowards motion picture production with an emphasis on visual effects and\ncomputer animation.\n",
+        "name": "opencolorio"
     },
     {
         "description": "OpenCV (Open Source Computer Vision Library) is an open source computer\nvision and machine learning software library.\n",
@@ -24362,6 +24370,10 @@
     {
         "description": "Binary build of PyPy 2 for bootstrapping source build of PyPy 3.\n",
         "name": "pypy-bootstrap"
+    },
+    {
+        "description": "Pystring is a collection of C++ functions which match the interface and\nbehavior of python's string class methods using std::string.\n",
+        "name": "pystring"
     },
     {
         "description": "PYTHIA is a program for the generation of high-energy physics events,\ni.e. for the description of collisions at high energies between\nelementary particles such as e+, e-, p and pbar in various combinations.\nPYTHIA6 is a Fortran package which is no longer maintained: new\nprospective users should use Pythia8 instead. This recipe includes\npatches required to interoperate with Root.\n",
