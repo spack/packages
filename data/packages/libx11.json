@@ -148,10 +148,6 @@
             "name": "gaussian-view"
         },
         {
-            "description": "The Gdk Pixbuf is a toolkit for image loading and pixel buffer\nmanipulation. It is used by GTK+ 2 and GTK+ 3 to load and manipulate\nimages. In the past it was distributed as part of GTK+ 2 but it was\nsplit off into a separate package in preparation for the change to GTK+\n3.",
-            "name": "gdk-pixbuf"
-        },
-        {
             "description": "A free and open-source IDL/PV-WAVE compiler. GNU Data Language (GDL) is\na free/libre/open source incremental compiler compatible with IDL and to\nsome extent with PV-WAVE.",
             "name": "gdl"
         },

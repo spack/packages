@@ -1943,6 +1943,10 @@
             "name": "py-arm-pyart"
         },
         {
+            "description": "Packrat parser interpreter.",
+            "name": "py-arpeggio"
+        },
+        {
             "description": "Arrow is a Python library that offers a sensible and human-friendly\napproach to creating, manipulating, formatting and converting dates,\ntimes and timestamps. It implements and updates the datetime type,\nplugging gaps in functionality and providing an intelligent module API\nthat supports many common creation scenarios. Simply put, it helps you\nwork with dates and times with fewer imports and a lot less code.",
             "name": "py-arrow"
         },
@@ -2985,6 +2989,10 @@
         {
             "description": "CairoSVG is an SVG converter based on Cairo. It can export SVG files to\nPDF, EPS, PS, and PNG files.",
             "name": "py-cairosvg"
+        },
+        {
+            "description": "A Python library for reading Caliper .cali files.",
+            "name": "py-caliper-reader"
         },
         {
             "description": "A Simple Tool to Monitor and Log Function Calls",
@@ -8467,6 +8475,10 @@
             "name": "py-pyct"
         },
         {
+            "description": "pyCubexR is a Python package for reading the Cube4 file format.",
+            "name": "py-pycubexr"
+        },
+        {
             "description": "PyCUDA gives you easy, Pythonic access to Nvidia's CUDA parallel\ncomputation API",
             "name": "py-pycuda"
         },
@@ -11285,6 +11297,10 @@
         {
             "description": "textwrap from Python 3.6 backport (plus a few tweaks).",
             "name": "py-textwrap3"
+        },
+        {
+            "description": "Meta-language for DSL implementation inspired by Xtext.",
+            "name": "py-textx"
         },
         {
             "description": "Tensorflow plugin for DLPack.",

@@ -36,6 +36,10 @@
             "name": "cntk"
         },
         {
+            "description": "FMI4cpp is a cross-platform FMI 2.0 implementation written in modern\nC++. FMI4cpp supports both Co-simulation and Model Exchange.",
+            "name": "fmi4cpp"
+        },
+        {
             "description": "NetCDF (network Common Data Form) is a set of software libraries and\nmachine-independent data formats that support the creation, access, and\nsharing of array-oriented scientific data. This is the C distribution.",
             "name": "netcdf-c"
         },

@@ -138,7 +138,7 @@
     ],
     "description": "Pango is a library for laying out and rendering of text, with an\nemphasis on internationalization. It can be used anywhere that text\nlayout is needed, though most of the work on Pango so far has been done\nin the context of the GTK+ widget toolkit.\n",
     "homepage": "https://www.pango.org",
-    "latest_version": "1.52.2",
+    "latest_version": "1.54.0",
     "maintainers": [],
     "name": "pango",
     "patches": [],
@@ -171,6 +171,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.54.0",
+            "sha256": "8a9eed75021ee734d7fc0fdf3a65c3bba51dfefe4ae51a9b414a60c70b2d1ed8"
+        },
         {
             "name": "1.52.2",
             "sha256": "d0076afe01082814b853deec99f9349ece5f2ce83908b8e58ff736b41f78a96b"

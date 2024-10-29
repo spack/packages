@@ -121,7 +121,7 @@
     "dependent_to": [],
     "description": "SST Elements implements a range of components for performing\narchitecture simulation from node-level to system-level using the SST\ndiscrete event core.\n",
     "homepage": "https://github.com/sstsimulator",
-    "latest_version": "13.1.0",
+    "latest_version": "14.1.0",
     "maintainers": [
         "berquist",
         "naromero77"
@@ -204,6 +204,14 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "14.1.0",
+            "sha256": "433994065810d3afee4e355173e781cd76171043cce8835bbc40887672a33350"
+        },
+        {
+            "name": "14.0.0",
+            "sha256": "68eab77febdd0138a497249d854e1cb0c3a67b1c56c4d51f1fe35df12dcd1b9c"
         },
         {
             "name": "13.1.0",

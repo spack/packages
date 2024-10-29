@@ -74,7 +74,7 @@
     ],
     "description": "The Structural Simulation Toolkit (SST) core provides a parallel\ndiscrete event simulation (PDES) framework for performing architecture\nsimulations of existing and proposed HPC systems\n",
     "homepage": "https://github.com/sstsimulator",
-    "latest_version": "13.1.0",
+    "latest_version": "14.1.0",
     "maintainers": [
         "berquist",
         "naromero77"
@@ -142,6 +142,14 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "14.1.0",
+            "sha256": "9d17c37d1ebdff8d8eb10ab0084eb901c78a7c5a76db15189e3d7fc318fd6f9d"
+        },
+        {
+            "name": "14.0.0",
+            "sha256": "fadc7ee99472ff3ac5d4b3f3e507123e32bd9fb89c4c6b48fbd2dca8aeb8b8d6"
         },
         {
             "name": "13.1.0",

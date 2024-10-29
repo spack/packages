@@ -3677,7 +3677,7 @@
             "package": "athena"
         },
         {
-            "default": "generic",
+            "default": "meson",
             "package": "atk"
         },
         {
@@ -6958,6 +6958,10 @@
         },
         {
             "default": "cmake",
+            "package": "fmi4cpp"
+        },
+        {
+            "default": "cmake",
             "package": "fms"
         },
         {
@@ -7409,7 +7413,7 @@
             "package": "gdbm"
         },
         {
-            "default": "generic",
+            "default": "meson",
             "package": "gdk-pixbuf"
         },
         {
@@ -16858,6 +16862,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-arpeggio"
+        },
+        {
+            "default": "python_pip",
             "package": "py-arrow"
         },
         {
@@ -17899,6 +17907,10 @@
         {
             "default": "python_pip",
             "package": "py-cairosvg"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-caliper-reader"
         },
         {
             "default": "python_pip",
@@ -23390,6 +23402,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-pycubexr"
+        },
+        {
+            "default": "python_pip",
             "package": "py-pycuda"
         },
         {
@@ -26211,6 +26227,10 @@
         {
             "default": "python_pip",
             "package": "py-textwrap3"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-textx"
         },
         {
             "default": "cmake",
@@ -37422,6 +37442,10 @@
         },
         {
             "default": "Release",
+            "package": "fmi4cpp"
+        },
+        {
+            "default": "Release",
             "package": "fms"
         },
         {
@@ -41178,6 +41202,10 @@
         },
         {
             "default": "release",
+            "package": "atk"
+        },
+        {
+            "default": "release",
             "package": "babl"
         },
         {
@@ -41199,6 +41227,10 @@
         {
             "default": "release",
             "package": "freebayes"
+        },
+        {
+            "default": "release",
+            "package": "gdk-pixbuf"
         },
         {
             "default": "release",
@@ -46832,6 +46864,10 @@
         },
         {
             "default": "shared",
+            "package": "atk"
+        },
+        {
+            "default": "shared",
             "package": "babl"
         },
         {
@@ -46853,6 +46889,10 @@
         {
             "default": "shared",
             "package": "freebayes"
+        },
+        {
+            "default": "shared",
+            "package": "gdk-pixbuf"
         },
         {
             "default": "shared",
@@ -52962,6 +53002,10 @@
         },
         {
             "default": "make",
+            "package": "fmi4cpp"
+        },
+        {
+            "default": "make",
             "package": "fms"
         },
         {
@@ -58429,6 +58473,10 @@
             "package": "gromacs-swaxs"
         },
         {
+            "default": false,
+            "package": "lammps"
+        },
+        {
             "default": true,
             "package": "xsdk"
         }
@@ -61255,6 +61303,10 @@
         {
             "default": false,
             "package": "flux-sched"
+        },
+        {
+            "default": false,
+            "package": "fmi4cpp"
         },
         {
             "default": false,
@@ -80481,6 +80533,10 @@
             "package": "fltk"
         },
         {
+            "default": true,
+            "package": "fmi4cpp"
+        },
+        {
             "default": false,
             "package": "fms"
         },
@@ -83032,6 +83088,10 @@
         },
         {
             "default": false,
+            "package": "atk"
+        },
+        {
+            "default": false,
             "package": "babl"
         },
         {
@@ -83057,6 +83117,10 @@
         {
             "default": false,
             "package": "gcc"
+        },
+        {
+            "default": false,
+            "package": "gdk-pixbuf"
         },
         {
             "default": false,
@@ -87491,10 +87555,6 @@
         {
             "default": false,
             "package": "amber"
-        },
-        {
-            "default": false,
-            "package": "gdk-pixbuf"
         },
         {
             "default": false,

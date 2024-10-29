@@ -70,7 +70,7 @@
     ],
     "description": "The Structural Simulation Toolkit Macroscale Element Library simulates\nlarge-scale parallel computer architectures for the coarse-grained study\nof distributed-memory applications. The simulator is driven from either\na trace file or skeleton application. SST/macro's modular architecture\ncan be extended with additional network models, trace file formats,\nsoftware services, and processor models.\n",
     "homepage": "https://github.com/sstsimulator",
-    "latest_version": "13.1.0",
+    "latest_version": "14.1.0",
     "maintainers": [
         "berquist"
     ],
@@ -137,6 +137,14 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "14.1.0",
+            "sha256": "241f42f5c460b0e7462592a7f412bda9c9de19ad7a4b62c22f35be4093b57014"
+        },
+        {
+            "name": "14.0.0",
+            "sha256": "3962942268dd9fe6ebd4462e2d6d305ab757f3f510487e84687146a8d461be13"
         },
         {
             "name": "13.1.0",

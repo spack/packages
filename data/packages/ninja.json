@@ -258,6 +258,10 @@
             "name": "at-spi2-core"
         },
         {
+            "description": "ATK provides the set of accessibility interfaces that are implemented by\nother toolkits and applications. Using the ATK interfaces, accessibility\ntools have full access to view and control running applications.",
+            "name": "atk"
+        },
+        {
             "description": "Asynchronous Task and Memory Interface, or ATMI, is a runtime framework\nand programming model for heterogeneous CPU-GPU systems. It provides a\nconsistent, declarative API to create task graphs on CPUs and GPUs\n(integrated and discrete).",
             "name": "atmi"
         },
@@ -1388,6 +1392,10 @@
         {
             "description": "A scheduler for flux-core",
             "name": "flux-sched"
+        },
+        {
+            "description": "FMI4cpp is a cross-platform FMI 2.0 implementation written in modern\nC++. FMI4cpp supports both Co-simulation and Model Exchange.",
+            "name": "fmi4cpp"
         },
         {
             "description": "GFDL's Flexible Modeling System (FMS) is a software environment that\nsupports the efficient development, construction, execution, and\nscientific interpretation of atmospheric, oceanic, and climate system\nmodels.",

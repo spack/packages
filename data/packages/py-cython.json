@@ -374,6 +374,10 @@
             "name": "py-hatch-cython"
         },
         {
+            "description": "Hatchet is a performance tool for analyzing hierarchical performance\ndata using a graph-indexed Pandas dataframe.",
+            "name": "py-hatchet"
+        },
+        {
             "description": "HDBSCAN - Hierarchical Density-Based Spatial Clustering of Applications\nwith Noise. Performs DBSCAN over varying epsilon values and integrates\nthe result to find a clustering that gives the best stability over\nepsilon. This allows HDBSCAN to find clusters of varying densities\n(unlike DBSCAN), and be more robust to parameter selection. In practice\nthis means that HDBSCAN returns a good clustering straight away with\nlittle or no parameter tuning -- and the primary parameter, minimum\ncluster size, is intuitive and easy to select. HDBSCAN is ideal for\nexploratory data analysis; it's a fast and robust algorithm that you can\ntrust to return meaningful clusters (if there are any).",
             "name": "py-hdbscan"
         },

@@ -3968,6 +3968,10 @@
         "name": "fluxbox"
     },
     {
+        "description": "FMI4cpp is a cross-platform FMI 2.0 implementation written in modern\nC++. FMI4cpp supports both Co-simulation and Model Exchange.\n",
+        "name": "fmi4cpp"
+    },
+    {
         "description": "GFDL's Flexible Modeling System (FMS) is a software environment that\nsupports the efficient development, construction, execution, and\nscientific interpretation of atmospheric, oceanic, and climate system\nmodels.\n",
         "name": "fms"
     },
@@ -13972,6 +13976,10 @@
         "name": "py-arm-pyart"
     },
     {
+        "description": "Packrat parser interpreter.\n",
+        "name": "py-arpeggio"
+    },
+    {
         "description": "Arrow is a Python library that offers a sensible and human-friendly\napproach to creating, manipulating, formatting and converting dates,\ntimes and timestamps. It implements and updates the datetime type,\nplugging gaps in functionality and providing an intelligent module API\nthat supports many common creation scenarios. Simply put, it helps you\nwork with dates and times with fewer imports and a lot less code.\n",
         "name": "py-arrow"
     },
@@ -15014,6 +15022,10 @@
     {
         "description": " CairoSVG is an SVG converter based on Cairo. It can export SVG files to\nPDF, EPS, PS, and PNG files.\n",
         "name": "py-cairosvg"
+    },
+    {
+        "description": "A Python library for reading Caliper .cali files.\n",
+        "name": "py-caliper-reader"
     },
     {
         "description": "A Simple Tool to Monitor and Log Function Calls\n",
@@ -20504,6 +20516,10 @@
         "name": "py-pyct"
     },
     {
+        "description": "pyCubexR is a Python package for reading the Cube4 file format.\n",
+        "name": "py-pycubexr"
+    },
+    {
         "description": "PyCUDA gives you easy, Pythonic access to Nvidia's CUDA parallel\ncomputation API\n",
         "name": "py-pycuda"
     },
@@ -23326,6 +23342,10 @@
     {
         "description": "textwrap from Python 3.6 backport (plus a few tweaks).\n",
         "name": "py-textwrap3"
+    },
+    {
+        "description": "Meta-language for DSL implementation inspired by Xtext.\n",
+        "name": "py-textx"
     },
     {
         "description": "Tensorflow plugin for DLPack.\n",

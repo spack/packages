@@ -2244,6 +2244,10 @@
             "name": "py-pycortex"
         },
         {
+            "description": "pyCubexR is a Python package for reading the Cube4 file format.",
+            "name": "py-pycubexr"
+        },
+        {
             "description": "PyCUDA gives you easy, Pythonic access to Nvidia's CUDA parallel\ncomputation API",
             "name": "py-pycuda"
         },

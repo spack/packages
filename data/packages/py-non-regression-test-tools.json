@@ -31,7 +31,7 @@
     "dependent_to": [],
     "description": "non regression test tools.\n",
     "homepage": "https://gitlab.com/Te_ch/non-regression-test-tools",
-    "latest_version": "1.0.2",
+    "latest_version": "1.1.2",
     "maintainers": [
         "tech-91"
     ],
@@ -55,8 +55,8 @@
             "name": "main"
         },
         {
-            "name": "1.0.2",
-            "tag": "v1.0.2"
+            "name": "1.1.2",
+            "tag": "v1.1.2"
         }
     ],
     "versions_deprecated": []

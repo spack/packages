@@ -402,6 +402,10 @@
             "name": "py-streamlit"
         },
         {
+            "description": "Meta-language for DSL implementation inspired by Xtext.",
+            "name": "py-textx"
+        },
+        {
             "description": "tox is a generic virtualenv management and test command line tool.",
             "name": "py-tox"
         },

@@ -16,6 +16,11 @@
             "description": null,
             "name": "%gcc@13:",
             "spec": "@:5"
+        },
+        {
+            "description": null,
+            "name": "%apple-clang@16:",
+            "spec": "@:7.3"
         }
     ],
     "dependencies": [

@@ -1483,6 +1483,10 @@
             "name": "flux-sched"
         },
         {
+            "description": "FMI4cpp is a cross-platform FMI 2.0 implementation written in modern\nC++. FMI4cpp supports both Co-simulation and Model Exchange.",
+            "name": "fmi4cpp"
+        },
+        {
             "description": "GFDL's Flexible Modeling System (FMS) is a software environment that\nsupports the efficient development, construction, execution, and\nscientific interpretation of atmospheric, oceanic, and climate system\nmodels.",
             "name": "fms"
         },

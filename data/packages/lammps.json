@@ -558,6 +558,10 @@
             "name": "hdf5"
         },
         {
+            "description": "Highly Efficient FFT for Exascale",
+            "name": "heffte"
+        },
+        {
             "description": "HIP is a C++ Runtime API and Kernel Language that allows developers to\ncreate portable applications for AMD and NVIDIA GPUs from single source\ncode.",
             "name": "hip"
         },
@@ -1032,6 +1036,11 @@
             "default": false,
             "description": "Activate the h5md package",
             "name": "h5md"
+        },
+        {
+            "default": false,
+            "description": "Use heffte as distubuted FFT engine",
+            "name": "heffte"
         },
         {
             "default": false,

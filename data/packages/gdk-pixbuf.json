@@ -1,7 +1,13 @@
 {
     "aliases": [],
-    "build_system": "Package",
-    "conflicts": [],
+    "build_system": "MesonPackage",
+    "conflicts": [
+        {
+            "description": null,
+            "name": "^python@3.12:",
+            "spec": "build_system=meson ^meson@:1.0"
+        }
+    ],
     "dependencies": [
         {
             "description": "DocBook XSLT 1.0 Stylesheets.",
@@ -30,10 +36,6 @@
         {
             "description": "LibTIFF - Tag Image File Format (TIFF) Library and Utilities.",
             "name": "libtiff"
-        },
-        {
-            "description": "libX11 - Core X11 protocol client library.",
-            "name": "libx11"
         },
         {
             "description": "Libxslt is the XSLT C library developed for the GNOME project. XSLT\nitself is a an XML language to define transformation for XML. Libxslt is\nbased on libxml2 the XML C library developed for the GNOME project. It\nalso implements most of the EXSLT set of processor-portable extensions\nfunctions and some of Saxon's evaluate and expressions extensions.",
@@ -118,16 +120,26 @@
             "relative_path": "docbook-cdn.patch",
             "reverse": false,
             "sha256": "6f6e6411051846f0e99e5f46e07c78428c4a2a88f51c202b3122972d91452f4c",
-            "version": "@2.37.0:+man",
+            "version": "+man",
             "working_dir": "."
         }
     ],
     "resources": [],
     "variants": [
         {
-            "default": "generic",
+            "default": "meson",
             "description": "Build systems supported by the package",
             "name": "build_system"
+        },
+        {
+            "default": "release",
+            "description": "Meson build type",
+            "name": "buildtype"
+        },
+        {
+            "default": "shared",
+            "description": "Build shared libs, static libs or both",
+            "name": "default_library"
         },
         {
             "default": false,
@@ -136,13 +148,13 @@
         },
         {
             "default": false,
-            "description": "Enable TIFF support(partially broken)",
-            "name": "tiff"
+            "description": "Strip targets on install",
+            "name": "strip"
         },
         {
             "default": false,
-            "description": "Enable X11 support",
-            "name": "x11"
+            "description": "Enable TIFF support(partially broken)",
+            "name": "tiff"
         }
     ],
     "versions": [
@@ -167,22 +179,6 @@
         {
             "name": "2.42.2",
             "sha256": "83c66a1cfd591d7680c144d2922c5955d38b4db336d7cd3ee109f7bcf9afef15"
-        },
-        {
-            "name": "2.40.0",
-            "sha256": "1582595099537ca8ff3b99c6804350b4c058bb8ad67411bbaae024ee7cead4e6"
-        },
-        {
-            "name": "2.38.2",
-            "sha256": "73fa651ec0d89d73dd3070b129ce2203a66171dfc0bd2caa3570a9c93d2d0781"
-        },
-        {
-            "name": "2.38.0",
-            "sha256": "dd50973c7757bcde15de6bcd3a6d462a445efd552604ae6435a0532fbbadae47"
-        },
-        {
-            "name": "2.31.2",
-            "sha256": "9e467ed09894c802499fb2399cd9a89ed21c81700ce8f27f970a833efb1e47aa"
         }
     ]
 }

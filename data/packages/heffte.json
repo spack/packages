@@ -505,13 +505,17 @@
             "name": "gromacs-swaxs"
         },
         {
+            "description": "LAMMPS stands for Large-scale Atomic/Molecular Massively Parallel\nSimulator.",
+            "name": "lammps"
+        },
+        {
             "description": "Xsdk is a suite of Department of Energy (DOE) packages for numerical\nsimulation. This is a Spack bundle package that installs the xSDK\npackages",
             "name": "xsdk"
         }
     ],
     "description": "Highly Efficient FFT for Exascale\n",
     "homepage": "https://github.com/icl-utk-edu/heffte/",
-    "latest_version": "2.4.0",
+    "latest_version": "2.4.1",
     "maintainers": [
         "G-Ragghianti",
         "mkstoyanov"
@@ -619,6 +623,10 @@
         {
             "branch": "master",
             "name": "develop"
+        },
+        {
+            "name": "2.4.1",
+            "sha256": "de2cf26df5d61baac7841525db3f393cb007f79612ac7534fd4757f154ba3e6c"
         },
         {
             "name": "2.4.0",
