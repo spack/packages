@@ -23,7 +23,7 @@
     "dependent_to": [],
     "description": "Excel Connector for R. Provides comprehensive functionality to read,\nwrite and format Excel data.\n",
     "homepage": "https://cloud.r-project.org/package=XLConnect",
-    "latest_version": "1.0.7",
+    "latest_version": "1.0.10",
     "maintainers": [],
     "name": "r-xlconnect",
     "patches": [],
@@ -36,6 +36,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.0.10",
+            "sha256": "e3c267cb1e6a6fb3a9fb132e60649182ee7a28e4e9188c72786fb843aad6e2b4"
+        },
         {
             "name": "1.0.7",
             "sha256": "821dba231c3c3147455e7525119b51e5dc001984c638b7ce519d0974b32de677"

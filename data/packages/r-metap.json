@@ -40,7 +40,7 @@
     ],
     "description": "Meta-Analysis of Significance Values. The canonical way to perform meta-\nanalysis involves using effect sizes. When they are not available this\npackage provides a number of methods for meta-analysis of significance\nvalues including the methods of Edgington, Fisher, Lancaster, Stouffer,\nTippett, and Wilkinson; a number of data-sets to replicate published\nresults; and a routine for graphical display.\n",
     "homepage": "https://cloud.r-project.org/package=metap",
-    "latest_version": "1.8",
+    "latest_version": "1.11",
     "maintainers": [],
     "name": "r-metap",
     "patches": [],
@@ -53,6 +53,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.11",
+            "sha256": "34e8c9fc3ccaae23f57389001987de02339416f843084869f92ff635052093b7"
+        },
         {
             "name": "1.8",
             "sha256": "ee9501a8de8a4c47af1632e6053e42ef53fc4b8bdf0f2759edc4d3eefaf5552b"

@@ -96,7 +96,7 @@
     ],
     "description": " \"Finding Groups in Data\": Cluster Analysis Extended Rousseeuw et al.\nMethods for Cluster analysis. Much extended the original from Peter\nRousseeuw, Anja Struyf and Mia Hubert, based on Kaufman and Rousseeuw\n(1990) \"Finding Groups in Data\".\n",
     "homepage": "https://cloud.r-project.org/package=cluster",
-    "latest_version": "2.1.4",
+    "latest_version": "2.1.6",
     "maintainers": [],
     "name": "r-cluster",
     "patches": [],
@@ -109,6 +109,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.1.6",
+            "sha256": "d1c50efafd35a55387cc5b36086b97d5591e0b33c48dc718005d2f5907113164"
+        },
         {
             "name": "2.1.4",
             "sha256": "c6f10ceca29a176ba833f24ebf71fd451629052c2338398ba286df5689d6f5b6"

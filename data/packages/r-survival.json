@@ -140,7 +140,7 @@
     ],
     "description": "Survival Analysis. Contains the core survival analysis routines,\nincluding definition of Surv objects, Kaplan-Meier and Aalen-Johansen\n(multi-state) curves, Cox models, and parametric accelerated failure\ntime models.\n",
     "homepage": "https://cloud.r-project.org/package=survival",
-    "latest_version": "3.5-5",
+    "latest_version": "3.7-0",
     "maintainers": [],
     "name": "r-survival",
     "patches": [],
@@ -153,6 +153,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.7-0",
+            "sha256": "cd96b08ec928b0028f69c942cc788e190b4543c8518d71deb6d8a712de44feef"
+        },
         {
             "name": "3.5-5",
             "sha256": "1375a509554b0258e04e27baca2e073e179406e2a9a71e6d3e0c777072568476"

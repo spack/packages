@@ -32,7 +32,7 @@
     ],
     "description": "Cache R Objects with Automatic Pruning. Key-value stores with automatic\npruning. Caches can limit either their total size or the age of the\noldest object (or both), automatically pruning objects to maintain the\nconstraints.\n",
     "homepage": "https://cloud.r-project.org/package=cachem",
-    "latest_version": "1.0.7",
+    "latest_version": "1.1.0",
     "maintainers": [],
     "name": "r-cachem",
     "patches": [],
@@ -45,6 +45,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.1.0",
+            "sha256": "550839fc2ae5d865db475ba2c1714144f07fa0c052c72135b0e4a70287492e21"
+        },
         {
             "name": "1.0.7",
             "sha256": "234fad2a947d1e1fb87d3fa92abf9197877772e31bc81ae5991ae69689b6320a"

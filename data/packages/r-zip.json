@@ -24,7 +24,7 @@
     ],
     "description": "Cross-Platform 'zip' Compression. Cross-Platform 'zip' Compression\nLibrary. A replacement for the 'zip' function, that does not require any\nadditional external tools on any platform.\n",
     "homepage": "https://cloud.r-project.org/package=zip",
-    "latest_version": "2.3.0",
+    "latest_version": "2.3.1",
     "maintainers": [],
     "name": "r-zip",
     "patches": [],
@@ -37,6 +37,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.3.1",
+            "sha256": "83754408781c525917f36535865d28214893de0778b5f337e050cb543cacc28f"
+        },
         {
             "name": "2.3.0",
             "sha256": "33eba844922af9981732ee6ec1582d46cf04c562344f09a0f0f14a22c6f74543"

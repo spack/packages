@@ -32,7 +32,7 @@
     ],
     "description": "Similarity and Distance Quantification Between Probability Functions.\nComputes 46 optimized distance and similarity measures for comparing\nprobability functions (Drost (2018) <doi:10.21105/joss.00765>). These\ncomparisons between probability functions have their foundations in a\nbroad range of scientific disciplines from mathematics to ecology. The\naim of this package is to provide a core framework for clustering,\nclassification, statistical inference, goodness-of-fit, non-parametric\nstatistics, information theory, and machine learning tasks that are\nbased on comparing univariate or multivariate probability functions.\n",
     "homepage": "https://cloud.r-project.org/package=philentropy",
-    "latest_version": "0.7.0",
+    "latest_version": "0.8.0",
     "maintainers": [],
     "name": "r-philentropy",
     "patches": [],
@@ -45,6 +45,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.8.0",
+            "sha256": "3aa6d4918168f4fe2c56ea3f26381b0ffc02f1d5b9b95e294bac1a34bf66be3e"
+        },
         {
             "name": "0.7.0",
             "sha256": "ce72e2327aee80aeeb630caa33be6a35e4f2b8a7491842d8c21099b9c43584b7"

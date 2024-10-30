@@ -8,12 +8,20 @@
             "name": "r"
         },
         {
+            "description": "Helpers for Developing Command Line Interfaces. A suite of tools to\nbuild attractive command line interfaces ('CLIs'), from semantic\nelements: headings, lists, alerts, paragraphs, etc. Supports custom\nthemes via a 'CSS'-like language. It also contains a number of lower\nlevel 'CLI' elements: rules, boxes, trees, and 'Unicode' symbols with\n'ASCII' alternatives. It integrates with the 'crayon' package to support\n'ANSI' terminal colors.",
+            "name": "r-cli"
+        },
+        {
             "description": "Color Schemes for Dichromats. Collapse red-green or green-blue\ndistinctions to simulate the effects of different types of color-\nblindness.",
             "name": "r-dichromat"
         },
         {
             "description": "High Performance Colour Space Manipulation. The encoding of colour can\nbe handled in many different ways, using different colour spaces. As\ndifferent colour spaces have different uses, efficient conversion\nbetween these representations are important. The 'farver' package\nprovides a set of functions that gives access to very fast colour space\nconversion and comparisons implemented in C++, and offers speed\nimprovements over the 'convertColor' function in the 'grDevices'\npackage.",
             "name": "r-farver"
+        },
+        {
+            "description": "Interpreted String Literals. An implementation of interpreted string\nliterals, inspired by Python's Literal String Interpolation\n<https://www.python.org/dev/peps/pep-0498/> and Docstrings\n<https://www.python.org/dev/peps/pep-0257/> and Julia's Triple-Quoted\nString Literals <https://docs.julialang.org/en/stable/\nmanual/strings/#triple-quoted-string-literals>.",
+            "name": "r-glue"
         },
         {
             "description": "Axis Labeling. Provides a range of axis labeling algorithms.",
@@ -130,6 +138,10 @@
             "name": "r-ggsci"
         },
         {
+            "description": "Provides new statistics, new geometries and new positions for 'ggplot2'\nand a suite of functions to facilitate the creation of statistical\nplots.",
+            "name": "r-ggstats"
+        },
+        {
             "description": "Extra Themes, Scales and Geoms for 'ggplot2'. Some extra themes, geoms,\nand scales for 'ggplot2'. Provides 'ggplot2' themes and scales that\nreplicate the look of plots by Edward Tufte, Stephen Few,\n'Fivethirtyeight', 'The Economist', 'Stata', 'Excel', and 'The Wall\nStreet Journal', among others. Provides 'geoms' for Tufte's box plot and\nrange frame.",
             "name": "r-ggthemes"
         },
@@ -176,6 +188,10 @@
         {
             "description": "Create Interactive Web Graphics via 'plotly.js'. Create interactive web\ngraphics from 'ggplot2' graphs and/or a custom interface to the (MIT-\nlicensed) JavaScript library 'plotly.js' inspired by the grammar of\ngraphics.",
             "name": "r-plotly"
+        },
+        {
+            "description": "Projection Predictive Feature Selection. Performs projection predictive\nfeature selection for generalized linear models and generalized linear\nand additive multilevel models (see, Piironen, Paasiniemi and Vehtari,\n2020, <https://projecteuclid.org/euclid.ejs/1589335310>, Catalina,\nBurkner and Vehtari, 2020, <arXiv:2010.06994>). The package is\ncompatible with the 'rstanarm' and 'brms' packages, but other reference\nmodels can also be used. See the package vignette for more information\nand examples.",
+            "name": "r-projpred"
         },
         {
             "description": "R Interface for Bokeh. A native R plotting library that provides a\nflexible declarative interface for creating interactive web-based\ngraphics, backed by the Bokeh visualization library\n<https://bokeh.pydata.org/>.",

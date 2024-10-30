@@ -16,6 +16,10 @@
             "name": "r-npsurv"
         },
         {
+            "description": "Functions for Base Types and Core R and 'Tidyverse' Features. A toolbox\nfor working with base types, core R features like the condition system,\nand core 'Tidyverse' features like tidy evaluation.",
+            "name": "r-rlang"
+        },
+        {
             "description": "Survival Analysis. Contains the core survival analysis routines,\nincluding definition of Surv objects, Kaplan-Meier and Aalen-Johansen\n(multi-state) curves, Cox models, and parametric accelerated failure\ntime models.",
             "name": "r-survival"
         }
@@ -28,7 +32,7 @@
     ],
     "description": "Help to Fit of a Parametric Distribution to Non-Censored or Censored\nData. Extends the fitdistr() function (of the MASS package) with several\nfunctions to help the fit of a parametric distribution to non-censored\nor censored data. Censored data may contain left censored, right\ncensored and interval censored values, with several lower and upper\nbounds. In addition to maximum likelihood estimation (MLE), the package\nprovides moment matching (MME), quantile matching (QME) and maximum\ngoodness-of-fit estimation (MGE) methods (available only for non-\ncensored data). Weighted versions of MLE, MME and QME are available. See\ne.g. Casella & Berger (2002). Statistical inference. Pacific Grove.\n",
     "homepage": "https://cloud.r-project.org/package=fitdistrplus",
-    "latest_version": "1.1-11",
+    "latest_version": "1.2-1",
     "maintainers": [],
     "name": "r-fitdistrplus",
     "patches": [],
@@ -41,6 +45,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.2-1",
+            "sha256": "68b4215a9dfff65880a3ba6f7febe4929b197611344932b79af05d91dc584558"
+        },
         {
             "name": "1.1-11",
             "sha256": "26274f2b710b2417a8bca314d400abf320d4ccf0387ad082743056699501b53d"

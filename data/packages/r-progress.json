@@ -60,7 +60,7 @@
     ],
     "description": "Terminal Progress Bars. Configurable Progress bars, they may include\npercentage, elapsed time, and/or the estimated completion time. They\nwork in terminals, in 'Emacs' 'ESS', 'RStudio', 'Windows' 'Rgui' and the\n'macOS' 'R.app'. The package also provides a 'C++' 'API', that works\nwith or without 'Rcpp'.\n",
     "homepage": "https://cloud.r-project.org/package=progress",
-    "latest_version": "1.2.2",
+    "latest_version": "1.2.3",
     "maintainers": [],
     "name": "r-progress",
     "patches": [],
@@ -73,6 +73,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.2.3",
+            "sha256": "ea2b079b894de85c3ab12088c9c52aec06432245047a961d5b4b8aa6889f9276"
+        },
         {
             "name": "1.2.2",
             "sha256": "b4a4d8ed55db99394b036a29a0fb20b5dd2a91c211a1d651c52a1023cc58ff35"

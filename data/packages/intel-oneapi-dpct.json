@@ -32,7 +32,7 @@
     "dependent_to": [],
     "description": "The Intel DPC++ Compatibility Tool assists in migrating your existing\nCUDA code to SYCL code. The tool ports both CUDA language kernels and\nlibrary API calls. Typically, 90%-95% of CUDA code automatically\nmigrates to SYCL code. LICENSE INFORMATION: By downloading and using\nthis software, you agree to the terms and conditions of the software\nlicense agreements at https://intel.ly/393CijO.\n",
     "homepage": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/dpc-compatibility-tool.html#gs.2p8km6",
-    "latest_version": "2024.2.1",
+    "latest_version": "2025.0.0",
     "maintainers": [
         "rscohn2"
     ],
@@ -52,6 +52,11 @@
         }
     ],
     "versions": [
+        {
+            "name": "2025.0.0",
+            "sha256": "a675a0c6261c31c73ca8c37e9d6b4bd19018e9fcba72800c245ed61eb0fac9ee",
+            "url": "https://registrationcenter-download.intel.com/akdlm/IRC_NAS/de77e9b7-1fa2-4329-8777-2de569fee5d9/intel-dpcpp-ct-2025.0.0.912_offline.sh"
+        },
         {
             "name": "2024.2.1",
             "sha256": "87af24e0151bcde66c568f73156532a055569b349a7dbd34178344245a43ca1f",

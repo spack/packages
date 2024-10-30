@@ -20,7 +20,7 @@
     ],
     "description": "Modelling with Sparse and Dense Matrices. Modelling with sparse and\ndense 'Matrix' matrices, using modular prediction and response module\nclasses.\n",
     "homepage": "https://cloud.r-project.org/package=MatrixModels",
-    "latest_version": "0.5-1",
+    "latest_version": "0.5-3",
     "maintainers": [],
     "name": "r-matrixmodels",
     "patches": [],
@@ -33,6 +33,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.5-3",
+            "sha256": "c2db5406c6b0b9d348b44eea215a39c64fc087099fea1342a04d50326577f20f"
+        },
         {
             "name": "0.5-1",
             "sha256": "3fc55bdfa5ab40c75bf395e90983d14c9715078c33c727c1658e4e1f36e43ea9"

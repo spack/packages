@@ -24,7 +24,7 @@
     ],
     "description": "List, Query, Manipulate System Processes. List, query and manipulate all\nsystem processes, on 'Windows', 'Linux' and 'macOS'.\n",
     "homepage": "https://cloud.r-project.org/package=ps",
-    "latest_version": "1.7.5",
+    "latest_version": "1.7.7",
     "maintainers": [],
     "name": "r-ps",
     "patches": [],
@@ -37,6 +37,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.7.7",
+            "sha256": "46fedcb2b8faa94ea1451e48e6f31a1e4ed3b12f529e645f9efcfca1003d22f2"
+        },
         {
             "name": "1.7.5",
             "sha256": "1abc3ae3c55797b994973f7e43bf5c7bbb4da649a0dcfad36675e196dba4cb4e"

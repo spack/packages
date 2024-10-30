@@ -32,7 +32,7 @@
     ],
     "description": "Read, Write and Edit xlsx Files. Simplifies the creation of Excel .xlsx\nfiles by providing a high level interface to writing, styling and\nediting worksheets. Through the use of 'Rcpp', read/write times are\ncomparable to the 'xlsx' and 'XLConnect' packages with the added benefit\nof removing the dependency on Java.\n",
     "homepage": "https://cloud.r-project.org/package=openxlsx",
-    "latest_version": "4.2.5.2",
+    "latest_version": "4.2.6.1",
     "maintainers": [],
     "name": "r-openxlsx",
     "patches": [],
@@ -45,6 +45,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "4.2.6.1",
+            "sha256": "c208c506a5d6a1d89a18c2b0bedceb467a461939128f2d7916efbf41e7a17aa9"
+        },
         {
             "name": "4.2.5.2",
             "sha256": "ee7089e7e5832ef22ee0d0eebf7cca5096ce23afb2bcdb58700be62526fc9b67"

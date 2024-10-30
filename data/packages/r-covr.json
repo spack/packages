@@ -40,15 +40,11 @@
         {
             "description": "Tools to Make Developing R Packages Easier. Collection of package\ndevelopment tools.",
             "name": "r-devtools"
-        },
-        {
-            "description": "Portable File Locking. Place an exclusive or shared lock on a file. It\nuses 'LockFile' on Windows and 'fcntl' locks on Unix-like systems.",
-            "name": "r-filelock"
         }
     ],
     "description": "Test Coverage for Packages. Track and report code coverage for your\npackage and (optionally) upload the results to a coverage service like\n'Codecov' <http://codecov.io> or 'Coveralls' <https://coveralls.io/>.\nCode coverage is a measure of the amount of code being exercised by a\nset of tests. It is an indirect measure of test quality and\ncompleteness. This package is compatible with any testing methodology or\nframework and tracks coverage of both R code and compiled C/C++/FORTRAN\ncode.\n",
     "homepage": "https://cloud.r-project.org/package=covr",
-    "latest_version": "3.6.2",
+    "latest_version": "3.6.4",
     "maintainers": [],
     "name": "r-covr",
     "patches": [],
@@ -61,6 +57,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.6.4",
+            "sha256": "2b6204036510c629d0b1d58daaee34d4e38baf54164f8d4c9afd6d6b1fb1862a"
+        },
         {
             "name": "3.6.2",
             "sha256": "ace68ce7516147b4d77f591a498cbd7b2803062c1b47252e7a35081af0ea485b"

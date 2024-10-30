@@ -39,7 +39,7 @@
     "dependent_to": [],
     "description": "Geometric Morphometric Analyses of 2D/3D Landmark Data. Read,\nmanipulate, and digitize landmark data, generate shape variables via\nProcrustes analysis for points, curves and surfaces, perform shape\nanalyses, and provide graphical depictions of shapes and patterns of\nshape variation.\n",
     "homepage": "https://cloud.r-project.org/package=geomorph",
-    "latest_version": "4.0.5",
+    "latest_version": "4.0.8",
     "maintainers": [],
     "name": "r-geomorph",
     "patches": [],
@@ -52,6 +52,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "4.0.8",
+            "sha256": "14b4ad5a03fb58d9e7d02ddc4d0756553e9480ded3e68fd699249d58870f0c55"
+        },
         {
             "name": "4.0.5",
             "sha256": "900d41f95a610b026763797f290ce94c10827a59b05030ed01c841c59264313b"

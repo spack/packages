@@ -96,7 +96,7 @@
     ],
     "description": "A 'dplyr' Back End for Databases. A 'dplyr' back end for databases that\nallows you to work with remote database tables as if they are in-memory\ndata frames. Basic features works with any database that has a 'DBI'\nback end; more advanced features require 'SQL' translation to be\nprovided by the package author.\n",
     "homepage": "https://cloud.r-project.org/package=dbplyr",
-    "latest_version": "2.3.2",
+    "latest_version": "2.5.0",
     "maintainers": [],
     "name": "r-dbplyr",
     "patches": [],
@@ -109,6 +109,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.5.0",
+            "sha256": "bb475bdbe89487b189ecc257b5c92007a7458803c81aa77bfc4ed46f5f24bcff"
+        },
         {
             "name": "2.3.2",
             "sha256": "0ddc00595ec6b21962d0bb6f470f5f7c9d61c74a4f92681a37e94e1295707fac"

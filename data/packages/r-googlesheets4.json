@@ -80,7 +80,7 @@
     ],
     "description": "Access Google Sheets using the Sheets API V4. Interact with Google\nSheets through the Sheets API v4\n<https://developers.google.com/sheets/api>. \"API\" is an acronym for\n\"application programming interface\"; the Sheets API allows users to\ninteract with Google Sheets programmatically, instead of via a web\nbrowser. The \"v4\" refers to the fact that the Sheets API is currently at\nversion 4. This package can read and write both the metadata and the\ncell data in a Sheet.\n",
     "homepage": "https://cloud.r-project.org/package=googlesheets4",
-    "latest_version": "1.1.0",
+    "latest_version": "1.1.1",
     "maintainers": [],
     "name": "r-googlesheets4",
     "patches": [],
@@ -93,6 +93,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.1.1",
+            "sha256": "c5cc63348c54b9de8492e7b12b249245746ea1ff33e306f12431f4fc9386fccf"
+        },
         {
             "name": "1.1.0",
             "sha256": "50e15543bef5b8d8cda36f6ea8a1d59b256d889cd3cedddc91f00ae30c8c8ec9"

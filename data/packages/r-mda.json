@@ -20,7 +20,7 @@
     ],
     "description": "Mixture and Flexible Discriminant Analysis. Mixture and flexible\ndiscriminant analysis, multivariate adaptive regression splines (MARS),\nBRUTO.\n",
     "homepage": "https://cloud.r-project.org/package=mda",
-    "latest_version": "0.5-3",
+    "latest_version": "0.5-4",
     "maintainers": [],
     "name": "r-mda",
     "patches": [],
@@ -33,6 +33,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.5-4",
+            "sha256": "f25f7f28807d0fa478b1b55eb9d026ebc30577d9d5ff288f9abfe1f3fdb8a759"
+        },
         {
             "name": "0.5-3",
             "sha256": "bda6409c17f385fae97da458cc742334e7b47aab8217a975b7551e2e18d38463"

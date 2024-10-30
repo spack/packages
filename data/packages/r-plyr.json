@@ -144,7 +144,7 @@
     ],
     "description": "Tools for Splitting, Applying and Combining Data. A set of tools that\nsolves a common set of problems: you need to break a big problem down\ninto manageable pieces, operate on each piece and then put all the\npieces back together. For example, you might want to fit a model to each\nspatial location or time point in your study, summarise data by panels\nor collapse high-dimensional arrays to simpler summary statistics. The\ndevelopment of 'plyr' has been generously supported by 'Becton\nDickinson'.\n",
     "homepage": "https://cloud.r-project.org/package=plyr",
-    "latest_version": "1.8.8",
+    "latest_version": "1.8.9",
     "maintainers": [],
     "name": "r-plyr",
     "patches": [],
@@ -157,6 +157,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.8.9",
+            "sha256": "15b5e7f711d53bf41b8687923983b8ef424563aa2f74c5195feb5b1df1aee103"
+        },
         {
             "name": "1.8.8",
             "sha256": "a73211b4bbe13e4e5e764966a8dd90172c1cc311938dd464d142e1c7a701070c"

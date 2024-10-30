@@ -12,6 +12,10 @@
             "name": "r-foreign"
         },
         {
+            "description": "GPA Factor Rotation. Gradient Projection Algorithm Rotation for Factor\nAnalysis. See GPArotation.Intro for more details.",
+            "name": "r-gparotation"
+        },
+        {
             "description": "Trellis Graphics for R. A powerful and elegant high-level data\nvisualization system inspired by Trellis graphics, with an emphasis on\nmultivariate data. Lattice is sufficient for typical graphics needs, and\nis also flexible enough to handle most nonstandard requirements. See\n?Lattice for an introduction.",
             "name": "r-lattice"
         },
@@ -40,7 +44,7 @@
     ],
     "description": "Procedures for Psychological, Psychometric, and Personality Research. A\ngeneral purpose toolbox for personality, psychometric theory and\nexperimental psychology. Functions are primarily for multivariate\nanalysis and scale construction using factor analysis, principal\ncomponent analysis, cluster analysis and reliability analysis, although\nothers provide basic descriptive statistics. Item Response Theory is\ndone using factor analysis of tetrachoric and polychoric correlations.\nFunctions for analyzing data at multiple levels include within and\nbetween group statistics, including correlations and factor analysis.\nFunctions for simulating and testing particular item and test structures\nare included. Several functions serve as a useful front end for\nstructural equation modeling. Graphical displays of path diagrams,\nfactor analysis and structural equation models are created using basic\ngraphics. Some of the functions are written to support a book on\npsychometric theory as well as publications in personality research. For\nmore information, see the <http://personality-project.org/r> web page.\n",
     "homepage": "https://cloud.r-project.org/package=psych",
-    "latest_version": "2.3.3",
+    "latest_version": "2.4.6.26",
     "maintainers": [],
     "name": "r-psych",
     "patches": [],
@@ -53,6 +57,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.4.6.26",
+            "sha256": "2d191a95e0107a7f402a17729916099dff201d20c4435f8bf43e6e8a2fbbd2be"
+        },
         {
             "name": "2.3.3",
             "sha256": "94a9f3c39f8243573752709b89eb8068e11dbe809f86ecf0225fb429556efb6f"

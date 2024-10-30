@@ -20,6 +20,10 @@
             "name": "r-glue"
         },
         {
+            "description": "Manage the Life Cycle of your Package Functions. Manage the life cycle\nof your exported functions with shared conventions, documentation\nbadges, and non-invasive deprecation warnings. The 'lifecycle' package\ndefines four development stages (experimental, maturing, stable, and\nquestioning) and three deprecation stages (soft-deprecated, deprecated,\nand defunct). It makes it easy to insert badges corresponding to these\nstages in your documentation. Usage of deprecated functions are\nsignalled with increasing levels of non-invasive verbosity.",
+            "name": "r-lifecycle"
+        },
+        {
             "description": "A Forward-Pipe Operator for R. Provides a mechanism for chaining\ncommands with a new forward-pipe operator, %>%. This operator will\nforward a value, or the result of an expression, into the next function\ncall/expression. There is flexible support for the type of right-hand\nside expressions. For more information, see package vignette.",
             "name": "r-magrittr"
         },
@@ -40,6 +44,10 @@
             "name": "r-rlang"
         },
         {
+            "description": "Vector Helpers. Defines new notions of prototype and size that are used\nto provide tools for consistent and well-founded type-coercion and size-\nrecycling, and are in turn connected to ideas of type- and size-\nstability useful for analyzing function interfaces.",
+            "name": "r-vctrs"
+        },
+        {
             "description": "Run Code 'With' Temporarily Modified Global State. A set of functions to\nrun code 'with' safely and temporarily modified global state. Many of\nthese functions were originally a part of the 'devtools' package, this\nprovides a simple package with limited dependencies to provide access to\nthese functions.",
             "name": "r-withr"
         }
@@ -48,11 +56,19 @@
         {
             "description": "'GitHub' 'API'. Minimal client to access the 'GitHub' 'API'.",
             "name": "r-gh"
+        },
+        {
+            "description": "Make Static HTML Documentation for a Package. Generate an attractive and\nuseful website from a source package. 'pkgdown' converts your\ndocumentation, vignettes, 'README', and more to 'HTML' making it easy to\nshare information about your package online.",
+            "name": "r-pkgdown"
+        },
+        {
+            "description": "Supporting Functions for Packages Maintained by 'YuLab-SMU'.\nMiscellaneous functions commonly used by 'YuLab-SMU'.",
+            "name": "r-yulab-utils"
         }
     ],
     "description": "Perform HTTP Requests and Process the Responses. Tools for creating and\nmodifying HTTP requests, then performing them and processing the\nresults. 'httr2' is a modern re-imagining of 'httr' that uses a pipe-\nbased interface and solves more of the problems that API wrapping\npackages face.\n",
     "homepage": "https://cloud.r-project.org/package=httr2",
-    "latest_version": "0.2.2",
+    "latest_version": "1.0.2",
     "maintainers": [],
     "name": "r-httr2",
     "patches": [],
@@ -65,6 +81,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.0.2",
+            "sha256": "d1f8e37f74a59f4e1b3b886e5f453336ba14251e500acdccc8f4f7d2b9300048"
+        },
         {
             "name": "0.2.2",
             "sha256": "5d1ab62541f7817112519f0f9d00d6a2555bab5b2da7f5c6d579b0c307d7f2bf"

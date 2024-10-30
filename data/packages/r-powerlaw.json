@@ -24,7 +24,7 @@
     ],
     "description": "Analysis of Heavy Tailed Distributions. An implementation of maximum\nlikelihood estimators for a variety of heavy tailed distributions,\nincluding both the discrete and continuous power law distributions.\nAdditionally, a goodness-of-fit based approach is used to estimate the\nlower cut-off for the scaling region.\n",
     "homepage": "https://cloud.r-project.org/package=poweRlaw",
-    "latest_version": "0.70.6",
+    "latest_version": "0.80.0",
     "maintainers": [],
     "name": "r-powerlaw",
     "patches": [],
@@ -37,6 +37,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.80.0",
+            "sha256": "713556af1f47e1de749670d08f963688908cfa80e9dfda590efd1a28441772cb"
+        },
         {
             "name": "0.70.6",
             "sha256": "efc091449c5c6494c1c13c85a8eb95625d1c55ffffebe86c7ea16e4abbafa191"

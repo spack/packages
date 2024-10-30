@@ -16,7 +16,7 @@
     ],
     "description": "Ridge Regression and Other Kernels for Genomic Selection. Software for\ngenomic prediction with the RR-BLUP mixed model (Endelman 2011,\n<doi:10.3835/plantgenome2011.08.0024>). One application is to estimate\nmarker effects by ridge regression; alternatively, BLUPs can be\ncalculated based on an additive relationship matrix or a Gaussian\nkernel.\n",
     "homepage": "https://cloud.r-project.org/package=rrBLUP",
-    "latest_version": "4.6.2",
+    "latest_version": "4.6.3",
     "maintainers": [],
     "name": "r-rrblup",
     "patches": [],
@@ -29,6 +29,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "4.6.3",
+            "sha256": "cd2a257ecb8252f352fd09189b538db62e4de4a51091cf392c18966c3f0c80cd"
+        },
         {
             "name": "4.6.2",
             "sha256": "860f5e3f889593b6737f386743a2679322ec7d3557bea8e25482fd6cb745adff"

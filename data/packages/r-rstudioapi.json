@@ -64,7 +64,7 @@
     ],
     "description": "Safely Access the RStudio API. Access the RStudio API (if available) and\nprovide informative error messages when it's not.\n",
     "homepage": "https://cloud.r-project.org/package=rstudioapi",
-    "latest_version": "0.14",
+    "latest_version": "0.16.0",
     "maintainers": [],
     "name": "r-rstudioapi",
     "patches": [],
@@ -77,6 +77,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.16.0",
+            "sha256": "74ffa867199e87a54386fbd26919233371f314f73d7338dd4e4695708fed4fe6"
+        },
         {
             "name": "0.14",
             "sha256": "469d0987b1ad728a96c363a422fba712a5cebc8b11a5f7e953b4a671044dafc4"

@@ -15,7 +15,7 @@
     "dependent_to": [],
     "description": "Plot 'rpart' Models: An Enhanced Version of 'plot.rpart'. Plot 'rpart'\nmodels. Extends plot.rpart() and text.rpart() in the 'rpart' package.\n",
     "homepage": "https://cloud.r-project.org/package=rpart.plot",
-    "latest_version": "3.1.1",
+    "latest_version": "3.1.2",
     "maintainers": [],
     "name": "r-rpart-plot",
     "patches": [],
@@ -28,6 +28,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.1.2",
+            "sha256": "3dca2a5d1a8e5eb5129fd6efce9c5f6b2fa241bfb65f2a8823a8db89f4b422b2"
+        },
         {
             "name": "3.1.1",
             "sha256": "30736240058df21a96d10912a091d938f821d521a3bc4efb9aa4ef6fb233024d"

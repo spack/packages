@@ -16,7 +16,7 @@
     ],
     "description": "Easy Access to Model Information for Various Model Objects. A tool to\nprovide an easy, intuitive and consistent access to information\ncontained in various R models, like model formulas, model terms,\ninformation about random effects, data that was used to fit the model or\ndata from response variables. 'insight' mainly revolves around two types\nof functions: Functions that find (the names of) information, starting\nwith 'find_', and functions that get the underlying data, starting with\n'get_'. The package has a consistent syntax and works with many\ndifferent model objects, where otherwise functions to access these\ninformation are missing.\n",
     "homepage": "https://cloud.r-project.org/package=insight",
-    "latest_version": "0.19.1",
+    "latest_version": "0.20.3",
     "maintainers": [],
     "name": "r-insight",
     "patches": [],
@@ -29,6 +29,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.20.3",
+            "sha256": "b60e189849cd3c368e9c2b2174e89c2dfbba3b34e84feb8a20af1bb758116bb2"
+        },
         {
             "name": "0.19.1",
             "sha256": "1042629644c66b1a372fd4471d38adccc0c3a329879ef685b14b65575c1c98eb"

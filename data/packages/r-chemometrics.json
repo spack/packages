@@ -55,7 +55,7 @@
     "dependent_to": [],
     "description": "Multivariate Statistical Analysis in Chemometrics. R companion to the\nbook \"Introduction to Multivariate Statistical Analysis in Chemometrics\"\nwritten by K. Varmuza and P. Filzmoser (2009).\n",
     "homepage": "https://cloud.r-project.org/package=chemometrics",
-    "latest_version": "1.4.2",
+    "latest_version": "1.4.4",
     "maintainers": [],
     "name": "r-chemometrics",
     "patches": [],
@@ -68,6 +68,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.4.4",
+            "sha256": "fd0edb1ebe321ff7677d0a668d7dfc79a7cd55f408a53d1f13db4cf6347aa881"
+        },
         {
             "name": "1.4.2",
             "sha256": "b705832fa167dc24b52b642f571ed1efd24c5f53ba60d02c7797986481b6186a"

@@ -31,7 +31,7 @@
     "dependent_to": [],
     "description": "Object Pooling. Enables the creation of object pools, which make it less\ncomputationally expensive to fetch a new object. Currently the only\nsupported pooled objects are 'DBI' connections.\n",
     "homepage": "https://cloud.r-project.org/package=pool",
-    "latest_version": "1.0.1",
+    "latest_version": "1.0.3",
     "maintainers": [],
     "name": "r-pool",
     "patches": [],
@@ -44,6 +44,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.0.3",
+            "sha256": "c461f96928c3e524a52018160d2406f3a1f5ef5abbae54ae89fe7ecd4c1a1cec"
+        },
         {
             "name": "1.0.1",
             "sha256": "73d5dffd55e80fdadb88401f12570fcf08e932c4c86761931241f9841fddadbf"

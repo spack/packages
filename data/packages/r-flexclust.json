@@ -28,7 +28,7 @@
     ],
     "description": "Flexible Cluster Algorithms. The main function kcca implements a general\nframework for k-centroids cluster analysis supporting arbitrary distance\nmeasures and centroid computation. Further cluster methods include hard\ncompetitive learning, neural gas, and QT clustering. There are numerous\nvisualization methods for cluster results (neighborhood graphs, convex\ncluster hulls, barcharts of centroids, ...), and bootstrap methods for\nthe analysis of cluster stability.\n",
     "homepage": "https://cloud.r-project.org/package=flexclust",
-    "latest_version": "1.4-1",
+    "latest_version": "1.4-2",
     "maintainers": [],
     "name": "r-flexclust",
     "patches": [],
@@ -41,6 +41,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.4-2",
+            "sha256": "0c4720d691e36091cedafa26ee1f0ddc7af931168096df00b9bf6d64fdd35a55"
+        },
         {
             "name": "1.4-1",
             "sha256": "d67977df059e622832358069509f8968d506074320a45d34bfd21c65f898538d"

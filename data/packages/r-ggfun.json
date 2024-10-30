@@ -8,6 +8,14 @@
             "name": "r"
         },
         {
+            "description": "Helpers for Developing Command Line Interfaces. A suite of tools to\nbuild attractive command line interfaces ('CLIs'), from semantic\nelements: headings, lists, alerts, paragraphs, etc. Supports custom\nthemes via a 'CSS'-like language. It also contains a number of lower\nlevel 'CLI' elements: rules, boxes, trees, and 'Unicode' symbols with\n'ASCII' alternatives. It integrates with the 'crayon' package to support\n'ANSI' terminal colors.",
+            "name": "r-cli"
+        },
+        {
+            "description": "A Grammar of Data Manipulation. A fast, consistent tool for working with\ndata frame like objects, both in memory and out of memory.",
+            "name": "r-dplyr"
+        },
+        {
             "description": "Create Elegant Data Visualisations Using the Grammar of Graphics. A\nsystem for 'declaratively' creating graphics, based on \"The Grammar of\nGraphics\". You provide the data, tell 'ggplot2' how to map variables to\naesthetics, what graphical primitives to use, and it takes care of the\ndetails.",
             "name": "r-ggplot2"
         },
@@ -32,7 +40,7 @@
     ],
     "description": "Miscellaneous Functions for 'ggplot2'. Useful functions to edit 'ggplot'\nobject (e.g., setting fonts for theme and layers, adding rounded\nrectangle as background for each of the legends).\n",
     "homepage": "https://cloud.r-project.org/package=ggfun",
-    "latest_version": "0.0.9",
+    "latest_version": "0.1.5",
     "maintainers": [],
     "name": "r-ggfun",
     "patches": [],
@@ -45,6 +53,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.1.5",
+            "sha256": "fe6c01fd68c17497f23f76dfd4e5a6edd79a6e86850b8c5054748f31527b16d3"
+        },
         {
             "name": "0.0.9",
             "sha256": "5c740e9d1e73b77658f41ed65e21492f4e71b12c7c9ff4b9e52ebf5f8f197612"

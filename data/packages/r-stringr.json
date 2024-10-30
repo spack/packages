@@ -66,6 +66,10 @@
             "name": "r-broom"
         },
         {
+            "description": "Provides suite of functions to work with regression model\n'broom::tidy()' tibbles. The suite includes functions to group\nregression model terms by variable, insert reference and header rows for\ncategorical variables, add variable labels, and more.",
+            "name": "r-broom-helpers"
+        },
+        {
             "description": "Inference of differential exon usage in RNA-Seq. The package is focused\non finding differential exon usage using RNA-seq exon counts between\nsamples with different experimental designs. It provides functions that\nallows the user to make the necessary statistical tests based on a model\nthat uses the negative binomial distribution to estimate the variance\nbetween biological replicates and generalized linear models for testing.\nThe package also provides functions for the visualization and\nexploration of the results.",
             "name": "r-dexseq"
         },
@@ -82,8 +86,16 @@
             "name": "r-evaluate"
         },
         {
+            "description": "Fast Creation of Dummy (Binary) Columns and Rows from Categorical\nVariables.",
+            "name": "r-fastdummies"
+        },
+        {
             "description": "Spatial Visualization with ggplot2. A collection of functions to\nvisualize spatial data and models on top of static maps from various\nonline sources (e.g Google Maps and Stamen Maps). It includes tools\ncommon to those tasks, including functions for geolocation and routing.",
             "name": "r-ggmap"
+        },
+        {
+            "description": "Provides new statistics, new geometries and new positions for 'ggplot2'\nand a suite of functions to facilitate the creation of statistical\nplots.",
+            "name": "r-ggstats"
         },
         {
             "description": "Extra Themes, Scales and Geoms for 'ggplot2'. Some extra themes, geoms,\nand scales for 'ggplot2'. Provides 'ggplot2' themes and scales that\nreplicate the look of plots by Edward Tufte, Stephen Few,\n'Fivethirtyeight', 'The Economist', 'Stata', 'Excel', and 'The Wall\nStreet Journal', among others. Provides 'geoms' for Tufte's box plot and\nrange frame.",
@@ -116,6 +128,10 @@
         {
             "description": "Make Dealing with Dates a Little Easier. Functions to work with date-\ntimes and timespans: fast and user friendly parsing of date-time data,\nextraction and updating of components of a date-time (years, months,\ndays, hours, minutes, and seconds), algebraic manipulation on date-time\nand timespan objects. The 'lubridate' package has a consistent and\nmemorable syntax that makes working with dates easy and fun.",
             "name": "r-lubridate"
+        },
+        {
+            "description": "General Package for Meta-Analysis. User-friendly general package\nproviding standard methods for meta-analysis and supporting Schwarzer,\nCarpenter, and R\u00fccker <doi:10.1007/978-3-319-21416-0>, \"Meta-Analysis\nwith R\" (2015): - common effect and random effects meta-analysis; -\nseveral plots (forest, funnel, Galbraith / radial, L'Abbe, Baujat,\nbubble); - three-level meta-analysis model; - generalised linear mixed\nmodel; - Hartung-Knapp method for random effects model; - Kenward-Roger\nmethod for random effects model; - prediction interval; - statistical\ntests for funnel plot asymmetry; - trim-and-fill method to evaluate bias\nin meta-analysis; - meta-regression; - cumulative meta-analysis and\nleave-one-out meta-analysis; - import data from 'RevMan 5'; - produce\nforest plot summarising several (subgroup) meta-analyses.",
+            "name": "r-meta"
         },
         {
             "description": "Analysing Illumina HumanMethylation BeadChip Data. Normalisation,\ntesting for differential variability and differential methylation and\ngene set testing for data from Illumina's Infinium HumanMethylation\narrays. The normalisation procedure is subset-quantile within-array\nnormalisation (SWAN), which allows Infinium I and II type probes on a\nsingle array to be normalised together. The test for differential\nvariability is based on an empirical Bayes version of Levene's test.\nDifferential methylation testing is performed using RUV, which can\nadjust for systematic errors of unknown origin in high-dimensional data\nby using negative control probes. Gene ontology analysis is performed by\ntaking into account the number of probes per gene on the array, as well\nas taking into account multi-gene associated probes.",
@@ -208,7 +224,7 @@
     ],
     "description": "Simple, Consistent Wrappers for Common String Operations. A consistent,\nsimple and easy to use set of wrappers around the fantastic 'stringi'\npackage. All function and argument names (and positions) are consistent,\nall functions deal with \"NA\"'s and zero length vectors in the same way,\nand the output from one function is easy to feed into the input of\nanother.\n",
     "homepage": "https://cloud.r-project.org/package=stringr",
-    "latest_version": "1.5.0",
+    "latest_version": "1.5.1",
     "maintainers": [],
     "name": "r-stringr",
     "patches": [],
@@ -221,6 +237,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.5.1",
+            "sha256": "a4adec51bb3f04214b1d8ef40d3a58949f21b1497cbeaf2ba552e0891eef45de"
+        },
         {
             "name": "1.5.0",
             "sha256": "52b159d7700a139111b4caf939e7c9c6ab3e01185181400d70a74c552826633a"

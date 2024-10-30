@@ -44,7 +44,7 @@
     ],
     "description": "Scatter Pie Plot. Creates scatterpie plots, especially useful for\nplotting pies on a map.\n",
     "homepage": "https://cloud.r-project.org/package=scatterpie",
-    "latest_version": "0.1.9",
+    "latest_version": "0.2.3",
     "maintainers": [],
     "name": "r-scatterpie",
     "patches": [],
@@ -57,6 +57,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.2.3",
+            "sha256": "704f1072ff934729aefdd659e5c81e62b59f5ae94dc36a1e1f52085dce896447"
+        },
         {
             "name": "0.1.9",
             "sha256": "517fd6cc297aa33f0fbb2643e35ca41dc971166ea2e8ed78460bd4ef7a77a687"

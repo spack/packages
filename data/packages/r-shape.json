@@ -24,7 +24,7 @@
     ],
     "description": "Functions for Plotting Graphical Shapes, Colors. Functions for plotting\ngraphical shapes such as ellipses, circles, cylinders, arrows, ...\n",
     "homepage": "https://cloud.r-project.org/package=shape",
-    "latest_version": "1.4.6",
+    "latest_version": "1.4.6.1",
     "maintainers": [],
     "name": "r-shape",
     "patches": [],
@@ -37,6 +37,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.4.6.1",
+            "sha256": "43f9bd0f997fd6cf1838efd8b2509c9a6396513f4e54a20360481634affd22a4"
+        },
         {
             "name": "1.4.6",
             "sha256": "b9103e5ed05c223c8147dbe3b87a0d73184697343634a353a2ae722f7ace0b7b"

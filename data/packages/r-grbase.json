@@ -51,7 +51,7 @@
     "dependent_to": [],
     "description": "A Package for Graphical Modelling in R. The 'gRbase' package provides\ngraphical modelling features used by e.g. the packages 'gRain', 'gRim'\nand 'gRc'. 'gRbase' implements graph algorithms including (i) maximum\ncardinality search (for marked and unmarked graphs). (ii) moralization,\n(iii) triangulation, (iv) creation of junction tree. 'gRbase'\nfacilitates array operations, 'gRbase' implements functions for testing\nfor conditional independence. 'gRbase' illustrates how hierarchical log-\nlinear models may be implemented and describes concept of graphical meta\ndata. The facilities of the package are documented in the book by\nHojsgaard, Edwards and Lauritzen (2012, <doi:10.1007/978-1-4614-2299-0>)\nand in the paper by Dethlefsen and Hojsgaard, (2005,\n<doi:10.18637/jss.v014.i17>). Please see 'citation(\"gRbase\")' for\ncitation details. NOTICE 'gRbase' requires that the packages graph,\n'Rgraphviz' and 'RBGL' are installed from 'bioconductor'; for\ninstallation instructions please refer to the web page given below.\n",
     "homepage": "https://cloud.r-project.org/package=gRbase",
-    "latest_version": "1.8.9",
+    "latest_version": "2.0.2",
     "maintainers": [],
     "name": "r-grbase",
     "patches": [],
@@ -64,6 +64,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.0.2",
+            "sha256": "36720e49b82e360166386c9b3bf17838aeb6d9b921e7e01d48f8a115f9a02e97"
+        },
         {
             "name": "1.8.9",
             "sha256": "dacab442d896e4593c6196e8446b75c4144a1c4ebc3f039dc624516038193d7e"

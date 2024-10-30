@@ -128,7 +128,7 @@
     ],
     "description": "Harrell Miscellaneous. Contains many functions useful for data analysis,\nhigh-level graphics, utility operations, functions for computing sample\nsize and power, importing and annotating datasets, imputing missing\nvalues, advanced table making, variable clustering, character string\nmanipulation, conversion of R objects to LaTeX and html code, and\nrecoding variables.\n",
     "homepage": "https://cloud.r-project.org/package=Hmisc",
-    "latest_version": "5.0-1",
+    "latest_version": "5.1-3",
     "maintainers": [],
     "name": "r-hmisc",
     "patches": [],
@@ -141,6 +141,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "5.1-3",
+            "sha256": "3c61772ff7a78ca5855189faa810c74117dc5df240103adc6e90eb94e9c605eb"
+        },
         {
             "name": "5.0-1",
             "sha256": "db390f8f8a150cb5cffb812e9609a8e8632ceae0dc198528f190fd670ba8fa59"

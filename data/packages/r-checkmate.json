@@ -60,7 +60,7 @@
     ],
     "description": "Fast and Versatile Argument Checks. Tests and assertions to perform\nfrequent argument checks. A substantial part of the package was written\nin C to minimize any worries about execution time overhead.\n",
     "homepage": "https://cloud.r-project.org/package=checkmate",
-    "latest_version": "2.1.0",
+    "latest_version": "2.3.2",
     "maintainers": [],
     "name": "r-checkmate",
     "patches": [],
@@ -73,6 +73,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.3.2",
+            "sha256": "7255732d6c2da51204128a910e8c0d05246324a0402fca4d0d99433af40a88e3"
+        },
         {
             "name": "2.1.0",
             "sha256": "b784dd5163a0350d084ef34882d9781373839dedeaa9a8b8e6187d773d0d21c6"

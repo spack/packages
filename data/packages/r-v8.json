@@ -39,7 +39,7 @@
     ],
     "description": "Embedded JavaScript and WebAssembly Engine for R. An R interface to V8:\nGoogle's open source JavaScript and WebAssembly engine. This package can\nbe compiled either with V8 version 6 and up or NodeJS when built as a\nshared library.\n",
     "homepage": "https://cloud.r-project.org/package=V8",
-    "latest_version": "4.3.0",
+    "latest_version": "5.0.0",
     "maintainers": [],
     "name": "r-v8",
     "patches": [],
@@ -52,6 +52,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "5.0.0",
+            "sha256": "668fb759f973016e1e6aae21d711e83226d6895b43b2476c77feadf47896b21a"
+        },
         {
             "name": "4.3.0",
             "sha256": "7e395c4faed0d2a9d647820269d2d374953fc67c6108d57d63e93ec570dbe0d0"

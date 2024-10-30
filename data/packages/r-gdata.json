@@ -40,7 +40,7 @@
     ],
     "description": "Various R Programming Tools for Data Manipulation. Various R programming\ntools for data manipulation, including: [1] medical unit conversions\n('ConvertMedUnits', 'MedUnits'), [2] combining objects ('bindData',\n'cbindX', 'combine', 'interleave'), [3] character vector operations\n('centerText', 'startsWith', 'trim'), [4] factor manipulation ('levels',\n'reorder.factor', 'mapLevels'), [5] obtaining information about R\nobjects ('object.size', 'elem', 'env', 'humanReadable', 'is.what', 'll',\n'keep', 'ls.funs', 'Args','nPairs', 'nobs'), [6] manipulating MS-Excel\nformatted files ('read.xls', 'installXLSXsupport', 'sheetCount',\n'xlsFormats'), [7] generating fixed-width format files ('write.fwf'),\n[8] extricating components of date & time objects ('getYear',\n'getMonth', 'getDay', 'getHour', 'getMin', 'getSec'), [9] operations on\ncolumns of data frames ('matchcols', 'rename.vars'), [10] matrix\noperations ('unmatrix', 'upperTriangle', 'lowerTriangle'), [11]\noperations on vectors ('case', 'unknownToNA', 'duplicated2', 'trimSum'),\n[12] operations on data frames ('frameApply', 'wideByFactor'), [13]\nvalue of last evaluated expression ('ans'), and [14] wrapper for\n'sample' that ensures consistent behavior for both scalar and vector\narguments ('resample').\n",
     "homepage": "https://cloud.r-project.org/package=gdata",
-    "latest_version": "2.18.0.1",
+    "latest_version": "3.0.0",
     "maintainers": [],
     "name": "r-gdata",
     "patches": [],
@@ -53,6 +53,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.0.0",
+            "sha256": "a456b9921765a705fe8e51780dfbbc6ca005abc948b2f80effeccd468601b17f"
+        },
         {
             "name": "2.18.0.1",
             "sha256": "5e2f3d5b9398d52a4c07a4d35f5f936450a44567c7db8d8f68b4cc6946e032d9"

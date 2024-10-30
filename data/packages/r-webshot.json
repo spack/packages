@@ -40,7 +40,7 @@
     ],
     "description": "Take Screenshots of Web Pages. Takes screenshots of web pages, including\nShiny applications and R Markdown documents.\n",
     "homepage": "https://cloud.r-project.org/package=webshot",
-    "latest_version": "0.5.4",
+    "latest_version": "0.5.5",
     "maintainers": [],
     "name": "r-webshot",
     "patches": [],
@@ -53,6 +53,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.5.5",
+            "sha256": "d675913ccac80e0af8ee396f95a24124eae6c42d80aed9f47f7a88218ecbb913"
+        },
         {
             "name": "0.5.4",
             "sha256": "3dc2b9baef7855e1deea060276b9ccc6375eee36b7100987cbb1f8e5cd7a8f24"

@@ -24,7 +24,7 @@
     ],
     "description": "Polygon Clipping. R port of Angus Johnson's open source library Clipper.\nPerforms polygon clipping operations (intersection, union, set minus,\nset difference) for polygonal regions of arbitrary complexity, including\nholes. Computes offset polygons (spatial buffer zones, morphological\ndilations, Minkowski dilations) for polygonal regions and polygonal\nlines. Computes Minkowski Sum of general polygons. There is a function\nfor removing self-intersections from polygon data.\n",
     "homepage": "https://cloud.r-project.org/package=polyclip",
-    "latest_version": "1.10-4",
+    "latest_version": "1.10-7",
     "maintainers": [],
     "name": "r-polyclip",
     "patches": [],
@@ -37,6 +37,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.10-7",
+            "sha256": "f58eaac3a5b2f6711c0c5f12fff91cf80a245ae45878f7217880ab062b5550d3"
+        },
         {
             "name": "1.10-4",
             "sha256": "84d2c9778771d3759b49d7d16fb54c8ddc5397da3b1d21074bc4aa42c02e6f56"

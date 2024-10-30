@@ -27,7 +27,7 @@
     "dependent_to": [],
     "description": "Analysis of Geostatistical Data. Geostatistical analysis including\nvariogram-based, likelihood-based and Bayesian methods. Software\ncompanion for Diggle and Ribeiro (2007) <doi:10.1007/978-0-387-48536-2>.\n",
     "homepage": "https://cloud.r-project.org/package=geoR",
-    "latest_version": "1.9-2",
+    "latest_version": "1.9-4",
     "maintainers": [],
     "name": "r-geor",
     "patches": [],
@@ -40,6 +40,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.9-4",
+            "sha256": "ae9d977cebe0f93b2593542f8d6d060467984dcf174e84ba632307c035d7ebbd"
+        },
         {
             "name": "1.9-2",
             "sha256": "7ce3f5256a33a9de71b22a08caba634e77344889aac7d9eed02625a90254b9d9"

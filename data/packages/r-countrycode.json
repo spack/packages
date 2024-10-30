@@ -16,7 +16,7 @@
     ],
     "description": "Convert Country Names and Country Codes. Countrycode standardizes\ncountry names, converts them into ~40 different coding schemes, and\nassigns region descriptors.\n",
     "homepage": "https://cloud.r-project.org/package=countrycode",
-    "latest_version": "1.4.0",
+    "latest_version": "1.6.0",
     "maintainers": [],
     "name": "r-countrycode",
     "patches": [],
@@ -29,6 +29,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.6.0",
+            "sha256": "f9db110e32c0bcc90eed85303277660de37a777681bb78e8898b6fc5f2253db6"
+        },
         {
             "name": "1.4.0",
             "sha256": "99dfe7652c1e631b9e0f8fac0b0163e7a3fdde8476498555d553e0d1c5fdccc4"

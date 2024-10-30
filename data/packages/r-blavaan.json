@@ -83,7 +83,7 @@
     "dependent_to": [],
     "description": "Bayesian Latent Variable Analysis. Fit a variety of Bayesian latent\nvariable models, including confirmatory factor analysis, structural\nequation models, and latent growth curve models. References: Merkle &\nRosseel (2018) <doi:10.18637/jss.v085.i04>; Merkle et al. (2021)\n<doi:10.18637/jss.v100.i06>.\n",
     "homepage": "https://cloud.r-project.org/package=blavaan",
-    "latest_version": "0.4-7",
+    "latest_version": "0.5-5",
     "maintainers": [],
     "name": "r-blavaan",
     "patches": [],
@@ -96,6 +96,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.5-5",
+            "sha256": "a8d3bc5e9d15a2e8496950e87ed3c6bc6d769e761ec068e1f063f2d255330b6d"
+        },
         {
             "name": "0.4-7",
             "sha256": "43577264a1faff3cf98fce2c03b729816b40a82d36846458b8026b62da3008c3"

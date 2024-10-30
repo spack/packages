@@ -63,7 +63,7 @@
     "dependent_to": [],
     "description": "Weighted Correlation Network Analysis. Functions necessary to perform\nWeighted Correlation Network Analysis on high-dimensional data as\noriginally described in Horvath and Zhang (2005)\n<doi:10.2202/1544-6115.1128> and Langfelder and Horvath (2008)\n<doi:10.1186/1471-2105-9-559>. Includes functions for rudimentary data\ncleaning, construction of correlation networks, module identification,\nsummarization, and relating of variables and modules to sample traits.\nAlso includes a number of utility functions for data manipulation and\nvisualization.\n",
     "homepage": "https://cloud.r-project.org/package=WGCNA",
-    "latest_version": "1.72-1",
+    "latest_version": "1.72-5",
     "maintainers": [],
     "name": "r-wgcna",
     "patches": [],
@@ -76,6 +76,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.72-5",
+            "sha256": "03439143ff235c17f0dbca7dd6362afa8ddb5a72594f5c2df1c6df1caca2e79d"
+        },
         {
             "name": "1.72-1",
             "sha256": "1dbf82761ef3e76464b18fc9f698ad0f971aafecabf66ca937b950930bd57fdc"

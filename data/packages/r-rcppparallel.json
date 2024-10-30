@@ -30,6 +30,10 @@
             "name": "r-dada2"
         },
         {
+            "description": "A Collection of Efficient and Extremely Fast R Functions. A collection\nof fast (utility) functions for data analysis. Column- and row- wise\nmeans, medians, variances, minimums, maximums, many t, F and G-square\ntests, many regressions (normal, logistic, Poisson), are some of the\nmany fast functions. References: a) Tsagris M., Papadakis M. (2018).\nTaking R to its limits: 70+ tips. PeerJ Preprints 6:e26605v1\n<doi:10.7287/peerj.preprints.26605v1>. b) Tsagris M. and Papadakis M.\n(2018). Forward regression in R: from the extreme slow to the extreme\nfast. Journal of Data Science, 16(4): 771-780.\n<doi:10.6339/JDS.201810_16(4).00006>.",
+            "name": "r-rfast"
+        },
+        {
             "description": "R Interface to Stan. User-facing R functions are provided to parse,\ncompile, test, estimate, and analyze Stan models by accessing the\nheader-only Stan library provided by the 'StanHeaders' package. The Stan\nproject develops a probabilistic programming language that implements\nfull Bayesian statistical inference via Markov Chain Monte Carlo, rough\nBayesian inference via variational approximation, and (optionally\npenalized) maximum likelihood estimation via optimization. In all three\ncases, automatic differentiation is used to quickly and accurately\nevaluate gradients without burdening the user with the need to derive\nthe partial derivatives.",
             "name": "r-rstan"
         },
@@ -52,7 +56,7 @@
     ],
     "description": "Parallel Programming Tools for 'Rcpp'. High level functions for parallel\nprogramming with 'Rcpp'. For example, the 'parallelFor()' function can\nbe used to convert the work of a standard serial \"for\" loop into a\nparallel one and the 'parallelReduce()' function can be used for\naccumulating aggregate or other values.\n",
     "homepage": "https://cloud.r-project.org/package=RcppParallel",
-    "latest_version": "5.1.7",
+    "latest_version": "5.1.9",
     "maintainers": [],
     "name": "r-rcppparallel",
     "patches": [
@@ -75,6 +79,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "5.1.9",
+            "sha256": "fd0861f3f0f7be4e0ef29c021e75beb351ae2eb18ce5d79e21f2725da4da114f"
+        },
         {
             "name": "5.1.7",
             "sha256": "f9c30eb9ce1abffc590825d513d6d28dcbe970e36032dd7521febf04e905b29c"

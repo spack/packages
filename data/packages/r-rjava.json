@@ -60,7 +60,7 @@
     ],
     "description": "Low-Level R to Java Interface. Low-level interface to Java VM very much\nlike .C/.Call and friends. Allows creation of objects, calling methods\nand accessing fields.\n",
     "homepage": "https://cloud.r-project.org/package=rJava",
-    "latest_version": "1.0-6",
+    "latest_version": "1.0-11",
     "maintainers": [],
     "name": "r-rjava",
     "patches": [],
@@ -73,6 +73,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.0-11",
+            "sha256": "9ea0ccf5553d86f7de8649a8324766c4f0810f35b7be561640dd87fd37986417"
+        },
         {
             "name": "1.0-6",
             "sha256": "e290d0493317a5d6c452793e92baa914e37ef03faef19b2e436329b4ec8658c6"

@@ -28,7 +28,7 @@
     ],
     "description": "Solving Linear Inverse Models. Functions that (1) find the\nminimum/maximum of a linear or quadratic function: min or max (f(x)),\nwhere f(x) = ||Ax-b||^2 or f(x) = sum(a_i*x_i) subject to equality\nconstraints Ex=f and/or inequality constraints Gx>=h, (2) sample an\nunderdetermined- or overdetermined system Ex=f subject to Gx>=h, and if\napplicable Ax~=b, (3) solve a linear system Ax=B for the unknown x. It\nincludes banded and tridiagonal linear systems.\n",
     "homepage": "https://cloud.r-project.org/package=limSolve",
-    "latest_version": "1.5.6",
+    "latest_version": "1.5.7.1",
     "maintainers": [],
     "name": "r-limsolve",
     "patches": [],
@@ -41,6 +41,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.5.7.1",
+            "sha256": "a5945217bbf512724297883f8d7c65846a11202266b2b6bb3355372935e85b92"
+        },
         {
             "name": "1.5.6",
             "sha256": "b97ea9930383634c8112cdbc42f71c4e93fe0e7bfaa8f401921835cb44cb49a0"

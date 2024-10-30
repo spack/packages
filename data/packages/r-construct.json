@@ -59,7 +59,7 @@
     "dependent_to": [],
     "description": "Models Spatially Continuous and Discrete Population GeneticStructure. A\nmethod for modeling genetic data as a combination of discrete layers,\nwithin each of which relatedness may decay continuously with geographic\ndistance. This package contains code for running analyses (which are\nimplemented in the modeling language 'rstan') and visualizing and\ninterpreting output. See the paper for more details on the model and its\nutility.\n",
     "homepage": "https://cloud.r-project.org/package=conStruct",
-    "latest_version": "1.0.5",
+    "latest_version": "1.0.6",
     "maintainers": [],
     "name": "r-construct",
     "patches": [],
@@ -72,6 +72,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.0.6",
+            "sha256": "110982ed8036ccefb6bf662909779521e1b9095e9e0b5b99973df23171a5b502"
+        },
         {
             "name": "1.0.5",
             "sha256": "4d953073bd1f374a91655b4889ab1b65d92a1c89ea39eb3dac5cd852a42b8a7c"

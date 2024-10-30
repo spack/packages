@@ -66,6 +66,10 @@
             "name": "r-ggpubr"
         },
         {
+            "description": "'GitHub' 'API'. Minimal client to access the 'GitHub' 'API'.",
+            "name": "r-gh"
+        },
+        {
             "description": "An Interface to Google Drive. Manage Google Drive files from R.",
             "name": "r-googledrive"
         },
@@ -134,6 +138,10 @@
             "name": "r-rvest"
         },
         {
+            "description": "Scale Functions for Visualization. Graphical scales map data to\naesthetics, and provide methods for automatically determining breaks and\nlabels for axes and legends.",
+            "name": "r-scales"
+        },
+        {
             "description": "Web Application Framework for R. Makes it incredibly easy to build\ninteractive web applications with R. Automatic \"reactive\" binding\nbetween inputs and outputs and extensive pre-built widgets make it\npossible to build beautiful, responsive, and powerful applications with\nminimal effort.",
             "name": "r-shiny"
         },
@@ -180,7 +188,7 @@
     ],
     "description": "Interpreted String Literals. An implementation of interpreted string\nliterals, inspired by Python's Literal String Interpolation\n<https://www.python.org/dev/peps/pep-0498/> and Docstrings\n<https://www.python.org/dev/peps/pep-0257/> and Julia's Triple-Quoted\nString Literals <https://docs.julialang.org/en/stable/\nmanual/strings/#triple-quoted-string-literals>.\n",
     "homepage": "https://cloud.r-project.org/package=glue",
-    "latest_version": "1.6.2",
+    "latest_version": "1.7.0",
     "maintainers": [],
     "name": "r-glue",
     "patches": [],
@@ -193,6 +201,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.7.0",
+            "sha256": "1af51b51f52c1aeb3bfe9349f55896dd78b5542ffdd5654e432e4d646e4a86dc"
+        },
         {
             "name": "1.6.2",
             "sha256": "9da518f12be584c90e75fe8e07f711ee3f6fc0d03d817f72c25dc0f66499fdbf"

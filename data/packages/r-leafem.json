@@ -48,7 +48,7 @@
     ],
     "description": "'leaflet' Extensions for 'mapview'. Provides extensions for packages\n'leaflet' & 'mapdeck', many of which are used by package 'mapview'.\nFocus is on functionality readily available in Geographic Information\nSystems such as 'Quantum GIS'. Includes functions to display coordinates\nof mouse pointer position, query image values via mouse pointer and\nzoom-to-layer buttons. Additionally, provides a feature type agnostic\nfunction to add points, lines, polygons to a map.\n",
     "homepage": "https://cloud.r-project.org/package=leafem",
-    "latest_version": "0.2.0",
+    "latest_version": "0.2.3",
     "maintainers": [],
     "name": "r-leafem",
     "patches": [],
@@ -61,6 +61,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.2.3",
+            "sha256": "defd5baa4383da4182e97d41145c7a9633a987de05c465eb99a7a452fbf375e3"
+        },
         {
             "name": "0.2.0",
             "sha256": "97eb78b3eaf6012940f2c4f73effd8ff2d39aa46fef5f2ddf0005990b07dba8d"

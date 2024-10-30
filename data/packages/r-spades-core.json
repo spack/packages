@@ -8,6 +8,10 @@
             "name": "r"
         },
         {
+            "description": "Helpers for Developing Command Line Interfaces. A suite of tools to\nbuild attractive command line interfaces ('CLIs'), from semantic\nelements: headings, lists, alerts, paragraphs, etc. Supports custom\nthemes via a 'CSS'-like language. It also contains a number of lower\nlevel 'CLI' elements: rules, boxes, trees, and 'Unicode' symbols with\n'ASCII' alternatives. It integrates with the 'crayon' package to support\n'ANSI' terminal colors.",
+            "name": "r-cli"
+        },
+        {
             "description": "Colored Terminal Output. Colored terminal output on terminals that\nsupport 'ANSI' color and highlight codes. It also works in 'Emacs'\n'ESS'. 'ANSI' color support is automatically detected. Colors and\nhighlighting can be combined and nested. New styles can also be created\neasily. This package was inspired by the 'chalk' 'JavaScript' project.",
             "name": "r-crayon"
         },
@@ -18,6 +22,10 @@
         {
             "description": "Fast, Low Memory-Footprint Digests of R Objects. Provides an R interface\nto Bob Jenkin's streaming, non-cryptographic 'SpookyHash' hash algorithm\nfor use in digest-based comparisons of R objects. 'fastdigest' plugs\ndirectly into R's internal serialization machinery, allowing digests of\nall R objects the serialize() function supports, including reference-\nstyle objects via custom hooks. Speed is high and scales linearly by\nobject size; memory usage is constant and negligible.",
             "name": "r-fastdigest"
+        },
+        {
+            "description": "Cross-Platform File System Operations Based on 'libuv'. A cross-platform\ninterface to file system operations, built on top of the 'libuv' C\nlibrary.",
+            "name": "r-fs"
         },
         {
             "description": "Network Analysis and Visualization. Routines for simple graphs and\nnetwork analysis. It can handle large graphs very well and provides\nfunctions for generating random and regular graphs, graph visualization,\ncentrality methods and much more.",
@@ -48,6 +56,10 @@
             "name": "r-require"
         },
         {
+            "description": "Spatial Data Analysis. Methods for spatial data analysis with raster and\nvector data. Raster methods allow for low-level data manipulation as\nwell as high-level global, local, zonal, and focal computation. The\npredict and interpolate methods facilitate the use of regression type\n(interpolation, machine learning) models for spatial prediction,\nincluding with satellite remote sensing data. Processing of very large\nfiles is supported. See the manual and tutorials on\n<https://rspatial.org/terra/> to get started. 'terra' is very similar to\nthe 'raster' package; but 'terra' can do more, is easier to use, and it\nis faster.",
+            "name": "r-terra"
+        },
+        {
             "description": "{{mustache}} for R, Logicless Templating. Implements 'Mustache'\nlogicless templating.",
             "name": "r-whisker"
         }
@@ -64,7 +76,7 @@
     ],
     "description": "Utilities for Developing and Running Spatially Explicit Discrete Event\nModels. Provides the core framework for a discrete event system (DES) to\nimplement acomplete data-to-decisions, reproducible workflow. The core\nDES components facilitate modularity, and easily enable the user to\ninclude additional functionality by running user-built modules. Includes\nconditional scheduling, restart after interruption, packaging of\nreusable modules, tools for developing arbitrary automated workflows,\nautomated interweaving of modules of different temporal resolution, and\ntools for visualizing and understanding the DES project.\n",
     "homepage": "https://cloud.r-project.org/package=SpaDES.core",
-    "latest_version": "1.1.0",
+    "latest_version": "2.1.0",
     "maintainers": [
         "dorton21"
     ],
@@ -79,6 +91,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.1.0",
+            "sha256": "aee1a3093dfe04210719a7ced12d522299845bbd794f7eb78308f3a5b613762b"
+        },
         {
             "name": "1.1.0",
             "sha256": "67af4f3f153b75a0865fde2457c5d951c2f2184d07c557879b7a8c43a6e7ad66"

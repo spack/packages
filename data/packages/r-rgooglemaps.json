@@ -28,7 +28,7 @@
     ],
     "description": "Overlays on Static Maps. This package serves two purposes: (i) Provide a\ncomfortable R interface to query the Google server for static maps, and\n(ii) Use the map as a background image to overlay plots within R. This\nrequires proper coordinate scaling.\n",
     "homepage": "https://cloud.r-project.org/package=RgoogleMaps",
-    "latest_version": "1.4.5.3",
+    "latest_version": "1.5.1",
     "maintainers": [],
     "name": "r-rgooglemaps",
     "patches": [],
@@ -41,6 +41,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.5.1",
+            "sha256": "14fe6c37d935a1c5a9ac063c9c9c59a1e93c6f86907480792302f9a9452cf8a4"
+        },
         {
             "name": "1.4.5.3",
             "sha256": "d1d5ad8db841754af175d4104a05c5c31e5cc445be314a3ac70483c31798680b"

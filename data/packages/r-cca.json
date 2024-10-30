@@ -19,7 +19,7 @@
     "dependent_to": [],
     "description": "Canonical Correlation Analysis. Provides a set of functions that extend\nthe 'cancor' function with new numerical and graphical outputs. It also\ninclude a regularized extension of the canonical correlation analysis to\ndeal with datasets with more variables than observations.\n",
     "homepage": "https://cloud.r-project.org/package=CCA",
-    "latest_version": "1.2.1",
+    "latest_version": "1.2.2",
     "maintainers": [],
     "name": "r-cca",
     "patches": [],
@@ -32,6 +32,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.2.2",
+            "sha256": "f3b347f15dadd887f31206906e845c4893ec0cd7dc0c7e97c11001434c3d2e64"
+        },
         {
             "name": "1.2.1",
             "sha256": "28febfce7c46039240346410e70f9d8795b536fc4e7e0d48d5370bd23cba9bd0"

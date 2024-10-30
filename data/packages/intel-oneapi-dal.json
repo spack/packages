@@ -46,7 +46,7 @@
     "dependent_to": [],
     "description": "Intel oneAPI Data Analytics Library (oneDAL) is a library that helps\nspeed up big data analysis by providing highly optimized algorithmic\nbuilding blocks for all stages of data analytics (preprocessing,\ntransformation, analysis, modeling, validation, and decision making) in\nbatch, online, and distributed processing modes of computation. The\nlibrary optimizes data ingestion along with algorithmic computation to\nincrease throughput and scalability. LICENSE INFORMATION: By downloading\nand using this software, you agree to the terms and conditions of the\nsoftware license agreements at https://intel.ly/393CijO.\n",
     "homepage": "https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/onedal.html",
-    "latest_version": "2024.7.0",
+    "latest_version": "2025.0.0",
     "maintainers": [
         "rscohn2"
     ],
@@ -66,6 +66,11 @@
         }
     ],
     "versions": [
+        {
+            "name": "2025.0.0",
+            "sha256": "be6c4130c29a77323515d1febcd55163f1db3e1cecdc8d477617cb8e560e4a3f",
+            "url": "https://registrationcenter-download.intel.com/akdlm/IRC_NAS/d9f2cdb2-93ec-4c78-a3fb-a59d27050c16/intel-onedal-2025.0.0.958_offline.sh"
+        },
         {
             "name": "2024.7.0",
             "sha256": "aa7b072fe019ce253a111b38055f3949222d7be5231b4df2780a7ded16cd9097",

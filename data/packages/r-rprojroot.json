@@ -52,7 +52,7 @@
     ],
     "description": "Finding Files in Project Subdirectories. Robust, reliable and flexible\npaths to files below a project root. The 'root' of a project is defined\nas a directory that matches a certain criterion, e.g., it contains a\ncertain regular file.\n",
     "homepage": "https://cloud.r-project.org/package=rprojroot",
-    "latest_version": "2.0.3",
+    "latest_version": "2.0.4",
     "maintainers": [],
     "name": "r-rprojroot",
     "patches": [],
@@ -65,6 +65,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.0.4",
+            "sha256": "b5f463fb25a24dac7a4ca916be57dbe22b5262e1f41e53871ca83e57d4336e99"
+        },
         {
             "name": "2.0.3",
             "sha256": "50604247470e910cecfe9b76df754bf96a0d701f81b732f7aa9c90a20d30f897"

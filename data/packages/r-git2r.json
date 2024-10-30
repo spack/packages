@@ -40,7 +40,7 @@
     ],
     "description": "Provides Access to Git Repositories. Interface to the 'libgit2' library,\nwhich is a pure C implementation of the 'Git' core methods. Provides\naccess to 'Git' repositories to extract data and running some basic\n'Git' commands.\n",
     "homepage": "https://cloud.r-project.org/package=git2r",
-    "latest_version": "0.32.0",
+    "latest_version": "0.33.0",
     "maintainers": [],
     "name": "r-git2r",
     "patches": [],
@@ -53,6 +53,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.33.0",
+            "sha256": "1855b68d0e22566f1c255fdcb8e13282a2bebf55cbc804a8591dc8047f0e1895"
+        },
         {
             "name": "0.32.0",
             "sha256": "1b5d254c0c684a56751d26d482823d0006964eb1f55c558f365d037f5e984671"

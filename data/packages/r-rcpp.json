@@ -302,6 +302,10 @@
             "name": "r-magick"
         },
         {
+            "description": "Mendelian Randomization Package. Encodes several methods for performing\nMendelian randomization analyses with summarized data. Summarized data\non genetic associations with the exposure and with the outcome can be\nobtained from large consortia. These data can be used for obtaining\ncausal estimates using instrumental variable methods.",
+            "name": "r-mendelianrandomization"
+        },
+        {
             "description": "Meta-Analyses on P-Values of Differential Analyses. Implements a variety\nof methods for combining p-values in differential analyses of genome-\nscale datasets. Functions can combine p-values across different tests in\nthe same analysis (e.g., genomic windows in ChIP-seq, exons in RNA-seq)\nor for corresponding tests across separate analyses (e.g., replicated\ncomparisons, effect of different treatment conditions). Support is\nprovided for handling log-transformed input p-values, missing values and\nweighting where appropriate.",
             "name": "r-metapod"
         },
@@ -598,8 +602,16 @@
             "name": "r-spades-tools"
         },
         {
+            "description": "SPArse Matrix. Set of functions for sparse matrix algebra. Differences\nwith other sparse matrix packages are: (1) we only support (essentially)\none sparse matrix format, (2) based on transparent and simple\nstructure(s), (3) tailored for MCMC calculations within G(M)RF. (4) and\nit is fast and scalable (with the extension package spam64).\nDocumentation about 'spam' is provided by vignettes included in this\npackage, see also Furrer and Sain (2010) <doi:10.18637/jss.v036.i10>;\nsee 'citation(\"spam\")' for details.",
+            "name": "r-spam"
+        },
+        {
             "description": "Summary Statistics for Rows and Columns of Sparse Matrices. High\nperformance functions for row and column operations on sparse matrices.\nFor example: col / rowMeans2, col / rowMedians, col / rowVars etc.\nCurrently, the optimizations are limited to data in the column sparse\nformat. This package is inspired by the matrixStats package by Henrik\nBengtsson.",
             "name": "r-sparsematrixstats"
+        },
+        {
+            "description": "Constructs basis functions of B-splines, M-splines, I-splines, convex\nsplines (C-splines), periodic splines, natural cubic splines,\ngeneralized Bernstein polynomials, their derivatives, and integrals\n(except C-splines) by closed-form recursive formulas. It also contains a\nC++ head-only library integrated with Rcpp. See Wang and Yan (2021)\n<doi:10.6339/21-JDS1020> for details.",
+            "name": "r-splines2"
         },
         {
             "description": "Alt String Implementation. Provides an extendable, performant and\nmultithreaded 'alt-string' implementation backed by 'C++' vectors and\nstrings.",
@@ -608,6 +620,14 @@
         {
             "description": "Testing, Monitoring, and Dating Structural Changes: C++ Version. A fast\nimplementation with additional experimental features for testing,\nmonitoring and dating structural changes in (linear) regression models.\n'strucchangeRcpp' features tests/methods from the generalized\nfluctuation test framework as well as from the F test (Chow test)\nframework. This includes methods to fit, plot and test fluctuation\nprocesses (e.g. cumulative/moving sum, recursive/moving estimates) and F\nstatistics, respectively. These methods are described in Zeileis et al.\n(2002) <doi:10.18637/jss.v007.i02>. Finally, the breakpoints in\nregression models with structural changes can be estimated together with\nconfidence intervals, and their magnitude as well as the model fit can\nbe evaluated using a variety of statistical measures.",
             "name": "r-strucchangercpp"
+        },
+        {
+            "description": "Analysis of Complex Survey Samples. Summary statistics, two-sample\ntests, rank tests, generalised linear models, cumulative link models,\nCox models, loglinear models, and general maximum pseudolikelihood\nestimation for multistage stratified, cluster-sampled, unequally\nweighted survey samples. Variances by Taylor series linearisation or\nreplicate weights. Post-stratification, calibration, and raking. Two-\nphase subsampling designs. Graphics. PPS sampling without replacement.\nPrincipal components, factor analysis.",
+            "name": "r-survey"
+        },
+        {
+            "description": "Robust Trimmed Clustering. Provides functions for robust trimmed\nclustering. The methods are described in Garcia-Escudero (2008)\n<doi:10.1214/07-AOS515>, Fritz et al. (2012)\n<doi:10.18637/jss.v047.i12>, Garcia-Escudero et al. (2011)\n<doi:10.1007/s11222-010-9194-z> and others.",
+            "name": "r-tclust"
         },
         {
             "description": "Spatial Data Analysis. Methods for spatial data analysis with raster and\nvector data. Raster methods allow for low-level data manipulation as\nwell as high-level global, local, zonal, and focal computation. The\npredict and interpolate methods facilitate the use of regression type\n(interpolation, machine learning) models for spatial prediction,\nincluding with satellite remote sensing data. Processing of very large\nfiles is supported. See the manual and tutorials on\n<https://rspatial.org/terra/> to get started. 'terra' is very similar to\nthe 'raster' package; but 'terra' can do more, is easier to use, and it\nis faster.",
@@ -680,7 +700,7 @@
     ],
     "description": "Seamless R and C++ Integration. The 'Rcpp' package provides R functions\nas well as C++ classes which; offer a seamless integration of R and C++.\nMany R data types and objects can be; mapped back and forth to C++\nequivalents which facilitates both writing of new; code as well as\neasier integration of third-party libraries. Documentation; about 'Rcpp'\nis provided by several vignettes included in this package, via the;\n'Rcpp Gallery' site at <https://gallery.rcpp.org>, the paper by\nEddelbuettel and; Francois (2011, <doi:10.18637/jss.v040.i08>), the book\nby Eddelbuettel (2013,; <doi:10.1007/978-1-4614-6868-4>) and the paper\nby Eddelbuettel and Balamuta (2018,;\n<doi:10.1080/00031305.2017.1375990>); see 'citation(\"Rcpp\")' for\ndetails.\n",
     "homepage": "https://cloud.r-project.org/package=Rcpp",
-    "latest_version": "1.0.12",
+    "latest_version": "1.0.13",
     "maintainers": [],
     "name": "r-rcpp",
     "patches": [],
@@ -693,6 +713,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.0.13",
+            "sha256": "21fec650c113e57935fd86c7d1be190811f1ae036c1ee203bfbbf3ad5cdb22ce"
+        },
         {
             "name": "1.0.12",
             "sha256": "0c7359cc43beee02761aa3df2baccede1182d29d28c9cd49964b609305062bd0"

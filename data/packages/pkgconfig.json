@@ -1722,6 +1722,10 @@
             "name": "r-libpressio"
         },
         {
+            "description": "Bindings to the 'HarfBuzz' and 'Fribidi' Libraries for Text Shaping.\nProvides access to the text shaping functionality in the 'HarfBuzz'\nlibrary and the bidirectional algorithm in the 'Fribidi' library.\n'textshaping' is a low-level utility package mainly for graphic devices\nthat expands upon the font tool-set provided by the 'systemfonts'\npackage.",
+            "name": "r-textshaping"
+        },
+        {
             "description": "X Resize and Rotate Extension (RandR). This extension defines a protocol\nfor clients to dynamically change X screens, so as to resize, rotate and\nreflect the root window of a screen.",
             "name": "randrproto"
         },

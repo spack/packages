@@ -40,7 +40,7 @@
     ],
     "description": "Bindings to Selected 'liblwgeom' Functions for Simple Features. Access\nto selected functions found in 'liblwgeom'\n<https://github.com/postgis/postgis/tree/master/liblwgeom>, the light-\nweight geometry library used by 'PostGIS' <https://postgis.net/>.\n",
     "homepage": "https://cloud.r-project.org/package=lwgeom",
-    "latest_version": "0.2-11",
+    "latest_version": "0.2-14",
     "maintainers": [],
     "name": "r-lwgeom",
     "patches": [],
@@ -53,6 +53,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.2-14",
+            "sha256": "26db6cf7dbc8cf43a70e5e2a34941a1c4b65e182f86f58d64ff9f614b3be929c"
+        },
         {
             "name": "0.2-11",
             "sha256": "7fd73cf58981f9566d946bf63ed6575ea0c70634abeaf4e60ef9615040d63419"

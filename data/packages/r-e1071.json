@@ -56,7 +56,7 @@
     ],
     "description": "Misc Functions of the Department of Statistics, Probability Theory Group\n(Formerly: E1071), TU Wien. Functions for latent class analysis, short\ntime Fourier transform, fuzzy clustering, support vector machines,\nshortest path computation, bagged clustering, naive Bayes classifier,\ngeneralized k-nearest neighbour ...\n",
     "homepage": "https://cloud.r-project.org/package=e1071",
-    "latest_version": "1.7-13",
+    "latest_version": "1.7-14",
     "maintainers": [],
     "name": "r-e1071",
     "patches": [],
@@ -69,6 +69,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.7-14",
+            "sha256": "754d97ab073acc07b909a190f87f021e31e07269c8632c53166a6c2843e65195"
+        },
         {
             "name": "1.7-13",
             "sha256": "da94e191af6e69aa0f9e3250d4b823674cc869339d914f761ebf2824177b6b2f"

@@ -84,7 +84,7 @@
     ],
     "description": "Geographic Data Analysis and Modeling. Reading, writing, manipulating,\nanalyzing and modeling of spatial data. The package implements basic and\nhigh-level functions for raster data and for vector data operations such\nas intersections. See the manual and tutorials on\n<https://rspatial.org/> to get started.\n",
     "homepage": "https://cloud.r-project.org/package=raster",
-    "latest_version": "3.6-20",
+    "latest_version": "3.6-26",
     "maintainers": [],
     "name": "r-raster",
     "patches": [],
@@ -97,6 +97,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.6-26",
+            "sha256": "c65777225a46ada699e70098f54c60cf191d15e454fac9440aca439a4dbd5592"
+        },
         {
             "name": "3.6-20",
             "sha256": "7e5be49f4e37a2c14a3b87661b252956643b959146cbdb08e983660c1d59a813"

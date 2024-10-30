@@ -36,7 +36,7 @@
     ],
     "description": "Multiple Precision Arithmetic. Multiple Precision Arithmetic (big\nintegers and rationals, prime number tests, matrix computation),\n\"arithmetic without limitations\" using the C library GMP (GNU Multiple\nPrecision Arithmetic).\n",
     "homepage": "https://cloud.r-project.org/package=gmp",
-    "latest_version": "0.7-1",
+    "latest_version": "0.7-4",
     "maintainers": [],
     "name": "r-gmp",
     "patches": [],
@@ -49,6 +49,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.7-4",
+            "sha256": "a7d6b40f77d2619c11db5170b8f47336f7c5fa1db7eed0ac9d8a432e41053919"
+        },
         {
             "name": "0.7-1",
             "sha256": "a6873dc65218905cb7615cb8e2522258f3740e29c0632473d58a1cb409835db6"

@@ -1,7 +1,13 @@
 {
     "aliases": [],
     "build_system": "RPackage",
-    "conflicts": [],
+    "conflicts": [
+        {
+            "description": "r-cairo: For cairo freetype support, also need fontconfig.",
+            "name": "^cairo~fc",
+            "spec": "^cairo+ft"
+        }
+    ],
     "dependencies": [
         {
             "description": "Cairo is a 2D graphics library with support for multiple output devices.",
@@ -32,7 +38,7 @@
     ],
     "description": "R graphics device using cairo graphics library for creating high-quality\nbitmap (PNG, JPEG, TIFF), vector (PDF, SVG, PostScript) and display (X11\nand Win32) output. R graphics device using cairographics library that\ncan be used to create high-quality vector (PDF, PostScript and SVG) and\nbitmap output (PNG,JPEG,TIFF), and high-quality rendering in displays\n(X11 and Win32). Since it uses the same back-end for all output, copying\nacross formats is WYSIWYG. Files are created without the dependence on\nX11 or other external programs. This device supports alpha channel\n(semi-transparent drawing) and resulting images can contain transparent\nand semi-transparent regions. It is ideal for use in server environments\n(file output) and as a replacement for other devices that don't have\nCairo's capabilities such as alpha support or anti-aliasing. Backends\nare modular such that any subset of backends is supported.\n",
     "homepage": "https://cloud.r-project.org/package=Cairo",
-    "latest_version": "1.6-0",
+    "latest_version": "1.6-2",
     "maintainers": [],
     "name": "r-cairo",
     "patches": [],
@@ -45,6 +51,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.6-2",
+            "sha256": "6b6f4c6f93178a1295860a9dc6dc45e60fec70f684d5c8d0b59baf5b8dd44d62"
+        },
         {
             "name": "1.6-0",
             "sha256": "c762ac1d8daa4af527342360c256ed742de4e3031d997e9e59c9a369fcafb7d3"

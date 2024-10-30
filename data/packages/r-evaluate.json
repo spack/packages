@@ -40,7 +40,7 @@
     ],
     "description": "Parsing and Evaluation Tools that Provide More Details than the Default.\nParsing and evaluation tools that make it easy to recreate the command\nline behaviour of R.\n",
     "homepage": "https://cloud.r-project.org/package=evaluate",
-    "latest_version": "0.20",
+    "latest_version": "0.24.0",
     "maintainers": [],
     "name": "r-evaluate",
     "patches": [],
@@ -53,6 +53,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.24.0",
+            "sha256": "e23d764a58e7525257d57da4ccfee9d6f63b5b3c18bf01c76818ec8c9c587fd6"
+        },
         {
             "name": "0.20",
             "sha256": "35f5d9e85603600b58960923d591c5ca1115153febba7c612867d8b5598afff0"

@@ -35,7 +35,7 @@
     "dependent_to": [],
     "description": "Paleontological and Phylogenetic Analyses of Evolution. Provides tools\nfor transforming, a posteriori time-scaling, and modifying phylogenies\ncontaining extinct (i.e. fossil) lineages\n",
     "homepage": "https://cloud.r-project.org/package=paleotree",
-    "latest_version": "3.4.5",
+    "latest_version": "3.4.7",
     "maintainers": [],
     "name": "r-paleotree",
     "patches": [],
@@ -48,6 +48,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.4.7",
+            "sha256": "cb28c8a7929905b50094439423b7839174f7ae1b652607583528d44e102f6317"
+        },
         {
             "name": "3.4.5",
             "sha256": "c4dceb3352b74730643aa9f62ceb7f020ce6763614ba334723aadf0eb003d125"

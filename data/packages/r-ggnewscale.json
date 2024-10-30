@@ -20,7 +20,7 @@
     ],
     "description": "Multiple Fill and Colour Scales in 'ggplot2'. Use multiple fill and\ncolour scales in 'ggplot2'.\n",
     "homepage": "https://cloud.r-project.org/package=ggnewscale",
-    "latest_version": "0.4.8",
+    "latest_version": "0.5.0",
     "maintainers": [],
     "name": "r-ggnewscale",
     "patches": [],
@@ -33,6 +33,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.5.0",
+            "sha256": "b7f0dcb38d0e8cb4179d92f38b20489905ceb2a9602b68e2c72997d795c4df2d"
+        },
         {
             "name": "0.4.8",
             "sha256": "c7fefa6941ecbc789507e59be13fa96327fe2549681a938c43beb06ca22a9700"

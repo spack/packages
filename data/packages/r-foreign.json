@@ -32,7 +32,7 @@
     ],
     "description": "Read Data Stored by 'Minitab', 'S', 'SAS', 'SPSS', 'Stata', 'Systat',\n'Weka', 'dBase', ... Reading and writing data stored by some versions of\n'Epi Info', 'Minitab', 'S', 'SAS', 'SPSS', 'Stata', 'Systat', 'Weka',\nand for reading and writing some 'dBase' files.\n",
     "homepage": "https://cloud.r-project.org/package=foreign",
-    "latest_version": "0.8-84",
+    "latest_version": "0.8-87",
     "maintainers": [],
     "name": "r-foreign",
     "patches": [],
@@ -45,6 +45,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.8-87",
+            "sha256": "1a24acf4c8e87acc740599e950388b88e5beab7e54f699a015366fbd86db2856"
+        },
         {
             "name": "0.8-84",
             "sha256": "17edf302c7568a122dc496a61a4a886ef7c02224a235d945b473611c79c98549"

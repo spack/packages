@@ -24,7 +24,7 @@
     ],
     "description": "3D Scatter Plot. Plots a three dimensional (3D) point cloud.\n",
     "homepage": "https://cloud.r-project.org/package=scatterplot3d",
-    "latest_version": "0.3-43",
+    "latest_version": "0.3-44",
     "maintainers": [],
     "name": "r-scatterplot3d",
     "patches": [],
@@ -37,6 +37,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.3-44",
+            "sha256": "1c9c08348c3ed925f59df40cb73accc9e1a169ccfb1e8571f105f40fa98e6ec2"
+        },
         {
             "name": "0.3-43",
             "sha256": "90d7bfb535b76008768306ea9209adfb48e0e07f36eabbb59ab6ddb6522f16a5"

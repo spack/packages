@@ -42,6 +42,10 @@
         {
             "description": "Seamless R and C++ Integration. The 'Rcpp' package provides R functions\nas well as C++ classes which; offer a seamless integration of R and C++.\nMany R data types and objects can be; mapped back and forth to C++\nequivalents which facilitates both writing of new; code as well as\neasier integration of third-party libraries. Documentation; about 'Rcpp'\nis provided by several vignettes included in this package, via the;\n'Rcpp Gallery' site at <https://gallery.rcpp.org>, the paper by\nEddelbuettel and; Francois (2011, <doi:10.18637/jss.v040.i08>), the book\nby Eddelbuettel (2013,; <doi:10.1007/978-1-4614-6868-4>) and the paper\nby Eddelbuettel and Balamuta (2018,;\n<doi:10.1080/00031305.2017.1375990>); see 'citation(\"Rcpp\")' for\ndetails.",
             "name": "r-rcpp"
+        },
+        {
+            "description": "Functions for Base Types and Core R and 'Tidyverse' Features. A toolbox\nfor working with base types, core R features like the condition system,\nand core 'Tidyverse' features like tidy evaluation.",
+            "name": "r-rlang"
         }
     ],
     "dependent_to": [
@@ -108,7 +112,7 @@
     ],
     "description": "'SQLite' Interface for R. This package embeds the SQLite database engine\nin R and provides an interface compliant with the DBI package. The\nsource for the SQLite engine (version 3.8.6) is included.\n",
     "homepage": "https://cloud.r-project.org/package=RSQLite",
-    "latest_version": "2.3.1",
+    "latest_version": "2.3.7",
     "maintainers": [],
     "name": "r-rsqlite",
     "patches": [],
@@ -121,6 +125,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.3.7",
+            "sha256": "25e0572589e64264fe4e5d0495f5d85d977bacbb93a3fc631ede5b078db294ce"
+        },
         {
             "name": "2.3.1",
             "sha256": "9ed23e160c401c14e41c40e9930f72697172b2c72933c2d2725a05e81e1f34ca"

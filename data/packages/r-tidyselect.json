@@ -74,6 +74,10 @@
             "name": "r-janitor"
         },
         {
+            "description": "Manipulating Labelled Data. Work with labelled data imported from 'SPSS'\nor 'Stata' with 'haven' or 'foreign'. This package provides useful\nfunctions to deal with \"haven_labelled\" and \"haven_labelled_spss\"\nclasses introduced by 'haven' package.",
+            "name": "r-labelled"
+        },
+        {
             "description": "Modelling Functions that Work with the Pipe. Functions for modelling\nthat help you seamlessly integrate modelling into a pipeline of data\nmanipulation and visualisation.",
             "name": "r-modelr"
         },
@@ -112,7 +116,7 @@
     ],
     "description": "Select from a Set of Strings. A backend for the selecting functions of\nthe 'tidyverse'. It makes it easy to implement select-like functions in\nyour own packages in a way that is consistent with other 'tidyverse'\ninterfaces for selection.\n",
     "homepage": "https://cloud.r-project.org/package=tidyselect",
-    "latest_version": "1.2.0",
+    "latest_version": "1.2.1",
     "maintainers": [],
     "name": "r-tidyselect",
     "patches": [],
@@ -125,6 +129,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.2.1",
+            "sha256": "169e97ba0bbfbcdf4a80534322751f87a04370310c40e27f04aac6525d45903c"
+        },
         {
             "name": "1.2.0",
             "sha256": "538d26b727e37d618e2efd3b00836048f103112a03e6994bf07a02392e269e3b"

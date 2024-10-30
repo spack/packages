@@ -40,7 +40,7 @@
     ],
     "description": "Interpolate Data for Smooth Animations. In order to create smooth\nanimation between states of data, tweening is necessary. This package\nprovides a range of functions for creating tweened data that can be used\nas basis for animation. Furthermore it adds a number of vectorized\ninterpolaters for common R data types such as numeric, date and colour.\n",
     "homepage": "https://cloud.r-project.org/package=tweenr",
-    "latest_version": "2.0.2",
+    "latest_version": "2.0.3",
     "maintainers": [],
     "name": "r-tweenr",
     "patches": [],
@@ -53,6 +53,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.0.3",
+            "sha256": "efabe512a45d653787ba40f87f3e23add4037f88573a102fa9ac7a5ff43c8cbe"
+        },
         {
             "name": "2.0.2",
             "sha256": "64bbfded418d4880e3636f434571c20303d2f66be6950d64583a864fbb661ff3"

@@ -64,7 +64,7 @@
     ],
     "description": "Plotting for Bayesian Models. Plotting functions for posterior analysis,\nMCMC diagnostics, prior and posterior predictive checks, and other\nvisualizations to support the applied Bayesian workflow advocated in\nGabry, Simpson, Vehtari, Betancourt, and Gelman (2019)\n<doi:10.1111/rssa.12378>. The package is designed not only to provide\nconvenient functionality for users, but also a common set of functions\nthat can be easily used by developers working on a variety of R packages\nfor Bayesian modeling, particularly (but not exclusively) packages\ninterfacing with 'Stan'.\n",
     "homepage": "https://cloud.r-project.org/package=bayesplot",
-    "latest_version": "1.10.0",
+    "latest_version": "1.11.1",
     "maintainers": [],
     "name": "r-bayesplot",
     "patches": [],
@@ -77,6 +77,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.11.1",
+            "sha256": "4f71e67391e0135acd3e890989b87025f3f8160242f532a8e1a0ed74ed0f3830"
+        },
         {
             "name": "1.10.0",
             "sha256": "bb4cb92b1ae4cf8ae5f4b5cb092aba34af3d820d137e1f2265cca8f3e85113ff"

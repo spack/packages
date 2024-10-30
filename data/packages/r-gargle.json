@@ -68,7 +68,7 @@
     ],
     "description": "Utilities for Working with Google APIs. Provides utilities for working\nwith Google APIs <https://developers.google.com/apis-explorer>. This\nincludes functions and classes for handling common credential types and\nfor preparing, executing, and processing HTTP requests.\n",
     "homepage": "https://cloud.r-project.org/package=gargle",
-    "latest_version": "1.4.0",
+    "latest_version": "1.5.2",
     "maintainers": [],
     "name": "r-gargle",
     "patches": [],
@@ -81,6 +81,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.5.2",
+            "sha256": "4a5beb046eb50a168b4baf5d1fcd8ac20d698e7fcb6b6ef46a436ded5b039001"
+        },
         {
             "name": "1.4.0",
             "sha256": "8e0f1edf5595d4fd27bd92f98af1cc0c1349975803d9d6f3ff0c25ee2440498b"

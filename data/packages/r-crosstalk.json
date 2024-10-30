@@ -56,7 +56,7 @@
     ],
     "description": "Inter-Widget Interactivity for HTML Widgets. Provides building blocks\nfor allowing HTML widgets to communicate with each other, with Shiny or\nwithout (i.e. static .html files). Currently supports linked brushing\nand filtering.\n",
     "homepage": "https://cloud.r-project.org/package=crosstalk",
-    "latest_version": "1.2.0",
+    "latest_version": "1.2.1",
     "maintainers": [],
     "name": "r-crosstalk",
     "patches": [],
@@ -69,6 +69,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.2.1",
+            "sha256": "680cf08416d6d5a1194dd85ee5695c268af9d4d01b201448e1d486c6e06014f1"
+        },
         {
             "name": "1.2.0",
             "sha256": "4237baab35cd246a8a98fb9cf4ce53b6ddbc31d00742ded4edea0479613d1ea0"

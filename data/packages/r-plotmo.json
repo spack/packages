@@ -28,7 +28,7 @@
     ],
     "description": "Plot a Model's Residuals, Response, and Partial Dependence Plots. Plot\nmodel surfaces for a wide variety of models using partial dependence\nplots and other techniques. Also plot model residuals and other\ninformation on the model.\n",
     "homepage": "https://cloud.r-project.org/package=plotmo",
-    "latest_version": "3.6.2",
+    "latest_version": "3.6.3",
     "maintainers": [],
     "name": "r-plotmo",
     "patches": [],
@@ -41,6 +41,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.6.3",
+            "sha256": "6917cd8185325f1f2998fb14def9e6a8d93f1b708cf70d7c443d3960c9189b7b"
+        },
         {
             "name": "3.6.2",
             "sha256": "cde33a8ec558b12d8e11d7d0531e73f6678a25ee589b79897d2fc425a3fd353c"

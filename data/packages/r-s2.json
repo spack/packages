@@ -32,7 +32,7 @@
     ],
     "description": "Spherical Geometry Operators Using the S2 Geometry Library. Provides R\nbindings for Google's s2 library for geometric calculations on the\nsphere. High-performance constructors and exporters provide high\ncompatibility with existing spatial packages, transformers construct new\ngeometries from existing geometries, predicates provide a means to\nselect geometries based on spatial relationships, and accessors extract\ninformation about geometries.\n",
     "homepage": "https://cloud.r-project.org/package=s2",
-    "latest_version": "1.1.2",
+    "latest_version": "1.1.7",
     "maintainers": [],
     "name": "r-s2",
     "patches": [],
@@ -45,6 +45,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.1.7",
+            "sha256": "30762c7150dd72e2f4a3d50e64b8b73b2d59b73275687ba3eea7a6e07f786878"
+        },
         {
             "name": "1.1.2",
             "sha256": "8fb237531c6f4aa5b78fbe36d4fd15bfe852c1308fed58b04b3dae2bb73c0b57"

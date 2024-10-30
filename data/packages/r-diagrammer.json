@@ -8,6 +8,10 @@
             "name": "r"
         },
         {
+            "description": "Helpers for Developing Command Line Interfaces. A suite of tools to\nbuild attractive command line interfaces ('CLIs'), from semantic\nelements: headings, lists, alerts, paragraphs, etc. Supports custom\nthemes via a 'CSS'-like language. It also contains a number of lower\nlevel 'CLI' elements: rules, boxes, trees, and 'Unicode' symbols with\n'ASCII' alternatives. It integrates with the 'crayon' package to support\n'ANSI' terminal colors.",
+            "name": "r-cli"
+        },
+        {
             "description": "Download Files over HTTP and HTTPS. Provides a wrapper for the\ndownload.file function, making it possible to download files over HTTPS\non Windows, Mac OS X, and other Unix-like platforms. The 'RCurl' package\nprovides this functionality (and much more) but can be difficult to\ninstall because it must be compiled with external dependencies. This\npackage has no external dependencies, so it is much easier to install.",
             "name": "r-downloader"
         },
@@ -84,6 +88,10 @@
             "name": "r-viridis"
         },
         {
+            "description": "Colorblind-Friendly Color Maps (Lite Version). Color maps designed to\nimprove graph readability for readers with common forms of color\nblindness and/or color vision deficiency. The color maps are also\nperceptually-uniform, both in regular form and also when converted to\nblack-and-white for printing. This is the 'lite' version of the\n'viridis' package that also contains 'ggplot2' bindings for discrete and\ncontinuous color and fill scales and can be found at\n<https://cran.r-project.org/package=viridis>.",
+            "name": "r-viridislite"
+        },
+        {
             "description": "Network Visualization using 'vis.js' Library. Provides an R interface to\nthe 'vis.js' JavaScript charting library. It allows an interactive\nvisualization of networks.",
             "name": "r-visnetwork"
         }
@@ -91,7 +99,7 @@
     "dependent_to": [],
     "description": "Graph/Network Visualization. Build graph/network structures using\nfunctions for stepwise addition and deletion of nodes and edges. Work\nwith data available in tables for bulk addition of nodes, edges, and\nassociated metadata. Use graph selections and traversals to apply\nchanges to specific nodes or edges. A wide selection of graph algorithms\nallow for the analysis of graphs. Visualize the graphs and take\nadvantage of any aesthetic properties assigned to nodes and edges.\n",
     "homepage": "https://cloud.r-project.org/package=DiagrammeR",
-    "latest_version": "1.0.9",
+    "latest_version": "1.0.11",
     "maintainers": [],
     "name": "r-diagrammer",
     "patches": [],
@@ -104,6 +112,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.0.11",
+            "sha256": "e873e3d6e198232408161661001ddcb04c9a56065bb4703c925e538462f4c4df"
+        },
         {
             "name": "1.0.9",
             "sha256": "64a426fe27110dddd8b0c1223ae4c397a2e553ae5e81ddd4ff67c026cfc40abf"

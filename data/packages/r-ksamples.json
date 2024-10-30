@@ -20,7 +20,7 @@
     ],
     "description": "K-Sample Rank Tests and their Combinations. Compares k samples using the\nAnderson-Darling test, Kruskal-Wallis type tests with different rank\nscore criteria, Steel's multiple comparison test, and the Jonckheere-\nTerpstra (JT) test. It computes asymptotic, simulated or (limited) exact\nP-values, all valid under randomization, with or without ties, or\nconditionally under random sampling from populations, given the observed\ntie pattern. Except for Steel's test and the JT test it also combines\nthese tests across several blocks of samples. Also analyzed are 2 x t\ncontingency tables and their blocked combinations using the Kruskal-\nWallis criterion. Steel's test is inverted to provide simultaneous\nconfidence bounds for shift parameters. A plotting function compares\ntail probabilities obtained under asymptotic approximation with those\nobtained via simulation or exact calculations.\n",
     "homepage": "https://cloud.r-project.org/package=kSamples",
-    "latest_version": "1.2-9",
+    "latest_version": "1.2-10",
     "maintainers": [],
     "name": "r-ksamples",
     "patches": [],
@@ -33,6 +33,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.2-10",
+            "sha256": "2d66cc0511fb1be3190c5a285dcd93d02419468ee1ff5ae6d0838f16df2b578d"
+        },
         {
             "name": "1.2-9",
             "sha256": "ba3ec4af3dfcf7cf12f0b784ef67bfea565e16985647ead904629886cc1542ff"

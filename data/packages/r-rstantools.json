@@ -44,7 +44,7 @@
     ],
     "description": "Tools for Developing R Packages Interfacing with 'Stan'. Provides\nvarious tools for developers of R packages interfacing with 'Stan'\n<https://mc-stan.org>, including functions to set up the required\npackage structure, S3 generics and default methods to unify function\nnaming across 'Stan'-based R packages, and vignettes with\nrecommendations for developers.\n",
     "homepage": "https://cloud.r-project.org/package=rstantools",
-    "latest_version": "2.3.1",
+    "latest_version": "2.4.0",
     "maintainers": [],
     "name": "r-rstantools",
     "patches": [],
@@ -57,6 +57,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.4.0",
+            "sha256": "bff72ca2f0352c6c5d2868823e286fdb73a6ead74508a4124cbcb222c83b4faa"
+        },
         {
             "name": "2.3.1",
             "sha256": "82d4f2e884ffc894463bd37765606d5a9bef2ee631758840ec58636acdca6975"

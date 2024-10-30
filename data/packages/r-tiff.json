@@ -24,7 +24,7 @@
     ],
     "description": "Read and write TIFF images. This package provides an easy and simple way\nto read, write and display bitmap images stored in the TIFF format. It\ncan read and write both files and in-memory raw vectors.\n",
     "homepage": "https://cloud.r-project.org/package=tiff",
-    "latest_version": "0.1-11",
+    "latest_version": "0.1-12",
     "maintainers": [],
     "name": "r-tiff",
     "patches": [],
@@ -37,6 +37,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.1-12",
+            "sha256": "df10ce719f92597572763182f7cb03686b8d7fb9123d036a4daf5b10738e815c"
+        },
         {
             "name": "0.1-11",
             "sha256": "b8c3ea15114d972f8140541c7b01f5ce2e5322af1f63c1a083aaf766fd3eec75"

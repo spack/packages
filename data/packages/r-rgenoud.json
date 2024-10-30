@@ -11,7 +11,7 @@
     "dependent_to": [],
     "description": "R Version of GENetic Optimization Using Derivatives. A genetic algorithm\nplus derivative optimizer.\n",
     "homepage": "https://cloud.r-project.org/package=rgenoud",
-    "latest_version": "5.9-0.3",
+    "latest_version": "5.9-0.10",
     "maintainers": [],
     "name": "r-rgenoud",
     "patches": [],
@@ -24,6 +24,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "5.9-0.10",
+            "sha256": "e644ee640a097ed2d32be03db3603259981656fa459922035a8c531d692acde9"
+        },
         {
             "name": "5.9-0.3",
             "sha256": "31560a8dad791f9c47a673e90d397b3fc60da1a58be1ae1486ace90d988eb55f"

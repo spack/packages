@@ -56,7 +56,7 @@
     ],
     "description": "Colorblind-Friendly Color Maps for R. Color maps designed to improve\ngraph readability for readers with common forms of color blindness\nand/or color vision deficiency. The color maps are also perceptually-\nuniform, both in regular form and also when converted to black-and-white\nfor printing. This package also contains 'ggplot2' bindings for discrete\nand continuous color and fill scales. A lean version of the package\ncalled 'viridisLite' that does not include the 'ggplot2' bindings can be\nfound at <https://cran.r-project.org/package=viridisLite>.\n",
     "homepage": "https://cloud.r-project.org/package=viridis",
-    "latest_version": "0.6.2",
+    "latest_version": "0.6.5",
     "maintainers": [],
     "name": "r-viridis",
     "patches": [],
@@ -69,6 +69,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.6.5",
+            "sha256": "862b5cb6be115deea0207cdd3c8bb33de28552cfdc29900777512fd488d0005c"
+        },
         {
             "name": "0.6.2",
             "sha256": "69b58cd1d992710a08b0b227fd0a9590430eea3ed4858099412f910617e41311"

@@ -48,7 +48,7 @@
     ],
     "description": "Local regression, likelihood and density estimation. Local regression,\nlikelihood and density estimation methods as described in the 1999 book\nby Loader.\n",
     "homepage": "https://cloud.r-project.org/package=locfit",
-    "latest_version": "1.5-9.7",
+    "latest_version": "1.5-9.10",
     "maintainers": [],
     "name": "r-locfit",
     "patches": [],
@@ -61,6 +61,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.5-9.10",
+            "sha256": "4c20661814993a87ca435f42b0814bacb87c5a9ccc2ff55e4cae718cb176ac06"
+        },
         {
             "name": "1.5-9.7",
             "sha256": "48e5fcd089fbc609d8e4c62c390425fba1dd167ad95ae0bddc175cbbe1517aff"

@@ -419,6 +419,10 @@
             "name": "r-curl"
         },
         {
+            "description": "Generic Coordinate System Transformations Using 'PROJ'. A wrapper around\nthe generic coordinate transformation software 'PROJ' that transforms\ncoordinates from one coordinate reference system ('CRS') to another.\nThis includes cartographic projections as well as geodetic\ntransformations. The intention is for this package to be used by user-\npackages such as 'reproj', and that the older 'PROJ.4' and version 5\npathways be provided by the 'proj4' package.",
+            "name": "r-proj"
+        },
+        {
             "description": "General Network (HTTP/FTP/...) Client Interface for R. A wrapper for\n'libcurl' <http://curl.haxx.se/libcurl/> Provides functions to allow one\nto compose general HTTP requests and provides convenient functions to\nfetch URIs, get & post forms, etc. and process the results returned by\nthe Web server. This provides a great deal of control over the\nHTTP/FTP/... connection and the form of the request while providing a\nhigher-level interface than is available just using R socket\nconnections. Additionally, the underlying implementation is robust and\nextensive, supporting FTP/FTPS/TFTP (uploads and downloads), SSL/HTTPS,\ntelnet, dict, ldap, and also supports cookies, redirects,\nauthentication, etc.",
             "name": "r-rcurl"
         },

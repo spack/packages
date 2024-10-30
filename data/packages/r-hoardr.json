@@ -32,7 +32,7 @@
     ],
     "description": "Manage Cached Files. Suite of tools for managing cached files, targeting\nuse in other R packages. Uses 'rappdirs' for cross-platform paths.\nProvides utilities to manage cache directories, including targeting\nfiles by path or by key; cached directories can be compressed and\nuncompressed easily to save disk space.\n",
     "homepage": "https://cloud.r-project.org/package=hoardr",
-    "latest_version": "0.5.3",
+    "latest_version": "0.5.4",
     "maintainers": [],
     "name": "r-hoardr",
     "patches": [],
@@ -45,6 +45,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.5.4",
+            "sha256": "4e031ac1317584451c09bc8288ed73fb2d6ceea3c10d29dbb4be08157e489a37"
+        },
         {
             "name": "0.5.3",
             "sha256": "b9e4d1350e1fde7db922e55128306e3768ee46ff9532f05c96543dcae383647c"

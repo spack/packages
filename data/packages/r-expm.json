@@ -32,7 +32,7 @@
     ],
     "description": "Matrix Exponential, Log, 'etc'. Computation of the matrix exponential,\nlogarithm, sqrt, and related quantities.\n",
     "homepage": "https://cloud.r-project.org/package=expm",
-    "latest_version": "0.999-7",
+    "latest_version": "1.0-0",
     "maintainers": [],
     "name": "r-expm",
     "patches": [],
@@ -45,6 +45,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.0-0",
+            "sha256": "02c536f8f6af55b132210a50b1e9694a3549806bf97c49e0fe03595945aab254"
+        },
         {
             "name": "0.999-7",
             "sha256": "28f249b914b8dd33eee16663fc793e57afd0e301e16067bf9f27fa8e591ba0f1"

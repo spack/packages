@@ -140,7 +140,7 @@
     ],
     "description": "Classes and Methods for Spatial Data. Classes and methods for spatial\ndata; the classes document where the spatial location information\nresides, for 2D or 3D data. Utility functions are provided, e.g. for\nplotting data as maps, spatial selection, as well as methods for\nretrieving coordinates, for subsetting, print, summary, etc.\n",
     "homepage": "https://cloud.r-project.org/package=sp",
-    "latest_version": "1.6-0",
+    "latest_version": "2.1-4",
     "maintainers": [],
     "name": "r-sp",
     "patches": [],
@@ -153,6 +153,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.1-4",
+            "sha256": "e185e7fb61d2d7dbc50fd765a93e170fa778083a653588db1f5e99d019479f0a"
+        },
         {
             "name": "1.6-0",
             "sha256": "f5977fbe80e7dee8e95d41fe0ef9d87c2c984422bb529ea5211fd38a13f9fcda"

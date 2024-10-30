@@ -12,8 +12,20 @@
             "name": "r-htmlwidgets"
         },
         {
+            "description": "Functional Programming Tools. A complete and consistent functional\nprogramming toolkit for R.",
+            "name": "r-purrr"
+        },
+        {
+            "description": "Functions for Base Types and Core R and 'Tidyverse' Features. A toolbox\nfor working with base types, core R features like the condition system,\nand core 'Tidyverse' features like tidy evaluation.",
+            "name": "r-rlang"
+        },
+        {
             "description": "Simple, Consistent Wrappers for Common String Operations. A consistent,\nsimple and easy to use set of wrappers around the fantastic 'stringi'\npackage. All function and argument names (and positions) are consistent,\nall functions deal with \"NA\"'s and zero length vectors in the same way,\nand the output from one function is easy to feed into the input of\nanother.",
             "name": "r-stringr"
+        },
+        {
+            "description": "Vector Helpers. Defines new notions of prototype and size that are used\nto provide tools for consistent and well-founded type-coercion and size-\nrecycling, and are in turn connected to ideas of type- and size-\nstability useful for analyzing function interfaces.",
+            "name": "r-vctrs"
         }
     ],
     "dependent_to": [
@@ -24,7 +36,7 @@
     ],
     "description": "Interactive visualizations for profiling R code.\n",
     "homepage": "https://cloud.r-project.org/package=profvis",
-    "latest_version": "0.3.7",
+    "latest_version": "0.3.8",
     "maintainers": [],
     "name": "r-profvis",
     "patches": [],
@@ -37,6 +49,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.3.8",
+            "sha256": "ec02c75bc9907a73564e691adfa8e06651ca0bd73b7915412960231cd265b4b2"
+        },
         {
             "name": "0.3.7",
             "sha256": "43974863cb793f81dbea4b94096343c321f7739c9038980405c9b16b04a906b9"

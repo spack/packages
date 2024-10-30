@@ -80,7 +80,7 @@
     ],
     "description": "Accelerating 'ggplot2'. The aim of 'ggplot2' is to aid in visual data\ninvestigations. This focus has led to a lack of facilities for composing\nspecialised plots. 'ggforce' aims to be a collection of mainly new stats\nand geoms that fills this gap. All additional functionality is aimed to\ncome through the official extension system so using 'ggforce' should be\na stable experience.\n",
     "homepage": "https://cloud.r-project.org/package=ggforce",
-    "latest_version": "0.4.1",
+    "latest_version": "0.4.2",
     "maintainers": [],
     "name": "r-ggforce",
     "patches": [],
@@ -93,6 +93,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.4.2",
+            "sha256": "c145b0e6ed6847d409ed2fe103b81234855bc0661cde2bfb4410fb23680e51a8"
+        },
         {
             "name": "0.4.1",
             "sha256": "b44219fb63c45fa003c64bca323452f16dcace635204bc0127d3244c0f451873"

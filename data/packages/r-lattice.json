@@ -248,7 +248,7 @@
     ],
     "description": "Trellis Graphics for R. A powerful and elegant high-level data\nvisualization system inspired by Trellis graphics, with an emphasis on\nmultivariate data. Lattice is sufficient for typical graphics needs, and\nis also flexible enough to handle most nonstandard requirements. See\n?Lattice for an introduction.\n",
     "homepage": "https://cloud.r-project.org/package=lattice",
-    "latest_version": "0.21-8",
+    "latest_version": "0.22-6",
     "maintainers": [],
     "name": "r-lattice",
     "patches": [],
@@ -261,6 +261,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.22-6",
+            "sha256": "4b377211e472ece7872b9d6759f9b9c660b09594500462eb6146312a1d4d00f7"
+        },
         {
             "name": "0.21-8",
             "sha256": "8ad3d6974262e6cab6cc8fec38aa279b5b2f2524adf6f3eab56f68302b60c329"

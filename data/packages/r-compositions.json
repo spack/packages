@@ -36,7 +36,7 @@
     ],
     "description": "Compositional Data Analysis. Provides functions for the consistent\nanalysis of compositional data (e.g. portions of substances) and\npositive numbers (e.g. concentrations) in the way proposed by J.\nAitchison and V. Pawlowsky-Glahn.\n",
     "homepage": "https://cloud.r-project.org/package=compositions",
-    "latest_version": "2.0-6",
+    "latest_version": "2.0-8",
     "maintainers": [],
     "name": "r-compositions",
     "patches": [],
@@ -49,6 +49,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.0-8",
+            "sha256": "c5063488f456992b5821458b3237322addffd3451ae91f9474707886971ef290"
+        },
         {
             "name": "2.0-6",
             "sha256": "45d374ebfdcc2c9f6cc738d196caf83a2297ed2aefe2cc99007fcbeb78a61c34"

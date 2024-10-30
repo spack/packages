@@ -16,7 +16,7 @@
     ],
     "description": "Polynomial Spline Routines. Routines for the polynomial spline fitting\nroutines hazard regression, hazard estimation with flexible tails,\nlogspline, lspec, polyclass, and polymars, by C. Kooperberg and co-\nauthors.\n",
     "homepage": "https://cloud.r-project.org/package=polspline",
-    "latest_version": "1.1.22",
+    "latest_version": "1.1.25",
     "maintainers": [],
     "name": "r-polspline",
     "patches": [],
@@ -29,6 +29,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.1.25",
+            "sha256": "2943fc4cd922300afeaa58e6a0e4c21e5a0f7255e6367c7ea6ad136fce1e9ba3"
+        },
         {
             "name": "1.1.22",
             "sha256": "b2f2198f020d7d492a87bad2b58a6cc9ae91d95b7330dd12b9b1145c72d7457b"

@@ -20,7 +20,7 @@
     ],
     "description": "Smoothing Methods for Nonparametric Regression and Density Estimation.\nThis is software linked to the book 'Applied Smoothing Techniques for\nData Analysis - The Kernel Approach with S-Plus Illustrations' Oxford\nUniversity Press.\n",
     "homepage": "https://cloud.r-project.org/package=sm",
-    "latest_version": "2.2-5.7.1",
+    "latest_version": "2.2-6.0",
     "maintainers": [],
     "name": "r-sm",
     "patches": [],
@@ -33,6 +33,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.2-6.0",
+            "sha256": "27a6e3291a572c3d30f25982902ccde5299230061e5dc1a38fb52aaac2561d61"
+        },
         {
             "name": "2.2-5.7.1",
             "sha256": "ea0cc32eb14f6c18beba0bede66ed37bc5341bd3f76c1a7ae56d7254693e1457"

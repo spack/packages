@@ -36,7 +36,7 @@
     ],
     "description": "Manage Massive Matrices with Shared Memory and Memory-Mapped. Files\nCreate, store, access, and manipulate massive matrices. Matrices are\nallocated to shared memory and may use memory-mapped files. Packages\n'biganalytics', 'bigtabulate', 'synchronicity', and 'bigalgebra' provide\nadvanced functionality.\n",
     "homepage": "https://cloud.r-project.org/package=bigmemory",
-    "latest_version": "4.6.1",
+    "latest_version": "4.6.4",
     "maintainers": [],
     "name": "r-bigmemory",
     "patches": [],
@@ -49,6 +49,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "4.6.4",
+            "sha256": "fe3f576c0d87fd2820c0f436a202261dff353e50e5b86dd9c80fdea7ad60002d"
+        },
         {
             "name": "4.6.1",
             "sha256": "b56e157c87ed6c4fc69d4cb9c697ae9a2001726e776e41aa7c48b35327b65141"

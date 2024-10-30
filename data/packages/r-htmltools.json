@@ -98,6 +98,10 @@
             "name": "r-leaflet"
         },
         {
+            "description": "Leaflet Providers. Contains third-party map tile provider information\nfrom 'Leaflet.js', <https://github.com/leaflet-extras/leaflet-\nproviders>, to be used with the 'leaflet' R package. Additionally,\n'leaflet.providers' enables users to retrieve up-to-date provider\ninformation between package updates.",
+            "name": "r-leaflet-providers"
+        },
+        {
             "description": "Include Tables, Images and Graphs in Leaflet Pop-Ups. Creates 'HTML'\nstrings to embed tables, images or graphs in pop-ups of interactive maps\ncreated with packages like 'leaflet' or 'mapview'. Handles local images\nlocated on the file system or via remote URL. Handles graphs created\nwith 'lattice' or 'ggplot2' as well as interactive plots created with\n'htmlwidgets'.",
             "name": "r-leafpop"
         },
@@ -168,7 +172,7 @@
     ],
     "description": "Tools for HTML. Tools for HTML generation and output.\n",
     "homepage": "https://cloud.r-project.org/package=htmltools",
-    "latest_version": "0.5.5",
+    "latest_version": "0.5.8.1",
     "maintainers": [],
     "name": "r-htmltools",
     "patches": [],
@@ -181,6 +185,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.5.8.1",
+            "sha256": "f9f62293ec06c353c4584db6ccedb06a2da12e485208bd26b856f17dd013f176"
+        },
         {
             "name": "0.5.5",
             "sha256": "c8b23fab855a89c6ed0f6d6c7cad0ff9c5ae329c0bdb479940443ee752f26659"

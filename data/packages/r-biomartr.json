@@ -83,7 +83,7 @@
     "dependent_to": [],
     "description": "Genomic Data Retrieval. Perform large scale genomic data retrieval and\nfunctional annotation retrieval. This package aims to provide users with\na standardized way to automate genome, proteome, 'RNA', coding sequence\n('CDS'), 'GFF', and metagenome retrieval from 'NCBI RefSeq', 'NCBI\nGenbank', 'ENSEMBL', 'ENSEMBLGENOMES', and 'UniProt' databases.\nFurthermore, an interface to the 'BioMart' database (Smedley et al.\n(2009) <doi:10.1186/1471-2164-10-22>) allows users to retrieve\nfunctional annotation for genomic loci. In addition, users can download\nentire databases such as 'NCBI RefSeq' (Pruitt et al. (2007)\n<doi:10.1093/nar/gkl842>), 'NCBI nr', 'NCBI nt', 'NCBI Genbank' (Benson\net al. (2013) <doi:10.1093/nar/gks1195>), etc. as well as 'ENSEMBL' and\n'ENSEMBLGENOMES' with only one command.\n",
     "homepage": "https://cloud.r-project.org/package=biomartr",
-    "latest_version": "1.0.2",
+    "latest_version": "1.0.7",
     "maintainers": [],
     "name": "r-biomartr",
     "patches": [],
@@ -96,6 +96,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.0.7",
+            "sha256": "9d1d5c51b61ee67ce7ca18afdb0a136ef5709d92d077d80163f9d52ee6c28645"
+        },
         {
             "name": "1.0.2",
             "sha256": "7fd6cccd915aa39e593fb7591107ab9792d98a119dd42f3f666e5184f4e42743"

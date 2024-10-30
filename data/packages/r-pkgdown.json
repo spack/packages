@@ -36,12 +36,20 @@
             "name": "r-downlit"
         },
         {
+            "description": "Easily Work with 'Font Awesome' Icons. Easily and flexibly insert 'Font\nAwesome' icons into 'R Markdown' documents and 'Shiny' apps. These icons\ncan be inserted into HTML content through inline 'SVG' tags or 'i' tags.\nThere is also a utility function for exporting 'Font Awesome' icons as\n'PNG' images for those situations where raster graphics are needed.",
+            "name": "r-fontawesome"
+        },
+        {
             "description": "Cross-Platform File System Operations Based on 'libuv'. A cross-platform\ninterface to file system operations, built on top of the 'libuv' C\nlibrary.",
             "name": "r-fs"
         },
         {
             "description": "Tools for Working with URLs and HTTP. Useful tools for working with HTTP\norganised by HTTP verbs (GET(), POST(), etc). Configuration functions\nmake it easy to control additional request components (authenticate(),\nadd_headers() and so on).",
             "name": "r-httr"
+        },
+        {
+            "description": "Perform HTTP Requests and Process the Responses. Tools for creating and\nmodifying HTTP requests, then performing them and processing the\nresults. 'httr2' is a modern re-imagining of 'httr' that uses a pipe-\nbased interface and solves more of the problems that API wrapping\npackages face.",
+            "name": "r-httr2"
         },
         {
             "description": "A Simple and Robust JSON Parser and Generator for R. A fast JSON parser\nand generator optimized for statistical data and the web. Started out as\na fork of 'RJSONIO', but has been completely rewritten in recent\nversions. The package offers flexible, robust, high performance tools\nfor working with JSON in R and is particularly powerful for building\npipelines and interacting with a web API. The implementation is based on\nthe mapping described in the vignette (Ooms, 2014). In addition to\nconverting JSON data from/to R objects, 'jsonlite' contains functions to\nstream, validate, and prettify JSON data. The unit tests included with\nthe package verify that all edge cases are encoded and decoded\nconsistently for use with dynamic data in systems and applications.",
@@ -54,6 +62,10 @@
         {
             "description": "'Memoisation' of Functions. Cache the results of a function so that when\nyou call it again with the same arguments it returns the pre-computed\nvalue.",
             "name": "r-memoise"
+        },
+        {
+            "description": "Toolkit for Encryption, Signatures and Certificates Based on OpenSSL.\nBindings to OpenSSL libssl and libcrypto, plus custom SSH pubkey\nparsers. Supports RSA, DSA and EC curves P-256, P-384 and P-521.\nCryptographic signatures can either be created and verified manually or\nvia x509 certificates. AES can be used in cbc, ctr or gcm mode for\nsymmetric encryption; RSA for asymmetric (public key) encryption or EC\nfor Diffie Hellman. High-level envelope functions combine RSA and AES\nfor encrypting arbitrary sized data. Other utilities include key\ngenerators, hash functions (md5, sha1, sha256, etc), base64 encoder, a\nsecure random number generator, and 'bignum' math methods for manually\nperforming crypto calculations on large multibyte integers.",
+            "name": "r-openssl"
         },
         {
             "description": "Functional Programming Tools. A complete and consistent functional\nprogramming toolkit for R.",
@@ -100,7 +112,7 @@
     ],
     "description": "Make Static HTML Documentation for a Package. Generate an attractive and\nuseful website from a source package. 'pkgdown' converts your\ndocumentation, vignettes, 'README', and more to 'HTML' making it easy to\nshare information about your package online.\n",
     "homepage": "https://cloud.r-project.org/package=pkgdown",
-    "latest_version": "2.0.7",
+    "latest_version": "2.1.0",
     "maintainers": [],
     "name": "r-pkgdown",
     "patches": [],
@@ -113,6 +125,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.1.0",
+            "sha256": "c4d1df3b738d66e60db71e57c01c86c46f2fe58f972c9e2403c07a1436279fb4"
+        },
         {
             "name": "2.0.7",
             "sha256": "f33872869dfa8319182d87e90eab3245ff69293b3b791471bf9538afb81b356a"

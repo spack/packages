@@ -292,7 +292,7 @@
     ],
     "description": "This package provides Python bindings for the Message Passing Interface\n(MPI) standard. It is implemented on top of the MPI-1/MPI-2\nspecification and exposes an API which grounds on the standard MPI-2 C++\nbindings.\n",
     "homepage": "https://pypi.org/project/mpi4py/",
-    "latest_version": "4.0.0",
+    "latest_version": "4.0.1",
     "maintainers": [],
     "name": "py-mpi4py",
     "patches": [],
@@ -308,6 +308,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "4.0.1",
+            "sha256": "f3174b245775d556f4fddb32519a2066ef0592edc810c5b5a59238f9a0a40c89"
         },
         {
             "name": "4.0.0",

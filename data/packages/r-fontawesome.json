@@ -18,6 +18,10 @@
     ],
     "dependent_to": [
         {
+            "description": "Make Static HTML Documentation for a Package. Generate an attractive and\nuseful website from a source package. 'pkgdown' converts your\ndocumentation, vignettes, 'README', and more to 'HTML' making it easy to\nshare information about your package online.",
+            "name": "r-pkgdown"
+        },
+        {
             "description": "Dynamic Documents for R. Convert R Markdown documents into a variety of\nformats.",
             "name": "r-rmarkdown"
         },
@@ -28,7 +32,7 @@
     ],
     "description": "Easily Work with 'Font Awesome' Icons. Easily and flexibly insert 'Font\nAwesome' icons into 'R Markdown' documents and 'Shiny' apps. These icons\ncan be inserted into HTML content through inline 'SVG' tags or 'i' tags.\nThere is also a utility function for exporting 'Font Awesome' icons as\n'PNG' images for those situations where raster graphics are needed.\n",
     "homepage": "https://cloud.r-project.org/package=fontawesome",
-    "latest_version": "0.5.1",
+    "latest_version": "0.5.2",
     "maintainers": [],
     "name": "r-fontawesome",
     "patches": [],
@@ -41,6 +45,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.5.2",
+            "sha256": "da3de2a9717084d1400d48edd783f06c66b8c910ce9c8d753d1b7d99be1c5cc9"
+        },
         {
             "name": "0.5.1",
             "sha256": "f4ebbbe2ee8d2e2c0342b72095cfe668bd9800ea6c4bf7180300544bde7e566c"

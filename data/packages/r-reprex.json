@@ -68,7 +68,7 @@
     ],
     "description": "Prepare Reproducible Example Code via the Clipboard. Convenience wrapper\nthat uses the 'rmarkdown' package to render small snippets of code to\ntarget formats that include both code and output. The goal is to\nencourage the sharing of small, reproducible, and runnable examples on\ncode-oriented websites, such as <https://stackoverflow.com/> and\n<https://github.com>, or in email. 'reprex' also extracts clean,\nrunnable R code from various common formats, such as copy/paste from an\nR session.\n",
     "homepage": "https://cloud.r-project.org/package=reprex",
-    "latest_version": "2.0.2",
+    "latest_version": "2.1.1",
     "maintainers": [],
     "name": "r-reprex",
     "patches": [],
@@ -81,6 +81,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.1.1",
+            "sha256": "c860368cbc7ef90ea786fb61ab6fa42cd89b5258be48652abc20ad414001879c"
+        },
         {
             "name": "2.0.2",
             "sha256": "a85b16e26112364a65c886efea050df08c17aadf1411fd14ec27d9ef13e87092"

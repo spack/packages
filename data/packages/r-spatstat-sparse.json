@@ -44,7 +44,7 @@
     ],
     "description": "Sparse Three-Dimensional Arrays and Linear Algebra Utilities. Defines\nsparse three-dimensional arrays and supports standard operations on\nthem. The package also includes utility functions for matrix\ncalculations that are common in statistics, such as quadratic forms.\n",
     "homepage": "https://cloud.r-project.org/package=spatstat.sparse",
-    "latest_version": "3.0-1",
+    "latest_version": "3.1-0",
     "maintainers": [],
     "name": "r-spatstat-sparse",
     "patches": [],
@@ -57,6 +57,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.1-0",
+            "sha256": "63be5dc5818339b878a14a39815dab730b28029d51bac5233e88f5e2464bbbe9"
+        },
         {
             "name": "3.0-1",
             "sha256": "2c1cf0ddad366aa4230bd03241a1ef87ed635f53a6943fc4a6c2d371626d0d1c"

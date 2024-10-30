@@ -18,6 +18,10 @@
         {
             "description": "A C++11 Interface for R's C Interface. Provides a header only, C++11\ninterface to R's C interface. Compared to other approaches 'cpp11'\nstrives to be safe against long jumps from the C API as well as C++\nexceptions, conform to normal R function semantics and supports\ninteraction with 'ALTREP' vectors.",
             "name": "r-cpp11"
+        },
+        {
+            "description": "Manage the Life Cycle of your Package Functions. Manage the life cycle\nof your exported functions with shared conventions, documentation\nbadges, and non-invasive deprecation warnings. The 'lifecycle' package\ndefines four development stages (experimental, maturing, stable, and\nquestioning) and three deprecation stages (soft-deprecated, deprecated,\nand defunct). It makes it easy to insert badges corresponding to these\nstages in your documentation. Usage of deprecated functions are\nsignalled with increasing levels of non-invasive verbosity.",
+            "name": "r-lifecycle"
         }
     ],
     "dependent_to": [
@@ -40,7 +44,7 @@
     ],
     "description": "System Native Font Finding. Provides system native access to the font\ncatalogue. As font handling varies between systems it is difficult to\ncorrectly locate installed fonts across different operating systems. The\n'systemfonts' package provides bindings to the native libraries on\nWindows, macOS and Linux for finding font files that can then be used\nfurther by e.g. graphic devices. The main use is intended to be from\ncompiled code but 'systemfonts' also provides access from R.\n",
     "homepage": "https://cloud.r-project.org/package=systemfonts",
-    "latest_version": "1.0.4",
+    "latest_version": "1.1.0",
     "maintainers": [],
     "name": "r-systemfonts",
     "patches": [],
@@ -53,6 +57,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.1.0",
+            "sha256": "1941069bd20320284ec026a38c53cb736be60bda431303ceaf8fd27ae13fb644"
+        },
         {
             "name": "1.0.4",
             "sha256": "ef766c75b942f147d382664a00d6a4930f1bfe0cce9d88943f571682a85a84c0"

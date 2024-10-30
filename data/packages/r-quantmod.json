@@ -36,7 +36,7 @@
     ],
     "description": "Quantitative Financial Modelling Framework. Specify, build, trade, and\nanalyse quantitative financial trading strategies.\n",
     "homepage": "https://cloud.r-project.org/package=quantmod",
-    "latest_version": "0.4.22",
+    "latest_version": "0.4.26",
     "maintainers": [],
     "name": "r-quantmod",
     "patches": [],
@@ -49,6 +49,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.4.26",
+            "sha256": "396c5d3241f77911d9f7738a60a9d728ed25b3dbce2fd92f5b11f9fcbcb8bb98"
+        },
         {
             "name": "0.4.22",
             "sha256": "f29496f1ca9a9faf91aba70ac50bfe79303197ca8f1e369c96300005b5e6765e"

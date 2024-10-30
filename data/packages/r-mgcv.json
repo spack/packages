@@ -80,7 +80,7 @@
     ],
     "description": "Mixed GAM Computation Vehicle with Automatic Smoothness Estimation.\nGeneralized additive (mixed) models, some of their extensions and other\ngeneralized ridge regression with multiple smoothing parameter\nestimation by (Restricted) Marginal Likelihood, Generalized Cross\nValidation and similar, or using iterated nested Laplace approximation\nfor fully Bayesian inference. See Wood (2017)\n<doi:10.1201/9781315370279> for an overview. Includes a gam() function,\na wide variety of smoothers, 'JAGS' support and distributions beyond the\nexponential family.\n",
     "homepage": "https://cloud.r-project.org/package=mgcv",
-    "latest_version": "1.8-42",
+    "latest_version": "1.9-1",
     "maintainers": [],
     "name": "r-mgcv",
     "patches": [],
@@ -93,6 +93,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.9-1",
+            "sha256": "700fbc37bedd3a49505b9bc4949faee156d9cfb4f669d797d06a10a15a5bdb32"
+        },
         {
             "name": "1.8-42",
             "sha256": "087fc38b64ad06f2149eafc54f2679dd8840cf6fc488e66cf131e3c1de2db6c7"

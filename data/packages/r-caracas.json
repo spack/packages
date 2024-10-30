@@ -31,7 +31,7 @@
     "dependent_to": [],
     "description": "Computer Algebra. Computer algebra via the 'SymPy' library\n(<https://www.sympy.org/>). This makes it possible to solve equations\nsymbolically, find symbolic integrals, symbolic sums and other important\nquantities.\n",
     "homepage": "https://cloud.r-project.org/package=caracas",
-    "latest_version": "2.0.0",
+    "latest_version": "2.1.1",
     "maintainers": [],
     "name": "r-caracas",
     "patches": [],
@@ -44,6 +44,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.1.1",
+            "sha256": "3b31b5b1c2fa038e5a6df12cfe62390f9af0461873a38921d6c26468363c2661"
+        },
         {
             "name": "2.0.0",
             "sha256": "9271239bf7457787371cbd44be74cb9909d67ab7c975b1744d8cf60d8b044b95"

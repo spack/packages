@@ -22,6 +22,10 @@
             "name": "r-adespatial"
         },
         {
+            "description": "Functions to accompany A. Gelman and J. Hill, Data Analysis Using\nRegression and Multilevel/Hierarchical Models, Cambridge University\nPress, 2007.",
+            "name": "r-arm"
+        },
+        {
             "description": "Bayesian Generalized Linear Regression.",
             "name": "r-bglr"
         },
@@ -148,6 +152,10 @@
         {
             "description": "Solving Linear Inverse Models. Functions that (1) find the\nminimum/maximum of a linear or quadratic function: min or max (f(x)),\nwhere f(x) = ||Ax-b||^2 or f(x) = sum(a_i*x_i) subject to equality\nconstraints Ex=f and/or inequality constraints Gx>=h, (2) sample an\nunderdetermined- or overdetermined system Ex=f subject to Gx>=h, and if\napplicable Ax~=b, (3) solve a linear system Ax=B for the unknown x. It\nincludes banded and tridiagonal linear systems.",
             "name": "r-limsolve"
+        },
+        {
+            "description": "Allows researchers to conduct multivariate statistical analyses of\nsurvey data with list experiments.",
+            "name": "r-list"
         },
         {
             "description": "Linear Mixed-Effects Models using 'Eigen' and S4. Fit linear and\ngeneralized linear mixed-effects models. The models and their components\nare represented using S4 classes and methods. The core computational\nalgorithms are implemented using the 'Eigen' C++ library for numerical\nlinear algebra and 'RcppEigen' \"glue\".",
@@ -306,6 +314,10 @@
             "name": "r-speedglm"
         },
         {
+            "description": "Robust Trimmed Clustering. Provides functions for robust trimmed\nclustering. The methods are described in Garcia-Escudero (2008)\n<doi:10.1214/07-AOS515>, Fritz et al. (2012)\n<doi:10.18637/jss.v047.i12>, Garcia-Escudero et al. (2011)\n<doi:10.1007/s11222-010-9194-z> and others.",
+            "name": "r-tclust"
+        },
+        {
             "description": "TH's Data Archive. Contains data sets used in other packages Torsten\nHothorn maintains.",
             "name": "r-th-data"
         },
@@ -328,7 +340,7 @@
     ],
     "description": "Support Functions and Datasets for Venables and Ripley's MASS. Functions\nand datasets to support Venables and Ripley, \"Modern Applied Statistics\nwith S\" (4th edition, 2002).\n",
     "homepage": "https://cloud.r-project.org/package=MASS",
-    "latest_version": "7.3-59",
+    "latest_version": "7.3-61",
     "maintainers": [],
     "name": "r-mass",
     "patches": [],
@@ -341,6 +353,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "7.3-61",
+            "sha256": "3144c8bf579dd7b7c47c259728c27f53f53e294e7ed307da434dfd144e800a90"
+        },
         {
             "name": "7.3-59",
             "sha256": "454200bec7a52835fbb7f9fe8e01a7aaa728b3ab87b068fc6d900e01c930da5a"

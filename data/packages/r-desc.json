@@ -76,7 +76,7 @@
     ],
     "description": "Manipulate DESCRIPTION Files. Tools to read, write, create, and\nmanipulate DESCRIPTION files. It is intended for packages that create or\nmanipulate other packages.\n",
     "homepage": "https://cloud.r-project.org/package=desc",
-    "latest_version": "1.4.2",
+    "latest_version": "1.4.3",
     "maintainers": [],
     "name": "r-desc",
     "patches": [],
@@ -89,6 +89,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.4.3",
+            "sha256": "54468da73dd78fc9e7c565c41cfe3331802c2134b2e61a9ad197215317092f26"
+        },
         {
             "name": "1.4.2",
             "sha256": "758acf14be478c09ba7e84ade3a7ce512becf35d44e5e6a997b932065f2a227c"

@@ -36,7 +36,7 @@
     ],
     "description": "A Simple HTTP Server to Serve Static Files or Dynamic Documents. Start\nan HTTP server in R to serve static files, or dynamic documents that can\nbe converted to HTML files (e.g., R Markdown) under a given directory.\n",
     "homepage": "https://cloud.r-project.org/package=servr",
-    "latest_version": "0.26",
+    "latest_version": "0.30",
     "maintainers": [],
     "name": "r-servr",
     "patches": [],
@@ -49,6 +49,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.30",
+            "sha256": "43f920161408871a042462b7c3353149a608941253541a19a9ce3408f9882d40"
+        },
         {
             "name": "0.26",
             "sha256": "7588d7e00d5b2f77b0737f164f3d7b0ba7b1e8b60c0372a1d6452096e2d2031c"

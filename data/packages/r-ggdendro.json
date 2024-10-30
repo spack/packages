@@ -28,7 +28,7 @@
     ],
     "description": "Create Dendrograms and Tree Diagrams Using 'ggplot2'. This is a set of\ntools for dendrograms and tree plots using 'ggplot2'. The 'ggplot2'\nphilosophy is to clearly separate data from the presentation.\nUnfortunately the plot method for dendrograms plots directly to a plot\ndevice without exposing the data. The 'ggdendro' package resolves this\nby making available functions that extract the dendrogram plot data. The\npackage provides implementations for tree, rpart, as well as diana and\nagnes cluster diagrams.\n",
     "homepage": "https://cloud.r-project.org/package=ggdendro",
-    "latest_version": "0.1.23",
+    "latest_version": "0.2.0",
     "maintainers": [],
     "name": "r-ggdendro",
     "patches": [],
@@ -41,6 +41,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.2.0",
+            "sha256": "1940c34ddb30083a4c3bc3be98b6b466dcc78e03ac22a32088744db8bff7aa69"
+        },
         {
             "name": "0.1.23",
             "sha256": "3a33e988c4fe12eec540876ad8ba09bda998773b2d2a90e043ebae4a69fa8eb8"

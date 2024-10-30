@@ -24,7 +24,7 @@
     ],
     "description": "C-Like 'getopt' Behavior. Package designed to be used with Rscript to\nwrite \"#!\" shebang scripts that accept short and long flags/options.\nMany users will prefer using instead the packages optparse or argparse\nwhich add extra features like automatically generated help option and\nusage, support for default values, positional argument support, etc.\n",
     "homepage": "https://cloud.r-project.org/package=getopt",
-    "latest_version": "1.20.3",
+    "latest_version": "1.20.4",
     "maintainers": [],
     "name": "r-getopt",
     "patches": [],
@@ -37,6 +37,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.20.4",
+            "sha256": "87d36cbe6dba41dbc1d78d845210266cdd08c7440d977d738a6e45db14221e8b"
+        },
         {
             "name": "1.20.3",
             "sha256": "531f5fdfdcd6b96a73df2b39928418de342160ac1b0043861e9ea844f9fbf57f"

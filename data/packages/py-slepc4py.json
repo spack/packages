@@ -48,7 +48,7 @@
     ],
     "description": "This package provides Python bindings for the SLEPc package.\n",
     "homepage": "https://gitlab.com/slepc/slepc4py",
-    "latest_version": "3.22.0",
+    "latest_version": "3.22.1",
     "maintainers": [
         "balay",
         "joseeroman"
@@ -77,6 +77,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "3.22.1",
+            "sha256": "056d98bf09f5202d25842d5a4a4f553445103e1e26155da52f007c508f3140f8"
         },
         {
             "name": "3.22.0",

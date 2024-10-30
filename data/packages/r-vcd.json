@@ -28,7 +28,7 @@
     ],
     "description": "Visualizing Categorical Data. Visualization techniques, data sets,\nsummary and inference procedures aimed particularly at categorical data.\nSpecial emphasis is given to highly extensible grid graphics. The\npackage was package was originally inspired by the book \"Visualizing\nCategorical Data\" by Michael Friendly and is now the main support\npackage for a new book, \"Discrete Data Analysis with R\" by Michael\nFriendly and David Meyer (2015).\n",
     "homepage": "https://cloud.r-project.org/package=vcd",
-    "latest_version": "1.4-11",
+    "latest_version": "1.4-12",
     "maintainers": [],
     "name": "r-vcd",
     "patches": [],
@@ -41,6 +41,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.4-12",
+            "sha256": "c931ef115529931cddb1d5caec4d4d3569ebf12aadde719b2f5019812c9ded88"
+        },
         {
             "name": "1.4-11",
             "sha256": "7a54e855689e1429d46e0d4d7a956f96b0ad2fd0c7084fa023902c55849e0932"

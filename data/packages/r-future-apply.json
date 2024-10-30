@@ -22,6 +22,10 @@
             "name": "r-blavaan"
         },
         {
+            "description": "Bayesian Regression Models using 'Stan'. Fit Bayesian generalized\n(non-)linear multivariate multilevel models using 'Stan' for full\nBayesian inference. A wide range of distributions and link functions are\nsupported, allowing users to fit - among others - linear, robust linear,\ncount data, survival, response times, ordinal, zero-inflated, hurdle,\nand even self-defined mixture models all in a multilevel context.\nFurther modeling options include non-linear and smooth terms, auto-\ncorrelation structures, censored data, meta-analytic standard errors,\nand quite a few more. In addition, all parameters of the response\ndistribution can be predicted in order to perform distributional\nregression. Prior specifications are flexible and explicitly encourage\nusers to apply prior distributions that actually reflect their beliefs.\nModel fit can easily be assessed and compared with posterior predictive\nchecks and leave-one-out cross-validation. References: Burkner (2017)\n<doi:10.18637/jss.v080.i01>; Burkner (2018) <doi:10.32614/RJ-2018-017>;\nCarpenter et al. (2017) <doi:10.18637/jss.v076.i01>.",
+            "name": "r-brms"
+        },
+        {
             "description": "A Global Surface Summary of the Day (GSOD) Weather Data Client for R.\nProvides automated downloading, parsing, cleaning, unit conversion and\nformatting of Global Surface Summary of the Day ('GSOD') weather data\nfrom the from the USA National Centers for Environmental Information\n('NCEI'). Units are converted from from United States Customary System\n('USCS') units to International System of Units ('SI'). Stations may be\nindividually checked for number of missing days defined by the user,\nwhere stations with too many missing observations are omitted. Only\nstations with valid reported latitude and longitude values are permitted\nin the final data. Additional useful elements, saturation vapour\npressure ('es'), actual vapour pressure ('ea') and relative humidity\n('RH') are calculated from the original data using the improved August-\nRoche-Magnus approximation (Alduchov & Eskridge 1996) and included in\nthe final data set. The resulting metadata include station\nidentification information, country, state, latitude, longitude,\nelevation, weather observations and associated flags. For information on\nthe 'GSOD' data from 'NCEI', please see the 'GSOD' 'readme.txt' file\navailable from, <https://www1.ncdc.noaa.gov/pub/data/gsod/readme.txt>.",
             "name": "r-gsodr"
         },
@@ -48,7 +52,7 @@
     ],
     "description": "Apply Function to Elements in Parallel using Futures. Implementations of\napply(), by(), eapply(), lapply(), Map(), mapply(), replicate(),\nsapply(), tapply(), and vapply() that can be resolved using any future-\nsupported backend, e.g. parallel on the local machine or distributed on\na compute cluster. These future_*apply() functions come with the same\npros and cons as the corresponding base-R *apply() functions but with\nthe additional feature of being able to be processed via the future\nframework.\n",
     "homepage": "https://cloud.r-project.org/package=future.apply",
-    "latest_version": "1.10.0",
+    "latest_version": "1.11.2",
     "maintainers": [],
     "name": "r-future-apply",
     "patches": [],
@@ -61,6 +65,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.11.2",
+            "sha256": "f4a635b0fa5e0d826d2f8da6bc1fa5bb055e640c29a85c644931d08ab2d81387"
+        },
         {
             "name": "1.10.0",
             "sha256": "dee92dd84812fe8c55064c0f0e6d806c0c29848b5a5fc4a7725d6a4b623e94aa"

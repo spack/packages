@@ -31,7 +31,7 @@
     "dependent_to": [],
     "description": "Develop and Run Spatially Explicit Discrete Event Simulation Models.\nMetapackage for implementing a variety of event-based models, with a\nfocus on spatially explicit models. These include raster-based, event-\nbased, and agent-based models. The core simulation components (provided\nby 'SpaDES.core') are built upon a discrete event simulation (DES; see\nMatloff (2011) ch 7.8.3 <https://nostarch.com/artofr.htm>) framework\nthat facilitates modularity, and easily enables the user to include\nadditional functionality by running user-built simulation modules (see\nalso 'SpaDES.tools'). Included are numerous tools to visualize rasters\nand other maps (via 'quickPlot'), and caching methods for reproducible\nsimulations (via 'reproducible'). Tools for running simulation\nexperiments are provided by 'SpaDES.experiment'. Additional\nfunctionality is provided by the 'SpaDES.addins' and 'SpaDES.shiny'\npackages.\n",
     "homepage": "https://cloud.r-project.org/package=SpaDES",
-    "latest_version": "2.0.9",
+    "latest_version": "2.0.11",
     "maintainers": [
         "dorton21"
     ],
@@ -46,6 +46,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.0.11",
+            "sha256": "a88e202d1fe6fa700dfc176018a07cc5dd9ac9a8d0695eb6bc507ace52b68a32"
+        },
         {
             "name": "2.0.9",
             "sha256": "f68080318bc922c6d8c495e6d963acdbb24dc90a3e8013e3e2f894b40a584c85"

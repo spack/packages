@@ -22,6 +22,10 @@
             "name": "r-knitr"
         },
         {
+            "description": "Create Interactive Web Maps with the JavaScript 'Leaflet' Library.\nCreate and customize interactive maps using the 'Leaflet' JavaScript\nlibrary and the 'htmlwidgets' package. These maps can be used directly\nfrom the R console, from 'RStudio', in Shiny apps and R Markdown\ndocuments.",
+            "name": "r-leaflet"
+        },
+        {
             "description": "Render Markdown with the C Library 'Sundown'. Provides R bindings to the\n'Sundown' 'Markdown' rendering library (https://github.com/vmg/sundown).\n'Markdown' is a plain-text formatting syntax that can be converted to\n'XHTML' or other formats. See https://en.wikipedia.org/wiki/Markdown for\nmore information about 'Markdown'.",
             "name": "r-markdown"
         },
@@ -48,7 +52,7 @@
     ],
     "description": "Supporting Functions for Packages Maintained by 'Yihui Xie'.\nMiscellaneous functions commonly used in other packages maintained by\n'Yihui Xie'.\n",
     "homepage": "https://cloud.r-project.org/package=xfun",
-    "latest_version": "0.39",
+    "latest_version": "0.47",
     "maintainers": [],
     "name": "r-xfun",
     "patches": [],
@@ -61,6 +65,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.47",
+            "sha256": "999874fdbf4df2e686a3cb134bfef782c0d3eb0141006191ca1eda94ce232c4b"
+        },
         {
             "name": "0.39",
             "sha256": "d0ecaabb243dd3496da6029932fcdd4772914843de7ffd0b78a172efde1356c9"

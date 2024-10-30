@@ -46,6 +46,10 @@
             "name": "r-forcats"
         },
         {
+            "description": "Forecasting Functions for Time Series and Linear Models. Methods and\ntools for displaying and analysing univariate time series forecasts\nincluding exponential smoothing via state space models and automatic\nARIMA modelling.",
+            "name": "r-forecast"
+        },
+        {
             "description": "Utilities for Working with Google APIs. Provides utilities for working\nwith Google APIs <https://developers.google.com/apis-explorer>. This\nincludes functions and classes for handling common credential types and\nfor preparing, executing, and processing HTTP requests.",
             "name": "r-gargle"
         },
@@ -176,7 +180,7 @@
     ],
     "description": "Run Code 'With' Temporarily Modified Global State. A set of functions to\nrun code 'with' safely and temporarily modified global state. Many of\nthese functions were originally a part of the 'devtools' package, this\nprovides a simple package with limited dependencies to provide access to\nthese functions.\n",
     "homepage": "https://cloud.r-project.org/package=withr",
-    "latest_version": "2.5.0",
+    "latest_version": "3.0.1",
     "maintainers": [],
     "name": "r-withr",
     "patches": [],
@@ -189,6 +193,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.0.1",
+            "sha256": "d573f1ac2f733c7dd89669feb495d68f1f15d7a9774473c2e46a9848945a3841"
+        },
         {
             "name": "2.5.0",
             "sha256": "37317b3ed790a08407072993a05ab255f6305f95a12a16e0e28aa6aa80fc8bc0"

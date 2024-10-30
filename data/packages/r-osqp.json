@@ -32,7 +32,7 @@
     ],
     "description": "Quadratic Programming Solver using the 'OSQP' Library. Provides bindings\nto the 'OSQP' solver. The 'OSQP' solver is a numerical optimization\npackage or solving convex quadratic programs written in 'C' and based on\nthe alternating direction method of multipliers. See <arXiv:1711.08013>\nfor details.\n",
     "homepage": "https://cloud.r-project.org/package=osqp",
-    "latest_version": "0.6.0.8",
+    "latest_version": "0.6.3.3",
     "maintainers": [],
     "name": "r-osqp",
     "patches": [],
@@ -45,6 +45,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.6.3.3",
+            "sha256": "ff3d8e4ec7764333144d461eb5ea7a4adbf5b5f29f84c3ec3e60a93802e2f5bb"
+        },
         {
             "name": "0.6.0.8",
             "sha256": "14034045ae4ae5ec4eae4944653d41d94282fa85a0cd53614ac86f34fd02ed97"

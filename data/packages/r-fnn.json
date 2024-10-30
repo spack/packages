@@ -32,7 +32,7 @@
     ],
     "description": "Fast Nearest Neighbor Search Algorithms and Applications. Cover-tree and\nkd-tree fast k-nearest neighbor search algorithms and related\napplications including KNN classification, regression and information\nmeasures are implemented.\n",
     "homepage": "https://cloud.r-project.org/package=FNN",
-    "latest_version": "1.1.3.2",
+    "latest_version": "1.1.4",
     "maintainers": [],
     "name": "r-fnn",
     "patches": [],
@@ -45,6 +45,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.1.4",
+            "sha256": "db4db5a348c6051fe547193c282b6e5cc839f68f51e0afccf4939f35e9a2fc27"
+        },
         {
             "name": "1.1.3.2",
             "sha256": "d701a13487979ebb07a071f4cc83fcf4daea5832d1f3923bce1e0d671dfe0e87"

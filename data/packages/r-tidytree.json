@@ -64,7 +64,7 @@
     ],
     "description": "A Tidy Tool for Phylogenetic Tree Data Manipulation. Phylogenetic tree\ngenerally contains multiple components including node, edge, branch and\nassociated data. 'tidytree' provides an approach to convert tree object\nto tidy data frame as well as provides tidy interfaces to manipulate\ntree data.\n",
     "homepage": "https://cloud.r-project.org/package=tidytree",
-    "latest_version": "0.4.2",
+    "latest_version": "0.4.6",
     "maintainers": [],
     "name": "r-tidytree",
     "patches": [],
@@ -77,6 +77,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.4.6",
+            "sha256": "dba909ba767283fa76795a67e048ff1c8cd339c7e44f64c9698c70ecb3d92292"
+        },
         {
             "name": "0.4.2",
             "sha256": "cb831a66d8afa5e21f5072e4fbebcbd2228881090d0040f87605f5aeefda155e"

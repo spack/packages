@@ -16,7 +16,7 @@
     ],
     "description": "General Smoothing Splines. A comprehensive package for structural\nmultivariate function estimation using smoothing splines.\n",
     "homepage": "https://cloud.r-project.org/package=gss",
-    "latest_version": "2.2-4",
+    "latest_version": "2.2-7",
     "maintainers": [],
     "name": "r-gss",
     "patches": [],
@@ -29,6 +29,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.2-7",
+            "sha256": "3b13144702c570c83462b4ea2ad17f4bd630cff5bf2ab0347a33c7e86a4f3f6a"
+        },
         {
             "name": "2.2-4",
             "sha256": "953e89dfe3bee9cac51df3e5325bf4d1496ad76e4393706c4efdb1834c0c7441"

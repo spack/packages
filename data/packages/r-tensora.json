@@ -24,7 +24,7 @@
     ],
     "description": "Advanced Tensor Arithmetic with Named Indices. Provides convenience\nfunctions for advanced linear algebra with tensors and computation with\ndata sets of tensors on a higher level abstraction. It includes Einstein\nand Riemann summing conventions, dragging, co- and contravariate\nindices, parallel computations on sequences of tensors.\n",
     "homepage": "https://cloud.r-project.org/package=tensorA",
-    "latest_version": "0.36.2",
+    "latest_version": "0.36.2.1",
     "maintainers": [],
     "name": "r-tensora",
     "patches": [],
@@ -37,6 +37,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.36.2.1",
+            "sha256": "06588261fe7dff6a8edafe2b9d436b39a3b46c754f2ed327ae6322561a617db7"
+        },
         {
             "name": "0.36.2",
             "sha256": "8e8947566bd3b65a54de4269df1abaa3d49cf5bfd2a963c3274a524c8a819ca7"

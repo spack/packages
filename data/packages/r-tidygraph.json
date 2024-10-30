@@ -24,6 +24,10 @@
             "name": "r-igraph"
         },
         {
+            "description": "Manage the Life Cycle of your Package Functions. Manage the life cycle\nof your exported functions with shared conventions, documentation\nbadges, and non-invasive deprecation warnings. The 'lifecycle' package\ndefines four development stages (experimental, maturing, stable, and\nquestioning) and three deprecation stages (soft-deprecated, deprecated,\nand defunct). It makes it easy to insert badges corresponding to these\nstages in your documentation. Usage of deprecated functions are\nsignalled with increasing levels of non-invasive verbosity.",
+            "name": "r-lifecycle"
+        },
+        {
             "description": "A Forward-Pipe Operator for R. Provides a mechanism for chaining\ncommands with a new forward-pipe operator, %>%. This operator will\nforward a value, or the result of an expression, into the next function\ncall/expression. There is flexible support for the type of right-hand\nside expressions. For more information, see package vignette.",
             "name": "r-magrittr"
         },
@@ -60,7 +64,7 @@
     ],
     "description": "A Tidy API for Graph Manipulation. A graph, while not \"tidy\" in itself,\ncan be thought of as two tidy data frames describing node and edge data\nrespectively. 'tidygraph' provides an approach to manipulate these two\nvirtual data frames using the API defined in the 'dplyr' package, as\nwell as provides tidy interfaces to a lot of common graph algorithms.\n",
     "homepage": "https://cloud.r-project.org/package=tidygraph",
-    "latest_version": "1.2.3",
+    "latest_version": "1.3.1",
     "maintainers": [],
     "name": "r-tidygraph",
     "patches": [],
@@ -73,6 +77,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.3.1",
+            "sha256": "aac1d4bb9396081bbeecbde11a3cd1a26a56bd6b1f608a628b359cb37c18ac1a"
+        },
         {
             "name": "1.2.3",
             "sha256": "b09c06b12583ae57edd1ec01e61a0e1b7a4b82358361fb28a6046dbece475687"

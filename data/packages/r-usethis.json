@@ -108,7 +108,7 @@
     ],
     "description": "Automate Package and Project Setup. Automate package and project setup\ntasks that are otherwise performed manually. This includes setting up\nunit testing, test coverage, continuous integration, Git, 'GitHub',\nlicenses, 'Rcpp', 'RStudio' projects, and more.\n",
     "homepage": "https://cloud.r-project.org/package=usethis",
-    "latest_version": "2.1.6",
+    "latest_version": "3.0.0",
     "maintainers": [],
     "name": "r-usethis",
     "patches": [],
@@ -121,6 +121,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.0.0",
+            "sha256": "98f850f9ceaae37eb16ccd1232275b4e8f818c115c67151fa99096c477f7ccb5"
+        },
         {
             "name": "2.1.6",
             "sha256": "31dc6707577065ac1d4acb7d4cbf135942727c5cc2699092198c544be86f6818"

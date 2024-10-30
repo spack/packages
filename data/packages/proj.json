@@ -128,6 +128,10 @@
             "name": "r-lwgeom"
         },
         {
+            "description": "Generic Coordinate System Transformations Using 'PROJ'. A wrapper around\nthe generic coordinate transformation software 'PROJ' that transforms\ncoordinates from one coordinate reference system ('CRS') to another.\nThis includes cartographic projections as well as geodetic\ntransformations. The intention is for this package to be used by user-\npackages such as 'reproj', and that the older 'PROJ.4' and version 5\npathways be provided by the 'proj4' package.",
+            "name": "r-proj"
+        },
+        {
             "description": "A simple interface to the PROJ.4 cartographic projections library. A\nsimple interface to lat/long projection and datum transformation of the\nPROJ.4 cartographic projections library. It allows transformation of\ngeographic coordinates from one projection and/or datum to another.",
             "name": "r-proj4"
         },

@@ -16,7 +16,7 @@
     ],
     "description": "Gene Set Analysis.\n",
     "homepage": "https://cloud.r-project.org/package=GSA",
-    "latest_version": "1.03.2",
+    "latest_version": "1.03.3",
     "maintainers": [],
     "name": "r-gsa",
     "patches": [],
@@ -29,6 +29,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.03.3",
+            "sha256": "5459786190f40339addc45e7bb58c6a983548aa8feac7277ea7ec0662c5a282c"
+        },
         {
             "name": "1.03.2",
             "sha256": "177d6059fc645d3d8883806d2dea1c5dfc68efdada9aadde8a96b6d57acf35b8"

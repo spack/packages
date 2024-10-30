@@ -28,7 +28,7 @@
     ],
     "description": "Time Zone Database Information. Provides an up-to-date copy of the\nInternet Assigned Numbers Authority (IANA) Time Zone Database. It is\nupdated periodically to reflect changes made by political bodies to time\nzone boundaries, UTC offsets, and daylight saving time rules.\nAdditionally, this package provides a C++ interface for working with the\n'date' library. 'date' provides comprehensive support for working with\ndates and date-times, which this package exposes to make it easier for\nother R packages to utilize. Headers are provided for calendar specific\ncalculations, along with a limited interface for time zone\nmanipulations.\n",
     "homepage": "https://cloud.r-project.org/package=tzdb",
-    "latest_version": "0.3.0",
+    "latest_version": "0.4.0",
     "maintainers": [],
     "name": "r-tzdb",
     "patches": [],
@@ -41,6 +41,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.4.0",
+            "sha256": "4253c66041bdddfd463c98183bf0052fbcacdb7c5cff9eadbb858b3dcf9d3a23"
+        },
         {
             "name": "0.3.0",
             "sha256": "6099f0ec1fba692b51b4360aa776902a39f10dae815933c31994b8e4d4277038"

@@ -42,7 +42,7 @@
     ],
     "description": "The Intel oneAPI Collective Communications Library (oneCCL) enables\ndevelopers and researchers to more quickly train newer and deeper\nmodels. This is done by using optimized communication patterns to\ndistribute model training across multiple nodes. The library is designed\nfor easy integration into deep learning frameworks, whether you are\nimplementing them from scratch or customizing existing ones. LICENSE\nINFORMATION: By downloading and using this software, you agree to the\nterms and conditions of the software license agreements at\nhttps://intel.ly/393CijO.\n",
     "homepage": "https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/oneccl.html",
-    "latest_version": "2021.13.1",
+    "latest_version": "2021.14.0",
     "maintainers": [
         "rscohn2"
     ],
@@ -62,6 +62,11 @@
         }
     ],
     "versions": [
+        {
+            "name": "2021.14.0",
+            "sha256": "2a02ebf10e9b129df8538520b4b343c5ac30350ada6bd1f2bdc9b4ef0f46e165",
+            "url": "https://registrationcenter-download.intel.com/akdlm/IRC_NAS/88a7a6db-816c-4cd5-993f-821729da5648/intel-oneccl-2021.14.0.506_offline.sh"
+        },
         {
             "name": "2021.13.1",
             "sha256": "05027a00d3b97754c8ba4ec009901b95e11a88d32c1206ea464ac6ea8b5aa03b",

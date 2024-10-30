@@ -16,7 +16,7 @@
     ],
     "description": "Generalized Simulated Annealing. Performs search for global minimum of a\nvery complex non-linear objective function with a very large number of\noptima.\n",
     "homepage": "https://cloud.r-project.org/package=GenSA",
-    "latest_version": "1.1.8",
+    "latest_version": "1.1.14",
     "maintainers": [],
     "name": "r-gensa",
     "patches": [],
@@ -29,6 +29,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.1.14",
+            "sha256": "66e455bb0e66d3c04af84d9dddc9b89f40b4cf9fe9ad1cf0714bcf30aa1b6837"
+        },
         {
             "name": "1.1.8",
             "sha256": "375e87541eb6b098584afccab361dc28ff09d03cf1d062ff970208e294eca216"

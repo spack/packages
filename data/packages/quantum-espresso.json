@@ -227,7 +227,7 @@
     "dependent_to": [],
     "description": "Quantum ESPRESSO is an integrated suite of Open-Source computer codes\nfor electronic-structure calculations and materials modeling at the\nnanoscale. It is based on density-functional theory, plane waves, and\npseudopotentials.\n",
     "homepage": "https://quantum-espresso.org",
-    "latest_version": "7.3.1",
+    "latest_version": "7.4",
     "maintainers": [
         "bellenlau",
         "tgorni",
@@ -599,6 +599,10 @@
         {
             "branch": "develop",
             "name": "develop"
+        },
+        {
+            "name": "7.4",
+            "sha256": "b15dcfe25f4fbf15ccd34c1194021e90996393478226e601d876f7dea481d104"
         },
         {
             "name": "7.3.1",

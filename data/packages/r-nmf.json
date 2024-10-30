@@ -84,7 +84,7 @@
     ],
     "description": "Algorithms and Framework for Nonnegative Matrix Factorization (NMF).\nProvides a framework to perform Non-negative Matrix Factorization (NMF).\nThe package implements a set of already published algorithms and seeding\nmethods, and provides a framework to test, develop and plug new/custom\nalgorithms. Most of the built-in algorithms have been optimized in C++,\nand the main interface function provides an easy way of performing\nparallel computations on multicore machines.\n",
     "homepage": "https://cloud.r-project.org/package=NMF",
-    "latest_version": "0.26",
+    "latest_version": "0.27",
     "maintainers": [],
     "name": "r-nmf",
     "patches": [],
@@ -97,6 +97,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.27",
+            "sha256": "af4302efca4a7654fecd31c376f1bb3496428279a50b8d5691c8a7e66e3f3ef9"
+        },
         {
             "name": "0.26",
             "sha256": "8d44562ef5f33f3811929f944c9d029ec25526d2ddddfe7c8a5b6e23adbc2ec0"

@@ -56,6 +56,10 @@
             "name": "r-urca"
         },
         {
+            "description": "Run Code 'With' Temporarily Modified Global State. A set of functions to\nrun code 'with' safely and temporarily modified global state. Many of\nthese functions were originally a part of the 'devtools' package, this\nprovides a simple package with limited dependencies to provide access to\nthese functions.",
+            "name": "r-withr"
+        },
+        {
             "description": "S3 Infrastructure for Regular and Irregular Time Series (Z's Ordered\nObservations). An S3 class with methods for totally ordered indexed\nobservations. It is particularly aimed at irregular time series of\nnumeric vectors/matrices and factors. zoo's key design goals are\nindependence of a particular index/date/time class and consistency with\nts and base R by providing methods to extend standard generics.",
             "name": "r-zoo"
         }
@@ -68,7 +72,7 @@
     ],
     "description": "Forecasting Functions for Time Series and Linear Models. Methods and\ntools for displaying and analysing univariate time series forecasts\nincluding exponential smoothing via state space models and automatic\nARIMA modelling.\n",
     "homepage": "https://cloud.r-project.org/package=forecast",
-    "latest_version": "8.21",
+    "latest_version": "8.23.0",
     "maintainers": [],
     "name": "r-forecast",
     "patches": [],
@@ -81,6 +85,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "8.23.0",
+            "sha256": "ffc3d41138f498fb286f0ebfeb72d15f9f7a8e953abf3c351ebf95fc188a1880"
+        },
         {
             "name": "8.21",
             "sha256": "fdd131795a9d3fb399d76a9aa66a0c276637caaa9ec0c75fbe386189d005c6c2"

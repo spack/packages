@@ -48,7 +48,7 @@
     ],
     "description": "Authoring Books and Technical Documents with R Markdown. Output formats\nand utilities for authoring books and technical documents with R\nMarkdown.\n",
     "homepage": "https://cloud.r-project.org/package=bookdown",
-    "latest_version": "0.33",
+    "latest_version": "0.40",
     "maintainers": [],
     "name": "r-bookdown",
     "patches": [],
@@ -61,6 +61,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.40",
+            "sha256": "58df4a044704b6c42a397f4e430a7fc8f6171bad1447872119aceafd158eac39"
+        },
         {
             "name": "0.33",
             "sha256": "2288e1d0c383e6ab49202a18db6cc1a04c3adc1b25da646cc46167bc6c2892c3"

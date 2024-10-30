@@ -36,7 +36,7 @@
     ],
     "description": "Circular Visualization. Circular layout is an efficient way for the\nvisualization of huge amounts of information. Here this package provides\nan implementation of circular layout generation in R as well as an\nenhancement of available software. The flexibility of the package is\nbased on the usage of low-level graphics functions such that self-\ndefined high-level graphics can be easily implemented by users for\nspecific purposes. Together with the seamless connection between the\npowerful computational and visual environment in R, it gives users more\nconvenience and freedom to design figures for better understanding\ncomplex patterns behind multiple dimensional data. The package is\ndescribed in Gu et al. 2014 <doi:10.1093/bioinformatics/btu393>.\n",
     "homepage": "https://cloud.r-project.org/package=circlize",
-    "latest_version": "0.4.15",
+    "latest_version": "0.4.16",
     "maintainers": [],
     "name": "r-circlize",
     "patches": [],
@@ -49,6 +49,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.4.16",
+            "sha256": "16dc32c7704906d13a9e5281bb396e92fb89a6b17fa5e201953240726b650b67"
+        },
         {
             "name": "0.4.15",
             "sha256": "d602d55313fe7c675109153d6ed3b99bdba5292e1deefed71d5a21e0db595cc7"

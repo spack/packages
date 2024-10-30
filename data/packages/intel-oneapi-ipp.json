@@ -42,7 +42,7 @@
     "dependent_to": [],
     "description": "Intel Integrated Performance Primitives (Intel IPP) is an extensive\nlibrary of ready-to-use, domain-specific functions that are highly\noptimized for diverse Intel architectures. These functions take\nadvantage of Single Instruction, Multiple Data (SIMD) instructions and\nimprove the performance of computation-intensive applications, including\nsignal processing, data compression, video processing, and cryptography.\nThe intel-oneapi-ippcp package contains support for cryptography and\neverything else can be found in the intel-oneapi-ipp package. LICENSE\nINFORMATION: By downloading and using this software, you agree to the\nterms and conditions of the software license agreements at\nhttps://intel.ly/393CijO.\n",
     "homepage": "https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/ipp.html",
-    "latest_version": "2021.12.1",
+    "latest_version": "2022.0.0",
     "maintainers": [
         "rscohn2"
     ],
@@ -62,6 +62,11 @@
         }
     ],
     "versions": [
+        {
+            "name": "2022.0.0",
+            "sha256": "e5e9be64ed79d9f3b2a11d9cdb573bea4a3a9a5cf08e5b7cc713947e622abbd6",
+            "url": "https://registrationcenter-download.intel.com/akdlm/IRC_NAS/acf220fa-326d-4f6e-9b63-f2da47b6f680/intel-ipp-2022.0.0.809_offline.sh"
+        },
         {
             "name": "2021.12.1",
             "sha256": "2d53745148d33f44895f4a9f9ba123c689efedbc739ab13630f25b4a1ce53165",

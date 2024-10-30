@@ -12,6 +12,10 @@
             "name": "r-ggplot2"
         },
         {
+            "description": "Manage the Life Cycle of your Package Functions. Manage the life cycle\nof your exported functions with shared conventions, documentation\nbadges, and non-invasive deprecation warnings. The 'lifecycle' package\ndefines four development stages (experimental, maturing, stable, and\nquestioning) and three deprecation stages (soft-deprecated, deprecated,\nand defunct). It makes it easy to insert badges corresponding to these\nstages in your documentation. Usage of deprecated functions are\nsignalled with increasing levels of non-invasive verbosity.",
+            "name": "r-lifecycle"
+        },
+        {
             "description": "Functional Programming Tools. A complete and consistent functional\nprogramming toolkit for R.",
             "name": "r-purrr"
         },
@@ -31,7 +35,7 @@
     "dependent_to": [],
     "description": "Extra Themes, Scales and Geoms for 'ggplot2'. Some extra themes, geoms,\nand scales for 'ggplot2'. Provides 'ggplot2' themes and scales that\nreplicate the look of plots by Edward Tufte, Stephen Few,\n'Fivethirtyeight', 'The Economist', 'Stata', 'Excel', and 'The Wall\nStreet Journal', among others. Provides 'geoms' for Tufte's box plot and\nrange frame.\n",
     "homepage": "https://cloud.r-project.org/package=ggthemes",
-    "latest_version": "4.2.4",
+    "latest_version": "5.1.0",
     "maintainers": [],
     "name": "r-ggthemes",
     "patches": [],
@@ -44,6 +48,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "5.1.0",
+            "sha256": "074819acfe8bb2233426a0fef3bb448c5ce817bb14d517252fa05932e28bbd0e"
+        },
         {
             "name": "4.2.4",
             "sha256": "7b35168cf5b68f6f52dd533a1b345ec87e09d1a85ca68e8dc5377cdf95718567"

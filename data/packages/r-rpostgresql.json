@@ -24,7 +24,7 @@
     ],
     "description": "R Interface to the 'PostgreSQL' Database System. Database interface and\nPostgreSQL driver for R This package provides a Database Interface (DBI)\ncompliant driver for R to access PostgreSQL database systems. In order\nto build and install this package from source, PostgreSQL itself must be\npresent your system to provide PostgreSQL functionality via its\nlibraries and header files. These files are provided as postgresql-devel\npackage under some Linux distributions. On Microsoft Windows system the\nattached libpq library source will be used. A wiki and issue tracking\nsystem for the package are available at Google Code at\nhttps://code.google.com/p/rpostgresql/.\n",
     "homepage": "https://cloud.r-project.org/package=RPostgreSQL",
-    "latest_version": "0.7-5",
+    "latest_version": "0.7-6",
     "maintainers": [],
     "name": "r-rpostgresql",
     "patches": [],
@@ -37,6 +37,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.7-6",
+            "sha256": "385939708b6a3657663409f91e165ded0ff5268d1dc6225e0f9b34764baf2d2c"
+        },
         {
             "name": "0.7-5",
             "sha256": "6b5401ee55bd948ae7bc84520d789ceb422533a7d5e5bd6e10e3b54447f29fa1"

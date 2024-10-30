@@ -20,6 +20,14 @@
             "name": "r-igraph"
         },
         {
+            "description": "Accurate Numerical Derivatives. Methods for calculating (usually)\naccurate numerical first and second order derivatives. Accurate\ncalculations are done using 'Richardson\"s' extrapolation or, when\napplicable, a complex step derivative is available. A simple difference\nmethod is also provided. Simple difference is (usually) less accurate\nbut is much quicker than 'Richardson\"s' extrapolation and provides a\nuseful cross-check. Methods are provided for real scalar and vector\nvalued functions.",
+            "name": "r-numderiv"
+        },
+        {
+            "description": "Practical Numerical Math Functions. Provides a large number of functions\nfrom numerical analysis and linear algebra, numerical optimization,\ndifferential equations, time series, plus some well-known special\nmathematical functions. Uses 'MATLAB' function names where appropriate\nto simplify porting.",
+            "name": "r-pracma"
+        },
+        {
             "description": "Encapsulated Classes with Reference Semantics. The R6 package allows the\ncreation of classes with reference semantics, similar to R's built-in\nreference classes. Compared to reference classes, R6 classes are simpler\nand lighter-weight, and they are not built on S4 classes so they do not\nrequire the methods package. These classes allow public and private\nmembers, and they support inheritance, even when the classes are defined\nin different packages.",
             "name": "r-r6"
         }
@@ -27,7 +35,7 @@
     "dependent_to": [],
     "description": "MCMC, Particle Filtering, and Programmable Hierarchical Modeling. A\nsystem for writing hierarchical statistical models largely compatible\nwith 'BUGS' and 'JAGS', writing nimbleFunctions to operate models and do\nbasic R-style math, and compiling both models and nimbleFunctions via\ncustom-generated C++. 'NIMBLE' includes default methods for MCMC, Monte\nCarlo Expectation Maximization, and some other tools. The nimbleFunction\nsystem makes it easy to do things like implement new MCMC samplers from\nR, customize the assignment of samplers to different parts of a model\nfrom R, and compile the new samplers automatically via C++ alongside the\nsamplers 'NIMBLE' provides. 'NIMBLE' extends the 'BUGS'/'JAGS' language\nby making it extensible: New distributions and functions can be added,\nincluding as calls to external compiled code. Although most people think\nof MCMC as the main goal of the 'BUGS'/'JAGS' language for writing\nmodels, one can use 'NIMBLE' for writing arbitrary other kinds of model-\ngeneric algorithms as well. A full User Manual is available at\n<https://r-nimble.org>.\n",
     "homepage": "https://cloud.r-project.org/package=nimble",
-    "latest_version": "0.13.1",
+    "latest_version": "1.2.1",
     "maintainers": [],
     "name": "r-nimble",
     "patches": [],
@@ -40,6 +48,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.2.1",
+            "sha256": "2e8571e73e5b7553ee84db376444c18e211d4ba542ed415004c5128cb6802587"
+        },
         {
             "name": "0.13.1",
             "sha256": "dc70caab64a8a4e44fb13fa6d67f6f2a0453fa684669e24718758bb2a8cf8530"

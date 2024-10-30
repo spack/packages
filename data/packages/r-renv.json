@@ -8,10 +8,15 @@
             "name": "r"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "Deployment Interface for R Markdown Documents and Shiny Applications.\nProgrammatic deployment interface for 'RPubs', 'shinyapps.io', and\n'RStudio Connect'. Supported content types include R Markdown documents,\nShiny applications, Plumber APIs, plots, and static web content.",
+            "name": "r-rsconnect"
+        }
+    ],
     "description": "Project Environments for R packages. A dependency management toolkit for\nR. Using 'renv', you can create and manage project-local R libraries,\nsave the state of these libraries to a 'lockfile', and later restore\nyour library as required. Together, these tools can help make your\nprojects more isolated, portable, and reproducible.\n",
     "homepage": "https://cloud.r-project.org/package=renv",
-    "latest_version": "0.17.3",
+    "latest_version": "1.0.7",
     "maintainers": [],
     "name": "r-renv",
     "patches": [],
@@ -24,6 +29,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.0.7",
+            "sha256": "7b60b58a23743803ab167f82f78663e86f778947b2bda07afa12689338794507"
+        },
         {
             "name": "0.17.3",
             "sha256": "1c4f28cd233e1f539a2a091f1d118de83eb8aea5d5780dbdfb6bb8dcc6e4f5f0"

@@ -24,7 +24,7 @@
     ],
     "description": "Templating Framework for Report Generation. Brew implements a templating\nframework for mixing text and R code for report generation. brew\ntemplate syntax is similar to PHP, Ruby's erb module, Java Server Pages,\nand Python's psp module.\n",
     "homepage": "https://cloud.r-project.org/package=brew",
-    "latest_version": "1.0-8",
+    "latest_version": "1.0-10",
     "maintainers": [],
     "name": "r-brew",
     "patches": [],
@@ -37,6 +37,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.0-10",
+            "sha256": "4181f7334e032ae0775c5dec49d6137eb25d5430ca3792d321793307b3dda38f"
+        },
         {
             "name": "1.0-8",
             "sha256": "11652d5a7042d645cc5be5f9f97ff4d46083cea7d3ad2dd6ad1570b52c097826"

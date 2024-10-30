@@ -46,7 +46,7 @@
     ],
     "description": "Intel oneAPI Threading Building Blocks (oneTBB) is a flexible\nperformance library that simplifies the work of adding parallelism to\ncomplex applications across accelerated architectures, even if you are\nnot a threading expert. LICENSE INFORMATION: By downloading and using\nthis software, you agree to the terms and conditions of the software\nlicense agreements at https://intel.ly/393CijO.\n",
     "homepage": "https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/onetbb.html",
-    "latest_version": "2021.13.1",
+    "latest_version": "2022.0.0",
     "maintainers": [
         "rscohn2"
     ],
@@ -66,6 +66,11 @@
         }
     ],
     "versions": [
+        {
+            "name": "2022.0.0",
+            "sha256": "02077de6748422c1b5396afc3806addd9b1e832d9807126b54f22ed18853f86f",
+            "url": "https://registrationcenter-download.intel.com/akdlm/IRC_NAS/9d5f5bd1-6021-41f7-aa3e-36d44c4ac190/intel-onetbb-2022.0.0.403_offline.sh"
+        },
         {
             "name": "2021.13.1",
             "sha256": "cae21300e5e4e3bbb392b24db54246a103c1634296529617292be62e7b8505a4",

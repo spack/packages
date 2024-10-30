@@ -50,6 +50,10 @@
             "name": "r-pkgdepends"
         },
         {
+            "description": "Simulate Package Installation and Attach. Simulates the process of\ninstalling a package and then attaching it. This is a key part of the\n'devtools' package as it allows you to rapidly iterate while developing\na package.",
+            "name": "r-pkgload"
+        },
+        {
             "description": "Unit Testing for R. Software testing is important, but, in part because\nit is frustrating and boring, many of us avoid it. 'testthat' is a\ntesting framework for R that is easy to learn and use, and integrates\nwith your existing 'workflow'.",
             "name": "r-testthat"
         },
@@ -60,7 +64,7 @@
     ],
     "description": "Execute and Control System Processes. Tools to run system processes in\nthe background. It can check if a background process is running; wait on\na background process to finish; get the exit status of finished\nprocesses; kill background processes. It can read the standard output\nand error of the processes, using non-blocking connections. 'processx'\ncan poll a process for standard output or error, with a timeout. It can\nalso poll several processes at once.\n",
     "homepage": "https://cloud.r-project.org/package=processx",
-    "latest_version": "3.8.1",
+    "latest_version": "3.8.4",
     "maintainers": [],
     "name": "r-processx",
     "patches": [],
@@ -73,6 +77,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.8.4",
+            "sha256": "6627672d7fb109f37dc1d0eaef913f4cfc7ad8ac807abf0397e6d37753b1e70b"
+        },
         {
             "name": "3.8.1",
             "sha256": "e008472b81d4ca1a37a4ba7dd58e5e944f96ab2e44c8ccc8840d43e9fe99e93c"

@@ -24,6 +24,10 @@
             "name": "r-generics"
         },
         {
+            "description": "Lasso and Elastic-Net Regularized Generalized Linear Models. Extremely\nefficient procedures for fitting the entire lasso or elastic-net\nregularization path for linear regression, logistic and multinomial\nregression models, Poisson regression and the Cox model. Two recent\nadditions are the multiple-response Gaussian, and the grouped\nmultinomial. The algorithm uses cyclical coordinate descent in a path-\nwise fashion, as described in the paper linked to via the URL below.",
+            "name": "r-glmnet"
+        },
+        {
             "description": "Trellis Graphics for R. A powerful and elegant high-level data\nvisualization system inspired by Trellis graphics, with an emphasis on\nmultivariate data. Lattice is sufficient for typical graphics needs, and\nis also flexible enough to handle most nonstandard requirements. See\n?Lattice for an introduction.",
             "name": "r-lattice"
         },
@@ -67,7 +71,7 @@
     "dependent_to": [],
     "description": "Multivariate Imputation by Chained Equations. Multiple imputation using\nFully Conditional Specification (FCS) implemented by the MICE algorithm\nas described in Van Buuren and Groothuis-Oudshoorn (2011)\n<doi:10.18637/jss.v045.i03>. Each variable has its own imputation model.\nBuilt-in imputation models are provided for continuous data (predictive\nmean matching, normal), binary data (logistic regression), unordered\ncategorical data (polytomous logistic regression) and ordered\ncategorical data (proportional odds). MICE can also impute continuous\ntwo-level data (normal model, pan, second-level variables). Passive\nimputation can be used to maintain consistency between variables.\nVarious diagnostic plots are available to inspect the quality of the\nimputations.\n",
     "homepage": "https://cloud.r-project.org/package=mice",
-    "latest_version": "3.15.0",
+    "latest_version": "3.16.0",
     "maintainers": [],
     "name": "r-mice",
     "patches": [],
@@ -80,6 +84,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.16.0",
+            "sha256": "29f0285185a540337e9dde2357690c82d174f115be701ee2f0a7083173a44040"
+        },
         {
             "name": "3.15.0",
             "sha256": "3d64dd260e3dce9c4c2f7be8c99f3063769df9ccfd3a0fc827c2de0ac842e87b"

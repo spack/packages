@@ -12,6 +12,10 @@
             "name": "r-automap"
         },
         {
+            "description": "Choose Univariate Class Intervals. Selected commonly used methods for\nchoosing univariate class intervals for mapping or other graphics\npurposes.",
+            "name": "r-classint"
+        },
+        {
             "description": "Misc Functions of the Department of Statistics, Probability Theory Group\n(Formerly: E1071), TU Wien. Functions for latent class analysis, short\ntime Fourier transform, fuzzy clustering, support vector machines,\nshortest path computation, bagged clustering, naive Bayes classifier,\ngeneralized k-nearest neighbour ...",
             "name": "r-e1071"
         },
@@ -48,7 +52,7 @@
     ],
     "description": "Time Series Management, Analysis and Interpolation for Hydrological\nModelling. S3 functions for management, analysis, interpolation and\nplotting of time series used in hydrology and related environmental\nsciences. In particular, this package is highly oriented to hydrological\nmodelling tasks. The focus of this package has been put in providing a\ncollection of tools useful for the daily work of hydrologists (although\nan effort was made to optimise each function as much as possible,\nfunctionality has had priority over speed). Bugs / comments / questions\n/ collaboration of any kind are very welcomed, and in particular,\ndatasets that can be included in this package for academic purposes.\n",
     "homepage": "https://cloud.r-project.org/package=hydroTSM",
-    "latest_version": "0.6-0",
+    "latest_version": "0.7-0",
     "maintainers": [],
     "name": "r-hydrotsm",
     "patches": [],
@@ -61,6 +65,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.7-0",
+            "sha256": "a6e1f0f74a5b8f3a7c05d020739342278b0a54e7b63a66a755db5599ebf94a8e"
+        },
         {
             "name": "0.6-0",
             "sha256": "5be759845ce05ca579ed2657c85d497b78c3060d737e84fcd457153045db4ad7"

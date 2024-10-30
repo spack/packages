@@ -64,7 +64,7 @@
     ],
     "description": "Development Utilities for R Packages. This package provides some low-\nlevel utilities to use for package development. It currently provides\nmanagers for multiple package specific options and registries, vignette,\nunit test and bibtex related utilities. It serves as a base package for\npackages like NMF, RcppOctave, doRNG, and as an incubator package for\nother general purposes utilities, that will eventually be packaged\nseparately. It is still under heavy development and changes in the\ninterface(s) are more than likely to happen.\n",
     "homepage": "https://cloud.r-project.org/package=pkgmaker",
-    "latest_version": "0.32.8",
+    "latest_version": "0.32.10",
     "maintainers": [],
     "name": "r-pkgmaker",
     "patches": [],
@@ -77,6 +77,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.32.10",
+            "sha256": "972b0473a64408ccc4841fa3f09a567cc32811e69c3c7e42a2f391a5eb2e2933"
+        },
         {
             "name": "0.32.8",
             "sha256": "0ff3578d2c051b544c3f105cfe4801575aac1564add048f9e952c53a8ccd1745"

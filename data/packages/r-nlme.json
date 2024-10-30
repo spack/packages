@@ -22,6 +22,10 @@
             "name": "r-ape"
         },
         {
+            "description": "Functions to accompany A. Gelman and J. Hill, Data Analysis Using\nRegression and Multilevel/Hierarchical Models, Cambridge University\nPress, 2007.",
+            "name": "r-arm"
+        },
+        {
             "description": "Bayesian Regression Models using 'Stan'. Fit Bayesian generalized\n(non-)linear multivariate multilevel models using 'Stan' for full\nBayesian inference. A wide range of distributions and link functions are\nsupported, allowing users to fit - among others - linear, robust linear,\ncount data, survival, response times, ordinal, zero-inflated, hurdle,\nand even self-defined mixture models all in a multilevel context.\nFurther modeling options include non-linear and smooth terms, auto-\ncorrelation structures, censored data, meta-analytic standard errors,\nand quite a few more. In addition, all parameters of the response\ndistribution can be predicted in order to perform distributional\nregression. Prior specifications are flexible and explicitly encourage\nusers to apply prior distributions that actually reflect their beliefs.\nModel fit can easily be assessed and compared with posterior predictive\nchecks and leave-one-out cross-validation. References: Burkner (2017)\n<doi:10.18637/jss.v080.i01>; Burkner (2018) <doi:10.32614/RJ-2018-017>;\nCarpenter et al. (2017) <doi:10.18637/jss.v076.i01>.",
             "name": "r-brms"
         },
@@ -112,7 +116,7 @@
     ],
     "description": "Linear and Nonlinear Mixed Effects Models. Fit and compare Gaussian\nlinear and nonlinear mixed-effects models.\n",
     "homepage": "https://cloud.r-project.org/package=nlme",
-    "latest_version": "3.1-162",
+    "latest_version": "3.1-166",
     "maintainers": [],
     "name": "r-nlme",
     "patches": [],
@@ -125,6 +129,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.1-166",
+            "sha256": "237a14ee8d78755b11a7efe234b95be40b46fbdd1b4aaf463f6d532be1909762"
+        },
         {
             "name": "3.1-162",
             "sha256": "ba6da2575554afa2614c4cba9971f8a9f8a07622d201284cb78899f3d6a2dc67"

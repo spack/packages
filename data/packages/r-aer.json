@@ -35,7 +35,7 @@
     "dependent_to": [],
     "description": "Applied Econometrics with R. Functions, data sets, examples, demos, and\nvignettes for the book Christian Kleiber and Achim Zeileis (2008),\nApplied Econometrics with R, Springer-Verlag, New York. ISBN\n978-0-387-77316-2.\n",
     "homepage": "https://cloud.r-project.org/package=AER",
-    "latest_version": "1.2-10",
+    "latest_version": "1.2-12",
     "maintainers": [],
     "name": "r-aer",
     "patches": [],
@@ -48,6 +48,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.2-12",
+            "sha256": "55c7b0f17ecd0dc6e1c54ab09b40e89676f44658eaad444c818133fae8d1ea86"
+        },
         {
             "name": "1.2-10",
             "sha256": "650a5fb54a8addf8c86f1e0f88f4fac5349731bc5bf34762a991022140eedbdc"

@@ -32,7 +32,7 @@
     ],
     "description": "Interface to 'Lp_solve' v. 5.5 to Solve Linear/Integer Programs.\nLp_solve is freely available (under LGPL 2) software for solving linear,\ninteger and mixed integer programs. In this implementation we supply a\n\"wrapper\" function in C and some R functions that solve general\nlinear/integer problems, assignment problems, and transportation\nproblems. This version calls lp_solve\n",
     "homepage": "https://cloud.r-project.org/package=lpSolve",
-    "latest_version": "5.6.18",
+    "latest_version": "5.6.20",
     "maintainers": [],
     "name": "r-lpsolve",
     "patches": [],
@@ -45,6 +45,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "5.6.20",
+            "sha256": "3ffe06a0685123c36cd306b874f89a59a70c864c8f78c5569f82a86abedc21db"
+        },
         {
             "name": "5.6.18",
             "sha256": "751e1926fcd81b852b6c0d5ea7ecd9311ef6fbdbce9143b7872fea79590de712"

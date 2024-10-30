@@ -18,6 +18,10 @@
         {
             "description": "Functions that Apply to Rows and Columns of Matrices (and to Vectors).\nHigh-performing functions operating on rows and columns of matrices,\ne.g. col / rowMedians(), col / rowRanks(), and col / rowSds(). Functions\noptimized per data type and for subsetted calculations such that both\nmemory usage and processing time is minimized. There are also optimized\nvector-based methods, e.g. binMeans(), madDiff() and weightedMedian().",
             "name": "r-matrixstats"
+        },
+        {
+            "description": "Tools for Working with Posterior Distributions. Provides useful tools\nfor both users and developers of packages for fitting Bayesian models or\nworking with output from Bayesian models. The primary goals of the\npackage are to: (a) Efficiently convert between many different useful\nformats of draws (samples) from posterior or prior distributions. (b)\nProvide consistent methods for operations commonly performed on draws,\nfor example, subsetting, binding, or mutating draws. (c) Provide various\nsummaries of draws in convenient formats. (d) Provide lightweight\nimplementations of state of the art posterior inference diagnostics.\nReferences: Vehtari et al. (2021) <doi:10.1214/20-BA1221>.",
+            "name": "r-posterior"
         }
     ],
     "dependent_to": [
@@ -40,7 +44,7 @@
     ],
     "description": "Efficient Leave-One-Out Cross-Validation and WAIC for BayesianModels.\nEfficient approximate leave-one-out cross-validation (LOO) for Bayesian\nmodels fit using Markov chain Monte Carlo, as described in Vehtari,\nGelman, and Gabry (2017) <doi:10.1007/s11222-016-9696-4>. The\napproximation uses Pareto smoothed importance sampling (PSIS), a new\nprocedure for regularizing importance weights. As a byproduct of the\ncalculations, we also obtain approximate standard errors for estimated\npredictive errors and for the comparison of predictive errors between\nmodels. The package also provides methods for using stacking and other\nmodel weighting techniques to average Bayesian predictive distributions.\n",
     "homepage": "https://cloud.r-project.org/package=loo",
-    "latest_version": "2.6.0",
+    "latest_version": "2.8.0",
     "maintainers": [],
     "name": "r-loo",
     "patches": [],
@@ -53,6 +57,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.8.0",
+            "sha256": "aab727a95a2e1c0e5005188e7daa6eba52455fa0c5869130d53cee5a8963244c"
+        },
         {
             "name": "2.6.0",
             "sha256": "66da60fdf53a62cbc93797fa696a4cc43bce77f1721dd4bc1a58d25b3f981210"

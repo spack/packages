@@ -32,7 +32,7 @@
     ],
     "description": "R Object-Oriented Programming with or without References. Methods and\nclasses for object-oriented programming in R with or without references.\nLarge effort has been made on making definition of methods as simple as\npossible with a minimum of maintenance for package developers. The\npackage has been developed since 2001 and is now considered very stable.\nThis is a cross-platform package implemented in pure R that defines\nstandard S3 classes without any tricks.\n",
     "homepage": "https://cloud.r-project.org/package=R.oo",
-    "latest_version": "1.25.0",
+    "latest_version": "1.26.0",
     "maintainers": [],
     "name": "r-r-oo",
     "patches": [],
@@ -45,6 +45,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.26.0",
+            "sha256": "f7602b388c2216fbb4d1a31d4040ed92b40dc83d3e3746db7011637db4d44365"
+        },
         {
             "name": "1.25.0",
             "sha256": "b8b19061774918ee7d9d4330c16c0ea505f7cd02d01343df1e8b2e4fb847beef"

@@ -16,6 +16,10 @@
             "name": "r-cachem"
         },
         {
+            "description": "Fast Implementation of a Key-Value Store. Fast implementation of a key-\nvalue store. Environments are commonly used as key-value stores, but\nevery time a new key is used, it is added to R's global symbol table,\ncausing a small amount of memory leakage. This can be problematic in\ncases where many different keys are used. Fastmap avoids this memory\nleak issue by implementing the map using data structures in C++.",
+            "name": "r-fastmap"
+        },
+        {
             "description": "Tools for HTML. Tools for HTML generation and output.",
             "name": "r-htmltools"
         },
@@ -26,6 +30,10 @@
         {
             "description": "A Simple and Robust JSON Parser and Generator for R. A fast JSON parser\nand generator optimized for statistical data and the web. Started out as\na fork of 'RJSONIO', but has been completely rewritten in recent\nversions. The package offers flexible, robust, high performance tools\nfor working with JSON in R and is particularly powerful for building\npipelines and interacting with a web API. The implementation is based on\nthe mapping described in the vignette (Ooms, 2014). In addition to\nconverting JSON data from/to R objects, 'jsonlite' contains functions to\nstream, validate, and prettify JSON data. The unit tests included with\nthe package verify that all edge cases are encoded and decoded\nconsistently for use with dynamic data in systems and applications.",
             "name": "r-jsonlite"
+        },
+        {
+            "description": "Manage the Life Cycle of your Package Functions. Manage the life cycle\nof your exported functions with shared conventions, documentation\nbadges, and non-invasive deprecation warnings. The 'lifecycle' package\ndefines four development stages (experimental, maturing, stable, and\nquestioning) and three deprecation stages (soft-deprecated, deprecated,\nand defunct). It makes it easy to insert badges corresponding to these\nstages in your documentation. Usage of deprecated functions are\nsignalled with increasing levels of non-invasive verbosity.",
+            "name": "r-lifecycle"
         },
         {
             "description": "'Memoisation' of Functions. Cache the results of a function so that when\nyou call it again with the same arguments it returns the pre-computed\nvalue.",
@@ -60,7 +68,7 @@
     ],
     "description": "Custom 'Bootstrap' 'Sass' Themes for 'shiny' and 'rmarkdown'. Simplifies\ncustom 'CSS' styling of both 'shiny' and 'rmarkdown' via 'Bootstrap'\n'Sass'. Supports both 'Bootstrap' 3 and 4 as well as their various\n'Bootswatch' themes. An interactive widget is also provided for\npreviewing themes in real time.\n",
     "homepage": "https://cloud.r-project.org/package=bslib",
-    "latest_version": "0.4.2",
+    "latest_version": "0.8.0",
     "maintainers": [],
     "name": "r-bslib",
     "patches": [],
@@ -73,6 +81,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.8.0",
+            "sha256": "fd182ddb1b128691d2b0c12882361732a23d451dbf4052ba70b11257e8d44b03"
+        },
         {
             "name": "0.4.2",
             "sha256": "9a40b7a1bbe409af273e1e940d921ab198ea576548f06f055f552f70ff822f19"

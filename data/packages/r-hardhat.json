@@ -36,7 +36,7 @@
     ],
     "description": "Construct Modeling Packages. Building modeling packages is hard. A large\namount of effort generally goes into providing an implementation for a\nnew method that is efficient, fast, and correct, but often less emphasis\nis put on the user interface. A good interface requires specialized\nknowledge about S3 methods and formulas, which the average package\ndeveloper might not have. The goal of 'hardhat' is to reduce the burden\naround building new modeling packages by providing functionality for\npreprocessing, predicting, and validating input.\n",
     "homepage": "https://cloud.r-project.org/package=hardhat",
-    "latest_version": "1.3.0",
+    "latest_version": "1.4.0",
     "maintainers": [],
     "name": "r-hardhat",
     "patches": [],
@@ -49,6 +49,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.4.0",
+            "sha256": "46d023ddfc8f940cd889478fa91c42e894a0df58a10f3b6c0eb688a500b2b3ad"
+        },
         {
             "name": "1.3.0",
             "sha256": "fe9ff009e2ba6dd4d70cbb541430f88d85c0a28d6a1c2772e4910c79b81fe82e"

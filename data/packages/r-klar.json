@@ -23,7 +23,7 @@
     "dependent_to": [],
     "description": "Classification and Visualization. Miscellaneous functions for\nclassification and visualization, e.g. regularized discriminant\nanalysis, sknn() kernel-density naive Bayes, an interface to 'svmlight'\nand stepclass() wrapper variable selection for supervised\nclassification, partimat() visualization of classification rules and\nshardsplot() of cluster results as well as kmodes() clustering for\ncategorical data, corclust() variable clustering, variable extraction\nfrom different variable clustering models and weight of evidence\npreprocessing.\n",
     "homepage": "https://cloud.r-project.org/package=klaR",
-    "latest_version": "1.7-2",
+    "latest_version": "1.7-3",
     "maintainers": [],
     "name": "r-klar",
     "patches": [],
@@ -36,6 +36,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.7-3",
+            "sha256": "d36c041c017cdb5ba3dbf7fb61d5ce3908d8e780eb2912fc99471394fcb8e3e5"
+        },
         {
             "name": "1.7-2",
             "sha256": "8035c3edb8257973184ad5a2109fc7c77c32da913cb9dd0c2f1c373e6fccbd61"

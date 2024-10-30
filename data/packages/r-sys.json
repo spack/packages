@@ -20,11 +20,15 @@
         {
             "description": "Simple Git Client for R. Simple git client for R based on 'libgit2' with\nsupport for SSH and HTTPS remotes. All functions in 'gert' use basic R\ndata types (such as vectors and data-frames) for their arguments and\nreturn values. User credentials are shared with command line 'git'\nthrough the git-credential store and ssh keys stored on disk or ssh-\nagent.",
             "name": "r-gert"
+        },
+        {
+            "description": "Installing and Loading R Packages for Reproducible Workflows. A single\nkey function, 'Require' that wraps 'install.packages',\n'remotes::install_github', 'versions::install.versions', and\n'base::require' that allows for reproducible workflows. As with other\nfunctions in a reproducible workflow, this package emphasizes functions\nthat return the same result whether it is the first or subsequent times\nrunning the function. Maturing.",
+            "name": "r-require"
         }
     ],
     "description": "Powerful and Reliable Tools for Running System Commands in R. Drop-in\nreplacements for the base system2() function with fine control and\nconsistent behavior across platforms. Supports clean interruption,\ntimeout, background tasks, and streaming STDIN / STDOUT / STDERR over\nbinary or text connections. Arguments on Windows automatically get\nencoded and quoted to work on different locales.\n",
     "homepage": "https://cloud.r-project.org/package=sys",
-    "latest_version": "3.4.1",
+    "latest_version": "3.4.2",
     "maintainers": [],
     "name": "r-sys",
     "patches": [],
@@ -37,6 +41,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.4.2",
+            "sha256": "b7bdce66f0fb681830ea6fb77b5a2c6babb43920abb1eddc733f95c0a63ce5b3"
+        },
         {
             "name": "3.4.1",
             "sha256": "324e6d8fde58264e62bc04867b719c5fd16296de1542689801b8cb13621ecf52"

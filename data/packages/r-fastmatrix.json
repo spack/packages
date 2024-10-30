@@ -16,7 +16,7 @@
     ],
     "description": "Fast Computation of some Matrices Useful in Statistics. Small set of\nfunctions to fast computation of some matrices and operations useful in\nstatistics and econometrics. Currently, there are functions for\nefficient computation of duplication, commutation and symmetrizer\nmatrices with minimal storage requirements. Some commonly used matrix\ndecompositions (LU and LDL), basic matrix operations (for instance,\nHadamard, Kronecker products and the Sherman-Morrison formula) and\niterative solvers for linear systems are also available. In addition,\nthe package includes a number of common statistical procedures such as\nthe sweep operator, weighted mean and covariance matrix using an online\nalgorithm, linear regression (using Cholesky, QR, SVD, sweep operator\nand conjugate gradients methods), ridge regression (with optimal\nselection of the ridge parameter considering the GCV procedure),\nfunctions to compute the multivariate skewness, kurtosis, Mahalanobis\ndistance (checking the positive defineteness) and the Wilson-Hilferty\ntransformation of chi squared variables. Furthermore, the package\nprovides interfaces to C code callable by another C code from other R\npackages.\n",
     "homepage": "https://cloud.r-project.org/package=fastmatrix",
-    "latest_version": "0.5",
+    "latest_version": "0.5-772",
     "maintainers": [],
     "name": "r-fastmatrix",
     "patches": [],
@@ -29,6 +29,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.5-772",
+            "sha256": "72601bae9a59f467c5da9ccf08788f0233cdbb2420b6b2aa43a42a2632ff9c55"
+        },
         {
             "name": "0.5",
             "sha256": "fb5f251a98425161e9dbbbb7edf95226725255b1474aad03ab046c7c6c6c3f12"

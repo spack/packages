@@ -46,6 +46,10 @@
             "name": "r-reprex"
         },
         {
+            "description": "A Set of Tools that Enhance Reproducibility Beyond Package Management.\nCollection of high-level, machine- and OS-independent tools for making\ndeeply reproducible and reusable content in R. The two workhorse\nfunctions are Cache and prepInputs; these allow for: nested caching,\nrobust to environments, and objects with environments (like functions);\nand data retrieval and processing in continuous workflow environments.\nIn all cases, efforts are made to make the first and subsequent calls of\nfunctions have the same result, but vastly faster at subsequent times by\nway of checksums and digesting. Several features are still under active\ndevelopment, including cloud storage of cached objects, allowing for\nsharing between users. Several advanced options are available, see\n?reproducibleOptions.",
+            "name": "r-reproducible"
+        },
+        {
             "description": "Syntactically Awesome Style Sheets ('Sass'). An 'SCSS' compiler, powered\nby the 'LibSass' library. With this, R developers can use variables,\ninheritance, and functions to generate dynamic style sheets. The package\nuses the 'Sass CSS' extension language, which is stable, powerful, and\nCSS compatible.",
             "name": "r-sass"
         },
@@ -54,13 +58,21 @@
             "name": "r-shinyfiles"
         },
         {
+            "description": "Utilities for Developing and Running Spatially Explicit Discrete Event\nModels. Provides the core framework for a discrete event system (DES) to\nimplement acomplete data-to-decisions, reproducible workflow. The core\nDES components facilitate modularity, and easily enable the user to\ninclude additional functionality by running user-built modules. Includes\nconditional scheduling, restart after interruption, packaging of\nreusable modules, tools for developing arbitrary automated workflows,\nautomated interweaving of modules of different temporal resolution, and\ntools for visualizing and understanding the DES project.",
+            "name": "r-spades-core"
+        },
+        {
             "description": "Automate Package and Project Setup. Automate package and project setup\ntasks that are otherwise performed manually. This includes setting up\nunit testing, test coverage, continuous integration, Git, 'GitHub',\nlicenses, 'Rcpp', 'RStudio' projects, and more.",
             "name": "r-usethis"
+        },
+        {
+            "description": "Supporting Functions for Packages Maintained by 'YuLab-SMU'.\nMiscellaneous functions commonly used by 'YuLab-SMU'.",
+            "name": "r-yulab-utils"
         }
     ],
     "description": "Cross-Platform File System Operations Based on 'libuv'. A cross-platform\ninterface to file system operations, built on top of the 'libuv' C\nlibrary.\n",
     "homepage": "https://cloud.r-project.org/package=fs",
-    "latest_version": "1.6.2",
+    "latest_version": "1.6.4",
     "maintainers": [],
     "name": "r-fs",
     "patches": [],
@@ -73,6 +85,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.6.4",
+            "sha256": "7e06290f2dbe36f54fdf51b748a4b00b8b0f68967b5754e37e0c83df7fea5ac8"
+        },
         {
             "name": "1.6.2",
             "sha256": "548b7c0ed5ab26dc4fbd88707ae12987bcaef834dbc6de4e17d453846dc436b2"

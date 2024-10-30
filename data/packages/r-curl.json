@@ -124,7 +124,7 @@
     ],
     "description": "A Modern and Flexible Web Client for R. The curl() and curl_download()\nfunctions provide highly configurable drop-in replacements for base\nurl() and download.file() with better performance, support for\nencryption (https, ftps), gzip compression, authentication, and other\nlibcurl goodies. The core of the package implements a framework for\nperforming fully customized requests where data can be processed either\nin memory, on disk, or streaming via the callback or connection\ninterfaces. Some knowledge of libcurl is recommended; for a more-user-\nfriendly web client see the 'httr' package which builds on this package\nwith http specific tools and logic.\n",
     "homepage": "https://cloud.r-project.org/package=curl",
-    "latest_version": "5.0.0",
+    "latest_version": "5.2.1",
     "maintainers": [],
     "name": "r-curl",
     "patches": [],
@@ -137,6 +137,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "5.2.1",
+            "sha256": "4a7a4d8c08aa1bca2fcd9c58ade7b4b0ea2ed9076d0521071be29baac8adfa90"
+        },
         {
             "name": "5.0.0",
             "sha256": "d7f3cac9b513914ffa8f6f64e6fa5dd96c8273378ace6b0c16b71bc6ba59c9b2"

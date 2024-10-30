@@ -15,7 +15,7 @@
     "dependent_to": [],
     "description": "R Interface to Google Charts. R interface to Google Charts API, allowing\nusers to create interactive charts based on data frames. Charts are\ndisplayed locally via the R HTTP help server. A modern browser with an\nInternet connection is required and for some charts a Flash player. The\ndata remains local and is not uploaded to Google.\n",
     "homepage": "https://cloud.r-project.org/package=googleVis",
-    "latest_version": "0.7.1",
+    "latest_version": "0.7.3",
     "maintainers": [],
     "name": "r-googlevis",
     "patches": [],
@@ -28,6 +28,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.7.3",
+            "sha256": "5647ff552de5216b56ae758f29e411d04b754f482adbd3f41277d741b7708c6b"
+        },
         {
             "name": "0.7.1",
             "sha256": "335931059ea8645f824b01a06d30fafb4e38b47cd610a5eee20628801767f218"

@@ -36,7 +36,7 @@
     ],
     "description": "Lightweight Interface to TIGER/Line Shapefiles Download geographic\nshapes from the United States Census Bureau TIGER/Line Shapefiles\n<https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-\nline-file.html>. Functions support downloading and reading in geographic\nboundary data. All downloads can be set up with a cache to avoid\nmultiple downloads. Data is available back to 2000 for most geographies.\n",
     "homepage": "https://alarm-redist.org/tinytiger/",
-    "latest_version": "0.0.4",
+    "latest_version": "0.0.9",
     "maintainers": [
         "jgaeb"
     ],
@@ -51,6 +51,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.0.9",
+            "sha256": "fe9b1098a2d1d4722f8a7657a9244afcd3d6b7f4f112fc6a92c2fb75da07de59"
+        },
         {
             "name": "0.0.4",
             "sha256": "818328b5095d9e8b302f1a04d004cd3ec6e62d945dbd757fe15e9ab768a7459e"

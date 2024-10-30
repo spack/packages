@@ -20,7 +20,7 @@
     ],
     "description": "Enhancing the 'parallel' Package. Utility functions that enhance the\n'parallel' package and support the built-in parallel backends of the\n'future' package. For example, availableCores() gives the number of CPU\ncores available to your R process as given by the operating system,\n'cgroups' and Linux containers, R options, and environment variables,\nincluding those set by job schedulers on high-performance compute\nclusters. If none is set, it will fall back to parallel::detectCores().\nAnother example is makeClusterPSOCK(), which is backward compatible with\nparallel::makePSOCKcluster() while doing a better job in setting up\nremote cluster workers without the need for configuring the firewall to\ndo port-forwarding to your local computer.\n",
     "homepage": "https://cloud.r-project.org/package=parallelly",
-    "latest_version": "1.35.0",
+    "latest_version": "1.38.0",
     "maintainers": [],
     "name": "r-parallelly",
     "patches": [],
@@ -33,6 +33,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.38.0",
+            "sha256": "632c823c64d1bb840b2a5ff2cb2f5ffc743d62d5090a3cde55a2ebdde230d1aa"
+        },
         {
             "name": "1.35.0",
             "sha256": "3f5e9b6507196aab052c5e67f8b524b75aa356731c5eaffbadde76c967ad5dcd"

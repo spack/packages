@@ -52,6 +52,10 @@
             "name": "r-e1071"
         },
         {
+            "description": "Fast Creation of Dummy (Binary) Columns and Rows from Categorical\nVariables.",
+            "name": "r-fastdummies"
+        },
+        {
             "description": "Help to Fit of a Parametric Distribution to Non-Censored or Censored\nData. Extends the fitdistr() function (of the MASS package) with several\nfunctions to help the fit of a parametric distribution to non-censored\nor censored data. Censored data may contain left censored, right\ncensored and interval censored values, with several lower and upper\nbounds. In addition to maximum likelihood estimation (MLE), the package\nprovides moment matching (MME), quantile matching (QME) and maximum\ngoodness-of-fit estimation (MGE) methods (available only for non-\ncensored data). Weighted versions of MLE, MME and QME are available. See\ne.g. Casella & Berger (2002). Statistical inference. Pacific Grove.",
             "name": "r-fitdistrplus"
         },
@@ -78,6 +82,10 @@
         {
             "description": "Various R Programming Tools for Data Manipulation. Various R programming\ntools for data manipulation, including: [1] medical unit conversions\n('ConvertMedUnits', 'MedUnits'), [2] combining objects ('bindData',\n'cbindX', 'combine', 'interleave'), [3] character vector operations\n('centerText', 'startsWith', 'trim'), [4] factor manipulation ('levels',\n'reorder.factor', 'mapLevels'), [5] obtaining information about R\nobjects ('object.size', 'elem', 'env', 'humanReadable', 'is.what', 'll',\n'keep', 'ls.funs', 'Args','nPairs', 'nobs'), [6] manipulating MS-Excel\nformatted files ('read.xls', 'installXLSXsupport', 'sheetCount',\n'xlsFormats'), [7] generating fixed-width format files ('write.fwf'),\n[8] extricating components of date & time objects ('getYear',\n'getMonth', 'getDay', 'getHour', 'getMin', 'getSec'), [9] operations on\ncolumns of data frames ('matchcols', 'rename.vars'), [10] matrix\noperations ('unmatrix', 'upperTriangle', 'lowerTriangle'), [11]\noperations on vectors ('case', 'unknownToNA', 'duplicated2', 'trimSum'),\n[12] operations on data frames ('frameApply', 'wideByFactor'), [13]\nvalue of last evaluated expression ('ans'), and [14] wrapper for\n'sample' that ensures consistent behavior for both scalar and vector\narguments ('resample').",
             "name": "r-gdata"
+        },
+        {
+            "description": "Common S3 Generics not Provided by Base R Methods Related to Model\nFitting. In order to reduce potential package dependencies and\nconflicts, generics provides a number of commonly used S3 generics.",
+            "name": "r-generics"
         },
         {
             "description": "Joyplots in 'ggplot2'. Joyplots provide a convenient way of visualizing\nchanges in distributions over time or space.",
@@ -144,6 +152,10 @@
             "name": "r-leiden"
         },
         {
+            "description": "Manage the Life Cycle of your Package Functions. Manage the life cycle\nof your exported functions with shared conventions, documentation\nbadges, and non-invasive deprecation warnings. The 'lifecycle' package\ndefines four development stages (experimental, maturing, stable, and\nquestioning) and three deprecation stages (soft-deprecated, deprecated,\nand defunct). It makes it easy to insert badges corresponding to these\nstages in your documentation. Usage of deprecated functions are\nsignalled with increasing levels of non-invasive verbosity.",
+            "name": "r-lifecycle"
+        },
+        {
             "description": "Testing Linear Regression Models. A collection of tests, data sets, and\nexamples for diagnostic checking in linear regression models.\nFurthermore, some generic tools for inference in parametric models are\nprovided.",
             "name": "r-lmtest"
         },
@@ -200,6 +212,10 @@
             "name": "r-progressr"
         },
         {
+            "description": "Functional Programming Tools. A complete and consistent functional\nprogramming toolkit for R.",
+            "name": "r-purrr"
+        },
+        {
             "description": "A Fast Implementation of Random Forests. A fast implementation of Random\nForests, particularly suited for high dimensional data. Ensembles of\nclassification, regression, survival and probability prediction trees\nare supported. Data from genome-wide association studies can be analyzed\nefficiently. In addition to data frames, datasets of class 'gwaa.data'\n(R package 'GenABEL') and 'dgCMatrix' (R package 'Matrix') can be\ndirectly analyzed.",
             "name": "r-ranger"
         },
@@ -224,6 +240,10 @@
             "name": "r-rcppeigen"
         },
         {
+            "description": "'Rcpp' Bindings for 'hnswlib', a Library for Approximate\nNearestNeighbors. 'Hnswlib' is a C++ library for Approximate Nearest\nNeighbors. This ; package provides a minimal R interface by relying on\nthe 'Rcpp' package. See ; <https://github.com/nmslib/hnswlib> for more\non 'hnswlib'. 'hnswlib' is ; released under Version 2.0 of the Apache\nLicense.",
+            "name": "r-rcpphnsw"
+        },
+        {
             "description": "An Interruptible Progress Bar with OpenMP Support for C++ in R Packages.\nAllows to display a progress bar in the R console for long running\ncomputations taking place in c++ code, and support for interrupting\nthose computations even in multithreaded code, typically using OpenMP.",
             "name": "r-rcppprogress"
         },
@@ -242,6 +262,10 @@
         {
             "description": "Visualizing the Performance of Scoring Classifiers. ROC graphs,\nsensitivity/specificity curves, lift charts, and precision/recall plots\nare popular examples of trade-off visualizations for specific pairs of\nperformance measures. ROCR is a flexible tool for creating cutoff-\nparameterized 2D performance curves by freely combining two from over 25\nperformance measures (new performance measures can be added using a\nstandard interface). Curves from different cross-validation or\nbootstrapping runs can be averaged by different methods, and standard\ndeviations, standard errors or box plots can be used to visualize the\nvariability across the runs. The parameterization can be visualized by\nprinting cutoff values at the corresponding curve positions, or by\ncoloring the curve according to cutoff. All components of a performance\nplot can be quickly adjusted using a flexible parameter dispatching\nmechanism. Despite its flexibility, ROCR is easy to use, with only three\ncommands and reasonable default values for all optional parameters.",
             "name": "r-rocr"
+        },
+        {
+            "description": "Solvers for Large-Scale Eigenvalue and SVD Problems. R interface to the\n'Spectra' library <https://spectralib.org/> for large-scale eigenvalue\nand SVD problems. It is typically used to compute a few\neigenvalues/vectors of an n by n matrix, e.g., the k largest\neigenvalues, which is usually more efficient than eigen() if k << n.\nThis package provides the 'eigs()' function that does the similar job as\nin 'Matlab', 'Octave', 'Python SciPy' and 'Julia'. It also provides the\n'svds()' function to calculate the largest k singular values and\ncorresponding singular vectors of a real matrix. The matrix to be\ncomputed on can be dense, sparse, or in the form of an operator defined\nby the user.",
+            "name": "r-rspectra"
         },
         {
             "description": "Randomized Singular Value Decomposition. Low-rank matrix decompositions\nare fundamental tools and widely used for data analysis, dimension\nreduction, and data compression. Classically, highly accurate\ndeterministic matrix algorithms are used for this task. However, the\nemergence of large-scale data has severely challenged our computational\nability to analyze big data. The concept of randomness has been\ndemonstrated as an effective strategy to quickly produce approximate\nanswers to familiar problems such as the singular value decomposition\n(SVD). The rsvd package provides several randomized matrix algorithms\nsuch as the randomized singular value decomposition (rsvd), randomized\nprincipal component analysis (rpca), randomized robust principal\ncomponent analysis (rrpca), randomized interpolative decomposition\n(rid), and the randomized CUR decomposition (rcur). In addition several\nplot functions are provided. The methods are discussed in detail by\nErichson et al. (2016) <arXiv:1608.02148>.",
@@ -323,7 +347,7 @@
     "dependent_to": [],
     "description": "Tools for Single Cell Genomics. A toolkit for quality control, analysis,\nand exploration of single cell RNA sequencing data. 'Seurat' aims to\nenable users to identify and interpret sources of heterogeneity from\nsingle cell transcriptomic measurements, and to integrate diverse types\nof single cell data. See Satija R, Farrell J, Gennert D, et al (2015)\n<doi:10.1038/nbt.3192>, Macosko E, Basu A, Satija R, et al (2015)\n<doi:10.1016/j.cell.2015.05.002>, and Stuart T, Butler A, et al (2019)\n<doi:10.1016/j.cell.2019.05.031> for more details.\n",
     "homepage": "https://cloud.r-project.org/package=Seurat",
-    "latest_version": "4.3.0",
+    "latest_version": "5.1.0",
     "maintainers": [],
     "name": "r-seurat",
     "patches": [],
@@ -336,6 +360,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "5.1.0",
+            "sha256": "adcfb43d7a8cc55eaa7a0954a082ac95e14059a82901913379bfec115e224d59"
+        },
         {
             "name": "4.3.0",
             "sha256": "7ebacb3b86f74279de60b597f9a6e728f0668719811b0dca3425d21762fff97c"

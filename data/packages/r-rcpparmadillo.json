@@ -58,6 +58,10 @@
             "name": "r-gwmodel"
         },
         {
+            "description": "Mendelian Randomization Package. Encodes several methods for performing\nMendelian randomization analyses with summarized data. Summarized data\non genetic associations with the exposure and with the outcome can be\nobtained from large consortia. These data can be used for obtaining\ncausal estimates using instrumental variable methods.",
+            "name": "r-mendelianrandomization"
+        },
+        {
             "description": "Projection Predictive Feature Selection. Performs projection predictive\nfeature selection for generalized linear models and generalized linear\nand additive multilevel models (see, Piironen, Paasiniemi and Vehtari,\n2020, <https://projecteuclid.org/euclid.ejs/1589335310>, Catalina,\nBurkner and Vehtari, 2020, <arXiv:2010.06994>). The package is\ncompatible with the 'rstanarm' and 'brms' packages, but other reference\nmodels can also be used. See the package vignette for more information\nand examples.",
             "name": "r-projpred"
         },
@@ -82,8 +86,20 @@
             "name": "r-smoof"
         },
         {
+            "description": "Constructs basis functions of B-splines, M-splines, I-splines, convex\nsplines (C-splines), periodic splines, natural cubic splines,\ngeneralized Bernstein polynomials, their derivatives, and integrals\n(except C-splines) by closed-form recursive formulas. It also contains a\nC++ head-only library integrated with Rcpp. See Wang and Yan (2021)\n<doi:10.6339/21-JDS1020> for details.",
+            "name": "r-splines2"
+        },
+        {
             "description": "Testing, Monitoring, and Dating Structural Changes: C++ Version. A fast\nimplementation with additional experimental features for testing,\nmonitoring and dating structural changes in (linear) regression models.\n'strucchangeRcpp' features tests/methods from the generalized\nfluctuation test framework as well as from the F test (Chow test)\nframework. This includes methods to fit, plot and test fluctuation\nprocesses (e.g. cumulative/moving sum, recursive/moving estimates) and F\nstatistics, respectively. These methods are described in Zeileis et al.\n(2002) <doi:10.18637/jss.v007.i02>. Finally, the breakpoints in\nregression models with structural changes can be estimated together with\nconfidence intervals, and their magnitude as well as the model fit can\nbe evaluated using a variety of statistical measures.",
             "name": "r-strucchangercpp"
+        },
+        {
+            "description": "Analysis of Complex Survey Samples. Summary statistics, two-sample\ntests, rank tests, generalised linear models, cumulative link models,\nCox models, loglinear models, and general maximum pseudolikelihood\nestimation for multistage stratified, cluster-sampled, unequally\nweighted survey samples. Variances by Taylor series linearisation or\nreplicate weights. Post-stratification, calibration, and raking. Two-\nphase subsampling designs. Graphics. PPS sampling without replacement.\nPrincipal components, factor analysis.",
+            "name": "r-survey"
+        },
+        {
+            "description": "Robust Trimmed Clustering. Provides functions for robust trimmed\nclustering. The methods are described in Garcia-Escudero (2008)\n<doi:10.1214/07-AOS515>, Fritz et al. (2012)\n<doi:10.18637/jss.v047.i12>, Garcia-Escudero et al. (2011)\n<doi:10.1007/s11222-010-9194-z> and others.",
+            "name": "r-tclust"
         },
         {
             "description": "Who are You? Bayesian Prediction of Racial Category Using Surname, First\nName, Middle Name, and Geolocation Predicts individual race/ethnicity\nusing surname, first name, middle name, geolocation, and other\nattributes, such as gender and age. The method utilizes Bayes' Rule\n(with optional measurement error correction) to compute the posterior\nprobability of each racial category for any given individual. The\npackage implements methods described in Imai and Khanna (2016)\n\"Improving Ecological Inference by Predicting Individual Ethnicity from\nVoter Registration Records\" Political Analysis <doi:10.1093/pan/mpw001>.",
@@ -92,7 +108,7 @@
     ],
     "description": "'Rcpp' Integration for the 'Armadillo' Templated Linear Algebra Library.\n'Armadillo' is a templated C++ linear algebra library (by Conrad;\nSanderson) that aims towards a good balance between speed and ease of;\nuse. Integer, floating point and complex numbers are supported, as; well\nas a subset of trigonometric and statistics functions. Various; matrix\ndecompositions are provided through optional integration with; LAPACK\nand ATLAS libraries. The 'RcppArmadillo' package includes the; header\nfiles from the templated 'Armadillo' library. Thus users do; not need to\ninstall 'Armadillo' itself in order to use; 'RcppArmadillo'. From\nrelease 7.800.0 on, 'Armadillo' is licensed; under Apache License 2;\nprevious releases were under licensed as MPL; 2.0 from version 3.800.0\nonwards and LGPL-3 prior to that\n",
     "homepage": "https://cloud.r-project.org/package=RcppArmadillo",
-    "latest_version": "0.12.4.0.0",
+    "latest_version": "14.0.0-1",
     "maintainers": [],
     "name": "r-rcpparmadillo",
     "patches": [],
@@ -105,6 +121,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "14.0.0-1",
+            "sha256": "80c4d4fadc3ed92712affc50279de4c5f2e1f7ee777ad1f1b3f9f3e94a64ba90"
+        },
         {
             "name": "0.12.4.0.0",
             "sha256": "f6db54c465abc0a570a0da6f737d9fdf2187287fb235ce487b1903b5177482cb"

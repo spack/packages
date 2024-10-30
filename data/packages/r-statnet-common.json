@@ -28,7 +28,7 @@
     ],
     "description": "Common R Scripts and Utilities Used by the Statnet Project Software.\nNon-statistical utilities used by the software developed by the Statnet\nProject. They may also be of use to others.\n",
     "homepage": "https://cloud.r-project.org/package=statnet.common",
-    "latest_version": "4.8.0",
+    "latest_version": "4.9.0",
     "maintainers": [],
     "name": "r-statnet-common",
     "patches": [],
@@ -41,6 +41,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "4.9.0",
+            "sha256": "a485dc6e363a993d87336fbd1027adb1cd7b9103447fd63904cae4dc3bfc2dd7"
+        },
         {
             "name": "4.8.0",
             "sha256": "def999130673fbcb315fecf3620a2559864f51961a828625aa5cd5fded7946f0"

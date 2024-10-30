@@ -24,7 +24,7 @@
     ],
     "description": "Scatterplots with More Points. C-based conversion of large scatterplot\ndata to rasters. Speeds up plotting of data with millions of points.\n",
     "homepage": "https://cloud.r-project.org/package=scattermore",
-    "latest_version": "0.8",
+    "latest_version": "1.2",
     "maintainers": [],
     "name": "r-scattermore",
     "patches": [],
@@ -37,6 +37,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.2",
+            "sha256": "5534a87b0bdd1375f0fbffc1a5c980ad64e33a108435a67469b8324b580602d1"
+        },
         {
             "name": "0.8",
             "sha256": "dbdd73d8261cb063464bb29d5c17733b7e87bc50a19948bc80439e19f2a9f8e5"

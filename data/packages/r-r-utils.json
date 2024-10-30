@@ -58,6 +58,10 @@
             "name": "r-reportingtools"
         },
         {
+            "description": "A Swiss-Army Knife for Data I/O. Streamlined data import and export by\nmaking assumptions that the user is probably willing to make: 'import()'\nand 'export()' determine the data structure from the file extension,\nreasonable defaults are used for data import and export (e.g.,\n'stringsAsFactors=FALSE'), web-based import is natively supported\n(including from SSL/HTTPS), compressed files can be read directly\nwithout explicit decompression, and fast import packages are used where\nappropriate. An additional convenience function, 'convert()', provides a\nsimple method for converting between file types.",
+            "name": "r-rio"
+        },
+        {
             "description": "Mapping, quantification and variant analysis of sequencing data",
             "name": "r-rsubread"
         },
@@ -72,7 +76,7 @@
     ],
     "description": "Various Programming Utilities. Utility functions useful when programming\nand developing R packages.\n",
     "homepage": "https://cloud.r-project.org/package=R.utils",
-    "latest_version": "2.12.2",
+    "latest_version": "2.12.3",
     "maintainers": [],
     "name": "r-r-utils",
     "patches": [],
@@ -85,6 +89,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.12.3",
+            "sha256": "74d6e77a95a23381a490fea54be01b653d4b938a2dc75e749a694ab48302c40c"
+        },
         {
             "name": "2.12.2",
             "sha256": "fe3cf1aa8641540634e96990294d0202d4d94ec79ce73aaf78e4eda30fcb8836"

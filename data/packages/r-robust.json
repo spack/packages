@@ -36,7 +36,7 @@
     ],
     "description": "Port of the S+ Robust Library. Methods for robust statistics, a state of\nthe art in the early 2000s, notably for robust regression and robust\nmultivariate analysis.\n",
     "homepage": "https://cloud.r-project.org/package=robust",
-    "latest_version": "0.7-1",
+    "latest_version": "0.7-5",
     "maintainers": [],
     "name": "r-robust",
     "patches": [],
@@ -49,6 +49,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.7-5",
+            "sha256": "a3c02a9c9101b966907cb52b3193c4ef51864928ad99c3351edf5390532c1acc"
+        },
         {
             "name": "0.7-1",
             "sha256": "efaac70c6399b2787938e23ea89039b4a6043e76601bd794ba0ddda1edee65df"

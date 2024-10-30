@@ -128,7 +128,7 @@
     ],
     "description": "Create Interactive Web Graphics via 'plotly.js'. Create interactive web\ngraphics from 'ggplot2' graphs and/or a custom interface to the (MIT-\nlicensed) JavaScript library 'plotly.js' inspired by the grammar of\ngraphics.\n",
     "homepage": "https://cloud.r-project.org/package=plotly",
-    "latest_version": "4.10.1",
+    "latest_version": "4.10.4",
     "maintainers": [],
     "name": "r-plotly",
     "patches": [],
@@ -141,6 +141,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "4.10.4",
+            "sha256": "cfa995b7ed55d31a196707a3ae6ea352dd907cef3058a3bf1956fde39366d867"
+        },
         {
             "name": "4.10.1",
             "sha256": "ac0921a1cba24e17a0f3a0a28b7a40ac930e17fe5caa9c3973c9a8d1e20c367a"

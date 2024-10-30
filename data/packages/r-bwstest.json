@@ -24,7 +24,7 @@
     ],
     "description": "Baumgartner Weiss Schindler Test of Equal Distributions. Performs the\n'Baumgartner-Weiss-Schindler' two-sample test of equal probability\ndistributions, <doi:10.2307/2533862>. Also performs similar rank-based\ntests for equal probability distributions due to Neuhauser\n<doi:10.1080/10485250108832874> and Murakami\n<doi:10.1080/00949655.2010.551516>.\n",
     "homepage": "https://cloud.r-project.org/package=BWStest",
-    "latest_version": "0.2.2",
+    "latest_version": "0.2.3",
     "maintainers": [],
     "name": "r-bwstest",
     "patches": [],
@@ -37,6 +37,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.2.3",
+            "sha256": "4bc4cc27fcf0aa60c6497048b74528923aae852c98480900204835a8ebd714b2"
+        },
         {
             "name": "0.2.2",
             "sha256": "faff1dd698f1673a6befacb94d14281077d4c19be035a0a3bf85d77c1dfd5509"

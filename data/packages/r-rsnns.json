@@ -15,7 +15,7 @@
     "dependent_to": [],
     "description": "Neural Networks using the Stuttgart Neural Network Simulator (SNNS). The\nStuttgart Neural Network Simulator (SNNS) is a library containing many\nstandard implementations of neural networks. This package wraps the SNNS\nfunctionality to make it available from within R. Using the RSNNS low-\nlevel interface, all of the algorithmic functionality and flexibility of\nSNNS can be accessed. Furthermore, the package contains a convenient\nhigh-level interface, so that the most common neural network topologies\nand learning algorithms integrate seamlessly into R.\n",
     "homepage": "https://cloud.r-project.org/package=RSNNS",
-    "latest_version": "0.4-15",
+    "latest_version": "0.4-17",
     "maintainers": [],
     "name": "r-rsnns",
     "patches": [],
@@ -28,6 +28,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.4-17",
+            "sha256": "424557d7326889e09e31e04d2a9b7224bed0bb4aa6f9e5433d7ce4fe04a35afc"
+        },
         {
             "name": "0.4-15",
             "sha256": "4a4286444f50b28fb6294b8b49250fa6c43c8fddf2ee0550a3ae59a4212ec1b3"

@@ -24,7 +24,7 @@
     ],
     "description": "Solvers for Initial Value Problems of Differential Equations ('ODE',\n'DAE', 'DDE'). Functions that solve initial value problems of a system\nof first-order ordinary differential equations ('ODE'), of partial\ndifferential equations ('PDE'), of differential algebraic equations\n('DAE'), and of delay differential equations. The functions provide an\ninterface to the FORTRAN functions 'lsoda', 'lsodar', 'lsode', 'lsodes'\nof the 'ODEPACK' collection, to the FORTRAN functions 'dvode', 'zvode'\nand 'daspk' and a C-implementation of solvers of the 'Runge-Kutta'\nfamily with fixed or variable time steps. The package contains routines\ndesigned for solving 'ODEs' resulting from 1-D, 2-D and 3-D partial\ndifferential equations ('PDE') that have been converted to 'ODEs' by\nnumerical differencing.\n",
     "homepage": "https://cloud.r-project.org/package=deSolve",
-    "latest_version": "1.35",
+    "latest_version": "1.40",
     "maintainers": [],
     "name": "r-desolve",
     "patches": [],
@@ -37,6 +37,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.40",
+            "sha256": "8c09ae6bb6875b569b9844eede30b790f39fc227f5c9d045fa63ce1b22f500ef"
+        },
         {
             "name": "1.35",
             "sha256": "96f17f497713754f84ff56c3538c6d05b9f5229f9a2a32aafec7d7cdc721d488"

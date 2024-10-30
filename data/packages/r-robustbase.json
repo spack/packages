@@ -52,7 +52,7 @@
     ],
     "description": "Basic Robust Statistics. \"Essential\" Robust Statistics. Tools allowing\nto analyze data with robust methods. This includes regression\nmethodology including model selections and multivariate statistics where\nwe strive to cover the book \"Robust Statistics, Theory and Methods\" by\n'Maronna, Martin and Yohai'; Wiley 2006.\n",
     "homepage": "https://cloud.r-project.org/package=robustbase",
-    "latest_version": "0.95-1",
+    "latest_version": "0.99-4",
     "maintainers": [],
     "name": "r-robustbase",
     "patches": [],
@@ -65,6 +65,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.99-4",
+            "sha256": "a978d04fcd4bee7a4ebfa9f05e9abb4a1ca4d970867229a90698bed2fbf40cbc"
+        },
         {
             "name": "0.95-1",
             "sha256": "862cd26db3ecdf34ab47c52d355fd65ffebbff448aea17999a9b95a1f13ba3ea"

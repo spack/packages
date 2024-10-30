@@ -24,7 +24,7 @@
     ],
     "description": "T-Distributed Stochastic Neighbor Embedding using a Barnes-Hut\nImplementation. An R wrapper around the fast T-distributed Stochastic\nNeighbor Embedding implementation.\n",
     "homepage": "https://cloud.r-project.org/package=Rtsne",
-    "latest_version": "0.16",
+    "latest_version": "0.17",
     "maintainers": [],
     "name": "r-rtsne",
     "patches": [],
@@ -37,6 +37,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.17",
+            "sha256": "3aae6814d6c6d406785145f07374135652f2b26a58690dfd4bfbc8365dc5590b"
+        },
         {
             "name": "0.16",
             "sha256": "52a05adc826c28212e97d11c54eba3fec45d14eb52039c0f47f62a8e338ffbd5"

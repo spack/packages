@@ -16,6 +16,10 @@
         {
             "description": "Mesh Generation and Surface Tessellation. Makes the 'Qhull' library\n<http://www.qhull.org> available in R, in a similar manner as in Octave\nand MATLAB. Qhull computes convex hulls, Delaunay triangulations,\nhalfspace intersections about a point, Voronoi diagrams, furthest-site\nDelaunay triangulations, and furthest-site Voronoi diagrams. It runs in\n2D, 3D, 4D, and higher dimensions. It implements the Quickhull algorithm\nfor computing the convex hull. Qhull does not support constrained\nDelaunay triangulations, or mesh generation of non-convex objects, but\nthe package does include some R functions that allow for this.",
             "name": "r-geometry"
+        },
+        {
+            "description": "Allows researchers to conduct multivariate statistical analyses of\nsurvey data with list experiments.",
+            "name": "r-list"
         }
     ],
     "description": "Create and Investigate Magic Squares. A collection of efficient,\nvectorized algorithms for the creation and investigation of magic\nsquares and hypercubes, including a variety of functions for the\nmanipulation and analysis of arbitrarily dimensioned arrays. The package\nincludes methods for creating normal magic squares of any order greater\nthan 2. The ultimate intention is for the package to be a computerized\nembodiment all magic square knowledge, including direct numerical\nverification of properties of magic squares (such as recent results on\nthe determinant of odd-ordered semimagic squares). Some antimagic\nfunctionality is included. The package also serves as a rebuttal to the\noften-heard comment \"I thought R was just for statistics\".\n",

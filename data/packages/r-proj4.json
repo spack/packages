@@ -19,7 +19,7 @@
     "dependent_to": [],
     "description": "A simple interface to the PROJ.4 cartographic projections library. A\nsimple interface to lat/long projection and datum transformation of the\nPROJ.4 cartographic projections library. It allows transformation of\ngeographic coordinates from one projection and/or datum to another.\n",
     "homepage": "https://cloud.r-project.org/package=proj4",
-    "latest_version": "1.0-12",
+    "latest_version": "1.0-14",
     "maintainers": [],
     "name": "r-proj4",
     "patches": [],
@@ -32,6 +32,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.0-14",
+            "sha256": "d3d571da92136666dd3658b6006a7d4d4254cdeada5cda21b05b0c0e692a00b6"
+        },
         {
             "name": "1.0-12",
             "sha256": "4aeb8a54d5b459674093c76068b92dbd3ce99a4e5db8829fbae868c2e43776f8"

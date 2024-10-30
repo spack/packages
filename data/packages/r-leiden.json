@@ -28,7 +28,7 @@
     ],
     "description": "R Implementation of Leiden Clustering Algorithm. Implements the 'Python\nleidenalg' module to be called in R. Enables clustering using the leiden\nalgorithm for partition a graph into communities. See the 'Python'\nrepository for more details: <https://github.com/vtraag/leidenalg> Traag\net al (2018) From Louvain to Leiden: guaranteeing well-connected\ncommunities. <arXiv:1810.08473>.\n",
     "homepage": "https://cloud.r-project.org/package=leiden",
-    "latest_version": "0.4.3",
+    "latest_version": "0.4.3.1",
     "maintainers": [],
     "name": "r-leiden",
     "patches": [],
@@ -41,6 +41,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.4.3.1",
+            "sha256": "a9ecbbcfa2724d8fdd0133af569278e036b25b6e2cbb23d453092cc6b3fc30e2"
+        },
         {
             "name": "0.4.3",
             "sha256": "6a464b4b860e621749b3b701bb7ceb07e23c1a36be241c3e13b18105eb980938"

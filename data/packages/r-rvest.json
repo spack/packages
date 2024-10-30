@@ -64,7 +64,7 @@
     ],
     "description": "Easily Harvest (Scrape) Web Pages. Wrappers around the 'xml2' and 'httr'\npackages to make it easy to download, then manipulate, HTML and XML.\n",
     "homepage": "https://cloud.r-project.org/package=rvest",
-    "latest_version": "1.0.3",
+    "latest_version": "1.0.4",
     "maintainers": [],
     "name": "r-rvest",
     "patches": [],
@@ -77,6 +77,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.0.4",
+            "sha256": "7d707c6b2994cf7b6c1d665bec872d2ef5c55f30e7c343c447a8a386a6049ca6"
+        },
         {
             "name": "1.0.3",
             "sha256": "a465ef7391afaa3c26eebe8c61db02314ac04c4d8de5aa53f090716763d21c1e"

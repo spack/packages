@@ -44,7 +44,7 @@
     ],
     "description": "Decorate a 'ggplot' with Associated Information. For many times, we are\nnot just aligning plots as what 'cowplot' and 'patchwork' did. Users\nwould like to align associated information that requires axes to be\nexactly matched in subplots, e.g. hierarchical clustering with a\nheatmap. This package provides utilities to aligns associated subplots\nto a main plot at different sides (left, right, top and bottom) with\naxes exactly matched.\n",
     "homepage": "https://cloud.r-project.org/package=aplot",
-    "latest_version": "0.1.10",
+    "latest_version": "0.2.3",
     "maintainers": [],
     "name": "r-aplot",
     "patches": [],
@@ -57,6 +57,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.2.3",
+            "sha256": "1fb062050199933f724164118cc3e5d85b60a3a4d4a466016bed2928b0310d6a"
+        },
         {
             "name": "0.1.10",
             "sha256": "d937768241f887628b88bb3b49dd6cbe9b7dae39ae7054e7380a9836721a67d1"

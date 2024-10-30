@@ -12,8 +12,16 @@
             "name": "r-caret"
         },
         {
+            "description": "Compute the median ranking according to the Kemeny's axiomatic approach.",
+            "name": "r-consrank"
+        },
+        {
             "description": "Foreach Parallel Adaptor for the 'parallel' Package. Provides a parallel\nbackend for the %dopar% function using the parallel package.",
             "name": "r-doparallel"
+        },
+        {
+            "description": "A Grammar of Data Manipulation. A fast, consistent tool for working with\ndata frame like objects, both in memory and out of memory.",
+            "name": "r-dplyr"
         },
         {
             "description": "Provides Foreach Looping Construct. Support for the foreach looping\nconstruct. Foreach is an idiom that allows for iterating over elements\nin a collection, without the use of an explicit loop counter. This\npackage in particular is intended to be used for its return value,\nrather than for its side effects. In that sense, it is similar to the\nstandard lapply function, but doesn't require the evaluation of a\nfunction. Using foreach without side effects also facilitates executing\nthe loop in parallel.",
@@ -26,6 +34,10 @@
         {
             "description": "Recursive Partitioning and Regression Trees. Recursive partitioning for\nclassification, regression and survival trees. An implementation of most\nof the functionality of the 1984 book by Breiman, Friedman, Olshen and\nStone.",
             "name": "r-rpart"
+        },
+        {
+            "description": "Tidy Messy Data. Tools to help to create tidy data, where each column is\na variable, each row is an observation, and each cell contains a single\nvalue. 'tidyr' contains tools for changing the shape (pivoting) and\nhierarchy (nesting and 'unnesting') of a dataset, turning deeply nested\nlists into rectangular data frames ('rectangling'), and extracting\nvalues out of string columns. It also includes tools for working with\nmissing values (both implicit and explicit).",
+            "name": "r-tidyr"
         }
     ],
     "dependent_to": [
@@ -36,7 +48,7 @@
     ],
     "description": "Applies Multiclass AdaBoost.M1, SAMME and Bagging. It implements Freund\nand Schapire's Adaboost.M1 algorithm and Breiman's Bagging algorithm\nusing classification trees as individual classifiers. Once these\nclassifiers have been trained, they can be used to predict on new data.\nAlso, cross validation estimation of the error can be done. Since\nversion 2.0 the function margins() is available to calculate the margins\nfor these classifiers. Also a higher flexibility is achieved giving\naccess to the rpart.control() argument of 'rpart'. Four important new\nfeatures were introduced on version 3.0, AdaBoost-SAMME (Zhu et al.,\n2009) is implemented and a new function errorevol() shows the error of\nthe ensembles as a function of the number of iterations. In addition,\nthe ensembles can be pruned using the option 'newmfinal' in the\npredict.bagging() and predict.boosting() functions and the posterior\nprobability of each class for observations can be obtained. Version 3.1\nmodifies the relative importance measure to take into account the gain\nof the Gini index given by a variable in each tree and the weights of\nthese trees. Version 4.0 includes the margin-based ordered aggregation\nfor Bagging pruning (Guo and Boukir, 2013) and a function to auto prune\nthe 'rpart' tree. Moreover, three new plots are also available\nimportanceplot(), plot.errorevol() and plot.margins(). Version 4.1\nallows to predict on unlabeled data. Version 4.2 includes the parallel\ncomputation option for some of the functions.\n",
     "homepage": "https://cloud.r-project.org/package=adabag",
-    "latest_version": "4.2",
+    "latest_version": "5.0",
     "maintainers": [],
     "name": "r-adabag",
     "patches": [],
@@ -49,6 +61,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "5.0",
+            "sha256": "ec58756fda2e64753d21e28d9e27ed34f28020045b199a58dcea06a3e2c3d60e"
+        },
         {
             "name": "4.2",
             "sha256": "47019eb8cefc8372996fbb2642f64d4a91d7cedc192690a8d8be6e7e03cd3c81"

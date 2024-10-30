@@ -76,7 +76,7 @@
     ],
     "description": "An Interface to Google Drive. Manage Google Drive files from R.\n",
     "homepage": "https://cloud.r-project.org/package=googledrive",
-    "latest_version": "2.1.0",
+    "latest_version": "2.1.1",
     "maintainers": [],
     "name": "r-googledrive",
     "patches": [],
@@ -89,6 +89,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.1.1",
+            "sha256": "0b8b4f74ba3630b0347249a32a80bc5fc2e8b63ad2952702f30162bd2d38fb82"
+        },
         {
             "name": "2.1.0",
             "sha256": "0d70353bbf1bebc96d3987ebd9cbb2b0902e6ddc4cdccece3d07c2bb688c4b74"

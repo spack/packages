@@ -611,6 +611,12 @@
             "package": "timemory"
         }
     ],
+    "alloc_async": [
+        {
+            "default": false,
+            "package": "kokkos"
+        }
+    ],
     "alloca": [
         {
             "default": false,
@@ -27758,6 +27764,10 @@
         },
         {
             "default": "generic",
+            "package": "r-arm"
+        },
+        {
+            "default": "generic",
             "package": "r-aroma-light"
         },
         {
@@ -27926,6 +27936,10 @@
         },
         {
             "default": "generic",
+            "package": "r-biglm"
+        },
+        {
+            "default": "generic",
             "package": "r-bigmemory"
         },
         {
@@ -28082,6 +28096,10 @@
         },
         {
             "default": "generic",
+            "package": "r-broom-helpers"
+        },
+        {
+            "default": "generic",
             "package": "r-bsgenome"
         },
         {
@@ -28210,6 +28228,10 @@
         },
         {
             "default": "generic",
+            "package": "r-clarabel"
+        },
+        {
+            "default": "generic",
             "package": "r-class"
         },
         {
@@ -28311,6 +28333,10 @@
         {
             "default": "generic",
             "package": "r-conquer"
+        },
+        {
+            "default": "generic",
+            "package": "r-consrank"
         },
         {
             "default": "generic",
@@ -28738,6 +28764,10 @@
         },
         {
             "default": "generic",
+            "package": "r-fastdummies"
+        },
+        {
+            "default": "generic",
             "package": "r-fastica"
         },
         {
@@ -29107,6 +29137,10 @@
         {
             "default": "generic",
             "package": "r-ggsignif"
+        },
+        {
+            "default": "generic",
+            "package": "r-ggstats"
         },
         {
             "default": "generic",
@@ -29723,6 +29757,10 @@
         {
             "default": "generic",
             "package": "r-linprog"
+        },
+        {
+            "default": "generic",
+            "package": "r-list"
         },
         {
             "default": "generic",
@@ -30390,6 +30428,10 @@
         },
         {
             "default": "generic",
+            "package": "r-pki"
+        },
+        {
+            "default": "generic",
             "package": "r-pl94171"
         },
         {
@@ -30607,6 +30649,10 @@
         {
             "default": "generic",
             "package": "r-questionr"
+        },
+        {
+            "default": "generic",
+            "package": "r-quickjsr"
         },
         {
             "default": "generic",
@@ -30963,6 +31009,10 @@
         {
             "default": "generic",
             "package": "r-rle"
+        },
+        {
+            "default": "generic",
+            "package": "r-rlist"
         },
         {
             "default": "generic",
@@ -31494,6 +31544,10 @@
         },
         {
             "default": "generic",
+            "package": "r-spatstat-univar"
+        },
+        {
+            "default": "generic",
             "package": "r-spatstat-utils"
         },
         {
@@ -31515,6 +31569,10 @@
         {
             "default": "generic",
             "package": "r-splancs"
+        },
+        {
+            "default": "generic",
+            "package": "r-splines2"
         },
         {
             "default": "generic",
@@ -31955,6 +32013,10 @@
         {
             "default": "generic",
             "package": "r-wk"
+        },
+        {
+            "default": "generic",
+            "package": "r-writexl"
         },
         {
             "default": "generic",

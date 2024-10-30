@@ -16,7 +16,7 @@
     ],
     "description": "Hartigan's Dip Test Statistic for Unimodality - Corrected. Compute\nHartigan's dip test statistic for unimodality /; multimodality and\nprovide a test with simulation based p-values, where; the original\npublic code has been corrected.\n",
     "homepage": "https://cloud.r-project.org/package=diptest",
-    "latest_version": "0.76-0",
+    "latest_version": "0.77-1",
     "maintainers": [],
     "name": "r-diptest",
     "patches": [],
@@ -29,6 +29,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.77-1",
+            "sha256": "224eae00f483ce0fb131719065667227417cc98ad2beda55bfd5efe2bb612813"
+        },
         {
             "name": "0.76-0",
             "sha256": "508a5ebb161519cd0fcd156dc047b51becb216d545d62c6522496463f94ec280"

@@ -46,6 +46,10 @@
             "name": "r-ggally"
         },
         {
+            "description": "Provides new statistics, new geometries and new positions for 'ggplot2'\nand a suite of functions to facilitate the creation of statistical\nplots.",
+            "name": "r-ggstats"
+        },
+        {
             "description": "Import and Export 'SPSS', 'Stata' and 'SAS' Files. Import foreign\nstatistical formats into R via the embedded 'ReadStat' C library,\n<https://github.com/WizardMac/ReadStat>.",
             "name": "r-haven"
         },

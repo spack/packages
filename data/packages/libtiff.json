@@ -252,6 +252,10 @@
             "name": "r-imager"
         },
         {
+            "description": "Generic Coordinate System Transformations Using 'PROJ'. A wrapper around\nthe generic coordinate transformation software 'PROJ' that transforms\ncoordinates from one coordinate reference system ('CRS') to another.\nThis includes cartographic projections as well as geodetic\ntransformations. The intention is for this package to be used by user-\npackages such as 'reproj', and that the older 'PROJ.4' and version 5\npathways be provided by the 'proj4' package.",
+            "name": "r-proj"
+        },
+        {
             "description": "Graphic Devices Based on AGG. Anti-Grain Geometry (AGG) is a high-\nquality and high-performance 2D drawing library. The 'ragg' package\nprovides a set of graphic devices based on AGG to use as alternative to\nthe raster devices provided through the 'grDevices' package.",
             "name": "r-ragg"
         },

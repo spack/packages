@@ -46,6 +46,10 @@
             "name": "r-grbase"
         },
         {
+            "description": "Geographically-Weighted Models. Techniques from a particular branch of\nspatial statistics,termed geographically-weighted (GW) models. GW models\nsuit situations when data are not described well by some global model,\nbut where there are spatial regions where a suitably localised\ncalibration provides a better description. 'GWmodel' includes functions\nto calibrate: GW summary statistics (Brunsdon et al., 2002)\n<doi:10.1016/s0198-9715(01)00009-6>, GW principal components analysis\n(Harris et al., 2011) <doi:10.1080/13658816.2011.554838>, GW\ndiscriminant analysis (Brunsdon et al., 2007)\n<doi:10.1111/j.1538-4632.2007.00709.x> and various forms of GW\nregression (Brunsdon et al., 1996)\n<doi:10.1111/j.1538-4632.1996.tb00936.x>; some of which are provided in\nbasic and robust (outlier resistant) forms.",
+            "name": "r-gwmodel"
+        },
+        {
             "description": "Interpolation Methods. Bivariate data interpolation on regular and\nirregular grids, either linear or using splines are the main part of\nthis package. It is intended to provide FOSS replacement functions for\nthe ACM licensed akima::interp and tripack::tri.mesh functions. Linear\ninterpolation is implemented in interp::interp(..., method=\"linear\"),\nthis corresponds to the call akima::interp(..., linear=TRUE) which is\nthe default setting and covers most of akima::interp use cases in\ndepending packages. A re-implementation of Akimas irregular grid spline\ninterpolation (akima::interp(..., linear=FALSE)) is now also available\nvia interp::interp(..., method=\"akima\"). Estimators for partial\nderivatives are now also available in interp::locpoly(), these are a\nprerequisite for the spline interpolation. The basic part is a GPLed\ntriangulation algorithm (sweep hull algorithm by David Sinclair)\nproviding the starting point for the irregular grid interpolator. As\nside effect this algorithm is also used to provide replacements for\nalmost all functions of the tripack package which also suffers from the\nsame ACM license restrictions. All functions are designed to be backward\ncompatible with their akima / tripack counterparts.",
             "name": "r-interp"
         },
@@ -88,7 +92,7 @@
     ],
     "description": "'Rcpp' Integration for the 'Eigen' Templated Linear Algebra Library. R\nand 'Eigen' integration using 'Rcpp'. 'Eigen' is a C++ template library\nfor linear algebra: matrices, vectors, numerical solvers and related\nalgorithms. It supports dense and sparse matrices on integer, floating\npoint and complex numbers, decompositions of such matrices, and\nsolutions of linear systems. Its performance on many algorithms is\ncomparable with some of the best implementations based on 'Lapack' and\nlevel-3 'BLAS'. The 'RcppEigen' package includes the header files from\nthe 'Eigen' C++ template library (currently version 3.2.8). Thus users\ndo not need to install 'Eigen' itself in order to use 'RcppEigen'. Since\nversion 3.1.1, 'Eigen' is licensed under the Mozilla Public License\n(version 2); earlier version were licensed under the GNU LGPL version 3\nor later. 'RcppEigen' (the 'Rcpp' bindings/bridge to 'Eigen') is\nlicensed under the GNU GPL version 2 or later, as is the rest of 'Rcpp'.\n",
     "homepage": "https://cloud.r-project.org/package=RcppEigen",
-    "latest_version": "0.3.3.9.3",
+    "latest_version": "0.3.4.0.1",
     "maintainers": [],
     "name": "r-rcppeigen",
     "patches": [],
@@ -101,6 +105,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.3.4.0.1",
+            "sha256": "25ed48f148b50aaadd92752d73e3eefe00ab4ecd4ae5662ae91a9ff3f72a4e26"
+        },
         {
             "name": "0.3.3.9.3",
             "sha256": "5873a47fd6587d916f86119ab140c6736abf80ac45d06ff1c9d198708e7d1c76"

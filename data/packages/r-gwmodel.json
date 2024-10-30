@@ -28,8 +28,16 @@
             "name": "r-rcpparmadillo"
         },
         {
+            "description": "'Rcpp' Integration for the 'Eigen' Templated Linear Algebra Library. R\nand 'Eigen' integration using 'Rcpp'. 'Eigen' is a C++ template library\nfor linear algebra: matrices, vectors, numerical solvers and related\nalgorithms. It supports dense and sparse matrices on integer, floating\npoint and complex numbers, decompositions of such matrices, and\nsolutions of linear systems. Its performance on many algorithms is\ncomparable with some of the best implementations based on 'Lapack' and\nlevel-3 'BLAS'. The 'RcppEigen' package includes the header files from\nthe 'Eigen' C++ template library (currently version 3.2.8). Thus users\ndo not need to install 'Eigen' itself in order to use 'RcppEigen'. Since\nversion 3.1.1, 'Eigen' is licensed under the Mozilla Public License\n(version 2); earlier version were licensed under the GNU LGPL version 3\nor later. 'RcppEigen' (the 'Rcpp' bindings/bridge to 'Eigen') is\nlicensed under the GNU GPL version 2 or later, as is the rest of 'Rcpp'.",
+            "name": "r-rcppeigen"
+        },
+        {
             "description": "Basic Robust Statistics. \"Essential\" Robust Statistics. Tools allowing\nto analyze data with robust methods. This includes regression\nmethodology including model selections and multivariate statistics where\nwe strive to cover the book \"Robust Statistics, Theory and Methods\" by\n'Maronna, Martin and Yohai'; Wiley 2006.",
             "name": "r-robustbase"
+        },
+        {
+            "description": "Simple Features for R. Support for simple features, a standardized way\nto encode spatial vector data. Binds to 'GDAL' for reading and writing\ndata, to 'GEOS' for geometrical operations, and to 'PROJ' for projection\nconversions and datum transformations. Optionally uses the 's2' package\nfor spherical geometry operations on geographic coordinates.",
+            "name": "r-sf"
         },
         {
             "description": "Classes and Methods for Spatial Data. Classes and methods for spatial\ndata; the classes document where the spatial location information\nresides, for 2D or 3D data. Utility functions are provided, e.g. for\nplotting data as maps, spatial selection, as well as methods for\nretrieving coordinates, for subsetting, print, summary, etc.",
@@ -51,7 +59,7 @@
     "dependent_to": [],
     "description": "Geographically-Weighted Models. Techniques from a particular branch of\nspatial statistics,termed geographically-weighted (GW) models. GW models\nsuit situations when data are not described well by some global model,\nbut where there are spatial regions where a suitably localised\ncalibration provides a better description. 'GWmodel' includes functions\nto calibrate: GW summary statistics (Brunsdon et al., 2002)\n<doi:10.1016/s0198-9715(01)00009-6>, GW principal components analysis\n(Harris et al., 2011) <doi:10.1080/13658816.2011.554838>, GW\ndiscriminant analysis (Brunsdon et al., 2007)\n<doi:10.1111/j.1538-4632.2007.00709.x> and various forms of GW\nregression (Brunsdon et al., 1996)\n<doi:10.1111/j.1538-4632.1996.tb00936.x>; some of which are provided in\nbasic and robust (outlier resistant) forms.\n",
     "homepage": "https://cloud.r-project.org/package=GWmodel",
-    "latest_version": "2.2-9",
+    "latest_version": "2.3-3",
     "maintainers": [],
     "name": "r-gwmodel",
     "patches": [],
@@ -64,6 +72,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.3-3",
+            "sha256": "5f69d000d7ffba491f1dafbad5ec0b5fcbbdb28831092252a8b409163d6ad33c"
+        },
         {
             "name": "2.2-9",
             "sha256": "3696e0f24994df4f393dbcb2e74bc0808704b80e1203247be3911fc3bcdb5f18"

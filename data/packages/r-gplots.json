@@ -72,7 +72,7 @@
     ],
     "description": "Various R Programming Tools for Plotting Data. Various R programming\ntools for plotting data, including: [1] calculating and plotting locally\nsmoothed summary function as ('bandplot', 'wapply'), [2] enhanced\nversions of standard plots ('barplot2', 'boxplot2', 'heatmap.2',\n'smartlegend'), [3] manipulating colors ('col2hex', 'colorpanel',\n'redgreen', 'greenred', 'bluered', 'redblue', 'rich.colors'), [4]\ncalculating and plotting two-dimensional data summaries ('ci2d',\n'hist2d'), [5] enhanced regression diagnostic plots ('lmplot2',\n'residplot'), [6] formula-enabled interface to 'stats::lowess' function\n('lowess'), [7] displaying textual data in plots ('textplot',\n'sinkplot'), [8] plotting a matrix where each cell contains a dot whose\nsize reflects the relative magnitude of the elements ('balloonplot'),\n[9] plotting \"Venn\" diagrams ('venn'), [10] displaying Open-Office style\nplots ('ooplot'), [11] plotting multiple data on same region, with\nseparate axes ('overplot'), [12] plotting means and confidence intervals\n('plotCI', 'plotmeans'), [13] spacing points in an x-y plot so they\ndon't overlap ('space').\n",
     "homepage": "https://cloud.r-project.org/package=gplots",
-    "latest_version": "3.1.3",
+    "latest_version": "3.1.3.1",
     "maintainers": [],
     "name": "r-gplots",
     "patches": [],
@@ -85,6 +85,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.1.3.1",
+            "sha256": "1ae1de94f27583ad84543a15f042b8dbd0850c56447929c7157787d755211af2"
+        },
         {
             "name": "3.1.3",
             "sha256": "9f853b9e205264d087e61e8825f797ce36c9eb585b187dab794563613a526716"

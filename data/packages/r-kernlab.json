@@ -28,7 +28,7 @@
     ],
     "description": "Kernel-Based Machine Learning Lab. Kernel-based machine learning methods\nfor classification, regression, clustering, novelty detection, quantile\nregression and dimensionality reduction. Among other methods 'kernlab'\nincludes Support Vector Machines, Spectral Clustering, Kernel PCA,\nGaussian Processes and a QP solver.\n",
     "homepage": "https://cloud.r-project.org/package=kernlab",
-    "latest_version": "0.9-32",
+    "latest_version": "0.9-33",
     "maintainers": [],
     "name": "r-kernlab",
     "patches": [],
@@ -41,6 +41,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.9-33",
+            "sha256": "70c0787d6d3762c89bb68218fbee19e861fcb5d4c05b787a9692055d95dd3061"
+        },
         {
             "name": "0.9-32",
             "sha256": "654ef34e343deb4d2c4c139a44e5397d6e38876088ce1c53c7deb087935d6fdc"

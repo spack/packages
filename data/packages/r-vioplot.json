@@ -24,7 +24,7 @@
     ],
     "description": "Violin Plot. A violin plot is a combination of a box plot and a kernel\ndensity plot. This package allows extensive customisation of violin\nplots.\n",
     "homepage": "https://cloud.r-project.org/package=vioplot",
-    "latest_version": "0.4.0",
+    "latest_version": "0.5.0",
     "maintainers": [],
     "name": "r-vioplot",
     "patches": [],
@@ -37,6 +37,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.5.0",
+            "sha256": "b04e91ccb810573d13a2ac1136bc6e4747c4c663fa53ff1ce7327c1a13530965"
+        },
         {
             "name": "0.4.0",
             "sha256": "5729b483e3a4f7c81d2cc22c8bc5211b64e289734e9da5b5696c4974067867b5"

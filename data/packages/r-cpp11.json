@@ -18,6 +18,10 @@
             "name": "r-clock"
         },
         {
+            "description": "An Implementation of Grammar of Graphics for Graphs and Networks. The\ngrammar of graphics as implemented in ggplot2 is a poor fit for graph\nand network visualizations due to its reliance on tabular data input.\nggraph is an extension of the ggplot2 API tailored to graph\nvisualizations and provides the same flexible approach to building up\nplots layer by layer.",
+            "name": "r-ggraph"
+        },
+        {
             "description": "Import and Export 'SPSS', 'Stata' and 'SAS' Files. Import foreign\nstatistical formats into R via the embedded 'ReadStat' C library,\n<https://github.com/WizardMac/ReadStat>.",
             "name": "r-haven"
         },
@@ -46,8 +50,16 @@
             "name": "r-readxl"
         },
         {
+            "description": "Database Interface and 'MariaDB' Driver. Implements a 'DBI'-compliant\ninterface to 'MariaDB' (<https://mariadb.org/>) and 'MySQL'\n(<https://www.mysql.com/>) databases.",
+            "name": "r-rmariadb"
+        },
+        {
             "description": "In-Line Documentation for R. Generate your Rd documentation, 'NAMESPACE'\nfile, and collation field using specially formatted comments. Writing\ndocumentation in-line with code makes it easier to keep your\ndocumentation up-to-date as your requirements change. 'Roxygen2' is\ninspired by the 'Doxygen' system for C++.",
             "name": "r-roxygen2"
+        },
+        {
+            "description": "'Rcpp' Interface to 'PostgreSQL'. Fully 'DBI'-compliant 'Rcpp'-backed\ninterface to 'PostgreSQL' <https://www.postgresql.org/>, an open-source\nrelational database.",
+            "name": "r-rpostgres"
         },
         {
             "description": "'SQLite' Interface for R. This package embeds the SQLite database engine\nin R and provides an interface compliant with the DBI package. The\nsource for the SQLite engine (version 3.8.6) is included.",
@@ -96,7 +108,7 @@
     ],
     "description": "A C++11 Interface for R's C Interface. Provides a header only, C++11\ninterface to R's C interface. Compared to other approaches 'cpp11'\nstrives to be safe against long jumps from the C API as well as C++\nexceptions, conform to normal R function semantics and supports\ninteraction with 'ALTREP' vectors.\n",
     "homepage": "https://cloud.r-project.org/package=cpp11",
-    "latest_version": "0.4.3",
+    "latest_version": "0.4.7",
     "maintainers": [],
     "name": "r-cpp11",
     "patches": [],
@@ -109,6 +121,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.4.7",
+            "sha256": "801d1266824c3972642bce2db2a5fd0528a65ec845c58eb5a886edf082264344"
+        },
         {
             "name": "0.4.3",
             "sha256": "f1a60e4971a86dbbcf6a16bbd739b59bb66d9c45d93cfd8dedc2a87e302598f1"

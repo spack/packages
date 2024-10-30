@@ -28,7 +28,7 @@
     ],
     "description": "Multivariate Adaptive Regression Splines. Build regression models using\nthe techniques in Friedman's papers \"Fast MARS\" and \"Multivariate\nAdaptive Regression Splines\" <doi:10.1214/aos/1176347963>.\n",
     "homepage": "https://cloud.r-project.org/package=earth",
-    "latest_version": "5.3.2",
+    "latest_version": "5.3.3",
     "maintainers": [],
     "name": "r-earth",
     "patches": [],
@@ -41,6 +41,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "5.3.3",
+            "sha256": "786a0fcabb3db13e0e0a4ba61ecccb7e171030b39bc97926f8e7159485d2f572"
+        },
         {
             "name": "5.3.2",
             "sha256": "c844d75edf9a2706a911bb05ed4287aad9acf6f3fed357e037763a300eac0bea"

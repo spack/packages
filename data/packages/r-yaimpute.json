@@ -16,7 +16,7 @@
     ],
     "description": "Nearest Neighbor Observation Imputation and Evaluation Tools. Performs\nnearest neighbor-based imputation using one or more alternative\napproaches to processing multivariate data. These include methods based\non canonical correlation analysis, canonical correspondence analysis,\nand a multivariate adaptation of the random forest classification and\nregression techniques of Leo Breiman and Adele Cutler. Additional\nmethods are also offered. The package includes functions for comparing\nthe results from running alternative techniques, detecting imputation\ntargets that are notably distant from reference observations, detecting\nand correcting for bias, bootstrapping and building ensemble\nimputations, and mapping results.\n",
     "homepage": "https://cloud.r-project.org/package=yaImpute",
-    "latest_version": "1.0-33",
+    "latest_version": "1.0-34",
     "maintainers": [],
     "name": "r-yaimpute",
     "patches": [],
@@ -29,6 +29,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.0-34",
+            "sha256": "b4c898c95fca784480bbbc239c78c85dc9f45a96c34c563ea7e81248ef8a8a73"
+        },
         {
             "name": "1.0-33",
             "sha256": "58595262eb1bc9ffeeadca78664c418ea24b4e894744890c00252c5ebd02512c"

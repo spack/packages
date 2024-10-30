@@ -27,7 +27,7 @@
     "dependent_to": [],
     "description": "Python library for interacting with Crystallographic Information\nFramework (CIF) files.\n",
     "homepage": "https://bitbucket.org/jamesrhester/pycifrw/src/development/",
-    "latest_version": "4.4.1",
+    "latest_version": "4.4.6",
     "maintainers": [],
     "name": "py-pycifrw",
     "patches": [],
@@ -40,6 +40,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "4.4.6",
+            "sha256": "02bf5975e70ab71540bff62fbef3e8354ac707a0f0ab914a152047962891ef15"
+        },
         {
             "name": "4.4.1",
             "sha256": "cef7662f475e0eb78a55c2d55774d474e888c96b0539e5f08550afa902cdc4e1"

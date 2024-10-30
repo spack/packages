@@ -40,7 +40,7 @@
     ],
     "description": "An S4 Lattice-Based Package for the Representation of Multivariate Data.\nGraphical functionalities for the representation of multivariate data.\nIt is a complete re-implementation of the functions available in the\n'ade4' package.\n",
     "homepage": "https://cloud.r-project.org/package=adegraphics",
-    "latest_version": "1.0-18",
+    "latest_version": "1.0-21",
     "maintainers": [],
     "name": "r-adegraphics",
     "patches": [],
@@ -53,6 +53,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.0-21",
+            "sha256": "e02a92b3a03220fd1f905f9541f506e43ad75b385a7febf74c80690364faeba8"
+        },
         {
             "name": "1.0-18",
             "sha256": "8fe07fc0f73e9917e098de2ee8e6fdb3e07775446683b6222692a3298e4d563c"

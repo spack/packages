@@ -44,7 +44,7 @@
     ],
     "description": "eXtensible Time Series. Provide for uniform handling of R's different\ntime-based data classes by extending zoo, maximizing native format\ninformation preservation and allowing for user level customization and\nextension, while simplifying cross-class interoperability.\n",
     "homepage": "https://cloud.r-project.org/package=xts",
-    "latest_version": "0.13.1",
+    "latest_version": "0.14.0",
     "maintainers": [],
     "name": "r-xts",
     "patches": [],
@@ -57,6 +57,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.14.0",
+            "sha256": "d28b16eefa9876a815bad3fc204779c197e3a0d7796b8dae8856fe153f5fcfd9"
+        },
         {
             "name": "0.13.1",
             "sha256": "2c3907c6d0162e48d1898647105bbb32cfe0cb005788481a64ee675a941d825d"

@@ -36,7 +36,7 @@
     ],
     "description": "C++ Header Files for Stan. The C++ header files of the Stan project are\nprovided by this package, but it contains no R code, vignettes, or\nfunction documentation. There is a shared object containing part of the\nCVODES library, but it is not accessible from R. StanHeaders is only\nuseful for developers who want to utilize the LinkingTo directive of\ntheir package's DESCRIPTION file to build on the Stan library without\nincurring unnecessary dependencies. The Stan project develops a\nprobabilistic programming language that implements full or approximate\nBayesian statistical inference via Markov Chain Monte Carlo or\nvariational methods and implements (optionally penalized) maximum\nlikelihood estimation via optimization. The Stan library includes an\nadvanced automatic differentiation scheme, templated statistical and\nlinear algebra functions that can handle the automatically\ndifferentiable scalar types (and doubles, ints, etc.), and a parser for\nthe Stan language. The 'rstan' package provides user-facing R functions\nto parse, compile, test, estimate, and analyze Stan models.\n",
     "homepage": "https://cloud.r-project.org/package=StanHeaders",
-    "latest_version": "2.21.0-7",
+    "latest_version": "2.32.10",
     "maintainers": [],
     "name": "r-stanheaders",
     "patches": [],
@@ -49,6 +49,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.32.10",
+            "sha256": "c3125b8d7dc4c6b7082258b2fa6c9530c2e4714c89ffd08b8e72f4c9f4108582"
+        },
         {
             "name": "2.21.0-7",
             "sha256": "27546e064f0e907e031d9185ad55245d118d82fbe3074ecb1d76fae8b9f2336b"

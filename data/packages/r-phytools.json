@@ -28,6 +28,10 @@
             "name": "r-combinat"
         },
         {
+            "description": "Global Optimization by Differential Evolution. Implements the\ndifferential evolution algorithm for global optimization of a real-\nvalued function of a real-valued parameter vector.",
+            "name": "r-deoptim"
+        },
+        {
             "description": "Foreach Parallel Adaptor for the 'parallel' Package. Provides a parallel\nbackend for the %dopar% function using the parallel package.",
             "name": "r-doparallel"
         },
@@ -100,7 +104,7 @@
     ],
     "description": "Phylogenetic Tools for Comparative Biology (and Other Things). A wide\nrange of functions for phylogenetic analysis. Functionality is\nconcentrated in phylogenetic comparative biology, but also includes\nnumerous methods for visualizing, manipulating, reading or writing, and\neven inferring phylogenetic trees and data. Included among the functions\nin phylogenetic comparative biology are various for ancestral state\nreconstruction, model-fitting, simulation of phylogenies and data, and\nmultivariate analysis. There are a broad range of plotting methods for\nphylogenies and comparative data which include, but are not restricted\nto, methods for mapping trait evolution on trees, for projecting trees\ninto phenotypic space or a geographic map, and for visualizing\ncorrelated speciation between trees. Finally, there are a number of\nfunctions for reading, writing, analyzing, inferring, simulating, and\nmanipulating phylogenetic trees and comparative data not covered by\nother packages. For instance, there are functions for randomly or non-\nrandomly attaching species or clades to a phylogeny, for estimating\nsupertrees or consensus phylogenies from a set, for simulating trees and\nphylogenetic data under a range of models, and for a wide variety of\nother manipulations and analyses that phylogenetic biologists might find\nuseful in their research.\n",
     "homepage": "https://cloud.r-project.org/package=phytools",
-    "latest_version": "1.5-1",
+    "latest_version": "2.3-0",
     "maintainers": [],
     "name": "r-phytools",
     "patches": [],
@@ -113,6 +117,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.3-0",
+            "sha256": "973020a695be3fef94a37d7d6732d9352b66e44d30feb554d267b6aeb646d081"
+        },
         {
             "name": "1.5-1",
             "sha256": "f8be59abbff1f5032be4523c361da53b0d5b71677fedebba6d7cbae2dca7e101"

@@ -56,7 +56,7 @@
     ],
     "description": "Functions for Base Types and Core R and 'Tidyverse' Features. Vectorised\ndistribution objects with tools for manipulating, visualising, and using\nprobability distributions. Designed to allow model prediction outputs to\nreturn distributions rather than their parameters, allowing users to\ndirectly interact with predictive distributions in a data-oriented\nworkflow. In addition to providing generic replacements for p/d/q/r\nfunctions, other useful statistics can be computed including means,\nvariances, intervals, and highest density regions.\n",
     "homepage": "https://cloud.r-project.org/package=distributional",
-    "latest_version": "0.3.2",
+    "latest_version": "0.4.0",
     "maintainers": [],
     "name": "r-distributional",
     "patches": [],
@@ -69,6 +69,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.4.0",
+            "sha256": "09b5f3279bed4c79575f75d5f7f5e3e593c7838434a78c89f0b7184e8f20e602"
+        },
         {
             "name": "0.3.2",
             "sha256": "c883d633398233aee5a8ca6b587687f765bdfe0732a84e4961e7f71ac0d008f8"

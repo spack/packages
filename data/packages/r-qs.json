@@ -8,6 +8,10 @@
             "name": "r"
         },
         {
+            "description": "Boost C++ Header Files. Boost provides free peer-reviewed portable C++\nsource libraries. A large part of Boost is provided as C++ template code\nwhich is resolved entirely at compile-time without linking. This package\naims to provide the most useful subset of Boost libraries for template\nuse among CRAN package. By placing these libraries in this package, we\noffer a more efficient distribution system for CRAN as replication of\nthis code in the sources of other packages is avoided. As of release\n1.60.0-2, the following Boost libraries are included: 'algorithm' 'any'\n'bimap' 'bind' 'circular_buffer' 'concept' 'config' 'container'\n'date'_'time' 'detail' 'dynamic_bitset' 'exception' 'filesystem'\n'flyweight' 'foreach' 'functional' 'fusion' 'geometry' 'graph' 'heap'\n'icl' 'integer' 'interprocess' 'intrusive' 'io' 'iostreams' 'iterator'\n'math' 'move' 'mpl' 'multiprcecision' 'numeric' 'pending' 'phoenix'\n'preprocessor' 'random' 'range' 'smart_ptr' 'spirit' 'tuple'\n'type_trains' 'typeof' 'unordered' 'utility' 'uuid'.",
+            "name": "r-bh"
+        },
+        {
             "description": "R API Serialization. This package provides other packages with access to\nthe internal R serialization code. Access to this code is provided at\nthe C function level by using the registration of native function\nmechanism. Client packages simply include a single header file\nRApiSerializeAPI.h provided by this package. This packages builds on the\nRhpc package by Junji Nakano and Ei-ji Nakama which also includes a\n(partial) copy of the file src/main/serialize.c from R itself. The R\nCore group is the original author of the serialization code made\navailable by this package.",
             "name": "r-rapiserialize"
         },
@@ -32,7 +36,7 @@
     ],
     "description": "Quick Serialization of R Objects. Provides functions for quickly writing\nand reading any R object to and from disk.\n",
     "homepage": "https://cloud.r-project.org/package=qs",
-    "latest_version": "0.25.5",
+    "latest_version": "0.26.3",
     "maintainers": [
         "dorton21"
     ],
@@ -47,6 +51,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.26.3",
+            "sha256": "8801a41f6e5161a55193dc9a75fcee8da1b0e02eebd7653ec05326d594321ee3"
+        },
         {
             "name": "0.25.5",
             "sha256": "3f87388708a0fdfb0e68caade75ed771fd395cb4f649973459bc97f41d42064c"

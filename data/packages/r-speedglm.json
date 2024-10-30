@@ -8,6 +8,10 @@
             "name": "r"
         },
         {
+            "description": "Regression for data too large to fit in memory.",
+            "name": "r-biglm"
+        },
+        {
             "description": "Support Functions and Datasets for Venables and Ripley's MASS. Functions\nand datasets to support Venables and Ripley, \"Modern Applied Statistics\nwith S\" (4th edition, 2002).",
             "name": "r-mass"
         },
@@ -24,7 +28,7 @@
     ],
     "description": "Fitting Linear and Generalized Linear Models to Large Data Sets. Fitting\nlinear models and generalized linear models to large data sets by\nupdating algorithms.\n",
     "homepage": "https://cloud.r-project.org/package=speedglm",
-    "latest_version": "0.3-4",
+    "latest_version": "0.3-5",
     "maintainers": [],
     "name": "r-speedglm",
     "patches": [],
@@ -37,6 +41,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.3-5",
+            "sha256": "f8663677c10ff324c5639402060ddd2b1a1e917445cb0f8f84e146b85e82bb4b"
+        },
         {
             "name": "0.3-4",
             "sha256": "1a12db7dbceaaf5cf4f9a0c03e2a2b9f32e91b697daf2ccfe81bbae9ac3046ce"

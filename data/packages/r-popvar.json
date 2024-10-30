@@ -23,7 +23,7 @@
     "dependent_to": [],
     "description": "Genomic Breeding Tools: Genetic Variance Prediction and Cross-\nValidation. The main attribute of 'PopVar' is the prediction of genetic\nvariance in bi-parental populations, from which the package derives its\nname. 'PopVar' contains a set of functions that use phenotypic and\ngenotypic data from a set of candidate parents to 1) predict the mean,\ngenetic variance, and superior progeny value of all, or a defined set of\npairwise bi-parental crosses, and 2) perform cross-validation to\nestimate genome-wide prediction accuracy of multiple statistical models.\nMore details are available in Mohammadi, Tiede, and Smith (2015,\n<doi:10.2135/cropsci2015.01.0030>). A dataset 'think_barley.rda' is\nincluded for reference and examples.\n",
     "homepage": "https://cloud.r-project.org/package=PopVar",
-    "latest_version": "1.3.0",
+    "latest_version": "1.3.1",
     "maintainers": [],
     "name": "r-popvar",
     "patches": [],
@@ -36,6 +36,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.3.1",
+            "sha256": "adb0f6705b7bb984272db31f8ac6612100f7970aa7d0e5cfdef76124dd33ac98"
+        },
         {
             "name": "1.3.0",
             "sha256": "3145c41c9aa1588d47aaf76c082e6b1c2fd95cf5014b98bd2867cbf2cec782f9"

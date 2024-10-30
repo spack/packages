@@ -42,6 +42,10 @@
     ],
     "dependent_to": [
         {
+            "description": "A Wrapper of the JavaScript Library 'DataTables'. Data objects in R can\nbe rendered as HTML tables using the JavaScript library 'DataTables'\n(typically via R Markdown or Shiny). The 'DataTables' library has been\nincluded in this R package. The package name 'DT' is an abbreviation of\n'DataTables'.",
+            "name": "r-dt"
+        },
+        {
             "description": "A Simple HTTP Server to Serve Static Files or Dynamic Documents. Start\nan HTTP server in R to serve static files, or dynamic documents that can\nbe converted to HTML files (e.g., R Markdown) under a given directory.",
             "name": "r-servr"
         },
@@ -52,7 +56,7 @@
     ],
     "description": "HTTP and WebSocket Server Library. Provides low-level socket and\nprotocol support for handling HTTP and WebSocket requests directly from\nwithin R. It is primarily intended as a building block for other\npackages, rather than making it particularly easy to create complete web\napplications using httpuv alone. httpuv is built on top of the libuv and\nhttp-parser C libraries, both of which were developed by Joyent, Inc.\n(See LICENSE file for libuv and http-parser license information.)\n",
     "homepage": "https://cloud.r-project.org/package=httpuv",
-    "latest_version": "1.6.9",
+    "latest_version": "1.6.15",
     "maintainers": [],
     "name": "r-httpuv",
     "patches": [],
@@ -65,6 +69,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.6.15",
+            "sha256": "5e6ded3623a39df3e1db6cb7e7292b4c03c80b3c6c5faaac3b78b711cb205ed0"
+        },
         {
             "name": "1.6.9",
             "sha256": "8d77f25b22fa7473b45007c2048e9a38d3792d59b2716e1fcdf9e99bd585d95d"

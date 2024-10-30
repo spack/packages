@@ -40,7 +40,7 @@
     ],
     "description": "Improved Predictors. Improved predictive models by indirect\nclassification and bagging for classification, regression and survival\nproblems as well as resampling based estimators of prediction error.\n",
     "homepage": "https://cloud.r-project.org/package=ipred",
-    "latest_version": "0.9-14",
+    "latest_version": "0.9-15",
     "maintainers": [],
     "name": "r-ipred",
     "patches": [],
@@ -53,6 +53,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.9-15",
+            "sha256": "a4752de11121262f3f4c43163efa34e05e42cdf4f8496d8897be6f410dc0ee4b"
+        },
         {
             "name": "0.9-14",
             "sha256": "81c83dc847d09c3db52ef15e36cd4dac38c50eead1008ddd458b9e89d7528f35"

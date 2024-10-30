@@ -28,7 +28,7 @@
     ],
     "description": "An 'Rcpp' Interface to Active Bindings. Provides an easy way to fill an\nenvironment with active bindings that call a C++ function.\n",
     "homepage": "https://cloud.r-project.org/package=bindrcpp",
-    "latest_version": "0.2.2",
+    "latest_version": "0.2.3",
     "maintainers": [],
     "name": "r-bindrcpp",
     "patches": [],
@@ -41,6 +41,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.2.3",
+            "sha256": "662dae785aee715855415f4e743281ccbf0832e426084dc2f0ca9c9c908ec9fa"
+        },
         {
             "name": "0.2.2",
             "sha256": "48130709eba9d133679a0e959e49a7b14acbce4f47c1e15c4ab46bd9e48ae467"

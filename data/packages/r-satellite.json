@@ -32,7 +32,7 @@
     ],
     "description": "Handling and Manipulating Remote Sensing Data. Herein, we provide a\nbroad variety of functions which are useful for handling, manipulating,\nand visualizing satellite-based remote sensing data. These operations\nrange from mere data import and layer handling (eg subsetting), over\nRaster* typical data wrangling (eg crop, extend), to more sophisticated\n(pre-)processing tasks typically applied to satellite imagery (eg\natmospheric and topographic correction). This functionality is\ncomplemented by a full access to the satellite layers' metadata at any\nstage and the documentation of performed actions in a separate log file.\nCurrently available sensors include Landsat 4-5 (TM), 7 (ETM+), and 8\n(OLI/TIRS Combined), and additional compatibility is ensured for the\nLandsat Global Land Survey data set.\n",
     "homepage": "https://cloud.r-project.org/package=satellite",
-    "latest_version": "1.0.4",
+    "latest_version": "1.0.5",
     "maintainers": [],
     "name": "r-satellite",
     "patches": [],
@@ -45,6 +45,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.0.5",
+            "sha256": "3e4c382f905eb0b2d84f03423af2960854e5cf94905a373c6ba3f41a2b72a1ad"
+        },
         {
             "name": "1.0.4",
             "sha256": "99e79577a70489930c32da46ac26453af53e21c2d3a99f51fbf1f55f2d80dc7c"

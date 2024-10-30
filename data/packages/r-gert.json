@@ -44,7 +44,7 @@
     ],
     "description": "Simple Git Client for R. Simple git client for R based on 'libgit2' with\nsupport for SSH and HTTPS remotes. All functions in 'gert' use basic R\ndata types (such as vectors and data-frames) for their arguments and\nreturn values. User credentials are shared with command line 'git'\nthrough the git-credential store and ssh keys stored on disk or ssh-\nagent.\n",
     "homepage": "https://cloud.r-project.org/package=gert",
-    "latest_version": "1.9.2",
+    "latest_version": "2.1.1",
     "maintainers": [],
     "name": "r-gert",
     "patches": [],
@@ -57,6 +57,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.1.1",
+            "sha256": "42037c041b284ae7ef4da68b784f2dfc3f72701534a8330265b1abc382eda964"
+        },
         {
             "name": "1.9.2",
             "sha256": "42ca1b4bcafb1fdbbc7f54df0ee4476ecd19e9e7d563b53fe7064e0086ab665e"

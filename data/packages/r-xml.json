@@ -74,6 +74,10 @@
             "name": "r-rgexf"
         },
         {
+            "description": "Provides a set of functions for data manipulation with list objects,\nincluding mapping, filtering, grouping, sorting, updating, searching,\nand other useful functions. Most functions are designed to be pipeline\nfriendly so that data processing with lists can be chained.",
+            "name": "r-rlist"
+        },
+        {
             "description": "Semantically Rich I/O for the 'NeXML' Format. Provides access to\nphyloinformatic data in 'NeXML' format. The package should add new\nfunctionality to R such as the possibility to manipulate 'NeXML' objects\nin more various and refined way and compatibility with 'ape' objects.",
             "name": "r-rnexml"
         },
@@ -92,7 +96,7 @@
     ],
     "description": "Tools for Parsing and Generating XML Within R and S-Plus. Many\napproaches for both reading and creating XML (and HTML) documents\n(including DTDs), both local and accessible via HTTP or FTP. Also offers\naccess to an 'XPath' \"interpreter\".\n",
     "homepage": "https://cloud.r-project.org/package=XML",
-    "latest_version": "3.99-0.14",
+    "latest_version": "3.99-0.17",
     "maintainers": [],
     "name": "r-xml",
     "patches": [],
@@ -105,6 +109,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.99-0.17",
+            "sha256": "6e233265ff69ff2f59f56fe4abc5af70e2cfa6d99aec6ad2afd2bf2c0d98a2d8"
+        },
         {
             "name": "3.99-0.14",
             "sha256": "2cb6a61a4d8d89e311994f47df09913d4ce5281317d42c78af4aafd75a31f1f9"

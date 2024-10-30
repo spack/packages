@@ -274,6 +274,10 @@
             "name": "r-ggsignif"
         },
         {
+            "description": "Provides new statistics, new geometries and new positions for 'ggplot2'\nand a suite of functions to facilitate the creation of statistical\nplots.",
+            "name": "r-ggstats"
+        },
+        {
             "description": "Extra Themes, Scales and Geoms for 'ggplot2'. Some extra themes, geoms,\nand scales for 'ggplot2'. Provides 'ggplot2' themes and scales that\nreplicate the look of plots by Edward Tufte, Stephen Few,\n'Fivethirtyeight', 'The Economist', 'Stata', 'Excel', and 'The Wall\nStreet Journal', among others. Provides 'geoms' for Tufte's box plot and\nrange frame.",
             "name": "r-ggthemes"
         },

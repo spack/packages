@@ -103,7 +103,7 @@
     "dependent_to": [],
     "description": "Spatial Visualization with ggplot2. A collection of functions to\nvisualize spatial data and models on top of static maps from various\nonline sources (e.g Google Maps and Stamen Maps). It includes tools\ncommon to those tasks, including functions for geolocation and routing.\n",
     "homepage": "https://cloud.r-project.org/package=ggmap",
-    "latest_version": "3.0.2",
+    "latest_version": "4.0.0",
     "maintainers": [],
     "name": "r-ggmap",
     "patches": [],
@@ -116,6 +116,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "4.0.0",
+            "sha256": "0de639357c066e3b632eb960fd811276558ce29aefa2f77ef711ff5841c734f5"
+        },
         {
             "name": "3.0.2",
             "sha256": "ba5fe3975fd4ca1a5fbda4910c9705ac2edacec75c658177edaf87f1c55cdcae"

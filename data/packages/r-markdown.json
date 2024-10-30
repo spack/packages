@@ -48,7 +48,7 @@
     ],
     "description": "Render Markdown with the C Library 'Sundown'. Provides R bindings to the\n'Sundown' 'Markdown' rendering library (https://github.com/vmg/sundown).\n'Markdown' is a plain-text formatting syntax that can be converted to\n'XHTML' or other formats. See https://en.wikipedia.org/wiki/Markdown for\nmore information about 'Markdown'.\n",
     "homepage": "https://cloud.r-project.org/package=markdown",
-    "latest_version": "1.6",
+    "latest_version": "1.13",
     "maintainers": [],
     "name": "r-markdown",
     "patches": [],
@@ -61,6 +61,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.13",
+            "sha256": "385421c674cf5bf2ba04d1df7c16bb5d857bec03755a36321999ac37f5b3cfd9"
+        },
         {
             "name": "1.6",
             "sha256": "46228b8d8161ae4b651b4662364eb35a3b91e6a7a457fe99d0e709f2a6f559ea"

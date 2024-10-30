@@ -32,7 +32,7 @@
     ],
     "description": "An 'SVG' Graphics Device. A graphics device for R that produces\n'Scalable Vector Graphics'. 'svglite' is a fork of the older\n'RSvgDevice' package.\n",
     "homepage": "https://cloud.r-project.org/package=svglite",
-    "latest_version": "2.1.1",
+    "latest_version": "2.1.3",
     "maintainers": [],
     "name": "r-svglite",
     "patches": [],
@@ -45,6 +45,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.1.3",
+            "sha256": "f0a8564e6f9127f4d1e05cf5a5f36b4e244aee0008e27473e504c63873ef0a54"
+        },
         {
             "name": "2.1.1",
             "sha256": "48700169eec1b05dbee9e2bae000aa84c544617b018cb3ac431a128cfd8dac56"

@@ -23,7 +23,7 @@
     "dependent_to": [],
     "description": "Goodness-of-Fit Functions for Comparison of Simulated and Observed\nHydrological Time Series. S3 functions implementing both statistical and\ngraphical goodness-of-fit measures between observed and simulated\nvalues, mainly oriented to be used during the calibration, validation,\nand application of hydrological models. Missing values in observed\nand/or simulated values can be removed before computations. Comments /\nquestions / collaboration of any kind are very welcomed.\n",
     "homepage": "https://cloud.r-project.org/package=hydroGOF",
-    "latest_version": "0.4-0",
+    "latest_version": "0.6-0",
     "maintainers": [],
     "name": "r-hydrogof",
     "patches": [],
@@ -36,6 +36,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.6-0",
+            "sha256": "fb1839da5d6c2d0bbff961b4bb39d149b487b59dc36017aada9d3484a842269e"
+        },
         {
             "name": "0.4-0",
             "sha256": "6a109740e36549a9369b5960b869e5e0a296261df7b6faba6cb3bd338d59883b"

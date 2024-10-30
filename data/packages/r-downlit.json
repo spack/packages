@@ -56,7 +56,7 @@
     ],
     "description": "Syntax Highlighting and Automatic Linking. Syntax highlighting of R\ncode, specifically designed for the needs of 'RMarkdown' packages like\n'pkgdown', 'hugodown', and 'bookdown'. It includes linking of function\ncalls to their documentation on the web, and automatic translation of\nANSI escapes in output to the equivalent HTML.\n",
     "homepage": "https://cloud.r-project.org/package=downlit",
-    "latest_version": "0.4.2",
+    "latest_version": "0.4.4",
     "maintainers": [],
     "name": "r-downlit",
     "patches": [],
@@ -69,6 +69,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.4.4",
+            "sha256": "55c377dcee4adc48c1060e14079f3d1832453d066a2cf070530caa210c48f828"
+        },
         {
             "name": "0.4.2",
             "sha256": "33dff66909104d1a5ba8e57b1288986e82b61fd5e91dce0cd358d53724b37e3c"

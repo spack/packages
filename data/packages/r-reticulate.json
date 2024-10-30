@@ -40,6 +40,10 @@
             "name": "r-rcpptoml"
         },
         {
+            "description": "Functions for Base Types and Core R and 'Tidyverse' Features. A toolbox\nfor working with base types, core R features like the condition system,\nand core 'Tidyverse' features like tidy evaluation.",
+            "name": "r-rlang"
+        },
+        {
             "description": "Run Code 'With' Temporarily Modified Global State. A set of functions to\nrun code 'with' safely and temporarily modified global state. Many of\nthese functions were originally a part of the 'devtools' package, this\nprovides a simple package with limited dependencies to provide access to\nthese functions.",
             "name": "r-withr"
         }
@@ -68,7 +72,7 @@
     ],
     "description": "Interface to 'Python'. Interface to 'Python' modules, classes, and\nfunctions. When calling into 'Python', R data types are automatically\nconverted to their equivalent 'Python' types. When values are returned\nfrom 'Python' to R they are converted back to R types. Compatible with\nall versions of 'Python' >= 2.7.\n",
     "homepage": "https://cloud.r-project.org/package=reticulate",
-    "latest_version": "1.28",
+    "latest_version": "1.38.0",
     "maintainers": [],
     "name": "r-reticulate",
     "patches": [],
@@ -81,6 +85,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.38.0",
+            "sha256": "cb2f313e2351a3cde03be55561b592318ec5376fba3b10e371eeff1986deca8d"
+        },
         {
             "name": "1.28",
             "sha256": "58a299ed18faaa3ff14936752fcc2b86e64ae18fc9f36befdfd492ccb251516f"

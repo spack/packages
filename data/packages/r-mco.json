@@ -16,7 +16,7 @@
     ],
     "description": "Multiple Criteria Optimization Algorithms and Related Functions. A\ncollection of function to solve multiple criteria optimization problems\nusing genetic algorithms (NSGA-II). Also included is a collection of\ntest functions.\n",
     "homepage": "https://cloud.r-project.org/package=mco",
-    "latest_version": "1.15.6",
+    "latest_version": "1.17",
     "maintainers": [],
     "name": "r-mco",
     "patches": [],
@@ -29,6 +29,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.17",
+            "sha256": "8288e99159a541855bd286baf586e61201e286dfd244080aef128871b1699ea2"
+        },
         {
             "name": "1.15.6",
             "sha256": "17ebe279cb9c89b7cd8054ac50d3b657d2b10dadbc584b88da7e79c3a9680582"

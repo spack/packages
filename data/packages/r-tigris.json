@@ -64,7 +64,7 @@
     ],
     "description": "Load Census TIGER/Line Shapefiles. Download TIGER/Line shapefiles from\nthe United States Census Bureau and load into R as 'SpatialDataFrame' or\n'sf' objects.\n",
     "homepage": "https://cloud.r-project.org/package=tigris",
-    "latest_version": "2.0.1",
+    "latest_version": "2.1",
     "maintainers": [],
     "name": "r-tigris",
     "patches": [],
@@ -77,6 +77,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.1",
+            "sha256": "796bed6ce003323815d606886472bf21c101656fca8a593daa3b69cb3bd6fd97"
+        },
         {
             "name": "2.0.1",
             "sha256": "d87c6b0c11ffb967699d345c6bfcfa82581a0753e1130bf0c927b2960b074d8c"

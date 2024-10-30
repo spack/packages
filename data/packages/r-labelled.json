@@ -36,11 +36,19 @@
             "name": "r-tidyr"
         },
         {
+            "description": "Select from a Set of Strings. A backend for the selecting functions of\nthe 'tidyverse'. It makes it easy to implement select-like functions in\nyour own packages in a way that is consistent with other 'tidyverse'\ninterfaces for selection.",
+            "name": "r-tidyselect"
+        },
+        {
             "description": "Vector Helpers. Defines new notions of prototype and size that are used\nto provide tools for consistent and well-founded type-coercion and size-\nrecycling, and are in turn connected to ideas of type- and size-\nstability useful for analyzing function interfaces.",
             "name": "r-vctrs"
         }
     ],
     "dependent_to": [
+        {
+            "description": "Provides suite of functions to work with regression model\n'broom::tidy()' tibbles. The suite includes functions to group\nregression model terms by variable, insert reference and header rows for\ncategorical variables, add variable labels, and more.",
+            "name": "r-broom-helpers"
+        },
         {
             "description": "Functions to Make Surveys Processing Easier. Set of functions to make\nthe processing and analysis of surveys easier: interactive shiny apps\nand addins for data recoding, contingency tables, dataset metadata\nhandling, and several convenience functions.",
             "name": "r-questionr"
@@ -48,7 +56,7 @@
     ],
     "description": "Manipulating Labelled Data. Work with labelled data imported from 'SPSS'\nor 'Stata' with 'haven' or 'foreign'. This package provides useful\nfunctions to deal with \"haven_labelled\" and \"haven_labelled_spss\"\nclasses introduced by 'haven' package.\n",
     "homepage": "https://cloud.r-project.org/package=labelled",
-    "latest_version": "2.11.0",
+    "latest_version": "2.13.0",
     "maintainers": [],
     "name": "r-labelled",
     "patches": [],
@@ -61,6 +69,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.13.0",
+            "sha256": "9e2e82a42343b62f8a476d4dd7b13e9ffb3ee2c4e23bdf2cd29ef25b3dffa237"
+        },
         {
             "name": "2.11.0",
             "sha256": "eddc5299ca448ea9c244960af65b95f4164495febd609f719e0f453598a0e5dd"

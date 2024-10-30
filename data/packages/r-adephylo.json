@@ -32,7 +32,7 @@
     ],
     "description": "Exploratory Analyses for the Phylogenetic Comparative Method.\nMultivariate tools to analyze comparative data, i.e. a phylogeny and\nsome traits measured for each taxa.\n",
     "homepage": "https://cloud.r-project.org/package=adephylo",
-    "latest_version": "1.1-13",
+    "latest_version": "1.1-16",
     "maintainers": [],
     "name": "r-adephylo",
     "patches": [],
@@ -45,6 +45,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.1-16",
+            "sha256": "b5ce5de26bbe6e40ca0650650acac3f613e5170d0b14dc5d6e6bbe83c416ce58"
+        },
         {
             "name": "1.1-13",
             "sha256": "2aa132fee9d0a14ac09b0a96af40ac332cb4e13c892908803c335aa7319ca76d"

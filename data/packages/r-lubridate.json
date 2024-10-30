@@ -64,7 +64,7 @@
     ],
     "description": "Make Dealing with Dates a Little Easier. Functions to work with date-\ntimes and timespans: fast and user friendly parsing of date-time data,\nextraction and updating of components of a date-time (years, months,\ndays, hours, minutes, and seconds), algebraic manipulation on date-time\nand timespan objects. The 'lubridate' package has a consistent and\nmemorable syntax that makes working with dates easy and fun.\n",
     "homepage": "https://cloud.r-project.org/package=lubridate",
-    "latest_version": "1.9.2",
+    "latest_version": "1.9.3",
     "maintainers": [],
     "name": "r-lubridate",
     "patches": [],
@@ -77,6 +77,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.9.3",
+            "sha256": "2b6e1406d231b0a14d60b99cc406d159fea5465a5694725ad25343f12cf37fff"
+        },
         {
             "name": "1.9.2",
             "sha256": "8976431a4affe989261cbaa5e09cd44bb42a3b16eed59a42c1698da34c6544a7"

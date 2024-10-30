@@ -11,7 +11,7 @@
     "dependent_to": [],
     "description": "Tests and checks characteristics of R objects. tester allows you to test\ncharacteristics of common R objects.\n",
     "homepage": "https://cloud.r-project.org/package=tester",
-    "latest_version": "0.1.7",
+    "latest_version": "0.2.0",
     "maintainers": [],
     "name": "r-tester",
     "patches": [],
@@ -24,6 +24,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.2.0",
+            "sha256": "bec8141b8572ca8d19a270a2eaec23aa4c01a167f32f2e05a4bf353418a0020b"
+        },
         {
             "name": "0.1.7",
             "sha256": "b9c645119c21c69450f3d366c911ed92ac7c14ef61652fd676a38fb9d420b5f4"

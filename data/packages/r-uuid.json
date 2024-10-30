@@ -44,7 +44,7 @@
     ],
     "description": "Tools for Generating and Handling of UUIDs. Tools for generating and\nhandling of UUIDs (Universally Unique Identifiers).\n",
     "homepage": "https://cloud.r-project.org/package=uuid",
-    "latest_version": "1.1-0",
+    "latest_version": "1.2-1",
     "maintainers": [],
     "name": "r-uuid",
     "patches": [],
@@ -57,6 +57,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.2-1",
+            "sha256": "f90e49733d7d6ea7cf91abdc07b7d0e9a34a4b993e6914d754f0621281fc4b96"
+        },
         {
             "name": "1.1-0",
             "sha256": "e75b50ee7dc8c4c8e7083023e954ffd1c6a004431bf5e9094463e46aa760f42f"

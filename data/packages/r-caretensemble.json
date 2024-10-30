@@ -32,18 +32,26 @@
             "name": "r-lattice"
         },
         {
+            "description": "The Composer of Plots. The 'ggplot2' package provides a strong API for\nsequentially building up a plot, but does not concern itself with\ncomposition of multiple plots. 'patchwork' is a package that expands the\nAPI to allow for arbitrarily complex composition of plots by, among\nothers, providing mathematical operators for combining multiple plots.\nOther packages that try to address this need (but with a different\napproach) are 'gridExtra' and 'cowplot'.",
+            "name": "r-patchwork"
+        },
+        {
             "description": "Adding Progress Bar to '*apply' Functions. A lightweight package that\nadds progress bar to vectorized R functions ('*apply'). The\nimplementation can easily be added to functions where showing the\nprogress is useful (e.g. bootstrap). The type and style of the progress\nbar (with percentages or remaining time) can be set through options.\nSupports several parallel processing backends.",
             "name": "r-pbapply"
         },
         {
             "description": "Tools for Splitting, Applying and Combining Data. A set of tools that\nsolves a common set of problems: you need to break a big problem down\ninto manageable pieces, operate on each piece and then put all the\npieces back together. For example, you might want to fit a model to each\nspatial location or time point in your study, summarise data by panels\nor collapse high-dimensional arrays to simpler summary statistics. The\ndevelopment of 'plyr' has been generously supported by 'Becton\nDickinson'.",
             "name": "r-plyr"
+        },
+        {
+            "description": "Functions for Base Types and Core R and 'Tidyverse' Features. A toolbox\nfor working with base types, core R features like the condition system,\nand core 'Tidyverse' features like tidy evaluation.",
+            "name": "r-rlang"
         }
     ],
     "dependent_to": [],
     "description": "Ensembles of Caret Models. Functions for creating ensembles of caret\nmodels: caretList() and caretStack(). caretList() is a convenience\nfunction for fitting multiple caret::train() models to the same dataset.\ncaretStack() will make linear or non-linear combinations of these\nmodels, using a caret::train() model as a meta-model, and\ncaretEnsemble() will make a robust linear combination of models using a\nGLM.\n",
     "homepage": "https://cloud.r-project.org/package=caretEnsemble",
-    "latest_version": "2.0.2",
+    "latest_version": "4.0.0",
     "maintainers": [],
     "name": "r-caretensemble",
     "patches": [],
@@ -56,6 +64,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "4.0.0",
+            "sha256": "9177ad477fd2872e944231764227bcf5e2eabc9916dabce91f1a2a2decc98f43"
+        },
         {
             "name": "2.0.2",
             "sha256": "d8fcf3742beddc723b68677682708408cc11dcb8b36a0f70f03e7c4763e04f4d"

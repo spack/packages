@@ -56,7 +56,7 @@
     ],
     "description": "Access the Bioconductor Project Package Repository. A convenient tool to\ninstall and update Bioconductor packages.\n",
     "homepage": "https://cloud.r-project.org/package=BiocManager",
-    "latest_version": "1.30.20",
+    "latest_version": "1.30.24",
     "maintainers": [],
     "name": "r-biocmanager",
     "patches": [],
@@ -69,6 +69,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.30.24",
+            "sha256": "645c423bb144dbd476cb308678bd36e06c1a3494115f157166dd3f59955ec7d1"
+        },
         {
             "name": "1.30.20",
             "sha256": "b9e72d7687abbd785a69fecb530ec86ad92257a6be95b8e15953b193a516d5ea"

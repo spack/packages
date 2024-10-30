@@ -40,6 +40,10 @@
             "name": "r-spatstat-sparse"
         },
         {
+            "description": "Estimation of one-dimensional probability distributions including kernel\ndensity estimation, weighted empirical cumulative distribution\nfunctions, Kaplan-Meier and reduced-sample estimators for right-censored\ndata, heat kernels, kernel properties, quantiles and integration.",
+            "name": "r-spatstat-univar"
+        },
+        {
             "description": "Utility Functions for 'spatstat'. Contains utility functions for the\n'spatstat' package which may also be useful for other purposes.",
             "name": "r-spatstat-utils"
         }
@@ -52,7 +56,7 @@
     ],
     "description": "Linear Networks Functionality of the 'spatstat' Family. Defines types of\nspatial data on a linear network and provides functionality for\ngeometrical operations, data analysis and modelling of data on a linear\nnetwork, in the 'spatstat' family of packages. Contains definitions and\nsupport for linear networks, including creation of networks, geometrical\nmeasurements, topological connectivity, geometrical operations such as\ninserting and deleting vertices, intersecting a network with another\nobject, and interactive editing of networks. Data types defined on a\nnetwork include point patterns, pixel images, functions, and\ntessellations. Exploratory methods include kernel estimation of\nintensity on a network, K-functions and pair correlation functions on a\nnetwork, simulation envelopes, nearest neighbour distance and empty\nspace distance, relative risk estimation with cross-validated bandwidth\nselection. Formal hypothesis tests of random pattern (chi-squared,\nKolmogorov-Smirnov, Monte Carlo, Diggle-Cressie-Loosmore-Ford, Dao-\nGenton, two-stage Monte Carlo) and tests for covariate effects (Cox-\nBerman-Waller-Lawson, Kolmogorov-Smirnov, ANOVA) are also supported.\nParametric models can be fitted to point pattern data using the function\nlppm() similar to glm(). Only Poisson models are implemented so far.\nModels may involve dependence on covariates and dependence on marks.\nModels are fitted by maximum likelihood. Fitted point process models can\nbe simulated, automatically. Formal hypothesis tests of a fitted model\nare supported (likelihood ratio test, analysis of deviance, Monte Carlo\ntests) along with basic tools for model selection (stepwise(), AIC())\nand variable selection (sdr). Tools for validating the fitted model\ninclude simulation envelopes, residuals, residual plots and Q-Q plots,\nleverage and influence diagnostics, partial residuals, and added\nvariable plots. Random point patterns on a network can be generated\nusing a variety of models.\n",
     "homepage": "https://cloud.r-project.org/package=spatstat.linnet",
-    "latest_version": "3.1-0",
+    "latest_version": "3.2-1",
     "maintainers": [],
     "name": "r-spatstat-linnet",
     "patches": [],
@@ -65,6 +69,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.2-1",
+            "sha256": "1af0d8063c72650f17c6b79afb07e69e0b6a9794583e8f0c38c6624d91dc11bf"
+        },
         {
             "name": "3.1-0",
             "sha256": "b9b0ad66af169ca1ef3da852578d7b65521cf55f4a72c43ae5b1f2d4f47bf00c"

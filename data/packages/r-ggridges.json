@@ -44,7 +44,7 @@
     ],
     "description": "Ridgeline Plots in 'ggplot2'. Ridgeline plots provide a convenient way\nof visualizing changes in distributions over time or space. This package\nenables the creation of such plots in 'ggplot2'.\n",
     "homepage": "https://cloud.r-project.org/package=ggridges",
-    "latest_version": "0.5.4",
+    "latest_version": "0.5.6",
     "maintainers": [],
     "name": "r-ggridges",
     "patches": [],
@@ -57,6 +57,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.5.6",
+            "sha256": "efccaa309a150d11c6b402b912e618ea041f25cca3101f32cd821a6f41684e35"
+        },
         {
             "name": "0.5.4",
             "sha256": "2bf71c2034804cec637e6748dc51d8cadad01d3ea4d14ace754327f082e8d851"

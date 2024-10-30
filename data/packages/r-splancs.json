@@ -20,7 +20,7 @@
     ],
     "description": "Spatial and Space-Time Point Pattern Analysis. The Splancs package was\nwritten as an enhancement to S-Plus for display and analysis of spatial\npoint pattern data; it has been ported to R and is in \"maintenance\nmode\".\n",
     "homepage": "https://cloud.r-project.org/package=splancs",
-    "latest_version": "2.01-43",
+    "latest_version": "2.01-45",
     "maintainers": [],
     "name": "r-splancs",
     "patches": [],
@@ -33,6 +33,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.01-45",
+            "sha256": "8bccf1d61d7feaab52da07a9c95aa66bcd3986a6b214f13b232c1e2bea4b76d3"
+        },
         {
             "name": "2.01-43",
             "sha256": "b351565e1f69f6c86a29d921d3a18d5896c4586e2ab8c73bb3df8e75630fc448"

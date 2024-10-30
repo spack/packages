@@ -32,6 +32,10 @@
             "name": "r-future"
         },
         {
+            "description": "Apply Function to Elements in Parallel using Futures. Implementations of\napply(), by(), eapply(), lapply(), Map(), mapply(), replicate(),\nsapply(), tapply(), and vapply() that can be resolved using any future-\nsupported backend, e.g. parallel on the local machine or distributed on\na compute cluster. These future_*apply() functions come with the same\npros and cons as the corresponding base-R *apply() functions but with\nthe additional feature of being able to be processed via the future\nframework.",
+            "name": "r-future-apply"
+        },
+        {
             "description": "Create Elegant Data Visualisations Using the Grammar of Graphics. A\nsystem for 'declaratively' creating graphics, based on \"The Grammar of\nGraphics\". You provide the data, tell 'ggplot2' how to map variables to\naesthetics, what graphical primitives to use, and it takes care of the\ndetails.",
             "name": "r-ggplot2"
         },
@@ -95,7 +99,7 @@
     "dependent_to": [],
     "description": "Bayesian Regression Models using 'Stan'. Fit Bayesian generalized\n(non-)linear multivariate multilevel models using 'Stan' for full\nBayesian inference. A wide range of distributions and link functions are\nsupported, allowing users to fit - among others - linear, robust linear,\ncount data, survival, response times, ordinal, zero-inflated, hurdle,\nand even self-defined mixture models all in a multilevel context.\nFurther modeling options include non-linear and smooth terms, auto-\ncorrelation structures, censored data, meta-analytic standard errors,\nand quite a few more. In addition, all parameters of the response\ndistribution can be predicted in order to perform distributional\nregression. Prior specifications are flexible and explicitly encourage\nusers to apply prior distributions that actually reflect their beliefs.\nModel fit can easily be assessed and compared with posterior predictive\nchecks and leave-one-out cross-validation. References: Burkner (2017)\n<doi:10.18637/jss.v080.i01>; Burkner (2018) <doi:10.32614/RJ-2018-017>;\nCarpenter et al. (2017) <doi:10.18637/jss.v076.i01>.\n",
     "homepage": "https://cloud.r-project.org/package=brms",
-    "latest_version": "2.19.0",
+    "latest_version": "2.21.0",
     "maintainers": [],
     "name": "r-brms",
     "patches": [],
@@ -108,6 +112,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.21.0",
+            "sha256": "7289ff33c2a4b83584b7fece0a6aa53fd14b5881a467d417fbca5dbf62ec5d58"
+        },
         {
             "name": "2.19.0",
             "sha256": "0e146842c7acfcc6b8273df536eabb5279fb3bf2ae27ce1696f7d838d94fe5c1"

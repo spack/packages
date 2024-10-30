@@ -60,7 +60,7 @@
     ],
     "description": "Repulsive Text and Label Geoms for 'ggplot2'. Provides text and label\ngeoms for 'ggplot2' that help to avoid overlapping text labels. Labels\nrepel away from each other and away from the data points.\n",
     "homepage": "https://cloud.r-project.org/package=ggrepel",
-    "latest_version": "0.9.3",
+    "latest_version": "0.9.5",
     "maintainers": [],
     "name": "r-ggrepel",
     "patches": [],
@@ -73,6 +73,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.9.5",
+            "sha256": "d1e600e56c2ad345961ed23f30f04b81c631ff94bd6762a260c62e0206cf8caa"
+        },
         {
             "name": "0.9.3",
             "sha256": "b9eba0e2edee84db0276b49e4834b65f5369edc4bc56f4cacc13e0d1c39a005c"

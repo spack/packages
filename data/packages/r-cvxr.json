@@ -12,6 +12,10 @@
             "name": "r-bit64"
         },
         {
+            "description": "A versatile interior point solver that solves linear programs (LPs),\nquadratic programs (QPs), second-order cone programs (SOCPs),\nsemidefinite programs (SDPs), and problems with exponential and power\ncone constraints (<https://clarabel.org/stable/>). For quadratic\nobjectives, unlike interior point solvers based on the standard\nhomogeneous self-dual embedding (HSDE) model, 'Clarabel' handles\nquadratic objective without requiring any epigraphical reformulation of\nits objective function. It can therefore be significantly faster than\nother HSDE-based solvers for problems with quadratic objective\nfunctions. Infeasible problems are detected using using a homogeneous\nembedding technique.",
+            "name": "r-clarabel"
+        },
+        {
             "description": "Embedded Conic Solver in R. R interface to the Embedded COnic Solver\n(ECOS), an efficient and robust C library for convex problems. Conic and\nequality constraints can be specified in addition to integer and boolean\nvariable constraints for mixed-integer problems. This R interface is\ninspired by the python interface and has similar calling conventions.",
             "name": "r-ecosolver"
         },
@@ -51,7 +55,7 @@
     "dependent_to": [],
     "description": "Disciplined Convex Optimization. An object-oriented modeling language\nfor disciplined convex programming (DCP) as described in Fu, Narasimhan,\nand Boyd (2020, <doi:10.18637/jss.v094.i14>). It allows the user to\nformulate convex optimization problems in a natural way following\nmathematical convention and DCP rules. The system analyzes the problem,\nverifies its convexity, converts it into a canonical form, and hands it\noff to an appropriate solver to obtain the solution. Interfaces to\nsolvers on CRAN and elsewhere are provided, both commercial and open\nsource.\n",
     "homepage": "https://cloud.r-project.org/package=CVXR",
-    "latest_version": "1.0-11",
+    "latest_version": "1.0-14",
     "maintainers": [],
     "name": "r-cvxr",
     "patches": [],
@@ -64,6 +68,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.0-14",
+            "sha256": "4d027cc2b933720ded4edcc098fde1259992673825abdb109fd84fee4af57cdb"
+        },
         {
             "name": "1.0-11",
             "sha256": "e92a9638f35f4909e2a29c3b7106081e3dae7ff88b14bb6466b87fbdc80b972a"

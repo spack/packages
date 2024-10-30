@@ -31,7 +31,7 @@
     "dependent_to": [],
     "description": "Nanosecond-Resolution Time Support for R. Full 64-bit resolution date\nand time functionality with; nanosecond granularity is provided, with\neasy transition to and from; the standard 'POSIXct' type. Three\nadditional classes offer interval,; period and duration functionality\nfor nanosecond-resolution timestamps.\n",
     "homepage": "https://cloud.r-project.org/package=nanotime",
-    "latest_version": "0.3.7",
+    "latest_version": "0.3.9",
     "maintainers": [],
     "name": "r-nanotime",
     "patches": [],
@@ -44,6 +44,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.3.9",
+            "sha256": "cc2965edfd68f83a84142ead27a5a84e1c5b2931ec911dddecb3e0bc3ffa79d8"
+        },
         {
             "name": "0.3.7",
             "sha256": "a771782653aef62a071682907fd7bd611f7f98fc80beda227d619aae166ccb15"

@@ -6,6 +6,30 @@
         {
             "description": "R is 'GNU S', a freely available language and environment for\nstatistical computing and graphics which provides a wide variety of\nstatistical and graphical techniques: linear and nonlinear modelling,\nstatistical tests, time series analysis, classification, clustering,\netc. Please consult the R project homepage for further information.",
             "name": "r"
+        },
+        {
+            "description": "Helpers for Developing Command Line Interfaces. A suite of tools to\nbuild attractive command line interfaces ('CLIs'), from semantic\nelements: headings, lists, alerts, paragraphs, etc. Supports custom\nthemes via a 'CSS'-like language. It also contains a number of lower\nlevel 'CLI' elements: rules, boxes, trees, and 'Unicode' symbols with\n'ASCII' alternatives. It integrates with the 'crayon' package to support\n'ANSI' terminal colors.",
+            "name": "r-cli"
+        },
+        {
+            "description": "Create Compact Hash Digests of R Objects. Implementation of a function\n'digest()' for the creation of hash digests of arbitrary R objects\n(using the md5, sha-1, sha-256, crc32, xxhash and murmurhash algorithms)\npermitting easy comparison of R language objects, as well as a function\n'hmac()' to create hash-based message authentication code. The md5\nalgorithm by Ron Rivest is specified in RFC 1321, the sha-1 and sha-256\nalgorithms are specified in FIPS-180-1 and FIPS-180-2, and the crc32\nalgorithm is described in\nftp://ftp.rocksoft.com/cliens/rocksoft/papers/crc_v3.txt. For md5,\nsha-1, sha-256 and aes, this package uses small standalone\nimplementations that were provided by Christophe Devine. For crc32, code\nfrom the zlib library is used. For sha-512, an implementation by Aaron\nD. Gifford is used. For xxhash, the implementation by Yann Collet is\nused. For murmurhash, an implementation by Shane Day is used. Please\nnote that this package is not meant to be deployed for cryptographic\npurposes for which more comprehensive (and widely tested) libraries such\nas OpenSSL should be used.",
+            "name": "r-digest"
+        },
+        {
+            "description": "Cross-Platform File System Operations Based on 'libuv'. A cross-platform\ninterface to file system operations, built on top of the 'libuv' C\nlibrary.",
+            "name": "r-fs"
+        },
+        {
+            "description": "Perform HTTP Requests and Process the Responses. Tools for creating and\nmodifying HTTP requests, then performing them and processing the\nresults. 'httr2' is a modern re-imagining of 'httr' that uses a pipe-\nbased interface and solves more of the problems that API wrapping\npackages face.",
+            "name": "r-httr2"
+        },
+        {
+            "description": "'Memoisation' of Functions. Cache the results of a function so that when\nyou call it again with the same arguments it returns the pre-computed\nvalue.",
+            "name": "r-memoise"
+        },
+        {
+            "description": "Functions for Base Types and Core R and 'Tidyverse' Features. A toolbox\nfor working with base types, core R features like the condition system,\nand core 'Tidyverse' features like tidy evaluation.",
+            "name": "r-rlang"
         }
     ],
     "dependent_to": [
@@ -40,7 +64,7 @@
     ],
     "description": "Supporting Functions for Packages Maintained by 'YuLab-SMU'.\nMiscellaneous functions commonly used by 'YuLab-SMU'.\n",
     "homepage": "https://cloud.r-project.org/package=yulab.utils",
-    "latest_version": "0.0.6",
+    "latest_version": "0.1.6",
     "maintainers": [],
     "name": "r-yulab-utils",
     "patches": [],
@@ -53,6 +77,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.1.6",
+            "sha256": "589be7ad1425f7d84dc3748f352fc432e494edb725209c05e28ca2a44f34beec"
+        },
         {
             "name": "0.0.6",
             "sha256": "973a51b8d1284060aec34e94849eea6783439dbcbf85083dd4f1a5df4f927b25"

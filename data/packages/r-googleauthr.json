@@ -48,7 +48,7 @@
     ],
     "description": "Authenticate and Create Google APIs. Create R functions that interact\nwith OAuth2 Google APIs <https://developers.google.com/apis-explorer/>\neasily, with auto-refresh and Shiny compatibility.\n",
     "homepage": "https://cloud.r-project.org/package=googleAuthR",
-    "latest_version": "2.0.1",
+    "latest_version": "2.0.2",
     "maintainers": [],
     "name": "r-googleauthr",
     "patches": [],
@@ -61,6 +61,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.0.2",
+            "sha256": "fd55c85b5f78aa52b6e5cabd4143162cb497ab7288c8db3676acf58a0f393996"
+        },
         {
             "name": "2.0.1",
             "sha256": "9b19a63bc250151674f20b27389baa95c10cc62dc7c3c0ff12a8d684bdb8a14b"

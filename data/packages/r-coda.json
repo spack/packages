@@ -14,6 +14,10 @@
     ],
     "dependent_to": [
         {
+            "description": "Functions to accompany A. Gelman and J. Hill, Data Analysis Using\nRegression and Multilevel/Hierarchical Models, Cambridge University\nPress, 2007.",
+            "name": "r-arm"
+        },
+        {
             "description": "Bayesian Latent Variable Analysis. Fit a variety of Bayesian latent\nvariable models, including confirmatory factor analysis, structural\nequation models, and latent growth curve models. References: Merkle &\nRosseel (2018) <doi:10.18637/jss.v085.i04>; Merkle et al. (2021)\n<doi:10.18637/jss.v100.i06>.",
             "name": "r-blavaan"
         },
@@ -32,6 +36,10 @@
         {
             "description": "Analysis of Evolutionary Diversification. Methods for fitting\nmacroevolutionary models to phylogenetic trees Pennell (2014)\n<doi:10.1093/bioinformatics/btu181>.",
             "name": "r-geiger"
+        },
+        {
+            "description": "Allows researchers to conduct multivariate statistical analyses of\nsurvey data with list experiments.",
+            "name": "r-list"
         },
         {
             "description": "MCMC Generalised Linear Mixed Models. Fits Multivariate Generalised\nLinear Mixed Models (and related models) using Markov chain Monte Carlo\ntechniques (Hadfield 2010 J. Stat. Soft.).",
@@ -72,7 +80,7 @@
     ],
     "description": "Output Analysis and Diagnostics for MCMC. Provides functions for\nsummarizing and plotting the output from Markov Chain Monte Carlo (MCMC)\nsimulations, as well as diagnostic tests of convergence to the\nequilibrium distribution of the Markov chain.\n",
     "homepage": "https://cloud.r-project.org/package=coda",
-    "latest_version": "0.19-4",
+    "latest_version": "0.19-4.1",
     "maintainers": [],
     "name": "r-coda",
     "patches": [],
@@ -85,6 +93,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.19-4.1",
+            "sha256": "f4b451d86fbb56ff9ade043ddd6b0944368c37d0dad12d02837750ecdc708ad6"
+        },
         {
             "name": "0.19-4",
             "sha256": "422d3cfd34797a3631e9c4812431940599c0ca4bb9937797bed07b7b1d6fe58f"

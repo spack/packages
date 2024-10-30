@@ -48,7 +48,7 @@
     ],
     "description": "Interactive Grammar of Graphics. An implementation of an interactive\ngrammar of graphics, taking the best parts of 'ggplot2', combining them\nwith the reactive framework from 'shiny' and web graphics from 'vega'.\n",
     "homepage": "https://cloud.r-project.org/package=ggvis",
-    "latest_version": "0.4.8",
+    "latest_version": "0.4.9",
     "maintainers": [],
     "name": "r-ggvis",
     "patches": [],
@@ -61,6 +61,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.4.9",
+            "sha256": "69b9d184789c90aedd2f336d43033a8b710a16b052580bf9e7ce229ac25ba12f"
+        },
         {
             "name": "0.4.8",
             "sha256": "3d5480a0b97a57c26b595785f826b13d7695dab1f1dd8fcf5d7964fa8546a26a"

@@ -28,7 +28,7 @@
     ],
     "description": "Functional Data Analysis. These functions were developed to support\nfunctional data analysis as described in Ramsay, J. O. and Silverman, B.\nW. (2005) Functional Data Analysis. New York: Springer and in Ramsay, J.\nO., Hooker, Giles, and Graves, Spencer (2009).\n",
     "homepage": "https://cloud.r-project.org/package=fda",
-    "latest_version": "6.0.5",
+    "latest_version": "6.1.8",
     "maintainers": [],
     "name": "r-fda",
     "patches": [],
@@ -41,6 +41,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.1.8",
+            "sha256": "ef8d858a2879491aa2c441d171ba14462bf27852d16e8420fa49aab83f42c407"
+        },
         {
             "name": "6.0.5",
             "sha256": "14445776fc65284cd6cae98e5b4dd14c2626d96db5f78c0fcc6aabce5419b8f1"

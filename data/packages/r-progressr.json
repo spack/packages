@@ -28,7 +28,7 @@
     ],
     "description": "An Inclusive, Unifying API for Progress Updates. A minimal, unifying API\nfor scripts and packages to report progress updates from anywhere\nincluding when using parallel processing. The package is designed such\nthat the developer can to focus on what progress should be reported on\nwithout having to worry about how to present it. The end user has full\ncontrol of how, where, and when to render these progress updates, e.g.\nin the terminal using utils::txtProgressBar() or\nprogress::progress_bar(), in a graphical user interface using\nutils::winProgressBar(), tcltk::tkProgressBar() or\nshiny::withProgress(), via the speakers using beep::beepr(), or on a\nfile system via the size of a file. Anyone can add additional,\ncustomized, progression handlers. The 'progressr' package uses R's\ncondition framework for signaling progress updated. Because of this,\nprogress can be reported from almost anywhere in R, e.g. from classical\nfor and while loops, from map-reduce API:s like the lapply() family of\nfunctions, 'purrr', 'plyr', and 'foreach'. It will also work with\nparallel processing via the 'future' framework, e.g.\nfuture.apply::future_lapply(), furrr::future_map(), and 'foreach' with\n'doFuture'. The package is compatible with Shiny applications.\n",
     "homepage": "https://cloud.r-project.org/package=progressr",
-    "latest_version": "0.13.0",
+    "latest_version": "0.14.0",
     "maintainers": [],
     "name": "r-progressr",
     "patches": [],
@@ -41,6 +41,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.14.0",
+            "sha256": "9a2899f879a5577f043be99c18d52bfe4d655cc52a96cae834e8a301b36258af"
+        },
         {
             "name": "0.13.0",
             "sha256": "0ffb3dcadde0cc191bad0ff9e05d000aa65e2fc339cfc94ebbb263088df5a4e1"

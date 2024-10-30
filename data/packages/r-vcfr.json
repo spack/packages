@@ -55,7 +55,7 @@
     "dependent_to": [],
     "description": "Manipulate and Visualize VCF Data. Facilitates easy manipulation of\nvariant call format (VCF) data. Functions are provided to rapidly read\nfrom and write to VCF files. Once VCF data is read into R a parser\nfunction extracts matrices of data. This information can then be used\nfor quality control or other purposes. Additional functions provide\nvisualization of genomic data. Once processing is complete data may be\nwritten to a VCF file (*.vcf.gz). It also may be converted into other\npopular R objects (e.g., genlight, DNAbin). VcfR provides a link between\nVCF data and familiar R software.\n",
     "homepage": "https://cloud.r-project.org/package=vcfR",
-    "latest_version": "1.14.0",
+    "latest_version": "1.15.0",
     "maintainers": [
         "dorton21"
     ],
@@ -70,6 +70,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.15.0",
+            "sha256": "df17e48b961d96f2a78a1a15037df674f57d0445f2669e401543d8082f0b49fa"
+        },
         {
             "name": "1.14.0",
             "sha256": "8576dbd2e5a707dabc20acbbea3fe18b6a783910e622423ac203609a386204cb"

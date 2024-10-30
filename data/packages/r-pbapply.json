@@ -32,7 +32,7 @@
     ],
     "description": "Adding Progress Bar to '*apply' Functions. A lightweight package that\nadds progress bar to vectorized R functions ('*apply'). The\nimplementation can easily be added to functions where showing the\nprogress is useful (e.g. bootstrap). The type and style of the progress\nbar (with percentages or remaining time) can be set through options.\nSupports several parallel processing backends.\n",
     "homepage": "https://cloud.r-project.org/package=pbapply",
-    "latest_version": "1.7-0",
+    "latest_version": "1.7-2",
     "maintainers": [],
     "name": "r-pbapply",
     "patches": [],
@@ -45,6 +45,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.7-2",
+            "sha256": "aeed8c8c308c7e3827daf10b01b8ed4b88c1d68cea57d72d67c600c0ce0dae13"
+        },
         {
             "name": "1.7-0",
             "sha256": "64b8e931e0a09031c20b66173ce80a646043b8f135d329bc86226a11c6b706c0"

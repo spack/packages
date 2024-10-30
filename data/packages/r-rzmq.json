@@ -15,7 +15,7 @@
     "dependent_to": [],
     "description": "R Bindings for 'ZeroMQ'. Interface to the 'ZeroMQ' lightweight messaging\nkernel (see <http://www.zeromq.org/> for more information).\n",
     "homepage": "https://cloud.r-project.org/package=rzmq",
-    "latest_version": "0.9.8",
+    "latest_version": "0.9.13",
     "maintainers": [],
     "name": "r-rzmq",
     "patches": [],
@@ -28,6 +28,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.9.13",
+            "sha256": "8d603543b23a0b78352b4995c90c03d00686fef1d7a25004b66690191fb463f1"
+        },
         {
             "name": "0.9.8",
             "sha256": "815a7eb502b1da3a84246b2dfb6594ca3f241a8675783e6bcdbbf9c952ec1c53"

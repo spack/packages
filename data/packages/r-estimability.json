@@ -20,7 +20,7 @@
     ],
     "description": "Tools for Assessing Estimability of Linear Predictions. Provides tools\nfor determining estimability of linear functions of regression\ncoefficients, and 'epredict' methods that handle non-estimable cases\ncorrectly. Estimability theory is discussed in many linear-models\ntextbooks including Chapter 3 of Monahan, JF (2008), \"A Primer on Linear\nModels\", Chapman and Hall (ISBN 978-1-4200-6201-4).\n",
     "homepage": "https://cloud.r-project.org/package=estimability",
-    "latest_version": "1.4.1",
+    "latest_version": "1.5.1",
     "maintainers": [],
     "name": "r-estimability",
     "patches": [],
@@ -33,6 +33,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.5.1",
+            "sha256": "3ca6b96a39fd8877e8636f94d20f34308b7296c1376c646703d27df8591644e9"
+        },
         {
             "name": "1.4.1",
             "sha256": "c65aaf1e452f3947013d3ce05ae674d48492081f615a942592dc91db780f1124"

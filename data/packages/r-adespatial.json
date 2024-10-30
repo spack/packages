@@ -47,7 +47,7 @@
     "dependent_to": [],
     "description": "Multivariate Multiscale Spatial Analysis. Tools for the multiscale\nspatial analysis of multivariate data. Several methods are based on the\nuse of a spatial weighting matrix and its eigenvector decomposition\n(Moran's Eigenvectors Maps, MEM). Several approaches are described in\nthe review Dray et al (2012) <doi:10.1890/11-1183.1>.\n",
     "homepage": "https://cloud.r-project.org/package=adespatial",
-    "latest_version": "0.3-21",
+    "latest_version": "0.3-23",
     "maintainers": [],
     "name": "r-adespatial",
     "patches": [],
@@ -60,6 +60,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.3-23",
+            "sha256": "70e0878b13212f9c450bf1e2bd1c5be87a1e24fed942941855a8dd2dd0c05f33"
+        },
         {
             "name": "0.3-21",
             "sha256": "4ff65f9bc05892a2d37d34ab2b77dbd24f980adc891f5f94f8e56aec771ea79f"

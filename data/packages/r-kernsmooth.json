@@ -60,7 +60,7 @@
     ],
     "description": "Functions for Kernel Smoothing Supporting Wand & Jones (1995). Functions\nfor kernel smoothing (and density estimation) corresponding to the book:\nWand, M.P. and Jones, M.C. (1995) \"Kernel Smoothing\".\n",
     "homepage": "https://cloud.r-project.org/package=KernSmooth",
-    "latest_version": "2.23-20",
+    "latest_version": "2.23-24",
     "maintainers": [],
     "name": "r-kernsmooth",
     "patches": [],
@@ -73,6 +73,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.23-24",
+            "sha256": "d0b3ec39547ffd92565e91b0c3bb637f3b30e7a46afe416d8790b8c4f528ac5f"
+        },
         {
             "name": "2.23-20",
             "sha256": "20eb75051e2473933d41eedc9945b03c632847fd581e2207d452cf317fa5ec39"

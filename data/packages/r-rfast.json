@@ -16,6 +16,10 @@
             "name": "r-rcpparmadillo"
         },
         {
+            "description": "Parallel Programming Tools for 'Rcpp'. High level functions for parallel\nprogramming with 'Rcpp'. For example, the 'parallelFor()' function can\nbe used to convert the work of a standard serial \"for\" loop into a\nparallel one and the 'parallelReduce()' function can be used for\naccumulating aggregate or other values.",
+            "name": "r-rcppparallel"
+        },
+        {
             "description": "'Rcpp' Integration of Different \"Ziggurat\" Normal RNG Implementations.\nThe Ziggurat generator for normally distributed random numbers,\noriginally proposed by Marsaglia and Tsang (2000,\n<doi:10.18637/jss.v005.i08>) has been improved upon a few times starting\nwith Leong et al (2005, <doi:10.18637/jss.v012.i07>). This package\nprovides an aggregation in order to compare different implementations in\norder to provide an 'faster but good enough' alternative for use with R\nand C++ code.",
             "name": "r-rcppziggurat"
         }
@@ -28,7 +32,7 @@
     ],
     "description": "A Collection of Efficient and Extremely Fast R Functions. A collection\nof fast (utility) functions for data analysis. Column- and row- wise\nmeans, medians, variances, minimums, maximums, many t, F and G-square\ntests, many regressions (normal, logistic, Poisson), are some of the\nmany fast functions. References: a) Tsagris M., Papadakis M. (2018).\nTaking R to its limits: 70+ tips. PeerJ Preprints 6:e26605v1\n<doi:10.7287/peerj.preprints.26605v1>. b) Tsagris M. and Papadakis M.\n(2018). Forward regression in R: from the extreme slow to the extreme\nfast. Journal of Data Science, 16(4): 771-780.\n<doi:10.6339/JDS.201810_16(4).00006>.\n",
     "homepage": "https://cloud.r-project.org/package=Rfast",
-    "latest_version": "2.0.7",
+    "latest_version": "2.1.0",
     "maintainers": [],
     "name": "r-rfast",
     "patches": [],
@@ -41,6 +45,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.1.0",
+            "sha256": "f9e46cac99db756cd49c9cd83be8adc0d381e6c03102389bfdcb8258d02418ff"
+        },
         {
             "name": "2.0.7",
             "sha256": "8f86159a4760a7124e1c91ae0b022c7e496f81590ea4e4af702bea44e8dedf8f"

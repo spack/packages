@@ -14,6 +14,10 @@
             "name": "r-exomedepth"
         },
         {
+            "description": "Allows researchers to conduct multivariate statistical analyses of\nsurvey data with list experiments.",
+            "name": "r-list"
+        },
+        {
             "description": "Analysis of Heavy Tailed Distributions. An implementation of maximum\nlikelihood estimators for a variety of heavy tailed distributions,\nincluding both the discrete and continuous power law distributions.\nAdditionally, a goodness-of-fit based approach is used to estimate the\nlower cut-off for the scaling region.",
             "name": "r-powerlaw"
         },
@@ -24,7 +28,7 @@
     ],
     "description": "Vector Generalized Linear and Additive Models. An implementation of\nabout 6 major classes of statistical regression models. The central\nalgorithm is Fisher scoring and iterative reweighted least squares. At\nthe heart of this package are the vector generalized linear and additive\nmodel (VGLM/VGAM) classes. VGLMs can be loosely thought of as\nmultivariate GLMs. VGAMs are data-driven VGLMs that use smoothing. The\nbook \"Vector Generalized Linear and Additive Models: With an\nImplementation in R\" (Yee, 2015) <DOI:10.1007/978-1-4939-2818-7> gives\ndetails of the statistical framework and the package. Currently only\nfixed-effects models are implemented. Many (150+) models and\ndistributions are estimated by maximum likelihood estimation (MLE) or\npenalized MLE. The other classes are RR-VGLMs (reduced-rank VGLMs),\nquadratic RR-VGLMs, reduced-rank VGAMs, RCIMs (row-column interaction\nmodels)---these classes perform constrained and unconstrained quadratic\nordination (CQO/UQO) models in ecology, as well as constrained additive\nordination (CAO). Hauck-Donner effect detection is implemented. Note\nthat these functions are subject to change; see the NEWS and ChangeLog\nfiles for latest changes.\n",
     "homepage": "https://cloud.r-project.org/package=VGAM",
-    "latest_version": "1.1-8",
+    "latest_version": "1.1-11",
     "maintainers": [],
     "name": "r-vgam",
     "patches": [],
@@ -37,6 +41,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.1-11",
+            "sha256": "de9d909bd2bcfccf55d24f96999e0780ca45ec29030e227a722eb24e378b33a5"
+        },
         {
             "name": "1.1-8",
             "sha256": "d4c0f1d4e356d88ab6f39c05076ff97ebef6d20b7fbf1b0fa31d40c73d0ad1cc"

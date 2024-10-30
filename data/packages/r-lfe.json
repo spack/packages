@@ -27,7 +27,7 @@
     "dependent_to": [],
     "description": "Linear Group Fixed Effects. Transforms away factors with many levels\nprior to doing an OLS. Useful for estimating linear models with multiple\ngroup fixed effects, and for estimating linear models which uses factors\nwith many levels as pure control variables. See Gaure (2013)\n<doi:10.1016/j.csda.2013.03.024> Includes support for instrumental\nvariables, conditional F statistics for weak instruments, robust and\nmulti-way clustered standard errors, as well as limited mobility bias\ncorrection (Gaure 2014 <doi:10.1002/sta4.68>). WARNING: This package is\nNOT under active development anymore, no further improvements are to be\nexpected, and the package is at risk of being removed from CRAN.\n",
     "homepage": "https://cloud.r-project.org/package=lfe",
-    "latest_version": "2.9-0",
+    "latest_version": "3.0-0",
     "maintainers": [],
     "name": "r-lfe",
     "patches": [],
@@ -40,6 +40,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.0-0",
+            "sha256": "342d05c32932d0db755c35a7e27da1001a38e375866c6f61a18259faf0430399"
+        },
         {
             "name": "2.9-0",
             "sha256": "7c9a9cd74ad98c65b67477eb6924409d7e372d01d7ed50fa2edb6fa34e02223c"

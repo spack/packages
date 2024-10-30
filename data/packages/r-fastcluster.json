@@ -20,7 +20,7 @@
     ],
     "description": "Fast Hierarchical Clustering Routines for R and 'Python'. This is a two-\nin-one package which provides interfaces to both R and 'Python'. It\nimplements fast hierarchical, agglomerative clustering routines. Part of\nthe functionality is designed as drop-in replacement for existing\nroutines: linkage() in the 'SciPy' package 'scipy.cluster.hierarchy',\nhclust() in R's 'stats' package, and the 'flashClust' package. It\nprovides the same functionality with the benefit of a much faster\nimplementation. Moreover, there are memory-saving routines for\nclustering of vector data, which go beyond what the existing packages\nprovide. For information on how to install the 'Python' files, see the\nfile INSTALL in the source distribution.\n",
     "homepage": "https://cloud.r-project.org/package=fastcluster",
-    "latest_version": "1.2.3",
+    "latest_version": "1.2.6",
     "maintainers": [],
     "name": "r-fastcluster",
     "patches": [],
@@ -33,6 +33,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.2.6",
+            "sha256": "852a05458fb0b64497e9cf8f0182b599d1c2b1e9af03ec45f7c0c9280c1f8d19"
+        },
         {
             "name": "1.2.3",
             "sha256": "1f229129e1cddc78c7bb5ecc90c4d28ed810ee68cf210004c7cdfa12cfaf2a01"

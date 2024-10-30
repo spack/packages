@@ -144,7 +144,7 @@
     ],
     "description": "A General-Purpose Package for Dynamic Report Generation in R. Provides a\ngeneral-purpose tool for dynamic report generation in R using Literate\nProgramming techniques.\n",
     "homepage": "https://cloud.r-project.org/package=knitr",
-    "latest_version": "1.42",
+    "latest_version": "1.48",
     "maintainers": [],
     "name": "r-knitr",
     "patches": [],
@@ -157,6 +157,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.48",
+            "sha256": "501b5926da7da1e8df61958639537e4c30110a0a8de07381afd92b31b9bff197"
+        },
         {
             "name": "1.42",
             "sha256": "9344f1a0089e4da101def54aee38d7cfe3b2022d75c560141d8cc22ac65130f3"

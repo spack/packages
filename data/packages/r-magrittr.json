@@ -74,12 +74,20 @@
             "name": "r-geoquery"
         },
         {
+            "description": "Extension to 'ggplot2'. The R package 'ggplot2' is a plotting system\nbased on the grammar of graphics. 'GGally' extends 'ggplot2' by adding\nseveral functions to reduce the complexity of combining geometric\nobjects with transformed data. Some of these functions include a\npairwise plot matrix, a two group pairwise plot matrix, a parallel\ncoordinates plot, a survival plot, and several functions to plot\nnetworks.",
+            "name": "r-ggally"
+        },
+        {
             "description": "Spatial Visualization with ggplot2. A collection of functions to\nvisualize spatial data and models on top of static maps from various\nonline sources (e.g Google Maps and Stamen Maps). It includes tools\ncommon to those tasks, including functions for geolocation and routing.",
             "name": "r-ggmap"
         },
         {
             "description": "'ggplot2' Based Publication Ready Plots. The 'ggplot2' package is\nexcellent and flexible for elegant data visualization in R. However the\ndefault generated plots requires some formatting before we can send them\nfor publication. Furthermore, to customize a 'ggplot', the syntax is\nopaque and this raises the level of difficulty for researchers with no\nadvanced R programming skills. 'ggpubr' provides some easy-to-use\nfunctions for creating and customizing 'ggplot2'- based publication\nready plots.",
             "name": "r-ggpubr"
+        },
+        {
+            "description": "Provides new statistics, new geometries and new positions for 'ggplot2'\nand a suite of functions to facilitate the creation of statistical\nplots.",
+            "name": "r-ggstats"
         },
         {
             "description": "an R package for visualization of tree and annotation data. 'ggtree'\nextends the 'ggplot2' plotting system which implemented the grammar of\ngraphics. 'ggtree' is designed for visualization and annotation of\nphylogenetic trees and other tree-like structures with their annotation\ndata.",
@@ -140,6 +148,10 @@
         {
             "description": "Advanced Graphics and Image-Processing in R. Bindings to 'ImageMagick':\nthe most comprehensive open-source image processing library available.\nSupports many common formats (png, jpeg, tiff, pdf, etc) and\nmanipulations (rotate, scale, crop, trim, flip, blur, etc). All\noperations are vectorized via the Magick++ STL meaning they operate\neither on a single frame or a series of frames for working with layers,\ncollages, or animation. In RStudio images are automatically previewed\nwhen printed to the console, resulting in an interactive editing\nenvironment. The latest version of the package includes a native\ngraphics device for creating in-memory graphics or drawing onto images\nusing pixel coordinates.",
             "name": "r-magick"
+        },
+        {
+            "description": "General Package for Meta-Analysis. User-friendly general package\nproviding standard methods for meta-analysis and supporting Schwarzer,\nCarpenter, and R\u00fccker <doi:10.1007/978-3-319-21416-0>, \"Meta-Analysis\nwith R\" (2015): - common effect and random effects meta-analysis; -\nseveral plots (forest, funnel, Galbraith / radial, L'Abbe, Baujat,\nbubble); - three-level meta-analysis model; - generalised linear mixed\nmodel; - Hartung-Knapp method for random effects model; - Kenward-Roger\nmethod for random effects model; - prediction interval; - statistical\ntests for funnel plot asymmetry; - trim-and-fill method to evaluate bias\nin meta-analysis; - meta-regression; - cumulative meta-analysis and\nleave-one-out meta-analysis; - import data from 'RevMan 5'; - produce\nforest plot summarising several (subgroup) meta-analyses.",
+            "name": "r-meta"
         },
         {
             "description": "Uniform interfaces to R machine learning procedures for data in\nBioconductor containers. This package provides uniform interfaces to\nmachine learning code for data in R and Bioconductor containers.",

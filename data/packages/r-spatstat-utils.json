@@ -44,11 +44,15 @@
         {
             "description": "Sparse Three-Dimensional Arrays and Linear Algebra Utilities. Defines\nsparse three-dimensional arrays and supports standard operations on\nthem. The package also includes utility functions for matrix\ncalculations that are common in statistics, such as quadratic forms.",
             "name": "r-spatstat-sparse"
+        },
+        {
+            "description": "Estimation of one-dimensional probability distributions including kernel\ndensity estimation, weighted empirical cumulative distribution\nfunctions, Kaplan-Meier and reduced-sample estimators for right-censored\ndata, heat kernels, kernel properties, quantiles and integration.",
+            "name": "r-spatstat-univar"
         }
     ],
     "description": "Utility Functions for 'spatstat'. Contains utility functions for the\n'spatstat' package which may also be useful for other purposes.\n",
     "homepage": "https://cloud.r-project.org/package=spatstat.utils",
-    "latest_version": "3.0-2",
+    "latest_version": "3.1-0",
     "maintainers": [],
     "name": "r-spatstat-utils",
     "patches": [],
@@ -61,6 +65,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.1-0",
+            "sha256": "c30c3154700005f4bae9b428924248046128f7150b873e36e3897a622f962d3d"
+        },
         {
             "name": "3.0-2",
             "sha256": "be60cd2cf21a6b3f71ba60553c045fd87884a4e57744f60e6eb0a2d096314615"

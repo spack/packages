@@ -831,6 +831,11 @@
             "name": "aggressive_vectorization"
         },
         {
+            "default": false,
+            "description": "Use CudaMallocAsync",
+            "name": "alloc_async"
+        },
+        {
             "default": "none",
             "description": "AMD GPU architecture",
             "name": "amdgpu_target"

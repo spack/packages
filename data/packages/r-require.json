@@ -14,6 +14,10 @@
         {
             "description": "R Package Installation from Remote Repositories, Including 'GitHub'.\nDownload and install R packages stored in 'GitHub', 'BitBucket', or\nplain 'subversion' or 'git' repositories. This package provides the\n'install_*' functions in 'devtools'. Indeed most of the code was copied\nover from 'devtools'.",
             "name": "r-remotes"
+        },
+        {
+            "description": "Powerful and Reliable Tools for Running System Commands in R. Drop-in\nreplacements for the base system2() function with fine control and\nconsistent behavior across platforms. Supports clean interruption,\ntimeout, background tasks, and streaming STDIN / STDOUT / STDERR over\nbinary or text connections. Arguments on Windows automatically get\nencoded and quoted to work on different locales.",
+            "name": "r-sys"
         }
     ],
     "dependent_to": [
@@ -32,7 +36,7 @@
     ],
     "description": "Installing and Loading R Packages for Reproducible Workflows. A single\nkey function, 'Require' that wraps 'install.packages',\n'remotes::install_github', 'versions::install.versions', and\n'base::require' that allows for reproducible workflows. As with other\nfunctions in a reproducible workflow, this package emphasizes functions\nthat return the same result whether it is the first or subsequent times\nrunning the function. Maturing.\n",
     "homepage": "https://cloud.r-project.org/package=Require",
-    "latest_version": "0.3.0",
+    "latest_version": "1.0.1",
     "maintainers": [
         "dorton21"
     ],
@@ -47,6 +51,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.0.1",
+            "sha256": "52256624b86178ec5efb86b992bbe5a24f2fa53687cec532c0a73b1852ce6800"
+        },
         {
             "name": "0.3.0",
             "sha256": "de879999f71bd3009b58676673f26774119fa84d3d7fcc28d0b02f07d5c63968"

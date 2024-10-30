@@ -28,7 +28,7 @@
     ],
     "description": "Additional Layout Algorithms for Network Visualizations. Several new\nlayout algorithms to visualize networks are provided which are not part\nof 'igraph'. Most are based on the concept of stress majorization by\nGansner et al. (2004) <doi:10.1007/978-3-540-31843-9_25>. Some more\nspecific algorithms allow to emphasize hidden group structures in\nnetworks or focus on specific nodes.\n",
     "homepage": "https://cloud.r-project.org/package=graphlayouts",
-    "latest_version": "0.8.4",
+    "latest_version": "1.1.1",
     "maintainers": [],
     "name": "r-graphlayouts",
     "patches": [],
@@ -41,6 +41,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.1.1",
+            "sha256": "7bc2459a02b1339ac01184a76687a3e50de5680f4699b5966a3f2e6a882f3801"
+        },
         {
             "name": "0.8.4",
             "sha256": "778d8f7e190b05d0dbbaa7e6dbdfc0b8fef3c83b71333a6fa89926e6c04690fd"

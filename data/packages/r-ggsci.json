@@ -24,7 +24,7 @@
     ],
     "description": "Scientific Journal and Sci-Fi Themed Color Palettes for 'ggplot2'.\ncollection of 'ggplot2' color palettes inspired by plots in scientific\njournals, data visualization libraries, science fiction movies, and TV\nshows.\n",
     "homepage": "https://cloud.r-project.org/package=ggsci",
-    "latest_version": "3.0.0",
+    "latest_version": "3.2.0",
     "maintainers": [],
     "name": "r-ggsci",
     "patches": [],
@@ -37,6 +37,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.2.0",
+            "sha256": "41d8ed4c01c3740028bdf2ba9c5550f1142061e4a40c93b1d2160719c59c3c4a"
+        },
         {
             "name": "3.0.0",
             "sha256": "8901316516d78f82a2a8685d93ba479424bcfd8cb5e28a28adbd50e68964e129"

@@ -22,6 +22,10 @@
             "name": "bioconductor-tximeta"
         },
         {
+            "description": "Functions to accompany A. Gelman and J. Hill, Data Analysis Using\nRegression and Multilevel/Hierarchical Models, Cambridge University\nPress, 2007.",
+            "name": "r-arm"
+        },
+        {
             "description": "Compiling Bioconductor to Handle Each Matrix Type. Provides a consistent\nC++ class interface for reading from and writing data to a variety of\ncommonly used matrix types. Ordinary matrices and several sparse/dense\nMatrix classes are directly supported, third-party S4 classes may be\nsupported by external linkage, while all other matrices are handled by\nDelayedArray block processing.",
             "name": "r-beachmat"
         },
@@ -368,7 +372,7 @@
     ],
     "description": "Sparse and Dense Matrix Classes and Methods. A rich hierarchy of matrix\nclasses, including triangular, symmetric, and diagonal matrices, both\ndense and sparse and with pattern, logical and numeric entries. Numerous\nmethods for and operations on these matrices, using 'LAPACK' and\n'SuiteSparse' libraries.\n",
     "homepage": "https://cloud.r-project.org/package=Matrix",
-    "latest_version": "1.5-4",
+    "latest_version": "1.7-0",
     "maintainers": [],
     "name": "r-matrix",
     "patches": [],
@@ -381,6 +385,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.7-0",
+            "sha256": "fb97bba0df370222eb4f7e2da2e94dd01053b5e054b1c51829ff9a6efc08ad37"
+        },
         {
             "name": "1.5-4",
             "sha256": "15ceb61993d61b442068104abb46e6d91b5a1179c01eeb64563b853abab66f06"

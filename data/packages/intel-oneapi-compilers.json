@@ -55,13 +55,19 @@
     ],
     "description": "Intel oneAPI Compilers. Includes: icx, icpx, ifx, and ifort. Releases\nbefore 2024.0 include icc/icpc LICENSE INFORMATION: By downloading and\nusing this software, you agree to the terms and conditions of the\nsoftware license agreements at https://intel.ly/393CijO.\n",
     "homepage": "https://software.intel.com/content/www/us/en/develop/tools/oneapi.html",
-    "latest_version": "2024.2.1",
+    "latest_version": "2025.0.0",
     "maintainers": [
         "rscohn2"
     ],
     "name": "intel-oneapi-compilers",
     "patches": [],
     "resources": [
+        {
+            "destination": "",
+            "name": "fortran-installer",
+            "placement": "fortran-installer",
+            "version": "@2025.0.0"
+        },
         {
             "destination": "",
             "name": "fortran-installer",
@@ -219,6 +225,11 @@
         }
     ],
     "versions": [
+        {
+            "name": "2025.0.0",
+            "sha256": "04fadf63789acee731895e631db63f65a98b8279db3d0f48bdf0d81e6103bdd8",
+            "url": "https://registrationcenter-download.intel.com/akdlm/IRC_NAS/ac92f2bb-4818-4e53-a432-f8b34d502f23/intel-dpcpp-cpp-compiler-2025.0.0.740_offline.sh"
+        },
         {
             "name": "2024.2.1",
             "sha256": "af0243f80640afa94c7f9c8151da91d7ab17f448f542fa76d785230dec712048",

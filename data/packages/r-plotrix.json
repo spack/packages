@@ -28,7 +28,7 @@
     ],
     "description": "Various Plotting Functions. Lots of plots, various labeling, axis and\ncolor scaling functions.\n",
     "homepage": "https://cloud.r-project.org/package=plotrix",
-    "latest_version": "3.8-2",
+    "latest_version": "3.8-4",
     "maintainers": [],
     "name": "r-plotrix",
     "patches": [],
@@ -41,6 +41,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.8-4",
+            "sha256": "e6a22d93ab61c67af21cbbe1fe333c06934cf576a44745bf2beee59bceaae8d6"
+        },
         {
             "name": "3.8-2",
             "sha256": "bb72953102889cea41cd6521874e35d2458ebd10aab97ba6f262e102cac0bc1f"

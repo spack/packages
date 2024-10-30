@@ -40,6 +40,10 @@
             "name": "r-spatstat-sparse"
         },
         {
+            "description": "Estimation of one-dimensional probability distributions including kernel\ndensity estimation, weighted empirical cumulative distribution\nfunctions, Kaplan-Meier and reduced-sample estimators for right-censored\ndata, heat kernels, kernel properties, quantiles and integration.",
+            "name": "r-spatstat-univar"
+        },
+        {
             "description": "Utility Functions for 'spatstat'. Contains utility functions for the\n'spatstat' package which may also be useful for other purposes.",
             "name": "r-spatstat-utils"
         }
@@ -68,7 +72,7 @@
     ],
     "description": "Exploratory Data Analysis for the 'spatstat' Family. Functionality for\nexploratory data analysis and nonparametric analysis of spatial data,\nmainly spatial point patterns, in the 'spatstat' family of packages.\n(Excludes analysis of spatial data on a linear network, which is covered\nby the separate package 'spatstat.linnet'.) Methods include quadrat\ncounts, K-functions and their simulation envelopes, nearest neighbour\ndistance and empty space statistics, Fry plots, pair correlation\nfunction, kernel smoothed intensity, relative risk estimation with\ncross-validated bandwidth selection, mark correlation functions,\nsegregation indices, mark dependence diagnostics, and kernel estimates\nof covariate effects. Formal hypothesis tests of random pattern (chi-\nsquared, Kolmogorov-Smirnov, Monte Carlo, Diggle-Cressie-Loosmore-Ford,\nDao-Genton, two-stage Monte Carlo) and tests for covariate effects (Cox-\nBerman-Waller-Lawson, Kolmogorov-Smirnov, ANOVA) are also supported.\n",
     "homepage": "https://cloud.r-project.org/package=spatstat.explore",
-    "latest_version": "3.1-0",
+    "latest_version": "3.3-2",
     "maintainers": [],
     "name": "r-spatstat-explore",
     "patches": [],
@@ -81,6 +85,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.3-2",
+            "sha256": "a24827d24a86f2f20f8dcbbb5f57f5ab43345fa346c572099b84d867e7bf85ed"
+        },
         {
             "name": "3.1-0",
             "sha256": "87ef4882652db3b834214bfc776dd7d23d931a9227de12f19722aeb1029d086e"

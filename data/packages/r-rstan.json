@@ -46,6 +46,10 @@
             "name": "r-pkgbuild"
         },
         {
+            "description": "An 'R' interface to the 'QuickJS' portable 'JavaScript' engine. The\nengine and all 'R' to 'JavaScript' interoperability is bundled within\nthe package, requiring no dependencies beyond a 'C' compiler.",
+            "name": "r-quickjsr"
+        },
+        {
             "description": "Seamless R and C++ Integration. The 'Rcpp' package provides R functions\nas well as C++ classes which; offer a seamless integration of R and C++.\nMany R data types and objects can be; mapped back and forth to C++\nequivalents which facilitates both writing of new; code as well as\neasier integration of third-party libraries. Documentation; about 'Rcpp'\nis provided by several vignettes included in this package, via the;\n'Rcpp Gallery' site at <https://gallery.rcpp.org>, the paper by\nEddelbuettel and; Francois (2011, <doi:10.18637/jss.v040.i08>), the book\nby Eddelbuettel (2013,; <doi:10.1007/978-1-4614-6868-4>) and the paper\nby Eddelbuettel and Balamuta (2018,;\n<doi:10.1080/00031305.2017.1375990>); see 'citation(\"Rcpp\")' for\ndetails.",
             "name": "r-rcpp"
         },
@@ -90,7 +94,7 @@
     ],
     "description": "R Interface to Stan. User-facing R functions are provided to parse,\ncompile, test, estimate, and analyze Stan models by accessing the\nheader-only Stan library provided by the 'StanHeaders' package. The Stan\nproject develops a probabilistic programming language that implements\nfull Bayesian statistical inference via Markov Chain Monte Carlo, rough\nBayesian inference via variational approximation, and (optionally\npenalized) maximum likelihood estimation via optimization. In all three\ncases, automatic differentiation is used to quickly and accurately\nevaluate gradients without burdening the user with the need to derive\nthe partial derivatives.\n",
     "homepage": "https://cloud.r-project.org/package=rstan",
-    "latest_version": "2.21.8",
+    "latest_version": "2.32.6",
     "maintainers": [],
     "name": "r-rstan",
     "patches": [],
@@ -103,6 +107,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.32.6",
+            "sha256": "3390d00191bbd3b0739dd19fe437b99a041a6b04be208877b48419d1348a1a70"
+        },
         {
             "name": "2.21.8",
             "sha256": "b2d4edc315419037970c9fa2e8740b934966d88d40548152811f3d4a28475075"

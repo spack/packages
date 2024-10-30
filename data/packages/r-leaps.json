@@ -24,7 +24,7 @@
     ],
     "description": "Regression Subset Selection. Regression subset selection, including\nexhaustive search.\n",
     "homepage": "https://cloud.r-project.org/package=leaps",
-    "latest_version": "3.1",
+    "latest_version": "3.2",
     "maintainers": [],
     "name": "r-leaps",
     "patches": [],
@@ -37,6 +37,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.2",
+            "sha256": "a0d6bebb676e5cdc0ecf3e3a07163ce0d60b6fe72a083d91f0413e11a8a96fad"
+        },
         {
             "name": "3.1",
             "sha256": "3d7c3a102ce68433ecf167ece96a7ebb4207729e4defd0ac8fc00e7003f5c3b6"

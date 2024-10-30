@@ -40,7 +40,7 @@
     ],
     "description": "Read Excel Files. Import excel files into R. Supports '.xls' via the\nembedded 'libxls' C library <https://sourceforge.net/projects/libxls/>\nand '.xlsx' via the embedded 'RapidXML' C++ library\n<https://rapidxml.sourceforge.net>. Works on Windows, Mac and Linux\nwithout external dependencies.\n",
     "homepage": "https://cloud.r-project.org/package=readxl",
-    "latest_version": "1.4.2",
+    "latest_version": "1.4.3",
     "maintainers": [],
     "name": "r-readxl",
     "patches": [],
@@ -53,6 +53,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.4.3",
+            "sha256": "7efebbcdefeb8523633db62b3eeb6ea2e4e81e3d010d8b2adb134011c09a5948"
+        },
         {
             "name": "1.4.2",
             "sha256": "387304e2c5be0dca4861ec0232f0d92cc1882b660ca917f8f2a8a4ae858aba11"

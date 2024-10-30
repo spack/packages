@@ -16,7 +16,7 @@
     ],
     "description": "Stable Distribution Functions. Density, Probability and Quantile\nfunctions, and random number generation for (skew) stable distributions,\nusing the parametrizations of Nolan.\n",
     "homepage": "https://cloud.r-project.org/package=stabledist",
-    "latest_version": "0.7-1",
+    "latest_version": "0.7-2",
     "maintainers": [],
     "name": "r-stabledist",
     "patches": [],
@@ -29,6 +29,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.7-2",
+            "sha256": "26671710c0d8e3c815b56e6e4f6bc9ea0509db47c0ef5b8acfbfa16095a16fd5"
+        },
         {
             "name": "0.7-1",
             "sha256": "06c5704d3a3c179fa389675c537c39a006867bc6e4f23dd7e406476ed2c88a69"

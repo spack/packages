@@ -24,7 +24,7 @@
     ],
     "description": "Convert Between R Objects and Geometric Structures. Geometry shapes in\n'R' are typically represented by matrices (points, lines), with more\ncomplex shapes being lists of matrices (polygons). 'Geometries' will\nconvert various 'R' objects into these shapes. Conversion functions are\navailable at both the 'R' level, and through 'Rcpp'.\n",
     "homepage": "https://cloud.r-project.org/package=geometries",
-    "latest_version": "0.2.2",
+    "latest_version": "0.2.4",
     "maintainers": [],
     "name": "r-geometries",
     "patches": [],
@@ -37,6 +37,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.2.4",
+            "sha256": "c6292acc336bb8520b8cb3672566f993fd077cb1f6f980ae39b9c9f56b971410"
+        },
         {
             "name": "0.2.2",
             "sha256": "32d3063de0f8a751382788f85ebaee5f39d68e486253c159d553bb3d72d69141"

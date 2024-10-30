@@ -24,7 +24,7 @@
     ],
     "description": "Functions for Clustering of Presence-Absence, Abundance and Multilocus\nGenetic Data. Distance-based parametric bootstrap tests for clustering\nwith spatial neighborhood information. Some distance measures,\nClustering of presence-absence, abundance and multilocus genetic data\nfor species delimitation, nearest neighbor based noise detection.\nGenetic distances between communities. Tests whether various distance-\nbased regressions are equal. Try package?prabclus for on overview.\n",
     "homepage": "https://cloud.r-project.org/package=prabclus",
-    "latest_version": "2.3-2",
+    "latest_version": "2.3-3",
     "maintainers": [],
     "name": "r-prabclus",
     "patches": [],
@@ -37,6 +37,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.3-3",
+            "sha256": "005d000a9ac357e670de26e5b8fc4ddb1617351275fa43bf6d2e88b8774358c1"
+        },
         {
             "name": "2.3-2",
             "sha256": "f421bcbcb557281e0de4a06b15f9a496adb5c640e883c0f7bb12051efc69e441"

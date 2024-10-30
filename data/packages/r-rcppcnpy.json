@@ -19,7 +19,7 @@
     "dependent_to": [],
     "description": "Read-Write Support for 'NumPy' Files via 'Rcpp'. The 'cnpy' library\nwritten by Carl Rogers provides read and write facilities for files\ncreated with (or for) the 'NumPy' extension for 'Python'. Vectors and\nmatrices of numeric types can be read or written to and from files as\nwell as compressed files. Support for integer files is available if the\npackage has been built with -std=c++11 which should be the default on\nall platforms since the release of R 3.3.0.\n",
     "homepage": "https://cloud.r-project.org/package=RcppCNPy",
-    "latest_version": "0.2.11",
+    "latest_version": "0.2.12",
     "maintainers": [],
     "name": "r-rcppcnpy",
     "patches": [],
@@ -32,6 +32,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.2.12",
+            "sha256": "856dbc857b2d425c80d9a1628e45743234fee2e68575aa9e2d29a6efae60c39a"
+        },
         {
             "name": "0.2.11",
             "sha256": "5dbb36f2526c276fd79b8e08a30503dc401cdf54d8c40f61af758c9ee1192f55"

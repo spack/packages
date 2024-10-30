@@ -152,7 +152,7 @@
     ],
     "description": "Tools for Working with URLs and HTTP. Useful tools for working with HTTP\norganised by HTTP verbs (GET(), POST(), etc). Configuration functions\nmake it easy to control additional request components (authenticate(),\nadd_headers() and so on).\n",
     "homepage": "https://cloud.r-project.org/package=httr",
-    "latest_version": "1.4.5",
+    "latest_version": "1.4.7",
     "maintainers": [],
     "name": "r-httr",
     "patches": [],
@@ -165,6 +165,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.4.7",
+            "sha256": "1555e6c2fb67bd38ff11b479f74aa287b2d93f4add487aec53b836ff07de3a3a"
+        },
         {
             "name": "1.4.5",
             "sha256": "f93bac7f882b0df099abca47dd5aae3686fb3cd2d3e9926fcd639bcddff76f6c"

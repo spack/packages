@@ -50,6 +50,10 @@
         {
             "description": "Classes and Methods for Spatial Data. Classes and methods for spatial\ndata; the classes document where the spatial location information\nresides, for 2D or 3D data. Utility functions are provided, e.g. for\nplotting data as maps, spatial selection, as well as methods for\nretrieving coordinates, for subsetting, print, summary, etc.",
             "name": "r-sp"
+        },
+        {
+            "description": "Spatial Data Analysis. Methods for spatial data analysis with raster and\nvector data. Raster methods allow for low-level data manipulation as\nwell as high-level global, local, zonal, and focal computation. The\npredict and interpolate methods facilitate the use of regression type\n(interpolation, machine learning) models for spatial prediction,\nincluding with satellite remote sensing data. Processing of very large\nfiles is supported. See the manual and tutorials on\n<https://rspatial.org/terra/> to get started. 'terra' is very similar to\nthe 'raster' package; but 'terra' can do more, is easier to use, and it\nis faster.",
+            "name": "r-terra"
         }
     ],
     "dependent_to": [
@@ -68,7 +72,7 @@
     ],
     "description": "A System of Plotting Optimized for Speed and Modularity. A high-level\nplotting system, built using 'grid' graphics, that is optimized for\nspeed and modularity. This has great utility for quick visualizations\nwhen testing code, with the key benefit that visualizations are updated\nindependently of one another.\n",
     "homepage": "https://cloud.r-project.org/package=quickPlot",
-    "latest_version": "0.1.8",
+    "latest_version": "1.0.2",
     "maintainers": [
         "dorton21"
     ],
@@ -83,6 +87,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.0.2",
+            "sha256": "78b19e03f9925ea3a5b47c12fef58a154dc0d3598dbdda3fe4e47c6636ab4808"
+        },
         {
             "name": "0.1.8",
             "sha256": "5927186ebbd86d2282c59dd28c4af6977ae5f9bc5766de8fce34b94bbfe33be7"

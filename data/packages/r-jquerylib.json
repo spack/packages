@@ -26,6 +26,10 @@
             "name": "r-dt"
         },
         {
+            "description": "Create Interactive Web Maps with the JavaScript 'Leaflet' Library.\nCreate and customize interactive maps using the 'Leaflet' JavaScript\nlibrary and the 'htmlwidgets' package. These maps can be used directly\nfrom the R console, from 'RStudio', in Shiny apps and R Markdown\ndocuments.",
+            "name": "r-leaflet"
+        },
+        {
             "description": "Dynamic Documents for R. Convert R Markdown documents into a variety of\nformats.",
             "name": "r-rmarkdown"
         }

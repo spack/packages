@@ -24,7 +24,7 @@
     ],
     "description": "Bayesian Generalized Linear Regression.\n",
     "homepage": "https://cloud.r-project.org/package=BGLR",
-    "latest_version": "1.1.0",
+    "latest_version": "1.1.2",
     "maintainers": [],
     "name": "r-bglr",
     "patches": [],
@@ -37,6 +37,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.1.2",
+            "sha256": "39476f3739bd86905a379e2d5de86ef1f8b0e10c311e350d95ce7aadb7b28224"
+        },
         {
             "name": "1.1.0",
             "sha256": "97c5bb8a461eb408e907693811b2d917efc993000da06591a83a3f5529451ea7"

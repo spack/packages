@@ -20,7 +20,7 @@
     ],
     "description": "Latin Hypercube Samples. Provides a number of methods for creating and\naugmenting Latin Hypercube Samples.\n",
     "homepage": "https://cloud.r-project.org/package=lhs",
-    "latest_version": "1.1.6",
+    "latest_version": "1.2.0",
     "maintainers": [],
     "name": "r-lhs",
     "patches": [],
@@ -33,6 +33,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.2.0",
+            "sha256": "6b4b773c6b322f1ffb3e2ef49c244ec8a3958a0346a1cc8f42f0d0951e8b0724"
+        },
         {
             "name": "1.1.6",
             "sha256": "e37fce44efe6a371677ba2f72f9e1e48270a0fdc60872d05def89270586cd23f"

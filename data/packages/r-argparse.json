@@ -40,7 +40,7 @@
     ],
     "description": "Command Line Optional and Positional Argument Parser. A command line\nparser to be used with Rscript to write \"#!\" shebang scripts that\ngracefully accept positional and optional arguments and automatically\ngenerate usage.\n",
     "homepage": "https://cloud.r-project.org/package=argparse",
-    "latest_version": "2.2.2",
+    "latest_version": "2.2.3",
     "maintainers": [],
     "name": "r-argparse",
     "patches": [],
@@ -53,6 +53,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.2.3",
+            "sha256": "a50cc4e1221f063e472a8cfe7e881a1d4abed5ef93cf40d5f65a2528cdfd2674"
+        },
         {
             "name": "2.2.2",
             "sha256": "b62c9bf5e6ca35fb7a2e614a916815c04cbf6c6db3f89f99b4df76470a4a856d"

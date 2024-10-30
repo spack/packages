@@ -15,8 +15,10 @@
     "dependent_to": [],
     "description": "seqfu - Sequece Fastx Utilities\n",
     "homepage": "https://github.com/telatin/seqfu2",
-    "latest_version": "1.20.3",
-    "maintainers": [],
+    "latest_version": "1.22.3",
+    "maintainers": [
+        "dialvarezs"
+    ],
     "name": "seqfu",
     "patches": [
         {
@@ -25,7 +27,7 @@
             "relative_path": "wno_incompatible_pointer_types.patch",
             "reverse": false,
             "sha256": "00549e0e90c2bcf4adb806ba116d946e3325af4290e1eb51f28db8c0b5ca2b05",
-            "version": "%gcc@14:",
+            "version": "@:1.21%gcc@14:",
             "working_dir": "."
         }
     ],
@@ -38,6 +40,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.22.3",
+            "sha256": "65c1090cafe0e760e68d15d450bccfd57c0a03d553fdabca26e2191f566fef62"
+        },
         {
             "name": "1.20.3",
             "sha256": "1b287b99f3f1ac7045f4d551e781d6780ce168ba8e0a7bfaa0f5490f32e15938"

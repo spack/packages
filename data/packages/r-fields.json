@@ -18,6 +18,10 @@
         {
             "description": "Colorblind-Friendly Color Maps for R. Color maps designed to improve\ngraph readability for readers with common forms of color blindness\nand/or color vision deficiency. The color maps are also perceptually-\nuniform, both in regular form and also when converted to black-and-white\nfor printing. This package also contains 'ggplot2' bindings for discrete\nand continuous color and fill scales. A lean version of the package\ncalled 'viridisLite' that does not include the 'ggplot2' bindings can be\nfound at <https://cran.r-project.org/package=viridisLite>.",
             "name": "r-viridis"
+        },
+        {
+            "description": "Colorblind-Friendly Color Maps (Lite Version). Color maps designed to\nimprove graph readability for readers with common forms of color\nblindness and/or color vision deficiency. The color maps are also\nperceptually-uniform, both in regular form and also when converted to\nblack-and-white for printing. This is the 'lite' version of the\n'viridis' package that also contains 'ggplot2' bindings for discrete and\ncontinuous color and fill scales and can be found at\n<https://cran.r-project.org/package=viridis>.",
+            "name": "r-viridislite"
         }
     ],
     "dependent_to": [
@@ -28,7 +32,7 @@
     ],
     "description": "Tools for Spatial Data. For curve, surface and function fitting with an\nemphasis; on splines, spatial data, geostatistics, and spatial\nstatistics. The major methods; include cubic, and thin plate splines,\nKriging, and compactly supported; covariance functions for large data\nsets. The splines and Kriging methods are; supported by functions that\ncan determine the smoothing parameter; (nugget and sill variance) and\nother covariance function parameters by cross; validation and also by\nrestricted maximum likelihood. For Kriging; there is an easy to use\nfunction that also estimates the correlation; scale (range parameter). A\nmajor feature is that any covariance function; implemented in R and\nfollowing a simple format can be used for; spatial prediction. There are\nalso many useful functions for plotting; and working with spatial data\nas images. This package also contains; an implementation of sparse\nmatrix methods for large spatial data; sets and currently requires the\nsparse matrix (spam) package. Use; help(fields) to get started and for\nan overview. The fields source; code is deliberately commented and\nprovides useful explanations of; numerical details as a companion to the\nmanual pages. The commented; source code can be viewed by expanding the\nsource code version; and looking in the R subdirectory. The reference\nfor fields can be generated; by the citation function in R and has DOI\n<doi:10.5065/D6W957CT>. Development; of this package was supported in\npart by the National Science Foundation Grant; 1417857, the National\nCenter for Atmospheric Research, and Colorado School of Mines.; See the\nFields URL; for a vignette on using this package and some background on\nspatial statistics.\n",
     "homepage": "https://cloud.r-project.org/package=fields",
-    "latest_version": "14.1",
+    "latest_version": "16.2",
     "maintainers": [],
     "name": "r-fields",
     "patches": [],
@@ -41,6 +45,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "16.2",
+            "sha256": "3910950cd5476e7e3d17d00dabfa37a6491019426c74b6955a2fbe5648a3b3e4"
+        },
         {
             "name": "14.1",
             "sha256": "57c4c5592443d2ee869014b3199989b5edd1aff52e24f1cd313b8f9b34a95434"

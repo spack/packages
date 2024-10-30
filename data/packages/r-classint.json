@@ -22,6 +22,10 @@
     ],
     "dependent_to": [
         {
+            "description": "Time Series Management, Analysis and Interpolation for Hydrological\nModelling. S3 functions for management, analysis, interpolation and\nplotting of time series used in hydrology and related environmental\nsciences. In particular, this package is highly oriented to hydrological\nmodelling tasks. The focus of this package has been put in providing a\ncollection of tools useful for the daily work of hydrologists (although\nan effort was made to optimise each function as much as possible,\nfunctionality has had priority over speed). Bugs / comments / questions\n/ collaboration of any kind are very welcomed, and in particular,\ndatasets that can be included in this package for academic purposes.",
+            "name": "r-hydrotsm"
+        },
+        {
             "description": "Functions to Make Surveys Processing Easier. Set of functions to make\nthe processing and analysis of surveys easier: interactive shiny apps\nand addins for data recoding, contingency tables, dataset metadata\nhandling, and several convenience functions.",
             "name": "r-questionr"
         },
@@ -36,7 +40,7 @@
     ],
     "description": "Choose Univariate Class Intervals. Selected commonly used methods for\nchoosing univariate class intervals for mapping or other graphics\npurposes.\n",
     "homepage": "https://cloud.r-project.org/package=classInt",
-    "latest_version": "0.4-9",
+    "latest_version": "0.4-10",
     "maintainers": [],
     "name": "r-classint",
     "patches": [],
@@ -49,6 +53,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.4-10",
+            "sha256": "c3561eafbc493ac02840191d4f1e4d2ef437ca8eb20f41fc5eca28f00ee42b8b"
+        },
         {
             "name": "0.4-9",
             "sha256": "5b11af7d08f8793c7b47ee7c68b8e371cb23027165d30abddbd8b2abcc20e1c3"

@@ -44,7 +44,7 @@
     ],
     "description": "Tools for Handling Spatial Objects. Set of tools for manipulating and\nreading geographic data, in particular ESRI shapefiles; C code used from\nshapelib. It includes binary access to GSHHG shoreline files. The\npackage also provides interface wrappers for exchanging spatial objects\nwith packages such as PBSmapping, spatstat, maps, RArcInfo, Stata tmap,\nWinBUGS, Mondrian, and others.\n",
     "homepage": "https://cloud.r-project.org/package=maptools",
-    "latest_version": "1.1-6",
+    "latest_version": "1.1-8",
     "maintainers": [],
     "name": "r-maptools",
     "patches": [],
@@ -56,7 +56,12 @@
             "name": "build_system"
         }
     ],
-    "versions": [],
+    "versions": [
+        {
+            "name": "1.1-8",
+            "sha256": "5e8579e3f559161935f1dde622ece703eefa2a28a677ce553d7f27611e66e0f7"
+        }
+    ],
     "versions_deprecated": [
         {
             "name": "1.1-6",

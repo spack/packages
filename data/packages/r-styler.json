@@ -68,7 +68,7 @@
     ],
     "description": "Non-Invasive Pretty Printing of R Code. Pretty-prints R code without\nchanging the user's formatting intent.\n",
     "homepage": "https://cloud.r-project.org/package=styler",
-    "latest_version": "1.9.1",
+    "latest_version": "1.10.3",
     "maintainers": [],
     "name": "r-styler",
     "patches": [],
@@ -81,6 +81,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.10.3",
+            "sha256": "adb9c22111a8669bdce6d4a5c09e0ad353e07c3488373484a258028203bfda41"
+        },
         {
             "name": "1.9.1",
             "sha256": "c80fa3c062f007645ec820b5b087d4d5784e7797cc88d030ab59fb5823ded0bb"

@@ -15,7 +15,7 @@
     "dependent_to": [],
     "description": "Mocking Library for R. The two main functionalities of this package are\ncreating mock objects (functions) and selectively intercepting calls to\na given function that originate in some other function. It can be used\nwith any testing framework available for R. Mock objects can be injected\nwith either this package's own stub() function or a similar with_mock()\nfacility present in the 'testthat' package.\n",
     "homepage": "https://cloud.r-project.org/package=mockery",
-    "latest_version": "0.4.3",
+    "latest_version": "0.4.4",
     "maintainers": [],
     "name": "r-mockery",
     "patches": [],
@@ -28,6 +28,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.4.4",
+            "sha256": "072220a0f2455fca91649fc7ce4ed503cfaa965aa769d1bd0fd6622b222845c3"
+        },
         {
             "name": "0.4.3",
             "sha256": "9fc9f1565c51e51b33634e9fc5328211559a561f095bc4d0fa8bd8b7533d476a"

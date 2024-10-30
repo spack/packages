@@ -16,7 +16,7 @@
     ],
     "description": "GAMLSS Data. Data used as examples in the current two books on\nGeneralised Additive Models for Location Scale and Shape introduced by\nRigby and Stasinopoulos (2005), <doi:10.1111/j.1467-9876.2005.00510.x>.\n",
     "homepage": "https://cloud.r-project.org/package=gamlss.data",
-    "latest_version": "6.0-2",
+    "latest_version": "6.0-6",
     "maintainers": [],
     "name": "r-gamlss-data",
     "patches": [],
@@ -29,6 +29,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.0-6",
+            "sha256": "bae0db19d95500b3f49f855d4ebd3ddb071c5e2d9104b27e0a73865f4909ab22"
+        },
         {
             "name": "6.0-2",
             "sha256": "dbb3b6f855540928ccdbda497f8d552144895e34565799e8b595e704096db71e"

@@ -64,7 +64,7 @@
     ],
     "description": "Kernel Smoothing. Kernel smoothers for univariate and multivariate data,\nincluding densities, density derivatives, cumulative distributions,\nclustering, classification, density ridges, significant modal regions,\nand two-sample hypothesis tests. Chacon & Duong (2018)\n<doi:10.1201/9780429485572>.\n",
     "homepage": "https://cloud.r-project.org/package=ks",
-    "latest_version": "1.14.0",
+    "latest_version": "1.14.2",
     "maintainers": [],
     "name": "r-ks",
     "patches": [],
@@ -77,6 +77,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.14.2",
+            "sha256": "f19130476cfafec26bba102b66ecbaeb80a9312c62d55eeec54d1aec75803fcb"
+        },
         {
             "name": "1.14.0",
             "sha256": "2db9c56b7b0217b324bbf1e0f66bb94d3f7067a75c5823cbc7d369d63bbb4391"

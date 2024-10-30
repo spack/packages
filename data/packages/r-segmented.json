@@ -28,7 +28,7 @@
     ],
     "description": "Regression Models with Break-Points / Change-Points Estimation. Given a\nregression model, segmented 'updates' it by adding one or more segmented\n(i.e., piece-wise linear) relationships. Several variables with multiple\nbreakpoints are allowed. The estimation method is discussed in Muggeo\n(2003, <doi:10.1002/sim.1545>) and illustrated in Muggeo (2008,\n<https://www.r-project.org/doc/Rnews/Rnews_2008-1.pdf>). An approach for\nhypothesis testing is presented in Muggeo (2016,\n<doi:10.1080/00949655.2016.1149855>), and interval estimation for the\nbreakpoint is discussed in Muggeo (2017, <doi:10.1111/anzs.12200>).\n",
     "homepage": "https://cloud.r-project.org/package=segmented",
-    "latest_version": "1.6-4",
+    "latest_version": "2.1-1",
     "maintainers": [],
     "name": "r-segmented",
     "patches": [],
@@ -41,6 +41,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.1-1",
+            "sha256": "6723b0114b1142a7587f712d7a58ce0bebfb53864b84fa1e5d9d7824b17903dd"
+        },
         {
             "name": "1.6-4",
             "sha256": "472c08ae3eb1c4e784aba45f3e745b0e946bef77c26fbb9f103fd35e1a349191"

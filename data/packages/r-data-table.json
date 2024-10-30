@@ -46,6 +46,10 @@
             "name": "r-dtplyr"
         },
         {
+            "description": "Fast Creation of Dummy (Binary) Columns and Rows from Categorical\nVariables.",
+            "name": "r-fastdummies"
+        },
+        {
             "description": "Fast Gene Set Enrichment Analysis. The package implements an algorithm\nfor fast gene set enrichment analysis. Using the fast algorithm allows\nto make more permutations and get more fine grained p-values, which\nallows to use accurate stantard approaches to multiple hypothesis\ncorrection.",
             "name": "r-fgsea"
         },
@@ -114,6 +118,10 @@
             "name": "r-rio"
         },
         {
+            "description": "Provides a set of functions for data manipulation with list objects,\nincluding mapping, filtering, grouping, sorting, updating, searching,\nand other useful functions. Most functions are designed to be pipeline\nfriendly so that data processing with lists can be chained.",
+            "name": "r-rlist"
+        },
+        {
             "description": "'NOAA' Weather Data from R. Client for many 'NOAA' data sources\nincluding the 'NCDC' climate 'API' at <https://www.ncdc.noaa.gov/cdo-\nweb/webservices/v2>, with functions for each of the 'API' 'endpoints':\ndata, data categories, data sets, data types, locations, location\ncategories, and stations. In addition, we have an interface for 'NOAA'\nsea ice data, the 'NOAA' severe weather inventory, 'NOAA' Historical\nObserving 'Metadata' Repository ('HOMR') data, 'NOAA' storm data via\n'IBTrACS', tornado data via the 'NOAA' storm prediction center, and\nmore.",
             "name": "r-rnoaa"
         },
@@ -148,7 +156,7 @@
     ],
     "description": "Extension of `data.frame`. Fast aggregation of large data (e.g. 100GB in\nRAM), fast ordered joins, fast add/modify/delete of columns by group\nusing no copies at all, list columns and a fast file reader (fread).\nOffers a natural and flexible syntax, for faster development.\n",
     "homepage": "https://cloud.r-project.org/package=data.table",
-    "latest_version": "1.14.8",
+    "latest_version": "1.15.4",
     "maintainers": [],
     "name": "r-data-table",
     "patches": [],
@@ -161,6 +169,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.15.4",
+            "sha256": "ab8065ff946d59ecaaf5eaf91a975495c07c30caad97a71205c72e41a740cb53"
+        },
         {
             "name": "1.14.8",
             "sha256": "14b2ce5367df9c9bb58f373555066f5dcb629c156149b5565de36d69557139fd"

@@ -16,7 +16,7 @@
     ],
     "description": "A shared resource interface for Bigmemory Project packages. This package\nprovides a shared resource interface for the bigmemory and synchronicity\npackages.\n",
     "homepage": "https://cloud.r-project.org/package=bigmemory.sri",
-    "latest_version": "0.1.6",
+    "latest_version": "0.1.8",
     "maintainers": [],
     "name": "r-bigmemory-sri",
     "patches": [],
@@ -29,6 +29,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.1.8",
+            "sha256": "029a4ed24aa17636a20b83857d55fe6a9283acb8b647cbc75280dea8ec987771"
+        },
         {
             "name": "0.1.6",
             "sha256": "3bfa6ac966ce0ea93283f5856a853d0ee5ff85aedd7a7d1ca8a93d0aa642860c"

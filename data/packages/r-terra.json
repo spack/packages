@@ -34,6 +34,10 @@
             "name": "r-dismo"
         },
         {
+            "description": "A System of Plotting Optimized for Speed and Modularity. A high-level\nplotting system, built using 'grid' graphics, that is optimized for\nspeed and modularity. This has great utility for quick visualizations\nwhen testing code, with the key benefit that visualizations are updated\nindependently of one another.",
+            "name": "r-quickplot"
+        },
+        {
             "description": "Geographic Data Analysis and Modeling. Reading, writing, manipulating,\nanalyzing and modeling of spatial data. The package implements basic and\nhigh-level functions for raster data and for vector data operations such\nas intersections. See the manual and tutorials on\n<https://rspatial.org/> to get started.",
             "name": "r-raster"
         },
@@ -42,13 +46,21 @@
             "name": "r-satellite"
         },
         {
+            "description": "Utilities for Developing and Running Spatially Explicit Discrete Event\nModels. Provides the core framework for a discrete event system (DES) to\nimplement acomplete data-to-decisions, reproducible workflow. The core\nDES components facilitate modularity, and easily enable the user to\ninclude additional functionality by running user-built modules. Includes\nconditional scheduling, restart after interruption, packaging of\nreusable modules, tools for developing arbitrary automated workflows,\nautomated interweaving of modules of different temporal resolution, and\ntools for visualizing and understanding the DES project.",
+            "name": "r-spades-core"
+        },
+        {
+            "description": "Tools for Spatially Explicit Discrete Event Simulation (SpaDES) Models.\nProvides GIS and map utilities, plus additional modeling tools for\ndeveloping cellular automata, dynamic raster models, and agent based\nmodels in 'SpaDES'. Included are various methods for spatial spreading,\nspatial agents, GIS operations, random map generation, and others. See\n'?SpaDES.tools' for an categorized overview of these additional tools.",
+            "name": "r-spades-tools"
+        },
+        {
             "description": "Spatial Analysis and Modelling Utilities. Utilities to support spatial\ndata manipulation, query, sampling and modelling. Functions include\nmodels for species population density, download utilities for climate\nand global deforestation spatial products, spatial smoothing,\nmultivariate separability, point process model for creating pseudo-\nabsences and sub-sampling, polygon and point-distance landscape metrics,\nauto-logistic model, sampling models, cluster optimization, statistical\nexploratory tools and raster-based metrics.",
             "name": "r-spatialeco"
         }
     ],
     "description": "Spatial Data Analysis. Methods for spatial data analysis with raster and\nvector data. Raster methods allow for low-level data manipulation as\nwell as high-level global, local, zonal, and focal computation. The\npredict and interpolate methods facilitate the use of regression type\n(interpolation, machine learning) models for spatial prediction,\nincluding with satellite remote sensing data. Processing of very large\nfiles is supported. See the manual and tutorials on\n<https://rspatial.org/terra/> to get started. 'terra' is very similar to\nthe 'raster' package; but 'terra' can do more, is easier to use, and it\nis faster.\n",
     "homepage": "https://cloud.r-project.org/package=terra",
-    "latest_version": "1.7-29",
+    "latest_version": "1.7-78",
     "maintainers": [],
     "name": "r-terra",
     "patches": [],
@@ -61,6 +73,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.7-78",
+            "sha256": "658956b79d8a1371aefdf7300316f1756b58d436ba549ade012307684b2d4b7e"
+        },
         {
             "name": "1.7-29",
             "sha256": "3f39b052a34c9f1166a342be4c25bbdc1e2c81402edb734901d63fc6fa547ca5"

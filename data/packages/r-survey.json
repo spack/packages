@@ -28,6 +28,14 @@
             "name": "r-numderiv"
         },
         {
+            "description": "Seamless R and C++ Integration. The 'Rcpp' package provides R functions\nas well as C++ classes which; offer a seamless integration of R and C++.\nMany R data types and objects can be; mapped back and forth to C++\nequivalents which facilitates both writing of new; code as well as\neasier integration of third-party libraries. Documentation; about 'Rcpp'\nis provided by several vignettes included in this package, via the;\n'Rcpp Gallery' site at <https://gallery.rcpp.org>, the paper by\nEddelbuettel and; Francois (2011, <doi:10.18637/jss.v040.i08>), the book\nby Eddelbuettel (2013,; <doi:10.1007/978-1-4614-6868-4>) and the paper\nby Eddelbuettel and Balamuta (2018,;\n<doi:10.1080/00031305.2017.1375990>); see 'citation(\"Rcpp\")' for\ndetails.",
+            "name": "r-rcpp"
+        },
+        {
+            "description": "'Rcpp' Integration for the 'Armadillo' Templated Linear Algebra Library.\n'Armadillo' is a templated C++ linear algebra library (by Conrad;\nSanderson) that aims towards a good balance between speed and ease of;\nuse. Integer, floating point and complex numbers are supported, as; well\nas a subset of trigonometric and statistics functions. Various; matrix\ndecompositions are provided through optional integration with; LAPACK\nand ATLAS libraries. The 'RcppArmadillo' package includes the; header\nfiles from the templated 'Armadillo' library. Thus users do; not need to\ninstall 'Armadillo' itself in order to use; 'RcppArmadillo'. From\nrelease 7.800.0 on, 'Armadillo' is licensed; under Apache License 2;\nprevious releases were under licensed as MPL; 2.0 from version 3.800.0\nonwards and LGPL-3 prior to that",
+            "name": "r-rcpparmadillo"
+        },
+        {
             "description": "Survival Analysis. Contains the core survival analysis routines,\nincluding definition of Surv objects, Kaplan-Meier and Aalen-Johansen\n(multi-state) curves, Cox models, and parametric accelerated failure\ntime models.",
             "name": "r-survival"
         }
@@ -40,7 +48,7 @@
     ],
     "description": "Analysis of Complex Survey Samples. Summary statistics, two-sample\ntests, rank tests, generalised linear models, cumulative link models,\nCox models, loglinear models, and general maximum pseudolikelihood\nestimation for multistage stratified, cluster-sampled, unequally\nweighted survey samples. Variances by Taylor series linearisation or\nreplicate weights. Post-stratification, calibration, and raking. Two-\nphase subsampling designs. Graphics. PPS sampling without replacement.\nPrincipal components, factor analysis.\n",
     "homepage": "https://cloud.r-project.org/package=survey",
-    "latest_version": "4.1-1",
+    "latest_version": "4.4-2",
     "maintainers": [],
     "name": "r-survey",
     "patches": [],
@@ -53,6 +61,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "4.4-2",
+            "sha256": "8a4a0f3122f0971f7c8756805add781192c655f507b235801dd78457a8d2f1bd"
+        },
         {
             "name": "4.1-1",
             "sha256": "05e89a1678a39e32bfb41af8a31d643b04fc4d2660a96e701825e6bffcd75a52"

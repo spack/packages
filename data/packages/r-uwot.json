@@ -60,7 +60,7 @@
     ],
     "description": "The Uniform Manifold Approximation and Projection (UMAP) Method for\nDimensionality Reduction. An implementation of the Uniform Manifold\nApproximation and Projection dimensionality reduction by McInnes et al.\n(2018) <arXiv:1802.03426>. It also provides means to transform new data\nand to carry out supervised dimensionality reduction. An implementation\nof the related LargeVis method of Tang et al. (2016) <arXiv:1602.00370>\nis also provided. This is a complete re-implementation in R (and C++,\nvia the 'Rcpp' package): no Python installation is required. See the\nuwot website (<https://github.com/jlmelville/uwot>) for more\ndocumentation and examples.\n",
     "homepage": "https://cloud.r-project.org/package=uwot",
-    "latest_version": "0.1.14",
+    "latest_version": "0.2.2",
     "maintainers": [],
     "name": "r-uwot",
     "patches": [],
@@ -73,6 +73,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.2.2",
+            "sha256": "d9938c43d29530d4b36d1b2649cc679b09945a740db2cd3a266242b1aa9a6cd1"
+        },
         {
             "name": "0.1.14",
             "sha256": "8016e8192b7e72604ca71840cbe43fa1d2caed8a8ad7cbf20e85cd3b384a9fe0"

@@ -104,7 +104,7 @@
     ],
     "description": "HTML Widgets for R. A framework for creating HTML widgets that render in\nvarious contexts including the R console, 'R Markdown' documents, and\n'Shiny' web applications.\n",
     "homepage": "https://cloud.r-project.org/package=htmlwidgets",
-    "latest_version": "1.6.2",
+    "latest_version": "1.6.4",
     "maintainers": [],
     "name": "r-htmlwidgets",
     "patches": [],
@@ -117,6 +117,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.6.4",
+            "sha256": "7cb08f0b30485dac26f72e4056ec4ed8825d1398e8b9f25ed63db228fe3a0ed0"
+        },
         {
             "name": "1.6.2",
             "sha256": "7fda1672a4c0fbc203c790677b6ee7c40d2c2d72be4f6772f75288fc712b10bc"

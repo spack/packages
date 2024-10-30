@@ -20,7 +20,7 @@
     ],
     "description": "Biased Urn Model Distributions. Statistical models of biased sampling in\nthe form of univariate and multivariate noncentral hypergeometric\ndistributions, including Wallenius' noncentral hypergeometric\ndistribution and Fisher's noncentral hypergeometric distribution (also\ncalled extended hypergeometric distribution). See vignette(\"UrnTheory\")\nfor explanation of these distributions.\n",
     "homepage": "https://cloud.r-project.org/package=BiasedUrn",
-    "latest_version": "2.0.9",
+    "latest_version": "2.0.12",
     "maintainers": [],
     "name": "r-biasedurn",
     "patches": [],
@@ -33,6 +33,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.0.12",
+            "sha256": "29b3b596431c5364e3be9aae2068adb44a205de31c66ec3fa1ef06a4ab8c5792"
+        },
         {
             "name": "2.0.9",
             "sha256": "bac62bbbc3e2417772f8784996a6c2d0857adb42e86e46b1a9703b187a406b09"

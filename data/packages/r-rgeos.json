@@ -40,7 +40,7 @@
     ],
     "description": "Interface to Geometry Engine - Open Source ('GEOS'). Interface to\nGeometry Engine - Open Source ('GEOS') using the C 'API' for topology\noperations on geometries. The 'GEOS' library is external to the package,\nand, when installing the package from source, must be correctly\ninstalled first. Windows and Mac Intel OS X binaries are provided on\n'CRAN'. ('rgeos' >= 0.5-1): Up to and including 'GEOS' 3.7.1,\ntopological operations succeeded with some invalid geometries for which\nthe same operations fail from and including 'GEOS' 3.7.2. The\n'checkValidity=' argument defaults and structure have been changed, from\ndefault FALSE to integer default '0L' for 'GEOS' < 3.7.2 (no check),\n'1L' 'GEOS' >= 3.7.2 (check and warn). A value of '2L' is also provided\nthat may be used, assigned globally using 'set_RGEOS_CheckValidity(2L)',\nor locally using the 'checkValidity=2L' argument, to attempt zero-width\nbuffer repair if invalid geometries are found. The previous default\n(FALSE, now '0L') is fastest and used for 'GEOS' < 3.7.2, but will not\nwarn users of possible problems before the failure of topological\noperations that previously succeeded. From 'GEOS' 3.8.0, repair of\ngeometries may also be attempted using 'gMakeValid()', which may,\nhowever, return a collection of geometries of different types.\n",
     "homepage": "https://cloud.r-project.org/package=rgeos",
-    "latest_version": "0.6-2",
+    "latest_version": "0.6-4",
     "maintainers": [],
     "name": "r-rgeos",
     "patches": [],
@@ -52,7 +52,12 @@
             "name": "build_system"
         }
     ],
-    "versions": [],
+    "versions": [
+        {
+            "name": "0.6-4",
+            "sha256": "9d03c4de96fd3fad55ff8d1ff8113dcaaa00f15d9d0588e54c9f91751bcede11"
+        }
+    ],
     "versions_deprecated": [
         {
             "name": "0.6-2",

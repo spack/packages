@@ -107,7 +107,7 @@
     "dependent_to": [],
     "description": "Spatial Analysis and Modelling Utilities. Utilities to support spatial\ndata manipulation, query, sampling and modelling. Functions include\nmodels for species population density, download utilities for climate\nand global deforestation spatial products, spatial smoothing,\nmultivariate separability, point process model for creating pseudo-\nabsences and sub-sampling, polygon and point-distance landscape metrics,\nauto-logistic model, sampling models, cluster optimization, statistical\nexploratory tools and raster-based metrics.\n",
     "homepage": "https://cloud.r-project.org/package=spatialEco",
-    "latest_version": "2.0-0",
+    "latest_version": "2.0-2",
     "maintainers": [],
     "name": "r-spatialeco",
     "patches": [],
@@ -120,6 +120,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.0-2",
+            "sha256": "533b8e938df196609a6c85270c0bdc279287c5ee222de9e05ac745713a3ab57c"
+        },
         {
             "name": "2.0-0",
             "sha256": "9a2384e875ec465d1a2ccd392acc90d4469eb62babd32bb90e30b27a921153f6"

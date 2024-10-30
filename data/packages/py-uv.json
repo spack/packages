@@ -4,6 +4,10 @@
     "conflicts": [],
     "dependencies": [
         {
+            "description": "A cross-platform, open-source build system. CMake is a family of tools\ndesigned to build, test and package software.",
+            "name": "cmake"
+        },
+        {
             "description": "Build and publish crates with pyo3, rust-cpython and cffi bindings as\nwell as rust binaries as python packages.",
             "name": "py-maturin"
         },
@@ -36,7 +40,7 @@
     ],
     "description": "An extremely fast Python package and project manager, written in Rust.\n",
     "homepage": "https://github.com/astral-sh/uv",
-    "latest_version": "0.4.17",
+    "latest_version": "0.4.27",
     "maintainers": [],
     "name": "py-uv",
     "patches": [],
@@ -49,6 +53,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.4.27",
+            "sha256": "c13eea45257362ecfa2a2b31de9b62fbd0542e211a573562d98ab7c8fc50d8fc"
+        },
         {
             "name": "0.4.17",
             "sha256": "01564bd760eff885ad61f44173647a569732934d1a4a558839c8088fbf75e53f"

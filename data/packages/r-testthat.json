@@ -102,10 +102,6 @@
             "name": "r-ebseq"
         },
         {
-            "description": "Portable File Locking. Place an exclusive or shared lock on a file. It\nuses 'LockFile' on Windows and 'fcntl' locks on Unix-like systems.",
-            "name": "r-filelock"
-        },
-        {
             "description": "Generate Isolines and Isobands from Regularly Spaced Elevation Grids. A\nfast C++ implementation to generate contour lines (isolines) and contour\npolygons (isobands) from regularly spaced grids containing elevation\ndata.",
             "name": "r-isoband"
         },
@@ -120,7 +116,7 @@
     ],
     "description": "Unit Testing for R. Software testing is important, but, in part because\nit is frustrating and boring, many of us avoid it. 'testthat' is a\ntesting framework for R that is easy to learn and use, and integrates\nwith your existing 'workflow'.\n",
     "homepage": "https://cloud.r-project.org/package=testthat",
-    "latest_version": "3.1.7",
+    "latest_version": "3.2.1.1",
     "maintainers": [],
     "name": "r-testthat",
     "patches": [],
@@ -133,6 +129,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.2.1.1",
+            "sha256": "d785ce3975939e28b61048b0e28d881c80904534ff21e5b1a79a0a934124e9f7"
+        },
         {
             "name": "3.1.7",
             "sha256": "1ad86b1739481c6c46359a6634ecc706bf513f34b26d7a62cbc719bbd4658eab"

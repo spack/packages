@@ -48,7 +48,7 @@
     ],
     "description": "Measurement Units for R Vectors. Support for measurement units in R\nvectors, matrices and arrays: automatic propagation, conversion,\nderivation and simplification of units; raising errors in case of unit\nincompatibility. Compatible with the POSIXct, Date and difftime classes.\nUses the UNIDATA udunits library and unit database for unit\ncompatibility checking and conversion. Documentation about 'units' is\nprovided in the paper by Pebesma, Mailund & Hiebert (2016,\n<doi:10.32614/RJ-2016-061>), included in this package as a vignette; see\n'citation(\"units\")' for details.\n",
     "homepage": "https://cloud.r-project.org/package=units",
-    "latest_version": "0.8-1",
+    "latest_version": "0.8-5",
     "maintainers": [],
     "name": "r-units",
     "patches": [],
@@ -61,6 +61,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.8-5",
+            "sha256": "d95e80af760b053e10a1e33ce1f0c1280a84e84bd4b1d9c34d1fe9fc153603b1"
+        },
         {
             "name": "0.8-1",
             "sha256": "d3e1ba246b4c97205bc3da3cf45d6b5bd5c196b8d421b84b4e94b2090985cd9a"

@@ -28,7 +28,7 @@
     ],
     "description": "Adaptive multivariate integration over hypercubes. R wrappers around the\ncubature C library of Steven G. Johnson for adaptive multivariate\nintegration over hypercubes and the Cuba C library of Thomas Hahn for\ndeterministic and Monte Carlo integration. Scalar and vector interfaces\nfor cubature and Cuba routines are provided; the vector interfaces are\nhighly recommended as demonstrated in the package vignette.\n",
     "homepage": "https://cloud.r-project.org/package=cubature",
-    "latest_version": "2.0.4.6",
+    "latest_version": "2.1.1",
     "maintainers": [],
     "name": "r-cubature",
     "patches": [],
@@ -41,6 +41,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.1.1",
+            "sha256": "b37220e733f4e610e089e69896f66dc5bc461478a040321c19600ec5d07ea684"
+        },
         {
             "name": "2.0.4.6",
             "sha256": "330c9dc2be9bf6815473fd40efa8c2de47c1ed286cb097d0ff846b56c9e9f95a"

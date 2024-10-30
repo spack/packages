@@ -40,7 +40,7 @@
     ],
     "description": "Meta-Analysis Package for R. A comprehensive collection of functions for\nconducting meta-analyses in R. The package includes functions to\ncalculate various effect sizes or outcome measures, fit equal-, fixed-,\nrandom-, and mixed-effects models to such data, carry out moderator and\nmeta-regression analyses, and create various types of meta-analytical\nplots (e.g., forest, funnel, radial, L'Abbe, Baujat, bubble, and GOSH\nplots). For meta-analyses of binomial and person-time data, the package\nalso provides functions that implement specialized methods, including\nthe Mantel-Haenszel method, Peto's method, and a variety of suitable\ngeneralized linear (mixed-effects) models (i.e., mixed-effects logistic\nand Poisson regression models). Finally, the package provides\nfunctionality for fitting meta-analytic multivariate/multilevel models\nthat account for non-independent sampling errors and/or true effects\n(e.g., due to the inclusion of multiple treatment studies, multiple\nendpoints, or other forms of clustering). Network meta-analyses and\nmeta-analyses accounting for known correlation structures (e.g., due to\nphylogenetic relatedness) can also be conducted. An introduction to the\npackage can be found in Viechtbauer (2010) <doi:10.18637/jss.v036.i03>.\n",
     "homepage": "https://cloud.r-project.org/package=metafor",
-    "latest_version": "4.0-0",
+    "latest_version": "4.6-0",
     "maintainers": [],
     "name": "r-metafor",
     "patches": [],
@@ -53,6 +53,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "4.6-0",
+            "sha256": "07344cc3bd87b8bd25ef998e9a6ce322ae8e448ef5af06ec3e79631724e18666"
+        },
         {
             "name": "4.0-0",
             "sha256": "5cd552ebaf225b745c2e4d944ca80986dd1ad6f1a4c902fb646f3cb11b8dc23b"

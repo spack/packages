@@ -14,6 +14,10 @@
             "name": "r-corhmm"
         },
         {
+            "description": "Allows researchers to conduct multivariate statistical analyses of\nsurvey data with list experiments.",
+            "name": "r-list"
+        },
+        {
             "description": "MCMC Generalised Linear Mixed Models. Fits Multivariate Generalised\nLinear Mixed Models (and related models) using Markov chain Monte Carlo\ntechniques (Hadfield 2010 J. Stat. Soft.).",
             "name": "r-mcmcglmm"
         },

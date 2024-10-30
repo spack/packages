@@ -28,12 +28,24 @@
             "name": "r-matrix"
         },
         {
+            "description": "Accurate Numerical Derivatives. Methods for calculating (usually)\naccurate numerical first and second order derivatives. Accurate\ncalculations are done using 'Richardson\"s' extrapolation or, when\napplicable, a complex step derivative is available. A simple difference\nmethod is also provided. Simple difference is (usually) less accurate\nbut is much quicker than 'Richardson\"s' extrapolation and provides a\nuseful cross-check. Methods are provided for real scalar and vector\nvalued functions.",
+            "name": "r-numderiv"
+        },
+        {
             "description": "Create Interactive Web Graphics via 'plotly.js'. Create interactive web\ngraphics from 'ggplot2' graphs and/or a custom interface to the (MIT-\nlicensed) JavaScript library 'plotly.js' inspired by the grammar of\ngraphics.",
             "name": "r-plotly"
         },
         {
             "description": "Quantile Regression. Estimation and inference methods for models of\nconditional quantiles: Linear and nonlinear parametric and non-\nparametric (total variation penalized) models for conditional quantiles\nof a univariate response and several methods for handling censored\nsurvival data. Portfolio selection methods based on expected shortfall\nrisk are also now included. See Koenker (2006)\n<doi:10.1017/CBO9780511754098> and Koenker et al. (2017)\n<doi:10.1201/9781315120256>.",
             "name": "r-quantreg"
+        },
+        {
+            "description": "Seamless R and C++ Integration. The 'Rcpp' package provides R functions\nas well as C++ classes which; offer a seamless integration of R and C++.\nMany R data types and objects can be; mapped back and forth to C++\nequivalents which facilitates both writing of new; code as well as\neasier integration of third-party libraries. Documentation; about 'Rcpp'\nis provided by several vignettes included in this package, via the;\n'Rcpp Gallery' site at <https://gallery.rcpp.org>, the paper by\nEddelbuettel and; Francois (2011, <doi:10.18637/jss.v040.i08>), the book\nby Eddelbuettel (2013,; <doi:10.1007/978-1-4614-6868-4>) and the paper\nby Eddelbuettel and Balamuta (2018,;\n<doi:10.1080/00031305.2017.1375990>); see 'citation(\"Rcpp\")' for\ndetails.",
+            "name": "r-rcpp"
+        },
+        {
+            "description": "'Rcpp' Integration for the 'Armadillo' Templated Linear Algebra Library.\n'Armadillo' is a templated C++ linear algebra library (by Conrad;\nSanderson) that aims towards a good balance between speed and ease of;\nuse. Integer, floating point and complex numbers are supported, as; well\nas a subset of trigonometric and statistics functions. Various; matrix\ndecompositions are provided through optional integration with; LAPACK\nand ATLAS libraries. The 'RcppArmadillo' package includes the; header\nfiles from the templated 'Armadillo' library. Thus users do; not need to\ninstall 'Armadillo' itself in order to use; 'RcppArmadillo'. From\nrelease 7.800.0 on, 'Armadillo' is licensed; under Apache License 2;\nprevious releases were under licensed as MPL; 2.0 from version 3.800.0\nonwards and LGPL-3 prior to that",
+            "name": "r-rcpparmadillo"
         },
         {
             "description": "JSON for R. Converts R object into JSON objects and vice-versa.",
@@ -56,7 +68,7 @@
     ],
     "description": "Mendelian Randomization Package. Encodes several methods for performing\nMendelian randomization analyses with summarized data. Summarized data\non genetic associations with the exposure and with the outcome can be\nobtained from large consortia. These data can be used for obtaining\ncausal estimates using instrumental variable methods.\n",
     "homepage": "https://cloud.r-project.org/package=MendelianRandomization",
-    "latest_version": "0.7.0",
+    "latest_version": "0.10.0",
     "maintainers": [],
     "name": "r-mendelianrandomization",
     "patches": [],
@@ -69,6 +81,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.10.0",
+            "sha256": "0851e91f826424f20fd4a58348ffe161d147bdc091d24d676e14d4cd6180e13c"
+        },
         {
             "name": "0.7.0",
             "sha256": "cad7cc1b6964fc7d299864378694c5fd947caa83796a1958e581299796b854c7"

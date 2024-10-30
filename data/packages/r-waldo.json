@@ -44,7 +44,7 @@
     ],
     "description": "Find Differences Between R Objects. Compare complex R objects and reveal\nthe key differences. Designed particularly for use in testing packages\nwhere being able to quickly isolate key differences makes understanding\ntest failures much easier.\n",
     "homepage": "https://cloud.r-project.org/package=waldo",
-    "latest_version": "0.4.0",
+    "latest_version": "0.5.2",
     "maintainers": [],
     "name": "r-waldo",
     "patches": [],
@@ -57,6 +57,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.5.2",
+            "sha256": "82cdae1ab2c5e7e5dbf5c6bdf832020b46e152732053fb45de7c9a81afdf2e05"
+        },
         {
             "name": "0.4.0",
             "sha256": "57ee89eec9bcbba58cf8fa29c8e097f038768c30833eaf812682826333127eaa"

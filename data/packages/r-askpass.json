@@ -28,7 +28,7 @@
     ],
     "description": "Safe Password Entry for R, Git, and SSH. Cross-platform utilities for\nprompting the user for credentials or a passphrase, for example to\nauthenticate with a server or read a protected key. Includes native\nprograms for MacOS and Windows, hence no 'tcltk' is required. Password\nentry can be invoked in two different ways: directly from R via the\naskpass() function, or indirectly as password-entry back-end for 'ssh-\nagent' or 'git-credential' via the SSH_ASKPASS and GIT_ASKPASS\nenvironment variables. Thereby the user can be prompted for credentials\nor a passphrase if needed when R calls out to git or ssh.\n",
     "homepage": "https://cloud.r-project.org/package=askpass",
-    "latest_version": "1.1",
+    "latest_version": "1.2.0",
     "maintainers": [],
     "name": "r-askpass",
     "patches": [],
@@ -41,6 +41,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.2.0",
+            "sha256": "b922369781934d0ffc8d0c0177e8ace56796c2e6a726f65e460c16f792592cef"
+        },
         {
             "name": "1.1",
             "sha256": "db40827d1bdbb90c0aa2846a2961d3bf9d76ad1b392302f9dd84cc2fd18c001f"

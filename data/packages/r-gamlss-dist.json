@@ -16,11 +16,15 @@
         {
             "description": "Generalised Additive Models for Location Scale and Shape. Functions for\nfitting the Generalized Additive Models for Location Scale and Shape\nintroduced by Rigby and Stasinopoulos (2005),\n<doi:10.1111/j.1467-9876.2005.00510.x>. The models use a distributional\nregression approach where all the parameters of the conditional\ndistribution of the response variable are modelled using explanatory\nvariables.",
             "name": "r-gamlss"
+        },
+        {
+            "description": "Allows researchers to conduct multivariate statistical analyses of\nsurvey data with list experiments.",
+            "name": "r-list"
         }
     ],
     "description": "Distributions for Generalized Additive Models for Location Scale and\nShape. A set of distributions which can be used for modelling the\nresponse variables in Generalized Additive Models for Location Scale and\nShape, Rigby and Stasinopoulos (2005),\n<doi:10.1111/j.1467-9876.2005.00510.x>. The distributions can be\ncontinuous, discrete or mixed distributions. Extra distributions can be\ncreated, by transforming, any continuous distribution defined on the\nreal line, to a distribution defined on ranges 0 to infinity or 0 to 1,\nby using a ''log'' or a ''logit' transformation respectively.\n",
     "homepage": "https://cloud.r-project.org/package=gamlss.dist",
-    "latest_version": "6.0-5",
+    "latest_version": "6.1-1",
     "maintainers": [],
     "name": "r-gamlss-dist",
     "patches": [],
@@ -33,6 +37,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.1-1",
+            "sha256": "d2db3a7658799c2ef212aa18cb75a3ecf4f73faf8c13dfdc3c14b21ae0129069"
+        },
         {
             "name": "6.0-5",
             "sha256": "0f88afdfb148de79d3ece66bf4631ea0dc3ecf1188680802abffd6bc7139a20e"

@@ -28,7 +28,7 @@
     ],
     "description": "Alt String Implementation. Provides an extendable, performant and\nmultithreaded 'alt-string' implementation backed by 'C++' vectors and\nstrings.\n",
     "homepage": "https://cloud.r-project.org/package=stringfish",
-    "latest_version": "0.15.7",
+    "latest_version": "0.16.0",
     "maintainers": [
         "dorton21"
     ],
@@ -43,6 +43,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.16.0",
+            "sha256": "3608bc83900246297b38df46954bd9aa3b6f463a56eefbe80cfc713eab797993"
+        },
         {
             "name": "0.15.7",
             "sha256": "34b1703a8876a40860d35f88a94e069832a7d2bc86189ff07af84ff04fd4b735"

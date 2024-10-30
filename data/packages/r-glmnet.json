@@ -50,6 +50,10 @@
             "name": "r-mendelianrandomization"
         },
         {
+            "description": "Multivariate Imputation by Chained Equations. Multiple imputation using\nFully Conditional Specification (FCS) implemented by the MICE algorithm\nas described in Van Buuren and Groothuis-Oudshoorn (2011)\n<doi:10.18637/jss.v045.i03>. Each variable has its own imputation model.\nBuilt-in imputation models are provided for continuous data (predictive\nmean matching, normal), binary data (logistic regression), unordered\ncategorical data (polytomous logistic regression) and ordered\ncategorical data (proportional odds). MICE can also impute continuous\ntwo-level data (normal model, pan, second-level variables). Passive\nimputation can be used to maintain consistency between variables.\nVarious diagnostic plots are available to inspect the quality of the\nimputations.",
+            "name": "r-mice"
+        },
+        {
             "description": "Data Mining Classification and Regression Methods. Facilitates the use\nof data mining algorithms in classification and regression (including\ntime series forecasting) tasks by presenting a short and coherent set of\nfunctions. Versions: 1.4.6 / 1.4.5 / 1.4.4 new automated machine\nlearning (AutoML) and ensembles, via improved fit(), mining() and\nmparheuristic() functions, and new categorical preprocessing, via\nimproved delevels() function; 1.4.3 new metrics (e.g., macro precision,\nexplained variance), new \"lssvm\" model and improved mparheuristic()\nfunction; 1.4.2 new \"NMAE\" metric, \"xgboost\" and \"cv.glmnet\" models (16\nclassification and 18 regression models); 1.4.1 new tutorial and more\nrobust version; 1.4 - new classification and regression models, with a\ntotal of 14 classification and 15 regression methods, including:\nDecision Trees, Neural Networks, Support Vector Machines, Random\nForests, Bagging and Boosting; 1.3 and 1.3.1 - new classification and\nregression metrics; 1.2 - new input importance methods via improved\nImportance() function; 1.0 - first version.",
             "name": "r-rminer"
         },
@@ -60,7 +64,7 @@
     ],
     "description": "Lasso and Elastic-Net Regularized Generalized Linear Models. Extremely\nefficient procedures for fitting the entire lasso or elastic-net\nregularization path for linear regression, logistic and multinomial\nregression models, Poisson regression and the Cox model. Two recent\nadditions are the multiple-response Gaussian, and the grouped\nmultinomial. The algorithm uses cyclical coordinate descent in a path-\nwise fashion, as described in the paper linked to via the URL below.\n",
     "homepage": "https://cloud.r-project.org/package=glmnet",
-    "latest_version": "4.1-7",
+    "latest_version": "4.1-8",
     "maintainers": [],
     "name": "r-glmnet",
     "patches": [],
@@ -73,6 +77,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "4.1-8",
+            "sha256": "1ddbe5ce07076d1bdf58b0202ebd0ceac8eeb4796c5175681adb9e58c30ddcfe"
+        },
         {
             "name": "4.1-7",
             "sha256": "b3a0b606d99df0256eb68e6ebd271e071b246900a4379641af2e7d548c70eaa8"

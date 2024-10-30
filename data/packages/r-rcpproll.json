@@ -20,7 +20,7 @@
     ],
     "description": "Efficient Rolling / Windowed Operations. Provides fast and efficient\nroutines for common rolling / windowed operations. Routines for the\nefficient computation of windowed mean, median, sum, product, minimum,\nmaximum, standard deviation and variance are provided.\n",
     "homepage": "https://cloud.r-project.org/package=RcppRoll",
-    "latest_version": "0.3.0",
+    "latest_version": "0.3.1",
     "maintainers": [],
     "name": "r-rcpproll",
     "patches": [],
@@ -33,6 +33,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.3.1",
+            "sha256": "d2f5d978b6feb8510ec1a1a50ba0e8bf9002bb77bfad7d120f5b30b8f56036df"
+        },
         {
             "name": "0.3.0",
             "sha256": "cbff2096443a8a38a6f1dabf8c90b9e14a43d2196b412b5bfe5390393f743f6b"

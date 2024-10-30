@@ -12,6 +12,10 @@
             "name": "r-beeswarm"
         },
         {
+            "description": "Helpers for Developing Command Line Interfaces. A suite of tools to\nbuild attractive command line interfaces ('CLIs'), from semantic\nelements: headings, lists, alerts, paragraphs, etc. Supports custom\nthemes via a 'CSS'-like language. It also contains a number of lower\nlevel 'CLI' elements: rules, boxes, trees, and 'Unicode' symbols with\n'ASCII' alternatives. It integrates with the 'crayon' package to support\n'ANSI' terminal colors.",
+            "name": "r-cli"
+        },
+        {
             "description": "Create Elegant Data Visualisations Using the Grammar of Graphics. A\nsystem for 'declaratively' creating graphics, based on \"The Grammar of\nGraphics\". You provide the data, tell 'ggplot2' how to map variables to\naesthetics, what graphical primitives to use, and it takes care of the\ndetails.",
             "name": "r-ggplot2"
         },
@@ -40,7 +44,7 @@
     ],
     "description": "Categorical Scatter (Violin Point) Plots. Provides two methods of\nplotting categorical scatter plots such that the arrangement of points\nwithin a category reflects the density of data at that region, and\navoids over-plotting.\n",
     "homepage": "https://cloud.r-project.org/package=ggbeeswarm",
-    "latest_version": "0.7.1",
+    "latest_version": "0.7.2",
     "maintainers": [],
     "name": "r-ggbeeswarm",
     "patches": [],
@@ -53,6 +57,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.7.2",
+            "sha256": "fd7ca265bb892dde514d5f8d6a853fb8b32d7a673b05e9c8b50544a523299ce5"
+        },
         {
             "name": "0.7.1",
             "sha256": "f41550335149bc2122fed0dd280d980cecd02ace79e042d5e03c1f102200ac92"

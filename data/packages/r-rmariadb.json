@@ -24,6 +24,10 @@
             "name": "r-blob"
         },
         {
+            "description": "A C++11 Interface for R's C Interface. Provides a header only, C++11\ninterface to R's C interface. Compared to other approaches 'cpp11'\nstrives to be safe against long jumps from the C API as well as C++\nexceptions, conform to normal R function semantics and supports\ninteraction with 'ALTREP' vectors.",
+            "name": "r-cpp11"
+        },
+        {
             "description": "R Database Interface. A database interface definition for communication\nbetween R and relational database management systems. All classes in\nthis package are virtual and need to be extended by the various R/DBMS\nimplementations.",
             "name": "r-dbi"
         },
@@ -51,7 +55,7 @@
     "dependent_to": [],
     "description": "Database Interface and 'MariaDB' Driver. Implements a 'DBI'-compliant\ninterface to 'MariaDB' (<https://mariadb.org/>) and 'MySQL'\n(<https://www.mysql.com/>) databases.\n",
     "homepage": "https://cloud.r-project.org/package=RMariaDB",
-    "latest_version": "1.2.2",
+    "latest_version": "1.3.2",
     "maintainers": [],
     "name": "r-rmariadb",
     "patches": [],
@@ -64,6 +68,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.3.2",
+            "sha256": "7c87ef0623218b9e79dd6a9b1a25f495520289603ca48f54ea45309bd8826828"
+        },
         {
             "name": "1.2.2",
             "sha256": "c97c61ace584f9ad9929d3e3f366556e0eecad12bc98ea2979563a01475f468e"

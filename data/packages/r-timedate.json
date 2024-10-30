@@ -20,7 +20,7 @@
     ],
     "description": "Rmetrics - Chronological and Calendar Objects. The 'timeDate' class\nfulfils the conventions of the ISO 8601 standard as well as of the ANSI\nC and POSIX standards. Beyond these standards it provides the \"Financial\nCenter\" concept which allows to handle data records collected in\ndifferent time zones and mix them up to have always the proper time\nstamps with respect to your personal financial center, or alternatively\nto the GMT reference time. It can thus also handle time stamps from\nhistorical data records from the same time zone, even if the financial\ncenters changed day light saving times at different calendar dates.\n",
     "homepage": "https://cloud.r-project.org/package=timeDate",
-    "latest_version": "4022.108",
+    "latest_version": "4032.109",
     "maintainers": [],
     "name": "r-timedate",
     "patches": [],
@@ -33,6 +33,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "4032.109",
+            "sha256": "402841bda47e8c31f49773de2ff5447e9780bc7c8af5fb18be9287b546fcb958"
+        },
         {
             "name": "4022.108",
             "sha256": "a5949b4fe2f6bdff751fc0793df8e3150cc25c078d48a28c066c10a6c4bfceef"

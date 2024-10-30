@@ -28,11 +28,15 @@
         {
             "description": "A Gallery of Animations in Statistics and Utilities to Create\nAnimations. Provides functions for animations in statistics, covering\ntopics in probability theory, mathematical statistics, multivariate\nstatistics, non-parametric statistics, sampling survey, linear models,\ntime series, computational statistics, data mining and machine learning.\nThese functions maybe helpful in teaching statistics and data analysis.",
             "name": "r-animation"
+        },
+        {
+            "description": "Analysis of Convergent Evolution. Quantifies and assesses the\nsignificance of convergent evolution using two different methods (and 5\ndifferent measures) as described in Stayton (2015)\n<doi:10.1111/evo.12729>. Also displays results in a phylomorphospace\nframework.",
+            "name": "r-convevol"
         }
     ],
     "description": "Advanced Graphics and Image-Processing in R. Bindings to 'ImageMagick':\nthe most comprehensive open-source image processing library available.\nSupports many common formats (png, jpeg, tiff, pdf, etc) and\nmanipulations (rotate, scale, crop, trim, flip, blur, etc). All\noperations are vectorized via the Magick++ STL meaning they operate\neither on a single frame or a series of frames for working with layers,\ncollages, or animation. In RStudio images are automatically previewed\nwhen printed to the console, resulting in an interactive editing\nenvironment. The latest version of the package includes a native\ngraphics device for creating in-memory graphics or drawing onto images\nusing pixel coordinates.\n",
     "homepage": "https://cloud.r-project.org/package=magick",
-    "latest_version": "2.7.4",
+    "latest_version": "2.8.4",
     "maintainers": [],
     "name": "r-magick",
     "patches": [],
@@ -45,6 +49,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.8.4",
+            "sha256": "45c803370f0d96b729db8114b3e2187cbe6fac13133b67b96a91c8eae734ea0a"
+        },
         {
             "name": "2.7.4",
             "sha256": "e28d67737590f8c19e4cf00a9c74e59d0e45f9ece363ed105b5f40e821e8f02f"

@@ -40,7 +40,7 @@
     ],
     "description": "Latent Variable Analysis. Fit a variety of latent variable models,\nincluding confirmatory factor analysis, structural equation modeling and\nlatent growth curve models.\n",
     "homepage": "https://cloud.r-project.org/package=lavaan",
-    "latest_version": "0.6-15",
+    "latest_version": "0.6-18",
     "maintainers": [],
     "name": "r-lavaan",
     "patches": [],
@@ -53,6 +53,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.6-18",
+            "sha256": "b907cacd6c4a2320138cb2206f17b60acf077453540bcb9cc94659fc9a48df51"
+        },
         {
             "name": "0.6-15",
             "sha256": "9a43f3e999f9b3003a8c46a615902e01d6701d28a871d657751dd2ff3928ed9b"

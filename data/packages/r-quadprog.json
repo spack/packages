@@ -22,6 +22,10 @@
             "name": "r-limsolve"
         },
         {
+            "description": "Allows researchers to conduct multivariate statistical analyses of\nsurvey data with list experiments.",
+            "name": "r-list"
+        },
+        {
             "description": "Analyze Illumina Infinium DNA methylation arrays. Tools to analyze &\nvisualize Illumina Infinium methylation arrays.",
             "name": "r-minfi"
         },

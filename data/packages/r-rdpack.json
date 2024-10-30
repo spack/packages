@@ -36,7 +36,7 @@
     ],
     "description": "Update and Manipulate Rd Documentation Objects. Functions for\nmanipulation of R documentation objects, including functions reprompt()\nand ereprompt() for updating 'Rd' documentation for functions, methods\nand classes; 'Rd' macros for citations and import of references from\n'bibtex' files for use in 'Rd' files and 'roxygen2' comments; 'Rd'\nmacros for evaluating and inserting snippets of 'R' code and the results\nof its evaluation or creating graphics on the fly; and many functions\nfor manipulation of references and Rd files.\n",
     "homepage": "https://cloud.r-project.org/package=Rdpack",
-    "latest_version": "2.4",
+    "latest_version": "2.6.1",
     "maintainers": [],
     "name": "r-rdpack",
     "patches": [],
@@ -49,6 +49,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.6.1",
+            "sha256": "39626397c4ab1706bfdc53433dbaa0a6cb691dcba68173945b5a9eb041acf945"
+        },
         {
             "name": "2.4",
             "sha256": "7652add12b30fcba1f3a12493a089a4166079e78c47b95802a98595a3ff53581"

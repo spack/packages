@@ -16,7 +16,7 @@
     ],
     "description": "Functions for Extreme Value Distributions. Extends simulation,\ndistribution, quantile and density functions to univariate and\nmultivariate parametric extreme value distributions, and provides\nfitting functions which calculate maximum likelihood estimates for\nunivariate and bivariate maxima models, and for univariate and bivariate\nthreshold models.\n",
     "homepage": "https://cloud.r-project.org/package=evd",
-    "latest_version": "2.3-6.1",
+    "latest_version": "2.3-7",
     "maintainers": [],
     "name": "r-evd",
     "patches": [],
@@ -29,6 +29,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.3-7",
+            "sha256": "4a899df15d39be4a8d544de4f5e4690b4673790a46da6a6c9c2a70fef3b55648"
+        },
         {
             "name": "2.3-6.1",
             "sha256": "662c592d3f5c5693dbf1c673d1137c4a60a347e330b71be1f3933f201d2c8971"

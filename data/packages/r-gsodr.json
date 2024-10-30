@@ -35,7 +35,7 @@
     "dependent_to": [],
     "description": "A Global Surface Summary of the Day (GSOD) Weather Data Client for R.\nProvides automated downloading, parsing, cleaning, unit conversion and\nformatting of Global Surface Summary of the Day ('GSOD') weather data\nfrom the from the USA National Centers for Environmental Information\n('NCEI'). Units are converted from from United States Customary System\n('USCS') units to International System of Units ('SI'). Stations may be\nindividually checked for number of missing days defined by the user,\nwhere stations with too many missing observations are omitted. Only\nstations with valid reported latitude and longitude values are permitted\nin the final data. Additional useful elements, saturation vapour\npressure ('es'), actual vapour pressure ('ea') and relative humidity\n('RH') are calculated from the original data using the improved August-\nRoche-Magnus approximation (Alduchov & Eskridge 1996) and included in\nthe final data set. The resulting metadata include station\nidentification information, country, state, latitude, longitude,\nelevation, weather observations and associated flags. For information on\nthe 'GSOD' data from 'NCEI', please see the 'GSOD' 'readme.txt' file\navailable from, <https://www1.ncdc.noaa.gov/pub/data/gsod/readme.txt>.\n",
     "homepage": "https://cloud.r-project.org/package=GSODR",
-    "latest_version": "3.1.8",
+    "latest_version": "4.1.1",
     "maintainers": [],
     "name": "r-gsodr",
     "patches": [],
@@ -48,6 +48,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "4.1.1",
+            "sha256": "d5bf80244b5562206f459cb0ed588c11f8edf4eb2a26e2715be7938ec6be92e0"
+        },
         {
             "name": "3.1.8",
             "sha256": "f43668b14be30632086b832be83c74fa7c25e123fbce0d0203e992a0c11e7c8d"

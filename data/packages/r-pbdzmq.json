@@ -24,7 +24,7 @@
     ],
     "description": "Programming with Big Data -- Interface to 'ZeroMQ'. 'ZeroMQ' is a well-\nknown library for high-performance asynchronous messaging in scalable,\ndistributed applications. This package provides high level R wrapper\nfunctions to easily utilize 'ZeroMQ'. We mainly focus on interactive\nclient/server programming frameworks. For convenience, a minimal\n'ZeroMQ' library (4.1.0 rc1) is shipped with 'pbdZMQ', which can be used\nif no system installation of 'ZeroMQ' is available. A few wrapper\nfunctions compatible with 'rzmq' are also provided.\n",
     "homepage": "https://cloud.r-project.org/package=pbdZMQ",
-    "latest_version": "0.3-9",
+    "latest_version": "0.3-11",
     "maintainers": [],
     "name": "r-pbdzmq",
     "patches": [],
@@ -37,6 +37,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.3-11",
+            "sha256": "da7e204d857370201f75a05fbd808a2f409d440cc96855bb8f48f4a5dd75405b"
+        },
         {
             "name": "0.3-9",
             "sha256": "d033238d0a9810581f6b40c7c75263cfc495a585653bbff98e957c37954e0fb6"

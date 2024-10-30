@@ -54,6 +54,10 @@
             "name": "r-restfulr"
         },
         {
+            "description": "Provides a set of functions for data manipulation with list objects,\nincluding mapping, filtering, grouping, sorting, updating, searching,\nand other useful functions. Most functions are designed to be pipeline\nfriendly so that data processing with lists can be chained.",
+            "name": "r-rlist"
+        },
+        {
             "description": "Dynamic Documents for R. Convert R Markdown documents into a variety of\nformats.",
             "name": "r-rmarkdown"
         },
@@ -72,7 +76,7 @@
     ],
     "description": "Methods to Convert R Data to YAML and Back. Implements the 'libyaml'\n'YAML' 1.1 parser and emitter (<https://pyyaml.org/wiki/LibYAML>) for R.\n",
     "homepage": "https://cloud.r-project.org/package=yaml",
-    "latest_version": "2.3.7",
+    "latest_version": "2.3.10",
     "maintainers": [],
     "name": "r-yaml",
     "patches": [],
@@ -85,6 +89,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.3.10",
+            "sha256": "e236d42d366e361d4855aa4f520260debd53a31e4786442b94770b045da02a6d"
+        },
         {
             "name": "2.3.7",
             "sha256": "d20cb219e0f9c48aba02f132f81cfa9ecda5e22c925e36726840218ed56680ab"

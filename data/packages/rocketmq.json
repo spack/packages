@@ -11,7 +11,7 @@
     "dependent_to": [],
     "description": " Apache RocketMQ is a distributed messaging and streaming platform with\nlow latency, high performance and reliability, trillion-level capacity\nand flexible scalability.\n",
     "homepage": "https://rocketmq.apache.org/",
-    "latest_version": "4.6.0",
+    "latest_version": "5.3.1",
     "maintainers": [],
     "name": "rocketmq",
     "patches": [],
@@ -24,6 +24,12 @@
         }
     ],
     "versions": [
+        {
+            "name": "5.3.1",
+            "sha256": "251d7261fa26d35eaffef6a2fce30880054af7a5883d578dd31574bf908a8b97"
+        }
+    ],
+    "versions_deprecated": [
         {
             "name": "4.6.0",
             "sha256": "584910d50639297808dd0b86fcdfaf431efd9607009a44c6258d9a0e227748fe"
@@ -48,6 +54,5 @@
             "name": "4.3.2",
             "sha256": "e31210a86266ee218eb6ff4f8ca6e211439895459c3bdad162067b573d9e3415"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

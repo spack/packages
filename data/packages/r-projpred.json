@@ -24,6 +24,10 @@
             "name": "r-ggplot2"
         },
         {
+            "description": "Various R Programming Tools. Functions to assist in R programming.\nIncluding: [1] assist in developing, updating, and maintaining R and R\npackages ('ask', 'checkRVersion', 'getDependencies', 'keywords',\n'scat'); [2] calculate the logit and inverse logit transformations\n('logit', 'inv.logit'); [3] test if a value is missing, empty or\ncontains only NA and NULL values ('invalid'); [4] manipulate R's .Last\nfunction ('addLast'); [5] define macros ('defmacro'); [6] detect odd and\neven integers ('odd', 'even'); [7] convert strings containing non-ASCII\ncharacters (like single quotes) to plain ASCII ('ASCIIfy'); [8] perform\na binary search ('binsearch'); [9] sort strings containing both numeric\nand character components ('mixedsort'); [10] create a factor variable\nfrom the quantiles of a continuous variable ('quantcut'); [11] enumerate\npermutations and combinations ('combinations', 'permutation'); [12]\ncalculate and convert between fold-change and log-ratio ('foldchange',\n'logratio2foldchange', 'foldchange2logratio'); [13] calculate\nprobabilities and generate random numbers from Dirichlet distributions\n('rdirichlet', 'ddirichlet'); [14] apply a function over adjacent\nsubsets of a vector ('running'); [15] modify the TCP_NODELAY ('de-\nNagle') flag for socket objects; [16] efficient 'rbind' of data frames,\neven if the column names don't match ('smartbind'); [17] generate\nsignificance stars from p-values ('stars.pval'); [18] convert characters\nto/from ASCII codes;",
+            "name": "r-gtools"
+        },
+        {
             "description": "Linear Mixed-Effects Models using 'Eigen' and S4. Fit linear and\ngeneralized linear mixed-effects models. The models and their components\nare represented using S4 classes and methods. The core computational\nalgorithms are implemented using the 'Eigen' C++ library for numerical\nlinear algebra and 'RcppEigen' \"glue\".",
             "name": "r-lme4"
         },
@@ -84,6 +88,10 @@
             "name": "r-rstantools"
         },
         {
+            "description": "Scale Functions for Visualization. Graphical scales map data to\naesthetics, and provide methods for automatically determining breaks and\nlabels for axes and legends.",
+            "name": "r-scales"
+        },
+        {
             "description": "Easily Install and Load the 'Tidyverse'. The 'tidyverse' is a set of\npackages that work in harmony because they share common data\nrepresentations and 'API' design. This package is designed to make it\neasy to install and load multiple 'tidyverse' packages in a single step.\nLearn more about the 'tidyverse' at <https://tidyverse.org>.",
             "name": "r-tidyverse"
         },
@@ -100,7 +108,7 @@
     ],
     "description": "Projection Predictive Feature Selection. Performs projection predictive\nfeature selection for generalized linear models and generalized linear\nand additive multilevel models (see, Piironen, Paasiniemi and Vehtari,\n2020, <https://projecteuclid.org/euclid.ejs/1589335310>, Catalina,\nBurkner and Vehtari, 2020, <arXiv:2010.06994>). The package is\ncompatible with the 'rstanarm' and 'brms' packages, but other reference\nmodels can also be used. See the package vignette for more information\nand examples.\n",
     "homepage": "https://cloud.r-project.org/package=projpred",
-    "latest_version": "2.5.0",
+    "latest_version": "2.8.0",
     "maintainers": [],
     "name": "r-projpred",
     "patches": [],
@@ -113,6 +121,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.8.0",
+            "sha256": "b383ddc5eca275737b96e4e3e14256b4f4abc4b29d292b5cebf3828d0921a1f6"
+        },
         {
             "name": "2.5.0",
             "sha256": "b6ec123f5bf573d14cbd5431e3fbdee3215d71d3e263fcbec72bee5930044e39"

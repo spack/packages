@@ -86,6 +86,10 @@
             "name": "r-haven"
         },
         {
+            "description": "General Package for Meta-Analysis. User-friendly general package\nproviding standard methods for meta-analysis and supporting Schwarzer,\nCarpenter, and R\u00fccker <doi:10.1007/978-3-319-21416-0>, \"Meta-Analysis\nwith R\" (2015): - common effect and random effects meta-analysis; -\nseveral plots (forest, funnel, Galbraith / radial, L'Abbe, Baujat,\nbubble); - three-level meta-analysis model; - generalised linear mixed\nmodel; - Hartung-Knapp method for random effects model; - Kenward-Roger\nmethod for random effects model; - prediction interval; - statistical\ntests for funnel plot asymmetry; - trim-and-fill method to evaluate bias\nin meta-analysis; - meta-regression; - cumulative meta-analysis and\nleave-one-out meta-analysis; - import data from 'RevMan 5'; - produce\nforest plot summarising several (subgroup) meta-analyses.",
+            "name": "r-meta"
+        },
+        {
             "description": "Predict and explore the age of genes using phylostratigraphic methods",
             "name": "r-phylostratr"
         },
@@ -96,6 +100,10 @@
         {
             "description": "Utilities Parsing 'HMMER' Results. 'HMMER' is a profile hidden Markov\nmodel tool used primarily for sequence analysis in bioinformatics\n(<http://hmmer.org/>). 'rhmmer' provides utilities for parsing the\n'HMMER' output into tidy data frames.",
             "name": "r-rhmmer"
+        },
+        {
+            "description": "A Swiss-Army Knife for Data I/O. Streamlined data import and export by\nmaking assumptions that the user is probably willing to make: 'import()'\nand 'export()' determine the data structure from the file extension,\nreasonable defaults are used for data import and export (e.g.,\n'stringsAsFactors=FALSE'), web-based import is natively supported\n(including from SSL/HTTPS), compressed files can be read directly\nwithout explicit decompression, and fast import packages are used where\nappropriate. An additional convenience function, 'convert()', provides a\nsimple method for converting between file types.",
+            "name": "r-rio"
         },
         {
             "description": "Spatial Analysis and Modelling Utilities. Utilities to support spatial\ndata manipulation, query, sampling and modelling. Functions include\nmodels for species population density, download utilities for climate\nand global deforestation spatial products, spatial smoothing,\nmultivariate separability, point process model for creating pseudo-\nabsences and sub-sampling, polygon and point-distance landscape metrics,\nauto-logistic model, sampling models, cluster optimization, statistical\nexploratory tools and raster-based metrics.",
@@ -120,7 +128,7 @@
     ],
     "description": "Read Rectangular Text Data. The goal of 'readr' is to provide a fast and\nfriendly way to read rectangular data (like 'csv', 'tsv', and 'fwf'). It\nis designed to flexibly parse many types of data found in the wild,\nwhile still cleanly failing when data unexpectedly changes.\n",
     "homepage": "https://cloud.r-project.org/package=readr",
-    "latest_version": "2.1.4",
+    "latest_version": "2.1.5",
     "maintainers": [],
     "name": "r-readr",
     "patches": [],
@@ -133,6 +141,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.1.5",
+            "sha256": "0fa65a5fe0a46cffe221b7696b52adb82dd4d7a692a895484e438e439594e10a"
+        },
         {
             "name": "2.1.4",
             "sha256": "98144fa48c4fa61ef8c73ede8f87a2d2c5c44e9502b7875b266eb79984fbeb0d"

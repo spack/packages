@@ -8,6 +8,10 @@
             "name": "r"
         },
         {
+            "description": "Fast Implementation of a Key-Value Store. Fast implementation of a key-\nvalue store. Environments are commonly used as key-value stores, but\nevery time a new key is used, it is added to R's global symbol table,\ncausing a small amount of memory leakage. This can be problematic in\ncases where many different keys are used. Fastmap avoids this memory\nleak issue by implementing the map using data structures in C++.",
+            "name": "r-fastmap"
+        },
+        {
             "description": "Utilities for Scheduling Functions to Execute Later with Event Loops.\nExecutes arbitrary R or C functions some time after the current time,\nafter the R execution stack has emptied.",
             "name": "r-later"
         },
@@ -52,7 +56,7 @@
     ],
     "description": "Abstractions for Promise-Based Asynchronous Programming. Provides\nfundamental abstractions for doing asynchronous programming in R using\npromises. Asynchronous programming is useful for allowing a single R\nprocess to orchestrate multiple tasks in the background while also\nattending to something else. Semantics are similar to 'JavaScript'\npromises, but with a syntax that is idiomatic R.\n",
     "homepage": "https://cloud.r-project.org/package=promises",
-    "latest_version": "1.2.0.1",
+    "latest_version": "1.3.0",
     "maintainers": [],
     "name": "r-promises",
     "patches": [],
@@ -65,6 +69,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.3.0",
+            "sha256": "f8209df3bab33340c1bc8c0d26caee2890fafb93129ff1423302abae5931fad3"
+        },
         {
             "name": "1.2.0.1",
             "sha256": "8d3a8217909e91f4c2a2eebba5ac8fc902a9ac1a9e9d8a30815c9dc0f162c4b7"

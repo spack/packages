@@ -8,6 +8,10 @@
             "name": "r"
         },
         {
+            "description": "Helpers for Developing Command Line Interfaces. A suite of tools to\nbuild attractive command line interfaces ('CLIs'), from semantic\nelements: headings, lists, alerts, paragraphs, etc. Supports custom\nthemes via a 'CSS'-like language. It also contains a number of lower\nlevel 'CLI' elements: rules, boxes, trees, and 'Unicode' symbols with\n'ASCII' alternatives. It integrates with the 'crayon' package to support\n'ANSI' terminal colors.",
+            "name": "r-cli"
+        },
+        {
             "description": "Apply Function to Elements in Parallel using Futures. Implementations of\napply(), by(), eapply(), lapply(), Map(), mapply(), replicate(),\nsapply(), tapply(), and vapply() that can be resolved using any future-\nsupported backend, e.g. parallel on the local machine or distributed on\na compute cluster. These future_*apply() functions come with the same\npros and cons as the corresponding base-R *apply() functions but with\nthe additional feature of being able to be processed via the future\nframework.",
             "name": "r-future-apply"
         },
@@ -36,7 +40,7 @@
     ],
     "description": "Latent Variable Models. A general implementation of Structural Equation\nModels with latent variables (MLE, 2SLS, and composite likelihood\nestimators) with both continuous, censored, and ordinal outcomes (Holst\nand Budtz-Joergensen (2013) <doi:10.1007/s00180-012-0344-y>). Mixture\nlatent variable models and non-linear latent variable models (Holst and\nBudtz-Joergensen (2019) <doi:10.1093/biostatistics/kxy082>). The package\nalso provides methods for graph exploration (d-separation, back-door\ncriterion), simulation of general non-linear latent variable models, and\nestimation of influence functions for a broad range of statistical\nmodels.\n",
     "homepage": "https://cloud.r-project.org/package=lava",
-    "latest_version": "1.7.2.1",
+    "latest_version": "1.8.0",
     "maintainers": [],
     "name": "r-lava",
     "patches": [],
@@ -49,6 +53,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.8.0",
+            "sha256": "8db996eeca012c58736f2d3b97f569c03e9361e20f31513c090a9386eb87e87f"
+        },
         {
             "name": "1.7.2.1",
             "sha256": "d42b1f5c7e4e76718e4f014c44608295f82b5de0eb25ce8e9b35c40c7839ef2e"

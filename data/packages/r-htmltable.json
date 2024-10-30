@@ -48,7 +48,7 @@
     ],
     "description": "Advanced Tables for Markdown/HTML. Tables with state-of-the-art layout\nelements such as row spanners, column spanners, table spanners, zebra\nstriping, and more. While allowing advanced layout, the underlying css-\nstructure is simple in order to maximize compatibility with word\nprocessors such as 'MS Word' or 'LibreOffice'. The package also contains\na few text formatting functions that help outputting text compatible\nwith HTML/'LaTeX'.\n",
     "homepage": "https://cloud.r-project.org/package=htmlTable",
-    "latest_version": "2.4.1",
+    "latest_version": "2.4.3",
     "maintainers": [],
     "name": "r-htmltable",
     "patches": [],
@@ -61,6 +61,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.4.3",
+            "sha256": "3739d01bff313ccd206b63940a8252b037f0521d041c721a4e0d195abd6ef6dd"
+        },
         {
             "name": "2.4.1",
             "sha256": "3a7f3e75d886dc398fd1d3cae907b536fff6af3a3d2c18349ef12ec06d310f93"

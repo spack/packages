@@ -76,7 +76,7 @@
     ],
     "description": "Cache 'CRAN'-Like Metadata and R Packages. Metadata and package cache\nfor CRAN-like repositories. This is a utility package to be used by\npackage management tools that want to take advantage of caching.\n",
     "homepage": "https://cloud.r-project.org/package=pkgcache",
-    "latest_version": "2.1.0",
+    "latest_version": "2.2.2",
     "maintainers": [],
     "name": "r-pkgcache",
     "patches": [],
@@ -89,6 +89,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.2.2",
+            "sha256": "7ebd6cc5fc0325eae504877dfe9651f90e51b3b9778cecc8aae2671b617b5be3"
+        },
         {
             "name": "2.1.0",
             "sha256": "cfc03c2060028097972c32c3f2d922d7a598dfd963e5e5250d85a3dfa2f2e206"

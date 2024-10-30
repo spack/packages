@@ -11,7 +11,7 @@
     "dependent_to": [],
     "description": "MATLAB emulation package. Emulate MATLAB code using R.\n",
     "homepage": "https://cloud.r-project.org/package=matlab",
-    "latest_version": "1.0.4",
+    "latest_version": "1.0.4.1",
     "maintainers": [],
     "name": "r-matlab",
     "patches": [],
@@ -24,6 +24,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.0.4.1",
+            "sha256": "fc3fba560b73a9bf0a4f317340856c91af2c9dcc80f5df291f3f7e6d6ac4fd50"
+        },
         {
             "name": "1.0.4",
             "sha256": "1988a2220703444a575f2bad4eb090a0da71478599eb53081dd7237b7ec216ea"

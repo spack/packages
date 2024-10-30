@@ -42,6 +42,10 @@
             "name": "r-mapview"
         },
         {
+            "description": "Public Key Infrastucture functions such as verifying certificates, RSA\nencription and signing which can be used to build PKI infrastructure and\nperform cryptographic tasks.",
+            "name": "r-pki"
+        },
+        {
             "description": "Create Interactive Web Graphics via 'plotly.js'. Create interactive web\ngraphics from 'ggplot2' graphs and/or a custom interface to the (MIT-\nlicensed) JavaScript library 'plotly.js' inspired by the grammar of\ngraphics.",
             "name": "r-plotly"
         },

@@ -62,6 +62,10 @@
         {
             "description": "Classes and Methods for Spatial Data. Classes and methods for spatial\ndata; the classes document where the spatial location information\nresides, for 2D or 3D data. Utility functions are provided, e.g. for\nplotting data as maps, spatial selection, as well as methods for\nretrieving coordinates, for subsetting, print, summary, etc.",
             "name": "r-sp"
+        },
+        {
+            "description": "Spatial Data Analysis. Methods for spatial data analysis with raster and\nvector data. Raster methods allow for low-level data manipulation as\nwell as high-level global, local, zonal, and focal computation. The\npredict and interpolate methods facilitate the use of regression type\n(interpolation, machine learning) models for spatial prediction,\nincluding with satellite remote sensing data. Processing of very large\nfiles is supported. See the manual and tutorials on\n<https://rspatial.org/terra/> to get started. 'terra' is very similar to\nthe 'raster' package; but 'terra' can do more, is easier to use, and it\nis faster.",
+            "name": "r-terra"
         }
     ],
     "dependent_to": [
@@ -72,7 +76,7 @@
     ],
     "description": "Tools for Spatially Explicit Discrete Event Simulation (SpaDES) Models.\nProvides GIS and map utilities, plus additional modeling tools for\ndeveloping cellular automata, dynamic raster models, and agent based\nmodels in 'SpaDES'. Included are various methods for spatial spreading,\nspatial agents, GIS operations, random map generation, and others. See\n'?SpaDES.tools' for an categorized overview of these additional tools.\n",
     "homepage": "https://cloud.r-project.org/package=SpaDES.tools",
-    "latest_version": "1.0.1",
+    "latest_version": "2.0.7",
     "maintainers": [
         "dorton21"
     ],
@@ -87,6 +91,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.0.7",
+            "sha256": "f1c62cc76ff75119ae54e35be81d5819a282c547f77292e4f392599465e7b2cf"
+        },
         {
             "name": "1.0.1",
             "sha256": "6b0d69c8737ff06e2cf312ff94b298b81f4c50af2efd498a124b99ed66a2be9a"

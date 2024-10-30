@@ -15,7 +15,7 @@
     "dependent_to": [],
     "description": "Command Line Option Parser. A command line parser inspired by Python's\n'optparse' library to be used with Rscript to write \"#!\" shebang scripts\nthat accept short and long flag/options\n",
     "homepage": "https://cloud.r-project.org/package=optparse",
-    "latest_version": "1.7.3",
+    "latest_version": "1.7.5",
     "maintainers": [],
     "name": "r-optparse",
     "patches": [],
@@ -28,6 +28,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.7.5",
+            "sha256": "0cc917505780786e69b8ceca4b3840ed7b0c011495108ec05af3871965415712"
+        },
         {
             "name": "1.7.3",
             "sha256": "6287e1af051d4a65037900ce7b30bd962039450dd4eab63b6f2491eace6a07ed"

@@ -24,7 +24,7 @@
     ],
     "description": "High Performance CommonMark and Github Markdown Rendering in R. The\nCommonMark specification defines a rationalized version of markdown\nsyntax. This package uses the 'cmark' reference implementation for\nconverting markdown text into various formats including html, latex and\ngroff man. In addition it exposes the markdown parse tree in xml format.\nAlso includes opt-in support for GFM extensions including tables,\nautolinks, and strikethrough text.\n",
     "homepage": "https://cloud.r-project.org/package=commonmark",
-    "latest_version": "1.9.0",
+    "latest_version": "1.9.1",
     "maintainers": [],
     "name": "r-commonmark",
     "patches": [],
@@ -37,6 +37,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.9.1",
+            "sha256": "9517a13f4ce4a99bb157493453b04419b222cb65a9471cd3b11e5045ac0db53b"
+        },
         {
             "name": "1.9.0",
             "sha256": "6dd01a5a26c8d436486abf69c2f6ad0f8dd1c811f575c31983aeb4dbd376548f"

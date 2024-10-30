@@ -40,7 +40,7 @@
     ],
     "description": "Classes and Methods for Spatio-Temporal Data. Classes and methods for\nspatio-temporal data, including space-time regular lattices, sparse\nlattices, irregular data, and trajectories; utility functions for\nplotting data as map sequences (lattice or animation) or multiple time\nseries; methods for spatial and temporal selection and subsetting, as\nwell as for spatial/temporal/spatio-temporal matching or aggregation,\nretrieving coordinates, print, summary, etc.\n",
     "homepage": "https://cloud.r-project.org/package=spacetime",
-    "latest_version": "1.3-0",
+    "latest_version": "1.3-1",
     "maintainers": [],
     "name": "r-spacetime",
     "patches": [],
@@ -53,6 +53,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.3-1",
+            "sha256": "1942a51949e82d19a652fc09e61d738f8eca6ed992783cc1d0164313d71521cf"
+        },
         {
             "name": "1.3-0",
             "sha256": "2e9902a5c6f355f0b8e23237cf3b1553f22d7d79493bdbdb99e49104b9ef541b"

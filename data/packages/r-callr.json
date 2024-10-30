@@ -22,10 +22,6 @@
             "name": "r-devtools"
         },
         {
-            "description": "Portable File Locking. Place an exclusive or shared lock on a file. It\nuses 'LockFile' on Windows and 'fcntl' locks on Unix-like systems.",
-            "name": "r-filelock"
-        },
-        {
             "description": "Find Tools Needed to Build R Packages. Provides functions used to build\nR packages. Locates compilers needed to build R packages on various\nplatforms and ensures the PATH is configured appropriately so R can use\nthem.",
             "name": "r-pkgbuild"
         },
@@ -60,7 +56,7 @@
     ],
     "description": "Call R from R. It is sometimes useful to perform a computation in a\nseparate R process, without affecting the current R process at all. This\npackages does exactly that.\n",
     "homepage": "https://cloud.r-project.org/package=callr",
-    "latest_version": "3.7.3",
+    "latest_version": "3.7.6",
     "maintainers": [],
     "name": "r-callr",
     "patches": [],
@@ -73,6 +69,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.7.6",
+            "sha256": "e4bce367e869e42eaeea05566d2033d8cee2103179b11cd9a401440b58a351f8"
+        },
         {
             "name": "3.7.3",
             "sha256": "567bfedf073a1d4c5785f0553341608a214938110567b9a6495ff20ebb2fd04e"

@@ -28,7 +28,7 @@
     ],
     "description": "Treatment of Zeros, Left-Censored and Missing Values in Compositional\nData Sets. Principled methods for the imputation of zeros, left-censored\nand missing data in compositional data sets (Palarea-Albaladejo and\nMartin-Fernandez (2015) <doi:10.1016/j.chemolab.2015.02.019>).\n",
     "homepage": "https://cloud.r-project.org/package=zCompositions",
-    "latest_version": "1.4.0-1",
+    "latest_version": "1.5.0-4",
     "maintainers": [],
     "name": "r-zcompositions",
     "patches": [],
@@ -41,6 +41,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.5.0-4",
+            "sha256": "73188e1e065a042723ed7a48df04e22317b204222d40744b83e8c392aae16aaf"
+        },
         {
             "name": "1.4.0-1",
             "sha256": "33ee11f635cb87cc9c0617e1cfc91f1ac41c6cfe2b70fc441e226015939230e7"

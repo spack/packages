@@ -24,7 +24,7 @@
     ],
     "description": "Display and Analyze ROC Curves. Tools for visualizing, smoothing and\ncomparing receiver operating characteristic (ROC curves). (Partial) area\nunder the curve (AUC) can be compared with statistical tests based on\nU-statistics or bootstrap. Confidence intervals can be computed for\n(p)AUC or ROC curves.\n",
     "homepage": "https://cloud.r-project.org/package=pROC",
-    "latest_version": "1.18.0",
+    "latest_version": "1.18.5",
     "maintainers": [],
     "name": "r-proc",
     "patches": [],
@@ -37,6 +37,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.18.5",
+            "sha256": "5593c841a6df5a2f2d209d0c14401971eb9427092ed9c3ac2059273807b42c89"
+        },
         {
             "name": "1.18.0",
             "sha256": "d5ef54b384176ece6d6448014ba40570a98181b58fee742f315604addb5f7ba9"

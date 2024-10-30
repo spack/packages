@@ -16,7 +16,7 @@
     ],
     "description": "Utilities from 'Seminar fuer Statistik' ETH Zurich. Useful utilities\n['goodies'] from Seminar fuer Statistik ETH Zurich, some of which were\nported from S-plus in the 1990s.; For graphics, have pretty (Log-scale)\naxes, an enhanced Tukey-Anscombe plot, combining histogram and boxplot,\n2d-residual plots, a 'tachoPlot()', pretty arrows, etc.; For robustness,\nhave a robust F test and robust range().; For system support, notably on\nLinux, provides 'Sys.*()' functions with more access to system and CPU\ninformation.; Finally, miscellaneous utilities such as simple efficient\nprime numbers, integer codes, Duplicated(), toLatex.numeric() and\nis.whole().\n",
     "homepage": "https://cloud.r-project.org/package=sfsmisc",
-    "latest_version": "1.1-15",
+    "latest_version": "1.1-19",
     "maintainers": [],
     "name": "r-sfsmisc",
     "patches": [],
@@ -29,6 +29,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.1-19",
+            "sha256": "869931dd35d2e18cf2f960b86da2638b7a03c92288c6d7a736a10fa5585cf23b"
+        },
         {
             "name": "1.1-15",
             "sha256": "4afa42cf83a287f62cac21741fc0559dee9dbd69dee59a740defce9a0e7c81e6"

@@ -16,7 +16,7 @@
     ],
     "description": "Axis Labeling. Provides a range of axis labeling algorithms.\n",
     "homepage": "https://cloud.r-project.org/package=labeling",
-    "latest_version": "0.4.2",
+    "latest_version": "0.4.3",
     "maintainers": [],
     "name": "r-labeling",
     "patches": [],
@@ -29,6 +29,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.4.3",
+            "sha256": "c62f4fc2cc74377d7055903c5f1913b7295f7587456fe468592738a483e264f2"
+        },
         {
             "name": "0.4.2",
             "sha256": "e022d79276173e0d62bf9e37d7574db65ab439eb2ae1833e460b1cff529bd165"

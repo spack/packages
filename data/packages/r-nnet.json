@@ -56,7 +56,7 @@
     ],
     "description": "Feed-Forward Neural Networks and Multinomial Log-Linear Models. Software\nfor feed-forward neural networks with a single hidden layer, and for\nmultinomial log-linear models.\n",
     "homepage": "https://cloud.r-project.org/package=nnet",
-    "latest_version": "7.3-18",
+    "latest_version": "7.3-19",
     "maintainers": [],
     "name": "r-nnet",
     "patches": [],
@@ -69,6 +69,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "7.3-19",
+            "sha256": "a9241f469270d3b03bbab7dc0d3c6a06a84010af16ba82fd3bd6660b35382ce7"
+        },
         {
             "name": "7.3-18",
             "sha256": "d29aebfb5cb00071eecf754d55db5d474a6fda88860df5c9d31ba89aa8d9e3d0"

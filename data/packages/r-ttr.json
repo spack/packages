@@ -28,7 +28,7 @@
     ],
     "description": "Technical Trading Rules. A collection of over 50 technical indicators\nfor creating technical trading rules. The package also provides fast\nimplementations of common rolling-window functions, and several\nvolatility calculations.\n",
     "homepage": "https://cloud.r-project.org/package=TTR",
-    "latest_version": "0.24.3",
+    "latest_version": "0.24.4",
     "maintainers": [],
     "name": "r-ttr",
     "patches": [],
@@ -41,6 +41,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.24.4",
+            "sha256": "89732b9c359bae2f41cd23db649f0897c10fab0702d780c4c25a997322710284"
+        },
         {
             "name": "0.24.3",
             "sha256": "4d9aef32647664be5cf965b05f21ed62cde9425fa87c21530852e05ef7aaba87"

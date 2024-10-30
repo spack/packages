@@ -8,8 +8,16 @@
             "name": "r"
         },
         {
+            "description": "R Interface to NLopt. Solve optimization problems using an R interface\nto NLopt. NLopt is a free/open-source library for nonlinear\noptimization, providing a common interface for a number of different\nfree optimization routines available online as well as original\nimplementations of various other algorithms. See\n<https://nlopt.readthedocs.io/en/latest/NLopt_Algorithms/> for more\ninformation on the available algorithms. Building from included sources\nrequires 'CMake'. On Linux and 'macOS', if a suitable system build of\nNLopt (2.7.0 or later) is found, it is used; otherwise, it is built from\nincluded sources via 'CMake'. On Windows, NLopt is obtained through\n'rwinlib' for 'R <= 4.1.x' or grabbed from the 'Rtools42 toolchain' for\n'R >= 4.2.0'.",
+            "name": "r-nloptr"
+        },
+        {
             "description": "Accurate Numerical Derivatives. Methods for calculating (usually)\naccurate numerical first and second order derivatives. Accurate\ncalculations are done using 'Richardson\"s' extrapolation or, when\napplicable, a complex step derivative is available. A simple difference\nmethod is also provided. Simple difference is (usually) less accurate\nbut is much quicker than 'Richardson\"s' extrapolation and provides a\nuseful cross-check. Methods are provided for real scalar and vector\nvalued functions.",
             "name": "r-numderiv"
+        },
+        {
+            "description": "Practical Numerical Math Functions. Provides a large number of functions\nfrom numerical analysis and linear algebra, numerical optimization,\ndifferential equations, time series, plus some well-known special\nmathematical functions. Uses 'MATLAB' function names where appropriate\nto simplify porting.",
+            "name": "r-pracma"
         }
     ],
     "dependent_to": [
@@ -20,7 +28,7 @@
     ],
     "description": "Expanded Replacement and Extension of the 'optim' Function. Provides a\nreplacement and extension of the optim() function to call to several\nfunction minimization codes in R in a single statement. These methods\nhandle smooth, possibly box constrained functions of several or many\nparameters. Note that function 'optimr()' was prepared to simplify the\nincorporation of minimization codes going forward. Also implements some\nutility codes and some extra solvers, including safeguarded Newton\nmethods. Many methods previously separate are now included here. This is\nthe version for CRAN.\n",
     "homepage": "https://cloud.r-project.org/package=optimx",
-    "latest_version": "2022-4.30",
+    "latest_version": "2023-10.21",
     "maintainers": [],
     "name": "r-optimx",
     "patches": [],
@@ -33,6 +41,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2023-10.21",
+            "sha256": "0d732d5604c26af59cfb95b80ed4e226c9c10422e2d82a6cc06b92f9ba6a44b5"
+        },
         {
             "name": "2022-4.30",
             "sha256": "ebe9887a22296cf4b2db07981aaa1f898bf7c17fb61a4b398c228d4077d0b410"
