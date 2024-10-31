@@ -52,7 +52,7 @@
     ],
     "description": "KVTree provides a fully extensible C datastructure modeled after perl\nhashes.\n",
     "homepage": "https://github.com/ecp-veloc/KVTree",
-    "latest_version": "1.4.0",
+    "latest_version": "1.5.0",
     "maintainers": [
         "CamStan",
         "gonsie"
@@ -101,6 +101,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "1.5.0",
+            "sha256": "9617948bdb905615aeb0604d4998d92eb970ecd5c9c851116266972462f0b350"
         },
         {
             "name": "1.4.0",

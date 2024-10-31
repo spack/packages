@@ -38,7 +38,7 @@
     ],
     "description": "The Datatype Comparison Library provides comparison operations and\nparallel sort algorithms for MPI applications.\n",
     "homepage": "https://github.com/LLNL/dtcmp",
-    "latest_version": "1.1.4",
+    "latest_version": "1.1.5",
     "maintainers": [
         "adammoody",
         "camstan",
@@ -63,6 +63,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "1.1.5",
+            "sha256": "959c28999b8d1dd2e8703172db55392e38114fde0cd54dfad04555622c5e5974"
         },
         {
             "name": "1.1.4",

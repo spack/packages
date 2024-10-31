@@ -42,7 +42,7 @@
     ],
     "description": "Thie light-weight group library provides process group representations\nusing O(log N) space and time.\n",
     "homepage": "https://github.com/LLNL/lwgrp",
-    "latest_version": "1.0.5",
+    "latest_version": "1.0.6",
     "maintainers": [
         "CamStan",
         "adammoody",
@@ -67,6 +67,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "1.0.6",
+            "sha256": "9f697978361b4bd9914beaaafffcee0b62a480a9a7dd3d75176910cebda81438"
         },
         {
             "name": "1.0.5",

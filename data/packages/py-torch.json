@@ -1066,7 +1066,7 @@
     ],
     "description": "Tensors and Dynamic neural networks in Python with strong GPU\nacceleration.\n",
     "homepage": "https://pytorch.org/",
-    "latest_version": "2.5.0",
+    "latest_version": "2.5.1",
     "maintainers": [
         "adamjstewart"
     ],
@@ -1523,6 +1523,11 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "commit": "a8d6afb511a69687bbb2b7e88a3cf67917e1697e",
+            "name": "2.5.1",
+            "tag": "v2.5.1"
         },
         {
             "commit": "32f585d9346e316e554c8d9bf7548af9f62141fc",

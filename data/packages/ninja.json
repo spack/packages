@@ -3022,6 +3022,10 @@
             "name": "mpark-variant"
         },
         {
+            "description": "Library for comparing numerical differences between binaries.",
+            "name": "mpidiff"
+        },
+        {
             "description": "mpiFileUtils is a suite of MPI-based tools to manage large datasets,\nwhich may vary from large directory trees to large files. High-\nperformance computing users often generate large datasets with parallel\napplications that run with many processes (millions in some cases).\nHowever those users are then stuck with single-process tools like cp and\nrm to manage their datasets. This suite provides MPI-based tools to\nhandle typical jobs like copy, remove, and compare for such datasets,\nproviding speedups of up to 20-30x.",
             "name": "mpifileutils"
         },
@@ -5152,6 +5156,10 @@
         {
             "description": "Very-Low Overhead Checkpointing System. VELOC is a multi-level\ncheckpoint-restart runtime for HPC supercomputing infrastructures",
             "name": "veloc"
+        },
+        {
+            "description": "Verdict mesh quality library for evaluating the geometric qualities of\nregions of space.",
+            "name": "verdict"
         },
         {
             "description": "Virtual Geometry Model (VGM) is a geometry conversion tool, actually\nproviding conversion between Geant4 and ROOT TGeo geometry models.",

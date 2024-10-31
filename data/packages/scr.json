@@ -87,7 +87,7 @@
     ],
     "description": "SCR caches checkpoint data in storage on the compute nodes of a Linux\ncluster to provide a fast, scalable checkpoint/restart capability for\nMPI codes\n",
     "homepage": "https://computing.llnl.gov/projects/scalable-checkpoint-restart-for-mpi",
-    "latest_version": "3.0.1",
+    "latest_version": "3.1.0",
     "maintainers": [
         "CamStan",
         "gonsie"
@@ -102,7 +102,7 @@
             "name": "async_api"
         },
         {
-            "default": true,
+            "default": false,
             "description": "Enable IBM BBAPI support",
             "name": "bbapi"
         },
@@ -182,6 +182,11 @@
             "name": "pdsh"
         },
         {
+            "default": true,
+            "description": "Enable Pthread support",
+            "name": "pthreads"
+        },
+        {
             "default": "SLURM",
             "description": "Resource manager for which to configure SCR.",
             "name": "resource_manager"
@@ -208,11 +213,15 @@
             "name": "develop"
         },
         {
+            "name": "3.1.0",
+            "sha256": "ca1f37c84e0ff7a307e68f213c8cc868974d7fb30f16826853a711c7c3a55ffa"
+        },
+        {
             "name": "3.0.1",
             "sha256": "ba8f9e676aec8176ecc46c31a4f470ac95047101654de8cc88e01a1f9d95665a"
         },
         {
-            "name": "3.0",
+            "name": "3.0.0",
             "sha256": "e204d3e99a49efac50b4bedc7ac05f55a05f1a65429500d919900c82490532cc"
         },
         {
@@ -225,14 +234,6 @@
         }
     ],
     "versions_deprecated": [
-        {
-            "name": "3.0rc2",
-            "sha256": "4b2a718af56b3683e428d25a2269c038e9452db734221d370e3023a491477fad"
-        },
-        {
-            "name": "3.0rc1",
-            "sha256": "bd31548a986f050024429d8ee3644eb135f047f98a3d503a40c5bd4a85291308"
-        },
         {
             "name": "1.2.2",
             "sha256": "764a85638a9e8762667ec1f39fa5f7da7496fca78de379a22198607b3e027847"

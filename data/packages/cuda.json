@@ -1021,6 +1021,10 @@
             "name": "redis-ai"
         },
         {
+            "description": "Create MPI communicators for disparate redundancy sets",
+            "name": "redset"
+        },
+        {
             "description": "RELION (for REgularised LIkelihood OptimisatioN, pronounce rely-on) is a\nstand-alone computer program that employs an empirical Bayesian approach\nto refinement of (multiple) 3D reconstructions or 2D class averages in\nelectron cryo-microscopy (cryo-EM).",
             "name": "relion"
         },

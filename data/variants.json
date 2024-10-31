@@ -2273,7 +2273,7 @@
             "package": "axl"
         },
         {
-            "default": true,
+            "default": false,
             "package": "scr"
         }
     ],
@@ -12193,6 +12193,10 @@
         {
             "default": "autotools",
             "package": "mpich"
+        },
+        {
+            "default": "cmake",
+            "package": "mpidiff"
         },
         {
             "default": "cmake",
@@ -35003,6 +35007,10 @@
             "package": "vep"
         },
         {
+            "default": "cmake",
+            "package": "verdict"
+        },
+        {
             "default": "generic",
             "package": "verible"
         },
@@ -39008,6 +39016,10 @@
         },
         {
             "default": "Release",
+            "package": "mpidiff"
+        },
+        {
+            "default": "Release",
             "package": "mpifileutils"
         },
         {
@@ -40965,6 +40977,10 @@
         {
             "default": "Release",
             "package": "veloc"
+        },
+        {
+            "default": "Release",
+            "package": "verdict"
         },
         {
             "default": "Release",
@@ -44267,6 +44283,10 @@
             "package": "redis-ai"
         },
         {
+            "default": false,
+            "package": "redset"
+        },
+        {
             "default": true,
             "package": "relion"
         },
@@ -45175,6 +45195,10 @@
         {
             "default": "none",
             "package": "ratel"
+        },
+        {
+            "default": "none",
+            "package": "redset"
         },
         {
             "default": "none",
@@ -47862,6 +47886,10 @@
         },
         {
             "default": false,
+            "package": "verdict"
+        },
+        {
+            "default": false,
             "package": "wayland"
         }
     ],
@@ -47945,6 +47973,10 @@
         {
             "default": false,
             "package": "lvarray"
+        },
+        {
+            "default": false,
+            "package": "mpidiff"
         },
         {
             "default": false,
@@ -49291,6 +49323,10 @@
         {
             "default": false,
             "package": "mfem"
+        },
+        {
+            "default": false,
+            "package": "mpidiff"
         },
         {
             "default": true,
@@ -54564,6 +54600,10 @@
         },
         {
             "default": "make",
+            "package": "mpidiff"
+        },
+        {
+            "default": "make",
             "package": "mpifileutils"
         },
         {
@@ -56521,6 +56561,10 @@
         {
             "default": "make",
             "package": "veloc"
+        },
+        {
+            "default": "make",
+            "package": "verdict"
         },
         {
             "default": "make",
@@ -62864,6 +62908,10 @@
         },
         {
             "default": false,
+            "package": "mpidiff"
+        },
+        {
+            "default": false,
             "package": "mpifileutils"
         },
         {
@@ -64821,6 +64869,10 @@
         {
             "default": false,
             "package": "veloc"
+        },
+        {
+            "default": false,
+            "package": "verdict"
         },
         {
             "default": false,
@@ -67967,6 +68019,12 @@
             "package": "boinc-client"
         }
     ],
+    "mangle": [
+        {
+            "default": false,
+            "package": "verdict"
+        }
+    ],
     "manifold": [
         {
             "default": false,
@@ -69251,6 +69309,10 @@
         {
             "default": true,
             "package": "athena"
+        },
+        {
+            "default": true,
+            "package": "axl"
         },
         {
             "default": true,
@@ -73425,6 +73487,10 @@
             "package": "raja-perf"
         },
         {
+            "default": false,
+            "package": "redset"
+        },
+        {
             "default": true,
             "package": "rocm-tensile"
         },
@@ -76661,6 +76727,14 @@
         {
             "default": false,
             "package": "raxml"
+        },
+        {
+            "default": false,
+            "package": "redset"
+        },
+        {
+            "default": true,
+            "package": "scr"
         },
         {
             "default": true,
@@ -84471,6 +84545,10 @@
         {
             "default": true,
             "package": "vacuumms"
+        },
+        {
+            "default": false,
+            "package": "verdict"
         }
     ],
     "test_async": [
@@ -84635,6 +84713,10 @@
         {
             "default": false,
             "package": "mdspan"
+        },
+        {
+            "default": false,
+            "package": "mpidiff"
         },
         {
             "default": false,

@@ -243,7 +243,7 @@
     ],
     "description": "Image and video datasets and models for torch deep learning.\n",
     "homepage": "https://github.com/pytorch/vision",
-    "latest_version": "0.20.0",
+    "latest_version": "0.20.1",
     "maintainers": [
         "adamjstewart"
     ],
@@ -301,6 +301,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "0.20.1",
+            "sha256": "7e08c7f56e2c89859310e53d898f72bccc4987cd83e08cfd6303513da15a9e71"
         },
         {
             "name": "0.20.0",

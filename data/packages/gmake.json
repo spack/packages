@@ -7210,6 +7210,10 @@
             "name": "mpich"
         },
         {
+            "description": "Library for comparing numerical differences between binaries.",
+            "name": "mpidiff"
+        },
+        {
             "description": "mpiFileUtils is a suite of MPI-based tools to manage large datasets,\nwhich may vary from large directory trees to large files. High-\nperformance computing users often generate large datasets with parallel\napplications that run with many processes (millions in some cases).\nHowever those users are then stuck with single-process tools like cp and\nrm to manage their datasets. This suite provides MPI-based tools to\nhandle typical jobs like copy, remove, and compare for such datasets,\nproviding speedups of up to 20-30x.",
             "name": "mpifileutils"
         },
@@ -11552,6 +11556,10 @@
         {
             "description": "Ensembl Variant Effect Predictor (VEP) determines the effect of your\nvariants (SNPs, insertions, deletions, CNVs or structural variants) on\ngenes, transcripts, and protein sequence, as well as regulatory regions.\n(Requires addtional data available via the `vep-cache` package)",
             "name": "vep"
+        },
+        {
+            "description": "Verdict mesh quality library for evaluating the geometric qualities of\nregions of space.",
+            "name": "verdict"
         },
         {
             "description": "Verilator is the fastest free Verilog HDL simulator. It compiles\nsynthesizable Verilog (not test-bench code!), plus some PSL,\nSystemVerilog and Synthesis assertions into C++ or SystemC code. It is\ndesigned for large projects where fast simulation performance is of\nprimary concern, and is especially well suited to generate executable\nmodels of CPUs for embedded software design teams. Please do not\ndownload this program if you are expecting a full featured replacement\nfor NC-Verilog, VCS or another commercial Verilog simulator or Verilog\ncompiler for a little project! (Try Icarus instead.) However, if you are\nlooking for a path to migrate synthesizable Verilog to C++ or SystemC,\nand writing just a touch of C code and Makefiles doesn't scare you off,\nthis is the free Verilog compiler for you. Verilator supports the\nsynthesis subset of Verilog, plus initial statements, proper\nblocking/non-blocking assignments, functions, tasks, multi-dimensional\narrays, and signed numbers. It also supports very simple forms of\nSystemVerilog assertions and coverage analysis. Verilator supports the\nmore important Verilog 2005 constructs, and some SystemVerilog features,\nwith additional constructs being added as users request them. Verilator\nhas been used to simulate many very large multi-million gate designs\nwith thousands of modules.",

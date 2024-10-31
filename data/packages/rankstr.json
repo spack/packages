@@ -36,7 +36,7 @@
     ],
     "description": "Assign one-to-one mapping of MPI ranks to strings\n",
     "homepage": "https://github.com/ecp-veloc/rankstr",
-    "latest_version": "0.3.0",
+    "latest_version": "0.4.0",
     "maintainers": [
         "CamStan",
         "gonsie"
@@ -75,6 +75,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "0.4.0",
+            "sha256": "f33c920aa67b867d0fa2001d98f6762e90f59a41b2f66c27a63cff6bd6afeb1b"
         },
         {
             "name": "0.3.0",

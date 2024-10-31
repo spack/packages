@@ -40,7 +40,7 @@
     ],
     "description": "Shuffle files between MPI ranks\n",
     "homepage": "https://github.com/ecp-veloc/shuffile",
-    "latest_version": "0.3.0",
+    "latest_version": "0.4.0",
     "maintainers": [
         "CamStan",
         "gonsie"
@@ -79,6 +79,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "0.4.0",
+            "sha256": "fc7116d8eaa1ab79480e6e3f04064750e517d2a8aeccbff90c73a2590f726378"
         },
         {
             "name": "0.3.0",

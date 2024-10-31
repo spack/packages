@@ -30,7 +30,7 @@
     ],
     "description": "cpuinfo is a library to detect essential for performance optimization\ninformation about host CPU.\n",
     "homepage": "https://github.com/pytorch/cpuinfo",
-    "latest_version": "2024-08-30",
+    "latest_version": "2024-09-06",
     "maintainers": [],
     "name": "cpuinfo",
     "patches": [],
@@ -61,6 +61,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "commit": "094fc30b9256f54dad5ad23bcbfb5de74781422f",
+            "name": "2024-09-06"
         },
         {
             "commit": "fa1c679da8d19e1d87f20175ae1ec10995cd3dd3",

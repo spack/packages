@@ -38,6 +38,10 @@
             "name": "lvarray"
         },
         {
+            "description": "Library for comparing numerical differences between binaries.",
+            "name": "mpidiff"
+        },
+        {
             "description": "RAJA Parallel Framework.",
             "name": "raja"
         },

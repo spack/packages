@@ -325,6 +325,10 @@
             "name": "uriparser"
         },
         {
+            "description": "Verdict mesh quality library for evaluating the geometric qualities of\nregions of space.",
+            "name": "verdict"
+        },
+        {
             "description": "C++ wrappers for SIMD intrinsics",
             "name": "xsimd"
         }

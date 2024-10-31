@@ -162,6 +162,10 @@
             "name": "aws-ofi-rccl"
         },
         {
+            "description": "Asynchronous transfer library",
+            "name": "axl"
+        },
+        {
             "description": "Axom provides a robust, flexible software infrastructure for the\ndevelopment of multi-physics applications and computational tools.",
             "name": "axom"
         },
@@ -1320,6 +1324,10 @@
         {
             "description": "The MPI-testsuite was initially developed for the use with PACX-MPI and\nhas been extended within the Open MPI project. The main focus is on: -\nHigh degree of code coverage through combinations of tests. - Easy\nmaintainability, - Easy integration of new tests, - Rich underlying\nfunctionality for flexible tests (convenience functions for datatypes,\ncomms and checking), - Only a single binary (for single, since expensive\nMPI_Init/MPI_Finalize) to make it as quick and easy as possible to run\nautomatically",
             "name": "mpi-test-suite"
+        },
+        {
+            "description": "Library for comparing numerical differences between binaries.",
+            "name": "mpidiff"
         },
         {
             "description": "mpiFileUtils is a suite of MPI-based tools to manage large datasets,\nwhich may vary from large directory trees to large files. High-\nperformance computing users often generate large datasets with parallel\napplications that run with many processes (millions in some cases).\nHowever those users are then stuck with single-process tools like cp and\nrm to manage their datasets. This suite provides MPI-based tools to\nhandle typical jobs like copy, remove, and compare for such datasets,\nproviding speedups of up to 20-30x.",

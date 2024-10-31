@@ -52,7 +52,7 @@
     ],
     "description": "Encoding and redundancy on a file set\n",
     "homepage": "https://github.com/ecp-veloc/er",
-    "latest_version": "0.4.0",
+    "latest_version": "0.5.0",
     "maintainers": [
         "CamStan",
         "gonsie"
@@ -91,6 +91,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "0.5.0",
+            "sha256": "dbde4da1fe115b67334085446d413f7365ba94c0a34cb1c38b83944e8fba4d0b"
         },
         {
             "name": "0.4.0",

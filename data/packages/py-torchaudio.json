@@ -66,7 +66,7 @@
     ],
     "description": "An audio package for PyTorch.\n",
     "homepage": "https://github.com/pytorch/audio",
-    "latest_version": "2.5.0",
+    "latest_version": "2.5.1",
     "maintainers": [
         "adamjstewart"
     ],
@@ -94,6 +94,11 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "commit": "1661daf10599ca8889f092ec37814fabbe202bb0",
+            "name": "2.5.1",
+            "tag": "v2.5.1"
         },
         {
             "commit": "56bc006d56a0d4960de6a1e0b6340cba4eda05cd",
