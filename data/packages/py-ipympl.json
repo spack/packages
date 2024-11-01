@@ -8,6 +8,14 @@
             "name": "pil"
         },
         {
+            "description": "Hatch plugin for versioning from a package.json file.",
+            "name": "py-hatch-nodejs-version"
+        },
+        {
+            "description": "Modern, extensible Python build backend.",
+            "name": "py-hatchling"
+        },
+        {
             "description": "IPython provides a rich toolkit to help you make the most out of using\nPython interactively.",
             "name": "py-ipython"
         },
@@ -18,6 +26,10 @@
         {
             "description": "IPython widgets for the Jupyter Notebook",
             "name": "py-ipywidgets"
+        },
+        {
+            "description": "Core Jupyter functionality",
+            "name": "py-jupyter-core"
         },
         {
             "description": "Jupyter Packaging Utilities.",
@@ -67,7 +79,7 @@
     "dependent_to": [],
     "description": "Matplotlib Jupyter Extension.\n",
     "homepage": "https://github.com/matplotlib/ipympl",
-    "latest_version": "0.8.8",
+    "latest_version": "0.9.4",
     "maintainers": [
         "haralmha"
     ],
@@ -83,9 +95,14 @@
     ],
     "versions": [
         {
+            "name": "0.9.4",
+            "sha256": "cfb53c5b4fcbcee6d18f095eecfc6c6c474303d5b744e72cc66e7a2804708907"
+        }
+    ],
+    "versions_deprecated": [
+        {
             "name": "0.8.8",
             "sha256": "5bf5d780b07fafe7924922ac6b2f3abd22721f341e5e196b3b82737dfbd0e1c9"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

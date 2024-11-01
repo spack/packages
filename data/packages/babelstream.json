@@ -3,18 +3,8 @@
     "build_system": "CMakePackage",
     "conflicts": [
         {
-            "description": "babelstream: STD-data requires newer version of GCC",
-            "name": "+stddata",
-            "spec": "%gcc@:10.1.0"
-        },
-        {
-            "description": "babelstream: STD-indices requires newer version of GCC",
-            "name": "+stdindices",
-            "spec": "%gcc@:10.1.0"
-        },
-        {
-            "description": "babelstream: STD-ranges requires newer version of GCC",
-            "name": "+stdranges",
+            "description": "babelstream: STD requires newer version of GCC",
+            "name": "+std",
             "spec": "%gcc@:10.1.0"
         },
         {
@@ -393,19 +383,14 @@
             "spec": "+cuda"
         },
         {
-            "description": "babelstream: KOKKKOS requires architecture to be specfied by dir=",
-            "name": "dir=none",
-            "spec": "+kokkos"
+            "description": "babelstream: OpenCL implementation requires backend to be specfied by ocl_backend=",
+            "name": "ocl_backend=none",
+            "spec": "+ocl"
         },
         {
-            "description": "babelstream: RAJA implementation requires architecture to be specfied by dir=",
-            "name": "dir=none",
-            "spec": "+raja"
-        },
-        {
-            "description": "babelstream: RAJA requires architecture to be specfied by acc_target=[CPU,NVIDIA]",
-            "name": "offload=none",
-            "spec": "+raja"
+            "description": "babelstream: OpenMP requires offload flags to be specfied by omp_flags=",
+            "name": "omp_flags=none",
+            "spec": "+omp_offload"
         },
         {
             "description": null,
@@ -413,14 +398,9 @@
             "spec": "+rocm"
         },
         {
-            "description": "babelstream: SYCL requires compiler implementation to be specified by option=",
-            "name": "implementation=none",
-            "spec": "+sycl"
-        },
-        {
-            "description": "babelstream: Which Thrust implementation to use, supported options include:         - CUDA (via https://github.com/NVIDIA/thrust)         - ROCM (via https://github.com/ROCm/rocThrust)",
-            "name": "implementation=none",
-            "spec": "+thrust"
+            "description": null,
+            "name": "arch=windows-None-None",
+            "spec": "build_system=makefile"
         }
     ],
     "dependencies": [
@@ -449,8 +429,12 @@
             "name": "intel-oneapi-compilers"
         },
         {
-            "description": "Intel oneAPI Threading Building Blocks (oneTBB) is a flexible\nperformance library that simplifies the work of adding parallelism to\ncomplex applications across accelerated architectures, even if you are\nnot a threading expert. LICENSE INFORMATION: By downloading and using\nthis software, you agree to the terms and conditions of the software\nlicense agreements at https://intel.ly/393CijO.",
-            "name": "intel-oneapi-tbb"
+            "description": "The Intel oneAPI DPC++ Library (oneDPL) is a companion to the Intel\noneAPI DPC++/C++ Compiler and provides an alternative for C++ developers\nwho create heterogeneous applications and solutions. Its APIs are based\non familiar standards-C++ STL, Parallel STL (PSTL), Boost.Compute, and\nSYCL*-to maximize productivity and performance across CPUs, GPUs, and\nFPGAs. LICENSE INFORMATION: By downloading and using this software, you\nagree to the terms and conditions of the software license agreements at\nhttps://intel.ly/393CijO.",
+            "name": "intel-oneapi-dpl"
+        },
+        {
+            "description": "Widely used C++ template library for task parallelism. Intel Threading\nBuilding Blocks (Intel TBB) lets you easily write parallel C++ programs\nthat take full advantage of multicore performance, that are portable and\ncomposable, and that have future-proof scalability.",
+            "name": "intel-tbb"
         },
         {
             "description": "Kokkos implements a programming model in C++ for writing performance\nportable applications targeting all major HPC platforms.",
@@ -473,8 +457,8 @@
             "name": "pocl"
         },
         {
-            "description": "OpenCL: Open Computing Language on ROCclr",
-            "name": "rocm-opencl"
+            "description": "RAJA Parallel Framework.",
+            "name": "raja"
         },
         {
             "description": "Thrust is a parallel algorithm library. This library has been ported to\nHIP/ROCm platform, which uses the rocPRIM library. The HIP ported\nlibrary works on HIP/ROCm platforms",
@@ -488,10 +472,9 @@
     "dependent_to": [],
     "description": "Measure memory transfer rates to/from global device memory on GPUs. This\nbenchmark is similar in spirit, and based on, the STREAM benchmark for\nCPUs.\n",
     "homepage": "https://github.com/UoB-HPC/BabelStream",
-    "latest_version": "4.0",
+    "latest_version": "5.0",
     "maintainers": [
         "kaanolgu",
-        "robj0nes",
         "tom91136",
         "tomdeakin"
     ],
@@ -506,18 +489,8 @@
         },
         {
             "default": "none",
-            "description": "Enable CPU Target for ACC",
-            "name": "acc_target"
-        },
-        {
-            "default": "none",
             "description": "AMD GPU architecture",
             "name": "amdgpu_target"
-        },
-        {
-            "default": "none",
-            "description": "Enable backend support",
-            "name": "backend"
         },
         {
             "default": "cmake",
@@ -528,11 +501,6 @@
             "default": "Release",
             "description": "CMake build type",
             "name": "build_type"
-        },
-        {
-            "default": "none",
-            "description": "Enable CPU Target for ACC",
-            "name": "cpu_arch"
         },
         {
             "default": false,
@@ -546,13 +514,28 @@
         },
         {
             "default": "none",
+            "description": "Additional CUDA Compiler flags to be provided",
+            "name": "cuda_extra_flags"
+        },
+        {
+            "default": "default",
+            "description": "Enable MEM Target for CUDA",
+            "name": "cuda_memory_mode"
+        },
+        {
+            "default": "none",
             "description": "Enable Directory support",
             "name": "dir"
         },
         {
+            "default": "Sequential",
+            "description": "Implementation",
+            "name": "foption"
+        },
+        {
             "default": "none",
-            "description": "Additional CXX flags to be provided",
-            "name": "flags"
+            "description": "Additional Fortran flags to be provided",
+            "name": "fortran_flags"
         },
         {
             "default": "make",
@@ -560,9 +543,14 @@
             "name": "generator"
         },
         {
-            "default": "none",
-            "description": "Compile using the specified SYCL compiler option",
-            "name": "implementation"
+            "default": false,
+            "description": "Enable HIP support",
+            "name": "hip"
+        },
+        {
+            "default": "default",
+            "description": "Enable MEM Target for HIP",
+            "name": "hip_mem_mode"
         },
         {
             "default": false,
@@ -575,9 +563,14 @@
             "name": "kokkos"
         },
         {
-            "default": "DEFAULT",
-            "description": "Enable MEM Target for CUDA",
-            "name": "mem"
+            "default": "none",
+            "description": "Enable Backend Target for kokkos",
+            "name": "kokkos_backend"
+        },
+        {
+            "default": "cxx",
+            "description": "Languages Babelstream Spack Package Support",
+            "name": "languages"
         },
         {
             "default": false,
@@ -586,8 +579,8 @@
         },
         {
             "default": "none",
-            "description": "Enable RAJA Target [CPU or NVIDIA]",
-            "name": "offload"
+            "description": "Enable Backend Target for OpenCL",
+            "name": "ocl_backend"
         },
         {
             "default": false,
@@ -595,14 +588,24 @@
             "name": "omp"
         },
         {
-            "default": "auto",
-            "description": "Partitioner specifies how a loop template should partition its work among threads.            Possible values are:            AUTO     - Optimize range subdivision based on work-stealing events.            AFFINITY - Proportional splitting that optimizes for cache affinity.            STATIC   - Distribute work uniformly with no additional load balancing.            SIMPLE   - Recursively split its range until it cannot be further subdivided.            See https://spec.oneapi.com/versions/latest/elements/oneTBB/source/algorithms.html#partitioners for more details.",
-            "name": "partitioner"
+            "default": "none",
+            "description": "If OFFLOAD is enabled, this *overrides* the default offload flags",
+            "name": "omp_flags"
+        },
+        {
+            "default": false,
+            "description": "Enable OpenMP Target",
+            "name": "omp_offload"
         },
         {
             "default": false,
             "description": "Enable RAJA support",
             "name": "raja"
+        },
+        {
+            "default": "cpu",
+            "description": "Enable RAJA Target [CPU or NVIDIA] / Offload with custom settings for OpenMP",
+            "name": "raja_offload"
         },
         {
             "default": false,
@@ -611,18 +614,33 @@
         },
         {
             "default": false,
-            "description": "Enable STD-data support",
-            "name": "stddata"
+            "description": "Enable STD support",
+            "name": "std"
+        },
+        {
+            "default": "none",
+            "description": "Enable offloading support (via the non-standard `-stdpar`)                    for the new NVHPC SDK",
+            "name": "std_offload"
+        },
+        {
+            "default": "none",
+            "description": "Implements policies using OpenMP,TBB or dpc++",
+            "name": "std_onedpl_backend"
+        },
+        {
+            "default": "data",
+            "description": "STD -> choose between data, indices and ranges models",
+            "name": "std_submodel"
         },
         {
             "default": false,
-            "description": "Enable STD-indices support",
-            "name": "stdindices"
+            "description": "Link oneDPL which implements C++17 executor policies                    (via execution_policy_tag) for different backends",
+            "name": "std_use_onedpl"
         },
         {
             "default": false,
-            "description": "Enable STD-ranges support",
-            "name": "stdranges"
+            "description": "No-op if ONE_TBB_DIR is set. Link against an in-tree oneTBB                    via FetchContent_Declare, see top level CMakeLists.txt for details",
+            "name": "std_use_tbb"
         },
         {
             "default": false,
@@ -635,28 +653,82 @@
             "name": "sycl2020"
         },
         {
+            "default": "intel",
+            "description": "Offloading to NVIDIA GPU or not",
+            "name": "sycl2020_offload"
+        },
+        {
+            "default": "usm",
+            "description": "SYCL2020 -> choose between usm and acc methods",
+            "name": "sycl2020_submodel"
+        },
+        {
             "default": false,
             "description": "Enable TBB support",
             "name": "tbb"
         },
         {
+            "default": "auto",
+            "description": "Partitioner specifies how a loop template should partition its work among threads.            Possible values are:            AUTO     - Optimize range subdivision based on work-stealing events.            AFFINITY - Proportional splitting that optimizes for cache affinity.            STATIC   - Distribute work uniformly with no additional load balancing.            SIMPLE   - Recursively split its range until it cannot be further subdivided.            See https://spec.oneapi.com/versions/latest/elements/oneTBB/source/algorithms.html#partitioners",
+            "name": "tbb_partitioner"
+        },
+        {
+            "default": false,
+            "description": "Whether to use std::vector<T> for storage or use aligned_alloc.                      C++ vectors are *zero* initialised where as aligned_alloc is                      uninitialised before first use.",
+            "name": "tbb_use_vector"
+        },
+        {
             "default": false,
             "description": "Enable THRUST support",
             "name": "thrust"
+        },
+        {
+            "default": "cuda",
+            "description": "Which THRUST implementation to use, supported options include option",
+            "name": "thrust_backend"
+        },
+        {
+            "default": "cuda",
+            "description": "Which THRUST implementation to use, supported options include option=             - CUDA (via https://github.com/NVIDIA/thrust)            - ROCM (via https://github.com/ROCmSoftwarePlatform/rocThrust)",
+            "name": "thrust_submodel"
         }
     ],
     "versions": [
-        {
-            "branch": "develop",
-            "name": "develop"
-        },
         {
             "branch": "main",
             "name": "main"
         },
         {
+            "name": "5.0",
+            "sha256": "1a418203fbfd95595bdc66047e2e39d8f1bba95a49725c9ecb907caf1af2521f"
+        },
+        {
             "name": "4.0",
             "sha256": "a9cd39277fb15d977d468435eb9b894f79f468233f0131509aa540ffda4f5953"
+        },
+        {
+            "name": "3.4",
+            "sha256": "e34ee9d5ccdead019e3ea478333bcb7886117d600e5da8579a626f6ee34209cf"
+        },
+        {
+            "name": "3.3",
+            "sha256": "4c89c805b277d52776feeb7a8eef7985a0d9295ce3e0bb2333bf715f724723cf"
+        },
+        {
+            "name": "3.2",
+            "sha256": "20309b27ddd09ea37406bcc6f46fd32e9372bf3d145757e55938d19d69cdc49d"
+        },
+        {
+            "name": "3.1",
+            "sha256": "be69e6085e8966e12aa2df897eea6254b172e5adfa03de0adbb89bc3065f4fbe"
+        },
+        {
+            "name": "3.0",
+            "sha256": "776219c72e0fdc36f134e6975b68c7ab25f38206f8f8af84a6f9630648c24800"
+        },
+        {
+            "name": "1.0",
+            "sha256": "3cfb9e45601f1f249878355c72baa6e6a61f6c811f8716d60b83c7fb544e1d5c"
         }
     ],
     "versions_deprecated": []

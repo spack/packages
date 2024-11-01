@@ -186,6 +186,10 @@
             "name": "py-ipykernel"
         },
         {
+            "description": "Matplotlib Jupyter Extension.",
+            "name": "py-ipympl"
+        },
+        {
             "description": "IPython's architecture for parallel and distributed computing.",
             "name": "py-ipyparallel"
         },

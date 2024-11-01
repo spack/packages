@@ -9,6 +9,11 @@
         },
         {
             "description": null,
+            "name": "+wrapper",
+            "spec": "+cmake_lang"
+        },
+        {
+            "description": null,
             "name": "%clang@7:",
             "spec": "+cuda ^cuda@10.0.130~allow-unsupported-compilers arch=None-None-ppc64le:"
         },
@@ -591,6 +596,11 @@
             "description": null,
             "name": "+wrapper",
             "spec": "~cuda"
+        },
+        {
+            "description": "kokkos: Kokkos requires at least one active backend",
+            "name": "~cuda~openmp~openmptarget~rocm~serial~sycl~threads",
+            "spec": ""
         }
     ],
     "dependencies": [
@@ -849,6 +859,11 @@
             "default": "Release",
             "description": "CMake build type",
             "name": "build_type"
+        },
+        {
+            "default": false,
+            "description": "Use CMake language support for CUDA/HIP",
+            "name": "cmake_lang"
         },
         {
             "default": false,

@@ -11,7 +11,7 @@
     ],
     "description": "salome-configuration is a part of SALOME platform and define general\nbuild tools for the platform.\n",
     "homepage": "https://www.salome-platform.org",
-    "latest_version": "9.7.0",
+    "latest_version": "9.13.0",
     "maintainers": [
         "franciskloss"
     ],
@@ -32,7 +32,7 @@
             "relative_path": "FindSalomeHDF5.patch",
             "reverse": false,
             "sha256": "2ab56612605363aaac0c408799331e3b1bf3a37b0ba47a0508b13aa017a745d6",
-            "version": "",
+            "version": "@:9.7.0",
             "working_dir": "./cmake"
         }
     ],
@@ -45,6 +45,36 @@
         }
     ],
     "versions": [
+        {
+            "commit": "1c9b00436fc0e8264742460ebc102ae7d1970e97",
+            "name": "9.13.0",
+            "tag": "V9_13_0"
+        },
+        {
+            "commit": "61ed79521f31363ba4aeedcd59812a4838c076aa",
+            "name": "9.12.0",
+            "tag": "V9_12_0"
+        },
+        {
+            "commit": "33fc859a523e9f84cabaae2c55fdc64d1be11ec0",
+            "name": "9.11.0",
+            "tag": "V9_11_0"
+        },
+        {
+            "commit": "25f724f7a6c0000330a40c3851dcd8bc2493e1fa",
+            "name": "9.10.0",
+            "tag": "V9_10_0"
+        },
+        {
+            "commit": "5e61c7330cb2e0ff39e0bf4ba7b65d1d26c824ac",
+            "name": "9.9.0",
+            "tag": "V9_9_0"
+        },
+        {
+            "commit": "f1b2929d32953ac4d2056d564dab62e2e8d7c2a5",
+            "name": "9.8.0",
+            "tag": "V9_8_0"
+        },
         {
             "commit": "b1430e72bc252867289b45de9a94041841fade06",
             "name": "9.7.0",

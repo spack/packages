@@ -21,17 +21,26 @@
     "dependent_to": [],
     "description": " OptiPNG is a PNG optimizer that recompresses image files to a smaller\nsize, without losing any information. This program also converts\nexternal formats (BMP, GIF, PNM and TIFF) to optimized PNG, and performs\nPNG integrity checks and corrections.\n",
     "homepage": "https://optipng.sourceforge.net/",
-    "latest_version": "0.7.7",
+    "latest_version": "0.7.8",
     "maintainers": [],
     "name": "optipng",
     "patches": [
         {
             "level": 1,
             "owner": "builtin.optipng",
-            "relative_path": "for_aarch64.patch",
+            "relative_path": "for_aarch64_0.7.7.patch",
             "reverse": false,
             "sha256": "dc485f8cffe26957ec2b079adefe86e4eceb0a680717424779d188fbe7e0b3ad",
-            "version": "arch=None-None-aarch64:",
+            "version": "@0.7.7",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.optipng",
+            "relative_path": "for_aarch64_0.7.8.patch",
+            "reverse": false,
+            "sha256": "c08fb9f95536871f4492204dee268b91924e251368cda5708d1ced00d0cee31d",
+            "version": "@0.7.8:",
             "working_dir": "."
         }
     ],
@@ -45,9 +54,14 @@
     ],
     "versions": [
         {
+            "name": "0.7.8",
+            "sha256": "25a3bd68481f21502ccaa0f4c13f84dcf6b20338e4c4e8c51f2cefbd8513398c"
+        }
+    ],
+    "versions_deprecated": [
+        {
             "name": "0.7.7",
             "sha256": "4f32f233cef870b3f95d3ad6428bfe4224ef34908f1b42b0badf858216654452"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

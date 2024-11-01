@@ -640,7 +640,7 @@
     ],
     "description": "The Adaptable Input Output System version 2, developed in the Exascale\nComputing Program\n",
     "homepage": "https://csmd.ornl.gov/software/adios2",
-    "latest_version": "2.10.1",
+    "latest_version": "2.10.2",
     "maintainers": [
         "ax3l",
         "vicentebolea",
@@ -672,7 +672,7 @@
             "relative_path": "2.7-fix-python-test-deps.patch",
             "reverse": false,
             "sha256": "d9195eafee772b9fbc30db6d2fa2bd7c1cb863ac27cef39302bd54e8bb6ab7e6",
-            "version": "@2.5.0:2.7.0",
+            "version": "@2.7.0",
             "working_dir": "."
         },
         {
@@ -699,7 +699,7 @@
             "reverse": false,
             "sha256": "8221073d1b2f8944395a88a5d60a15c7370646b62f5fc6309867bbb6a8c2096c",
             "url": "https://github.com/ornladios/adios2/pull/2710.patch?full_index=1",
-            "version": "@:2.7.1",
+            "version": "@2.5:2.7.1",
             "working_dir": "."
         },
         {
@@ -726,7 +726,7 @@
             "relative_path": "2.10-enable-rocm6.patch",
             "reverse": false,
             "sha256": "4247a85196435ccda9c1db3370b5df7f46dfa47e6a8ccf165f68f8119f04435e",
-            "version": "@2.9.1:",
+            "version": "@2.9.1:2.10.1",
             "working_dir": "."
         }
     ],
@@ -894,6 +894,10 @@
             "name": "master"
         },
         {
+            "name": "2.10.2",
+            "sha256": "14cf0bcd94772194bce0f2c0e74dba187965d1cffd12d45f801c32929158579e"
+        },
+        {
             "name": "2.10.1",
             "sha256": "ce776f3a451994f4979c6bd6d946917a749290a37b7433c0254759b02695ad85"
         },
@@ -932,7 +936,9 @@
         {
             "name": "2.7.1",
             "sha256": "c8e237fd51f49d8a62a0660db12b72ea5067512aa7970f3fcf80b70e3f87ca3e"
-        },
+        }
+    ],
+    "versions_deprecated": [
         {
             "name": "2.7.0",
             "sha256": "4b5df1a1f92d7ff380416dec7511cfcfe3dc44da27e486ed63c3e6cffb173924"
@@ -944,15 +950,6 @@
         {
             "name": "2.5.0",
             "sha256": "7c8ff3bf5441dd662806df9650c56a669359cb0185ea232ecb3578de7b065329"
-        },
-        {
-            "name": "2.4.0",
-            "sha256": "50ecea04b1e41c88835b4b3fd4e7bf0a0a2a3129855c9cc4ba6cf6a1575106e2"
-        },
-        {
-            "name": "2.3.1",
-            "sha256": "3bf81ccc20a7f2715935349336a76ba4c8402355e1dc3848fcd6f4c3c5931893"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

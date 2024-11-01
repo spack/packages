@@ -514,7 +514,7 @@
     ],
     "description": "The Software for Linear Algebra Targeting Exascale (SLATE) project is to\nprovide fundamental dense linear algebra capabilities to the US\nDepartment of Energy and to the high-performance computing (HPC)\ncommunity at large. To this end, SLATE will provide basic dense matrix\noperations (e.g., matrix multiplication, rank-k update, triangular\nsolve), linear systems solvers, least square solvers, singular value and\neigenvalue solvers.\n",
     "homepage": "https://icl.utk.edu/slate/",
-    "latest_version": "2024.05.31",
+    "latest_version": "2024.10.29",
     "maintainers": [
         "G-Ragghianti",
         "mgates3"
@@ -598,6 +598,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "2024.10.29",
+            "sha256": "e729fad51f44b1340c0f64ac0f862026121183a3c8d731874f0a11a3b5053223"
         },
         {
             "name": "2024.05.31",

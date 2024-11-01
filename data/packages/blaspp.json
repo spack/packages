@@ -483,7 +483,7 @@
     ],
     "description": "C++ API for the Basic Linear Algebra Subroutines. Developed by the\nInnovative Computing Laboratory at the University of Tennessee,\nKnoxville.\n",
     "homepage": "https://github.com/icl-utk-edu/blaspp",
-    "latest_version": "2024.05.31",
+    "latest_version": "2024.10.26",
     "maintainers": [
         "G-Ragghianti",
         "Sely85",
@@ -564,6 +564,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "2024.10.26",
+            "sha256": "c15ae19dbed1be35e8258048a044d3104da59e7e52b4fe7fe7ea5032708a8d2c"
         },
         {
             "name": "2024.05.31",

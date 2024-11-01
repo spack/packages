@@ -10024,6 +10024,10 @@
         "name": "nvhpc"
     },
     {
+        "description": "NVIDIA Nsight\u2122 Systems is a system-wide performance analysis tool\ndesigned to visualize an application\u2019s algorithms, identify the largest\nopportunities to optimize, and tune to scale efficiently across any\nquantity or size of CPUs and GPUs, from large servers to the smallest\nsystem on a chip\n",
+        "name": "nvidia-nsight-systems"
+    },
+    {
         "description": " NVPL BLAS (NVIDIA Performance Libraries BLAS) is part of NVIDIA\nPerformance Libraries that provides standard Fortran 77 BLAS APIs as\nwell as C (CBLAS).\n",
         "name": "nvpl-blas"
     },
@@ -31838,6 +31842,10 @@
     {
         "description": "TyphonIO is a library of routines that perform input/output (I/O) of\nscientific data within application codes\n",
         "name": "typhonio"
+    },
+    {
+        "description": "Typst is a new markup-based typesetting system for the sciences.\n",
+        "name": "typst"
     },
     {
         "description": "UCC is a collective communication operations API and library that is\nflexible, complete, and feature-rich for current and emerging\nprogramming models and runtimes.\n",

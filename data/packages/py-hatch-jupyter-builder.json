@@ -4,6 +4,10 @@
     "conflicts": [],
     "dependencies": [
         {
+            "description": "npm: A package manager for javascript.",
+            "name": "npm"
+        },
+        {
             "description": "Modern, extensible Python build backend.",
             "name": "py-hatchling"
         },

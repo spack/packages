@@ -36,10 +36,6 @@
     "dependencies": [],
     "dependent_to": [
         {
-            "description": "Measure memory transfer rates to/from global device memory on GPUs. This\nbenchmark is similar in spirit, and based on, the STREAM benchmark for\nCPUs.",
-            "name": "babelstream"
-        },
-        {
             "description": "High-performance linear algebra library for manycore systems, with a\nfocus on sparse solution of linear systems.",
             "name": "ginkgo"
         }

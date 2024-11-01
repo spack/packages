@@ -239,6 +239,10 @@
             "name": "task"
         },
         {
+            "description": "Typst is a new markup-based typesetting system for the sciences.",
+            "name": "typst"
+        },
+        {
             "description": "zoxide is a smarter cd command, inspired by z and autojump. It remembers\nwhich directories you use most frequently, so you can \"jump\" to them in\njust a few keystrokes. zoxide works on all major shells.",
             "name": "zoxide"
         }

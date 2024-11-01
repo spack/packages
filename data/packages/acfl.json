@@ -48,7 +48,7 @@
     ],
     "description": "Arm Compiler combines the optimized tools and libraries from Arm with a\nmodern LLVM-based compiler framework.\n",
     "homepage": "https://developer.arm.com/Tools%20and%20Software/Arm%20Compiler%20for%20Linux",
-    "latest_version": "24.04",
+    "latest_version": "24.10",
     "maintainers": [
         "paolotricerri"
     ],
@@ -78,6 +78,11 @@
         }
     ],
     "versions": [
+        {
+            "name": "24.10",
+            "sha256": "10c0fad1ff3628f505ada90359c68b046676a4c6cab1131d76ae0429d3694415",
+            "url": "https://developer.arm.com/-/cdn-downloads/permalink/Arm-Compiler-for-Linux/Version_24.10/arm-compiler-for-linux_24.10_Ubuntu-22.04_aarch64.tar"
+        },
         {
             "name": "24.04",
             "sha256": "0bab2e89f0a2359746f89a01251dca763305c5b0dee95cf47b0968dd1cb5f6f6",

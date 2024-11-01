@@ -4,6 +4,14 @@
     "conflicts": [],
     "dependencies": [
         {
+            "description": "Node.js is an open-source, cross-platform JavaScript runtime\nenvironment.",
+            "name": "node-js"
+        },
+        {
+            "description": "npm: A package manager for javascript.",
+            "name": "npm"
+        },
+        {
             "description": "Simple lru_cache for asyncio",
             "name": "py-async-lru"
         },

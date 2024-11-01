@@ -44,8 +44,10 @@
     ],
     "description": "Mmg is an open source software for simplicial remeshing. It provides 3\napplications and 4 libraries: - the mmg2d application and the libmmg2d\nlibrary: adaptation and optimization of a two-dimensional triangulation\nand generation of a triangulation from a set of points or from given\nboundary edges - the mmgs application and the libmmgs library:\nadaptation and optimization of a surface triangulation and isovalue\ndiscretization - the mmg3d application and the libmmg3d library:\nadaptation and optimization of a tetrahedral mesh and implicit domain\nmeshing - the libmmg library gathering the libmmg2d, libmmgs and\nlibmmg3d libraries.\n",
     "homepage": "https://www.mmgtools.org/",
-    "latest_version": "5.7.3",
-    "maintainers": [],
+    "latest_version": "5.8.0",
+    "maintainers": [
+        "jcortial-safran"
+    ],
     "name": "mmg",
     "patches": [],
     "resources": [],
@@ -92,6 +94,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "5.8.0",
+            "sha256": "686eaab84de79c072f3aedf26cd11ced44c84b435d51ce34e016ad203172922f"
+        },
         {
             "name": "5.7.3",
             "sha256": "b0a9c5ad6789df369a68f94295df5b324b6348020b73bcc395d32fdd44abe706"

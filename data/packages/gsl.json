@@ -367,7 +367,7 @@
     ],
     "description": "The GNU Scientific Library (GSL) is a numerical library for C and C++\nprogrammers. It is free software under the GNU General Public License.\nThe library provides a wide range of mathematical routines such as\nrandom number generators, special functions and least-squares fitting.\nThere are over 1000 functions in total with an extensive test suite.\n",
     "homepage": "https://www.gnu.org/software/gsl",
-    "latest_version": "2.7.1",
+    "latest_version": "2.8",
     "maintainers": [],
     "name": "gsl",
     "patches": [
@@ -414,6 +414,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.8",
+            "sha256": "6a99eeed15632c6354895b1dd542ed5a855c0f15d9ad1326c6fe2b2c9e423190"
+        },
         {
             "name": "2.7.1",
             "sha256": "dcb0fbd43048832b757ff9942691a8dd70026d5da0ff85601e52687f6deeb34b"

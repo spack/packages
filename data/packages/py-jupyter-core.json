@@ -42,6 +42,10 @@
             "name": "py-ipykernel"
         },
         {
+            "description": "Matplotlib Jupyter Extension.",
+            "name": "py-ipympl"
+        },
+        {
             "description": "Jupyter protocol client APIs",
             "name": "py-jupyter-client"
         },

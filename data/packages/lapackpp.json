@@ -472,7 +472,7 @@
     ],
     "description": "LAPACK++: C++ API for the LAPACK Linear Algebra Package. Developed by\nthe Innovative Computing Laboratory at the University of Tennessee,\nKnoxville.\n",
     "homepage": "https://github.com/icl-utk-edu/lapackpp",
-    "latest_version": "2024.05.31",
+    "latest_version": "2024.10.26",
     "maintainers": [
         "G-Ragghianti",
         "Sely85",
@@ -538,6 +538,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "2024.10.26",
+            "sha256": "67f81f585a7ac89b779c79297cab75cc23d2492cb5055c2348381ebdb751821d"
         },
         {
             "name": "2024.05.31",

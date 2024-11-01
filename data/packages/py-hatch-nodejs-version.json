@@ -26,13 +26,17 @@
     ],
     "dependent_to": [
         {
+            "description": "Matplotlib Jupyter Extension.",
+            "name": "py-ipympl"
+        },
+        {
             "description": "The Jupyter Notebook format",
             "name": "py-nbformat"
         }
     ],
     "description": "Hatch plugin for versioning from a package.json file.\n",
     "homepage": "https://github.com/agoose77/hatch-nodejs-version",
-    "latest_version": "0.3.1",
+    "latest_version": "0.3.2",
     "maintainers": [],
     "name": "py-hatch-nodejs-version",
     "patches": [],
@@ -45,6 +49,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.3.2",
+            "sha256": "8a7828d817b71e50bbbbb01c9bfc0b329657b7900c56846489b9c958de15b54c"
+        },
         {
             "name": "0.3.1",
             "sha256": "0e55fd713d92c5c1ccfee778efecaa780fd8bcd276d4ca7aff9f6791f6f76d9c"

@@ -71,7 +71,7 @@
     "dependent_to": [],
     "description": "salome-medcoupling is a part of SALOME platform to manipulate meshes and\nfields in memory, and use salome-med format for files.\n",
     "homepage": "https://docs.salome-platform.org/latest/dev/MEDCoupling/developer/index.html",
-    "latest_version": "9.7.0",
+    "latest_version": "9.13.0",
     "maintainers": [
         "franciskloss"
     ],
@@ -96,8 +96,8 @@
         },
         {
             "default": false,
-            "description": "Enable 64 bits indexes",
-            "name": "in64"
+            "description": "Use 64 bits indices",
+            "name": "int64"
         },
         {
             "default": false,
@@ -131,6 +131,36 @@
         }
     ],
     "versions": [
+        {
+            "commit": "8bea530c92cd907ae859ef11fd95b2db54b2894a",
+            "name": "9.13.0",
+            "tag": "V9_13_0"
+        },
+        {
+            "commit": "28e485bde1c26dc835ec7acf449b1d519997ddce",
+            "name": "9.12.0",
+            "tag": "V9_12_0"
+        },
+        {
+            "commit": "1b5fb5650409b0ad3a61da3215496f2adf2dae02",
+            "name": "9.11.0",
+            "tag": "V9_11_0"
+        },
+        {
+            "commit": "fe2e38d301902c626f644907e00e499552bb2fa5",
+            "name": "9.10.0",
+            "tag": "V9_10_0"
+        },
+        {
+            "commit": "5b2a9cc1cc18fffd5674a589aacf368008983b45",
+            "name": "9.9.0",
+            "tag": "V9_9_0"
+        },
+        {
+            "commit": "8a82259c9a9228c54efeddd52d4afe6c0e397c30",
+            "name": "9.8.0",
+            "tag": "V9_8_0"
+        },
         {
             "commit": "773434a7f2a5cbacc2f50e93ea6d6a48a157acd9",
             "name": "9.7.0",

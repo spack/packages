@@ -196,7 +196,7 @@
     ],
     "description": "Arm Performance Libraries provides optimized standard core math\nlibraries for high-performance computing applications on Arm processors.\n",
     "homepage": "https://developer.arm.com/tools-and-software/server-and-hpc/downloads/arm-performance-libraries",
-    "latest_version": "24.04",
+    "latest_version": "24.10",
     "maintainers": [
         "paolotricerri"
     ],
@@ -228,9 +228,15 @@
     "versions": [
         {
             "extension": ".tar",
+            "name": "24.10",
+            "sha256": "2be772d41c0e8646e24c4f57e188e96f2dd8934966ae560c74fa905cbde5e1bc",
+            "url": "https://developer.arm.com/-/cdn-downloads/permalink/Arm-Performance-Libraries/Version_24.10/arm-performance-libraries_24.10_deb_gcc.tar"
+        },
+        {
+            "extension": ".tar",
             "name": "24.04",
             "sha256": "a323074cd08af82f4d79988cc66088b18e47dea4b93323b1b8a0f994f769f2f0",
-            "url": "https://developer.arm.com/-/media/Files/downloads/hpc/arm-performance-libraries/24-04/linux/arm-performance-libraries_24.04_deb_gcc.tar"
+            "url": "https://developer.arm.com/-/cdn-downloads/permalink/Arm-Performance-Libraries/Version_24.04/arm-performance-libraries_24.04_deb_gcc.tar"
         },
         {
             "extension": ".tar",

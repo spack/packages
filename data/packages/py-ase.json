@@ -60,7 +60,7 @@
     ],
     "description": "The Atomic Simulation Environment (ASE) is a set of tools and Python\nmodules for setting up, manipulating, running, visualizing and analyzing\natomistic simulations.\n",
     "homepage": "https://wiki.fysik.dtu.dk/ase/",
-    "latest_version": "3.21.1",
+    "latest_version": "3.23.0",
     "maintainers": [],
     "name": "py-ase",
     "patches": [],
@@ -73,6 +73,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.23.0",
+            "sha256": "91a2aa31d89bd90b0efdfe4a7e84264f32828b2abfc9f38e65e041ad76fec8ae"
+        },
         {
             "name": "3.21.1",
             "sha256": "78b01d88529d5f604e76bc64be102d48f058ca50faad72ac740d717545711c7b"

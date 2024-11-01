@@ -1,7 +1,13 @@
 {
     "aliases": [],
     "build_system": "PythonPackage",
-    "conflicts": [],
+    "conflicts": [
+        {
+            "description": null,
+            "name": "^gdal@3.10:",
+            "spec": "@:1.4.1"
+        }
+    ],
     "dependencies": [
         {
             "description": "GDAL: Geospatial Data Abstraction Library. GDAL is a translator library\nfor raster and vector geospatial data formats that is released under an\nMIT style Open Source License by the Open Source Geospatial Foundation.\nAs a library, it presents a single raster abstract data model and single\nvector abstract data model to the calling application for all supported\nformats. It also comes with a variety of useful command line utilities\nfor data translation and processing.",
@@ -108,7 +114,7 @@
     ],
     "description": "Rasterio reads and writes geospatial raster data. Geographic information\nsystems use GeoTIFF and other formats to organize and store gridded, or\nraster, datasets. Rasterio reads and writes these formats and provides a\nPython API based on N-D arrays.\n",
     "homepage": "https://github.com/rasterio/rasterio",
-    "latest_version": "1.4.1",
+    "latest_version": "1.4.2",
     "maintainers": [
         "adamjstewart"
     ],
@@ -126,6 +132,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "1.4.2",
+            "sha256": "1be35ccb4d998a4c48fa51bbee9e37927ecd9b9e954a2b2581b8f3e9bb165332"
         },
         {
             "name": "1.4.1",

@@ -602,6 +602,10 @@
             "name": "thrift"
         },
         {
+            "description": "Typst is a new markup-based typesetting system for the sciences.",
+            "name": "typst"
+        },
+        {
             "description": "Remove lines from bed file that refer to off-chromosome locations.",
             "name": "ucsc-bedclip"
         },

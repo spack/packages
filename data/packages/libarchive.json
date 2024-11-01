@@ -105,6 +105,10 @@
             "name": "mpifileutils"
         },
         {
+            "description": "NVIDIA Nsight\u2122 Systems is a system-wide performance analysis tool\ndesigned to visualize an application\u2019s algorithms, identify the largest\nopportunities to optimize, and tune to scale efficiently across any\nquantity or size of CPUs and GPUs, from large servers to the smallest\nsystem on a chip",
+            "name": "nvidia-nsight-systems"
+        },
+        {
             "description": "Pixz (pronounced pixie) is a parallel, indexing version of xz.",
             "name": "pixz"
         },

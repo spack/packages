@@ -207,12 +207,6 @@
             "package": "countdown"
         }
     ],
-    "acc_target": [
-        {
-            "default": "none",
-            "package": "babelstream"
-        }
-    ],
     "accept-eula": [
         {
             "default": false,
@@ -2139,10 +2133,6 @@
         {
             "default": "serial",
             "package": "alpaka"
-        },
-        {
-            "default": "none",
-            "package": "babelstream"
         },
         {
             "default": "netlrts",
@@ -12933,6 +12923,10 @@
         {
             "default": "generic",
             "package": "nvhpc"
+        },
+        {
+            "default": "generic",
+            "package": "nvidia-nsight-systems"
         },
         {
             "default": "generic",
@@ -34707,6 +34701,10 @@
             "package": "typhonio"
         },
         {
+            "default": "cargo",
+            "package": "typst"
+        },
+        {
             "default": "autotools",
             "package": "ucc"
         },
@@ -42407,6 +42405,12 @@
             "package": "gsl-lite"
         }
     ],
+    "cmake_lang": [
+        {
+            "default": false,
+            "package": "kokkos"
+        }
+    ],
     "cmap": [
         {
             "default": true,
@@ -43173,12 +43177,6 @@
         {
             "default": false,
             "package": "rpp"
-        }
-    ],
-    "cpu_arch": [
-        {
-            "default": "none",
-            "package": "babelstream"
         }
     ],
     "cpu_runtime": [
@@ -45387,6 +45385,12 @@
             "package": "trilinos"
         }
     ],
+    "cuda_extra_flags": [
+        {
+            "default": "none",
+            "package": "babelstream"
+        }
+    ],
     "cuda_fft": [
         {
             "default": false,
@@ -45409,6 +45413,12 @@
         {
             "default": false,
             "package": "kokkos"
+        }
+    ],
+    "cuda_memory_mode": [
+        {
+            "default": "default",
+            "package": "babelstream"
         }
     ],
     "cuda_mps": [
@@ -50559,12 +50569,6 @@
             "package": "crtm"
         }
     ],
-    "flags": [
-        {
-            "default": "none",
-            "package": "babelstream"
-        }
-    ],
     "flamemaster_prefix": [
         {
             "default": true,
@@ -50781,6 +50785,12 @@
         {
             "default": false,
             "package": "py-matplotlib"
+        }
+    ],
+    "foption": [
+        {
+            "default": "Sequential",
+            "package": "babelstream"
         }
     ],
     "force-safe-string": [
@@ -51153,6 +51163,12 @@
         {
             "default": false,
             "package": "flamemaster"
+        }
+    ],
+    "fortran_flags": [
+        {
+            "default": "none",
+            "package": "babelstream"
         }
     ],
     "fox": [
@@ -58743,6 +58759,10 @@
             "package": "apex"
         },
         {
+            "default": false,
+            "package": "babelstream"
+        },
+        {
             "default": true,
             "package": "mivisionx"
         },
@@ -58777,6 +58797,12 @@
         {
             "default": false,
             "package": "legion"
+        }
+    ],
+    "hip_mem_mode": [
+        {
+            "default": "default",
+            "package": "babelstream"
         }
     ],
     "hip_target": [
@@ -59521,10 +59547,6 @@
     ],
     "implementation": [
         {
-            "default": "none",
-            "package": "babelstream"
-        },
-        {
             "default": "mpi",
             "package": "npb"
         }
@@ -59539,12 +59561,6 @@
         {
             "default": false,
             "package": "simmetrix-simmodsuite"
-        }
-    ],
-    "in64": [
-        {
-            "default": false,
-            "package": "salome-medcoupling"
         }
     ],
     "incfort": [
@@ -59719,6 +59735,14 @@
         {
             "default": false,
             "package": "pumi"
+        },
+        {
+            "default": false,
+            "package": "salome-med"
+        },
+        {
+            "default": false,
+            "package": "salome-medcoupling"
         },
         {
             "default": false,
@@ -65903,6 +65927,12 @@
             "package": "sundials"
         }
     ],
+    "kokkos_backend": [
+        {
+            "default": "none",
+            "package": "babelstream"
+        }
+    ],
     "kokkos_build_config": [
         {
             "default": false,
@@ -65964,6 +65994,10 @@
         }
     ],
     "languages": [
+        {
+            "default": "cxx",
+            "package": "babelstream"
+        },
         {
             "default": "c,c++,fortran",
             "package": "gcc"
@@ -68327,12 +68361,6 @@
         {
             "default": true,
             "package": "gmsh"
-        }
-    ],
-    "mem": [
-        {
-            "default": "DEFAULT",
-            "package": "babelstream"
         }
     ],
     "mem_debug": [
@@ -72125,6 +72153,12 @@
             "package": "babelstream"
         }
     ],
+    "ocl_backend": [
+        {
+            "default": "none",
+            "package": "babelstream"
+        }
+    ],
     "octave": [
         {
             "default": false,
@@ -72192,10 +72226,6 @@
         }
     ],
     "offload": [
-        {
-            "default": "none",
-            "package": "babelstream"
-        },
         {
             "default": false,
             "package": "eospac"
@@ -72303,6 +72333,18 @@
         {
             "default": false,
             "package": "llvm-doe"
+        }
+    ],
+    "omp_flags": [
+        {
+            "default": "none",
+            "package": "babelstream"
+        }
+    ],
+    "omp_offload": [
+        {
+            "default": false,
+            "package": "babelstream"
         }
     ],
     "omp_taskloops": [
@@ -74634,10 +74676,6 @@
         }
     ],
     "partitioner": [
-        {
-            "default": "auto",
-            "package": "babelstream"
-        },
         {
             "default": "none",
             "package": "mstk"
@@ -78143,6 +78181,12 @@
         {
             "default": true,
             "package": "xsdk"
+        }
+    ],
+    "raja_offload": [
+        {
+            "default": "cpu",
+            "package": "babelstream"
         }
     ],
     "ramulator": [
@@ -83073,6 +83117,12 @@
             "package": "tioga"
         }
     ],
+    "std": [
+        {
+            "default": false,
+            "package": "babelstream"
+        }
+    ],
     "std-filesystem": [
         {
             "default": true,
@@ -83089,16 +83139,40 @@
             "package": "truchas"
         }
     ],
+    "std_offload": [
+        {
+            "default": "none",
+            "package": "babelstream"
+        }
+    ],
+    "std_onedpl_backend": [
+        {
+            "default": "none",
+            "package": "babelstream"
+        }
+    ],
+    "std_submodel": [
+        {
+            "default": "data",
+            "package": "babelstream"
+        }
+    ],
+    "std_use_onedpl": [
+        {
+            "default": false,
+            "package": "babelstream"
+        }
+    ],
+    "std_use_tbb": [
+        {
+            "default": false,
+            "package": "babelstream"
+        }
+    ],
     "stdczero": [
         {
             "default": true,
             "package": "adol-c"
-        }
-    ],
-    "stddata": [
-        {
-            "default": false,
-            "package": "babelstream"
         }
     ],
     "stdexec": [
@@ -83107,22 +83181,10 @@
             "package": "pika"
         }
     ],
-    "stdindices": [
-        {
-            "default": false,
-            "package": "babelstream"
-        }
-    ],
     "stdio": [
         {
             "default": true,
             "package": "hermes"
-        }
-    ],
-    "stdranges": [
-        {
-            "default": false,
-            "package": "babelstream"
         }
     ],
     "stereo": [
@@ -83919,6 +83981,18 @@
             "package": "babelstream"
         }
     ],
+    "sycl2020_offload": [
+        {
+            "default": "intel",
+            "package": "babelstream"
+        }
+    ],
+    "sycl2020_submodel": [
+        {
+            "default": "usm",
+            "package": "babelstream"
+        }
+    ],
     "sycl_backend": [
         {
             "default": "acpp",
@@ -84285,6 +84359,18 @@
         {
             "default": true,
             "package": "xtensor"
+        }
+    ],
+    "tbb_partitioner": [
+        {
+            "default": "auto",
+            "package": "babelstream"
+        }
+    ],
+    "tbb_use_vector": [
+        {
+            "default": false,
+            "package": "babelstream"
         }
     ],
     "tblite": [
@@ -85131,6 +85217,18 @@
         {
             "default": false,
             "package": "wonton"
+        }
+    ],
+    "thrust_backend": [
+        {
+            "default": "cuda",
+            "package": "babelstream"
+        }
+    ],
+    "thrust_submodel": [
+        {
+            "default": "cuda",
+            "package": "babelstream"
         }
     ],
     "thunarx": [
