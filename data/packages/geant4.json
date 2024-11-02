@@ -257,6 +257,11 @@
             "name": "cxxstd"
         },
         {
+            "default": true,
+            "description": "Enable downloading of the data directory",
+            "name": "data"
+        },
+        {
             "default": "make",
             "description": "the build system generator to use",
             "name": "generator"

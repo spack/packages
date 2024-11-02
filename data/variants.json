@@ -46197,6 +46197,10 @@
     ],
     "data": [
         {
+            "default": true,
+            "package": "geant4"
+        },
+        {
             "default": false,
             "package": "homer"
         },
