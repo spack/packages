@@ -154,8 +154,8 @@
         }
     ],
     "description": "The Pythia program is a standard tool for the generation of events in\nhigh-energy collisions, comprising a coherent set of physics models for\nthe evolution from a few-body hard process to a complex multiparticle\nfinal state.\n",
-    "homepage": "http://home.thep.lu.se/Pythia/",
-    "latest_version": "8.311",
+    "homepage": "https://pythia.org/",
+    "latest_version": "8.312",
     "maintainers": [
         "ChristianTackeGSI"
     ],
@@ -245,6 +245,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "8.312",
+            "sha256": "bad98e2967b687046c4568c9091d630a0c31b628745c021a994aba4d1d50f8ea"
+        },
         {
             "name": "8.311",
             "sha256": "2782d5e429c1543c67375afe547fd4c4ca0720309deb008f7db78626dc7d1464"
