@@ -383,6 +383,10 @@
             "name": "proj"
         },
         {
+            "description": "Prometheus Client Library for Modern C++.",
+            "name": "prometheus-cpp"
+        },
+        {
             "description": "LCLS II Developement: PSAlg.",
             "name": "psalg"
         },

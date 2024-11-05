@@ -160,7 +160,17 @@
         "ChristianTackeGSI"
     ],
     "name": "pythia8",
-    "patches": [],
+    "patches": [
+        {
+            "level": 1,
+            "owner": "builtin.pythia8",
+            "relative_path": "pythia8-cpp20-fjcore-forward-decl.patch",
+            "reverse": false,
+            "sha256": "5e1a15260941c0171c80e608b8221f1019697708004a528ea90681f21f3f2a28",
+            "version": "@8.307:8.312 cxxstd=20",
+            "working_dir": "."
+        }
+    ],
     "resources": [],
     "variants": [
         {

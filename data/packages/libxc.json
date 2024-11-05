@@ -522,7 +522,7 @@
     ],
     "description": "Libxc is a library of exchange-correlation functionals for density-\nfunctional theory.\n",
     "homepage": "https://libxc.gitlab.io",
-    "latest_version": "6.2.2",
+    "latest_version": "7.0.0",
     "maintainers": [],
     "name": "libxc",
     "patches": [
@@ -588,6 +588,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "7.0.0",
+            "sha256": "8d4e343041c9cd869833822f57744872076ae709a613c118d70605539fb13a77"
+        },
         {
             "name": "6.2.2",
             "sha256": "d1b65ef74615a1e539d87a0e6662f04baf3a2316706b4e2e686da3193b26b20f"

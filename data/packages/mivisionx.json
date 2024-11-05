@@ -153,6 +153,7 @@
     "homepage": "https://github.com/GPUOpen-ProfessionalCompute-Libraries/MIVisionX",
     "latest_version": "6.2.1",
     "maintainers": [
+        "afzpatel",
         "renjithravindrankannath",
         "srekolam"
     ],

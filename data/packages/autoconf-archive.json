@@ -42,6 +42,10 @@
         {
             "description": "OSS implementation of the TCG TPM2 Software Stack (TSS2)",
             "name": "tpm2-tss"
+        },
+        {
+            "description": "Real-time monitoring of IT components and services, such as networks,\nservers, VMs, applications and the cloud.",
+            "name": "zabbix"
         }
     ],
     "description": "The GNU Autoconf Archive is a collection of more than 500 macros for GNU\nAutoconf.\n",

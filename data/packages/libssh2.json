@@ -94,7 +94,7 @@
     ],
     "description": "libssh2 is a client-side C library implementing the SSH2 protocol\n",
     "homepage": "https://www.libssh2.org/",
-    "latest_version": "1.11.0",
+    "latest_version": "1.11.1",
     "maintainers": [],
     "name": "libssh2",
     "patches": [
@@ -104,7 +104,7 @@
             "relative_path": "pr-1114.patch",
             "reverse": false,
             "sha256": "011d926a54fda34bf87af5e690bca18fa1bcdf45d084e176148419cd34743e7f",
-            "version": "@1.7:",
+            "version": "@1.7:1.11.0",
             "working_dir": "."
         }
     ],
@@ -142,6 +142,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.11.1",
+            "sha256": "d9ec76cbe34db98eec3539fe2c899d26b0c837cb3eb466a56b0f109cabf658f7"
+        },
         {
             "name": "1.11.0",
             "sha256": "3736161e41e2693324deb38c26cfdc3efe6209d634ba4258db1cecff6a5ad461"

@@ -79,7 +79,12 @@
             "name": "perl-set-intervaltree"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "Separate installation and management for the Ensembl Variant Effect\nPredictor (vep)",
+            "name": "vep-cache"
+        }
+    ],
     "description": " Ensembl Variant Effect Predictor (VEP) determines the effect of your\nvariants (SNPs, insertions, deletions, CNVs or structural variants) on\ngenes, transcripts, and protein sequence, as well as regulatory regions.\n(Requires addtional data available via the `vep-cache` package)\n",
     "homepage": "https://useast.ensembl.org/info/docs/tools/vep/index.html",
     "latest_version": "112.0",

@@ -168,6 +168,15 @@
             "sha256": "9c2c333787895bd49dbf53a8e5cfcb6d5d070b79f31814110062a273f9110d2e",
             "version": "@9.3.0:10.0.0 ^boost@1.69:",
             "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.dyninst",
+            "relative_path": "missing_include_deque.patch",
+            "reverse": false,
+            "sha256": "0064d8d51bd01bd0035e1ebc49276f627ce6366d4524c92cf47d3c09b0031f96",
+            "version": "@10.0.0:12.2.0",
+            "working_dir": "."
         }
     ],
     "resources": [],

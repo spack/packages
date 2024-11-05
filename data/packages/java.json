@@ -384,6 +384,10 @@
             "name": "linux-perf"
         },
         {
+            "description": "Logstash is part of the Elastic Stack along with Beats, Elasticsearch\nand Kibana. Logstash is a server-side data processing pipeline that\ningests data from a multitude of sources simultaneously, transforms it,\nand then sends it to your favorite \"stash.",
+            "name": "logstash"
+        },
+        {
             "description": "Apache Lucene is a high-performance, full featured text search engine\nlibrary written in Java.",
             "name": "lucene"
         },

@@ -3034,6 +3034,10 @@
             "name": "flit"
         },
         {
+            "description": "A C++20 library for sequence-orientated programming",
+            "name": "flux"
+        },
+        {
             "description": "A next-generation resource manager (pre-alpha)",
             "name": "flux-core"
         },
@@ -8916,6 +8920,10 @@
         {
             "description": "Prometheus, a Cloud Native Computing Foundation project, is a systems\nand service monitoring system.",
             "name": "prometheus"
+        },
+        {
+            "description": "Prometheus Client Library for Modern C++.",
+            "name": "prometheus-cpp"
         },
         {
             "description": "Prophecy4f is a Monte Carlo integrator for Higgs decays H -> WW/ZZ -> 4\nfermions.",

@@ -3948,6 +3948,10 @@
         "name": "flume"
     },
     {
+        "description": "A C++20 library for sequence-orientated programming\n",
+        "name": "flux"
+    },
+    {
         "description": "A next-generation resource manager (pre-alpha)\n",
         "name": "flux-core"
     },
@@ -13518,6 +13522,10 @@
     {
         "description": "Prometheus, a Cloud Native Computing Foundation project, is a systems\nand service monitoring system.\n",
         "name": "prometheus"
+    },
+    {
+        "description": "Prometheus Client Library for Modern C++.\n",
+        "name": "prometheus-cpp"
     },
     {
         "description": "Prophecy4f is a Monte Carlo integrator for Higgs decays H -> WW/ZZ -> 4\nfermions.\n",
@@ -32154,6 +32162,10 @@
     {
         "description": " Ensembl Variant Effect Predictor (VEP) determines the effect of your\nvariants (SNPs, insertions, deletions, CNVs or structural variants) on\ngenes, transcripts, and protein sequence, as well as regulatory regions.\n(Requires addtional data available via the `vep-cache` package)\n",
         "name": "vep"
+    },
+    {
+        "description": "Separate installation and management for the Ensembl Variant Effect\nPredictor (vep)\n",
+        "name": "vep-cache"
     },
     {
         "description": "Verdict mesh quality library for evaluating the geometric qualities of\nregions of space.\n",

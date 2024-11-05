@@ -1479,6 +1479,10 @@
             "name": "flibcpp"
         },
         {
+            "description": "A C++20 library for sequence-orientated programming",
+            "name": "flux"
+        },
+        {
             "description": "A scheduler for flux-core",
             "name": "flux-sched"
         },
@@ -3825,6 +3829,10 @@
         {
             "description": "PROJ is a generic coordinate transformation software, that transforms\ngeospatial coordinates from one coordinate reference system (CRS) to\nanother. This includes cartographic projections as well as geodetic\ntransformations.",
             "name": "proj"
+        },
+        {
+            "description": "Prometheus Client Library for Modern C++.",
+            "name": "prometheus-cpp"
         },
         {
             "description": "Google's data interchange format.",

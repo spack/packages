@@ -84,6 +84,7 @@
     "homepage": "https://www.icon-model.org",
     "latest_version": "2024.10",
     "maintainers": [
+        "Try2Code",
         "skosukhin"
     ],
     "name": "icon",

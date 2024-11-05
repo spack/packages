@@ -1071,11 +1071,7 @@
     "versions": [
         {
             "branch": "develop",
-            "name": "develop-1.17"
-        },
-        {
-            "branch": "hdf5_1_16",
-            "name": "develop-1.16"
+            "name": "develop-2.0"
         },
         {
             "branch": "hdf5_1_14",

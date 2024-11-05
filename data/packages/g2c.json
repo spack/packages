@@ -62,7 +62,7 @@
     ],
     "description": "This library contains C decoder/encoder routines for GRIB edition 2.\nThis is part of NOAA's NCEPLIBS project.\n",
     "homepage": "https://github.com/NOAA-EMC/NCEPLIBS-g2c",
-    "latest_version": "1.9.0",
+    "latest_version": "2.0.0",
     "maintainers": [
         "AlexanderRichert-NOAA",
         "Hang-Lei-NOAA",
@@ -145,6 +145,10 @@
         {
             "branch": "develop",
             "name": "develop"
+        },
+        {
+            "name": "2.0.0",
+            "sha256": "39c23bf1219c60101548c8525e3a879c84119558f768081779d404a8caf4cec9"
         },
         {
             "name": "1.9.0",

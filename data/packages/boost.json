@@ -104,6 +104,11 @@
         },
         {
             "description": null,
+            "name": "~icu+locale",
+            "spec": ""
+        },
+        {
+            "description": null,
             "name": "+numpy",
             "spec": "~python"
         }

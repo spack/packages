@@ -40,7 +40,12 @@
             "name": "python-venv"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "A C++20 library for sequence-orientated programming",
+            "name": "flux"
+        }
+    ],
     "description": "A clean customisable Sphinx documentation theme..\n",
     "homepage": "https://github.com/pradyunsg/furo",
     "latest_version": "2024.7.18",

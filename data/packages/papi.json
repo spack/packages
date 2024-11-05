@@ -34,6 +34,11 @@
         },
         {
             "description": null,
+            "name": "^cuda@12.4:",
+            "spec": "@:7.1"
+        },
+        {
+            "description": null,
             "name": "arch=windows-None-None",
             "spec": "build_system=autotools"
         }

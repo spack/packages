@@ -52,7 +52,7 @@
     ],
     "description": "SCOREC RPI's Parallel Unstructured Mesh Infrastructure (PUMI). An\nefficient distributed mesh data structure and methods to support\nparallel adaptive analysis including general mesh-based operations, such\nas mesh entity creation/deletion, adjacency and geometric\nclassification, iterators, arbitrary (field) data attachable to mesh\nentities, efficient communication involving entities duplicated across\nmultiple tasks, migration of mesh entities between tasks, and dynamic\nload balancing.\n",
     "homepage": "https://www.scorec.rpi.edu/pumi",
-    "latest_version": "2.2.8",
+    "latest_version": "2.2.9",
     "maintainers": [
         "cwsmith"
     ],
@@ -120,6 +120,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "commit": "f87525cae7597322edfb2ccf1c7d4437402d9481",
+            "name": "2.2.9"
         },
         {
             "commit": "736bb87ccd8db51fc499a1b91e53717a88841b1f",

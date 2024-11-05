@@ -20,7 +20,7 @@
     ],
     "dependent_to": [],
     "description": "Quicksilver is a proxy application that represents some elements of the\nMercury workload.\n",
-    "homepage": "https://codesign.llnl.gov/quicksilver.php",
+    "homepage": "https://asc.llnl.gov/codes/proxy-apps/quicksilver",
     "latest_version": "1.0",
     "maintainers": [
         "richards12"

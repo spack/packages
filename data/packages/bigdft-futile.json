@@ -471,7 +471,17 @@
     "latest_version": "1.9.5",
     "maintainers": [],
     "name": "bigdft-futile",
-    "patches": [],
+    "patches": [
+        {
+            "level": 1,
+            "owner": "builtin.bigdft-futile",
+            "reverse": false,
+            "sha256": "66c493e37fe7f7f9800ae7f49bb0172a5b2372a2ce0ee4c3bcb7ff5c59a3925c",
+            "url": "https://gitlab.com/l_sim/bigdft-suite/-/commit/ec7419011fa9fd815de77bfca8642973091fb64b.diff",
+            "version": "@1.9.5~mpi",
+            "working_dir": "."
+        }
+    ],
     "resources": [],
     "variants": [
         {

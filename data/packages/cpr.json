@@ -54,6 +54,16 @@
             "default": false,
             "description": "CMake interprocedural optimization",
             "name": "ipo"
+        },
+        {
+            "default": true,
+            "description": "Position independent code",
+            "name": "pic"
+        },
+        {
+            "default": true,
+            "description": "Build shared library",
+            "name": "shared"
         }
     ],
     "versions": [

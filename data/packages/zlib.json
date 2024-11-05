@@ -102,6 +102,10 @@
             "name": "poorjit"
         },
         {
+            "description": "Prometheus Client Library for Modern C++.",
+            "name": "prometheus-cpp"
+        },
+        {
             "description": "The bx-python project is a python library and associated set of scripts\nto allow for rapid implementation of genome scale analyses.",
             "name": "py-bx-python"
         },
@@ -120,6 +124,10 @@
         {
             "description": "R is 'GNU S', a freely available language and environment for\nstatistical computing and graphics which provides a wide variety of\nstatistical and graphical techniques: linear and nonlinear modelling,\nstatistical tests, time series analysis, classification, clustering,\netc. Please consult the R project homepage for further information.",
             "name": "r"
+        },
+        {
+            "description": "OpenMP support for ROCm LLVM.",
+            "name": "rocm-openmp-extras"
         },
         {
             "description": "seqfu - Sequece Fastx Utilities",

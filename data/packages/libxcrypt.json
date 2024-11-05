@@ -48,12 +48,20 @@
             "name": "linux-pam"
         },
         {
+            "description": "Lua posix bindings, including ncurses",
+            "name": "lua-luaposix"
+        },
+        {
             "description": "OpenSSH is the premier connectivity tool for remote login with the SSH\nprotocol. It encrypts all traffic to eliminate eavesdropping, connection\nhijacking, and other attacks. In addition, OpenSSH provides a large\nsuite of secure tunneling capabilities, several authentication methods,\nand sophisticated configuration options.",
             "name": "openssh"
         },
         {
             "description": "The Python programming language.",
             "name": "python"
+        },
+        {
+            "description": "Tcsh is an enhanced but completely compatible version of csh, the C\nshell. Tcsh is a command language interpreter which can be used both as\nan interactive login shell and as a shell script command processor. Tcsh\nincludes a command line editor, programmable word completion, spelling\ncorrection, a history mechanism, job control and a C language like\nsyntax.",
+            "name": "tcsh"
         },
         {
             "description": "Util-linux is a suite of essential utilities for any Linux system.",

@@ -2450,6 +2450,10 @@
             "name": "yosys"
         },
         {
+            "description": "Real-time monitoring of IT components and services, such as networks,\nservers, VMs, applications and the cloud.",
+            "name": "zabbix"
+        },
+        {
             "description": "The zziplib provides read access to zipped files in a zip-archive, using\ncompression based solely on free algorithms provided by zlib. It also\nprovides a functionality to overlay the archive filesystem with the\nfilesystem of the operating system environment.",
             "name": "zziplib"
         }

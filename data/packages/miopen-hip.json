@@ -164,10 +164,19 @@
         {
             "level": 1,
             "owner": "builtin.miopen-hip",
-            "relative_path": "0002-add-include-dir-miopen-hip-6.1.0.patch",
+            "relative_path": "0001-link-with-roctracer-when-building-miopendriver-6.1.0.patch",
             "reverse": false,
-            "sha256": "1b24f2ff24ea1f6dee1b1d0e12cb031683ff2d781fe214bde515f113a16540cc",
+            "sha256": "81138b33944657cbea3b0696d774638d0948068e9054b90dc96fcaae12dcbedc",
             "version": "@6.1",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.miopen-hip",
+            "relative_path": "0001-link-with-roctracer-when-building-miopendriver-6.2.0.patch",
+            "reverse": false,
+            "sha256": "dc2272867c806fe9aa98f527f3b265e7c300c1003029a233ece1852578020945",
+            "version": "@6.2:",
             "working_dir": "."
         },
         {

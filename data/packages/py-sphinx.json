@@ -170,6 +170,10 @@
             "name": "flibcpp"
         },
         {
+            "description": "A C++20 library for sequence-orientated programming",
+            "name": "flux"
+        },
+        {
             "description": "A scheduler for flux-core",
             "name": "flux-sched"
         },

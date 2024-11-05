@@ -1819,6 +1819,18 @@
             "package": "lammps"
         }
     ],
+    "assembly": [
+        {
+            "default": "latest",
+            "package": "vep-cache"
+        }
+    ],
+    "assembly_source": [
+        {
+            "default": "ensembl",
+            "package": "vep-cache"
+        }
+    ],
     "assertions": [
         {
             "default": false,
@@ -6931,6 +6943,10 @@
         {
             "default": "generic",
             "package": "flume"
+        },
+        {
+            "default": "cmake",
+            "package": "flux"
         },
         {
             "default": "autotools",
@@ -16399,6 +16415,10 @@
         {
             "default": "makefile",
             "package": "prometheus"
+        },
+        {
+            "default": "cmake",
+            "package": "prometheus-cpp"
         },
         {
             "default": "makefile",
@@ -35005,6 +35025,10 @@
             "package": "vep"
         },
         {
+            "default": "generic",
+            "package": "vep-cache"
+        },
+        {
             "default": "cmake",
             "package": "verdict"
         },
@@ -37506,6 +37530,10 @@
         },
         {
             "default": "Release",
+            "package": "flux"
+        },
+        {
+            "default": "Release",
             "package": "flux-sched"
         },
         {
@@ -39771,6 +39799,10 @@
         {
             "default": "Release",
             "package": "proj"
+        },
+        {
+            "default": "Release",
+            "package": "prometheus-cpp"
         },
         {
             "default": "Release",
@@ -45953,7 +45985,7 @@
             "package": "gitconddb"
         },
         {
-            "default": "11",
+            "default": "14",
             "package": "google-cloud-cpp"
         },
         {
@@ -47938,6 +47970,10 @@
         },
         {
             "default": false,
+            "package": "flux"
+        },
+        {
+            "default": false,
             "package": "flux-core"
         },
         {
@@ -48863,6 +48899,12 @@
         {
             "default": "ray",
             "package": "py-modin"
+        }
+    ],
+    "env": [
+        {
+            "default": true,
+            "package": "vep-cache"
         }
     ],
     "environ": [
@@ -50071,6 +50113,12 @@
         {
             "default": false,
             "package": "py-torch-nvidia-apex"
+        }
+    ],
+    "fasta": [
+        {
+            "default": true,
+            "package": "vep-cache"
         }
     ],
     "fastani": [
@@ -53115,6 +53163,10 @@
             "package": "flibcpp"
         },
         {
+            "default": "make",
+            "package": "flux"
+        },
+        {
             "default": "ninja",
             "package": "flux-sched"
         },
@@ -55377,6 +55429,10 @@
         {
             "default": "make",
             "package": "proj"
+        },
+        {
+            "default": "make",
+            "package": "prometheus-cpp"
         },
         {
             "default": "make",
@@ -59573,6 +59629,12 @@
             "package": "mumps"
         }
     ],
+    "indexed": [
+        {
+            "default": true,
+            "package": "vep-cache"
+        }
+    ],
     "inet": [
         {
             "default": true,
@@ -61433,6 +61495,10 @@
         {
             "default": false,
             "package": "flibcpp"
+        },
+        {
+            "default": false,
+            "package": "flux"
         },
         {
             "default": false,
@@ -63693,6 +63759,10 @@
         {
             "default": false,
             "package": "proj"
+        },
+        {
+            "default": false,
+            "package": "prometheus-cpp"
         },
         {
             "default": false,
@@ -66819,6 +66889,12 @@
             "package": "draco"
         }
     ],
+    "libraries": [
+        {
+            "default": "__ga_libraries__",
+            "package": "google-cloud-cpp"
+        }
+    ],
     "library": [
         {
             "default": false,
@@ -68137,6 +68213,12 @@
         {
             "default": false,
             "package": "genie"
+        }
+    ],
+    "match_vep_version": [
+        {
+            "default": true,
+            "package": "vep-cache"
         }
     ],
     "math": [
@@ -75277,6 +75359,10 @@
             "package": "cgns"
         },
         {
+            "default": true,
+            "package": "cpr"
+        },
+        {
             "default": false,
             "package": "dcmtk"
         },
@@ -80561,6 +80647,10 @@
             "package": "countdown"
         },
         {
+            "default": true,
+            "package": "cpr"
+        },
+        {
             "default": false,
             "package": "cpu-features"
         },
@@ -82405,6 +82495,12 @@
         {
             "default": false,
             "package": "athena"
+        }
+    ],
+    "species": [
+        {
+            "default": "homo_sapiens",
+            "package": "vep-cache"
         }
     ],
     "spectral": [

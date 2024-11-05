@@ -4,6 +4,10 @@
     "conflicts": [],
     "dependencies": [
         {
+            "description": "libxcrypt is a modern library for one-way hashing of passwords.",
+            "name": "libxcrypt"
+        },
+        {
             "description": "The Lua programming language interpreter and library.",
             "name": "lua"
         },
