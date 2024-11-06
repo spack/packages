@@ -282,6 +282,10 @@
             "name": "man-db"
         },
         {
+            "description": "MASA (Manufactured Analytical Solution Abstraction) is a library written\nin C++ (with C, python and Fortran90 interfaces) which provides a suite\nof manufactured solutions for the software verification of partial\ndifferential equation solvers in multiple dimensions.",
+            "name": "masa"
+        },
+        {
             "description": "Mesa is an open-source implementation of the OpenGL specification - a\nsystem for rendering interactive 3D graphics.",
             "name": "mesa"
         },

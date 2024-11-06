@@ -34,6 +34,10 @@
             "name": "py-numpy"
         },
         {
+            "description": "Core utilities for Python packages.",
+            "name": "py-packaging"
+        },
+        {
             "description": "The PyPA recommended tool for installing Python packages.",
             "name": "py-pip"
         },
@@ -126,7 +130,7 @@
     ],
     "description": "TensorBoard is a suite of web applications for inspecting and\nunderstanding your TensorFlow runs and graphs.\n",
     "homepage": "https://github.com/tensorflow/tensorboard",
-    "latest_version": "2.17.0",
+    "latest_version": "2.18.0",
     "maintainers": [
         "aweits"
     ],
@@ -141,6 +145,14 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.18.0",
+            "sha256": "107ca4821745f73e2aefa02c50ff70a9b694f39f790b11e6f682f7d326745eab"
+        },
+        {
+            "name": "2.17.1",
+            "sha256": "253701a224000eeca01eee6f7e978aea7b408f60b91eb0babdb04e78947b773e"
+        },
         {
             "name": "2.17.0",
             "sha256": "859a499a9b1fb68a058858964486627100b71fcb21646861c61d31846a6478fb"

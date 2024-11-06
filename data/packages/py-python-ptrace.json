@@ -32,7 +32,7 @@
     ],
     "description": "python-ptrace is a debugger using ptrace (Linux, BSD and Darwin system\ncall to trace processes) written in Python.\n",
     "homepage": "https://pypi.org/project/python-ptrace/",
-    "latest_version": "0.9.8",
+    "latest_version": "0.9.9",
     "maintainers": [],
     "name": "py-python-ptrace",
     "patches": [],
@@ -45,6 +45,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.9.9",
+            "sha256": "56bbfef44eaf3a77be48138cca5767cdf471e8278fe1499f9b72f151907f25cf"
+        },
         {
             "name": "0.9.8",
             "sha256": "1e3bc6223f626aaacde8a7979732691c11b13012e702fee9ae16c87f71633eaa"

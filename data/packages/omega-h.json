@@ -373,24 +373,14 @@
             "spec": "+cuda ^cuda@:9~allow-unsupported-compilers arch=None-None-ppc64le:"
         },
         {
+            "description": "omega-h: See https://github.com/sandialabs/omega_h/issues/366",
+            "name": "^cuda@11.2",
+            "spec": "+cuda"
+        },
+        {
             "description": null,
             "name": "%gcc@8:8.2",
             "spec": "@:9.22.1"
-        },
-        {
-            "description": "omega-h: Thrust is broken in CUDA = 11.2.* see https://github.com/sandialabs/omega_h/issues/366",
-            "name": "^cuda@11.2",
-            "spec": "@:9.34.4"
-        },
-        {
-            "description": "omega-h: Thrust is broken in CUDA = 11.2.* see https://github.com/sandialabs/omega_h/issues/366",
-            "name": "^cuda@11.2",
-            "spec": "@scorec.10.1.0:"
-        },
-        {
-            "description": "omega-h: see https://github.com/SCOREC/omega_h/issues/66",
-            "name": "^cuda@:11.3",
-            "spec": "@scorec.10.8.5:"
         }
     ],
     "dependencies": [
@@ -451,7 +441,7 @@
     ],
     "description": "Omega_h is a C++11 library providing data structures and algorithms for\nadaptive discretizations. Its specialty is anisotropic triangle and\ntetrahedral mesh adaptation. It runs efficiently on most modern HPC\nhardware including GPUs.\n",
     "homepage": "https://github.com/sandialabs/omega_h",
-    "latest_version": "9.34.13",
+    "latest_version": "10.8.5-scorec",
     "maintainers": [
         "cwsmith"
     ],
@@ -551,6 +541,26 @@
             "name": "main"
         },
         {
+            "commit": "62026fc305356abb5e02a9fce3fead9cf5077fbe",
+            "git": "https://github.com/SCOREC/omega_h.git",
+            "name": "10.8.5-scorec"
+        },
+        {
+            "commit": "0e5de8618c3370f702e08c1b1af476dbbc118892",
+            "git": "https://github.com/SCOREC/omega_h.git",
+            "name": "10.7.0-scorec"
+        },
+        {
+            "commit": "f376fad4741b55a4b2482218eb3437d719b7c72e",
+            "git": "https://github.com/SCOREC/omega_h.git",
+            "name": "10.6.0-scorec"
+        },
+        {
+            "commit": "e88912368e101d940f006019585701a704295ab0",
+            "git": "https://github.com/SCOREC/omega_h.git",
+            "name": "10.1.0-scorec"
+        },
+        {
             "name": "9.34.13",
             "sha256": "2eadfd6d634abc0b50396a82fd446f8f0b586ba6e64788c47827162c2aadec02"
         },
@@ -597,26 +607,6 @@
         {
             "name": "9.13.13",
             "sha256": "753702edf4bda9ae57ea21f09ca071e341604a468d8c86468c9aebba049f581c"
-        },
-        {
-            "commit": "62026fc305356abb5e02a9fce3fead9cf5077fbe",
-            "git": "https://github.com/SCOREC/omega_h.git",
-            "name": "scorec.10.8.5"
-        },
-        {
-            "commit": "0e5de8618c3370f702e08c1b1af476dbbc118892",
-            "git": "https://github.com/SCOREC/omega_h.git",
-            "name": "scorec.10.7.0"
-        },
-        {
-            "commit": "f376fad4741b55a4b2482218eb3437d719b7c72e",
-            "git": "https://github.com/SCOREC/omega_h.git",
-            "name": "scorec.10.6.0"
-        },
-        {
-            "commit": "e88912368e101d940f006019585701a704295ab0",
-            "git": "https://github.com/SCOREC/omega_h.git",
-            "name": "scorec.10.1.0"
         }
     ],
     "versions_deprecated": []

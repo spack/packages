@@ -634,6 +634,10 @@
             "name": "py-tables"
         },
         {
+            "description": "TensorBoard is a suite of web applications for inspecting and\nunderstanding your TensorFlow runs and graphs.",
+            "name": "py-tensorboard"
+        },
+        {
             "description": "The purpose of this package is to let researchers use a simple interface\nto log events within PyTorch (and then show visualization in\ntensorboard). This package currently supports logging scalar, image,\naudio, histogram, text, embedding, and the route of back-propagation.",
             "name": "py-tensorboardx"
         },

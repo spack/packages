@@ -51029,7 +51029,7 @@
             "package": "magma"
         },
         {
-            "default": true,
+            "default": false,
             "package": "masa"
         },
         {
@@ -77397,7 +77397,7 @@
             "package": "mapserver"
         },
         {
-            "default": true,
+            "default": false,
             "package": "masa"
         },
         {

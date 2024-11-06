@@ -18,6 +18,10 @@
             "name": "automake"
         },
         {
+            "description": "GNU internationalization (i18n) and localization (l10n) library.",
+            "name": "gettext"
+        },
+        {
             "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
             "name": "gmake"
         },
@@ -50,7 +54,7 @@
     ],
     "description": "MASA (Manufactured Analytical Solution Abstraction) is a library written\nin C++ (with C, python and Fortran90 interfaces) which provides a suite\nof manufactured solutions for the software verification of partial\ndifferential equation solvers in multiple dimensions.\n",
     "homepage": "https://github.com/manufactured-solutions/MASA",
-    "latest_version": "master",
+    "latest_version": "0.51.0",
     "maintainers": [],
     "name": "masa",
     "patches": [],
@@ -62,12 +66,12 @@
             "name": "build_system"
         },
         {
-            "default": true,
+            "default": false,
             "description": "Compile with Fortran interfaces",
             "name": "fortran"
         },
         {
-            "default": true,
+            "default": false,
             "description": "Compile with Python interfaces",
             "name": "python"
         }
@@ -76,6 +80,30 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "0.51.0",
+            "tag": "0.51.0"
+        },
+        {
+            "name": "0.50.0",
+            "tag": "0.50.0"
+        },
+        {
+            "name": "0.44.0",
+            "tag": "0.44.0"
+        },
+        {
+            "name": "0.43.1",
+            "tag": "0.43.1"
+        },
+        {
+            "name": "0.43.0",
+            "tag": "0.43.0"
+        },
+        {
+            "name": "0.42.0",
+            "tag": "0.42.0"
         }
     ],
     "versions_deprecated": []

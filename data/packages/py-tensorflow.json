@@ -797,7 +797,7 @@
     ],
     "description": "TensorFlow is an open source machine learning framework for everyone.\n",
     "homepage": "https://www.tensorflow.org",
-    "latest_version": "2.17.0",
+    "latest_version": "2.18.0",
     "maintainers": [
         "adamjstewart",
         "aweits"
@@ -855,7 +855,7 @@
             "relative_path": "absl_neon.patch",
             "reverse": false,
             "sha256": "e538be3300f73ce6ee2b8dc93cbd2e5d6b8bacc1de8670948a97bbc36a36b450",
-            "version": "@2.16.1: arch=None-None-aarch64:",
+            "version": "@2.16.1:2.17 arch=None-None-aarch64:",
             "working_dir": "."
         },
         {
@@ -1019,6 +1019,14 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.18.0",
+            "sha256": "d7876f4bb0235cac60eb6316392a7c48676729860da1ab659fb440379ad5186d"
+        },
+        {
+            "name": "2.17.1",
+            "sha256": "2d3cfb48510f92f3a52fb05b820481c6f066a342a9f5296fe26d72c4ea757700"
+        },
         {
             "name": "2.17.0",
             "sha256": "9cc4d5773b8ee910079baaecb4086d0c28939f024dd74b33fc5e64779b6533dc"

@@ -44,7 +44,7 @@
     ],
     "description": "Adiak collects metadata about HPC application runs and provides it to\ntools.\n",
     "homepage": "https://github.com/LLNL/Adiak",
-    "latest_version": "0.4.0",
+    "latest_version": "0.4.1",
     "maintainers": [
         "daboehme",
         "mplegendre"
@@ -85,6 +85,10 @@
         }
     ],
     "versions": [
+        {
+            "commit": "7ac997111785bee6d9391664b1d18ebc2b3c557b",
+            "name": "0.4.1"
+        },
         {
             "commit": "7e8b7233f8a148b402128ed46b2f0c643e3b397e",
             "name": "0.4.0"

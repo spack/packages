@@ -78,7 +78,7 @@
     ],
     "description": "The Computational Geometry Algorithms Library (CGAL) is a C++ library\nthat aims to provide easy access to efficient and reliable algorithms in\ncomputational geometry. CGAL is used in various areas needing geometric\ncomputation, such as geographic information systems, computer aided\ndesign, molecular biology, medical imaging, computer graphics, and\nrobotics.\n",
     "homepage": "https://www.cgal.org/",
-    "latest_version": "5.6",
+    "latest_version": "6.0.1",
     "maintainers": [],
     "name": "cgal",
     "patches": [],
@@ -136,6 +136,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.0.1",
+            "sha256": "0acdfbf317c556630dd526f3253780f29b6ec9713ee92903e81b5c93c0f59b7f"
+        },
         {
             "name": "5.6",
             "sha256": "dcab9b08a50a06a7cc2cc69a8a12200f8d8f391b9b8013ae476965c10b45161f"
