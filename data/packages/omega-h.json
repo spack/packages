@@ -379,6 +379,11 @@
         },
         {
             "description": null,
+            "name": "@10.5:10.8.5+cuda~kokkos",
+            "spec": ""
+        },
+        {
+            "description": null,
             "name": "%gcc@8:8.2",
             "spec": "@:9.22.1"
         }
@@ -441,7 +446,7 @@
     ],
     "description": "Omega_h is a C++11 library providing data structures and algorithms for\nadaptive discretizations. Its specialty is anisotropic triangle and\ntetrahedral mesh adaptation. It runs efficiently on most modern HPC\nhardware including GPUs.\n",
     "homepage": "https://github.com/sandialabs/omega_h",
-    "latest_version": "10.8.5-scorec",
+    "latest_version": "10.8.6-scorec",
     "maintainers": [
         "cwsmith"
     ],
@@ -539,6 +544,11 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "commit": "a730c78e516d7f6cca4f8b4e4e0a5eb8020f9ad9",
+            "git": "https://github.com/SCOREC/omega_h.git",
+            "name": "10.8.6-scorec"
         },
         {
             "commit": "62026fc305356abb5e02a9fce3fead9cf5077fbe",

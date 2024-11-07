@@ -102,6 +102,11 @@
             "default": false,
             "description": "CMake interprocedural optimization",
             "name": "ipo"
+        },
+        {
+            "default": true,
+            "description": "Build edm4hep with JSON support and edm4hep2json",
+            "name": "json"
         }
     ],
     "versions": [

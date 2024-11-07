@@ -65711,6 +65711,10 @@
             "package": "duckdb"
         },
         {
+            "default": true,
+            "package": "edm4hep"
+        },
+        {
             "default": false,
             "package": "emacs"
         },

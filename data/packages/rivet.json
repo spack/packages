@@ -3,6 +3,11 @@
     "build_system": "AutotoolsPackage",
     "conflicts": [
         {
+            "description": "rivet: patch-level zero requires at least 4.0.1",
+            "name": "hepmc@3.3.0",
+            "spec": "@:4.0.0 hepmc=3"
+        },
+        {
             "description": null,
             "name": "arch=windows-None-None",
             "spec": "build_system=autotools"
@@ -40,6 +45,10 @@
         {
             "description": "The HepMC package is an object oriented, C++ event record for High\nEnergy Physics Monte Carlo generators and simulation.",
             "name": "hepmc3"
+        },
+        {
+            "description": "HighFive - Header only C++ HDF5 interface",
+            "name": "highfive"
         },
         {
             "description": "libtool -- library building part of autotools.",
@@ -86,7 +95,7 @@
     ],
     "description": "Rivet - the particle-physics MC analysis toolkit\n",
     "homepage": "https://rivet.hepforge.org/",
-    "latest_version": "3.1.8",
+    "latest_version": "4.0.2",
     "maintainers": [],
     "name": "rivet",
     "patches": [
@@ -141,6 +150,26 @@
         }
     ],
     "versions": [
+        {
+            "name": "4.0.2",
+            "sha256": "65a3b36f42bff782ed2767930e669e09b140899605d7972fc8f77785b4a882c0"
+        },
+        {
+            "name": "4.0.1",
+            "sha256": "4e8692d6e8a53961c77983eb6ba4893c3765cf23f705789e4d865be4892eff79"
+        },
+        {
+            "name": "4.0.0",
+            "sha256": "d3c42d9b83ede3e7f4b534535345c2e06e6dafb851454c2b0a5d2331ab0f04d0"
+        },
+        {
+            "name": "3.1.10",
+            "sha256": "458b8e0df1de738e9972d24b260eaa087df12c99d4fe9dee5377d47ea6a49919"
+        },
+        {
+            "name": "3.1.9",
+            "sha256": "f6532045da61eeb2adc20a9abc4166b4b2d41ab2c1ca5b500cd616bb1b92e7b1"
+        },
         {
             "name": "3.1.8",
             "sha256": "75b3f3d419ca6388d1fd2ec0eda7e1f90f324b996ccf0591f48a5d2e28dccc13"

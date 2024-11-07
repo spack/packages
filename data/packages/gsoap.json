@@ -54,7 +54,7 @@
     ],
     "description": "The gSOAP toolkit is an extensive suite of portable C and C++ software\nto develop XML Web services with powerful type-safe XML data bindings.\n",
     "homepage": "https://www.genivia.com/products.html",
-    "latest_version": "2.8.127",
+    "latest_version": "2.8.135",
     "maintainers": [
         "gartung",
         "greenc-FNAL",
@@ -72,6 +72,12 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.8.135",
+            "sha256": "b11757e405d55d4674dfbf88c4fa6d7e24155cf64ed8ed578ccad2f2b555e98d"
+        }
+    ],
+    "versions_deprecated": [
         {
             "name": "2.8.127",
             "sha256": "25ecad1bbc363494eb7ea95a68508e4c93cc20596fad9ebc196c6572bbbd3c08"
@@ -100,6 +106,5 @@
             "name": "2.8.111",
             "sha256": "f1670c7e3aeaa66bc5658539fbd162e5099f022666855ef2b2c2bac07fec4bd3"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }
