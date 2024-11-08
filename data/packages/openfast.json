@@ -118,6 +118,11 @@
             "name": "double-precision"
         },
         {
+            "default": false,
+            "description": "Enable FAST.Farm capabilities",
+            "name": "fastfarm"
+        },
+        {
             "default": "make",
             "description": "the build system generator to use",
             "name": "generator"

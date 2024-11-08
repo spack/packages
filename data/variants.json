@@ -50127,6 +50127,12 @@
             "package": "py-drep"
         }
     ],
+    "fastfarm": [
+        {
+            "default": false,
+            "package": "openfast"
+        }
+    ],
     "fasthash": [
         {
             "default": false,
