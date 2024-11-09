@@ -613,7 +613,7 @@
     ],
     "description": "C++ runtime system for parallellism and concurrency.\n",
     "homepage": "https://github.com/pika-org/pika/",
-    "latest_version": "0.29.0",
+    "latest_version": "0.30.0",
     "maintainers": [
         "albestro",
         "aurianer",
@@ -806,6 +806,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "0.30.0",
+            "sha256": "1798bf7de2505bc707bf95716fda8de5630b2e2ae54a6c4ef59f9931394d31cc"
         },
         {
             "name": "0.29.0",
