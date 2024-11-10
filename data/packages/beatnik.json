@@ -476,7 +476,7 @@
     "dependent_to": [],
     "description": "Fluid interface model solver based on Pandya and Shkoller's Z-Model\nformulation.\n",
     "homepage": "https://github.com/CUP-ECS/beatnik",
-    "latest_version": "1.0",
+    "latest_version": "1.1",
     "maintainers": [
         "JStewart28",
         "patrickb314"
@@ -539,6 +539,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "commit": "7d5a6fa588bcb7065fc53c3e8ae52d4d7f13b6f1",
+            "name": "1.1"
         },
         {
             "commit": "ae31ef9cb44678d5ace77994b45b0778defa3d2f",

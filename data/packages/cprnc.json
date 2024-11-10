@@ -23,13 +23,23 @@
     "dependent_to": [],
     "description": "CPRNC is a netcdf file comparison tool used by CESM and other scientific\nprograms.\n",
     "homepage": "https://github.com/ESMCI/cprnc",
-    "latest_version": "1.0.3",
+    "latest_version": "1.0.8",
     "maintainers": [
         "billsacks",
         "jedwards4b"
     ],
     "name": "cprnc",
-    "patches": [],
+    "patches": [
+        {
+            "level": 1,
+            "owner": "builtin.cprnc",
+            "relative_path": "install_rpath.patch",
+            "reverse": false,
+            "sha256": "437531d0d7a46cb631bd846702f8b919cafd2fda5599a2876ef7624655c7ce07",
+            "version": "@:1.0.7",
+            "working_dir": "."
+        }
+    ],
     "resources": [
         {
             "destination": "genf90-resource",
@@ -61,6 +71,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.0.8",
+            "sha256": "94ee3b4e724bc06161e576d45f34401f1452acf738803528cb80726eed230cae"
+        },
         {
             "name": "1.0.3",
             "sha256": "3e7400f9a13d5de01964d7dd95151d08e6e30818d2a1efa9a9c7896cf6646d69"
