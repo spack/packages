@@ -298,6 +298,10 @@
             "name": "libpulsar"
         },
         {
+            "description": "librdkafka is a C library implementation of the Apache Kafka protocol.",
+            "name": "librdkafka"
+        },
+        {
             "description": "Librelp is an easy to use library for the RELP protocol. RELP (stands\nfor Reliable Event Logging Protocol) is a general-purpose, extensible\nlogging protocol.",
             "name": "librelp"
         },

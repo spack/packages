@@ -158,17 +158,7 @@
     "latest_version": "5.4.6",
     "maintainers": [],
     "name": "lua",
-    "patches": [
-        {
-            "level": 1,
-            "owner": "builtin.lua",
-            "reverse": false,
-            "sha256": "208316c2564bdd5343fa522f3b230d84bd164058957059838df7df56876cb4ae",
-            "url": "http://lua.2524044.n2.nabble.com/attachment/7666421/0/pkg-config.patch",
-            "version": "@:5.3.9999+pcfile",
-            "working_dir": "."
-        }
-    ],
+    "patches": [],
     "resources": [
         {
             "destination": "luarocks",
@@ -187,11 +177,6 @@
             "default": "curl",
             "description": "Fetcher to use in the LuaRocks package manager",
             "name": "fetcher"
-        },
-        {
-            "default": false,
-            "description": "Add patch for lua.pc generation",
-            "name": "pcfile"
         },
         {
             "default": true,

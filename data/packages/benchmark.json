@@ -49,7 +49,9 @@
     "description": "A microbenchmark support library\n",
     "homepage": "https://github.com/google/benchmark",
     "latest_version": "1.8.5",
-    "maintainers": [],
+    "maintainers": [
+        "stephenswat"
+    ],
     "name": "benchmark",
     "patches": [],
     "resources": [],
@@ -78,6 +80,11 @@
             "default": true,
             "description": "Enable performance counters provided by libpfm",
             "name": "performance_counters"
+        },
+        {
+            "default": true,
+            "description": "Build the libraries as shared objects",
+            "name": "shared"
         }
     ],
     "versions": [

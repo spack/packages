@@ -287,6 +287,10 @@
             "name": "libpulsar"
         },
         {
+            "description": "librdkafka is a C library implementation of the Apache Kafka protocol.",
+            "name": "librdkafka"
+        },
+        {
             "description": "This package provides encoder/decoder implementation for DEC SIXEL\ngraphics, and some converter programs like img2sixel.",
             "name": "libsixel"
         },

@@ -62,6 +62,10 @@
             "name": "laynii"
         },
         {
+            "description": "librdkafka is a C library implementation of the Apache Kafka protocol.",
+            "name": "librdkafka"
+        },
+        {
             "description": "libspng (simple png) is a C library for reading and writing Portable\nNetwork Graphics (PNG) format files with a focus on security and ease of\nuse.",
             "name": "libspng"
         },

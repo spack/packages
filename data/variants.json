@@ -668,6 +668,10 @@
     "amd": [
         {
             "default": false,
+            "package": "intel-oneapi-compilers"
+        },
+        {
+            "default": false,
             "package": "pgi"
         },
         {
@@ -2048,6 +2052,10 @@
         }
     ],
     "avif": [
+        {
+            "default": false,
+            "package": "gdal"
+        },
         {
             "default": false,
             "package": "py-torchvision"
@@ -72831,6 +72839,12 @@
             "package": "aspect"
         }
     ],
+    "opendrive": [
+        {
+            "default": false,
+            "package": "gdal"
+        }
+    ],
     "openexr": [
         {
             "default": false,
@@ -74823,12 +74837,6 @@
         {
             "default": false,
             "package": "gnuplot"
-        }
-    ],
-    "pcfile": [
-        {
-            "default": false,
-            "package": "lua"
         }
     ],
     "pci": [
@@ -80483,6 +80491,10 @@
         {
             "default": false,
             "package": "bacio"
+        },
+        {
+            "default": true,
+            "package": "benchmark"
         },
         {
             "default": true,

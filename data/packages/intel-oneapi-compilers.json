@@ -3,6 +3,11 @@
     "build_system": "Package",
     "conflicts": [
         {
+            "description": "intel-oneapi-compilers: Codeplay AMD plugin requires newer release",
+            "name": "@:2022.2.1",
+            "spec": "+amd"
+        },
+        {
             "description": "intel-oneapi-compilers: Codeplay NVIDIA plugin requires newer release",
             "name": "@:2022.2.1",
             "spec": "+nvidia"
@@ -70,6 +75,18 @@
         },
         {
             "destination": "",
+            "name": "nvidia-plugin-installer",
+            "placement": "nvidia-plugin-installer",
+            "version": "@2025.0.0"
+        },
+        {
+            "destination": "",
+            "name": "amd-plugin-installer",
+            "placement": "amd-plugin-installer",
+            "version": "@2025.0.0"
+        },
+        {
+            "destination": "",
             "name": "fortran-installer",
             "placement": "fortran-installer",
             "version": "@2024.2.1"
@@ -78,6 +95,12 @@
             "destination": "",
             "name": "nvidia-plugin-installer",
             "placement": "nvidia-plugin-installer",
+            "version": "@2024.2.1"
+        },
+        {
+            "destination": "",
+            "name": "amd-plugin-installer",
+            "placement": "amd-plugin-installer",
             "version": "@2024.2.1"
         },
         {
@@ -90,6 +113,12 @@
             "destination": "",
             "name": "nvidia-plugin-installer",
             "placement": "nvidia-plugin-installer",
+            "version": "@2024.2.0"
+        },
+        {
+            "destination": "",
+            "name": "amd-plugin-installer",
+            "placement": "amd-plugin-installer",
             "version": "@2024.2.0"
         },
         {
@@ -208,6 +237,11 @@
         }
     ],
     "variants": [
+        {
+            "default": false,
+            "description": "Install AMD plugin for OneAPI",
+            "name": "amd"
+        },
         {
             "default": "generic",
             "description": "Build systems supported by the package",

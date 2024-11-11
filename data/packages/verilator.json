@@ -58,7 +58,7 @@
     "dependent_to": [],
     "description": "Verilator is the fastest free Verilog HDL simulator. It compiles\nsynthesizable Verilog (not test-bench code!), plus some PSL,\nSystemVerilog and Synthesis assertions into C++ or SystemC code. It is\ndesigned for large projects where fast simulation performance is of\nprimary concern, and is especially well suited to generate executable\nmodels of CPUs for embedded software design teams. Please do not\ndownload this program if you are expecting a full featured replacement\nfor NC-Verilog, VCS or another commercial Verilog simulator or Verilog\ncompiler for a little project! (Try Icarus instead.) However, if you are\nlooking for a path to migrate synthesizable Verilog to C++ or SystemC,\nand writing just a touch of C code and Makefiles doesn't scare you off,\nthis is the free Verilog compiler for you. Verilator supports the\nsynthesis subset of Verilog, plus initial statements, proper\nblocking/non-blocking assignments, functions, tasks, multi-dimensional\narrays, and signed numbers. It also supports very simple forms of\nSystemVerilog assertions and coverage analysis. Verilator supports the\nmore important Verilog 2005 constructs, and some SystemVerilog features,\nwith additional constructs being added as users request them. Verilator\nhas been used to simulate many very large multi-million gate designs\nwith thousands of modules.\n",
     "homepage": "https://www.veripool.org/projects/verilator",
-    "latest_version": "5.028",
+    "latest_version": "5.030",
     "maintainers": [
         "davekeeshan"
     ],
@@ -70,7 +70,7 @@
             "relative_path": "fix_compile_gch.patch",
             "reverse": false,
             "sha256": "793f634cebbf2d2be405deebb590660d6887aaf78c14eee186e9d6202b507153",
-            "version": "@5.0.18:",
+            "version": "@5.018:5.28",
             "working_dir": "."
         }
     ],
@@ -86,6 +86,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "5.030",
+            "sha256": "b9e7e97257ca3825fcc75acbed792b03c3ec411d6808ad209d20917705407eac"
         },
         {
             "name": "5.028",

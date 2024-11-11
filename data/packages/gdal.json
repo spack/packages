@@ -355,6 +355,10 @@
             "name": "libarchive"
         },
         {
+            "description": "libavif - Library for encoding and decoding .avif files.",
+            "name": "libavif"
+        },
+        {
             "description": "Heavily optimized library for DEFLATE/zlib/gzip compression and\ndecompression",
             "name": "libdeflate"
         },
@@ -667,7 +671,7 @@
     ],
     "description": "GDAL: Geospatial Data Abstraction Library. GDAL is a translator library\nfor raster and vector geospatial data formats that is released under an\nMIT style Open Source License by the Open Source Geospatial Foundation.\nAs a library, it presents a single raster abstract data model and single\nvector abstract data model to the calling application for all supported\nformats. It also comes with a variety of useful command line utilities\nfor data translation and processing.\n",
     "homepage": "https://www.gdal.org/",
-    "latest_version": "3.9.3",
+    "latest_version": "3.10.0",
     "maintainers": [
         "adamjstewart"
     ],
@@ -708,6 +712,11 @@
             "default": false,
             "description": "Required for Arrow driver",
             "name": "arrow"
+        },
+        {
+            "default": false,
+            "description": "Required for AVIF driver",
+            "name": "avif"
         },
         {
             "default": false,
@@ -1026,6 +1035,11 @@
         },
         {
             "default": false,
+            "description": "Required for XODR driver",
+            "name": "opendrive"
+        },
+        {
+            "default": false,
             "description": "Required for EXR driver",
             "name": "openexr"
         },
@@ -1166,6 +1180,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.10.0",
+            "sha256": "af821a3bcf68cf085724c21c9b53605fd451d83af3c8854d8bf194638eb734a8"
+        },
         {
             "name": "3.9.3",
             "sha256": "34a037852ffe6d2163f1b8948a1aa7019ff767148aea55876c1339b22ad751f1"
