@@ -234,6 +234,10 @@
             "name": "py-pyaestro"
         },
         {
+            "description": "HMMER is a biological sequence analysis tool that uses profile hidden\nMarkov models to search for sequence homologs. HMMER3 is developed and\nmaintained by the Eddy/Rivas Laboratory at Harvard University. pyhmmer\nis a Python package, implemented using the Cython language, that\nprovides bindings to HMMER3.",
+            "name": "py-pyhmmer"
+        },
+        {
             "description": "A small Python library to limit the resources used by a function by\nexecuting it inside a subprocess.",
             "name": "py-pynisher"
         },

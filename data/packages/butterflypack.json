@@ -58,7 +58,7 @@
     ],
     "description": "ButterflyPACK is a mathematical software for rapidly solving large-scale\ndense linear systems that exhibit off-diagonal rank-deficiency. These\nsystems arise frequently from boundary element methods, or factorization\nphases in finite-difference/finite-element methods. ButterflyPACK relies\non low-rank or butterfly formats under Hierarchical matrix, HODLR or\nother hierarchically nested frameworks to compress, factor and solve the\nlinear system in quasi-linear time. The computationally most intensive\nphase, factorization, is accelerated via randomized linear algebras. The\nbutterfly format, originally inspired by the butterfly data flow in fast\nFourier Transform, is a linear algebra tool well-suited for compressing\nmatrices arising from high-frequency wave equations or highly\noscillatory integral operators.\n",
     "homepage": "https://github.com/liuyangzhuan/ButterflyPACK",
-    "latest_version": "2.4.0",
+    "latest_version": "3.2.0",
     "maintainers": [
         "liuyangzhuan"
     ],
@@ -79,7 +79,7 @@
             "relative_path": "longline.patch",
             "reverse": false,
             "sha256": "443f80b6a13d93ee44cde658fab25765005ad75fedecf65149905fed05aefe4a",
-            "version": "%fj",
+            "version": "@1.2.0%fj",
             "working_dir": "."
         },
         {
@@ -88,7 +88,7 @@
             "relative_path": "fjfortran.patch",
             "reverse": false,
             "sha256": "43ae8fe2212f473670126e78e21828fa0e7e49961d854ee1b009d7b8db2cab36",
-            "version": "%fj",
+            "version": "@1.2.0%fj",
             "working_dir": "."
         },
         {
@@ -97,7 +97,7 @@
             "relative_path": "isnan.patch",
             "reverse": false,
             "sha256": "a1c433a03bca38362e87151042fb96e99e23864171b935d67462e85b79332565",
-            "version": "%fj",
+            "version": "@1.2.0%fj",
             "working_dir": "."
         }
     ],
@@ -138,6 +138,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "3.2.0",
+            "sha256": "0f1570947f0a7c0e130bbec3abbb2fa275ae453dc3f428e7a3a2265fecafe1ae"
         },
         {
             "name": "2.4.0",

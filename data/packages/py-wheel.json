@@ -3442,6 +3442,10 @@
             "name": "py-fsspec"
         },
         {
+            "description": "An XRootD implementation for fsspec.",
+            "name": "py-fsspec-xrootd"
+        },
+        {
             "description": "Fixes Unicode that's broken in various ways.",
             "name": "py-ftfy"
         },
@@ -7230,6 +7234,10 @@
             "name": "py-pyedr"
         },
         {
+            "description": "A rough port of Node.js's EventEmitter to Python with a few tricks of\nits own.",
+            "name": "py-pyee"
+        },
+        {
             "description": "A pure-Python library for parsing and analyzing ELF files and DWARF\ndebugging information",
             "name": "py-pyelftools"
         },
@@ -7376,6 +7384,10 @@
         {
             "description": "CERN PyHEADTAIL numerical n-body simulation code for simulating macro-\nparticle beam dynamics with collective effects.",
             "name": "py-pyheadtail"
+        },
+        {
+            "description": "HMMER is a biological sequence analysis tool that uses profile hidden\nMarkov models to search for sequence homologs. HMMER3 is developed and\nmaintained by the Eddy/Rivas Laboratory at Harvard University. pyhmmer\nis a Python package, implemented using the Cython language, that\nprovides bindings to HMMER3.",
+            "name": "py-pyhmmer"
         },
         {
             "description": "Pyhull is a Python wrapper to Qhull (http://www.qhull.org/) for the\ncomputation of the convex hull, Delaunay triangulation and Voronoi\ndiagram. It is written as a Python C extension, with both high-level and\nlow-level interfaces to qhull.",
@@ -7626,6 +7638,10 @@
             "name": "py-pypng"
         },
         {
+            "description": "Headless chrome/chromium automation library (unofficial port of\npuppeteer).",
+            "name": "py-pyppeteer"
+        },
+        {
             "description": "This package provides python language bindings for the C++ library\npreCICE.",
             "name": "py-pyprecice"
         },
@@ -7708,6 +7724,10 @@
         {
             "description": "Pyrocko is an open source seismology toolbox and library, written in the\nPython programming language",
             "name": "py-pyrocko"
+        },
+        {
+            "description": "Cython bindings and Python interface to Prodigal, an ORF finder for\ngenomes and metagenomes",
+            "name": "py-pyrodigal"
         },
         {
             "description": "3D mathematical functions using NumPy.",

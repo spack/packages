@@ -106,6 +106,10 @@
             "name": "rocfft"
         },
         {
+            "description": "The ROCm Validation Suite (RVS) is a system administrators and cluster\nmanager's tool for detecting and troubleshooting common problems\naffecting AMD GPU(s) running in a high-performance computing\nenvironment, enabled using the ROCm software stack on a compatible\nplatform.",
+            "name": "rocm-validation-suite"
+        },
+        {
             "description": "WarpX is an advanced electromagnetic Particle-In-Cell code. It supports\nmany features including Perfectly-Matched Layers (PML) and mesh\nrefinement. In addition, WarpX is a highly-parallel and highly-optimized\ncode and features hybrid GPU/OpenMP/MPI parallelization and load\nbalancing capabilities.",
             "name": "warpx"
         }

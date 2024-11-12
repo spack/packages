@@ -198,6 +198,10 @@
             "name": "pbbam"
         },
         {
+            "description": "The Pixman package contains a library that provides low-level pixel\nmanipulation features such as image compositing and trapezoid\nrasterization.",
+            "name": "pixman"
+        },
+        {
             "description": "Python library for calculating contours of 2D quadrilateral grids.",
             "name": "py-contourpy"
         },

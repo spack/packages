@@ -203,6 +203,10 @@
             "name": "qwtpolar"
         },
         {
+            "description": "Old Coin GUI binding for Qt, replaced by Quarter",
+            "name": "soqt"
+        },
+        {
             "description": "TeXstudio is a fully featured LaTeX editor, whose goal is to make\nwriting LaTeX documents as easy and comfortable as possible.",
             "name": "texstudio"
         }

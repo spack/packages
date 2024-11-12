@@ -346,6 +346,10 @@
             "name": "py-pymc3"
         },
         {
+            "description": "Headless chrome/chromium automation library (unofficial port of\npuppeteer).",
+            "name": "py-pyppeteer"
+        },
+        {
             "description": "A Python library for probabilistic modeling and inference.",
             "name": "py-pyro-ppl"
         },

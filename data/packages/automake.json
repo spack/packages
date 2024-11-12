@@ -1080,6 +1080,10 @@
             "name": "libuv"
         },
         {
+            "description": "Libva is an implementation for VA-API (Video Acceleration API). VA-API\nis an open-source library and API specification, which provides access\nto graphics hardware acceleration capabilities for video processing. It\nconsists of a main library and driver-specific acceleration backends for\neach supported hardware vendor.",
+            "name": "libva"
+        },
+        {
             "description": "libverto provides a loop-neutral async api which allows the library to\nexpose asynchronous interfaces and offload the choice of the main loop\nto the application.",
             "name": "libverto"
         },

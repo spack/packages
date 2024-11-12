@@ -82,6 +82,10 @@
         {
             "description": "Python bindings to coin3d",
             "name": "py-pivy"
+        },
+        {
+            "description": "Old Coin GUI binding for Qt, replaced by Quarter",
+            "name": "soqt"
         }
     ],
     "description": "Coin is an OpenGL-based, 3D graphics library that has its roots in the\nOpen Inventor 2.1 API, which Coin still is compatible with.\n",

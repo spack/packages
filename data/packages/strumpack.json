@@ -546,7 +546,7 @@
     ],
     "description": "STRUMPACK -- STRUctured Matrix PACKage - provides linear solvers for\nsparse matrices and for dense rank-structured matrices, i.e., matrices\nthat exhibit some kind of low-rank property. It provides a distributed\nmemory fully algebraic sparse solver and preconditioner. The\npreconditioner is mostly aimed at large sparse linear systems which\nresult from the discretization of a partial differential equation, but\nis not limited to any particular type of problem. STRUMPACK also\nprovides preconditioned GMRES and BiCGStab iterative solvers.\n",
     "homepage": "http://portal.nersc.gov/project/sparse/strumpack",
-    "latest_version": "7.2.0",
+    "latest_version": "8.0.0",
     "maintainers": [
         "pghysels"
     ],
@@ -687,6 +687,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "8.0.0",
+            "sha256": "11cc8645d622a16510b39a20efc64f34862b41976152d17f9fbf3e91f899766c"
         },
         {
             "name": "7.2.0",

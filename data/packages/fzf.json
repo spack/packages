@@ -21,7 +21,7 @@
     "dependent_to": [],
     "description": "fzf is a general-purpose command-line fuzzy finder.\n",
     "homepage": "https://github.com/junegunn/fzf",
-    "latest_version": "0.55.0",
+    "latest_version": "0.56.2",
     "maintainers": [
         "alecbcs"
     ],
@@ -41,6 +41,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.56.2",
+            "sha256": "1d67edb3e3ffbb14fcbf786bfcc0b5b8d87db6a0685135677b8ef4c114d2b864"
+        },
         {
             "name": "0.55.0",
             "sha256": "805383f71bca7f8fb271ecd716852aea88fd898d5027d58add9e43df6ea766da"

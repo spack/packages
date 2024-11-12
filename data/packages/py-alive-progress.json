@@ -40,7 +40,7 @@
     ],
     "description": "A new kind of Progress Bar, with real-time throughput, ETA, and very\ncool animations!\n",
     "homepage": "https://github.com/rsalmei/alive-progress",
-    "latest_version": "2.4.1",
+    "latest_version": "3.2.0",
     "maintainers": [],
     "name": "py-alive-progress",
     "patches": [],
@@ -53,6 +53,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.2.0",
+            "sha256": "ede29d046ff454fe56b941f686f89dd9389430c4a5b7658e445cb0b80e0e4deb"
+        },
         {
             "name": "2.4.1",
             "sha256": "089757c8197f27ad972ba27e1060f6db92368d83c736884e159034fd74865323"

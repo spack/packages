@@ -40,7 +40,7 @@
     "dependent_to": [],
     "description": "UT: C++20 \u03bc(micro)/Unit Testing Framework\n",
     "homepage": "https://boost-ext.github.io/ut",
-    "latest_version": "2.0.1",
+    "latest_version": "2.1.1",
     "maintainers": [
         "msimberg"
     ],
@@ -83,6 +83,14 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "2.1.1",
+            "sha256": "016ac5ece1808cd1100be72f90da4fa59ea41de487587a3283c6c981381cc216"
+        },
+        {
+            "name": "2.1.0",
+            "sha256": "1c9c35c039ad3a9795a278447db6da0a4ec1a1d223bf7d64687ad28f673b7ae8"
         },
         {
             "name": "2.0.1",

@@ -370,6 +370,10 @@
             "name": "py-fracridge"
         },
         {
+            "description": "An XRootD implementation for fsspec.",
+            "name": "py-fsspec-xrootd"
+        },
+        {
             "description": "The Global Extensible Open Power Manager (GEOPM) Service provides a user\ninterface for accessing hardware telemetry and settings securely.",
             "name": "py-geopmdpy"
         },
@@ -664,6 +668,10 @@
         {
             "description": "A cross-language development platform for in-memory data. This package\ncontains the Python bindings.",
             "name": "py-pyarrow"
+        },
+        {
+            "description": "A rough port of Node.js's EventEmitter to Python with a few tricks of\nits own.",
+            "name": "py-pyee"
         },
         {
             "description": "PyERFA is the Python wrapper for the ERFA library (Essential Routines\nfor Fundamental Astronomy), a C library containing key algorithms for\nastronomy, which is based on the SOFA library published by the\nInternational Astronomical Union (IAU). All C routines are wrapped as\nNumpy universal functions, so that they can be called with scalar or\narray inputs.",

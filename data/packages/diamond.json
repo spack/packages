@@ -70,7 +70,7 @@
     ],
     "description": "DIAMOND is a sequence aligner for protein and translated DNA searches,\ndesigned for high performance analysis of big sequence data.\n",
     "homepage": "https://ab.inf.uni-tuebingen.de/software/diamond",
-    "latest_version": "2.1.9",
+    "latest_version": "2.1.10",
     "maintainers": [
         "snehring"
     ],
@@ -125,6 +125,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.1.10",
+            "sha256": "c6ede5df30d9d496af314e740964c35a0e358458d9c8d9b8dd517d69828d9981"
+        },
         {
             "name": "2.1.9",
             "sha256": "4cde9df78c63e8aef9df1e3265cd06a93ce1b047d6dba513a1437719b70e9d88"

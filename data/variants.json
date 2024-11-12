@@ -10874,6 +10874,10 @@
         },
         {
             "default": "autotools",
+            "package": "libva"
+        },
+        {
+            "default": "autotools",
             "package": "libvdwxc"
         },
         {
@@ -16073,7 +16077,7 @@
             "package": "pism"
         },
         {
-            "default": "autotools",
+            "default": "meson",
             "package": "pixman"
         },
         {
@@ -19723,6 +19727,10 @@
         {
             "default": "python_pip",
             "package": "py-fsspec"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-fsspec-xrootd"
         },
         {
             "default": "python_pip",
@@ -23542,6 +23550,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-pyee"
+        },
+        {
+            "default": "python_pip",
             "package": "py-pyelftools"
         },
         {
@@ -23687,6 +23699,10 @@
         {
             "default": "python_pip",
             "package": "py-pyheadtail"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-pyhmmer"
         },
         {
             "default": "python_pip",
@@ -23946,6 +23962,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-pyppeteer"
+        },
+        {
+            "default": "python_pip",
             "package": "py-pyprecice"
         },
         {
@@ -24039,6 +24059,10 @@
         {
             "default": "python_pip",
             "package": "py-pyrocko"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-pyrodigal"
         },
         {
             "default": "python_pip",
@@ -33598,6 +33622,10 @@
         },
         {
             "default": "cmake",
+            "package": "soqt"
+        },
+        {
+            "default": "cmake",
             "package": "sortmerna"
         },
         {
@@ -40542,6 +40570,10 @@
         },
         {
             "default": "Release",
+            "package": "soqt"
+        },
+        {
+            "default": "Release",
             "package": "sortmerna"
         },
         {
@@ -46963,6 +46995,12 @@
         {
             "default": false,
             "package": "hiop"
+        }
+    ],
+    "deepsig": [
+        {
+            "default": true,
+            "package": "py-bakta"
         }
     ],
     "default": [
@@ -56178,6 +56216,10 @@
         },
         {
             "default": "make",
+            "package": "soqt"
+        },
+        {
+            "default": "make",
             "package": "sortmerna"
         },
         {
@@ -64508,6 +64550,10 @@
         },
         {
             "default": false,
+            "package": "soqt"
+        },
+        {
+            "default": false,
             "package": "sortmerna"
         },
         {
@@ -65341,6 +65387,12 @@
         {
             "default": false,
             "package": "opencv"
+        }
+    ],
+    "iv": [
+        {
+            "default": true,
+            "package": "soqt"
         }
     ],
     "jali": [
@@ -82453,6 +82505,12 @@
             "package": "openradioss-starter"
         }
     ],
+    "spacenav": [
+        {
+            "default": true,
+            "package": "soqt"
+        }
+    ],
     "spark": [
         {
             "default": false,
@@ -83175,6 +83233,12 @@
         {
             "default": false,
             "package": "ecflow"
+        }
+    ],
+    "static_defaults": [
+        {
+            "default": true,
+            "package": "soqt"
         }
     ],
     "static_libstdcpp": [
@@ -85008,6 +85072,10 @@
         },
         {
             "default": false,
+            "package": "soqt"
+        },
+        {
+            "default": false,
             "package": "spglib"
         },
         {
@@ -86131,6 +86199,12 @@
         {
             "default": false,
             "package": "py-prometheus-client"
+        }
+    ],
+    "two_level_namespace": [
+        {
+            "default": false,
+            "package": "openmpi"
         }
     ],
     "twoway": [

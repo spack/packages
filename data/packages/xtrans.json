@@ -78,7 +78,7 @@
     ],
     "description": "xtrans is a library of code that is shared among various X packages to\nhandle network protocol transport in a modular fashion, allowing a\nsingle place to add new transport types. It is used by the X server,\nlibX11, libICE, the X font server, and related components.\n",
     "homepage": "https://gitlab.freedesktop.org/xorg/lib/libxtrans",
-    "latest_version": "1.5.0",
+    "latest_version": "1.5.2",
     "maintainers": [
         "wdconinc"
     ],
@@ -93,6 +93,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.5.2",
+            "sha256": "23031301f10fef5eaa55b438610fbd29294a70d2fa189355343bf0186bff8374"
+        },
         {
             "name": "1.5.0",
             "sha256": "a806f8a92f879dcd0146f3f1153fdffe845f2fc0df9b1a26c19312b7b0a29c86"

@@ -38,6 +38,10 @@
         {
             "description": "Tcl (Tool Command Language) is a very powerful but easy to learn dynamic\nprogramming language, suitable for a very wide range of uses, including\nweb and desktop applications, networking, administration, testing and\nmany more. Open source and business-friendly, Tcl is a mature yet\nevolving language that is truly cross platform, easily deployed and\nhighly extensible.",
             "name": "tcl"
+        },
+        {
+            "description": "Util-linux is a suite of essential utilities for any Linux system.",
+            "name": "util-linux"
         }
     ],
     "dependent_to": [
@@ -56,7 +60,7 @@
     ],
     "description": "The Environment Modules package provides for the dynamic modification of\na user's environment via module files.\n",
     "homepage": "https://cea-hpc.github.io/modules/",
-    "latest_version": "5.4.0",
+    "latest_version": "5.5.0",
     "maintainers": [
         "xdelaruelle"
     ],
@@ -79,6 +83,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "5.5.0",
+            "sha256": "ad0e360c7adc2515a99836863d98499b3ad89cd7548625499b20293845b040cb"
         },
         {
             "name": "5.4.0",

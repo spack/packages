@@ -320,7 +320,17 @@
         "adamjstewart"
     ],
     "name": "py-pillow-simd",
-    "patches": [],
+    "patches": [
+        {
+            "level": 1,
+            "owner": "builtin.py-pillow-simd",
+            "reverse": false,
+            "sha256": "599f37e6a5a8d1adb9f4025ffc7cae5f5b61cad60a04e7c7a3015f9e350047bb",
+            "url": "https://github.com/python-pillow/Pillow/commit/1c11d4581c5705dfa21bc5a4f3b6980c556978bf.patch?full_index=1",
+            "version": "@11.0.0",
+            "working_dir": "."
+        }
+    ],
     "resources": [],
     "variants": [
         {

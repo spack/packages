@@ -314,6 +314,10 @@
             "name": "py-pylint-gitlab"
         },
         {
+            "description": "Headless chrome/chromium automation library (unofficial port of\npuppeteer).",
+            "name": "py-pyppeteer"
+        },
+        {
             "description": "A Python validator for SHACL.",
             "name": "py-pyshacl"
         },

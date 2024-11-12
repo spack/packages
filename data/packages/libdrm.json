@@ -73,6 +73,10 @@
             "name": "intel-gpu-tools"
         },
         {
+            "description": "Libva is an implementation for VA-API (Video Acceleration API). VA-API\nis an open-source library and API specification, which provides access\nto graphics hardware acceleration capabilities for video processing. It\nconsists of a main library and driver-specific acceleration backends for\neach supported hardware vendor.",
+            "name": "libva"
+        },
+        {
             "description": "Nvtop stands for Neat Videocard TOP, a (h)top like task monitor for AMD\nand NVIDIA GPUS. It can handle multiple GPUs and print information about\nthem in a htop familiar way",
             "name": "nvtop"
         },

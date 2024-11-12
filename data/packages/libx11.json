@@ -236,6 +236,10 @@
             "name": "liboldx"
         },
         {
+            "description": "Libva is an implementation for VA-API (Video Acceleration API). VA-API\nis an open-source library and API specification, which provides access\nto graphics hardware acceleration capabilities for video processing. It\nconsists of a main library and driver-specific acceleration backends for\neach supported hardware vendor.",
+            "name": "libva"
+        },
+        {
             "description": "WindowsWM - Cygwin/X rootless window management extension. WindowsWM is\na simple library designed to interface with the Windows-WM extension.\nThis extension allows X window managers to better interact with the\nCygwin XWin server when running X11 in a rootless mode.",
             "name": "libwindowswm"
         },

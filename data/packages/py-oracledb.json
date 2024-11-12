@@ -39,7 +39,7 @@
     "dependent_to": [],
     "description": "Python-oracledb is the new name for the Python cx_Oracle driver. The\npython-oracledb driver is an open source module that enables Python\nprograms to access Oracle Database.\n",
     "homepage": "https://oracle.github.io/python-oracledb/",
-    "latest_version": "1.2.2",
+    "latest_version": "2.4.1",
     "maintainers": [],
     "name": "py-oracledb",
     "patches": [],
@@ -58,8 +58,16 @@
     ],
     "versions": [
         {
-            "name": "1.2.2",
-            "sha256": "dd9f63084e44642b484a46b2fcfb4fc921f39facf494a1bab00628fa6409f4fc"
+            "name": "2.4.1",
+            "sha256": "bd5976bef0e466e0f9d1b9f6531fb5b8171dc8534717ccb04b26e680b6c7571d"
+        },
+        {
+            "name": "2.3.0",
+            "sha256": "b9b0c4ec280b10063e6789bed23ddc2435ae98569ebe64e0b9a270780b9103d5"
+        },
+        {
+            "name": "1.4.2",
+            "sha256": "e28ed9046f2735dc2dd5bbcdf3667f284e384e0ec7eed3eeb3798fa8a7d47e36"
         }
     ],
     "versions_deprecated": []

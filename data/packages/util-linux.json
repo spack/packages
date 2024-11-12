@@ -52,6 +52,10 @@
             "name": "cryptsetup"
         },
         {
+            "description": "The Environment Modules package provides for the dynamic modification of\na user's environment via module files.",
+            "name": "environment-modules"
+        },
+        {
             "description": "GLib provides the core application building blocks for libraries and\napplications written in C. The GLib package contains a low-level\nlibraries useful for providing data structure handling for C,\nportability wrappers and interfaces for such runtime functionality as an\nevent loop, threads, dynamic loading and an object system.",
             "name": "glib"
         },

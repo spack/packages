@@ -458,6 +458,10 @@
         {
             "description": "Radeon Open Compute FFT library",
             "name": "rocfft"
+        },
+        {
+            "description": "The ROCm Validation Suite (RVS) is a system administrators and cluster\nmanager's tool for detecting and troubleshooting common problems\naffecting AMD GPU(s) running in a high-performance computing\nenvironment, enabled using the ROCm software stack on a compatible\nplatform.",
+            "name": "rocm-validation-suite"
         }
     ],
     "description": "The hipRAND project provides an interface for generating pseudo-random\nand quasi-random numbers with either cuRAND or rocRAND backends.\n",

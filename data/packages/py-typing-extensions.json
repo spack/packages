@@ -450,6 +450,10 @@
             "name": "py-pydata-sphinx-theme"
         },
         {
+            "description": "A rough port of Node.js's EventEmitter to Python with a few tricks of\nits own.",
+            "name": "py-pyee"
+        },
+        {
             "description": "Typed interactions with the GitHub API v3",
             "name": "py-pygithub"
         },

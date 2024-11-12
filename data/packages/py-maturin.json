@@ -42,6 +42,10 @@
     ],
     "dependent_to": [
         {
+            "description": "cryptography is a package which provides cryptographic recipes and\nprimitives to Python developers",
+            "name": "py-cryptography"
+        },
+        {
             "description": "Mozilla's Glean Telemetry SDK",
             "name": "py-glean-sdk"
         },

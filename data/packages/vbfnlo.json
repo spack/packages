@@ -48,6 +48,10 @@
         {
             "description": "GNU M4 is an implementation of the traditional Unix macro processor.",
             "name": "m4"
+        },
+        {
+            "description": "Tcsh is an enhanced but completely compatible version of csh, the C\nshell. Tcsh is a command language interpreter which can be used both as\nan interactive login shell and as a shell script command processor. Tcsh\nincludes a command line editor, programmable word completion, spelling\ncorrection, a history mechanism, job control and a C language like\nsyntax.",
+            "name": "tcsh"
         }
     ],
     "dependent_to": [
@@ -91,6 +95,10 @@
         {
             "name": "3.0.0beta1",
             "sha256": "19f0bf7e4c93b0f287d2531d6802c114a78eb46cde28ea820b2a074a5819c7ca"
+        },
+        {
+            "name": "3.0",
+            "sha256": "b9df02603e4f801f866360c720191a29afdb958d0bd4369ea7d810e761503e51"
         },
         {
             "name": "2.7.1",

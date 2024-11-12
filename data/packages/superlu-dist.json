@@ -507,13 +507,13 @@
     ],
     "description": "A general purpose library for the direct solution of large, sparse,\nnonsymmetric systems of linear equations on high performance machines.\n",
     "homepage": "https://crd-legacy.lbl.gov/~xiaoye/SuperLU/",
-    "latest_version": "8.2.1",
+    "latest_version": "9.1.0",
     "maintainers": [
         "balay",
         "gchavez2",
         "liuyangzhuan",
         "pghysels",
-        "xiaoye"
+        "xiaoyeli"
     ],
     "name": "superlu-dist",
     "patches": [
@@ -621,6 +621,14 @@
         {
             "branch": "master",
             "name": "develop"
+        },
+        {
+            "name": "9.1.0",
+            "sha256": "1cb2c6dc7e8231b2ec30c1266e55e440ffca9f55527771d8df28f900dd179f9d"
+        },
+        {
+            "name": "9.0.0",
+            "sha256": "aa43d33d4b1b0f5f7b5ad7685e9a6bc25088832c6c74d2ab8f75a2c9f4e9e955"
         },
         {
             "name": "8.2.1",

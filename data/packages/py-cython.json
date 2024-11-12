@@ -578,6 +578,10 @@
             "name": "py-pyheadtail"
         },
         {
+            "description": "HMMER is a biological sequence analysis tool that uses profile hidden\nMarkov models to search for sequence homologs. HMMER3 is developed and\nmaintained by the Eddy/Rivas Laboratory at Harvard University. pyhmmer\nis a Python package, implemented using the Cython language, that\nprovides bindings to HMMER3.",
+            "name": "py-pyhmmer"
+        },
+        {
             "description": "Pyjnius is a Python library for accessing Java classes.",
             "name": "py-pyjnius"
         },
@@ -612,6 +616,10 @@
         {
             "description": "PyRevolve. Python wrapper for Revolve:\nhttps://dl.acm.org/doi/10.1145/347837.347846",
             "name": "py-pyrevolve"
+        },
+        {
+            "description": "Cython bindings and Python interface to Prodigal, an ORF finder for\ngenomes and metagenomes",
+            "name": "py-pyrodigal"
         },
         {
             "description": "A python module for reading, manipulating and writing genomic data sets.",

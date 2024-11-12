@@ -22,6 +22,10 @@
             "name": "node-js"
         },
         {
+            "description": "npm: A package manager for javascript.",
+            "name": "npm"
+        },
+        {
             "description": "Fast, reliable, and secure dependency management.",
             "name": "yarn"
         }
@@ -29,7 +33,7 @@
     "dependent_to": [],
     "description": "Prometheus, a Cloud Native Computing Foundation project, is a systems\nand service monitoring system.\n",
     "homepage": "https://prometheus.io/",
-    "latest_version": "2.19.2",
+    "latest_version": "2.55.1",
     "maintainers": [],
     "name": "prometheus",
     "patches": [],
@@ -42,6 +46,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.55.1",
+            "sha256": "f48251f5c89eea6d3b43814499d558bacc4829265419ee69be49c5af98f79573"
+        },
         {
             "name": "2.19.2",
             "sha256": "d4e84cae2fed6761bb8a80fcc69b6e0e9f274d19dffc0f38fb5845f11da1bbc3"

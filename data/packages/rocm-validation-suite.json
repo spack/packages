@@ -24,6 +24,10 @@
             "name": "hip"
         },
         {
+            "description": "The hipRAND project provides an interface for generating pseudo-random\nand quasi-random numbers with either cuRAND or rocRAND backends.",
+            "name": "hiprand"
+        },
+        {
             "description": "This repository includes the user mode API nterfaces and libraries\nnecessary for host applications to launch computer kernels to available\nHSA ROCm kernel agents.AMD Heterogeneous System Architecture HSA - Linux\nHSA Runtime for Boltzmann (ROCm) platforms.",
             "name": "hsa-rocr-dev"
         },
@@ -46,6 +50,10 @@
         {
             "description": "Radeon Open Compute (ROCm) Runtime rocminfo tool",
             "name": "rocminfo"
+        },
+        {
+            "description": "The rocRAND project provides functions that generate pseudo-random and\nquasi-random numbers.",
+            "name": "rocrand"
         },
         {
             "description": "A YAML parser and emitter in C++",
@@ -108,7 +116,16 @@
             "relative_path": "009-replacing-rocm-path-with-package-path-6.1.patch",
             "reverse": false,
             "sha256": "96f06c7e26011b1d6fd745e830a42b7fef8447a0a4e500229de147a3b5f9a823",
-            "version": "@6.1",
+            "version": "@6.1:6.2.0",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.rocm-validation-suite",
+            "relative_path": "009-replacing-rocm-path-with-package-path-6.2.1.patch",
+            "reverse": false,
+            "sha256": "1b22c56cabeeb647018c21b34087786839e42817ecefa209f518ab6c3d77f681",
+            "version": "@6.2.1",
             "working_dir": "."
         }
     ],

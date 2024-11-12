@@ -217,6 +217,10 @@
             "name": "py-awkward"
         },
         {
+            "description": "Bakta: rapid & standardized annotation of bacterial genomes, MAGs &\nplasmids",
+            "name": "py-bakta"
+        },
+        {
             "description": "Security oriented static analyser for python code.",
             "name": "py-bandit"
         },

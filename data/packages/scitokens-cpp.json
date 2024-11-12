@@ -59,7 +59,7 @@
     ],
     "description": "A C++ implementation of the SciTokens library with a C library\ninterface. SciTokens provide a token format for distributed\nauthorization.\n",
     "homepage": "https://github.com/scitokens/scitokens-cpp",
-    "latest_version": "1.1.1",
+    "latest_version": "1.1.2",
     "maintainers": [
         "gartung",
         "greenc-FNAL",
@@ -97,6 +97,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.1.2",
+            "sha256": "07d33cb51a3ccd8460f2acebb15b35393aeccfc70e3554a73c9e5cffed6edb39"
+        },
         {
             "name": "1.1.1",
             "sha256": "a9091b888fc778282caf2a6808c86f685d2411557673152d58fe53932a6c7212"

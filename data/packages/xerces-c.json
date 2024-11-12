@@ -114,7 +114,7 @@
     ],
     "description": "Xerces-C++ is a validating XML parser written in a portable subset of\nC++. Xerces-C++ makes it easy to give your application the ability to\nread and write XML data. A shared library is provided for parsing,\ngenerating, manipulating, and validating XML documents using the DOM,\nSAX, and SAX2 APIs.\n",
     "homepage": "https://xerces.apache.org/xerces-c",
-    "latest_version": "3.2.5",
+    "latest_version": "3.3.0",
     "maintainers": [],
     "name": "xerces-c",
     "patches": [],
@@ -143,9 +143,15 @@
     ],
     "versions": [
         {
+            "name": "3.3.0",
+            "sha256": "ef752578587e26013a933f16d76305c9b43ca32f869e3d3426986e03efb01d64"
+        },
+        {
             "name": "3.2.5",
             "sha256": "1db4028c9b7f1f778efbf4a9462d65e13f9938f2c22f9e9994e12c49ba97e252"
-        },
+        }
+    ],
+    "versions_deprecated": [
         {
             "name": "3.2.4",
             "sha256": "74aa626fc71e729ee227602870dd29a5a01cd8c9c1c7330837a51da2eb5722cc"
@@ -170,6 +176,5 @@
             "name": "3.1.3",
             "sha256": "fc5e5e0247b108b8d64d75aeb124cabdee9b7fcd725a89fe2242b4637b25c1fa"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

@@ -428,7 +428,7 @@
     "dependent_to": [],
     "description": "The Ohio MicroBenchmark suite is a collection of independent MPI message\npassing performance microbenchmarks developed and written at The Ohio\nState University. It includes traditional benchmarks and performance\nmeasures such as latency, bandwidth and host overhead and can be used\nfor both traditional and GPU-enhanced nodes.\n",
     "homepage": "https://mvapich.cse.ohio-state.edu/benchmarks/",
-    "latest_version": "7.4",
+    "latest_version": "7.5",
     "maintainers": [
         "MatthewLieber",
         "harisubramoni",
@@ -475,6 +475,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "7.5",
+            "sha256": "1cf84ac5419456202757a757c5f9a4f5c6ecd05c65783c7976421cfd6020b3b3"
+        },
         {
             "name": "7.4",
             "sha256": "1edd0c2efa61999409bfb28740a7f39689a5b42b1a1b4c66d1656e5637f7cefc"

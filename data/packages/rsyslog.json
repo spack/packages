@@ -58,6 +58,10 @@
             "name": "m4"
         },
         {
+            "description": "pkgconf is a program which helps to configure compiler and linker flags\nfor development frameworks. It is similar to pkg-config from\nfreedesktop.org, providing additional functionality while also\nmaintaining compatibility.",
+            "name": "pkgconfig"
+        },
+        {
             "description": "Util-linux is a suite of essential utilities for any Linux system.",
             "name": "uuid"
         },
@@ -69,7 +73,7 @@
     "dependent_to": [],
     "description": "The rocket-fast Syslog Server.\n",
     "homepage": "https://www.rsyslog.com/",
-    "latest_version": "8.2006.0",
+    "latest_version": "8.2410.0",
     "maintainers": [],
     "name": "rsyslog",
     "patches": [],
@@ -83,6 +87,12 @@
     ],
     "versions": [
         {
+            "name": "8.2410.0",
+            "sha256": "0e4e6fcb1d72a1cb65438d85dd2bbf37a8f82115d7e271788535d1e7fbcf6838"
+        }
+    ],
+    "versions_deprecated": [
+        {
             "name": "8.2006.0",
             "sha256": "dc30a2ec02d5fac91d3a4f15a00641e0987941313483ced46592ab0b0d68f324"
         },
@@ -94,6 +104,5 @@
             "name": "8.2002.0",
             "sha256": "b31d56311532335212ef2ea7be4501508224cb21f1bef9d262c6d78e21959ea1"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

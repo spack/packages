@@ -2637,6 +2637,10 @@
             "name": "libuv-julia"
         },
         {
+            "description": "Libva is an implementation for VA-API (Video Acceleration API). VA-API\nis an open-source library and API specification, which provides access\nto graphics hardware acceleration capabilities for video processing. It\nconsists of a main library and driver-specific acceleration backends for\neach supported hardware vendor.",
+            "name": "libva"
+        },
+        {
             "description": "Portable C library of density functionals with van der Waals\ninteractions for density functional theory",
             "name": "libvdwxc"
         },

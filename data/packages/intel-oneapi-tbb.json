@@ -36,6 +36,10 @@
     "dependencies": [],
     "dependent_to": [
         {
+            "description": "Extrae is the package devoted to generate tracefiles which can be\nanalyzed later by Paraver. Extrae is a tool that uses different\ninterposition mechanisms to inject probes into the target application so\nas to gather information regarding the application performance. The\nExtrae instrumentation package can instrument the MPI programin model,\nand the following parallel programming models either alone or in\nconjunction with MPI : OpenMP, CUDA, OpenCL, pthread, OmpSs",
+            "name": "extrae"
+        },
+        {
             "description": "High-performance linear algebra library for manycore systems, with a\nfocus on sparse solution of linear systems.",
             "name": "ginkgo"
         }

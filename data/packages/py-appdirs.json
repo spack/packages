@@ -86,6 +86,10 @@
             "name": "py-pyopencl"
         },
         {
+            "description": "Headless chrome/chromium automation library (unofficial port of\npuppeteer).",
+            "name": "py-pyppeteer"
+        },
+        {
             "description": "A collection of tools for Python",
             "name": "py-pytools"
         },

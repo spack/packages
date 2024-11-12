@@ -46,6 +46,10 @@
             "name": "py-lightning"
         },
         {
+            "description": "Headless chrome/chromium automation library (unofficial port of\npuppeteer).",
+            "name": "py-pyppeteer"
+        },
+        {
             "description": "Qiskit IBM Quantum Provider for accessing the quantum devices and\nsimulators at IBM",
             "name": "py-qiskit-ibm-provider"
         },

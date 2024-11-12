@@ -1,7 +1,13 @@
 {
     "aliases": [],
     "build_system": "PythonPackage",
-    "conflicts": [],
+    "conflicts": [
+        {
+            "description": null,
+            "name": "arch=darwin-None-None",
+            "spec": "+deepsig"
+        }
+    ],
     "dependencies": [
         {
             "description": "NCBI AMRFinderPlus: This software and the accompanying database identify\nacquired antimicrobial resistance genes in bacterial protein and/or\nassembled nucleotide sequences as well as known resistance-associated\npoint mutations for several taxa. With AMRFinderPlus we added select\nmembers of additional classes of genes such as virulence factors,\nbiocide, heat, acid, and metal resistance genes.",
@@ -14,6 +20,10 @@
         {
             "description": "Basic Local Alignment Search Tool.",
             "name": "blast-plus"
+        },
+        {
+            "description": "Circos is a software package for visualizing data and information.",
+            "name": "circos"
         },
         {
             "description": "DIAMOND is a sequence aligner for protein and translated DNA searches,\ndesigned for high performance analysis of big sequence data.",
@@ -52,6 +62,18 @@
             "name": "py-pip"
         },
         {
+            "description": "HMMER is a biological sequence analysis tool that uses profile hidden\nMarkov models to search for sequence homologs. HMMER3 is developed and\nmaintained by the Eddy/Rivas Laboratory at Harvard University. pyhmmer\nis a Python package, implemented using the Cython language, that\nprovides bindings to HMMER3.",
+            "name": "py-pyhmmer"
+        },
+        {
+            "description": "Cython bindings and Python interface to Prodigal, an ORF finder for\ngenomes and metagenomes",
+            "name": "py-pyrodigal"
+        },
+        {
+            "description": "PyYAML is a YAML parser and emitter for Python.",
+            "name": "py-pyyaml"
+        },
+        {
             "description": "Python HTTP for Humans.",
             "name": "py-requests"
         },
@@ -83,7 +105,7 @@
     "dependent_to": [],
     "description": "Bakta: rapid & standardized annotation of bacterial genomes, MAGs &\nplasmids\n",
     "homepage": "https://github.com/oschwengers/bakta",
-    "latest_version": "1.5.1",
+    "latest_version": "1.9.4",
     "maintainers": [
         "oschwengers"
     ],
@@ -95,9 +117,18 @@
             "default": "python_pip",
             "description": "Build systems supported by the package",
             "name": "build_system"
+        },
+        {
+            "default": true,
+            "description": "builds with deepsig to predict signal peptides",
+            "name": "deepsig"
         }
     ],
     "versions": [
+        {
+            "name": "1.9.4",
+            "sha256": "10330a10e459144dc78daa26f3a73674799706e2e1653e080366b1bbb9e5a5d9"
+        },
         {
             "name": "1.5.1",
             "sha256": "36781612c4eaa99e6e24a00e8ab5b27dadf21c98ae6d16432f3e78c96a4adb5d"

@@ -7924,6 +7924,10 @@
         "name": "libuv-julia"
     },
     {
+        "description": "Libva is an implementation for VA-API (Video Acceleration API). VA-API\nis an open-source library and API specification, which provides access\nto graphics hardware acceleration capabilities for video processing. It\nconsists of a main library and driver-specific acceleration backends for\neach supported hardware vendor.\n",
+        "name": "libva"
+    },
+    {
         "description": "Portable C library of density functionals with van der Waals\ninteractions for density functional theory\n",
         "name": "libvdwxc"
     },
@@ -16824,6 +16828,10 @@
         "name": "py-fsspec"
     },
     {
+        "description": "An XRootD implementation for fsspec.\n",
+        "name": "py-fsspec-xrootd"
+    },
+    {
         "description": "Fixes Unicode that's broken in various ways.\n",
         "name": "py-ftfy"
     },
@@ -20640,6 +20648,10 @@
         "name": "py-pyedr"
     },
     {
+        "description": "A rough port of Node.js's EventEmitter to Python with a few tricks of\nits own.\n",
+        "name": "py-pyee"
+    },
+    {
         "description": "A pure-Python library for parsing and analyzing ELF files and DWARF\ndebugging information\n",
         "name": "py-pyelftools"
     },
@@ -20786,6 +20798,10 @@
     {
         "description": "CERN PyHEADTAIL numerical n-body simulation code for simulating macro-\nparticle beam dynamics with collective effects.\n",
         "name": "py-pyheadtail"
+    },
+    {
+        "description": "HMMER is a biological sequence analysis tool that uses profile hidden\nMarkov models to search for sequence homologs. HMMER3 is developed and\nmaintained by the Eddy/Rivas Laboratory at Harvard University. pyhmmer\nis a Python package, implemented using the Cython language, that\nprovides bindings to HMMER3.\n",
+        "name": "py-pyhmmer"
     },
     {
         "description": "Pyhull is a Python wrapper to Qhull (http://www.qhull.org/) for the\ncomputation of the convex hull, Delaunay triangulation and Voronoi\ndiagram. It is written as a Python C extension, with both high-level and\nlow-level interfaces to qhull.\n",
@@ -21044,6 +21060,10 @@
         "name": "py-pypng"
     },
     {
+        "description": "Headless chrome/chromium automation library (unofficial port of\npuppeteer).\n",
+        "name": "py-pyppeteer"
+    },
+    {
         "description": " This package provides python language bindings for the C++ library\npreCICE.\n",
         "name": "py-pyprecice"
     },
@@ -21138,6 +21158,10 @@
     {
         "description": "Pyrocko is an open source seismology toolbox and library, written in the\nPython programming language\n",
         "name": "py-pyrocko"
+    },
+    {
+        "description": "Cython bindings and Python interface to Prodigal, an ORF finder for\ngenomes and metagenomes\n",
+        "name": "py-pyrodigal"
     },
     {
         "description": "3D mathematical functions using NumPy.\n",
@@ -30706,6 +30730,10 @@
     {
         "description": "SOPT is an open-source C++ package available under the license below. It\nperforms Sparse OPTimisation using state-of-the-art convex optimisation\nalgorithms. It solves a variety of sparse regularisation problems,\nincluding the Sparsity Averaging Reweighted Analysis (SARA) algorithm.\n",
         "name": "sopt"
+    },
+    {
+        "description": "Old Coin GUI binding for Qt, replaced by Quarter\n",
+        "name": "soqt"
     },
     {
         "description": "SortMeRNA is a program tool for filtering, mapping and OTU-picking NGS\nreads in metatranscriptomic and metagenomic data\n",

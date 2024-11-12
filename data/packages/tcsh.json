@@ -64,6 +64,10 @@
             "name": "ncl"
         },
         {
+            "description": "VBFNLO is a fully flexible parton level Monte Carlo program for the\nsimulation of vector boson fusion, double and triple vector boson\nproduction in hadronic collisions at next to leading order in the strong\ncoupling constant.",
+            "name": "vbfnlo"
+        },
+        {
             "description": "The Weather Research and Forecasting Pre-Processing System (WPS)",
             "name": "wps"
         },

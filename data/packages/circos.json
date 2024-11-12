@@ -76,7 +76,12 @@
             "name": "perl-text-format"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "Bakta: rapid & standardized annotation of bacterial genomes, MAGs &\nplasmids",
+            "name": "py-bakta"
+        }
+    ],
     "description": "Circos is a software package for visualizing data and information.\n",
     "homepage": "http://circos.ca/",
     "latest_version": "0.69-9",

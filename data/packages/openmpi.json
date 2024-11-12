@@ -1010,6 +1010,11 @@
             "name": "thread_multiple"
         },
         {
+            "default": false,
+            "description": "Build shared libraries and programs\nbuilt with the mpicc/mpifort/etc. compiler wrappers\nwith '-Wl,-commons,use_dylibs' and without\n'-Wl,-flat_namespace'.",
+            "name": "two_level_namespace"
+        },
+        {
             "default": true,
             "description": "Build VampirTrace support",
             "name": "vt"

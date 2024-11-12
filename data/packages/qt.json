@@ -533,6 +533,10 @@
             "name": "silo"
         },
         {
+            "description": "Old Coin GUI binding for Qt, replaced by Quarter",
+            "name": "soqt"
+        },
+        {
             "description": "DB Browser for SQLite (DB4S) is a high quality, visual, open source tool\nto create, design, and edit database files compatible with SQLite.",
             "name": "sqlitebrowser"
         },

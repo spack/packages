@@ -30,6 +30,10 @@
             "name": "libpng"
         },
         {
+            "description": "Meson is a portable open source build system meant to be both extremely\nfast, and as user friendly as possible.",
+            "name": "meson"
+        },
+        {
             "description": "pkgconf is a program which helps to configure compiler and linker flags\nfor development frameworks. It is similar to pkg-config from\nfreedesktop.org, providing additional functionality while also\nmaintaining compatibility.",
             "name": "pkgconfig"
         }
@@ -58,7 +62,7 @@
     ],
     "description": "The Pixman package contains a library that provides low-level pixel\nmanipulation features such as image compositing and trapezoid\nrasterization.\n",
     "homepage": "https://www.pixman.org",
-    "latest_version": "0.42.2",
+    "latest_version": "0.44.0",
     "maintainers": [],
     "name": "pixman",
     "patches": [
@@ -84,7 +88,7 @@
     "resources": [],
     "variants": [
         {
-            "default": "autotools",
+            "default": "meson",
             "description": "Build systems supported by the package",
             "name": "build_system"
         },
@@ -95,6 +99,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.44.0",
+            "sha256": "89a4c1e1e45e0b23dffe708202cb2eaffde0fe3727d7692b2e1739fec78a7dac"
+        },
         {
             "name": "0.42.2",
             "sha256": "ea1480efada2fd948bc75366f7c349e1c96d3297d09a3fe62626e38e234a625e"
