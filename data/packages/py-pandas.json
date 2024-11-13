@@ -618,6 +618,10 @@
             "name": "py-niworkflows"
         },
         {
+            "description": "Standardised ML input processing for particle physics",
+            "name": "py-numl"
+        },
+        {
             "description": "The Open Graph Benchmark (OGB) is a collection of benchmark datasets,\ndata loaders, and evaluators for graph machine learning. Datasets cover\na variety of graph machine learning tasks and real-world applications.\nThe OGB data loaders are fully compatible with popular graph deep\nlearning frameworks, including PyTorch Geometric and Deep Graph Library\n(DGL). They provide automatic dataset downloading, standardized dataset\nsplits, and unified performance evaluation.",
             "name": "py-ogb"
         },

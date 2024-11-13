@@ -677,6 +677,14 @@
             "name": "ophidia-analytics-framework"
         },
         {
+            "description": "Parallel Data Concatenation for High Energy Physics Data Analysis",
+            "name": "ph5concat"
+        },
+        {
+            "description": "Standardised ML input processing for particle physics",
+            "name": "py-numl"
+        },
+        {
             "description": "The Pythia program is a standard tool for the generation of events in\nhigh-energy collisions, comprising a coherent set of physics models for\nthe evolution from a few-body hard process to a complex multiparticle\nfinal state.",
             "name": "pythia8"
         },

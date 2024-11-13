@@ -12,6 +12,10 @@
             "name": "py-setuptools"
         },
         {
+            "description": "Versioneer is a tool to automatically update version strings by asking\nyour version-control system about the current tree.",
+            "name": "py-versioneer"
+        },
+        {
             "description": "A built-package format for Python.",
             "name": "py-wheel"
         },
@@ -32,7 +36,7 @@
     ],
     "description": "Symbolic constants in Python\n",
     "homepage": "https://github.com/twisted/constantly",
-    "latest_version": "15.1.0",
+    "latest_version": "23.10.4",
     "maintainers": [],
     "name": "py-constantly",
     "patches": [],
@@ -45,6 +49,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "23.10.4",
+            "sha256": "aa92b70a33e2ac0bb33cd745eb61776594dc48764b06c35e0efd050b7f1c7cbd"
+        },
         {
             "name": "15.1.0",
             "sha256": "586372eb92059873e29eba4f9dec8381541b4d3834660707faf8ba59146dfc35"

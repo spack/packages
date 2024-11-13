@@ -159,6 +159,10 @@
             "name": "cosmomc"
         },
         {
+            "description": "costo stand for COSimulation TOols. Its a layer above MPI to share data\nbetween meshes.",
+            "name": "costo"
+        },
+        {
             "description": "CryoDRGN is a neural network based algorithm for heterogeneous cryo-EM\nreconstruction. In particular, the method models a continuous\ndistribution over 3D structures by using a neural network based\nrepresentation for the volume",
             "name": "cryodrgn"
         },

@@ -730,6 +730,10 @@
             "name": "py-niworkflows"
         },
         {
+            "description": "Graph Neural Network for neutrino physics event reconstruction",
+            "name": "py-nugraph"
+        },
+        {
             "description": "ObsPy is an open-source project dedicated to provide a Python framework\nfor processing seismological data",
             "name": "py-obspy"
         },

@@ -5226,6 +5226,10 @@
         },
         {
             "default": "cmake",
+            "package": "costo"
+        },
+        {
+            "default": "cmake",
             "package": "cotter"
         },
         {
@@ -15949,6 +15953,10 @@
             "package": "pgplot"
         },
         {
+            "default": "autotools",
+            "package": "ph5concat"
+        },
+        {
             "default": "generic",
             "package": "phantompeakqualtools"
         },
@@ -22266,6 +22274,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-nugraph"
+        },
+        {
+            "default": "python_pip",
             "package": "py-nuitka"
         },
         {
@@ -22295,6 +22307,10 @@
         {
             "default": "python_pip",
             "package": "py-numexpr3"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-numl"
         },
         {
             "default": "python_pip",
@@ -36950,6 +36966,10 @@
         },
         {
             "default": "Release",
+            "package": "costo"
+        },
+        {
+            "default": "Release",
             "package": "cotter"
         },
         {
@@ -46022,6 +46042,10 @@
         },
         {
             "default": "17",
+            "package": "geomodel"
+        },
+        {
+            "default": "17",
             "package": "gitconddb"
         },
         {
@@ -52601,6 +52625,10 @@
         {
             "default": "make",
             "package": "costa"
+        },
+        {
+            "default": "make",
+            "package": "costo"
         },
         {
             "default": "make",
@@ -60939,6 +60967,10 @@
         {
             "default": false,
             "package": "costa"
+        },
+        {
+            "default": false,
+            "package": "costo"
         },
         {
             "default": false,
@@ -76752,6 +76784,10 @@
         },
         {
             "default": false,
+            "package": "ph5concat"
+        },
+        {
+            "default": false,
             "package": "spectre"
         },
         {
@@ -80715,6 +80751,10 @@
         {
             "default": true,
             "package": "costa"
+        },
+        {
+            "default": true,
+            "package": "costo"
         },
         {
             "default": true,
@@ -84937,6 +84977,10 @@
         {
             "default": false,
             "package": "costa"
+        },
+        {
+            "default": false,
+            "package": "costo"
         },
         {
             "default": false,

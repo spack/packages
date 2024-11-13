@@ -208,6 +208,10 @@
             "name": "cosmomc"
         },
         {
+            "description": "costo stand for COSimulation TOols. Its a layer above MPI to share data\nbetween meshes.",
+            "name": "costo"
+        },
+        {
             "description": "CP2K is a quantum chemistry and solid state physics software package\nthat can perform atomistic simulations of solid state, liquid,\nmolecular, periodic, material, crystal, and biological systems",
             "name": "cp2k"
         },

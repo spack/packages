@@ -182,6 +182,14 @@
             "name": "py-npx"
         },
         {
+            "description": "Graph Neural Network for neutrino physics event reconstruction",
+            "name": "py-nugraph"
+        },
+        {
+            "description": "Standardised ML input processing for particle physics",
+            "name": "py-numl"
+        },
+        {
             "description": "A gradient processing and optimisation library in JAX.",
             "name": "py-optax"
         },

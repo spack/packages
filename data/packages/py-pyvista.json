@@ -66,6 +66,10 @@
     ],
     "dependent_to": [
         {
+            "description": "costo stand for COSimulation TOols. Its a layer above MPI to share data\nbetween meshes.",
+            "name": "costo"
+        },
+        {
             "description": "MNE python project for MEG and EEG data analysis.",
             "name": "py-mne"
         },

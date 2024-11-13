@@ -56,7 +56,12 @@
             "name": "python-venv"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "Standardised ML input processing for particle physics",
+            "name": "py-numl"
+        }
+    ],
     "description": "Particle provides a pythonic interface to the Particle Data Group (PDG)\nparticle data tables and particle identification codes, with extended\nparticle information and extra goodies.\n",
     "homepage": "https://github.com/scikit-hep/particle",
     "latest_version": "0.24.0",

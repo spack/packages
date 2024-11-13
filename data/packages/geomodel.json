@@ -90,6 +90,11 @@
             "name": "build_type"
         },
         {
+            "default": "17",
+            "description": "Use the specified C++ standard when building",
+            "name": "cxxstd"
+        },
+        {
             "default": false,
             "description": "Enable the build of GeoModelExamples",
             "name": "examples"

@@ -133,6 +133,10 @@
             "name": "nlohmann-json"
         },
         {
+            "description": "pkgconf is a program which helps to configure compiler and linker flags\nfor development frameworks. It is similar to pkg-config from\nfreedesktop.org, providing additional functionality while also\nmaintaining compatibility.",
+            "name": "pkgconfig"
+        },
+        {
             "description": "PROJ is a generic coordinate transformation software, that transforms\ngeospatial coordinates from one coordinate reference system (CRS) to\nanother. This includes cartographic projections as well as geodetic\ntransformations.",
             "name": "proj"
         },

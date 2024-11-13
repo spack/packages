@@ -126,6 +126,10 @@
             "name": "py-lightly"
         },
         {
+            "description": "Graph Neural Network for neutrino physics event reconstruction",
+            "name": "py-nugraph"
+        },
+        {
             "description": "TorchGeo: datasets, samplers, transforms, and pre-trained models for\ngeospatial data.",
             "name": "py-torchgeo"
         }

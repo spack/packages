@@ -50,6 +50,10 @@
             "name": "gmake"
         },
         {
+            "description": "Libxml2 is the XML C parser and toolkit developed for the Gnome project\n(but usable outside of the Gnome platform), it is free software\navailable under the MIT License.",
+            "name": "libxml2"
+        },
+        {
             "description": "The ncurses (new curses) library is a free software emulation of curses\nin System V Release 4.0, and more. It uses terminfo format, supports\npads and color and multiple highlights and forms characters and\nfunction-key mapping, and has all the other SYSV-curses enhancements\nover BSD curses.",
             "name": "ncurses"
         },

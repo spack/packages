@@ -613,6 +613,10 @@
             "name": "pflotran"
         },
         {
+            "description": "Parallel Data Concatenation for High Energy Physics Data Analysis",
+            "name": "ph5concat"
+        },
+        {
             "description": "Advanced Multilanguage Interface for CVODES and IDAS",
             "name": "py-amici"
         },

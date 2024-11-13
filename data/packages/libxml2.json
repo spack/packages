@@ -279,6 +279,10 @@
             "name": "llvm"
         },
         {
+            "description": "Toolkit for the construction of highly optimized compilers, optimizers,\nand run-time environments.",
+            "name": "llvm-amdgpu"
+        },
+        {
             "description": "mapnik combines pixel-perfect image output with lightning-fast\ncartographic algorithms, and exposes interfaces in C++, Python, and Node",
             "name": "mapnik"
         },

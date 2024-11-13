@@ -242,7 +242,7 @@
     ],
     "description": "Expat is an XML parser library written in C.\n",
     "homepage": "https://libexpat.github.io/",
-    "latest_version": "2.6.3",
+    "latest_version": "2.6.4",
     "maintainers": [],
     "name": "expat",
     "patches": [],
@@ -281,11 +281,15 @@
     ],
     "versions": [
         {
-            "name": "2.6.3",
-            "sha256": "b8baef92f328eebcf731f4d18103951c61fa8c8ec21d5ff4202fb6f2198aeb2d"
+            "name": "2.6.4",
+            "sha256": "8dc480b796163d4436e6f1352e71800a774f73dbae213f1860b60607d2a83ada"
         }
     ],
     "versions_deprecated": [
+        {
+            "name": "2.6.3",
+            "sha256": "b8baef92f328eebcf731f4d18103951c61fa8c8ec21d5ff4202fb6f2198aeb2d"
+        },
         {
             "name": "2.6.2",
             "sha256": "9c7c1b5dcbc3c237c500a8fb1493e14d9582146dd9b42aa8d3ffb856a3b927e0"

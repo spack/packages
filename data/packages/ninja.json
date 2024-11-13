@@ -762,6 +762,10 @@
             "name": "costa"
         },
         {
+            "description": "costo stand for COSimulation TOols. Its a layer above MPI to share data\nbetween meshes.",
+            "name": "costo"
+        },
+        {
             "description": "Andre Offringa's cotter pre-processing pipeline.",
             "name": "cotter"
         },

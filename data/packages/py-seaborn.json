@@ -110,6 +110,10 @@
             "name": "py-niworkflows"
         },
         {
+            "description": "Graph Neural Network for neutrino physics event reconstruction",
+            "name": "py-nugraph"
+        },
+        {
             "description": "PhyloPhlAn 3.0 is an integrated pipeline for large-scale phylogenetic\nprofiling of genomes and metagenomes.",
             "name": "py-phylophlan"
         },

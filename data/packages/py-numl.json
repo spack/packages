@@ -1,0 +1,124 @@
+{
+    "aliases": [],
+    "build_system": "PythonPackage",
+    "conflicts": [],
+    "dependencies": [
+        {
+            "description": "MPICH is a high performance and widely portable implementation of the\nMessage Passing Interface (MPI) standard.",
+            "name": "mpich"
+        },
+        {
+            "description": "Distribution-building parts of Flit.",
+            "name": "py-flit-core"
+        },
+        {
+            "description": "The h5py package provides both a high- and low-level interface to the\nHDF5 library from Python.",
+            "name": "py-h5py"
+        },
+        {
+            "description": "pandas is a fast, powerful, flexible and easy to use open source data\nanalysis and manipulation tool, built on top of the Python programming\nlanguage.",
+            "name": "py-pandas"
+        },
+        {
+            "description": "Particle provides a pythonic interface to the Particle Data Group (PDG)\nparticle data tables and particle identification codes, with extended\nparticle information and extra goodies.",
+            "name": "py-particle"
+        },
+        {
+            "description": "The PyPA recommended tool for installing Python packages.",
+            "name": "py-pip"
+        },
+        {
+            "description": "An interactive, browser-based graphing library for Python",
+            "name": "py-plotly"
+        },
+        {
+            "description": "Graph Neural Network Library for PyTorch.",
+            "name": "py-torch-geometric"
+        },
+        {
+            "description": "A built-package format for Python.",
+            "name": "py-wheel"
+        },
+        {
+            "description": "The Python programming language.",
+            "name": "python"
+        },
+        {
+            "description": "A Spack managed Python virtual environment",
+            "name": "python-venv"
+        }
+    ],
+    "dependent_to": [
+        {
+            "description": "Graph Neural Network for neutrino physics event reconstruction",
+            "name": "py-nugraph"
+        }
+    ],
+    "description": "Standardised ML input processing for particle physics\n",
+    "homepage": "https://pypi.org/project/pynuml/",
+    "latest_version": "24.7.1",
+    "maintainers": [
+        "vhewes"
+    ],
+    "name": "py-numl",
+    "patches": [],
+    "resources": [],
+    "variants": [
+        {
+            "default": "python_pip",
+            "description": "Build systems supported by the package",
+            "name": "build_system"
+        }
+    ],
+    "versions": [
+        {
+            "name": "24.7.1",
+            "sha256": "20d2f1a07887473e67c79ecc3804b8012e22b78883199fdb0d07bb1b725b6ab0"
+        },
+        {
+            "name": "24.7.0",
+            "sha256": "d47f71ead6861278595b79d04c554da4998d5c4c50587e4c90231f50db0f2e81"
+        },
+        {
+            "name": "24.6.0",
+            "sha256": "357d2b0e0b9ca179514d177278620e5ac57bed37bfb6d145c172150126432613"
+        },
+        {
+            "name": "23.11.0",
+            "sha256": "1a7e61864cfeb0b27c6a93646c33e3f457bbc384eb86aee4df76b5e02898d02f"
+        },
+        {
+            "name": "23.9.0",
+            "sha256": "77ea8c9df541351adeb249594cce27d742973ee82a0d7f2ad8cdcffa9d3fa6b1"
+        },
+        {
+            "name": "23.8.0",
+            "sha256": "0896797f3f70b3a6d3d74f7a3e7fe5eaf59a2000a47ffc7ac08b73be0aa15706"
+        },
+        {
+            "name": "23.7.0",
+            "sha256": "5449dd09a7e046d036e12c7971e61d2862cdb79c7932144b038288fc05ca50a8"
+        },
+        {
+            "name": "23.6.1",
+            "sha256": "fdb23a9d4f1b83b06cc35b07608fe4c2e55f8307ac47851cccc21a20b69ab674"
+        },
+        {
+            "name": "23.6.0",
+            "sha256": "fcc1546b9489584f2635f6418c5e1a43f6bdf02dd5c46b7afa09ea5f247524a2"
+        },
+        {
+            "name": "23.5.2",
+            "sha256": "d83576c8e25e22cc9ba68a35b9690ea861f7a4c09db65ca134849c89fba9b330"
+        },
+        {
+            "name": "23.5.1",
+            "sha256": "73ef1bea1022b9ebddec35ac7d66c1394003aa5e63a4ec99bfa14d4f833e04a4"
+        },
+        {
+            "name": "23.5.0",
+            "sha256": "dccb774932813ddc788b1d27e52e251d9db6ea16b303596bfa0955ae51098674"
+        }
+    ],
+    "versions_deprecated": []
+}

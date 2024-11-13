@@ -38,6 +38,10 @@
             "name": "py-bottleneck"
         },
         {
+            "description": "Symbolic constants in Python",
+            "name": "py-constantly"
+        },
+        {
             "description": "Dask is a flexible parallel computing library for analytics.",
             "name": "py-dask"
         },

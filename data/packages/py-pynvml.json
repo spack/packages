@@ -30,6 +30,10 @@
             "name": "py-fairscale"
         },
         {
+            "description": "Graph Neural Network for neutrino physics event reconstruction",
+            "name": "py-nugraph"
+        },
+        {
             "description": "UCX-Py is the Python interface for UCX, a low-level high-performance\nnetworking library. UCX and UCX-Py supports several transport methods\nincluding InfiniBand and NVLink while still using traditional networking\nprotocols like TCP.",
             "name": "py-ucx-py"
         }

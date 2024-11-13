@@ -54,6 +54,10 @@
             "name": "cosmoflow-benchmark"
         },
         {
+            "description": "costo stand for COSimulation TOols. Its a layer above MPI to share data\nbetween meshes.",
+            "name": "costo"
+        },
+        {
             "description": "The CRADL proxy application captured performance metrics during\ninference on data from multiphysics codes, specifically ALE\nhydrodynamics codes.",
             "name": "cradl"
         },

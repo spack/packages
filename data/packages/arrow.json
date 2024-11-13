@@ -501,7 +501,7 @@
     ],
     "description": "A cross-language development platform for in-memory data. This package\ncontains the C++ bindings.\n",
     "homepage": "https://arrow.apache.org",
-    "latest_version": "16.1.0",
+    "latest_version": "18.0.0",
     "maintainers": [],
     "name": "arrow",
     "patches": [],
@@ -624,6 +624,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "18.0.0",
+            "sha256": "9c473f2c9914c59ab571761c9497cf0e5cfd3ea335f7782ccc6121f5cb99ae9b"
+        },
         {
             "name": "16.1.0",
             "sha256": "9762d9ecc13d09de2a03f9c625a74db0d645cb012de1e9a10dfed0b4ddc09524"

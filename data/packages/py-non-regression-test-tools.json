@@ -28,7 +28,12 @@
             "name": "python-venv"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "costo stand for COSimulation TOols. Its a layer above MPI to share data\nbetween meshes.",
+            "name": "costo"
+        }
+    ],
     "description": "non regression test tools.\n",
     "homepage": "https://gitlab.com/Te_ch/non-regression-test-tools",
     "latest_version": "1.1.4",

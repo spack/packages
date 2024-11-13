@@ -38,6 +38,10 @@
             "name": "awscli-v2"
         },
         {
+            "description": "costo stand for COSimulation TOols. Its a layer above MPI to share data\nbetween meshes.",
+            "name": "costo"
+        },
+        {
             "description": "Python tools for GATE, see https://github.com/OpenGATE/Gate",
             "name": "gatetools"
         },

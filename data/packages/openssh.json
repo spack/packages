@@ -62,7 +62,7 @@
     ],
     "description": "OpenSSH is the premier connectivity tool for remote login with the SSH\nprotocol. It encrypts all traffic to eliminate eavesdropping, connection\nhijacking, and other attacks. In addition, OpenSSH provides a large\nsuite of secure tunneling capabilities, several authentication methods,\nand sophisticated configuration options.\n",
     "homepage": "https://www.openssh.com/",
-    "latest_version": "9.8p1",
+    "latest_version": "9.9p1",
     "maintainers": [
         "bernhardkaindl"
     ],
@@ -111,6 +111,10 @@
     ],
     "versions": [
         {
+            "name": "9.9p1",
+            "sha256": "b343fbcdbff87f15b1986e6e15d6d4fc9a7d36066be6b7fb507087ba8f966c02"
+        },
+        {
             "name": "9.8p1",
             "sha256": "dd8bd002a379b5d499dfb050dd1fa9af8029e80461f4bb6c523c49973f5a39f3"
         },
@@ -133,7 +137,9 @@
         {
             "name": "9.3p1",
             "sha256": "e9baba7701a76a51f3d85a62c383a3c9dcd97fa900b859bc7db114c1868af8a8"
-        },
+        }
+    ],
+    "versions_deprecated": [
         {
             "name": "9.2p1",
             "sha256": "3f66dbf1655fb45f50e1c56da62ab01218c228807b21338d634ebcdf9d71cf46"
@@ -226,6 +232,5 @@
             "name": "6.6p1",
             "sha256": "48c1f0664b4534875038004cc4f3555b8329c2a81c1df48db5c517800de203bb"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

@@ -1388,6 +1388,10 @@
             "name": "pcsclite"
         },
         {
+            "description": "Parallel Data Concatenation for High Energy Physics Data Analysis",
+            "name": "ph5concat"
+        },
+        {
             "description": "PHP is a popular general-purpose scripting language that is especially\nsuited to web development. Fast, flexible and pragmatic, PHP powers\neverything from your blog to the most popular websites in the world.",
             "name": "php"
         },

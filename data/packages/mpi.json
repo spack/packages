@@ -410,6 +410,10 @@
             "name": "costa"
         },
         {
+            "description": "costo stand for COSimulation TOols. Its a layer above MPI to share data\nbetween meshes.",
+            "name": "costo"
+        },
+        {
             "description": "COUNTDOWN is a tool for identifying and automatically reducing the power\nconsumption of the computing elements, during communication and\nsynchronization primitives, filtering out phases which would detriment\nthe time to solution of the application.",
             "name": "countdown"
         },
