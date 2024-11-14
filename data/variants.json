@@ -42802,6 +42802,10 @@
     "complex": [
         {
             "default": false,
+            "package": "dealii"
+        },
+        {
+            "default": false,
             "package": "hypre"
         },
         {
@@ -49587,6 +49591,12 @@
         {
             "default": true,
             "package": "sundials"
+        }
+    ],
+    "examples_compile": [
+        {
+            "default": true,
+            "package": "dealii"
         }
     ],
     "excel": [
@@ -72305,7 +72315,7 @@
             "package": "cgm"
         },
         {
-            "default": true,
+            "default": false,
             "package": "dealii"
         },
         {
@@ -72742,6 +72752,10 @@
         }
     ],
     "opencascade": [
+        {
+            "default": true,
+            "package": "dealii"
+        },
         {
             "default": false,
             "package": "gmsh"

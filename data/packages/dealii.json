@@ -383,6 +383,11 @@
             "spec": "+netcdf"
         },
         {
+            "description": "dealii: Only one among OCE or OPENCASCADE can be selected.",
+            "name": "oce",
+            "spec": "+opencascade"
+        },
+        {
             "description": "dealii: The interface to Nanoflann was removed from version 9.3.0. Please explicitly disable this variant via ~nanoflann",
             "name": "+nanoflann",
             "spec": "@9.3.0:"
@@ -653,6 +658,10 @@
             "name": "oce"
         },
         {
+            "description": "Open CASCADE Technology is a software development kit (SDK) intended for\ndevelopment of applications dealing with 3D CAD data, freely available\nin open source. It includes a set of C++ class libraries providing\nservices for 3D surface and solid modeling, visualization, data exchange\nand rapid application development.",
+            "name": "opencascade"
+        },
+        {
             "description": "Dynamic management of a collection (a forest) of adaptive octrees in\nparallel",
             "name": "p4est"
         },
@@ -725,7 +734,7 @@
     ],
     "description": "C++ software library providing well-documented tools to build finite\nelement codes for a broad variety of PDEs.\n",
     "homepage": "https://www.dealii.org",
-    "latest_version": "9.5.1",
+    "latest_version": "9.6.0",
     "maintainers": [
         "jppelteret",
         "luca-heltai"
@@ -835,6 +844,11 @@
         },
         {
             "default": false,
+            "description": "Compile with complex value support",
+            "name": "complex"
+        },
+        {
+            "default": false,
             "description": "Build with CUDA",
             "name": "cuda"
         },
@@ -855,8 +869,13 @@
         },
         {
             "default": true,
-            "description": "Compile and install tutorial programs",
+            "description": "Install source files of tutorial programs",
             "name": "examples"
+        },
+        {
+            "default": true,
+            "description": "Install binary files of tutorial programs",
+            "name": "examples_compile"
         },
         {
             "default": "make",
@@ -924,9 +943,14 @@
             "name": "netcdf"
         },
         {
-            "default": true,
+            "default": false,
             "description": "Compile with OCE",
             "name": "oce"
+        },
+        {
+            "default": true,
+            "description": "Compile with OPENCASCADE",
+            "name": "opencascade"
         },
         {
             "default": false,
@@ -1003,6 +1027,14 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "9.6.0",
+            "sha256": "675323f0eb8eed2cfc93e2ced07a0ec5727c6a566ff9e7786c01a2ddcde17bed"
+        },
+        {
+            "name": "9.5.2",
+            "sha256": "7930e5218a9807d60cc05c300a3b70f36f4af22c3551a2cd1141fbab013bbaf1"
         },
         {
             "name": "9.5.1",

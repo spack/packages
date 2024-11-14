@@ -30,6 +30,10 @@
         {
             "description": "BIND 9 has evolved to be a very flexible, full-featured DNS system.",
             "name": "bind9"
+        },
+        {
+            "description": "XFS User Tools.",
+            "name": "xfsprogs"
         }
     ],
     "description": "liburcu is a LGPLv2.1 userspace RCU (read-copy-update) library. This\ndata synchronization library provides read-side access which scales\nlinearly with the number of cores.\n",
