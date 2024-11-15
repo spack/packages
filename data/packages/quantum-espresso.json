@@ -53,11 +53,6 @@
             "spec": "+epw"
         },
         {
-            "description": "quantum-espresso: PGI+OpenMPI version combo incompatible with EPW",
-            "name": "^openmpi@1.10.7%pgi@17.0:17.12",
-            "spec": "+epw"
-        },
-        {
             "description": "quantum-espresso: OpenMPI version incompatible with EPW",
             "name": "^openmpi@2.0.0:2",
             "spec": "+epw"

@@ -19,11 +19,6 @@
         },
         {
             "description": "amrvis: Amrvis currently only builds with gcc and clang",
-            "name": "%pgi",
-            "spec": ""
-        },
-        {
-            "description": "amrvis: Amrvis currently only builds with gcc and clang",
             "name": "%xl",
             "spec": ""
         },

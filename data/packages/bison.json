@@ -521,15 +521,6 @@
         {
             "level": 1,
             "owner": "builtin.bison",
-            "relative_path": "pgi.patch",
-            "reverse": false,
-            "sha256": "b72914fe38e54a6fc25f29019e0a0786705c4f61ce20d414cc2010c8d62448c7",
-            "version": "@3.0.4",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.bison",
             "relative_path": "nvhpc-3.6.patch",
             "reverse": false,
             "sha256": "ad81ef1b088459a396d908295afc3809f9a25076efaa459cdd2f21eabd1f4b16",

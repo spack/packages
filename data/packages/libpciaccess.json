@@ -4,11 +4,6 @@
     "conflicts": [
         {
             "description": null,
-            "name": "%pgi",
-            "spec": ""
-        },
-        {
-            "description": null,
             "name": "arch=darwin-None-None",
             "spec": ""
         },

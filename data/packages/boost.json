@@ -1419,33 +1419,6 @@
         {
             "level": 1,
             "owner": "builtin.boost",
-            "relative_path": "boost_1.67.0_pgi.patch",
-            "reverse": false,
-            "sha256": "6f8119bbbf80a23aecefffe4cb230b8383fb25e21a589eec74275e3efe487d0d",
-            "version": "@1.67.0:1.68%pgi",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.boost",
-            "relative_path": "boost_1.63.0_pgi.patch",
-            "reverse": false,
-            "sha256": "a2f8809e36835080bfa9e69ee8260662858b8d5b1c1c10cdf0ab7e0a381ae872",
-            "version": "@1.63.0%pgi",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.boost",
-            "relative_path": "boost_1.63.0_pgi_17.4_workaround.patch",
-            "reverse": false,
-            "sha256": "f59e6ce697fea69256d597ec624f8c47b5e35f743fa6d91207cf8933737911dd",
-            "version": "@1.63.0%pgi@17.4",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.boost",
             "relative_path": "nvhpc-1.74.patch",
             "reverse": false,
             "sha256": "d56f31f2a3956630e5372b987d39cb79b5d2c71760fa150b8eb4a3f1a07e2658",

@@ -5583,6 +5583,10 @@
             "name": "yaml-cpp"
         },
         {
+            "description": "The fastest JSON library in C",
+            "name": "yyjson"
+        },
+        {
             "description": "Z3 is a theorem prover from Microsoft Research. It is licensed under the\nMIT license.",
             "name": "z3"
         },

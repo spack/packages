@@ -12518,6 +12518,10 @@
             "name": "yosys"
         },
         {
+            "description": "The fastest JSON library in C",
+            "name": "yyjson"
+        },
+        {
             "description": "a library to perform the compression assessment for lossy compressors",
             "name": "z-checker"
         },

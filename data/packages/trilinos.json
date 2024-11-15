@@ -44,11 +44,6 @@
         },
         {
             "description": null,
-            "name": "%pgi@:17,20:",
-            "spec": "+cuda ^cuda@10.1.105:10.2.89~allow-unsupported-compilers arch=None-None-x86_64:"
-        },
-        {
-            "description": null,
             "name": "%clang@:3.7,7.1:",
             "spec": "+cuda ^cuda@10.1.105~allow-unsupported-compilers arch=None-None-x86_64:"
         },
@@ -56,11 +51,6 @@
             "description": null,
             "name": "%clang@:3.2,9:",
             "spec": "+cuda ^cuda@10.2.89~allow-unsupported-compilers arch=None-None-x86_64:"
-        },
-        {
-            "description": null,
-            "name": "%pgi@:17,21:",
-            "spec": "+cuda ^cuda@11.0.2:11.1.0~allow-unsupported-compilers arch=None-None-x86_64:"
         },
         {
             "description": null,
@@ -114,11 +104,6 @@
         },
         {
             "description": null,
-            "name": "%pgi@:15.3,15.5:",
-            "spec": "+cuda ^cuda@7.5~allow-unsupported-compilers arch=None-None-x86_64:"
-        },
-        {
-            "description": null,
             "name": "%intel@:14.9",
             "spec": "+cuda ^cuda@7:~allow-unsupported-compilers"
         },
@@ -129,23 +114,8 @@
         },
         {
             "description": null,
-            "name": "%pgi@:16.3",
-            "spec": "+cuda ^cuda@8~allow-unsupported-compilers arch=None-None-x86_64:"
-        },
-        {
-            "description": null,
-            "name": "%pgi@:15,18:",
-            "spec": "+cuda ^cuda@9.0:9.1~allow-unsupported-compilers arch=None-None-x86_64:"
-        },
-        {
-            "description": null,
             "name": "%clang@:3.7,4.1:",
             "spec": "+cuda ^cuda@9.1~allow-unsupported-compilers arch=None-None-x86_64:"
-        },
-        {
-            "description": null,
-            "name": "%pgi@:16,19:",
-            "spec": "+cuda ^cuda@9.2.88:10.0~allow-unsupported-compilers arch=None-None-x86_64:"
         },
         {
             "description": null,
@@ -196,11 +166,6 @@
             "description": null,
             "name": "%gcc@9:",
             "spec": "+cuda ^cuda@:10.2.89~allow-unsupported-compilers arch=None-None-x86_64:"
-        },
-        {
-            "description": null,
-            "name": "%pgi@:17",
-            "spec": "+cuda ^cuda@:10~allow-unsupported-compilers arch=None-None-ppc64le:"
         },
         {
             "description": null,
@@ -324,11 +289,6 @@
         },
         {
             "description": null,
-            "name": "%pgi@:14.8",
-            "spec": "+cuda ^cuda@:7.0.27~allow-unsupported-compilers arch=None-None-x86_64:"
-        },
-        {
-            "description": null,
             "name": "%clang@:3.4",
             "spec": "+cuda ^cuda@:7.5~allow-unsupported-compilers arch=None-None-x86_64:"
         },
@@ -349,11 +309,6 @@
         },
         {
             "description": null,
-            "name": "%pgi",
-            "spec": "+cuda ^cuda@:8~allow-unsupported-compilers arch=None-None-ppc64le:"
-        },
-        {
-            "description": null,
             "name": "%gcc@6:",
             "spec": "+cuda ^cuda@:8~allow-unsupported-compilers arch=None-None-x86_64:"
         },
@@ -361,11 +316,6 @@
             "description": null,
             "name": "%clang@4:",
             "spec": "+cuda ^cuda@:9.0.176~allow-unsupported-compilers arch=None-None-ppc64le:"
-        },
-        {
-            "description": null,
-            "name": "%pgi@:16",
-            "spec": "+cuda ^cuda@:9.1.185~allow-unsupported-compilers arch=None-None-ppc64le:"
         },
         {
             "description": null,

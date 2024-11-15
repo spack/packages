@@ -671,10 +671,6 @@
             "package": "intel-oneapi-compilers"
         },
         {
-            "default": false,
-            "package": "pgi"
-        },
-        {
             "default": true,
             "package": "qrmumps"
         }
@@ -7379,10 +7375,6 @@
         {
             "default": "generic",
             "package": "gaussian"
-        },
-        {
-            "default": "generic",
-            "package": "gaussian-src"
         },
         {
             "default": "generic",
@@ -15943,10 +15935,6 @@
         {
             "default": "generic",
             "package": "pgdspider"
-        },
-        {
-            "default": "generic",
-            "package": "pgi"
         },
         {
             "default": "makefile",
@@ -36133,6 +36121,10 @@
             "package": "yq"
         },
         {
+            "default": "cmake",
+            "package": "yyjson"
+        },
+        {
             "default": "autotools",
             "package": "z-checker"
         },
@@ -41319,6 +41311,10 @@
         {
             "default": "Release",
             "package": "yaml-cpp"
+        },
+        {
+            "default": "Release",
+            "package": "yyjson"
         },
         {
             "default": "Release",
@@ -51703,12 +51699,6 @@
             "package": "gaudi"
         }
     ],
-    "gaussian-src": [
-        {
-            "default": false,
-            "package": "gaussian-view"
-        }
-    ],
     "gc": [
         {
             "default": false,
@@ -56975,6 +56965,10 @@
         {
             "default": "make",
             "package": "yaml-cpp"
+        },
+        {
+            "default": "make",
+            "package": "yyjson"
         },
         {
             "default": "make",
@@ -65316,6 +65310,10 @@
         },
         {
             "default": false,
+            "package": "yyjson"
+        },
+        {
+            "default": false,
             "package": "z3"
         },
         {
@@ -65519,10 +65517,6 @@
         {
             "default": false,
             "package": "openmpi"
-        },
-        {
-            "default": false,
-            "package": "pgi"
         },
         {
             "default": false,
@@ -70313,10 +70307,6 @@
             "package": "pfunit"
         },
         {
-            "default": false,
-            "package": "pgi"
-        },
-        {
             "default": true,
             "package": "phist"
         },
@@ -71587,10 +71577,6 @@
             "package": "legion"
         },
         {
-            "default": true,
-            "package": "pgi"
-        },
-        {
             "default": false,
             "package": "qt-base"
         },
@@ -72159,10 +72145,6 @@
         {
             "default": false,
             "package": "intel-oneapi-compilers"
-        },
-        {
-            "default": false,
-            "package": "pgi"
         }
     ],
     "nvidia_mig": [
@@ -82171,10 +82153,6 @@
         {
             "default": false,
             "package": "parthenon"
-        },
-        {
-            "default": false,
-            "package": "pgi"
         }
     ],
     "single-mpi-lib": [

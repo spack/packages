@@ -9,11 +9,6 @@
     "conflicts": [
         {
             "description": null,
-            "name": "%pgi",
-            "spec": ""
-        },
-        {
-            "description": null,
             "name": "arch=windows-None-None",
             "spec": "build_system=autotools"
         }

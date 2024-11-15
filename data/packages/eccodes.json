@@ -101,7 +101,7 @@
     ],
     "description": "ecCodes is a package developed by ECMWF for processing meteorological\ndata in GRIB (1/2), BUFR (3/4) and GTS header formats.\n",
     "homepage": "https://software.ecmwf.int/wiki/display/ECC/ecCodes+Home",
-    "latest_version": "2.34.0",
+    "latest_version": "2.38.0",
     "maintainers": [
         "climbfuji",
         "dominichofer",
@@ -245,6 +245,10 @@
         {
             "branch": "develop",
             "name": "develop"
+        },
+        {
+            "name": "2.38.0",
+            "sha256": "96a21fbe8ca3aa4c31bb71bbd378b7fd130cbc0f7a477567d70e66a000ff68d9"
         },
         {
             "name": "2.34.0",

@@ -162,15 +162,6 @@
             "relative_path": "pgi.patch",
             "reverse": false,
             "sha256": "ff7707dab9d540edeffc5fad16baa1564ded271ed1bbbf04718165d7daa56d1d",
-            "version": "%pgi",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.suite-sparse",
-            "relative_path": "pgi.patch",
-            "reverse": false,
-            "sha256": "ff7707dab9d540edeffc5fad16baa1564ded271ed1bbbf04718165d7daa56d1d",
             "version": "%nvhpc",
             "working_dir": "."
         },

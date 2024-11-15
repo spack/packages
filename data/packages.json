@@ -4384,10 +4384,6 @@
         "name": "gaussian"
     },
     {
-        "description": "Gaussian is a computer program for computational chemistry. This Spack\npackage builds Gaussian from source. Needs post-install steps to make it\nrun! See package installation log for details.\n",
-        "name": "gaussian-src"
-    },
-    {
         "description": "GaussView 6 is the latest iteration of a graphical interface used with\nGaussian. It aids in the creation of Gaussian input files, enables the\nuser to run Gaussian calculations from a graphical interface without the\nneed for using a command line instruction, and helps in the\ninterpretation of Gaussian output. Needs post-install steps to make it\nrun! See package installation logs for details.\n",
         "name": "gaussian-view"
     },
@@ -13034,10 +13030,6 @@
     {
         "description": " \"PGDSpider is a powerful automated data conversion tool for population\ngenetic and genomics programs\n",
         "name": "pgdspider"
-    },
-    {
-        "description": "PGI optimizing multi-core x64 compilers for Linux, MacOS & Windows with\nsupport for debugging and profiling of local MPI processes. Note: The\nPGI compilers are licensed software. You will need to create an account\non the PGI homepage and download PGI yourself. Spack will search your\ncurrent directory for the download tarball. Alternatively, add this file\nto a mirror so that Spack can find it. For instructions on how to set up\na mirror, see https://spack.readthedocs.io/en/latest/mirrors.html\n",
-        "name": "pgi"
     },
     {
         "description": "PGPLOT Graphics Subroutine Library. The PGPLOT Graphics Subroutine\nLibrary is a Fortran- or C-callable, device-independent graphics package\nfor making simple scientific graphs. It is intended for making graphical\nimages of publication quality with minimum effort on the part of the\nuser. For most applications, the program can be device-independent, and\nthe output can be directed to the appropriate device at run time.\n",
@@ -33274,6 +33266,10 @@
     {
         "description": "yq is a portable command-line YAML, JSON, XML, CSV, TOML and properties\nprocessor. This is different from the py-yq package that is a wrapper\naround jq.\n",
         "name": "yq"
+    },
+    {
+        "description": "The fastest JSON library in C\n",
+        "name": "yyjson"
     },
     {
         "description": "a library to perform the compression assessment for lossy compressors\n",

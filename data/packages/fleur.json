@@ -13,11 +13,6 @@
             "spec": ""
         },
         {
-            "description": "fleur: You need at least PGI version 18.4                    but might still run into some problems.",
-            "name": "%pgi@:18.4.0",
-            "spec": ""
-        },
-        {
             "description": "fleur: ELPA requires scalapack support",
             "name": "~scalapack",
             "spec": "+elpa"

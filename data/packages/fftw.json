@@ -482,15 +482,6 @@
         {
             "level": 0,
             "owner": "builtin.fftw",
-            "relative_path": "pgi-3.3.6-pl2.patch",
-            "reverse": false,
-            "sha256": "5382f2695960800c0c93cb01fabdf9f4efa478f4171163c516c9fe1d9288449e",
-            "version": "@3.3.6-pl2%pgi",
-            "working_dir": "."
-        },
-        {
-            "level": 0,
-            "owner": "builtin.fftw",
             "relative_path": "intel-configure.patch",
             "reverse": false,
             "sha256": "116635693452a2ca3bdc3f87c20569b4bf9d7813ecfe9581cef6e362b0770c1e",

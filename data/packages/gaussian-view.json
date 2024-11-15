@@ -1,21 +1,11 @@
 {
     "aliases": [],
     "build_system": "Package",
-    "conflicts": [
-        {
-            "description": null,
-            "name": "+gaussian-src",
-            "spec": "@:6.0"
-        }
-    ],
+    "conflicts": [],
     "dependencies": [
         {
             "description": "Gaussian is a computer program for computational chemistry",
             "name": "gaussian"
-        },
-        {
-            "description": "Gaussian is a computer program for computational chemistry. This Spack\npackage builds Gaussian from source. Needs post-install steps to make it\nrun! See package installation log for details.",
-            "name": "gaussian-src"
         },
         {
             "description": "External WGl and Windows OpenGL emulation representation in Spack",
@@ -66,11 +56,6 @@
             "default": "generic",
             "description": "Build systems supported by the package",
             "name": "build_system"
-        },
-        {
-            "default": false,
-            "description": "Use gaussian-src instead of gaussian (prebuilt binary)",
-            "name": "gaussian-src"
         }
     ],
     "versions": [

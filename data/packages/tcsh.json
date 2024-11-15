@@ -52,10 +52,6 @@
             "name": "gaussian"
         },
         {
-            "description": "Gaussian is a computer program for computational chemistry. This Spack\npackage builds Gaussian from source. Needs post-install steps to make it\nrun! See package installation log for details.",
-            "name": "gaussian-src"
-        },
-        {
             "description": "Grackle is a chemistry and radiative cooling library for astrophysical\nsimulations with interfaces for C, C++, and Fortran codes. It is a\ngeneralized and trimmed down version of the chemistry network of the\nEnzo simulation code",
             "name": "grackle"
         },

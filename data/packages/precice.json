@@ -21,11 +21,6 @@
             "description": null,
             "name": "%intel@:16",
             "spec": ""
-        },
-        {
-            "description": null,
-            "name": "%pgi@:17.3",
-            "spec": ""
         }
     ],
     "dependencies": [

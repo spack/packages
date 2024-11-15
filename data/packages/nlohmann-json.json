@@ -14,11 +14,6 @@
         },
         {
             "description": null,
-            "name": "%pgi@:14",
-            "spec": ""
-        },
-        {
-            "description": null,
             "name": "%gcc@:4.8",
             "spec": "@:3.2.9"
         }
