@@ -416,6 +416,10 @@
             "sha256": "fb843b118d6e56cd4fc4b114c4d6f91956d5c8b3d9389ada56da1dfdbc58904f"
         },
         {
+            "name": "2.40.3.1",
+            "sha256": "1e5a9d6a84d23febe826b1adcd2c2b1681bcc2e61c2959a8bbf4756357e22187"
+        },
+        {
             "name": "2.40.3",
             "sha256": "4b82a314c88a035fc2b91395750aa7950d6bee838786178ed16a3f39a1e45519"
         },

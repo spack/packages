@@ -72,7 +72,7 @@
     ],
     "description": "SONATA files reader\n",
     "homepage": "https://github.com/BlueBrain/libsonata",
-    "latest_version": "0.1.25",
+    "latest_version": "0.1.29",
     "maintainers": [
         "tristan0x"
     ],
@@ -90,6 +90,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "0.1.29",
+            "sha256": "321878f28c7d64a65683443f832dfa2f21ff8ed69e700d2dde62ccb5f87d4525"
         },
         {
             "name": "0.1.25",

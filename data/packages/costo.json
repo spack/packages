@@ -59,7 +59,7 @@
     "dependent_to": [],
     "description": "costo stand for COSimulation TOols. Its a layer above MPI to share data\nbetween meshes.\n",
     "homepage": "https://gitlab.com/Te_ch/costo",
-    "latest_version": "0.0.5",
+    "latest_version": "0.0.8",
     "maintainers": [
         "tech-91"
     ],
@@ -102,6 +102,10 @@
         {
             "branch": "devel",
             "name": "develop"
+        },
+        {
+            "name": "0.0.8",
+            "tag": "v0.0.8"
         },
         {
             "name": "0.0.5",

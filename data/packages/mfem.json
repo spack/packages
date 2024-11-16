@@ -878,6 +878,15 @@
             "sha256": "71ce9ee35a08db17ad37484eca2e8f49e090ccf4a066d3d8c0e9b0af8eadfd73",
             "version": "@4.7.0",
             "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.mfem",
+            "relative_path": "mfem-4.7-sundials-7.patch",
+            "reverse": false,
+            "sha256": "2576bfca470e018acb5880760c79ff22318fbf1964e12d53efc24f223170893e",
+            "version": "@4.7.0+sundials ^sundials@7:",
+            "working_dir": "."
         }
     ],
     "resources": [],
