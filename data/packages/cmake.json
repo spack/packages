@@ -4271,6 +4271,10 @@
             "name": "qt-svg"
         },
         {
+            "description": "Qt Tools contains tools like Qt Designer.",
+            "name": "qt-tools"
+        },
+        {
             "description": "Platform-independent Qt API for storing passwords securely.",
             "name": "qtkeychain"
         },

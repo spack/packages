@@ -1581,6 +1581,10 @@
             "name": "py-astropy"
         },
         {
+            "description": "Python wrapper for the C-Blosc2 library.",
+            "name": "py-blosc2"
+        },
+        {
             "description": "Foreign Function Interface for Python calling C code",
             "name": "py-cffi"
         },
@@ -1707,6 +1711,10 @@
         {
             "description": "Scalable Vector Graphics (SVG) is an XML-based language for describing\ntwo-dimensional vector graphics. Qt provides classes for rendering and\ndisplaying SVG drawings in widgets and on other paint devices.",
             "name": "qt-svg"
+        },
+        {
+            "description": "Qt Tools contains tools like Qt Designer.",
+            "name": "qt-tools"
         },
         {
             "description": "QUCS - Quite Universal Circuit Simulator Qucs is an integrated circuit\nsimulator which means you are able to setup a circuit with a graphical\nuser interface (GUI) and simulate the large-signal, small-signal and\nnoise behaviour of the circuit. After that simulation has finished you\ncan view the simulation results on a presentation page or window.",

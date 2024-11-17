@@ -1847,6 +1847,12 @@
             "package": "dealii"
         }
     ],
+    "assistant": [
+        {
+            "default": false,
+            "package": "qt-tools"
+        }
+    ],
     "aster": [
         {
             "default": true,
@@ -27485,6 +27491,10 @@
             "package": "qt-svg"
         },
         {
+            "default": "cmake",
+            "package": "qt-tools"
+        },
+        {
             "default": "qmake",
             "package": "qtgraph"
         },
@@ -40034,6 +40044,10 @@
         },
         {
             "default": "Release",
+            "package": "qt-tools"
+        },
+        {
+            "default": "Release",
             "package": "qtkeychain"
         },
         {
@@ -41713,7 +41727,7 @@
             "package": "libpressio"
         },
         {
-            "default": false,
+            "default": true,
             "package": "py-tables"
         }
     ],
@@ -47367,6 +47381,10 @@
         {
             "default": false,
             "package": "qscintilla"
+        },
+        {
+            "default": false,
+            "package": "qt-tools"
         },
         {
             "default": false,
@@ -55693,6 +55711,10 @@
         {
             "default": "ninja",
             "package": "qt-svg"
+        },
+        {
+            "default": "ninja",
+            "package": "qt-tools"
         },
         {
             "default": "make",
@@ -64038,6 +64060,10 @@
         },
         {
             "default": false,
+            "package": "qt-tools"
+        },
+        {
+            "default": false,
             "package": "qtkeychain"
         },
         {
@@ -68071,7 +68097,7 @@
             "package": "blast-plus"
         },
         {
-            "default": false,
+            "default": true,
             "package": "py-tables"
         },
         {

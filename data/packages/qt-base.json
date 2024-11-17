@@ -203,6 +203,10 @@
             "name": "qt-svg"
         },
         {
+            "description": "Qt Tools contains tools like Qt Designer.",
+            "name": "qt-tools"
+        },
+        {
             "description": "Old Coin GUI binding for Qt, replaced by Quarter",
             "name": "soqt"
         }

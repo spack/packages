@@ -18,6 +18,10 @@
             "name": "c-blosc"
         },
         {
+            "description": "Next generation c-blosc with a new API, a new container and other bells\nand whistles",
+            "name": "c-blosc2"
+        },
+        {
             "description": "HDF5 is a data model, library, and file format for storing and managing\ndata. It supports an unlimited variety of datatypes, and is designed for\nflexible and efficient I/O and for high volume and complex data.",
             "name": "hdf5"
         },
@@ -122,12 +126,12 @@
             "name": "build_system"
         },
         {
-            "default": false,
+            "default": true,
             "description": "Support for bzip2 compression",
             "name": "bzip2"
         },
         {
-            "default": false,
+            "default": true,
             "description": "Support for lzo compression",
             "name": "lzo"
         },

@@ -24592,6 +24592,10 @@
         "name": "qt-svg"
     },
     {
+        "description": "Qt Tools contains tools like Qt Designer.\n",
+        "name": "qt-tools"
+    },
+    {
         "description": "The baseline library used in the CUDA-centric Open|SpeedShop Graphical\nUser Interface (GUI) which allows Graphviz DOT formatted data to be\nimported into a Qt application by wrapping the Graphviz libcgraph and\nlibgvc within the Qt Graphics View Framework.\n",
         "name": "qtgraph"
     },

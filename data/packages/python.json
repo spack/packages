@@ -12431,6 +12431,10 @@
             "name": "qt-svg"
         },
         {
+            "description": "Qt Tools contains tools like Qt Designer.",
+            "name": "qt-tools"
+        },
+        {
             "description": "Command Line Optional and Positional Argument Parser. A command line\nparser to be used with Rscript to write \"#!\" shebang scripts that\ngracefully accept positional and optional arguments and automatically\ngenerate usage.",
             "name": "r-argparse"
         },

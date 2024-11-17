@@ -1485,6 +1485,15 @@
             "sha256": "bc9d5dc869d1bf9c85d3fd372070cc87bd359ea019eee2fe20e6a154229dfcc4",
             "version": "@1.5.0:1.6.3%clang",
             "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.py-scipy",
+            "reverse": false,
+            "sha256": "37209324c6c2d9bf9284bf4726ec3ea7ecafabf736c7a72cf6789af97aebd30b",
+            "url": "https://github.com/scipy/scipy/commit/ab7d08c6148286059f6498ab5c3070268d13cbd9.patch?full_index=1",
+            "version": "@1.8.0:1.14.0",
+            "working_dir": "."
         }
     ],
     "resources": [],

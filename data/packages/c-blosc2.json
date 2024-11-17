@@ -50,6 +50,14 @@
         {
             "description": "Hermes Shared Memory contains a variety of data structures and\nsynchronization primitives which are compatible with shared memory.",
             "name": "hermes-shm"
+        },
+        {
+            "description": "Python wrapper for the C-Blosc2 library.",
+            "name": "py-blosc2"
+        },
+        {
+            "description": "PyTables is a package for managing hierarchical datasets and designed to\nefficiently and easily cope with extremely large amounts of data.",
+            "name": "py-tables"
         }
     ],
     "description": "Next generation c-blosc with a new API, a new container and other bells\nand whistles\n",
