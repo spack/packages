@@ -179,7 +179,7 @@
         },
         {
             "description": "A Load Balancing Library (ALL) The library aims to provide an easy way\nto include dynamic domain-based load balancing into particle based\nsimulation codes.",
-            "name": "all"
+            "name": "all-library"
         },
         {
             "description": "ALLPATHS-LG is our original short read assembler and it works on both\nsmall and large (mammalian size) genomes.",

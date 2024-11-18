@@ -3252,7 +3252,7 @@
         },
         {
             "default": "cmake",
-            "package": "all"
+            "package": "all-library"
         },
         {
             "default": "autotools",
@@ -36284,7 +36284,7 @@
         },
         {
             "default": "Release",
-            "package": "all"
+            "package": "all-library"
         },
         {
             "default": "Release",
@@ -41537,6 +41537,10 @@
         {
             "default": "release",
             "package": "pbbam"
+        },
+        {
+            "default": "release",
+            "package": "pixman"
         },
         {
             "default": "release",
@@ -47240,6 +47244,10 @@
         },
         {
             "default": "shared",
+            "package": "pixman"
+        },
+        {
+            "default": "shared",
             "package": "reprimand"
         },
         {
@@ -50998,7 +51006,7 @@
         },
         {
             "default": false,
-            "package": "all"
+            "package": "all-library"
         },
         {
             "default": false,
@@ -51974,7 +51982,7 @@
         },
         {
             "default": "make",
-            "package": "all"
+            "package": "all-library"
         },
         {
             "default": "make",
@@ -60324,7 +60332,7 @@
         },
         {
             "default": false,
-            "package": "all"
+            "package": "all-library"
         },
         {
             "default": false,
@@ -80492,7 +80500,7 @@
         },
         {
             "default": true,
-            "package": "all"
+            "package": "all-library"
         },
         {
             "default": true,
@@ -83699,6 +83707,10 @@
         {
             "default": false,
             "package": "pbbam"
+        },
+        {
+            "default": false,
+            "package": "pixman"
         },
         {
             "default": false,
@@ -87564,7 +87576,7 @@
     "vtk": [
         {
             "default": false,
-            "package": "all"
+            "package": "all-library"
         },
         {
             "default": true,

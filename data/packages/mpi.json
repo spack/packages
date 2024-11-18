@@ -51,7 +51,7 @@
         },
         {
             "description": "A Load Balancing Library (ALL) The library aims to provide an easy way\nto include dynamic domain-based load balancing into particle based\nsimulation codes.",
-            "name": "all"
+            "name": "all-library"
         },
         {
             "description": "Alquimia is an interface that exposes the capabilities of mature\ngeochemistry codes such as CrunchFlow and PFLOTRAN",

@@ -544,7 +544,7 @@
     ],
     "description": "ROOT is a data analysis framework.\n",
     "homepage": "https://root.cern.ch",
-    "latest_version": "6.32.06",
+    "latest_version": "6.32.08",
     "maintainers": [
         "drbenmorgan",
         "gartung",
@@ -970,6 +970,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "6.32.08",
+            "sha256": "29ad4945a72dff1a009c326a65b6fa5ee2478498823251d3cef86a2cbeb77b27"
         },
         {
             "name": "6.32.06",

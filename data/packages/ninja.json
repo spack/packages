@@ -67,7 +67,7 @@
         },
         {
             "description": "A Load Balancing Library (ALL) The library aims to provide an easy way\nto include dynamic domain-based load balancing into particle based\nsimulation codes.",
-            "name": "all"
+            "name": "all-library"
         },
         {
             "description": "Abstraction Library for Parallel Kernel Acceleration.",
@@ -3728,6 +3728,10 @@
         {
             "description": "Parallel Ice Sheet Model",
             "name": "pism"
+        },
+        {
+            "description": "The Pixman package contains a library that provides low-level pixel\nmanipulation features such as image compositing and trapezoid\nrasterization.",
+            "name": "pixman"
         },
         {
             "description": "Processing Kernel for geospatial data",
