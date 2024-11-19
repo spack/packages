@@ -14,6 +14,10 @@
             "name": "cmake"
         },
         {
+            "description": "Coin is an OpenGL-based, 3D graphics library that has its roots in the\nOpen Inventor 2.1 API, which Coin still is compatible with.",
+            "name": "coin3d"
+        },
+        {
             "description": "Eigen is a C++ template library for linear algebra matrices, vectors,\nnumerical solvers, and related algorithms.",
             "name": "eigen"
         },
@@ -50,8 +54,12 @@
             "name": "pythia8"
         },
         {
-            "description": "Qt Base (Core, Gui, Widgets, Network, ...)",
-            "name": "qt-base"
+            "description": "Qt is a comprehensive cross-platform C++ application framework.",
+            "name": "qt"
+        },
+        {
+            "description": "Old Coin GUI binding for Qt, replaced by Quarter",
+            "name": "soqt"
         },
         {
             "description": "SQLite is a C-language library that implements a small, fast, self-\ncontained, high-reliability, full-featured, SQL database engine.",

@@ -43,7 +43,7 @@
     "dependent_to": [],
     "description": "pyhdf is a python wrapper around the NCSA HDF version 4 library. The SD\n(Scientific Dataset), VS (Vdata) and V (Vgroup) APIs are currently\nimplemented. NetCDF files can also be read and modified.\n",
     "homepage": "https://github.com/fhs/pyhdf",
-    "latest_version": "0.10.4",
+    "latest_version": "0.11.4",
     "maintainers": [
         "climbfuji"
     ],
@@ -61,6 +61,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "0.11.4",
+            "sha256": "f4d48ee6f297be76e07b1a31710ef898caa31757dfdf173e5a4b94988ea76164"
         },
         {
             "name": "0.10.4",

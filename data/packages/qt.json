@@ -345,6 +345,10 @@
             "name": "geant4"
         },
         {
+            "description": "GeoModel is a user-friendly C++ Toolkit and Suite for HEP Detector\nDescription with minimal dependencies.",
+            "name": "geomodel"
+        },
+        {
             "description": "Gnuplot is a portable command-line driven graphing utility for Linux,\nOS/2, MS Windows, OSX, VMS, and many other platforms. The source code is\ncopyrighted but freely distributed (i.e., you don't have to pay for it).\nIt was originally created to allow scientists and students to visualize\nmathematical functions and data interactively, but has grown to support\nmany non-interactive uses such as web scripting. It is also used as a\nplotting engine by third-party applications like Octave. Gnuplot has\nbeen supported and under active development since 1986",
             "name": "gnuplot"
         },

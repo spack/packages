@@ -12,6 +12,10 @@
             "name": "py-fsspec"
         },
         {
+            "description": "Speed up file transfers with the Hugging Face Hub.",
+            "name": "py-hf-transfer"
+        },
+        {
             "description": "Python port of Inquirer.js (A collection of common interactive command-\nline user interfaces).",
             "name": "py-inquirerpy"
         },
@@ -90,10 +94,12 @@
             "name": "py-transformers"
         }
     ],
-    "description": "This library allows anyone to work with the Hub repositories: you can\nclone them, create them and upload your models to them.\n",
+    "description": "Client library to download and publish models, datasets and other repos\non the huggingface.co hub.\n",
     "homepage": "https://github.com/huggingface/huggingface_hub",
-    "latest_version": "0.24.6",
-    "maintainers": [],
+    "latest_version": "0.26.2",
+    "maintainers": [
+        "adamjstewart"
+    ],
     "name": "py-huggingface-hub",
     "patches": [],
     "resources": [],
@@ -107,9 +113,18 @@
             "default": false,
             "description": "Install dependencies for CLI-specific features",
             "name": "cli"
+        },
+        {
+            "default": false,
+            "description": "Install hf_transfer to speed up downloads/uploads",
+            "name": "hf_transfer"
         }
     ],
     "versions": [
+        {
+            "name": "0.26.2",
+            "sha256": "b100d853465d965733964d123939ba287da60a547087783ddff8a323f340332b"
+        },
         {
             "name": "0.24.6",
             "sha256": "cc2579e761d070713eaa9c323e3debe39d5b464ae3a7261c39a9195b27bb8000"

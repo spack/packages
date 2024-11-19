@@ -14,6 +14,10 @@
             "name": "blas"
         },
         {
+            "description": "ETSF_IO is a library implementing the Nanoquanta/ETSF file format\nspecifications. ETSF_IO enables an architecture-independent exchange of\ncrystallographic data, electronic wavefunctions, densities and\npotentials, as well as spectroscopic data. It is meant to be used by\nquantum-physical and quantum-chemical applications relying upon Density\nFunctional Theory (DFT).",
+            "name": "etsf-io"
+        },
+        {
             "description": "FFTW is a C subroutine library for computing the discrete Fourier\ntransform (DFT) in one or more dimensions, of arbitrary input size, and\nof both real and complex data (as well as of even/odd data, i.e. the\ndiscrete cosine/sine transforms or DCT/DST). We believe that FFTW, which\nis free software, should become the FFT library of choice for most\napplications.",
             "name": "fftw"
         },
@@ -57,11 +61,32 @@
     "dependent_to": [],
     "description": "Yambo is a FORTRAN/C code for Many-Body calculations in solid state and\nmolecular physics. Yambo relies on the Kohn-Sham wavefunctions generated\nby two DFT public codes: abinit, and PWscf. The code was originally\ndeveloped in the Condensed Matter Theoretical Group of the Physics\nDepartment at the University of Rome \"Tor Vergata\" by Andrea Marini.\nPrevious to its release under the GPL license, yambo was known as SELF.\n",
     "homepage": "https://www.yambo-code.org/index.php",
-    "latest_version": "5.2.1",
-    "maintainers": [],
+    "latest_version": "5.2.4",
+    "maintainers": [
+        "LydDeb"
+    ],
     "name": "yambo",
     "patches": [],
-    "resources": [],
+    "resources": [
+        {
+            "destination": "ydriver_archive",
+            "name": "ydriver",
+            "placement": "archive",
+            "version": "@5.2.4"
+        },
+        {
+            "destination": "ydriver_archive",
+            "name": "ydriver",
+            "placement": "archive",
+            "version": "@5.2.1:5.2.3"
+        },
+        {
+            "destination": "yambo_libraries",
+            "name": "iotk",
+            "placement": null,
+            "version": "@5.2"
+        }
+    ],
     "variants": [
         {
             "default": "autotools",
@@ -74,7 +99,7 @@
             "name": "dp"
         },
         {
-            "default": "none",
+            "default": "iotk",
             "description": "Activate support for different io formats (requires network access)",
             "name": "io"
         },
@@ -95,6 +120,14 @@
         }
     ],
     "versions": [
+        {
+            "name": "5.2.4",
+            "sha256": "7c3f2602389fc29a0d8570c2fe85fe3768d390cfcbb2d371e83e75c6c951d5fc"
+        },
+        {
+            "name": "5.2.3",
+            "sha256": "a6168d1fa820af857ac51217bd6ad26dda4cc89c07e035bd7dc230038ae1ab9c"
+        },
         {
             "name": "5.2.1",
             "sha256": "0ac362854313927d75bbf87be98ff58447f3805f79724c38dc79df07f03a7046"

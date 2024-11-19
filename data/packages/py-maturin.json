@@ -50,6 +50,10 @@
             "name": "py-glean-sdk"
         },
         {
+            "description": "Speed up file transfers with the Hugging Face Hub.",
+            "name": "py-hf-transfer"
+        },
+        {
             "description": "Fast iterable JSON parser.",
             "name": "py-jiter"
         },

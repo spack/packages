@@ -36,7 +36,7 @@
     ],
     "description": "The NVIDIA HPC SDK is a comprehensive suite of compilers, libraries and\ntools essential to maximizing developer productivity and the performance\nand portability of HPC applications. The NVIDIA HPC SDK C, C++, and\nFortran compilers support GPU acceleration of HPC modeling and\nsimulation applications with standard C++ and Fortran, OpenACC\ndirectives, and CUDA. GPU-accelerated math libraries maximize\nperformance on common HPC algorithms, and optimized communications\nlibraries enable standards-based multi-GPU and scalable systems\nprogramming. Performance profiling and debugging tools simplify porting\nand optimization of HPC applications.\n",
     "homepage": "https://developer.nvidia.com/hpc-sdk",
-    "latest_version": "24.9",
+    "latest_version": "24.11",
     "maintainers": [
         "samcmill"
     ],
@@ -76,6 +76,11 @@
         }
     ],
     "versions": [
+        {
+            "name": "24.11",
+            "sha256": "0c27d66ed0e2d3007d30ac904922a9abf96475197dc0f4dcc6316d235a1dc0c3",
+            "url": "https://developer.download.nvidia.com/hpc-sdk/24.11/nvhpc_2024_2411_Linux_x86_64_cuda_multi.tar.gz"
+        },
         {
             "name": "24.9",
             "sha256": "30c493350cf67481e84cea60a3a869e01fa0bcb71df8e898266273fbdf0a7f26",

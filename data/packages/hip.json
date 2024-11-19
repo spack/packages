@@ -241,6 +241,10 @@
             "name": "ecp-data-vis-sdk"
         },
         {
+            "description": "Eigen is a C++ template library for linear algebra matrices, vectors,\nnumerical solvers, and related algorithms.",
+            "name": "eigen"
+        },
+        {
             "description": "Eigenvalue solvers for Petaflop-Applications (ELPA)",
             "name": "elpa"
         },

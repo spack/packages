@@ -192,7 +192,16 @@
             "relative_path": "0002-add-half-include-path-for-tests-6.1.0.patch",
             "reverse": false,
             "sha256": "d0bd33a581d9b9c2ef2816ceb56260c685f9989f54fe19fee4921a3094e661c5",
-            "version": "@6.1.0:+add_tests",
+            "version": "@6.1+add_tests",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.mivisionx",
+            "relative_path": "0002-add-half-include-path-for-tests-6.2.0.patch",
+            "reverse": false,
+            "sha256": "f91a39dad0692a8f5d2b94f532b968710a3bfb38c2fb81a243acbe31d1cfbdea",
+            "version": "@6.2.0:+add_tests",
             "working_dir": "."
         },
         {

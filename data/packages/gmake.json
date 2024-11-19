@@ -10962,6 +10962,10 @@
             "name": "tauola"
         },
         {
+            "description": "The STUTTGART TB-LMTO program. The linear muffin-tin orbital (LMTO)\nmethod has been described in numerous publications. Use of this software\nis subject to the license at https://www2.fkf.mpg.de/andersen/LMTODOC/no\nde180.html#SECTION000130000000000000000",
+            "name": "tb-lmto"
+        },
+        {
             "description": "Tcl (Tool Command Language) is a very powerful but easy to learn dynamic\nprogramming language, suitable for a very wide range of uses, including\nweb and desktop applications, networking, administration, testing and\nmany more. Open source and business-friendly, Tcl is a mature yet\nevolving language that is truly cross platform, easily deployed and\nhighly extensible.",
             "name": "tcl"
         },
@@ -11150,6 +11154,10 @@
             "name": "tiny-tensor-compiler"
         },
         {
+            "description": "Concise Binary Object Representation (CBOR) Library",
+            "name": "tinycbor"
+        },
+        {
             "description": "Header only C++11 tiny glTF 2.0 library.",
             "name": "tinygltf"
         },
@@ -11216,6 +11224,10 @@
         {
             "description": "toml11 is a C++11 (or later) header-only toml parser/encoder depending\nonly on C++ standard library.",
             "name": "toml11"
+        },
+        {
+            "description": "Header-only TOML config file parser and serializer for C++17",
+            "name": "tomlplusplus"
         },
         {
             "description": "Spliced read mapper for RNA-Seq.",

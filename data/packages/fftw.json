@@ -85,6 +85,10 @@
             "name": "amr-wind"
         },
         {
+            "description": "AMReX is a publicly available software framework designed for building\nmassively parallel block- structured adaptive mesh refinement (AMR)\napplications.",
+            "name": "amrex"
+        },
+        {
             "description": "RFI detector and quality analysis for astronomical radio observations.",
             "name": "aoflagger"
         },

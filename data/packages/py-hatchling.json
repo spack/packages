@@ -326,6 +326,10 @@
             "name": "py-pymdown-extensions"
         },
         {
+            "description": "The PyMongo distribution contains tools for interacting with MongoDB\ndatabase from Python. The bson package is an implementation of the BSON\nformat for Python. The pymongo package is a native Python driver for\nMongoDB. The gridfs package is a gridfs implementation on top of\npymongo.",
+            "name": "py-pymongo"
+        },
+        {
             "description": "pytest plugin for snapshot regression testing.",
             "name": "py-pytest-regtest"
         },

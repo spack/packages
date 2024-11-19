@@ -34,7 +34,7 @@
     ],
     "dependent_to": [
         {
-            "description": "This library allows anyone to work with the Hub repositories: you can\nclone them, create them and upload your models to them.",
+            "description": "Client library to download and publish models, datasets and other repos\non the huggingface.co hub.",
             "name": "py-huggingface-hub"
         }
     ],

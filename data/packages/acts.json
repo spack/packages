@@ -471,7 +471,7 @@
     "dependent_to": [],
     "description": " A Common Tracking Software (Acts) This project contains an experiment-\nindependent set of track reconstruction tools. The main philosophy is to\nprovide high-level track reconstruction modules that can be used for any\ntracking detector. The description of the tracking detector's geometry\nis optimized for efficient navigation and quick extrapolation of tracks.\nConverters for several common geometry description languages exist.\nHaving a highly performant, yet largely customizable implementation of\ntrack reconstruction algorithms was a primary objective for the design\nof this toolset. Additionally, the applicability to real-life HEP\nexperiments plays major role in the development process. Apart from\nalgorithmic code, this project also provides an event data model for the\ndescription of track parameters and measurements. Key features of this\nproject include: tracking geometry description which can be constructed\nfrom TGeo, DD4Hep, or GDML input, simple and efficient event data model,\nperformant and highly flexible algorithms for track propagation and\nfitting, basic seed finding algorithms.\n",
     "homepage": "https://acts.web.cern.ch/ACTS/",
-    "latest_version": "37.3.0",
+    "latest_version": "37.4.0",
     "maintainers": [
         "stephenswat",
         "wdconinc"
@@ -690,6 +690,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "commit": "4ae9a44f54c854599d1d753222ec36e0b5b4e9c7",
+            "name": "37.4.0"
         },
         {
             "commit": "b3e856d4dadcda7d1a88a9b846ce5a7acd8410c4",

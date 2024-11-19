@@ -28,7 +28,7 @@
     "dependent_to": [],
     "description": "The golang compiler and build environment\n",
     "homepage": "https://go.dev",
-    "latest_version": "1.23.2",
+    "latest_version": "1.23.3",
     "maintainers": [
         "alecbcs"
     ],
@@ -43,6 +43,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.23.3",
+            "sha256": "8d6a77332487557c6afa2421131b50f83db4ae3c579c3bc72e670ee1f6968599"
+        },
         {
             "name": "1.23.2",
             "sha256": "36930162a93df417d90bd22c6e14daff4705baac2b02418edda671cdfa9cd07f"

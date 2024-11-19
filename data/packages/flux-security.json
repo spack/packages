@@ -62,7 +62,7 @@
     ],
     "description": "Independent project for Flux security code and APIs.\n",
     "homepage": "https://github.com/flux-framework/flux-security",
-    "latest_version": "0.11.0",
+    "latest_version": "0.12.0",
     "maintainers": [
         "grondo"
     ],
@@ -80,6 +80,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "0.12.0",
+            "sha256": "2876d1f10c4f898f2ff10d60ddb446af9c8a913dda69f0136d820ad1fdf28a93"
         },
         {
             "name": "0.11.0",

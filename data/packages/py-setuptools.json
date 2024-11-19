@@ -3846,7 +3846,7 @@
             "name": "py-httpx"
         },
         {
-            "description": "This library allows anyone to work with the Hub repositories: you can\nclone them, create them and upload your models to them.",
+            "description": "Client library to download and publish models, datasets and other repos\non the huggingface.co hub.",
             "name": "py-huggingface-hub"
         },
         {
@@ -6946,7 +6946,7 @@
             "name": "py-pyminifier"
         },
         {
-            "description": "The PyMongo distribution contains tools for interacting with MongoDB\ndatabase from Python. The bson package is an implementation of the BSON\nformat for Python. The pymongo package is a native Python driver for\nMongoDB. The gridfs package is a gridfs implementation on top of\npymongo. PyMongo supports MongoDB 2.6, 3.0, 3.2, 3.4, 3.6, 4.0 and 4.2.",
+            "description": "The PyMongo distribution contains tools for interacting with MongoDB\ndatabase from Python. The bson package is an implementation of the BSON\nformat for Python. The pymongo package is a native Python driver for\nMongoDB. The gridfs package is a gridfs implementation on top of\npymongo.",
             "name": "py-pymongo"
         },
         {

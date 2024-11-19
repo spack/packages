@@ -5183,6 +5183,10 @@
             "name": "toml11"
         },
         {
+            "description": "Header-only TOML config file parser and serializer for C++17",
+            "name": "tomlplusplus"
+        },
+        {
             "description": "A real time, nanosecond resolution, remote telemetry, hybrid frame and\nsampling profiler for games and other applications. Client library.",
             "name": "tracy-client"
         },

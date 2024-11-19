@@ -344,7 +344,7 @@
     "dependent_to": [],
     "description": "Run Llama 2, Code Llama, and other models. Customize and create your\nown.\n",
     "homepage": "https://ollama.com",
-    "latest_version": "0.3.9",
+    "latest_version": "0.4.2",
     "maintainers": [
         "brettviren",
         "teaguesterling"
@@ -370,6 +370,10 @@
         }
     ],
     "versions": [
+        {
+            "commit": "d875e99e4639dc07af90b2e3ea0d175e2e692efb",
+            "name": "0.4.2"
+        },
         {
             "commit": "a1cef4d0a5f31280ea82b350605775931a6163cb",
             "name": "0.3.9"

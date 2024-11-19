@@ -409,6 +409,10 @@
             "name": "ecmwf-atlas"
         },
         {
+            "description": "Eigen is a C++ template library for linear algebra matrices, vectors,\nnumerical solvers, and related algorithms.",
+            "name": "eigen"
+        },
+        {
             "description": "Elbencho storage benchmark",
             "name": "elbencho"
         },

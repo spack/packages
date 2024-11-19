@@ -17452,6 +17452,10 @@
         "name": "py-hepunits"
     },
     {
+        "description": "Speed up file transfers with the Hugging Face Hub.\n",
+        "name": "py-hf-transfer"
+    },
+    {
         "description": "Hieroglyph is an extension for Sphinx which builds HTML presentations\nfrom ReStructured Text documents.\n",
         "name": "py-hieroglyph"
     },
@@ -17556,7 +17560,7 @@
         "name": "py-httpx"
     },
     {
-        "description": "This library allows anyone to work with the Hub repositories: you can\nclone them, create them and upload your models to them.\n",
+        "description": "Client library to download and publish models, datasets and other repos\non the huggingface.co hub.\n",
         "name": "py-huggingface-hub"
     },
     {
@@ -20928,7 +20932,7 @@
         "name": "py-pymol"
     },
     {
-        "description": "The PyMongo distribution contains tools for interacting with MongoDB\ndatabase from Python. The bson package is an implementation of the BSON\nformat for Python. The pymongo package is a native Python driver for\nMongoDB. The gridfs package is a gridfs implementation on top of\npymongo. PyMongo supports MongoDB 2.6, 3.0, 3.2, 3.4, 3.6, 4.0 and 4.2.\n",
+        "description": "The PyMongo distribution contains tools for interacting with MongoDB\ndatabase from Python. The bson package is an implementation of the BSON\nformat for Python. The pymongo package is a native Python driver for\nMongoDB. The gridfs package is a gridfs implementation on top of\npymongo.\n",
         "name": "py-pymongo"
     },
     {
@@ -31392,6 +31396,10 @@
         "name": "tauola"
     },
     {
+        "description": " The STUTTGART TB-LMTO program. The linear muffin-tin orbital (LMTO)\nmethod has been described in numerous publications. Use of this software\nis subject to the license at https://www2.fkf.mpg.de/andersen/LMTODOC/no\nde180.html#SECTION000130000000000000000\n",
+        "name": "tb-lmto"
+    },
+    {
         "description": "Widely used C++ template library for task parallelism. Intel Threading\nBuilding Blocks (Intel TBB) lets you easily write parallel C++ programs\nthat take full advantage of multicore performance, that are portable and\ncomposable, and that have future-proof scalability.\n",
         "name": "tbb"
     },
@@ -31628,6 +31636,10 @@
         "name": "tiny-tensor-compiler"
     },
     {
+        "description": "Concise Binary Object Representation (CBOR) Library\n",
+        "name": "tinycbor"
+    },
+    {
         "description": "Header only C++11 tiny glTF 2.0 library.\n",
         "name": "tinygltf"
     },
@@ -31714,6 +31726,10 @@
     {
         "description": "toml11 is a C++11 (or later) header-only toml parser/encoder depending\nonly on C++ standard library.\n",
         "name": "toml11"
+    },
+    {
+        "description": "Header-only TOML config file parser and serializer for C++17\n",
+        "name": "tomlplusplus"
     },
     {
         "description": "topaz: Pipeline for particle picking in cryo-electron microscopy images\nusing convolutional neural networks trained from positive and unlabeled\nexamples. Also featuring micrograph and tomogram denoising with DNNs.\n",

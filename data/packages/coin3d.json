@@ -76,6 +76,10 @@
             "name": "freecad"
         },
         {
+            "description": "GeoModel is a user-friendly C++ Toolkit and Suite for HEP Detector\nDescription with minimal dependencies.",
+            "name": "geomodel"
+        },
+        {
             "description": "OpenSceneGraph is an open source, high performance 3D graphics toolkit\nthat's used in a variety of visual simulation applications.",
             "name": "openscenegraph"
         },

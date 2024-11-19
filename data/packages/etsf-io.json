@@ -16,6 +16,10 @@
         {
             "description": "A real-space finite-difference (time-dependent) density-functional\ntheory code.",
             "name": "octopus"
+        },
+        {
+            "description": "Yambo is a FORTRAN/C code for Many-Body calculations in solid state and\nmolecular physics. Yambo relies on the Kohn-Sham wavefunctions generated\nby two DFT public codes: abinit, and PWscf. The code was originally\ndeveloped in the Condensed Matter Theoretical Group of the Physics\nDepartment at the University of Rome \"Tor Vergata\" by Andrea Marini.\nPrevious to its release under the GPL license, yambo was known as SELF.",
+            "name": "yambo"
         }
     ],
     "description": "ETSF_IO is a library implementing the Nanoquanta/ETSF file format\nspecifications. ETSF_IO enables an architecture-independent exchange of\ncrystallographic data, electronic wavefunctions, densities and\npotentials, as well as spectroscopic data. It is meant to be used by\nquantum-physical and quantum-chemical applications relying upon Density\nFunctional Theory (DFT).\n",

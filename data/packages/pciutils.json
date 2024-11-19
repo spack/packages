@@ -14,7 +14,12 @@
             "name": "gmake"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "The AMD Debugger API is a library that provides all the support\nnecessary for a debugger and other tools to perform low level control of\nthe execution and inspection of execution state of AMD's commercially\navailable GPU architectures.",
+            "name": "rocm-dbgapi"
+        }
+    ],
     "description": "This package contains the PCI Utilities.\n",
     "homepage": "https://mj.ucw.cz/sw/pciutils/",
     "latest_version": "3.7.0",

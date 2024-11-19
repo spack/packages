@@ -414,7 +414,7 @@
     "dependent_to": [],
     "description": "Neko: A modern, portable, and scalable framework for high-fidelity\ncomputational fluid dynamics\n",
     "homepage": "https://github.com/ExtremeFLOW/neko",
-    "latest_version": "0.8.0",
+    "latest_version": "0.9.0",
     "maintainers": [
         "njansson"
     ],
@@ -469,6 +469,11 @@
         },
         {
             "default": false,
+            "description": "Builds a shared version of the library",
+            "name": "shared"
+        },
+        {
+            "default": false,
             "description": "Build with support for libxsmm",
             "name": "xsmm"
         }
@@ -477,6 +482,14 @@
         {
             "branch": "develop",
             "name": "develop"
+        },
+        {
+            "name": "0.9.0",
+            "sha256": "3cffe629ada1631d8774fa51d8bb14b95dc0cea21578c0e07e70deb611a5091a"
+        },
+        {
+            "name": "0.8.1",
+            "sha256": "ac8162bc18e7112fd21b49c5a9c36f45c7b84896e90738be36a182990798baec"
         },
         {
             "name": "0.8.0",

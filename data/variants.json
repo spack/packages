@@ -814,6 +814,10 @@
         },
         {
             "default": "none",
+            "package": "eigen"
+        },
+        {
+            "default": "none",
             "package": "elpa"
         },
         {
@@ -20356,6 +20360,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-hf-transfer"
+        },
+        {
+            "default": "python_pip",
             "package": "py-hieroglyph"
         },
         {
@@ -34275,6 +34283,10 @@
             "package": "tauola"
         },
         {
+            "default": "makefile",
+            "package": "tb-lmto"
+        },
+        {
             "default": "generic",
             "package": "tbl2asn"
         },
@@ -34507,6 +34519,10 @@
             "package": "tiny-tensor-compiler"
         },
         {
+            "default": "makefile",
+            "package": "tinycbor"
+        },
+        {
             "default": "cmake",
             "package": "tinygltf"
         },
@@ -34593,6 +34609,10 @@
         {
             "default": "cmake",
             "package": "toml11"
+        },
+        {
+            "default": "cmake",
+            "package": "tomlplusplus"
         },
         {
             "default": "python_pip",
@@ -40917,6 +40937,10 @@
         {
             "default": "Release",
             "package": "toml11"
+        },
+        {
+            "default": "Release",
+            "package": "tomlplusplus"
         },
         {
             "default": "Release",
@@ -50432,6 +50456,10 @@
     "fft": [
         {
             "default": false,
+            "package": "amrex"
+        },
+        {
+            "default": false,
             "package": "athena"
         },
         {
@@ -56598,6 +56626,10 @@
         },
         {
             "default": "make",
+            "package": "tomlplusplus"
+        },
+        {
+            "default": "make",
             "package": "tracy-client"
         },
         {
@@ -58179,6 +58211,10 @@
         {
             "default": true,
             "package": "visit"
+        },
+        {
+            "default": true,
+            "package": "wxwidgets"
         }
     ],
     "guile": [
@@ -58899,6 +58935,12 @@
         {
             "default": false,
             "package": "perl-fth"
+        }
+    ],
+    "hf_transfer": [
+        {
+            "default": false,
+            "package": "py-huggingface-hub"
         }
     ],
     "hfs": [
@@ -60239,7 +60281,7 @@
             "package": "tau"
         },
         {
-            "default": "none",
+            "default": "iotk",
             "package": "yambo"
         }
     ],
@@ -64941,6 +64983,10 @@
         {
             "default": false,
             "package": "toml11"
+        },
+        {
+            "default": false,
+            "package": "tomlplusplus"
         },
         {
             "default": false,
@@ -71695,6 +71741,12 @@
         {
             "default": false,
             "package": "py-tensorflow"
+        }
+    ],
+    "nightly": [
+        {
+            "default": false,
+            "package": "eigen"
         }
     ],
     "ninja": [
@@ -79058,6 +79110,10 @@
         },
         {
             "default": false,
+            "package": "eigen"
+        },
+        {
+            "default": false,
             "package": "elpa"
         },
         {
@@ -81405,6 +81461,10 @@
         {
             "default": true,
             "package": "nalu-wind"
+        },
+        {
+            "default": false,
+            "package": "neko"
         },
         {
             "default": true,

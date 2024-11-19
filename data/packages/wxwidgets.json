@@ -116,6 +116,11 @@
             "name": "build_system"
         },
         {
+            "default": true,
+            "description": "Enable GUI support.",
+            "name": "gui"
+        },
+        {
             "default": false,
             "description": "Enable OpenGL support",
             "name": "opengl"

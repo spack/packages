@@ -60,7 +60,7 @@
     ],
     "description": "Mercury is a C library for implementing RPC, optimized for HPC\n",
     "homepage": "https://mercury-hpc.github.io/",
-    "latest_version": "2.3.1",
+    "latest_version": "2.4.0",
     "maintainers": [
         "soumagne"
     ],
@@ -168,6 +168,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "2.4.0",
+            "sha256": "8926cd177f6e3c04e8ae1683d42f7c8b27163a93d4d99a305fe497fa8ca86e79"
         },
         {
             "name": "2.3.1",

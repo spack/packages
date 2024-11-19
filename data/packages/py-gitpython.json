@@ -84,7 +84,7 @@
     ],
     "description": "GitPython is a python library used to interact with Git repositories.\n",
     "homepage": "https://gitpython.readthedocs.org",
-    "latest_version": "3.1.40",
+    "latest_version": "3.1.43",
     "maintainers": [],
     "name": "py-gitpython",
     "patches": [],
@@ -97,6 +97,12 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.1.43",
+            "sha256": "35f314a9f878467f5453cc1fee295c3e18e52f1b99f10f6cf5b1682e968a9e7c"
+        }
+    ],
+    "versions_deprecated": [
         {
             "name": "3.1.40",
             "sha256": "22b126e9ffb671fdd0c129796343a02bf67bf2994b35449ffc9321aa755e18a4"
@@ -213,6 +219,5 @@
             "name": "0.3.6",
             "sha256": "e6599fcb939cb9b25a015a429702db39de10f2b493655ed5669c49c37707d233"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

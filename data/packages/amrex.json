@@ -486,6 +486,10 @@
             "name": "cuda"
         },
         {
+            "description": "FFTW is a C subroutine library for computing the discrete Fourier\ntransform (DFT) in one or more dimensions, of arbitrary input size, and\nof both real and complex data (as well as of even/odd data, i.e. the\ndiscrete cosine/sine transforms or DCT/DST). We believe that FFTW, which\nis free software, should become the FFT library of choice for most\napplications.",
+            "name": "fftw"
+        },
+        {
             "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
             "name": "gmake"
         },
@@ -536,6 +540,10 @@
         {
             "description": "The Python programming language.",
             "name": "python"
+        },
+        {
+            "description": "Radeon Open Compute FFT library",
+            "name": "rocfft"
         },
         {
             "description": "Radeon Open Compute Parallel Primitives Library",
@@ -634,6 +642,11 @@
             "default": true,
             "description": "Build Embedded Boundary classes",
             "name": "eb"
+        },
+        {
+            "default": false,
+            "description": "Build FFT support",
+            "name": "fft"
         },
         {
             "default": false,

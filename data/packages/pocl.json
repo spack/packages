@@ -67,7 +67,7 @@
     ],
     "description": "Portable Computing Language (pocl) is an open source implementation of\nthe OpenCL standard which can be easily adapted for new targets and\ndevices, both for homogeneous CPU and heterogeneous GPUs/accelerators.\n",
     "homepage": "https://portablecl.org",
-    "latest_version": "3.0",
+    "latest_version": "6.0",
     "maintainers": [],
     "name": "pocl",
     "patches": [],
@@ -108,6 +108,22 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "6.0",
+            "sha256": "de9710223fc1855f833dbbf42ea2681e06aa8ec0464f0201104dc80a74dfd1f2"
+        },
+        {
+            "name": "5.0",
+            "sha256": "fd0bb6e50c2286278c11627b71177991519e1f7ab2576bd8d8742974db414549"
+        },
+        {
+            "name": "4.0",
+            "sha256": "7f4e8ab608b3191c2b21e3f13c193f1344b40aba7738f78762f7b88f45e8ce03"
+        },
+        {
+            "name": "3.1",
+            "sha256": "82314362552e050aff417318dd623b18cf0f1d0f84f92d10a7e3750dd12d3a9a"
         },
         {
             "name": "3.0",

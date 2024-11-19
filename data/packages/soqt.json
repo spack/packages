@@ -36,7 +36,12 @@
             "name": "qt-base"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "GeoModel is a user-friendly C++ Toolkit and Suite for HEP Detector\nDescription with minimal dependencies.",
+            "name": "geomodel"
+        }
+    ],
     "description": "Old Coin GUI binding for Qt, replaced by Quarter\n",
     "homepage": "https://github.com/coin3d/soqt/",
     "latest_version": "1.6.3",

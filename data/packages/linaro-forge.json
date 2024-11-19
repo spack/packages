@@ -11,7 +11,7 @@
     "dependent_to": [],
     "description": "Build reliable and optimized code for the right results on multiple\nServer and HPC architectures, from the latest compilers and C++\nstandards to Intel, 64-bit Arm, AMD, OpenPOWER and Nvidia GPU hardware.\nLinaro Forge combines Linaro DDT, the leading debugger for time-saving\nhigh performance application debugging, Linaro MAP, the trusted\nperformance profiler for invaluable optimization advice across native\nand Python HPC codes, and Linaro Performance Reports for advanced\nreporting capabilities.\n",
     "homepage": "https://www.linaroforge.com",
-    "latest_version": "24.0.6",
+    "latest_version": "24.1",
     "maintainers": [
         "kenche-linaro"
     ],
@@ -36,6 +36,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "24.1",
+            "sha256": "0b96878ab73c20b39c4730ed15f24ca86dc5985637ff5d8e68f55e1e802e5fe3"
+        },
         {
             "name": "24.0.6",
             "sha256": "eab198b964862b4664359ccbec1edb27c2dd3b9fa82bcb4e14fc616a2b0341da"
