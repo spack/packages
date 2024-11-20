@@ -37,7 +37,7 @@
     ],
     "description": "Intel VTune Profiler is a profiler to optimize application performance,\nsystem performance, and system configuration for HPC, cloud, IoT, media,\nstorage, and more. CPU, GPU, and FPGA: Tune the entire application's\nperformance--not just the accelerated portion. Multilingual: Profile\nSYCL, C, C++, C#, Fortran, OpenCL code, Python, Google Go programming\nlanguage, Java, .NET, Assembly, or any combination of languages. System\nor Application: Get coarse-grained system data for an extended period or\ndetailed results mapped to source code. Power: Optimize performance\nwhile avoiding power and thermal-related throttling. LICENSE\nINFORMATION: By downloading and using this software, you agree to the\nterms and conditions of the software license agreements at\nhttps://intel.ly/393CijO.\n",
     "homepage": "https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/vtune-profiler.html",
-    "latest_version": "2025.0.0",
+    "latest_version": "2025.0.1",
     "maintainers": [
         "rscohn2"
     ],
@@ -57,6 +57,11 @@
         }
     ],
     "versions": [
+        {
+            "name": "2025.0.1",
+            "sha256": "e0917aab901018d2786df2fcfbaea2bf9c4ff7d5b7f9413e9f3d6860bb743f82",
+            "url": "https://registrationcenter-download.intel.com/akdlm/IRC_NAS/1277cea4-34b7-4221-bdbc-4f47a9a5592d/intel-vtune-2025.0.1.16_offline.sh"
+        },
         {
             "name": "2025.0.0",
             "sha256": "6742e5c6b1cd6e4efb794bde5d995ba738be1a991ac84678e0efca04fc080074",

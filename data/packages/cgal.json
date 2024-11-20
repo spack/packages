@@ -3,6 +3,31 @@
     "build_system": "CMakePackage",
     "conflicts": [
         {
+            "description": null,
+            "name": "%apple-clang@:10.0.0",
+            "spec": "@6: arch=darwin-None-None"
+        },
+        {
+            "description": null,
+            "name": "%gcc@:11.3.0",
+            "spec": "@6: arch=darwin-None-None"
+        },
+        {
+            "description": null,
+            "name": "%clang@:15.0.6",
+            "spec": "@6: arch=linux-None-None"
+        },
+        {
+            "description": null,
+            "name": "%gcc@:11.3.0",
+            "spec": "@6: arch=linux-None-None"
+        },
+        {
+            "description": null,
+            "name": "%msvc@:15.8",
+            "spec": "@6: arch=windows-None-None"
+        },
+        {
             "description": "cgal: Header only builds became optional in 4.9, default thereafter",
             "name": "~header_only",
             "spec": "@:4.9"
@@ -113,6 +138,11 @@
             "default": "make",
             "description": "the build system generator to use",
             "name": "generator"
+        },
+        {
+            "default": true,
+            "description": "Enable the GMP backend",
+            "name": "gmp"
         },
         {
             "default": false,

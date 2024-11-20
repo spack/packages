@@ -32,7 +32,7 @@
     "dependent_to": [],
     "description": "The Intel Trace Analyzer and Collector profiles and analyzes MPI\napplications to help focus your optimization efforts. Find temporal\ndependencies and bottlenecks in your code. Check the correctness of your\napplication. Locate potential programming errors, buffer overlaps, and\ndeadlocks. Visualize and understand parallel application behavior.\nEvaluate profiling statistics and load balancing. Analyze performance of\nsubroutines or code blocks. Learn about communication patterns,\nparameters, and performance data. Identify communication hot spots.\nDecrease time to solution and increase application efficiency. LICENSE\nINFORMATION: By downloading and using this software, you agree to the\nterms and conditions of the software license agreements at\nhttps://intel.ly/393CijO.\n",
     "homepage": "https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/trace-analyzer.html",
-    "latest_version": "2022.1.0",
+    "latest_version": "2022.4.0",
     "maintainers": [
         "rscohn2"
     ],
@@ -52,6 +52,11 @@
         }
     ],
     "versions": [
+        {
+            "name": "2022.4.0",
+            "sha256": "746a51d91be17e5916ec74d6b3691bf58c2820cc9a2920f104e6e96383505bbe",
+            "url": "https://registrationcenter-download.intel.com/akdlm/IRC_NAS/d75145c0-e3e2-4806-a2f8-8e46972ea2cb/l_itac_oneapi_p_2022.4.0.16_offline.sh"
+        },
         {
             "name": "2022.1.0",
             "sha256": "2a1f4be6b349d1629006ee72087b361a5f3e714bddd1ef932045d0c03c0b20e8",

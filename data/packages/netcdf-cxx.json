@@ -43,7 +43,9 @@
     "description": "Deprecated C++ compatibility bindings for NetCDF. These do NOT read or\nwrite NetCDF-4 files, and are no longer maintained by Unidata.\nDevelopers should migrate to current NetCDF C++ bindings, in Spack\npackage netcdf-cxx4.\n",
     "homepage": "https://www.unidata.ucar.edu/software/netcdf",
     "latest_version": "4.2",
-    "maintainers": [],
+    "maintainers": [
+        "climbfuji"
+    ],
     "name": "netcdf-cxx",
     "patches": [
         {

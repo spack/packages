@@ -351,6 +351,10 @@
             "name": "openspeedshop-utils"
         },
         {
+            "description": "OpenTURNS is a scientific C++ and Python library featuring an internal\ndata model and algorithms dedicated to the treatment of uncertainties.\nThe main goal of this library is to provide all functionalities needed\nto treat uncertainties in studies with industrial applications. Targeted\nusers are all engineers who want to introduce the probabilistic\ndimension in their so far deterministic studies.",
+            "name": "openturns"
+        },
+        {
             "description": "OpenVDB - a sparse volume data format.",
             "name": "openvdb"
         },

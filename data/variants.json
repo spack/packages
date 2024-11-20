@@ -57381,6 +57381,10 @@
     ],
     "gmp": [
         {
+            "default": true,
+            "package": "cgal"
+        },
+        {
             "default": "spack",
             "package": "chapel"
         },
