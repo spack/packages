@@ -470,7 +470,7 @@
     ],
     "description": "Xsdk is a suite of Department of Energy (DOE) packages for numerical\nsimulation. This is a Spack bundle package that installs the xSDK\npackages\n",
     "homepage": "https://xsdk.info",
-    "latest_version": "1.0.0",
+    "latest_version": "1.1.0",
     "maintainers": [
         "balay",
         "balos1",
@@ -609,6 +609,9 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.1.0"
+        },
         {
             "name": "1.0.0"
         }
