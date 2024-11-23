@@ -12,6 +12,10 @@
             "name": "py-setuptools"
         },
         {
+            "description": "The typing_extensions module contains both backports of these changes as\nwell as experimental types that will eventually be added to the typing\nmodule, such as Protocol (see PEP 544 for details about protocols and\nstatic duck typing).",
+            "name": "py-typing-extensions"
+        },
+        {
             "description": "A built-package format for Python.",
             "name": "py-wheel"
         },
@@ -48,7 +52,7 @@
     ],
     "description": "Multidict is dict-like collection of key-value pairs where key might be\noccurred more than once in the container.\n",
     "homepage": "https://github.com/aio-libs/multidict",
-    "latest_version": "6.0.4",
+    "latest_version": "6.1.0",
     "maintainers": [],
     "name": "py-multidict",
     "patches": [],
@@ -61,6 +65,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.1.0",
+            "sha256": "22ae2ebf9b0c69d206c003e2f6a914ea33f0a932d4aa16f236afc049d9958f4a"
+        },
         {
             "name": "6.0.4",
             "sha256": "3666906492efb76453c0e7b97f2cf459b0682e7402c0489a95484965dbc1da49"
@@ -76,11 +84,12 @@
         {
             "name": "5.1.0",
             "sha256": "25b4e5f22d3a37ddf3effc0710ba692cfc792c2b9edfb9c05aefe823256e84d5"
-        },
+        }
+    ],
+    "versions_deprecated": [
         {
             "name": "4.7.6",
             "sha256": "fbb77a75e529021e7c4a8d4e823d88ef4d23674a202be4f5addffc72cbb91430"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

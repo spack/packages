@@ -358,6 +358,10 @@
             "name": "py-meson-python"
         },
         {
+            "description": "Multidict is dict-like collection of key-value pairs where key might be\noccurred more than once in the container.",
+            "name": "py-multidict"
+        },
+        {
             "description": "Optional static typing for Python.",
             "name": "py-mypy"
         },

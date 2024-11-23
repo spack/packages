@@ -106,6 +106,10 @@
             "name": "py-einops"
         },
         {
+            "description": "Expand system variables Unix style.",
+            "name": "py-expandvars"
+        },
+        {
             "description": "FastAPI framework, high performance, easy to learn, fast to code, ready\nfor production",
             "name": "py-fastapi"
         },

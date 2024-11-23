@@ -16376,6 +16376,10 @@
         "name": "py-exodus-bundler"
     },
     {
+        "description": "Expand system variables Unix style.\n",
+        "name": "py-expandvars"
+    },
+    {
         "description": "This library implements expect tests (also known as \"golden\" tests).\n",
         "name": "py-expecttest"
     },

@@ -62,6 +62,10 @@
             "name": "py-flit-scm"
         },
         {
+            "description": "A list-like structure which implements collections.abc.MutableSequence.",
+            "name": "py-frozenlist"
+        },
+        {
             "description": "Gcovr provides a utility for managing the use of the GNU gcov utility\nand generating summarized code coverage results. This command is\ninspired by the Python coverage.py package, which provides a similar\nutility for Python.",
             "name": "py-gcovr"
         },

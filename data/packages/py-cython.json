@@ -334,6 +334,10 @@
             "name": "py-fluidfft-pfft"
         },
         {
+            "description": "A list-like structure which implements collections.abc.MutableSequence.",
+            "name": "py-frozenlist"
+        },
+        {
             "description": "Gensim is a Python library for topic modelling, document indexing and\nsimilarity retrieval with large corpora. Target audience is the natural\nlanguage processing (NLP) and information retrieval (IR) community.",
             "name": "py-gensim"
         },
@@ -862,8 +866,7 @@
     "versions": [
         {
             "name": "3.0.11",
-            "sha256": "7146dd2af8682b4ca61331851e6aebce9fe5158e75300343f80c07ca80b1faff",
-            "url": "https://files.pythonhosted.org/packages/source/cython/cython-3.0.11.tar.gz"
+            "sha256": "7146dd2af8682b4ca61331851e6aebce9fe5158e75300343f80c07ca80b1faff"
         },
         {
             "name": "3.0.10",
@@ -932,7 +935,9 @@
         {
             "name": "0.29.21",
             "sha256": "e57acb89bd55943c8d8bf813763d20b9099cc7165c0f16b707631a7654be9cad"
-        },
+        }
+    ],
+    "versions_deprecated": [
         {
             "name": "0.29.20",
             "sha256": "22d91af5fc2253f717a1b80b8bb45acb655f643611983fd6f782b9423f8171c7"
@@ -993,6 +998,5 @@
             "name": "0.23.4",
             "sha256": "fec42fecee35d6cc02887f1eef4e4952c97402ed2800bfe41bbd9ed1a0730d8e"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

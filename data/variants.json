@@ -19284,6 +19284,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-expandvars"
+        },
+        {
+            "default": "python_pip",
             "package": "py-expecttest"
         },
         {
