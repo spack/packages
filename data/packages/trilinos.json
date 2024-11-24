@@ -875,6 +875,10 @@
             "name": "kokkos"
         },
         {
+            "description": "Kokkos Kernels provides math kernels, often BLAS or LAPACK for small\nmatrices, that can be used in larger Kokkos parallel routines",
+            "name": "kokkos-kernels"
+        },
+        {
             "description": "The NVCC wrapper provides a wrapper around NVCC to make it a 'full' C++\ncompiler that accepts all flags",
             "name": "kokkos-nvcc-wrapper"
         },

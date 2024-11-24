@@ -42871,6 +42871,12 @@
             "package": "trilinos"
         }
     ],
+    "complex_align": [
+        {
+            "default": true,
+            "package": "kokkos"
+        }
+    ],
     "components": [
         {
             "default": "none",

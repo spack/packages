@@ -821,6 +821,11 @@
             "name": "compiler_warnings"
         },
         {
+            "default": true,
+            "description": "Align complex numbers",
+            "name": "complex_align"
+        },
+        {
             "default": false,
             "description": "Whether to build CUDA backend",
             "name": "cuda"
