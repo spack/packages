@@ -209,6 +209,10 @@
             "sha256": "315b9001266a492a6ff443b61238f956b214dbec9910a081ba5b6646a055a805"
         },
         {
+            "name": "43.0.1",
+            "sha256": "203e92a75716d8cfb491dc47c79e17d0d9207ccffcbcb35f598fbe463ae3444d"
+        },
+        {
             "name": "42.0.8",
             "sha256": "8d09d05439ce7baa8e9e95b07ec5b6c886f548deb7e0f69ef25f64b3bce842f2"
         },

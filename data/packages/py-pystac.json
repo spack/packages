@@ -4,6 +4,10 @@
     "conflicts": [],
     "dependencies": [
         {
+            "description": "Jsonschema: An(other) implementation of JSON Schema for Python.",
+            "name": "py-jsonschema"
+        },
+        {
             "description": "The PyPA recommended tool for installing Python packages.",
             "name": "py-pip"
         },
@@ -14,10 +18,6 @@
         {
             "description": "A Python utility that aids in the process of downloading, building,\nupgrading, installing, and uninstalling Python packages.",
             "name": "py-setuptools"
-        },
-        {
-            "description": "The typing_extensions module contains both backports of these changes as\nwell as experimental types that will eventually be added to the typing\nmodule, such as Protocol (see PEP 544 for details about protocols and\nstatic duck typing).",
-            "name": "py-typing-extensions"
         },
         {
             "description": "A built-package format for Python.",
@@ -48,7 +48,7 @@
     ],
     "description": "Python library for working with Spatiotemporal Asset Catalog (STAC).\n",
     "homepage": "https://github.com/azavea/pystac.git",
-    "latest_version": "1.4.0",
+    "latest_version": "1.11.0",
     "maintainers": [],
     "name": "py-pystac",
     "patches": [],
@@ -58,9 +58,18 @@
             "default": "python_pip",
             "description": "Build systems supported by the package",
             "name": "build_system"
+        },
+        {
+            "default": false,
+            "description": "Install an additional jsonschema dependency",
+            "name": "validation"
         }
     ],
     "versions": [
+        {
+            "name": "1.11.0",
+            "sha256": "acb1e04be398a0cda2d8870ab5e90457783a8014a206590233171d8b2ae0d9e7"
+        },
         {
             "name": "1.4.0",
             "sha256": "6ec43e1c6bec50fbfbdede49c3ccb83ecd112072a938001b5c9c581fc2945e83"

@@ -87143,6 +87143,12 @@
             "package": "armcomputelibrary"
         }
     ],
+    "validation": [
+        {
+            "default": false,
+            "package": "py-pystac"
+        }
+    ],
     "validation_tests": [
         {
             "default": false,

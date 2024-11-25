@@ -8,6 +8,11 @@
             "spec": "@:1.60"
         },
         {
+            "description": "gobject-introspection: gobject-introspection still uses distutils which was removed in Python 3.12",
+            "name": "^python@3.12:",
+            "spec": ""
+        },
+        {
             "description": null,
             "name": "arch=windows-None-None",
             "spec": "build_system=autotools"

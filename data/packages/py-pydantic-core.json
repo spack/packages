@@ -40,7 +40,7 @@
     ],
     "description": "Core functionality for Pydantic validation and serialization\n",
     "homepage": "https://github.com/pydantic/pydantic-core",
-    "latest_version": "2.18.4",
+    "latest_version": "2.27.1",
     "maintainers": [],
     "name": "py-pydantic-core",
     "patches": [],
@@ -53,6 +53,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.27.1",
+            "sha256": "62a763352879b84aa31058fc931884055fd75089cccbd9d58bb6afd01141b235"
+        },
         {
             "name": "2.18.4",
             "sha256": "ec3beeada09ff865c344ff3bc2f427f5e6c26401cc6113d77e372c3fdac73864"

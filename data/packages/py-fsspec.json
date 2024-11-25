@@ -148,7 +148,7 @@
     ],
     "description": "A specification for pythonic filesystems.\n",
     "homepage": "https://github.com/intake/filesystem_spec",
-    "latest_version": "2024.5.0",
+    "latest_version": "2024.10.0",
     "maintainers": [],
     "name": "py-fsspec",
     "patches": [],
@@ -166,6 +166,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2024.10.0",
+            "sha256": "eda2d8a4116d4f2429db8550f2457da57279247dd930bb12f821b58391359493"
+        },
         {
             "name": "2024.5.0",
             "sha256": "1d021b0b0f933e3b3029ed808eb400c08ba101ca2de4b3483fbc9ca23fcee94a"

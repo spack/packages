@@ -36,7 +36,7 @@
     ],
     "description": "C version of reader, parser and emitter for ruamel.yaml derived from\nlibyaml.\n",
     "homepage": "https://sourceforge.net/p/ruamel-yaml-clib/code/ci/default/tree/",
-    "latest_version": "0.2.7",
+    "latest_version": "0.2.12",
     "maintainers": [],
     "name": "py-ruamel-yaml-clib",
     "patches": [],
@@ -49,6 +49,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.2.12",
+            "sha256": "6c8fbb13ec503f99a91901ab46e0b07ae7941cd527393187039aec586fdfd36f"
+        },
         {
             "name": "0.2.7",
             "sha256": "1f08fd5a2bea9c4180db71678e850b995d2a5f4537be0e94557668cf0f5f9497"

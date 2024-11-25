@@ -236,6 +236,10 @@
             "name": "py-psyclone"
         },
         {
+            "description": "Python library for working with Spatiotemporal Asset Catalog (STAC).",
+            "name": "py-pystac"
+        },
+        {
             "description": "A workflow-system agnostic testing framework that aims to make\npipeline/workflow testing easy by using YAML files for the test\nconfiguration.",
             "name": "py-pytest-workflow"
         },

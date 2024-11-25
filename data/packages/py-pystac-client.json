@@ -44,7 +44,7 @@
     ],
     "description": "Python library for working with Spatiotemporal Asset Catalog (STAC).\n",
     "homepage": "https://github.com/stac-utils/pystac-client.git",
-    "latest_version": "0.5.1",
+    "latest_version": "0.8.5",
     "maintainers": [],
     "name": "py-pystac-client",
     "patches": [],
@@ -58,9 +58,15 @@
     ],
     "versions": [
         {
-            "name": "0.5.1",
-            "sha256": "f585bd9bcd52ee399c8a292dbb7e0405c0da359a73bc07c1ef82a65c17124d94"
+            "name": "0.8.5",
+            "sha256": "7fba8d4f3c641ff7e840084fc3a53c96443a227f8a5889ae500fc38183ccd994"
         }
     ],
-    "versions_deprecated": []
+    "versions_deprecated": [
+        {
+            "name": "0.5.1",
+            "sha256": "f585bd9bcd52ee399c8a292dbb7e0405c0da359a73bc07c1ef82a65c17124d94",
+            "url": "https://files.pythonhosted.org/packages/source/p/pystac-client/pystac-client-0.5.1.tar.gz"
+        }
+    ]
 }

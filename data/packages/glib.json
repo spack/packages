@@ -431,7 +431,7 @@
     ],
     "description": "GLib provides the core application building blocks for libraries and\napplications written in C. The GLib package contains a low-level\nlibraries useful for providing data structure handling for C,\nportability wrappers and interfaces for such runtime functionality as an\nevent loop, threads, dynamic loading and an object system.\n",
     "homepage": "https://developer.gnome.org/glib/",
-    "latest_version": "2.78.3",
+    "latest_version": "2.82.2",
     "maintainers": [
         "michaelkuhn"
     ],
@@ -562,6 +562,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.82.2",
+            "sha256": "ab45f5a323048b1659ee0fbda5cecd94b099ab3e4b9abf26ae06aeb3e781fd63"
+        },
         {
             "name": "2.78.3",
             "sha256": "609801dd373796e515972bf95fc0b2daa44545481ee2f465c4f204d224b2bc21"

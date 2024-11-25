@@ -70,6 +70,10 @@
             "name": "py-jsonschema"
         },
         {
+            "description": "Optimized Einsum: A tensor contraction order optimizer.",
+            "name": "py-opt-einsum"
+        },
+        {
             "description": "Data validation and settings management using Python type hinting.",
             "name": "py-pydantic"
         },

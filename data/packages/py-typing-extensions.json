@@ -490,10 +490,6 @@
             "name": "py-pyproject-parser"
         },
         {
-            "description": "Python library for working with Spatiotemporal Asset Catalog (STAC).",
-            "name": "py-pystac"
-        },
-        {
             "description": "Python wrapper for the GitLab API",
             "name": "py-python-gitlab"
         },

@@ -4,6 +4,18 @@
     "conflicts": [],
     "dependencies": [
         {
+            "description": "Fancy PyPI READMEs with Hatch.",
+            "name": "py-hatch-fancy-pypi-readme"
+        },
+        {
+            "description": "Hatch plugin for versioning with your preferred VCS",
+            "name": "py-hatch-vcs"
+        },
+        {
+            "description": "Modern, extensible Python build backend.",
+            "name": "py-hatchling"
+        },
+        {
             "description": "Fundamental package for array computing in Python.",
             "name": "py-numpy"
         },
@@ -52,7 +64,7 @@
     ],
     "description": "Optimized Einsum: A tensor contraction order optimizer.\n",
     "homepage": "https://github.com/dgasmith/opt_einsum",
-    "latest_version": "3.3.0",
+    "latest_version": "3.4.0",
     "maintainers": [],
     "name": "py-opt-einsum",
     "patches": [],
@@ -65,6 +77,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.4.0",
+            "sha256": "96ca72f1b886d148241348783498194c577fa30a8faac108586b14f1ba4473ac"
+        },
         {
             "name": "3.3.0",
             "sha256": "59f6475f77bbc37dcf7cd748519c0ec60722e91e63ca114e68821c0c54a46549"

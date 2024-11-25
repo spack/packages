@@ -168,7 +168,7 @@
     ],
     "description": "World timezone definitions, modern and historical.\n",
     "homepage": "https://pythonhosted.org/pytz",
-    "latest_version": "2023.3",
+    "latest_version": "2024.2",
     "maintainers": [],
     "name": "py-pytz",
     "patches": [],
@@ -181,6 +181,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2024.2",
+            "sha256": "2aa355083c50a0f93fa581709deac0c9ad65cca8a9e9beac660adcbd493c798a"
+        },
         {
             "name": "2023.3",
             "sha256": "1d8ce29db189191fb55338ee6d0387d82ab59f3d00eac103412d64e0ebd0c588"

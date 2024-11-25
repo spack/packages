@@ -250,7 +250,9 @@
         {
             "name": "1.14.3",
             "sha256": "f92f789e4f9241cd262ad7a555ca2c648a98178a953af117ef7fad46aa1d5591"
-        },
+        }
+    ],
+    "versions_deprecated": [
         {
             "name": "1.13.0",
             "sha256": "8fe230f612c18af1df6f348d02d682fe2c28ca0a6c3856c99599cdacae7cf226"
@@ -271,6 +273,5 @@
             "name": "1.1.2",
             "sha256": "390970b602708c91ddc73953bb6929e56291c18a4d80f360afa00fad8b6f3339"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }
