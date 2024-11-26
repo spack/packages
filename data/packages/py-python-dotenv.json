@@ -42,6 +42,10 @@
             "name": "py-pydantic"
         },
         {
+            "description": "Settings management using Pydantic.",
+            "name": "py-pydantic-settings"
+        },
+        {
             "description": "The lightning-fast ASGI server.",
             "name": "py-uvicorn"
         }

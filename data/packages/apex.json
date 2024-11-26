@@ -114,7 +114,7 @@
     ],
     "description": "Autonomic Performance Environment for eXascale (APEX).\n",
     "homepage": "https://uo-oaciss.github.io/apex",
-    "latest_version": "2.6.5",
+    "latest_version": "2.7.0",
     "maintainers": [
         "khuck"
     ],
@@ -246,6 +246,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "2.7.0",
+            "sha256": "81cd7e8dbea35cec2360d6404e20f7527f66410614f06a73c8c782ac2cfdb0b0"
         },
         {
             "name": "2.6.5",

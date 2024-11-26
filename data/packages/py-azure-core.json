@@ -92,7 +92,7 @@
     ],
     "description": "Microsoft Azure Core Library for Python.\n",
     "homepage": "https://github.com/Azure/azure-sdk-for-python/tree/master/sdk/core/azure-core",
-    "latest_version": "1.30.0",
+    "latest_version": "1.30.2",
     "maintainers": [],
     "name": "py-azure-core",
     "patches": [],
@@ -105,6 +105,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.30.2",
+            "sha256": "a14dc210efcd608821aa472d9fb8e8d035d29b68993819147bc290a8ac224472"
+        },
         {
             "name": "1.30.0",
             "sha256": "6f3a7883ef184722f6bd997262eddaf80cfe7e5b3e0caaaf8db1695695893d35"

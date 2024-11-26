@@ -118,6 +118,10 @@
             "name": "py-etils"
         },
         {
+            "description": "A simple framework for building complex web applications.",
+            "name": "py-flask"
+        },
+        {
             "description": "Flit is a simple way to put Python packages and modules on PyPI.",
             "name": "py-flit"
         },

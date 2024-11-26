@@ -668,7 +668,7 @@
     "variants": [
         {
             "default": false,
-            "description": "Enable Aqua interface",
+            "description": "Enable native macOS (Cocoa) interface",
             "name": "aqua"
         },
         {

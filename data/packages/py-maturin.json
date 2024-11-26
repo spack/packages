@@ -86,7 +86,7 @@
             "name": "py-rtoml"
         },
         {
-            "description": "An extremely fast Python linter, written in Rust.",
+            "description": "An extremely fast Python linter and code formatter, written in Rust.",
             "name": "py-ruff"
         },
         {

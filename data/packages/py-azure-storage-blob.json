@@ -68,7 +68,7 @@
     ],
     "description": "Microsoft Azure Blob Storage Client Library for Python\n",
     "homepage": "https://github.com/Azure/azure-storage-python",
-    "latest_version": "12.19.0",
+    "latest_version": "12.22.0",
     "maintainers": [
         "marcusboden"
     ],
@@ -83,6 +83,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "12.22.0",
+            "sha256": "b3804bb4fe8ab1c32771fa464053da772a682c2737b19da438a3f4e5e3b3736e"
+        },
         {
             "name": "12.19.0",
             "sha256": "26c0a4320a34a3c2a1b74528ba6812ebcb632a04cd67b1c7377232c4b01a5897"

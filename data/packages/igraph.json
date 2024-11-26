@@ -62,7 +62,7 @@
     ],
     "description": "igraph is a library for creating and manipulating graphs.\n",
     "homepage": "https://igraph.org/",
-    "latest_version": "0.10.13",
+    "latest_version": "0.10.15",
     "maintainers": [],
     "name": "igraph",
     "patches": [],
@@ -95,6 +95,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.10.15",
+            "sha256": "03ba01db0544c4e32e51ab66f2356a034394533f61b4e14d769b9bbf5ad5e52c"
+        },
         {
             "name": "0.10.13",
             "sha256": "c6dc44324f61f52c098bedb81f6a602365d39d692d5068ca4fc3734b2a15e64c"

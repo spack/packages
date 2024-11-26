@@ -23484,6 +23484,14 @@
         },
         {
             "default": "python_pip",
+            "package": "py-pydantic-extra-types"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-pydantic-settings"
+        },
+        {
+            "default": "python_pip",
             "package": "py-pydantic-tes"
         },
         {
@@ -65520,6 +65528,18 @@
     "itt": [
         {
             "default": false,
+            "package": "gromacs"
+        },
+        {
+            "default": false,
+            "package": "gromacs-chain-coordinate"
+        },
+        {
+            "default": false,
+            "package": "gromacs-swaxs"
+        },
+        {
+            "default": false,
             "package": "opencv"
         }
     ],
@@ -85913,6 +85933,10 @@
         {
             "default": true,
             "package": "axom"
+        },
+        {
+            "default": true,
+            "package": "caliper"
         },
         {
             "default": false,

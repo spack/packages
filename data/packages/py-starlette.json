@@ -52,7 +52,7 @@
     ],
     "description": "The little ASGI library that shines.\n",
     "homepage": "https://github.com/encode/starlette",
-    "latest_version": "0.27.0",
+    "latest_version": "0.41.2",
     "maintainers": [],
     "name": "py-starlette",
     "patches": [],
@@ -65,6 +65,30 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.41.2",
+            "sha256": "9834fd799d1a87fd346deb76158668cfa0b0d56f85caefe8268e2d97c3468b62"
+        },
+        {
+            "name": "0.37.2",
+            "sha256": "9af890290133b79fc3db55474ade20f6220a364a0402e0b556e7cd5e1e093823"
+        },
+        {
+            "name": "0.36.3",
+            "sha256": "90a671733cfb35771d8cc605e0b679d23b992f8dcfad48cc60b38cb29aeb7080"
+        },
+        {
+            "name": "0.35.1",
+            "sha256": "3e2639dac3520e4f58734ed22553f950d3f3cb1001cd2eaac4d57e8cdc5f66bc"
+        },
+        {
+            "name": "0.32.0",
+            "sha256": "87c899fe3aee6a42f711380b03e1d244a21079529cb3dbe1a5109e60915e0bbb"
+        },
+        {
+            "name": "0.28.0",
+            "sha256": "7bf3da5e997e796cc202cef2bd3f96a7d9b1e1943203c2fe2b42e020bc658482"
+        },
         {
             "name": "0.27.0",
             "sha256": "6a6b0d042acb8d469a01eba54e9cda6cbd24ac602c4cd016723117d6a7e73b75"

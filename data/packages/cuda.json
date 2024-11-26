@@ -1239,7 +1239,7 @@
     ],
     "description": "CUDA is a parallel computing platform and programming model invented by\nNVIDIA. It enables dramatic increases in computing performance by\nharnessing the power of the graphics processing unit (GPU). Note: This\npackage does not currently install the drivers necessary to run CUDA.\nThese will need to be installed manually. See:\nhttps://docs.nvidia.com/cuda/ for details.\n",
     "homepage": "https://developer.nvidia.com/cuda-zone",
-    "latest_version": "12.6.2",
+    "latest_version": "12.6.3",
     "maintainers": [
         "Rombur",
         "ax3l",
@@ -1266,6 +1266,11 @@
         }
     ],
     "versions": [
+        {
+            "name": "12.6.3",
+            "sha256": "81d60e48044796d7883aa8a049afe6501b843f2c45639b3703b2378de30d55d3",
+            "url": "https://developer.download.nvidia.com/compute/cuda/12.6.3/local_installers/cuda_12.6.3_560.35.05_linux.run"
+        },
         {
             "name": "12.6.2",
             "sha256": "3729a89cb58f7ca6a46719cff110d6292aec7577585a8d71340f0dbac54fb237",

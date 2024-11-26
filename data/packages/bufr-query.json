@@ -67,7 +67,7 @@
     "dependent_to": [],
     "description": "The NOAA bufr-query Library can be used to read NCEP and WMO formated\nBUFR files using a simple interface that does not require the user to\nknow the details of the BUFR format. Detailed documentation for the BUFR\nLibrary can be found at https://bufr-\nquery.readthedocs.io/en/latest/index.html\n",
     "homepage": "https://github.com/NOAA-EMC/bufr-query",
-    "latest_version": "0.0.3",
+    "latest_version": "0.0.4",
     "maintainers": [
         "rmclaren",
         "srherbener"
@@ -113,6 +113,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.0.4",
+            "sha256": "cc21a298c03ee3a8938823301606e91c7b321005da284ebf2c9b25044bfcbad8"
+        },
         {
             "name": "0.0.3",
             "sha256": "f2952a190cc1d7714a3bfe481fb1545459639ba304fc31b941062b471dea1d41"

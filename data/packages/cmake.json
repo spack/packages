@@ -5629,7 +5629,7 @@
     ],
     "description": "A cross-platform, open-source build system. CMake is a family of tools\ndesigned to build, test and package software.\n",
     "homepage": "https://www.cmake.org",
-    "latest_version": "3.30.5",
+    "latest_version": "3.31.0",
     "maintainers": [
         "alalazo",
         "johnwparent"
@@ -5786,6 +5786,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "3.31.0",
+            "sha256": "300b71db6d69dcc1ab7c5aae61cbc1aa2778a3e00cbd918bc720203e311468c3"
         },
         {
             "name": "3.30.5",

@@ -16,6 +16,10 @@
             "name": "py-click"
         },
         {
+            "description": "A simple framework for building complex web applications.",
+            "name": "py-flask"
+        },
+        {
             "description": "A ASGI Server based on Hyper libraries and inspired by Gunicorn.",
             "name": "py-hypercorn"
         },
@@ -30,6 +34,10 @@
         {
             "description": "Jinja2 is a template engine written in pure Python. It provides a Django\ninspired non-XML syntax but supports inline expressions and an optional\nsandboxed environment.",
             "name": "py-jinja2"
+        },
+        {
+            "description": "MarkupSafe is a library for Python that implements a unicode string that\nis aware of HTML escaping rules and can be used to implement automatic\nstring escaping. It is used by Jinja 2, the Mako templating engine, the\nPylons web framework and many more.",
+            "name": "py-markupsafe"
         },
         {
             "description": "The PyPA recommended tool for installing Python packages.",
@@ -72,7 +80,7 @@
     ],
     "description": "A Python ASGI web microframework with the same API as Flask.\n",
     "homepage": "https://gitlab.com/pgjones/quart/",
-    "latest_version": "0.16.3",
+    "latest_version": "0.19.8",
     "maintainers": [],
     "name": "py-quart",
     "patches": [],
@@ -85,6 +93,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.19.8",
+            "sha256": "ef567d0be7677c99890d5c6ff30e679699fe7e5fca1a90fa3b6974edd8421794"
+        },
         {
             "name": "0.16.3",
             "sha256": "16521d8cf062461b158433d820fff509f98fb997ae6c28740eda061d9cba7d5e"

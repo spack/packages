@@ -20576,6 +20576,14 @@
         "name": "py-pydantic-core"
     },
     {
+        "description": "A place for pydantic types that probably shouldn't exist in the main\npydantic lib.\n",
+        "name": "py-pydantic-extra-types"
+    },
+    {
+        "description": "Settings management using Pydantic.\n",
+        "name": "py-pydantic-settings"
+    },
+    {
         "description": "Pydantic Models for the GA4GH Task Execution Service\n",
         "name": "py-pydantic-tes"
     },
@@ -22296,7 +22304,7 @@
         "name": "py-rucio-clients"
     },
     {
-        "description": "An extremely fast Python linter, written in Rust.\n",
+        "description": "An extremely fast Python linter and code formatter, written in Rust.\n",
         "name": "py-ruff"
     },
     {

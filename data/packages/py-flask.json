@@ -12,6 +12,10 @@
             "name": "py-click"
         },
         {
+            "description": "Distribution-building parts of Flit.",
+            "name": "py-flit-core"
+        },
+        {
             "description": "Read metadata from Python packages.",
             "name": "py-importlib-metadata"
         },
@@ -130,6 +134,10 @@
             "name": "py-pytest-httpbin"
         },
         {
+            "description": "A Python ASGI web microframework with the same API as Flask.",
+            "name": "py-quart"
+        },
+        {
             "description": "Raven is a client for Sentry.",
             "name": "py-raven"
         },
@@ -140,7 +148,7 @@
     ],
     "description": "A simple framework for building complex web applications.\n",
     "homepage": "https://palletsprojects.com/p/flask/",
-    "latest_version": "2.3.2",
+    "latest_version": "3.0.3",
     "maintainers": [],
     "name": "py-flask",
     "patches": [],
@@ -154,9 +162,15 @@
     ],
     "versions": [
         {
+            "name": "3.0.3",
+            "sha256": "ceb27b0af3823ea2737928a4d99d125a06175b8512c445cbd9a9ce200ef76842"
+        },
+        {
             "name": "2.3.2",
             "sha256": "8c2f9abd47a9e8df7f0c3f091ce9497d011dc3b31effcf4c85a6e2b50f4114ef"
-        },
+        }
+    ],
+    "versions_deprecated": [
         {
             "name": "2.2.2",
             "sha256": "642c450d19c4ad482f96729bd2a8f6d32554aa1e231f4f6b4e7e5264b16cca2b"
@@ -189,6 +203,5 @@
             "name": "0.11.1",
             "sha256": "b4713f2bfb9ebc2966b8a49903ae0d3984781d5c878591cf2f7b484d28756b0e"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

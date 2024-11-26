@@ -9,7 +9,7 @@
         },
         {
             "description": null,
-            "name": "^py-pydantic@1.7.0:1.7.3,1.8.0:1.8.1",
+            "name": "^py-pydantic@1.7.0:1.7.3,1.8.0:1.8.1,2.0,2.1.0",
             "spec": ""
         }
     ],
@@ -39,12 +39,24 @@
             "name": "py-orjson"
         },
         {
+            "description": "The build backend used by PDM that supports latest packaging standards",
+            "name": "py-pdm-backend"
+        },
+        {
             "description": "The PyPA recommended tool for installing Python packages.",
             "name": "py-pip"
         },
         {
             "description": "Data validation and settings management using Python type hinting.",
             "name": "py-pydantic"
+        },
+        {
+            "description": "A place for pydantic types that probably shouldn't exist in the main\npydantic lib.",
+            "name": "py-pydantic-extra-types"
+        },
+        {
+            "description": "Settings management using Pydantic.",
+            "name": "py-pydantic-settings"
         },
         {
             "description": "A streaming multipart parser for Python",
@@ -57,6 +69,10 @@
         {
             "description": "The little ASGI library that shines.",
             "name": "py-starlette"
+        },
+        {
+            "description": "The typing_extensions module contains both backports of these changes as\nwell as experimental types that will eventually be added to the typing\nmodule, such as Protocol (see PEP 544 for details about protocols and\nstatic duck typing).",
+            "name": "py-typing-extensions"
         },
         {
             "description": "Ultra fast JSON decoder and encoder written in C with Python bindings.",
@@ -98,8 +114,8 @@
         }
     ],
     "description": "FastAPI framework, high performance, easy to learn, fast to code, ready\nfor production\n",
-    "homepage": "https://github.com/tiangolo/fastapi",
-    "latest_version": "0.98.0",
+    "homepage": "https://github.com/fastapi/fastapi",
+    "latest_version": "0.115.4",
     "maintainers": [],
     "name": "py-fastapi",
     "patches": [],
@@ -118,6 +134,16 @@
     ],
     "versions": [
         {
+            "name": "0.115.4",
+            "sha256": "db653475586b091cb8b2fec2ac54a680ac6a158e07406e1abae31679e8826349"
+        },
+        {
+            "name": "0.110.2",
+            "sha256": "b53d673652da3b65e8cd787ad214ec0fe303cad00d2b529b86ce7db13f17518d"
+        }
+    ],
+    "versions_deprecated": [
+        {
             "name": "0.98.0",
             "sha256": "0d3c18886f652038262b5898fec6b09f4ca92ee23e9d9b1d1d24e429f84bf27b"
         },
@@ -125,6 +151,5 @@
             "name": "0.88.0",
             "sha256": "915bf304180a0e7c5605ec81097b7d4cd8826ff87a02bb198e336fb9f3b5ff02"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

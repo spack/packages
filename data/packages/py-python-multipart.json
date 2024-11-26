@@ -4,6 +4,10 @@
     "conflicts": [],
     "dependencies": [
         {
+            "description": "Modern, extensible Python build backend.",
+            "name": "py-hatchling"
+        },
+        {
             "description": "The PyPA recommended tool for installing Python packages.",
             "name": "py-pip"
         },
@@ -48,7 +52,7 @@
     ],
     "description": "A streaming multipart parser for Python\n",
     "homepage": "https://github.com/andrew-d/python-multipart",
-    "latest_version": "0.0.5",
+    "latest_version": "0.0.17",
     "maintainers": [],
     "name": "py-python-multipart",
     "patches": [],
@@ -61,6 +65,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.0.17",
+            "sha256": "41330d831cae6e2f22902704ead2826ea038d0419530eadff3ea80175aec5538"
+        },
         {
             "name": "0.0.5",
             "sha256": "f7bb5f611fc600d15fa47b3974c8aa16e93724513b49b5f95c81e6624c83fa43"

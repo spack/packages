@@ -34,9 +34,9 @@
             "name": "py-torchgeo"
         }
     ],
-    "description": "An extremely fast Python linter, written in Rust.\n",
-    "homepage": "https://beta.ruff.rs/docs",
-    "latest_version": "0.6.5",
+    "description": "An extremely fast Python linter and code formatter, written in Rust.\n",
+    "homepage": "https://docs.astral.sh/ruff",
+    "latest_version": "0.8.0",
     "maintainers": [
         "adamjstewart"
     ],
@@ -51,6 +51,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.8.0",
+            "sha256": "a7ccfe6331bf8c8dad715753e157457faf7351c2b69f62f32c165c2dbcbacd44"
+        },
         {
             "name": "0.6.5",
             "sha256": "4d32d87fab433c0cf285c3683dd4dae63be05fd7a1d65b3f5bf7cdd05a6b96fb"

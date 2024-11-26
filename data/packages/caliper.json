@@ -642,6 +642,11 @@
             "name": "tests"
         },
         {
+            "default": true,
+            "description": "Enable tools",
+            "name": "tools"
+        },
+        {
             "default": false,
             "description": "Enable Variorum support",
             "name": "variorum"

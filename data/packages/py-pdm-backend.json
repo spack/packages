@@ -30,6 +30,10 @@
             "name": "py-docopt-ng"
         },
         {
+            "description": "FastAPI framework, high performance, easy to learn, fast to code, ready\nfor production",
+            "name": "py-fastapi"
+        },
+        {
             "description": "Framework for studying fluid dynamics.",
             "name": "py-fluiddyn"
         },
@@ -44,7 +48,7 @@
     ],
     "description": "The build backend used by PDM that supports latest packaging standards\n",
     "homepage": "https://backend.pdm-project.org/",
-    "latest_version": "2.3.0",
+    "latest_version": "2.4.3",
     "maintainers": [],
     "name": "py-pdm-backend",
     "patches": [],
@@ -57,6 +61,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.4.3",
+            "sha256": "dbd9047a7ac10d11a5227e97163b617ad5d665050476ff63867d971758200728"
+        },
         {
             "name": "2.3.0",
             "sha256": "e39ed2da206d90d4a6e9eb62f6dce54ed4fa65ddf172a7d5700960d0f8a09e09"

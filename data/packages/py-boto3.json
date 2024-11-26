@@ -92,7 +92,7 @@
     ],
     "description": "The AWS SDK for Python.\n",
     "homepage": "https://github.com/boto/boto3",
-    "latest_version": "1.34.44",
+    "latest_version": "1.34.162",
     "maintainers": [],
     "name": "py-boto3",
     "patches": [],
@@ -105,6 +105,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.34.162",
+            "sha256": "873f8f5d2f6f85f1018cbb0535b03cceddc7b655b61f66a0a56995238804f41f"
+        },
         {
             "name": "1.34.44",
             "sha256": "86bcf79a56631609a9f8023fe8f53e2869702bdd4c9047c6d9f091eb39c9b0fa"

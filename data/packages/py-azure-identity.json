@@ -32,6 +32,10 @@
             "name": "py-six"
         },
         {
+            "description": "The typing_extensions module contains both backports of these changes as\nwell as experimental types that will eventually be added to the typing\nmodule, such as Protocol (see PEP 544 for details about protocols and\nstatic duck typing).",
+            "name": "py-typing-extensions"
+        },
+        {
             "description": "A built-package format for Python.",
             "name": "py-wheel"
         },
@@ -68,7 +72,7 @@
     ],
     "description": "Microsoft Azure Identity Library for Python.\n",
     "homepage": "https://github.com/Azure/azure-sdk-for-python/tree/master/sdk/identity/azure-identity",
-    "latest_version": "1.15.0",
+    "latest_version": "1.17.1",
     "maintainers": [],
     "name": "py-azure-identity",
     "patches": [],
@@ -81,6 +85,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.17.1",
+            "sha256": "32ecc67cc73f4bd0595e4f64b1ca65cd05186f4fe6f98ed2ae9f1aa32646efea"
+        },
         {
             "name": "1.15.0",
             "sha256": "4c28fc246b7f9265610eb5261d65931183d019a23d4b0e99357facb2e6c227c8"

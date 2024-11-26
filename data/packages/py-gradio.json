@@ -139,7 +139,7 @@
     "dependent_to": [],
     "description": "Python library for easily interacting with trained machine learning\nmodels\n",
     "homepage": "https://github.com/gradio-app/gradio",
-    "latest_version": "3.36.1",
+    "latest_version": "5.1.0",
     "maintainers": [],
     "name": "py-gradio",
     "patches": [],
@@ -153,9 +153,22 @@
     ],
     "versions": [
         {
+            "name": "5.1.0",
+            "sha256": "d2153668e6de2df7a01bb33f01a074fc7716ec863c40f472d8e439439ef1e153"
+        }
+    ],
+    "versions_deprecated": [
+        {
+            "name": "4.44.1",
+            "sha256": "a68a52498ac6b63f8864ef84bf7866a70e7d07ebe913edf921e1d2a3708ad5ae"
+        },
+        {
+            "name": "3.50.2",
+            "sha256": "c6c81320566ba3e5688a1a58201d0729565a97b828b2bf6895e54f7bf25c01de"
+        },
+        {
             "name": "3.36.1",
             "sha256": "1d821cee15da066c24c197248ba9aaed5f5e59505d17754561c2f96f90e73a89"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }
