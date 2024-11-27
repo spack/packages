@@ -87634,6 +87634,10 @@
     "voronoi": [
         {
             "default": false,
+            "package": "all-library"
+        },
+        {
+            "default": false,
             "package": "lammps"
         },
         {

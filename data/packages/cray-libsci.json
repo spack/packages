@@ -43,7 +43,7 @@
     ],
     "description": "The Cray Scientific Libraries package, LibSci, is a collection of\nnumerical routines optimized for best performance on Cray systems.\n",
     "homepage": "https://docs.nersc.gov/development/libraries/libsci/",
-    "latest_version": "21.08.1.2",
+    "latest_version": "23.02.1.1",
     "maintainers": [],
     "name": "cray-libsci",
     "patches": [],
@@ -71,6 +71,12 @@
         }
     ],
     "versions": [
+        {
+            "name": "23.02.1.1"
+        },
+        {
+            "name": "22.11.1.2"
+        },
         {
             "name": "21.08.1.2"
         },

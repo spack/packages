@@ -29,7 +29,7 @@
     ],
     "description": "Cray's MPICH is a high performance and widely portable implementation of\nthe Message Passing Interface (MPI) standard.\n",
     "homepage": "https://docs.nersc.gov/development/compilers/wrappers/",
-    "latest_version": "8.1.7",
+    "latest_version": "8.1.25",
     "maintainers": [
         "haampie"
     ],
@@ -49,6 +49,18 @@
         }
     ],
     "versions": [
+        {
+            "name": "8.1.25"
+        },
+        {
+            "name": "8.1.24"
+        },
+        {
+            "name": "8.1.21"
+        },
+        {
+            "name": "8.1.14"
+        },
         {
             "name": "8.1.7"
         },
