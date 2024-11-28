@@ -152,7 +152,7 @@
     ],
     "description": "Multi-backend Keras. Keras 3 is a new multi-backend implementation of\nthe Keras API, with support for TensorFlow, JAX, and PyTorch.\n",
     "homepage": "https://keras.io",
-    "latest_version": "3.6.0",
+    "latest_version": "3.7.0",
     "maintainers": [
         "adamjstewart"
     ],
@@ -172,6 +172,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.7.0",
+            "sha256": "a4451a5591e75dfb414d0b84a3fd2fb9c0240cc87ebe7e397f547ce10b0e67b7"
+        },
         {
             "name": "3.6.0",
             "sha256": "405727525a3522ed8f9ec0b46e0667e4c65fcf714a067322c16a00d902ded41d"

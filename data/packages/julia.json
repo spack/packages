@@ -4,6 +4,11 @@
     "conflicts": [
         {
             "description": null,
+            "name": "%gcc@12:",
+            "spec": "@:1.7"
+        },
+        {
+            "description": null,
             "name": "arch=windows-None-None",
             "spec": "build_system=makefile"
         }

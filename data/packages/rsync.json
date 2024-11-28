@@ -119,7 +119,9 @@
         {
             "name": "3.2.5",
             "sha256": "2ac4d21635cdf791867bc377c35ca6dda7f50d919a58be45057fd51600c69aba"
-        },
+        }
+    ],
+    "versions_deprecated": [
         {
             "name": "3.2.4",
             "sha256": "6f761838d08052b0b6579cf7f6737d93e47f01f4da04c5d24d3447b7f2a5fad1"
@@ -144,6 +146,5 @@
             "name": "3.1.1",
             "sha256": "7de4364fcf5fe42f3bdb514417f1c40d10bbca896abe7e7f2c581c6ea08a2621"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

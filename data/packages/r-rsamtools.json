@@ -58,6 +58,10 @@
         {
             "description": "An R packaged zlib-1.2.5. This package uses the source code of\nzlib-1.2.5 to create libraries for systems that do not have these\navailable via other means (most Linux and Mac users should have system-\nlevel access to zlib, and no direct need for this package). See the\nvignette for instructions on use.",
             "name": "r-zlibbioc"
+        },
+        {
+            "description": "zlib replacement with optimizations for next generation systems.",
+            "name": "zlib-api"
         }
     ],
     "dependent_to": [
