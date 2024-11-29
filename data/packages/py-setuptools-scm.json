@@ -826,6 +826,10 @@
             "name": "py-scikit-build"
         },
         {
+            "description": "A Great Dane turned Python environment detective.",
+            "name": "py-scooby"
+        },
+        {
             "description": "screed: a Python library for loading FASTA and FASTQ sequences.",
             "name": "py-screed"
         },

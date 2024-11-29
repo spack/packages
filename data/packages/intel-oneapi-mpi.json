@@ -56,7 +56,7 @@
     ],
     "description": "Intel MPI Library is a multifabric message-passing library that\nimplements the open-source MPICH specification. Use the library to\ncreate, maintain, and test advanced, complex applications that perform\nbetter on high-performance computing (HPC) clusters based on Intel\nprocessors. LICENSE INFORMATION: By downloading and using this software,\nyou agree to the terms and conditions of the software license agreements\nat https://intel.ly/393CijO.\n",
     "homepage": "https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/mpi-library.html",
-    "latest_version": "2021.14.0",
+    "latest_version": "2021.14.1",
     "maintainers": [
         "rscohn2"
     ],
@@ -96,6 +96,11 @@
         }
     ],
     "versions": [
+        {
+            "name": "2021.14.1",
+            "sha256": "6459b9fc81fad9b9955de7fd9904e67fcf2ada3564ce0a74b9c14ea8fb533ddf",
+            "url": "https://registrationcenter-download.intel.com/akdlm/IRC_NAS/1acd5e79-796c-401a-ab31-a3dc7b20c6a2/intel-mpi-2021.14.1.7_offline.sh"
+        },
         {
             "name": "2021.14.0",
             "sha256": "81ea7aaf8039c134b4df40bab1423a269425d26bb90ac05f7decac39719d21f3",

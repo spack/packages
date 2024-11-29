@@ -42,7 +42,9 @@
     "description": "ScaLAPACK is a library of high-performance linear algebra routines for\nparallel distributed memory machines\n",
     "homepage": "https://www.netlib.org/scalapack/",
     "latest_version": "2.2.0",
-    "maintainers": [],
+    "maintainers": [
+        "etiennemlb"
+    ],
     "name": "netlib-scalapack",
     "patches": [
         {

@@ -66331,6 +66331,10 @@
             "package": "grid"
         },
         {
+            "default": true,
+            "package": "hypre"
+        },
+        {
             "default": false,
             "package": "kokkos-kernels"
         },

@@ -570,7 +570,8 @@
     "maintainers": [
         "balay",
         "osborn9",
-        "ulrikeyang"
+        "ulrikeyang",
+        "victorapm"
     ],
     "name": "hypre",
     "patches": [
@@ -731,6 +732,11 @@
             "default": false,
             "description": "Use internal SuperLU routines",
             "name": "internal-superlu"
+        },
+        {
+            "default": true,
+            "description": "Use external blas/lapack",
+            "name": "lapack"
         },
         {
             "default": false,

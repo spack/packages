@@ -33,6 +33,10 @@
             "name": "catch2"
         },
         {
+            "description": "cereal is a header-only C++11 serialization library. cereal takes\narbitrary data types and reversibly turns them into different\nrepresentations, such as compact binary encodings, XML, or JSON. cereal\nwas designed to be fast, light-weight, and easy to extend - it has no\nexternal dependencies and can be easily bundled with other code or used\nstandalone.",
+            "name": "cereal"
+        },
+        {
             "description": "The CFD General Notation System (CGNS) provides a general, portable, and\nextensible standard for the storage and retrieval of computational fluid\ndynamics (CFD) analysis data.",
             "name": "cgns"
         },
