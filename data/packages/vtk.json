@@ -153,10 +153,6 @@
             "name": "python"
         },
         {
-            "description": "A Spack managed Python virtual environment",
-            "name": "python-venv"
-        },
-        {
             "description": "Qt is a comprehensive cross-platform C++ application framework.",
             "name": "qt"
         },

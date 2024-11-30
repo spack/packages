@@ -11148,7 +11148,7 @@
     ],
     "description": "The PyPA recommended tool for installing Python packages.\n",
     "homepage": "https://pip.pypa.io/",
-    "latest_version": "23.1.2",
+    "latest_version": "24.3.1",
     "maintainers": [
         "adamjstewart",
         "pradyunsg"
@@ -11181,6 +11181,30 @@
         }
     ],
     "versions": [
+        {
+            "name": "24.3.1",
+            "sha256": "3790624780082365f47549d032f3770eeb2b1e8bd1f7b2e02dace1afa361b4ed"
+        },
+        {
+            "name": "24.2",
+            "sha256": "2cd581cf58ab7fcfca4ce8efa6dcacd0de5bf8d0a3eb9ec927e07405f4d9e2a2"
+        },
+        {
+            "name": "24.1.2",
+            "sha256": "7cd207eed4c60b0f411b444cd1464198fe186671c323b6cd6d433ed80fc9d247"
+        },
+        {
+            "name": "24.0",
+            "sha256": "ba0d021a166865d2265246961bec0152ff124de910c5cc39f1156ce3fa7c69dc"
+        },
+        {
+            "name": "23.3.2",
+            "sha256": "5052d7889c1f9d05224cd41741acb7c5d6fa735ab34e339624a614eaaa7e7d76"
+        },
+        {
+            "name": "23.2.1",
+            "sha256": "7ccf472345f20d35bdc9d1841ff5f313260c2c33fe417f48c30ac46cccabf5be"
+        },
         {
             "name": "23.1.2",
             "sha256": "3ef6ac33239e4027d9a5598a381b9d30880a1477e50039db2eac6e8a8f6d1b18"

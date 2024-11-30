@@ -67,7 +67,7 @@
     "dependent_to": [],
     "description": "Diff and merge of Jupyter Notebooks\n",
     "homepage": "https://nbdime.readthedocs.io/",
-    "latest_version": "3.1.1",
+    "latest_version": "3.2.1",
     "maintainers": [],
     "name": "py-nbdime",
     "patches": [],
@@ -81,9 +81,14 @@
     ],
     "versions": [
         {
+            "name": "3.2.1",
+            "sha256": "31409a30f848ffc6b32540697e82d5a0a1b84dcc32716ca74e78bcc4b457c453"
+        }
+    ],
+    "versions_deprecated": [
+        {
             "name": "3.1.1",
             "sha256": "67767320e971374f701a175aa59abd3a554723039d39fae908e72d16330d648b"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }
