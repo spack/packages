@@ -36,7 +36,7 @@
     ],
     "description": "An extremely fast Python linter and code formatter, written in Rust.\n",
     "homepage": "https://docs.astral.sh/ruff",
-    "latest_version": "0.8.0",
+    "latest_version": "0.8.1",
     "maintainers": [
         "adamjstewart"
     ],
@@ -51,6 +51,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.8.1",
+            "sha256": "3583db9a6450364ed5ca3f3b4225958b24f78178908d5c4bc0f46251ccca898f"
+        },
         {
             "name": "0.8.0",
             "sha256": "a7ccfe6331bf8c8dad715753e157457faf7351c2b69f62f32c165c2dbcbacd44"
