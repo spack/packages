@@ -374,6 +374,10 @@
             "name": "libproxy"
         },
         {
+            "description": "The main libseccomp repository",
+            "name": "libseccomp"
+        },
+        {
             "description": "Libxml2 is the XML C parser and toolkit developed for the Gnome project\n(but usable outside of the Gnome platform), it is free software\navailable under the MIT License.",
             "name": "libxml2"
         },

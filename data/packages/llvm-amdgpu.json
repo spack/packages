@@ -528,6 +528,10 @@
             "name": "trilinos"
         },
         {
+            "description": "UCC is a collective communication operations API and library that is\nflexible, complete, and feature-rich for current and emerging\nprogramming models and runtimes.",
+            "name": "ucc"
+        },
+        {
             "description": "An application-focused API for memory management on NUMA & GPU\narchitectures",
             "name": "umpire"
         },

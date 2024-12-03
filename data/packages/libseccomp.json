@@ -24,6 +24,14 @@
         {
             "description": "The Cython compiler for writing C extensions for the Python language.",
             "name": "py-cython"
+        },
+        {
+            "description": "The Python programming language.",
+            "name": "python"
+        },
+        {
+            "description": "A Spack managed Python virtual environment",
+            "name": "python-venv"
         }
     ],
     "dependent_to": [

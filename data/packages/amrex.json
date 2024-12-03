@@ -578,7 +578,7 @@
     ],
     "description": "AMReX is a publicly available software framework designed for building\nmassively parallel block- structured adaptive mesh refinement (AMR)\napplications.\n",
     "homepage": "https://amrex-codes.github.io/amrex/",
-    "latest_version": "24.11",
+    "latest_version": "24.12",
     "maintainers": [
         "WeiqunZhang",
         "asalmgren",
@@ -743,6 +743,10 @@
         {
             "branch": "development",
             "name": "develop"
+        },
+        {
+            "name": "24.12",
+            "sha256": "ca4b41ac73fabb9cf3600b530c9823eb3625f337d9b7b9699c1089e81c67fc67"
         },
         {
             "name": "24.11",

@@ -1146,6 +1146,10 @@
         },
         {
             "default": "none",
+            "package": "ucc"
+        },
+        {
+            "default": "none",
             "package": "umpire"
         },
         {
@@ -34967,7 +34971,7 @@
             "package": "ut"
         },
         {
-            "default": "generic",
+            "default": "cmake",
             "package": "utf8cpp"
         },
         {
@@ -41057,6 +41061,10 @@
         {
             "default": "Release",
             "package": "ut"
+        },
+        {
+            "default": "Release",
+            "package": "utf8cpp"
         },
         {
             "default": "Release",
@@ -56752,6 +56760,10 @@
         },
         {
             "default": "make",
+            "package": "utf8cpp"
+        },
+        {
+            "default": "make",
             "package": "utf8proc"
         },
         {
@@ -65113,6 +65125,10 @@
         {
             "default": false,
             "package": "ut"
+        },
+        {
+            "default": false,
+            "package": "utf8cpp"
         },
         {
             "default": false,
@@ -78609,6 +78625,10 @@
         {
             "default": false,
             "package": "cosma"
+        },
+        {
+            "default": false,
+            "package": "ucc"
         }
     ],
     "rcpp": [
@@ -79473,6 +79493,10 @@
         {
             "default": false,
             "package": "trilinos"
+        },
+        {
+            "default": false,
+            "package": "ucc"
         },
         {
             "default": false,

@@ -421,7 +421,7 @@
     ],
     "description": "Scalable Library for Eigenvalue Problem Computations.\n",
     "homepage": "https://slepc.upv.es",
-    "latest_version": "3.22.1",
+    "latest_version": "3.22.2",
     "maintainers": [
         "balay",
         "joseeroman"
@@ -498,6 +498,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "3.22.2",
+            "sha256": "b60e58b2fa5eb7db05ce5e3a585811b43b1cc7cf89c32266e37b05f0cefd8899"
         },
         {
             "name": "3.22.1",

@@ -324,6 +324,11 @@
         },
         {
             "description": null,
+            "name": "amdgpu_target=none",
+            "spec": "+rocm"
+        },
+        {
+            "description": null,
             "name": "arch=windows-None-None",
             "spec": "build_system=autotools"
         }
@@ -350,12 +355,28 @@
             "name": "gnuconfig"
         },
         {
+            "description": "HIP is a C++ Runtime API and Kernel Language that allows developers to\ncreate portable applications for AMD and NVIDIA GPUs from single source\ncode.",
+            "name": "hip"
+        },
+        {
+            "description": "This repository includes the user mode API nterfaces and libraries\nnecessary for host applications to launch computer kernels to available\nHSA ROCm kernel agents.AMD Heterogeneous System Architecture HSA - Linux\nHSA Runtime for Boltzmann (ROCm) platforms.",
+            "name": "hsa-rocr-dev"
+        },
+        {
             "description": "libtool -- library building part of autotools.",
             "name": "libtool"
         },
         {
+            "description": "Toolkit for the construction of highly optimized compilers, optimizers,\nand run-time environments.",
+            "name": "llvm-amdgpu"
+        },
+        {
             "description": "Optimized primitives for collective multi-GPU communication.",
             "name": "nccl"
+        },
+        {
+            "description": "RCCL (pronounced \"Rickle\") is a stand-alone library of standard\ncollective communication routines for GPUs, implementing all-reduce,\nall-gather, reduce, broadcast, and reduce-scatter.",
+            "name": "rccl"
         },
         {
             "description": "a communication library implementing high-performance messaging for\nMPI/PGAS frameworks",
@@ -393,6 +414,11 @@
     "resources": [],
     "variants": [
         {
+            "default": "none",
+            "description": "AMD GPU architecture",
+            "name": "amdgpu_target"
+        },
+        {
             "default": "autotools",
             "description": "Build systems supported by the package",
             "name": "build_system"
@@ -411,6 +437,16 @@
             "default": false,
             "description": "Enable NCCL TL",
             "name": "nccl"
+        },
+        {
+            "default": false,
+            "description": "Enable RCCL TL",
+            "name": "rccl"
+        },
+        {
+            "default": false,
+            "description": "Enable ROCm support",
+            "name": "rocm"
         }
     ],
     "versions": [

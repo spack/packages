@@ -653,6 +653,10 @@
             "name": "trilinos"
         },
         {
+            "description": "UCC is a collective communication operations API and library that is\nflexible, complete, and feature-rich for current and emerging\nprogramming models and runtimes.",
+            "name": "ucc"
+        },
+        {
             "description": "a communication library implementing high-performance messaging for\nMPI/PGAS frameworks",
             "name": "ucx"
         },

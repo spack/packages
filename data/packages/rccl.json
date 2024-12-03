@@ -88,6 +88,10 @@
         {
             "description": "These tests check both the performance and the correctness of RCCL\noperations. They can be compiled against RCCL.",
             "name": "rccl-tests"
+        },
+        {
+            "description": "UCC is a collective communication operations API and library that is\nflexible, complete, and feature-rich for current and emerging\nprogramming models and runtimes.",
+            "name": "ucc"
         }
     ],
     "description": "RCCL (pronounced \"Rickle\") is a stand-alone library of standard\ncollective communication routines for GPUs, implementing all-reduce,\nall-gather, reduce, broadcast, and reduce-scatter.\n",

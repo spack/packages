@@ -114,7 +114,7 @@
     ],
     "description": "Rasterio reads and writes geospatial raster data. Geographic information\nsystems use GeoTIFF and other formats to organize and store gridded, or\nraster, datasets. Rasterio reads and writes these formats and provides a\nPython API based on N-D arrays.\n",
     "homepage": "https://github.com/rasterio/rasterio",
-    "latest_version": "1.4.2",
+    "latest_version": "1.4.3",
     "maintainers": [
         "adamjstewart"
     ],
@@ -132,6 +132,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "1.4.3",
+            "sha256": "201f05dbc7c4739dacb2c78a1cf4e09c0b7265b0a4d16ccbd1753ce4f2af350a"
         },
         {
             "name": "1.4.2",

@@ -1083,6 +1083,10 @@
             "name": "libpsl"
         },
         {
+            "description": "The main libseccomp repository",
+            "name": "libseccomp"
+        },
+        {
             "description": "The X protocol C-language Binding (XCB) is a replacement for Xlib\nfeaturing a small footprint, latency hiding, direct access to the\nprotocol, improved threading support, and extensibility.",
             "name": "libxcb"
         },
