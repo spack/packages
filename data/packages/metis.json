@@ -267,6 +267,15 @@
         {
             "level": 1,
             "owner": "builtin.metis",
+            "relative_path": "no_warning.patch",
+            "reverse": false,
+            "sha256": "d3ca8aeeee79bdd2e04940ea828c8d64ed1b8e111e607e1d5796cb027cc7c8fd",
+            "version": "@5:+no_warning",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.metis",
             "relative_path": "gklib_path.patch",
             "reverse": false,
             "sha256": "93a7903accc57e69f5672bdfcb543c866fbc4a75f0cce2ddb44b1c2645f9b27a",
@@ -328,6 +337,11 @@
             "default": false,
             "description": "CMake interprocedural optimization",
             "name": "ipo"
+        },
+        {
+            "default": false,
+            "description": "Disable failed partition warning print on all ranks",
+            "name": "no_warning"
         },
         {
             "default": false,

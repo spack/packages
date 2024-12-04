@@ -24,6 +24,10 @@
             "name": "fftw-api"
         },
         {
+            "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
+            "name": "gmake"
+        },
+        {
             "description": "Lightweight but flexible shim designed to rectify the incompatibilities\nbetween the Accelerate/vecLib BLAS and LAPACK libraries shipped with\nmacOS and FORTRAN code compiled with modern compilers such as GNU\nFortran.",
             "name": "lapack"
         },
@@ -40,6 +44,10 @@
             "name": "mpi"
         },
         {
+            "description": "Patch takes a patch file containing a difference listing produced by the\ndiff program and applies those differences to one or more original\nfiles, producing patched versions.",
+            "name": "patch"
+        },
+        {
             "description": "The Python programming language.",
             "name": "python"
         },
@@ -50,6 +58,10 @@
         {
             "description": "ScaLAPACK is a library of high-performance linear algebra routines for\nparallel distributed memory machines",
             "name": "scalapack"
+        },
+        {
+            "description": "GNU Tar provides the ability to create tar archives, as well as various\nother kinds of manipulation.",
+            "name": "tar"
         }
     ],
     "dependent_to": [],
@@ -78,18 +90,16 @@
             "sha256": "235134c148b7b683197cc6dced6e4ccdbfe4b4d2380c3173a2f55f5900ead51d",
             "version": "@7.2.0:7.2.3+fftw3",
             "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.nwchem",
-            "relative_path": "dft-d3_url.patch",
-            "reverse": false,
-            "sha256": "2af3b353eed94c30fdb0552b21edfa8e1a5547c5886dce435652d1eabbee98ab",
-            "version": "@7.2.0:7.2.2",
-            "working_dir": "."
         }
     ],
-    "resources": [],
+    "resources": [
+        {
+            "destination": "",
+            "name": "dftd3.tgz",
+            "placement": "dft-d3",
+            "version": ""
+        }
+    ],
     "variants": [
         {
             "default": "mpi-ts",

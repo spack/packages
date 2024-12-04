@@ -436,7 +436,7 @@
     ],
     "description": "Optimized primitives for collective multi-GPU communication.\n",
     "homepage": "https://github.com/NVIDIA/nccl",
-    "latest_version": "2.22.3-1",
+    "latest_version": "2.23.4-1",
     "maintainers": [
         "adamjstewart"
     ],
@@ -471,6 +471,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.23.4-1",
+            "sha256": "6b946b70a9d2d01871842cbd15ec56488d358abe9a0f3767e372fddc3e241ba7"
+        },
         {
             "name": "2.22.3-1",
             "sha256": "45151629a9494460e73375281e8b0fe379141528879301899ece9b776faca024"

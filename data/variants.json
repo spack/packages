@@ -71815,12 +71815,6 @@
             "package": "duckdb"
         }
     ],
-    "nis": [
-        {
-            "default": false,
-            "package": "python"
-        }
-    ],
     "njet": [
         {
             "default": true,
@@ -71999,6 +71993,12 @@
         {
             "default": false,
             "package": "tracy-client"
+        }
+    ],
+    "no_warning": [
+        {
+            "default": false,
+            "package": "metis"
         }
     ],
     "noarch": [

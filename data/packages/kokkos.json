@@ -747,7 +747,7 @@
     ],
     "description": "Kokkos implements a programming model in C++ for writing performance\nportable applications targeting all major HPC platforms.\n",
     "homepage": "https://github.com/kokkos/kokkos",
-    "latest_version": "4.4.01",
+    "latest_version": "4.5.00",
     "maintainers": [
         "cedricchevalier19",
         "lucbv",
@@ -994,6 +994,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "4.5.00",
+            "sha256": "cbfb742feeb9e649db9eca0394e6ca9a22aa017a1e6aab8576990772a0e3135b"
         },
         {
             "name": "4.4.01",

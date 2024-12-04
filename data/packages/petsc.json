@@ -358,6 +358,16 @@
             "spec": "@:3.20.5+cuda"
         },
         {
+            "description": null,
+            "name": "kokkos-kernels@4.5:",
+            "spec": "@:3.22"
+        },
+        {
+            "description": null,
+            "name": "kokkos@4.5:",
+            "spec": "@:3.22"
+        },
+        {
             "description": "petsc: Requires +mpi",
             "name": "+cgns",
             "spec": "~mpi"

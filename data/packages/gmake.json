@@ -7818,6 +7818,10 @@
             "name": "nvtop"
         },
         {
+            "description": "High-performance computational chemistry software",
+            "name": "nwchem"
+        },
+        {
             "description": "Nyancat in your terminal, rendered through ANSI escape sequences.",
             "name": "nyancat"
         },

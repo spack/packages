@@ -49,10 +49,6 @@
             "name": "libffi"
         },
         {
-            "description": "This library contains the public client interface for NIS(YP) and NIS+\nin a IPv6 ready version.",
-            "name": "libnsl"
-        },
-        {
             "description": "libxcrypt is a modern library for one-way hashing of passwords.",
             "name": "libxcrypt"
         },
@@ -13244,11 +13240,6 @@
             "default": true,
             "description": "Build lzma module",
             "name": "lzma"
-        },
-        {
-            "default": false,
-            "description": "Build nis module",
-            "name": "nis"
         },
         {
             "default": false,
