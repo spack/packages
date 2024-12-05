@@ -106,7 +106,7 @@
     "dependent_to": [],
     "description": "Neovim: Vim-fork focused on extensibility and usability\n",
     "homepage": "https://neovim.io",
-    "latest_version": "0.10.0",
+    "latest_version": "0.10.2",
     "maintainers": [
         "albestro",
         "trws"
@@ -150,6 +150,10 @@
             "commit": "d772f697a281ce9c58bf933997b87c7f27428a60",
             "name": "stable",
             "tag": "stable"
+        },
+        {
+            "name": "0.10.2",
+            "sha256": "546cb2da9fffbb7e913261344bbf4cf1622721f6c5a67aa77609e976e78b8e89"
         },
         {
             "name": "0.10.0",

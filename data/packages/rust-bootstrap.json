@@ -2,7 +2,24 @@
     "aliases": [],
     "build_system": "Package",
     "conflicts": [],
-    "dependencies": [],
+    "dependencies": [
+        {
+            "description": "PatchELF is a small utility to modify the dynamic linker and RPATH of\nELF executables.",
+            "name": "patchelf"
+        },
+        {
+            "description": "A free, general-purpose, legally unencumbered lossless data-compression\nlibrary.",
+            "name": "zlib"
+        },
+        {
+            "description": "zlib replacement with optimizations for next generation systems.",
+            "name": "zlib-api"
+        },
+        {
+            "description": "zlib replacement with optimizations for next generation systems.",
+            "name": "zlib-ng"
+        }
+    ],
     "dependent_to": [
         {
             "description": "The Rust programming language toolchain.",

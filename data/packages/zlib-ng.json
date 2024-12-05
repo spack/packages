@@ -57,6 +57,10 @@
         {
             "description": "METAL is a tool for the meta-analysis of genome-wide association studies",
             "name": "metal"
+        },
+        {
+            "description": "Binary bootstrap Rust compiler.",
+            "name": "rust-bootstrap"
         }
     ],
     "description": "zlib replacement with optimizations for next generation systems.\n",

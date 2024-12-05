@@ -138,6 +138,10 @@
             "name": "rocm-openmp-extras"
         },
         {
+            "description": "Binary bootstrap Rust compiler.",
+            "name": "rust-bootstrap"
+        },
+        {
             "description": "seqfu - Sequece Fastx Utilities",
             "name": "seqfu"
         },
