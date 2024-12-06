@@ -112,7 +112,7 @@
     ],
     "description": "OpenMP support for ROCm LLVM.\n",
     "homepage": "https://github.com/ROCm/aomp",
-    "latest_version": "6.2.1",
+    "latest_version": "6.2.4",
     "maintainers": [
         "afzpatel",
         "estewart08",
@@ -536,6 +536,24 @@
             "name": "llvm-project",
             "placement": "llvm-project",
             "version": "@6.2.1"
+        },
+        {
+            "destination": "rocm-openmp-extras",
+            "name": "flang",
+            "placement": "flang",
+            "version": "@6.2.4"
+        },
+        {
+            "destination": "rocm-openmp-extras",
+            "name": "aomp-extras",
+            "placement": "aomp-extras",
+            "version": "@6.2.4"
+        },
+        {
+            "destination": "rocm-openmp-extras",
+            "name": "llvm-project",
+            "placement": "llvm-project",
+            "version": "@6.2.4"
         }
     ],
     "variants": [
@@ -551,6 +569,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.2.4",
+            "sha256": "ad5674b5626ed6720ca5f8772542e8ed3fb7a9150ed7a86a1adbcd70a2074e8e"
+        },
         {
             "name": "6.2.1",
             "sha256": "ac82e8da0c210ee14b911c833ae09a029a41541689930759737c135db52464a3"

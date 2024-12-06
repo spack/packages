@@ -47,7 +47,7 @@
     "dependent_to": [],
     "description": "AMD's C++ library for accelerating mixed precision matrix multiplication\nand accumulation (MFMA) operations leveraging specialized GPU matrix\ncores. rocWMMA provides a C++ API to facilitate breaking down matrix\nmultiply-accumulate problems into fragments and using them in block-wise\noperations that are distributed in parallel across GPU wavefronts. The\nAPI is a header library of GPU device code meaning that matrix core\nacceleration may be compiled directly into your kernel device code. This\ncan benefit from compiler optimization in the generation of kernel\nassembly, and does not incur additional overhead costs of linking to\nexternal runtime libraries or having to launch separate kernels.\n",
     "homepage": "https://github.com/ROCm/rocWMMA",
-    "latest_version": "6.2.1",
+    "latest_version": "6.2.4",
     "maintainers": [
         "renjithravindrankannath",
         "srekolam"
@@ -93,6 +93,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.2.4",
+            "sha256": "eaa2f313a1bfe455d9641df44d7b890ea7334b58a643c75f0b7f108cae5f777c"
+        },
         {
             "name": "6.2.1",
             "sha256": "f05fcb3612827502d2a15b30f0e46228625027145013652b8f591ad403fa9ddc"

@@ -4,6 +4,11 @@
     "conflicts": [
         {
             "description": null,
+            "name": "%intel",
+            "spec": ""
+        },
+        {
+            "description": null,
             "name": "arch=windows-None-None",
             "spec": "build_system=autotools"
         },

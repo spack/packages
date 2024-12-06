@@ -22,11 +22,11 @@
     ],
     "dependent_to": [
         {
-            "description": "Metadata package to bring together and build multiple Pandora libraries.\nNOTE: for proper version control with spack, this should be broken up\nand the subpackages installed individually.",
+            "description": "ROOT-based Event Visualisation Environment for Pandora with tree-writing\nfunctionality",
             "name": "pandoramonitoring"
         }
     ],
-    "description": "Metadata package to bring together and build multiple Pandora libraries.\nNOTE: for proper version control with spack, this should be broken up\nand the subpackages installed individually.\n",
+    "description": "Pandora Software Development Kit for pattern-recognition algorithms\n",
     "homepage": "https://github.com/PandoraPFA/PandoraSDK",
     "latest_version": "3.4.2",
     "maintainers": [

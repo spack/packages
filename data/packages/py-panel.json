@@ -4,6 +4,14 @@
     "conflicts": [],
     "dependencies": [
         {
+            "description": "Node.js is an open-source, cross-platform JavaScript runtime\nenvironment.",
+            "name": "node-js"
+        },
+        {
+            "description": "npm: A package manager for javascript.",
+            "name": "npm"
+        },
+        {
             "description": "An easy whitelist-based HTML-sanitizing tool.",
             "name": "py-bleach"
         },
@@ -12,12 +20,36 @@
             "name": "py-bokeh"
         },
         {
+            "description": "Hatch plugin for versioning with your preferred VCS",
+            "name": "py-hatch-vcs"
+        },
+        {
+            "description": "Modern, extensible Python build backend.",
+            "name": "py-hatchling"
+        },
+        {
+            "description": "Links recognition library with FULL unicode support.",
+            "name": "py-linkify-it-py"
+        },
+        {
             "description": "This is a Python implementation of John Gruber's Markdown. It is almost\ncompletely compliant with the reference implementation, though there are\na few very minor differences. See John's Syntax Documentation for the\nsyntax rules.",
             "name": "py-markdown"
         },
         {
+            "description": "Markdown parser, done right. 100% CommonMark support, extensions, syntax\nplugins & high speed",
+            "name": "py-markdown-it-py"
+        },
+        {
+            "description": "Collection of core plugins for markdown-it-py",
+            "name": "py-mdit-py-plugins"
+        },
+        {
             "description": "Core utilities for Python packages.",
             "name": "py-packaging"
+        },
+        {
+            "description": "pandas is a fast, powerful, flexible and easy to use open source data\nanalysis and manipulation tool, built on top of the Python programming\nlanguage.",
+            "name": "py-pandas"
         },
         {
             "description": "Param is a library providing Parameters: Python attributes extended to\nhave features such as type and range checking, dynamically generated\nvalues, documentation strings, default values, etc., each of which is\ninherited from parent classes if not specified in a subclass.",
@@ -64,10 +96,23 @@
             "name": "python-venv"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "A Python library designed to make data analysis and visualization\nseamless and simple.",
+            "name": "py-geoviews"
+        },
+        {
+            "description": "A Python library designed to make data analysis and visualization\nseamless and simple.",
+            "name": "py-holoviews"
+        },
+        {
+            "description": "A high-level plotting API for pandas, dask, xarray, and networkx built\non HoloViews.",
+            "name": "py-hvplot"
+        }
+    ],
     "description": "A high level app and dashboarding solution for Python.\n",
     "homepage": "https://panel.holoviz.org/",
-    "latest_version": "0.14.4",
+    "latest_version": "1.5.2",
     "maintainers": [],
     "name": "py-panel",
     "patches": [],
@@ -80,6 +125,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.5.2",
+            "sha256": "30a45f314716bdde2de5c002fbd3a0b4d6ff85459e2179284df559455ff1534b"
+        },
         {
             "name": "0.14.4",
             "sha256": "b853d2f53d7738ec6372525360c5bf9427a71ed990685ccac703bc9b442e9951"

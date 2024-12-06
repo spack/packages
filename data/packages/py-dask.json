@@ -1,7 +1,13 @@
 {
     "aliases": [],
     "build_system": "PythonPackage",
-    "conflicts": [],
+    "conflicts": [
+        {
+            "description": "py-dask: From 2023.8, +dataframe requires +array",
+            "name": "~array",
+            "spec": "@2023.8:+dataframe"
+        }
+    ],
     "dependencies": [
         {
             "description": "Statistical and novel interactive HTML plots for Python",
@@ -14,6 +20,10 @@
         {
             "description": "Extended pickling support for Python objects.",
             "name": "py-cloudpickle"
+        },
+        {
+            "description": "Dask DataFrames with query optimization.",
+            "name": "py-dask-expr"
         },
         {
             "description": "Distributed scheduler for Dask",
@@ -102,6 +112,10 @@
             "name": "py-datacube"
         },
         {
+            "description": "Datashader is a data rasterization pipeline for automating the process\nof creating meaningful representations of large amounts of data",
+            "name": "py-datashader"
+        },
+        {
             "description": "Earth-2 Model Intercomparison Project (MIP). A python framework that\nenables climate researchers and scientists to explore and experiment\nwith AI models for weather and climate.",
             "name": "py-earth2mip"
         },
@@ -138,8 +152,16 @@
             "name": "py-smac"
         },
         {
+            "description": "Pandas extension arrays for spatial/geometric operations.",
+            "name": "py-spatialpandas"
+        },
+        {
             "description": "A library for the calculation of hafnians, Hermite polynomials and\nGaussian boson sampling.",
             "name": "py-thewalrus"
+        },
+        {
+            "description": "Xarray extension for unstructured climate and global weather data\nanalysis and visualization",
+            "name": "py-uxarray"
         },
         {
             "description": "N-D labeled arrays and datasets in Python",

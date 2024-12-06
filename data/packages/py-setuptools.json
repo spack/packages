@@ -2294,6 +2294,10 @@
             "name": "py-dask"
         },
         {
+            "description": "Dask DataFrames with query optimization.",
+            "name": "py-dask-expr"
+        },
+        {
             "description": "Dask-glm is a library for fitting Generalized Linear Models on large\ndatasets.",
             "name": "py-dask-glm"
         },
@@ -3864,6 +3868,10 @@
         {
             "description": "HashiCorp Vault API client",
             "name": "py-hvac"
+        },
+        {
+            "description": "A high-level plotting API for pandas, dask, xarray, and networkx built\non HoloViews.",
+            "name": "py-hvplot"
         },
         {
             "description": "A framework for elegantly configuring complex applications.",
@@ -9608,6 +9616,10 @@
         {
             "description": "Web Application framework for low overhead web services",
             "name": "py-uwsgi"
+        },
+        {
+            "description": "Xarray extension for unstructured climate and global weather data\nanalysis and visualization",
+            "name": "py-uxarray"
         },
         {
             "description": "Python Data Validation for Humans.",

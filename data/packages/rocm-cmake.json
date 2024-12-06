@@ -144,7 +144,7 @@
     ],
     "description": "rocm-cmake provides CMake modules for common build tasks in the ROCm\nsoftware stack\n",
     "homepage": "https://github.com/ROCm/rocm-cmake",
-    "latest_version": "6.2.1",
+    "latest_version": "6.2.4",
     "maintainers": [
         "renjithravindrankannath",
         "srekolam"
@@ -178,6 +178,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "6.2.4",
+            "sha256": "76bfac6fba31a9c4ec196d9b9b2d5ec51b8b68840b3fba8686aa42323d76a425"
         },
         {
             "name": "6.2.1",

@@ -40,6 +40,10 @@
         {
             "description": "IPython provides a rich toolkit to help you make the most out of using\nPython interactively.",
             "name": "py-ipython"
+        },
+        {
+            "description": "Xarray extension for unstructured climate and global weather data\nanalysis and visualization",
+            "name": "py-uxarray"
         }
     ],
     "description": "Inline Matplotlib backend for Jupyter.\n",

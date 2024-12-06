@@ -502,6 +502,10 @@
             "name": "py-torchgeo"
         },
         {
+            "description": "Xarray extension for unstructured climate and global weather data\nanalysis and visualization",
+            "name": "py-uxarray"
+        },
+        {
             "description": "Bioinformatics tools and a software library developed by the Oxford\nNanopore Technologies Applications group.",
             "name": "py-wub"
         },

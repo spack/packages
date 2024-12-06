@@ -30,6 +30,10 @@
     ],
     "dependent_to": [
         {
+            "description": "A Python library designed to make data analysis and visualization\nseamless and simple.",
+            "name": "py-holoviews"
+        },
+        {
             "description": "A high level app and dashboarding solution for Python.",
             "name": "py-panel"
         }

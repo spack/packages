@@ -44,6 +44,10 @@
         {
             "description": "Simple Client for Earth Engine Uploads with Selenium Support.",
             "name": "py-geeup"
+        },
+        {
+            "description": "Pandas extension arrays for spatial/geometric operations.",
+            "name": "py-spatialpandas"
         }
     ],
     "description": "Retrying is an Apache 2.0 licensed general-purpose retrying library,\nwritten in Python, to simplify the task of adding retry behavior to just\nabout anything.\n",

@@ -16784,6 +16784,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-antimeridian"
+        },
+        {
+            "default": "python_pip",
             "package": "py-antlr4-python3-runtime"
         },
         {
@@ -18684,6 +18688,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-dask-expr"
+        },
+        {
+            "default": "python_pip",
             "package": "py-dask-glm"
         },
         {
@@ -18749,6 +18757,10 @@
         {
             "default": "python_pip",
             "package": "py-datasets"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-datashader"
         },
         {
             "default": "python_pip",
@@ -19912,6 +19924,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-geoviews"
+        },
+        {
+            "default": "python_pip",
             "package": "py-gevent"
         },
         {
@@ -20408,6 +20424,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-holoviews"
+        },
+        {
+            "default": "python_pip",
             "package": "py-horovod"
         },
         {
@@ -20489,6 +20509,10 @@
         {
             "default": "python_pip",
             "package": "py-hvac"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-hvplot"
         },
         {
             "default": "python_pip",
@@ -25780,6 +25804,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-spatialpandas"
+        },
+        {
+            "default": "python_pip",
             "package": "py-spdlog"
         },
         {
@@ -26853,6 +26881,10 @@
         {
             "default": "python_pip",
             "package": "py-uwsgi"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-uxarray"
         },
         {
             "default": "python_pip",

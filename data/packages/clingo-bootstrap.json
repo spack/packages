@@ -144,7 +144,16 @@
             "relative_path": "version-script.patch",
             "reverse": false,
             "sha256": "bebb8195a5b2922333a7d2510a815ce1dd0679435141cf44bfccb4bd3b88cef9",
-            "version": "+optimized arch=linux-None-None",
+            "version": "@spack,5.5:5.6+optimized arch=linux-None-None",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.clingo-bootstrap",
+            "relative_path": "version-script-5.4.patch",
+            "reverse": false,
+            "sha256": "9dbe98ad0267ac0282debe89fecf7325e95cd034deb09ee3021c060012cc6661",
+            "version": "@5.2:5.4+optimized arch=linux-None-None",
             "working_dir": "."
         }
     ],

@@ -90,8 +90,20 @@
             "name": "py-dask"
         },
         {
+            "description": "A Python library designed to make data analysis and visualization\nseamless and simple.",
+            "name": "py-geoviews"
+        },
+        {
             "description": "Cloud-native genomic dataframes and batch computing (Python API)",
             "name": "py-hail"
+        },
+        {
+            "description": "A Python library designed to make data analysis and visualization\nseamless and simple.",
+            "name": "py-holoviews"
+        },
+        {
+            "description": "A high-level plotting API for pandas, dask, xarray, and networkx built\non HoloViews.",
+            "name": "py-hvplot"
         },
         {
             "description": "Netpyne: A python package to facilitate the development, parallel\nsimulation, optimization and analysis of multiscale biological neuronal\nnetworks in NEURON.",
@@ -104,7 +116,7 @@
     ],
     "description": "Statistical and novel interactive HTML plots for Python\n",
     "homepage": "https://bokeh.org/",
-    "latest_version": "3.3.1",
+    "latest_version": "3.5.2",
     "maintainers": [],
     "name": "py-bokeh",
     "patches": [],
@@ -117,6 +129,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.5.2",
+            "sha256": "03a54a67db677b8881834271c620a781b383ae593af5c3ea2149164754440d07"
+        },
         {
             "name": "3.3.1",
             "sha256": "2a7b3702d7e9f03ef4cd801b02b7380196c70cff2773859bcb84fa565218955c"

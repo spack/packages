@@ -426,6 +426,10 @@
             "name": "py-humanize"
         },
         {
+            "description": "A high-level plotting API for pandas, dask, xarray, and networkx built\non HoloViews.",
+            "name": "py-hvplot"
+        },
+        {
             "description": "Read metadata from Python packages.",
             "name": "py-importlib-metadata"
         },
@@ -940,6 +944,10 @@
         {
             "description": "N-dimensional unfold (im2col) and fold (col2im) in PyTorch.",
             "name": "py-unfoldnd"
+        },
+        {
+            "description": "Xarray extension for unstructured climate and global weather data\nanalysis and visualization",
+            "name": "py-uxarray"
         },
         {
             "description": "Python library for reading, writing, and manipulating large-scale\nvasculature datasets",

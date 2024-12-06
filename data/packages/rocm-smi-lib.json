@@ -96,7 +96,7 @@
     ],
     "description": "It is a C library for Linux that provides a user space interface for\napplications to monitor and control GPU applications.\n",
     "homepage": "https://github.com/ROCm/rocm_smi_lib",
-    "latest_version": "6.2.1",
+    "latest_version": "6.2.4",
     "maintainers": [
         "renjithravindrankannath",
         "srekolam"
@@ -159,6 +159,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "6.2.4",
+            "sha256": "eb8986dd571f5862c2db693398c0dbec28e2754f764f6bd3cfb21be7699e4452"
         },
         {
             "name": "6.2.1",

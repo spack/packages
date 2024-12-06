@@ -54,7 +54,7 @@
     ],
     "description": "A Fortran toolkit for interoperating Fortran with C/C++.\n",
     "homepage": "https://software.ecmwf.int/wiki/display/fckit",
-    "latest_version": "0.11.0",
+    "latest_version": "0.13.2",
     "maintainers": [
         "climbfuji"
     ],
@@ -116,6 +116,14 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "0.13.2",
+            "sha256": "990623eb4eb999145f2d852da9fbd71a69e2e0be601c655c274e8382750dfda2"
+        },
+        {
+            "name": "0.13.1",
+            "sha256": "89a067a7b5b1f2c7909739b567bd43b69f8a2d91e8cbcbac58655fb2d861db51"
         },
         {
             "name": "0.11.0",

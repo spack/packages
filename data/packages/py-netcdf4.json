@@ -118,6 +118,10 @@
             "name": "py-pyugrid"
         },
         {
+            "description": "Xarray extension for unstructured climate and global weather data\nanalysis and visualization",
+            "name": "py-uxarray"
+        },
+        {
             "description": "wradlib is designed to assist you in the most important steps of\nprocessing weather radar data. These may include: reading common data\nformats, georeferencing, converting reflectivity to rainfall intensity,\nidentifying and correcting typical error sources (such as clutter or\nattenuation) and visualising the data.",
             "name": "py-wradlib"
         },

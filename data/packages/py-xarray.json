@@ -134,6 +134,10 @@
             "name": "py-datacube"
         },
         {
+            "description": "Datashader is a data rasterization pipeline for automating the process\nof creating meaningful representations of large amounts of data",
+            "name": "py-datashader"
+        },
+        {
             "description": "Dinosaur: differentiable dynamics for global atmospheric modeling.",
             "name": "py-dinosaur"
         },
@@ -180,6 +184,10 @@
         {
             "description": "rasterio xarray extension.",
             "name": "py-rioxarray"
+        },
+        {
+            "description": "Xarray extension for unstructured climate and global weather data\nanalysis and visualization",
+            "name": "py-uxarray"
         },
         {
             "description": "wradlib is designed to assist you in the most important steps of\nprocessing weather radar data. These may include: reading common data\nformats, georeferencing, converting reflectivity to rainfall intensity,\nidentifying and correcting typical error sources (such as clutter or\nattenuation) and visualising the data.",

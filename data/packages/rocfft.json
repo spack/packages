@@ -124,7 +124,7 @@
     ],
     "description": "Radeon Open Compute FFT library\n",
     "homepage": "https://github.com/ROCm/rocFFT/",
-    "latest_version": "6.2.1",
+    "latest_version": "6.2.4",
     "maintainers": [
         "cgmb",
         "haampie",
@@ -203,6 +203,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "6.2.4",
+            "sha256": "8ddc4e779a84b73c21b054ae37fec69e5c2f248589c7fb1b84a2197baf6ce995"
         },
         {
             "name": "6.2.1",

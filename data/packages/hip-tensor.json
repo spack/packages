@@ -49,7 +49,7 @@
     "dependent_to": [],
     "description": "AMD\u2019s C++ library for accelerating tensor primitives\n",
     "homepage": "https://github.com/ROCm/hipTensor",
-    "latest_version": "6.2.1",
+    "latest_version": "6.2.4",
     "maintainers": [
         "afzpatel",
         "srekolam"
@@ -98,6 +98,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "6.2.4",
+            "sha256": "54c378b440ede7a07c93b5ed8d16989cc56283a56ea35e41f3666bb05b6bc984"
         },
         {
             "name": "6.2.1",

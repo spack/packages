@@ -266,6 +266,10 @@
             "name": "py-datasets"
         },
         {
+            "description": "Datashader is a data rasterization pipeline for automating the process\nof creating meaningful representations of large amounts of data",
+            "name": "py-datashader"
+        },
+        {
             "description": "Deep Graph Library (DGL). DGL is an easy-to-use, high performance and\nscalable Python package for deep learning on graphs. DGL is framework\nagnostic, meaning if a deep graph model is a component of an end-to-end\napplication, the rest of the logics can be implemented in any major\nframeworks, such as PyTorch, Apache MXNet or TensorFlow.",
             "name": "py-dgl"
         },
@@ -920,6 +924,10 @@
         {
             "description": "Client library for interfacing with USGS datasets",
             "name": "py-usgs"
+        },
+        {
+            "description": "Xarray extension for unstructured climate and global weather data\nanalysis and visualization",
+            "name": "py-uxarray"
         },
         {
             "description": "VCF-kit is a command-line based collection of utilities for performing\nanalysis on Variant Call Format (VCF) files.",

@@ -699,7 +699,7 @@
     ],
     "description": "HIP is a C++ Runtime API and Kernel Language that allows developers to\ncreate portable applications for AMD and NVIDIA GPUs from single source\ncode.\n",
     "homepage": "https://github.com/ROCm/HIP",
-    "latest_version": "6.2.1",
+    "latest_version": "6.2.4",
     "maintainers": [
         "haampie",
         "renjithravindrankannath",
@@ -707,6 +707,24 @@
     ],
     "name": "hip",
     "patches": [
+        {
+            "level": 1,
+            "owner": "builtin.hip",
+            "reverse": false,
+            "sha256": "5bb9b0e08888830ccf3a0a658529fe25f4ee62b5b8890f349bf2cc914236eb2f",
+            "url": "https://github.com/ROCm/clr/commit/c4f773db0b4ccbbeed4e3d6c0f6bff299c2aa3f0.patch?full_index=1",
+            "version": "@5.7:6.0",
+            "working_dir": "clr"
+        },
+        {
+            "level": 1,
+            "owner": "builtin.hip",
+            "reverse": false,
+            "sha256": "7668b2a710baf4cb063e6b00280fb75c4c3e0511575e8298a9c7ae5143f60b33",
+            "url": "https://github.com/ROCm/clr/commit/7868876db742fb4d44483892856a66d2993add03.patch?full_index=1",
+            "version": "@5.7:6.0",
+            "working_dir": "clr"
+        },
         {
             "level": 1,
             "owner": "builtin.hip",
@@ -1118,6 +1136,18 @@
             "destination": "",
             "name": "clr",
             "placement": "clr",
+            "version": "@6.2.4"
+        },
+        {
+            "destination": "",
+            "name": "hip-tests",
+            "placement": "hip-tests",
+            "version": "@6.2.4"
+        },
+        {
+            "destination": "",
+            "name": "clr",
+            "placement": "clr",
             "version": "@6.2.1"
         },
         {
@@ -1269,6 +1299,12 @@
             "name": "hip-tests",
             "placement": "hip-tests",
             "version": "@5.6.0"
+        },
+        {
+            "destination": "",
+            "name": "hipother",
+            "placement": "hipother",
+            "version": "@6.2.4+cuda"
         },
         {
             "destination": "",
@@ -1354,6 +1390,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "6.2.4",
+            "sha256": "76e4583ae3d31786270fd92abbb2e3dc5e665b22fdedb5ceff0093131d4dc0ca"
         },
         {
             "name": "6.2.1",

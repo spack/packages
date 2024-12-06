@@ -46,6 +46,10 @@
             "name": "py-myst-parser"
         },
         {
+            "description": "A high level app and dashboarding solution for Python.",
+            "name": "py-panel"
+        },
+        {
             "description": "Textual is a Rapid Application Development framework for Python.",
             "name": "py-textual"
         }

@@ -34,6 +34,10 @@
             "name": "py-colorcet"
         },
         {
+            "description": "Datashader is a data rasterization pipeline for automating the process\nof creating meaningful representations of large amounts of data",
+            "name": "py-datashader"
+        },
+        {
             "description": "A high level app and dashboarding solution for Python.",
             "name": "py-panel"
         }

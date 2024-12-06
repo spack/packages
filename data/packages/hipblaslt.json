@@ -51,7 +51,7 @@
     "dependent_to": [],
     "description": "hipBLASLt is a library that provides general matrix-matrix operations\nwith a flexible API and extends functionalities beyond a traditional\nBLAS library\n",
     "homepage": "https://github.com/ROCm/hipBLASLt",
-    "latest_version": "6.2.1",
+    "latest_version": "6.2.4",
     "maintainers": [
         "afzpatel",
         "renjithravindrankannath",
@@ -112,6 +112,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.2.4",
+            "sha256": "b8a72cb1ed4988b0569817c6387fb2faee4782795a0d8f49b827b32b52572cfd"
+        },
         {
             "name": "6.2.1",
             "sha256": "9b062b1d6d945349c31828030c8c1d99fe57d14a1837196ff9aa67bf10ef43f1"

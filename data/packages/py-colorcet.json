@@ -32,7 +32,20 @@
             "name": "python-venv"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "Datashader is a data rasterization pipeline for automating the process\nof creating meaningful representations of large amounts of data",
+            "name": "py-datashader"
+        },
+        {
+            "description": "A Python library designed to make data analysis and visualization\nseamless and simple.",
+            "name": "py-holoviews"
+        },
+        {
+            "description": "A high-level plotting API for pandas, dask, xarray, and networkx built\non HoloViews.",
+            "name": "py-hvplot"
+        }
+    ],
     "description": "A collection of perceptually acccurate 256-color colormaps for use with\nPython plotting programs like Bokeh, Matplotlib, HoloViews, and\nDatashader.\n",
     "homepage": "https://colorcet.holoviz.org/index.html",
     "latest_version": "3.0.0",

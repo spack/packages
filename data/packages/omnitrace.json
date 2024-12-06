@@ -210,6 +210,11 @@
             "name": "1.7.0"
         },
         {
+            "commit": "47597c1be3699c5aaaf6164061ee4189c6b32445",
+            "name": "rocm-6.2.4",
+            "tag": "rocm-6.2.4"
+        },
+        {
             "commit": "df91a342370401c93b5278bf082e520d6a0e22e9",
             "name": "rocm-6.2.1",
             "tag": "rocm-6.2.1"

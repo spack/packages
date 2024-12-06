@@ -418,6 +418,10 @@
             "name": "py-uncertainty-toolbox"
         },
         {
+            "description": "Xarray extension for unstructured climate and global weather data\nanalysis and visualization",
+            "name": "py-uxarray"
+        },
+        {
             "description": "XGBoost is an optimized distributed gradient boosting library designed\nto be highly efficient, flexible and portable.",
             "name": "py-xgboost"
         },

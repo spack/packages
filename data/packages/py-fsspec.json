@@ -134,6 +134,10 @@
             "name": "py-s3fs"
         },
         {
+            "description": "Pandas extension arrays for spatial/geometric operations.",
+            "name": "py-spatialpandas"
+        },
+        {
             "description": "Tensors and Dynamic neural networks in Python with strong GPU\nacceleration.",
             "name": "py-torch"
         },

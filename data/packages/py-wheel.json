@@ -502,6 +502,10 @@
             "name": "py-ansiwrap"
         },
         {
+            "description": "Fix shapes that cross the antimeridian.",
+            "name": "py-antimeridian"
+        },
+        {
             "description": "This package provides runtime libraries required to use parsers\ngenerated for the Python3 language by version 4 of ANTLR (ANother Tool\nfor Language Recognition).",
             "name": "py-antlr4-python3-runtime"
         },
@@ -2398,6 +2402,10 @@
             "name": "py-dask"
         },
         {
+            "description": "Dask DataFrames with query optimization.",
+            "name": "py-dask-expr"
+        },
+        {
             "description": "Dask-glm is a library for fitting Generalized Linear Models on large\ndatasets.",
             "name": "py-dask-glm"
         },
@@ -2464,6 +2472,10 @@
         {
             "description": "Datasets is a lightweight library providing two main features: one-line\ndataloaders for many public datasets and efficient data pre-processing.",
             "name": "py-datasets"
+        },
+        {
+            "description": "Datashader is a data rasterization pipeline for automating the process\nof creating meaningful representations of large amounts of data",
+            "name": "py-datashader"
         },
         {
             "description": "dateparser -- python parser for human readable dates",
@@ -3610,6 +3622,10 @@
             "name": "py-geopy"
         },
         {
+            "description": "A Python library designed to make data analysis and visualization\nseamless and simple.",
+            "name": "py-geoviews"
+        },
+        {
             "description": "gevent is a coroutine-based Python networking library.",
             "name": "py-gevent"
         },
@@ -4102,6 +4118,10 @@
             "name": "py-holland-backup"
         },
         {
+            "description": "A Python library designed to make data analysis and visualization\nseamless and simple.",
+            "name": "py-holoviews"
+        },
+        {
             "description": "Horovod is a distributed deep learning training framework for\nTensorFlow, Keras, PyTorch, and Apache MXNet.",
             "name": "py-horovod"
         },
@@ -4184,6 +4204,10 @@
         {
             "description": "HashiCorp Vault API client",
             "name": "py-hvac"
+        },
+        {
+            "description": "A high-level plotting API for pandas, dask, xarray, and networkx built\non HoloViews.",
+            "name": "py-hvplot"
         },
         {
             "description": "A framework for elegantly configuring complex applications.",
@@ -9430,6 +9454,10 @@
             "name": "py-spatialite"
         },
         {
+            "description": "Pandas extension arrays for spatial/geometric operations.",
+            "name": "py-spatialpandas"
+        },
+        {
             "description": "The py-spdlog package provides a Python wrapper to the C++ spdlog\nlibrary.",
             "name": "py-spdlog"
         },
@@ -10496,6 +10524,10 @@
         {
             "description": "Web Application framework for low overhead web services",
             "name": "py-uwsgi"
+        },
+        {
+            "description": "Xarray extension for unstructured climate and global weather data\nanalysis and visualization",
+            "name": "py-uxarray"
         },
         {
             "description": "Python Data Validation for Humans.",

@@ -3595,11 +3595,11 @@
             "name": "panda"
         },
         {
-            "description": "Metadata package to bring together and build multiple Pandora libraries.\nNOTE: for proper version control with spack, this should be broken up\nand the subpackages installed individually.",
+            "description": "ROOT-based Event Visualisation Environment for Pandora with tree-writing\nfunctionality",
             "name": "pandoramonitoring"
         },
         {
-            "description": "Metadata package to bring together and build multiple Pandora libraries.\nNOTE: for proper version control with spack, this should be broken up\nand the subpackages installed individually.",
+            "description": "Pandora Software Development Kit for pattern-recognition algorithms",
             "name": "pandorasdk"
         },
         {

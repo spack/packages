@@ -59,7 +59,7 @@
     "dependent_to": [],
     "description": "A library for numerical weather prediction and climate modelling.\n",
     "homepage": "https://software.ecmwf.int/wiki/display/atlas",
-    "latest_version": "0.38.1",
+    "latest_version": "0.40.0",
     "maintainers": [
         "climbfuji",
         "srherbener"
@@ -174,6 +174,14 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "0.40.0",
+            "sha256": "9aa2c8945a04aff3d50f752147e2b7cf0992c33e7e5a0e7bcd6fe575b0f853b0"
+        },
+        {
+            "name": "0.39.0",
+            "sha256": "bdfc37b5f3f871651b1bb47ae4742988b03858037e36fdca775e220e3abe3bd6"
         },
         {
             "name": "0.38.1",

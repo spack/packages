@@ -51,7 +51,7 @@
     "dependent_to": [],
     "description": "Radeon Open Compute Tensile library\n",
     "homepage": "https://github.com/ROCm/Tensile/",
-    "latest_version": "6.2.1",
+    "latest_version": "6.2.4",
     "maintainers": [
         "haampie",
         "renjithravindrankannath",
@@ -103,6 +103,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.2.4",
+            "sha256": "dd0721e4371c8752aa4b14362f75d7ebb7805f57dcb990e03ae08cef4a291383"
+        },
         {
             "name": "6.2.1",
             "sha256": "29802dc65a7cea29f0e2608782c75db87e9c71eea8aeb485e856cf2861d83098"

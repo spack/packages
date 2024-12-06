@@ -34,6 +34,10 @@
             "name": "py-jupyterlab"
         },
         {
+            "description": "A high level app and dashboarding solution for Python.",
+            "name": "py-panel"
+        },
+        {
             "description": "Call stack profiler for Python. Shows you why your code is slow!",
             "name": "py-pyinstrument"
         },

@@ -396,6 +396,10 @@
             "name": "py-cudf"
         },
         {
+            "description": "Dask DataFrames with query optimization.",
+            "name": "py-dask-expr"
+        },
+        {
             "description": "Datasets is a lightweight library providing two main features: one-line\ndataloaders for many public datasets and efficient data pre-processing.",
             "name": "py-datasets"
         },
@@ -428,8 +432,16 @@
             "name": "py-pyspark"
         },
         {
+            "description": "Pandas extension arrays for spatial/geometric operations.",
+            "name": "py-spatialpandas"
+        },
+        {
             "description": "The fastest way to build data apps in Python.",
             "name": "py-streamlit"
+        },
+        {
+            "description": "Xarray extension for unstructured climate and global weather data\nanalysis and visualization",
+            "name": "py-uxarray"
         }
     ],
     "description": "A cross-language development platform for in-memory data. This package\ncontains the Python bindings.\n",

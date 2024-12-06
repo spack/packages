@@ -1823,6 +1823,10 @@
             "name": "py-ansiwrap"
         },
         {
+            "description": "Fix shapes that cross the antimeridian.",
+            "name": "py-antimeridian"
+        },
+        {
             "description": "This package provides runtime libraries required to use parsers\ngenerated for the Python3 language by version 4 of ANTLR (ANother Tool\nfor Language Recognition).",
             "name": "py-antlr4-python3-runtime"
         },
@@ -3723,6 +3727,10 @@
             "name": "py-dask"
         },
         {
+            "description": "Dask DataFrames with query optimization.",
+            "name": "py-dask-expr"
+        },
+        {
             "description": "Dask-glm is a library for fitting Generalized Linear Models on large\ndatasets.",
             "name": "py-dask-glm"
         },
@@ -3789,6 +3797,10 @@
         {
             "description": "Datasets is a lightweight library providing two main features: one-line\ndataloaders for many public datasets and efficient data pre-processing.",
             "name": "py-datasets"
+        },
+        {
+            "description": "Datashader is a data rasterization pipeline for automating the process\nof creating meaningful representations of large amounts of data",
+            "name": "py-datashader"
         },
         {
             "description": "dateparser -- python parser for human readable dates",
@@ -4951,6 +4963,10 @@
             "name": "py-geopy"
         },
         {
+            "description": "A Python library designed to make data analysis and visualization\nseamless and simple.",
+            "name": "py-geoviews"
+        },
+        {
             "description": "gevent is a coroutine-based Python networking library.",
             "name": "py-gevent"
         },
@@ -5447,6 +5463,10 @@
             "name": "py-holland-backup"
         },
         {
+            "description": "A Python library designed to make data analysis and visualization\nseamless and simple.",
+            "name": "py-holoviews"
+        },
+        {
             "description": "Horovod is a distributed deep learning training framework for\nTensorFlow, Keras, PyTorch, and Apache MXNet.",
             "name": "py-horovod"
         },
@@ -5529,6 +5549,10 @@
         {
             "description": "HashiCorp Vault API client",
             "name": "py-hvac"
+        },
+        {
+            "description": "A high-level plotting API for pandas, dask, xarray, and networkx built\non HoloViews.",
+            "name": "py-hvplot"
         },
         {
             "description": "A framework for elegantly configuring complex applications.",
@@ -10807,6 +10831,10 @@
             "name": "py-spatialite"
         },
         {
+            "description": "Pandas extension arrays for spatial/geometric operations.",
+            "name": "py-spatialpandas"
+        },
+        {
             "description": "The py-spdlog package provides a Python wrapper to the C++ spdlog\nlibrary.",
             "name": "py-spdlog"
         },
@@ -11881,6 +11909,10 @@
         {
             "description": "Web Application framework for low overhead web services",
             "name": "py-uwsgi"
+        },
+        {
+            "description": "Xarray extension for unstructured climate and global weather data\nanalysis and visualization",
+            "name": "py-uxarray"
         },
         {
             "description": "Python Data Validation for Humans.",
@@ -13075,6 +13107,15 @@
         {
             "level": 1,
             "owner": "builtin.python",
+            "reverse": false,
+            "sha256": "d39bacde16128f380933992ea7f237ac8f70f9cdffb40c051aca3be46dc29bdf",
+            "url": "https://bugs.python.org/file44413/alignment.patch",
+            "version": "@3.6",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.python",
             "relative_path": "python-3.7.2-distutils-C++.patch",
             "reverse": false,
             "sha256": "c129e34472ee39b1083c38a49ad06a8573d8b3b208743a120ca4c0818cdf1801",
@@ -13598,72 +13639,8 @@
             "sha256": "fd50161bc2a04f4c22a0971ff0f3856d98b4bf294f89740a9f06b520aae63b49"
         },
         {
-            "name": "3.7.16",
-            "sha256": "0cf2da07fa464636755215415909e22eb1d058817af4824bc15af8390d05fb38"
-        },
-        {
-            "name": "3.7.15",
-            "sha256": "cf2993798ae8430f3af3a00d96d9fdf320719f4042f039380dca79967c25e436"
-        },
-        {
-            "name": "3.7.14",
-            "sha256": "82b2abf8978caa61a9011d166eede831b32de9cbebc0db8162900fa23437b709"
-        },
-        {
-            "name": "3.7.13",
-            "sha256": "e405417f50984bc5870c7e7a9f9aeb93e9d270f5ac67f667a0cd3a09439682b5"
-        },
-        {
-            "name": "3.7.12",
-            "sha256": "33b4daaf831be19219659466d12645f87ecec6eb21d4d9f9711018a7b66cce46"
-        },
-        {
-            "name": "3.7.11",
-            "sha256": "b4fba32182e16485d0a6022ba83c9251e6a1c14676ec243a9a07d3722cd4661a"
-        },
-        {
-            "name": "3.7.10",
-            "sha256": "c9649ad84dc3a434c8637df6963100b2e5608697f9ba56d82e3809e4148e0975"
-        },
-        {
-            "name": "3.7.9",
-            "sha256": "39b018bc7d8a165e59aa827d9ae45c45901739b0bbb13721e4f973f3521c166a"
-        },
-        {
-            "name": "3.7.8",
-            "sha256": "0e25835614dc221e3ecea5831b38fa90788b5389b99b675a751414c858789ab0"
-        },
-        {
-            "name": "3.7.7",
-            "sha256": "8c8be91cd2648a1a0c251f04ea0bb4c2a5570feb9c45eaaa2241c785585b475a"
-        },
-        {
-            "name": "3.7.6",
-            "sha256": "aeee681c235ad336af116f08ab6563361a0c81c537072c1b309d6e4050aa2114"
-        },
-        {
-            "name": "3.7.5",
-            "sha256": "8ecc681ea0600bbfb366f2b173f727b205bb825d93d2f0b286bc4e58d37693da"
-        },
-        {
-            "name": "3.7.4",
-            "sha256": "d63e63e14e6d29e17490abbe6f7d17afb3db182dbd801229f14e55f4157c4ba3"
-        },
-        {
-            "name": "3.7.3",
-            "sha256": "d62e3015f2f89c970ac52343976b406694931742fbde2fed8d1ce8ebb4e1f8ff"
-        },
-        {
-            "name": "3.7.2",
-            "sha256": "f09d83c773b9cc72421abba2c317e4e6e05d919f9bcf34468e192b6a6c8e328d"
-        },
-        {
-            "name": "3.7.1",
-            "sha256": "36c1b81ac29d0f8341f727ef40864d99d8206897be96be73dc34d4739c9c9f06"
-        },
-        {
-            "name": "3.7.0",
-            "sha256": "85bb9feb6863e04fb1700b018d9d42d1caac178559ffa453d7e6a436e259fd0d"
+            "name": "3.6.15",
+            "sha256": "54570b7e339e2cfd72b29c7e2fdb47c0b7b18b7412e61de5b463fc087c13b043"
         }
     ]
 }

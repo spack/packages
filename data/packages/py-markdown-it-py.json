@@ -62,6 +62,10 @@
             "name": "py-myst-parser"
         },
         {
+            "description": "A high level app and dashboarding solution for Python.",
+            "name": "py-panel"
+        },
+        {
             "description": "Rich is a Python library for rich text and beautiful formatting in the\nterminal.",
             "name": "py-rich"
         },

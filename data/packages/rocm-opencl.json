@@ -92,7 +92,7 @@
     ],
     "description": "OpenCL: Open Computing Language on ROCclr\n",
     "homepage": "https://github.com/ROCm/ROCm-OpenCL-Runtime",
-    "latest_version": "6.2.1",
+    "latest_version": "6.2.4",
     "maintainers": [
         "renjithravindrankannath",
         "srekolam"
@@ -208,6 +208,10 @@
         {
             "branch": "main",
             "name": "master"
+        },
+        {
+            "name": "6.2.4",
+            "sha256": "0a3164af7f997a4111ade634152957378861b95ee72d7060eb01c86c87208c54"
         },
         {
             "name": "6.2.1",

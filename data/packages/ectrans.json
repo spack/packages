@@ -52,7 +52,7 @@
     ],
     "description": "Ectrans is the global spherical Harmonics transforms library, extracted\nfrom the IFS. It is using a hybrid of MPI and OpenMP parallelisation\nstrategies. The package contains both single- and double precision\nFortran libraries (trans_sp, trans_dp), as well as a C interface to the\ndouble-precision version (transi_dp).\n",
     "homepage": "https://github.com/ecmwf-ifs/ectrans",
-    "latest_version": "1.2.0",
+    "latest_version": "1.5.0",
     "maintainers": [
         "climbfuji"
     ],
@@ -124,6 +124,14 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "1.5.0",
+            "sha256": "8b2b24d1988b92dc3793b29142946614fca9e9c70163ee207d2a123494430fde"
+        },
+        {
+            "name": "1.4.0",
+            "sha256": "1364827511a2eb11716aaee85062c3ab0e6b5d5dca7a7b9c364e1c43482b8691"
         },
         {
             "name": "1.2.0",

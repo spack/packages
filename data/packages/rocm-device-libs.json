@@ -52,7 +52,7 @@
     ],
     "description": "set of AMD specific device-side language runtime libraries\n",
     "homepage": "https://github.com/ROCm/ROCm-Device-Libs",
-    "latest_version": "6.2.1",
+    "latest_version": "6.2.4",
     "maintainers": [
         "haampie",
         "renjithravindrankannath",
@@ -87,6 +87,10 @@
         {
             "branch": "amd-stg-open",
             "name": "master"
+        },
+        {
+            "name": "6.2.4",
+            "sha256": "7af782bf5835fcd0928047dbf558f5000e7f0207ca39cf04570969343e789528"
         },
         {
             "name": "6.2.1",

@@ -62,6 +62,10 @@
             "name": "py-annotated-types"
         },
         {
+            "description": "Fix shapes that cross the antimeridian.",
+            "name": "py-antimeridian"
+        },
+        {
             "description": "Core (offline) functionality for the apeye library.",
             "name": "py-apeye-core"
         },
@@ -98,6 +102,10 @@
             "name": "py-comm"
         },
         {
+            "description": "Datashader is a data rasterization pipeline for automating the process\nof creating meaningful representations of large amounts of data",
+            "name": "py-datashader"
+        },
+        {
             "description": "DNS toolkit",
             "name": "py-dnspython"
         },
@@ -128,6 +136,10 @@
         {
             "description": "Google Drive Public File/Folder Downloader.",
             "name": "py-gdown"
+        },
+        {
+            "description": "A Python library designed to make data analysis and visualization\nseamless and simple.",
+            "name": "py-geoviews"
         },
         {
             "description": "Python library for easily interacting with trained machine learning\nmodels",
@@ -168,6 +180,10 @@
         {
             "description": "Units and constants in the HEP system of units.",
             "name": "py-hepunits"
+        },
+        {
+            "description": "A Python library designed to make data analysis and visualization\nseamless and simple.",
+            "name": "py-holoviews"
         },
         {
             "description": "The HTTP Core package provides a minimal low-level HTTP client, which\ndoes one thing only. Sending HTTP requests.",
@@ -302,6 +318,14 @@
             "name": "py-opt-einsum"
         },
         {
+            "description": "A high level app and dashboarding solution for Python.",
+            "name": "py-panel"
+        },
+        {
+            "description": "Param is a library providing Parameters: Python attributes extended to\nhave features such as type and range checking, dynamically generated\nvalues, documentation strings, default values, etc., each of which is\ninherited from parent classes if not specified in a subclass.",
+            "name": "py-param"
+        },
+        {
             "description": "Particle provides a pythonic interface to the Particle Data Group (PDG)\nparticle data tables and particle identification codes, with extended\nparticle information and extra goodies.",
             "name": "py-particle"
         },
@@ -380,6 +404,10 @@
         {
             "description": "A modern CSS selector implementation for Beautiful Soup.",
             "name": "py-soupsieve"
+        },
+        {
+            "description": "Pandas extension arrays for spatial/geometric operations.",
+            "name": "py-spatialpandas"
         },
         {
             "description": "Sphinx Domain for Modern CMake.",

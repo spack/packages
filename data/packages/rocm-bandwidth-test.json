@@ -31,7 +31,7 @@
     "dependent_to": [],
     "description": "Test to measure PciE bandwidth on ROCm platforms\n",
     "homepage": "https://github.com/ROCm/rocm_bandwidth_test",
-    "latest_version": "6.2.1",
+    "latest_version": "6.2.4",
     "maintainers": [
         "renjithravindrankannath",
         "srekolam"
@@ -65,6 +65,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "6.2.4",
+            "sha256": "4d25c62d81f60eba8042f57ca0905adc853a214333ffc70238d91e2f53606a79"
         },
         {
             "name": "6.2.1",

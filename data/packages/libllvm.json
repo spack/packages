@@ -86,7 +86,7 @@
     ],
     "description": "Toolkit for the construction of highly optimized compilers, optimizers,\nand run-time environments.\n",
     "homepage": "https://github.com/ROCm/llvm-project",
-    "latest_version": "6.2.1",
+    "latest_version": "6.2.4",
     "maintainers": [
         "afzpatel",
         "haampie",
@@ -237,6 +237,12 @@
             "name": "rocm-device-libs",
             "placement": "rocm-device-libs",
             "version": "@master+rocm-device-libs"
+        },
+        {
+            "destination": "",
+            "name": "hsa-runtime",
+            "placement": "hsa-runtime",
+            "version": "@6.2.4"
         },
         {
             "destination": "",
@@ -394,6 +400,10 @@
         {
             "branch": "amd-stg-open",
             "name": "master"
+        },
+        {
+            "name": "6.2.4",
+            "sha256": "7af782bf5835fcd0928047dbf558f5000e7f0207ca39cf04570969343e789528"
         },
         {
             "name": "6.2.1",

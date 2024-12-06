@@ -36,6 +36,10 @@
         {
             "description": "Make beautiful maps with Leaflet.js & Python.",
             "name": "py-folium"
+        },
+        {
+            "description": "A Python library designed to make data analysis and visualization\nseamless and simple.",
+            "name": "py-geoviews"
         }
     ],
     "description": "xyzservices is a lightweight library providing a repository of available\nXYZ services offering raster basemap tiles.\n",

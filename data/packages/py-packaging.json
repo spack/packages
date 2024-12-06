@@ -174,6 +174,10 @@
             "name": "py-datasets"
         },
         {
+            "description": "Datashader is a data rasterization pipeline for automating the process\nof creating meaningful representations of large amounts of data",
+            "name": "py-datashader"
+        },
+        {
             "description": "Reorganising NIfTI files from dcm2niix into the Brain Imaging Data\nStructure.",
             "name": "py-dcm2bids"
         },
@@ -242,6 +246,10 @@
             "name": "py-geopandas"
         },
         {
+            "description": "A Python library designed to make data analysis and visualization\nseamless and simple.",
+            "name": "py-geoviews"
+        },
+        {
             "description": "Globus CLI is a standalone application that can be installed on the\nuser's machine and is used to access the Globus service. The CLI\nprovides an interface to Globus services from the shell, and is suited\nto both interactive and simple scripting use cases.",
             "name": "py-globus-cli"
         },
@@ -282,12 +290,20 @@
             "name": "py-hepdata-validator"
         },
         {
+            "description": "A Python library designed to make data analysis and visualization\nseamless and simple.",
+            "name": "py-holoviews"
+        },
+        {
             "description": "Horovod is a distributed deep learning training framework for\nTensorFlow, Keras, PyTorch, and Apache MXNet.",
             "name": "py-horovod"
         },
         {
             "description": "Client library to download and publish models, datasets and other repos\non the huggingface.co hub.",
             "name": "py-huggingface-hub"
+        },
+        {
+            "description": "A high-level plotting API for pandas, dask, xarray, and networkx built\non HoloViews.",
+            "name": "py-hvplot"
         },
         {
             "description": "A framework for elegantly configuring complex applications.",
@@ -608,6 +624,10 @@
         {
             "description": "Convert scikit-learn models to ONNX",
             "name": "py-skl2onnx"
+        },
+        {
+            "description": "Pandas extension arrays for spatial/geometric operations.",
+            "name": "py-spatialpandas"
         },
         {
             "description": "Sphinx Documentation Generator.",

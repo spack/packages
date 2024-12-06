@@ -85,6 +85,10 @@
             "name": "py-dask-ml"
         },
         {
+            "description": "Datashader is a data rasterization pipeline for automating the process\nof creating meaningful representations of large amounts of data",
+            "name": "py-datashader"
+        },
+        {
             "description": "A scalable software framework for reinforcement learning environments\nand agents/policies used for the Design and Control applications",
             "name": "py-exarl"
         },
@@ -177,6 +181,10 @@
             "name": "py-sparse"
         },
         {
+            "description": "Pandas extension arrays for spatial/geometric operations.",
+            "name": "py-spatialpandas"
+        },
+        {
             "description": "Evaluate and transform D matrices, 3-j symbols, and (scalar or spin-\nweighted) spherical harmonics",
             "name": "py-spherical"
         },
@@ -195,6 +203,10 @@
         {
             "description": "Uniform Manifold Approximation and Projection (UMAP) is a dimension\nreduction technique that can be used for visualisation similarly to\nt-SNE, but also for general non-linear dimension reduction.",
             "name": "py-umap-learn"
+        },
+        {
+            "description": "Xarray extension for unstructured climate and global weather data\nanalysis and visualization",
+            "name": "py-uxarray"
         },
         {
             "description": "Universal Regridder for Geospatial Data.",

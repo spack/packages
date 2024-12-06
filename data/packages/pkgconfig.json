@@ -1761,6 +1761,10 @@
             "name": "riscv-gnu-toolchain"
         },
         {
+            "description": "This is ROCmgdb, the ROCm source-level debugger for Linux, based on GDB,\nthe GNU source-level debugger.",
+            "name": "rocm-gdb"
+        },
+        {
             "description": "This is the repository for a MLIR-based convolution and GEMM kernel\ngenerator targetting AMD hardware. This generator is mainly used from\nMIOpen and MIGraphX, but it can be used on a standalone basis.",
             "name": "rocmlir"
         },

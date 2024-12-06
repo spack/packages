@@ -346,6 +346,10 @@
             "name": "py-dask"
         },
         {
+            "description": "Dask DataFrames with query optimization.",
+            "name": "py-dask-expr"
+        },
+        {
             "description": "Scalable Machine Learning with Dask.",
             "name": "py-dask-ml"
         },
@@ -356,6 +360,10 @@
         {
             "description": "Datasets is a lightweight library providing two main features: one-line\ndataloaders for many public datasets and efficient data pre-processing.",
             "name": "py-datasets"
+        },
+        {
+            "description": "Datashader is a data rasterization pipeline for automating the process\nof creating meaningful representations of large amounts of data",
+            "name": "py-datashader"
         },
         {
             "description": "DeepEcho is a Synthetic Data Generation Python library for mixed-type,\nmultivariate time series.",
@@ -476,6 +484,14 @@
         {
             "description": "Composable histogram primitives for distributed data reduction.",
             "name": "py-histogrammar"
+        },
+        {
+            "description": "A Python library designed to make data analysis and visualization\nseamless and simple.",
+            "name": "py-holoviews"
+        },
+        {
+            "description": "A high-level plotting API for pandas, dask, xarray, and networkx built\non HoloViews.",
+            "name": "py-hvplot"
         },
         {
             "description": "A library for property based testing.",
@@ -646,6 +662,10 @@
             "name": "py-panedr"
         },
         {
+            "description": "A high level app and dashboarding solution for Python.",
+            "name": "py-panel"
+        },
+        {
             "description": "Simple data dependent workflows in Python",
             "name": "py-parsl"
         },
@@ -770,6 +790,10 @@
             "name": "py-smote-variants"
         },
         {
+            "description": "Pandas extension arrays for spatial/geometric operations.",
+            "name": "py-spatialpandas"
+        },
+        {
             "description": "Statistical computations and models for use with SciPy",
             "name": "py-statsmodels"
         },
@@ -808,6 +832,10 @@
         {
             "description": "Tools for handling Unique Molecular Identifiers in NGS data sets",
             "name": "py-umi-tools"
+        },
+        {
+            "description": "Xarray extension for unstructured climate and global weather data\nanalysis and visualization",
+            "name": "py-uxarray"
         },
         {
             "description": "Python library for reading, writing, and manipulating large-scale\nvasculature datasets",

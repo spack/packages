@@ -46,6 +46,10 @@
             "name": "py-dask"
         },
         {
+            "description": "Dask DataFrames with query optimization.",
+            "name": "py-dask-expr"
+        },
+        {
             "description": "Distributed scheduler for Dask",
             "name": "py-distributed"
         },

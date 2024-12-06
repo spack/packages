@@ -32,6 +32,10 @@
         {
             "description": "Markdown parser, done right. 100% CommonMark support, extensions, syntax\nplugins & high speed",
             "name": "py-markdown-it-py"
+        },
+        {
+            "description": "A high level app and dashboarding solution for Python.",
+            "name": "py-panel"
         }
     ],
     "description": "Links recognition library with FULL unicode support.\n",

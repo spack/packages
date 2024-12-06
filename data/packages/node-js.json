@@ -100,6 +100,10 @@
             "name": "py-jupyterlab"
         },
         {
+            "description": "A high level app and dashboarding solution for Python.",
+            "name": "py-panel"
+        },
+        {
             "description": "An adaptation of the popular mkdocs-material theme for the Sphinx\ndocumentation tool.",
             "name": "py-sphinx-immaterial"
         },

@@ -70,6 +70,10 @@
             "name": "amrex"
         },
         {
+            "description": "HSA extension AMD AQL profile library. Provides AQL packets helper\nmethods for perfcounters (PMC) and SQ threadtraces (SQTT).",
+            "name": "aqlprofile"
+        },
+        {
             "description": "ArborX is a performance-portable library for geometric search",
             "name": "arborx"
         },
@@ -544,7 +548,7 @@
     ],
     "description": "This repository includes the user mode API nterfaces and libraries\nnecessary for host applications to launch computer kernels to available\nHSA ROCm kernel agents.AMD Heterogeneous System Architecture HSA - Linux\nHSA Runtime for Boltzmann (ROCm) platforms.\n",
     "homepage": "https://github.com/ROCm/ROCR-Runtime",
-    "latest_version": "6.2.1",
+    "latest_version": "6.2.4",
     "maintainers": [
         "haampie",
         "renjithravindrankannath",
@@ -604,6 +608,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "6.2.4",
+            "sha256": "b7aa0055855398d1228c39a6f4feb7d7be921af4f43d82855faf0b531394bb9b"
         },
         {
             "name": "6.2.1",

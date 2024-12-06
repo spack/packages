@@ -110,6 +110,10 @@
             "name": "py-geoplot"
         },
         {
+            "description": "A Python library designed to make data analysis and visualization\nseamless and simple.",
+            "name": "py-geoviews"
+        },
+        {
             "description": "GraphCast: Learning skillful medium-range global weather forecasting.",
             "name": "py-graphcast"
         },
@@ -120,6 +124,10 @@
         {
             "description": "Create masks of geospatial regions for arbitrary grids",
             "name": "py-regionmask"
+        },
+        {
+            "description": "Xarray extension for unstructured climate and global weather data\nanalysis and visualization",
+            "name": "py-uxarray"
         }
     ],
     "description": "Cartopy - a cartographic python library with matplotlib support.\n",

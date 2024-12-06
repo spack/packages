@@ -64,6 +64,10 @@
         {
             "description": "Create masks of geospatial regions for arbitrary grids",
             "name": "py-regionmask"
+        },
+        {
+            "description": "Xarray extension for unstructured climate and global weather data\nanalysis and visualization",
+            "name": "py-uxarray"
         }
     ],
     "description": "GeoPandas is an open source project to make working with geospatial data\nin python easier. GeoPandas extends the datatypes used by pandas to\nallow spatial operations on geometric types. Geometric operations are\nperformed by shapely. Geopandas further depends on fiona for file access\nand descartes and matplotlib for plotting.\n",

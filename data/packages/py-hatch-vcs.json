@@ -42,6 +42,10 @@
             "name": "py-black"
         },
         {
+            "description": "Datashader is a data rasterization pipeline for automating the process\nof creating meaningful representations of large amounts of data",
+            "name": "py-datashader"
+        },
+        {
             "description": "A platform-independent file lock for Python. This package contains a\nsingle module, which implements a platform independent file lock in\nPython, which provides a simple way of inter-process communication",
             "name": "py-filelock"
         },
@@ -58,12 +62,20 @@
             "name": "py-gdown"
         },
         {
+            "description": "A Python library designed to make data analysis and visualization\nseamless and simple.",
+            "name": "py-geoviews"
+        },
+        {
             "description": "Modern, extensible Python project management",
             "name": "py-hatch"
         },
         {
             "description": "Units and constants in the HEP system of units.",
             "name": "py-hepunits"
+        },
+        {
+            "description": "A Python library designed to make data analysis and visualization\nseamless and simple.",
+            "name": "py-holoviews"
         },
         {
             "description": "This modest package contains various common humanization utilities, like\nturning a number into a fuzzy human readable duration ('3 minutes ago')\nor into a human readable size or throughput. It works with python 2.7\nand 3.3 and is localized to Russian, French, Korean and Slovak.",
@@ -110,6 +122,14 @@
             "name": "py-opt-einsum"
         },
         {
+            "description": "A high level app and dashboarding solution for Python.",
+            "name": "py-panel"
+        },
+        {
+            "description": "Param is a library providing Parameters: Python attributes extended to\nhave features such as type and range checking, dynamically generated\nvalues, documentation strings, default values, etc., each of which is\ninherited from parent classes if not specified in a subclass.",
+            "name": "py-param"
+        },
+        {
             "description": "Particle provides a pythonic interface to the Particle Data Group (PDG)\nparticle data tables and particle identification codes, with extended\nparticle information and extra goodies.",
             "name": "py-particle"
         },
@@ -140,6 +160,10 @@
         {
             "description": "scikit-build-core is a doubly improved build system generator for\nCPython C/C++/Fortran/Cython extensions. It features several\nimprovements over the classic scikit-build build system generator.",
             "name": "py-scikit-build-core"
+        },
+        {
+            "description": "Pandas extension arrays for spatial/geometric operations.",
+            "name": "py-spatialpandas"
         },
         {
             "description": "Missing widgets and components for PyQt/PySide",

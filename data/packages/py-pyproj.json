@@ -62,6 +62,10 @@
             "name": "py-geopandas"
         },
         {
+            "description": "A Python library designed to make data analysis and visualization\nseamless and simple.",
+            "name": "py-geoviews"
+        },
+        {
             "description": "Collection of tools for reading, visualizing and performing calculations\nwith weather data.",
             "name": "py-metpy"
         },

@@ -136,7 +136,7 @@
     ],
     "description": "AMD's library for high performance machine learning primitives.\n",
     "homepage": "https://github.com/ROCm/MIOpen",
-    "latest_version": "6.2.1",
+    "latest_version": "6.2.4",
     "maintainers": [
         "renjithravindrankannath",
         "srekolam"
@@ -218,6 +218,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.2.4",
+            "sha256": "8e4836e007e5e66fa487288887a098aaeeb95f3c63a19c2b91f6e848c023a040"
+        },
         {
             "name": "6.2.1",
             "sha256": "c7abe5ae7a332813a3c3da849e9a50b91221fe05c6bb622413e5b048b1f15982"
