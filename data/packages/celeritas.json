@@ -336,6 +336,11 @@
             "description": "celeritas: HIP support is only available with ORANGE",
             "name": "+rocm",
             "spec": "+vecgeom"
+        },
+        {
+            "description": "celeritas: geant4@11.3.0: requires at least 0.5.0",
+            "name": "^geant4@11.3.0:",
+            "spec": "@:0.4+geant4"
         }
     ],
     "dependencies": [
@@ -416,7 +421,17 @@
         "sethrj"
     ],
     "name": "celeritas",
-    "patches": [],
+    "patches": [
+        {
+            "level": 1,
+            "owner": "builtin.celeritas",
+            "reverse": false,
+            "sha256": "1161c4f1166860d35d2a3f103236a63acd6a35aee2d2c27561cb929941d1c170",
+            "url": "https://github.com/celeritas-project/celeritas/commit/3c8ed9614fc695fba35e8a058bedb7bc1556f71c.patch?full_index=1",
+            "version": "@0.5.0+geant4 ^geant4@11.3.0:",
+            "working_dir": "."
+        }
+    ],
     "resources": [],
     "variants": [
         {
