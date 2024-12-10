@@ -59,7 +59,7 @@
         }
     ],
     "description": "OWSLib is a Python package for client programming with Open Geospatial\nConsortium (OGC) web service (hence OWS) interface standards, and their\nrelated content models.\n",
-    "homepage": "http://http://geopython.github.io/OWSLib/#installation",
+    "homepage": "https://owslib.readthedocs.io/en/latest/",
     "latest_version": "0.31.0",
     "maintainers": [],
     "name": "py-owslib",

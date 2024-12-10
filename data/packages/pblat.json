@@ -24,7 +24,7 @@
     ],
     "dependent_to": [],
     "description": "Parallelized blat with multi-threads support\n",
-    "homepage": "http://icebert.github.io/pblat/",
+    "homepage": "https://icebert.github.io/pblat/",
     "latest_version": "2.5.1",
     "maintainers": [],
     "name": "pblat",

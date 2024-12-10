@@ -353,7 +353,7 @@
     ],
     "description": " Covfie is a library for compositional descriptions of storage methods\nfor vector fields and other structured multi-dimensional data.\n",
     "homepage": "https://github.com/acts-project/covfie",
-    "latest_version": "0.10.0",
+    "latest_version": "0.11.0",
     "maintainers": [
         "stephenswat"
     ],
@@ -370,11 +370,6 @@
             "default": "Release",
             "description": "CMake build type",
             "name": "build_type"
-        },
-        {
-            "default": false,
-            "description": "Enforce C++20 concepts",
-            "name": "concepts"
         },
         {
             "default": false,
@@ -398,6 +393,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.11.0",
+            "sha256": "39fcd0f218d3b4f3aacc6af497a8cda8767511efae7a72b47781f10fd4340f4f"
+        },
         {
             "name": "0.10.0",
             "sha256": "d44142b302ffc193ad2229f1d2cc6d8d720dd9da8c37989ada4f23018f86c964"

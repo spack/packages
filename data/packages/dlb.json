@@ -49,7 +49,7 @@
     "dependent_to": [],
     "description": "DLB is a dynamic library designed to speed up HPC hybrid applications\n(i.e., two levels of parallelism) by improving the load balance of the\nouter level of parallelism (e.g., MPI) by dynamically redistributing the\ncomputational resources at the inner level of parallelism (e.g.,\nOpenMP). at run time.\n",
     "homepage": "https://pm.bsc.es/dlb",
-    "latest_version": "3.4.1",
+    "latest_version": "3.5.0",
     "maintainers": [
         "vlopezh"
     ],
@@ -87,6 +87,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "3.5.0",
+            "sha256": "df7fe979059998c2199dc4ee3775d623287fcce728be07e2f6657da2314daf6b"
         },
         {
             "name": "3.4.1",

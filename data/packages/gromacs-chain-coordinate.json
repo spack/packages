@@ -3,6 +3,11 @@
     "build_system": "CMakePackage",
     "conflicts": [
         {
+            "description": "gromacs-chain-coordinate: OpenMP not available for the Apple clang compiler",
+            "name": "+openmp",
+            "spec": "%apple-clang"
+        },
+        {
             "description": "gromacs-chain-coordinate: Enabling CP2K requires static build",
             "name": "+shared",
             "spec": "+cp2k"
@@ -556,7 +561,7 @@
         },
         {
             "default": false,
-            "description": "Use this if Intel compiler is installed through spack.The g++ location is written to icp{c,x}.cfg",
+            "description": "Use this if Intel compiler is installed through spack. The g++ location is written to icp{c,x}.cfg",
             "name": "intel_provided_gcc"
         },
         {

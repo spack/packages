@@ -38,7 +38,7 @@
     ],
     "dependent_to": [],
     "description": "Performs global optimization with different acquisition functions. Among\nother functionalities, it is possible to use GPyOpt to optimize physical\nexperiments (sequentially or in batches) and tune the parameters of\nMachine Learning algorithms. It is able to handle large data sets via\nsparse Gaussian process models.\n",
-    "homepage": "http://sheffieldml.github.io/GPyOpt/",
+    "homepage": "https://sheffieldml.github.io/GPyOpt/",
     "latest_version": "1.2.6",
     "maintainers": [],
     "name": "py-gpyopt",

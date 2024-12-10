@@ -15,7 +15,7 @@
     "dependent_to": [],
     "description": "just, a generic build tool\n",
     "homepage": "https://github.com/just-buildsystem/justbuild",
-    "latest_version": "1.4.0",
+    "latest_version": "1.4.1",
     "maintainers": [
         "asartori86"
     ],
@@ -33,6 +33,11 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "commit": "2dc306f510c7ba0661d95bd75305f7deb5eb54b2",
+            "name": "1.4.1",
+            "tag": "v1.4.1"
         },
         {
             "commit": "562bddf70175a602f896397f41ee5f5e07e834eb",

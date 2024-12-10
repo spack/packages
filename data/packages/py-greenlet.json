@@ -1,7 +1,13 @@
 {
     "aliases": [],
     "build_system": "PythonPackage",
-    "conflicts": [],
+    "conflicts": [
+        {
+            "description": "py-greenlet: GCC-8 required as of 3.1.1",
+            "name": "%gcc@:7",
+            "spec": "@3.1.1:"
+        }
+    ],
     "dependencies": [
         {
             "description": "The PyPA recommended tool for installing Python packages.",

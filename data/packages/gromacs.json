@@ -3,6 +3,11 @@
     "build_system": "CMakePackage",
     "conflicts": [
         {
+            "description": "gromacs: OpenMP not available for the Apple clang compiler",
+            "name": "+openmp",
+            "spec": "%apple-clang"
+        },
+        {
             "description": "gromacs: Enabling CP2K requires static build",
             "name": "+shared",
             "spec": "+cp2k"
@@ -462,7 +467,7 @@
     ],
     "description": "GROMACS is a molecular dynamics package primarily designed for\nsimulations of proteins, lipids and nucleic acids. It was originally\ndeveloped in the Biophysical Chemistry department of University of\nGroningen, and is now maintained by contributors in universities and\nresearch centers across the world. GROMACS is one of the fastest and\nmost popular software packages available and can run on CPUs as well as\nGPUs. It is free, open source released under the GNU Lesser General\nPublic License. Before the version 4.6, GROMACS was released under the\nGNU General Public License.\n",
     "homepage": "https://www.gromacs.org",
-    "latest_version": "2024.3",
+    "latest_version": "2024.4",
     "maintainers": [
         "eirrgang",
         "junghans",
@@ -567,7 +572,7 @@
         },
         {
             "default": false,
-            "description": "Use this if Intel compiler is installed through spack.The g++ location is written to icp{c,x}.cfg",
+            "description": "Use this if Intel compiler is installed through spack. The g++ location is written to icp{c,x}.cfg",
             "name": "intel_provided_gcc"
         },
         {
@@ -650,6 +655,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "2024.4",
+            "sha256": "ac618ece2e58afa86b536c5a2c4fcb937f0760318f12d18f10346b6bdebd86a8"
         },
         {
             "name": "2024.3",

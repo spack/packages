@@ -39,7 +39,7 @@
         }
     ],
     "description": "Python Objects Onto HDF5.\n",
-    "homepage": "http://h5io.github.io",
+    "homepage": "https://github.com/h5io/h5io",
     "latest_version": "0.1.7",
     "maintainers": [],
     "name": "py-h5io",

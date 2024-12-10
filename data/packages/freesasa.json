@@ -53,7 +53,7 @@
         }
     ],
     "description": "C-library for calculating Solvent Accessible Surface Areas\n",
-    "homepage": "http://freesasa.github.io",
+    "homepage": "https://freesasa.github.io",
     "latest_version": "2.1.2",
     "maintainers": [
         "RMeli"

@@ -7272,6 +7272,10 @@
         },
         {
             "default": "generic",
+            "package": "g4channeling"
+        },
+        {
+            "default": "generic",
             "package": "g4emlow"
         },
         {
@@ -43013,12 +43017,6 @@
         {
             "default": true,
             "package": "tfel"
-        }
-    ],
-    "concepts": [
-        {
-            "default": false,
-            "package": "covfie"
         }
     ],
     "conda": [

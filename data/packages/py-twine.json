@@ -12,6 +12,10 @@
             "name": "py-keyring"
         },
         {
+            "description": "Core utilities for Python packages.",
+            "name": "py-packaging"
+        },
+        {
             "description": "The PyPA recommended tool for installing Python packages.",
             "name": "py-pip"
         },
@@ -92,7 +96,7 @@
     ],
     "description": "Twine is a utility for publishing Python packages on PyPI.\n",
     "homepage": "https://twine.readthedocs.io/",
-    "latest_version": "4.0.2",
+    "latest_version": "6.0.1",
     "maintainers": [],
     "name": "py-twine",
     "patches": [],
@@ -105,6 +109,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.0.1",
+            "sha256": "36158b09df5406e1c9c1fb8edb24fc2be387709443e7376689b938531582ee27"
+        },
         {
             "name": "4.0.2",
             "sha256": "9e102ef5fdd5a20661eb88fad46338806c3bd32cf1db729603fe3697b1bc83c8"

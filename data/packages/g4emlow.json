@@ -11,7 +11,7 @@
     ],
     "description": "Geant4 data files for low energy electromagnetic processes.\n",
     "homepage": "https://geant4.web.cern.ch",
-    "latest_version": "8.6",
+    "latest_version": "8.6.1",
     "maintainers": [
         "drbenmorgan"
     ],
@@ -26,6 +26,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "8.6.1",
+            "sha256": "4a93588d26080ce1d336b94f76fadabe4905fb8f1cba2415795023d6cd8f4a8a"
+        },
         {
             "name": "8.6",
             "sha256": "fb7abed0d1db1d8b9ea364279b95e228d7bf3e3a5dc8d449b81665cada4a1a9e"

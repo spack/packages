@@ -52,7 +52,7 @@
     ],
     "dependent_to": [],
     "description": " HyPar is a finite-difference algorithm to solve hyperbolic-parabolic\npartial differential equations (with source terms) on Cartesian grids.\nIt is a unified framework that can handle systems of PDEs with arbitrary\nnumber of spatial dimensions and solution components. It provides the\nspatial discretization and time integration functions, functions to read\nand write solutions from/to files, as well as functions required to\nsolve the system on parallel (MPI) platforms. The physical models define\nthe physics-specific functions such as the exact forms of the hyperbolic\nflux, parabolic flux, source terms, upwinding functions, etc.\n",
-    "homepage": "http://hypar.github.io/",
+    "homepage": "https://hypar.github.io/",
     "latest_version": "4.1",
     "maintainers": [
         "debog"

@@ -469,6 +469,10 @@
     ],
     "versions": [
         {
+            "branch": "dev",
+            "name": "develop"
+        },
+        {
             "branch": "master",
             "name": "master"
         },

@@ -15,7 +15,7 @@
     "dependent_to": [],
     "description": "The Gurobi Optimizer was designed from the ground up to be the fastest,\nmost powerful solver available for your LP, QP, QCP, and MIP (MILP,\nMIQP, and MIQCP) problems.\n",
     "homepage": "https://www.gurobi.com",
-    "latest_version": "10.0.0",
+    "latest_version": "12.0.0",
     "maintainers": [],
     "name": "gurobi",
     "patches": [],
@@ -28,6 +28,14 @@
         }
     ],
     "versions": [
+        {
+            "name": "12.0.0",
+            "sha256": "a2bdc9c1d6bf8eb4e551a184af1ce8d7b0435ea8e7d19a017cc7d53fd5efda12"
+        },
+        {
+            "name": "11.0.3",
+            "sha256": "82a2c8671c234bbaa9dc64da22b1951abf41c62047fdf77004e65f24a91dfd13"
+        },
         {
             "name": "10.0.0",
             "sha256": "91a9ce1464f5f948809fcdfbdeb55f77698ed8a6d6cfa6985295424b6ece2bd4"

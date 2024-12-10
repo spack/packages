@@ -4264,6 +4264,10 @@
         "name": "g4abla"
     },
     {
+        "description": "Geant4 data for solid state crystal channeling\n",
+        "name": "g4channeling"
+    },
+    {
         "description": "Geant4 data files for low energy electromagnetic processes.\n",
         "name": "g4emlow"
     },

@@ -11,7 +11,7 @@
     ],
     "description": "Geant4 data for nuclides properties\n",
     "homepage": "https://geant4.web.cern.ch",
-    "latest_version": "2.3",
+    "latest_version": "3.0",
     "maintainers": [
         "drbenmorgan"
     ],
@@ -26,6 +26,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.0",
+            "sha256": "4bdc3bd40b31d43485bf4f87f055705e540a6557d64ed85c689c59c9a4eba7d6"
+        },
         {
             "name": "2.3",
             "sha256": "9444c5e0820791abd3ccaace105b0e47790fadce286e11149834e79c4a8e9203"

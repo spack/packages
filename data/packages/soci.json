@@ -36,7 +36,7 @@
     ],
     "description": "Official repository of the SOCI - The C++ Database Access Library\n",
     "homepage": "https://github.com/SOCI/soci",
-    "latest_version": "4.0.2",
+    "latest_version": "4.0.3",
     "maintainers": [],
     "name": "soci",
     "patches": [],
@@ -89,6 +89,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "4.0.3",
+            "sha256": "4b1ff9c8545c5d802fbe06ee6cd2886630e5c03bf740e269bb625b45cf934928"
+        },
         {
             "name": "4.0.2",
             "sha256": "f293192a412ed82693d17dfe46e2734b140bff835bc3259e3cbd7c315e5e2d74"

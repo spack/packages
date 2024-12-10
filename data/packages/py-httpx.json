@@ -108,7 +108,7 @@
     ],
     "description": "HTTPX is a fully featured HTTP client for Python 3, which provides sync\nand async APIs, and support for both HTTP/1.1 and HTTP/2.\n",
     "homepage": "https://github.com/encode/httpx",
-    "latest_version": "0.27.2",
+    "latest_version": "0.28.1",
     "maintainers": [],
     "name": "py-httpx",
     "patches": [],
@@ -126,6 +126,14 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.28.1",
+            "sha256": "75e98c5f16b0f35b567856f597f06ff2270a374470a5c2392242528e3e3e42fc"
+        },
+        {
+            "name": "0.28.0",
+            "sha256": "0858d3bab51ba7e386637f22a61d8ccddaeec5f3fe4209da3a6168dbb91573e0"
+        },
         {
             "name": "0.27.2",
             "sha256": "f7c2be1d2f3c3c3160d441802406b206c2b76f5947b11115e6df10c6c65e66c2"
