@@ -324,8 +324,8 @@
         },
         {
             "description": "hwloc: hwloc supports Intel OneAPI Level Zero only since 2.5.0",
-            "name": "@:2.4.99",
-            "spec": "+oneapi-level-zero"
+            "name": "@:2.4",
+            "spec": "+level_zero"
         },
         {
             "description": null,
@@ -693,6 +693,11 @@
             "name": "gl"
         },
         {
+            "default": false,
+            "description": "Support Intel OneAPI Level Zero devices",
+            "name": "level_zero"
+        },
+        {
             "default": "shared,static",
             "description": "Build shared libs, static libs or both",
             "name": "libs"
@@ -716,11 +721,6 @@
             "default": false,
             "description": "Support NVML device discovery",
             "name": "nvml"
-        },
-        {
-            "default": false,
-            "description": "Support Intel OneAPI Level Zero devices",
-            "name": "oneapi-level-zero"
         },
         {
             "default": false,

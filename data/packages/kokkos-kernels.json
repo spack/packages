@@ -395,6 +395,10 @@
             "name": "py-pennylane-lightning"
         },
         {
+            "description": "The Compadre Toolkit provides a performance portable solution for the\nparallel evaluation of computationally dense kernels. The toolkit\nspecifically targets the Generalized Moving Least Squares (GMLS)\napproach, which requires the inversion of small dense matrices. The\nresult is a set of weights that provide the information needed for remap\nor entries that constitute the rows of some globally sparse matrix.",
+            "name": "py-pycompadre"
+        },
+        {
             "description": "Singularity-EOS: A collection of closure models and tools useful for\nmultiphysics codes.",
             "name": "singularity-eos"
         },

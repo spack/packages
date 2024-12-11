@@ -104,13 +104,13 @@
         },
         {
             "default": false,
-            "description": "Support for memory operations on top of OpenCL.",
-            "name": "opencl"
+            "description": "Support for memory operations on top of Level Zero.",
+            "name": "level_zero"
         },
         {
             "default": false,
-            "description": "Support for memory operations on top of Level Zero.",
-            "name": "ze"
+            "description": "Support for memory operations on top of OpenCL.",
+            "name": "opencl"
         }
     ],
     "versions": [

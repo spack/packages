@@ -42,6 +42,14 @@
             "name": "hwloc"
         },
         {
+            "description": "The Open Fabrics Interfaces (OFI) is a framework focused on exporting\nfabric communication services to applications.",
+            "name": "libfabric"
+        },
+        {
+            "description": "MPICH is a high performance and widely portable implementation of the\nMessage Passing Interface (MPI) standard.",
+            "name": "mpich"
+        },
+        {
             "description": "oneAPI Deep Neural Network Library (oneDNN). Formerly known as Intel\nMKL-DNN and DNNL.",
             "name": "onednn"
         },

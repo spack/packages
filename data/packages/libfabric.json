@@ -386,6 +386,10 @@
             "name": "numactl"
         },
         {
+            "description": "oneAPI Level Zero Loader. Applications that need low-level control of a\noneAPI level zero device link against the loader. The loader depends on\na separately installed level zero driver. See https://dgpu-\ndocs.intel.com/technologies/level-zero.html for information on how to\ninstall the driver.",
+            "name": "oneapi-level-zero"
+        },
+        {
             "description": "Omni-Path Performance Scaled Messaging 2 (PSM2) library",
             "name": "opa-psm2"
         },
@@ -574,6 +578,11 @@
             "default": false,
             "description": "Enable kdreg on supported Cray platforms",
             "name": "kdreg"
+        },
+        {
+            "default": false,
+            "description": "Enable Level Zero support",
+            "name": "level_zero"
         },
         {
             "default": false,

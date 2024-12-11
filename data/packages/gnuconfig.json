@@ -1621,6 +1621,10 @@
             "name": "hoppet"
         },
         {
+            "description": "HP2P (Heavy Peer To Peer) benchmark is a test which performs MPI Point-\nto-Point non-blocking communications between all MPI processes. Its goal\nis to measure the bandwidths and the latencies in a situation where the\nnetwork is busy. This benchmark can help to detect network problems like\ncongestions or problems with switches or links.",
+            "name": "hp2p"
+        },
+        {
             "description": "HPCG is a software package that performs a fixed number of multigrid\npreconditioned (using a symmetric Gauss-Seidel smoother) conjugate\ngradient (PCG) iterations using double precision (64 bit) floating point\nvalues.",
             "name": "hpcg"
         },

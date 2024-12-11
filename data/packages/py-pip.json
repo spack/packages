@@ -2646,6 +2646,10 @@
             "name": "py-dirtyjson"
         },
         {
+            "description": "Dynamically distribute a list of tasks over a pool of compute resources.",
+            "name": "py-disbatch"
+        },
+        {
             "description": "Test discovery for unittest.",
             "name": "py-discover"
         },

@@ -561,6 +561,10 @@
             "name": "mxm"
         },
         {
+            "description": "oneAPI Level Zero Loader. Applications that need low-level control of a\noneAPI level zero device link against the loader. The loader depends on\na separately installed level zero driver. See https://dgpu-\ndocs.intel.com/technologies/level-zero.html for information on how to\ninstall the driver.",
+            "name": "oneapi-level-zero"
+        },
+        {
             "description": "pkgconf is a program which helps to configure compiler and linker flags\nfor development frameworks. It is similar to pkg-config from\nfreedesktop.org, providing additional functionality while also\nmaintaining compatibility.",
             "name": "pkgconfig"
         },
@@ -843,6 +847,11 @@
             "default": true,
             "description": "Build the hydra process manager",
             "name": "hydra"
+        },
+        {
+            "default": false,
+            "description": "Enable level zero support",
+            "name": "level_zero"
         },
         {
             "default": true,

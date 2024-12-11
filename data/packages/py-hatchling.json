@@ -106,6 +106,10 @@
             "name": "py-datashader"
         },
         {
+            "description": "Dynamically distribute a list of tasks over a pool of compute resources.",
+            "name": "py-disbatch"
+        },
+        {
             "description": "DNS toolkit",
             "name": "py-dnspython"
         },

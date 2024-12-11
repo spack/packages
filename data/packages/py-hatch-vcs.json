@@ -46,6 +46,10 @@
             "name": "py-datashader"
         },
         {
+            "description": "Dynamically distribute a list of tasks over a pool of compute resources.",
+            "name": "py-disbatch"
+        },
+        {
             "description": "A platform-independent file lock for Python. This package contains a\nsingle module, which implements a platform independent file lock in\nPython, which provides a simple way of inter-process communication",
             "name": "py-filelock"
         },

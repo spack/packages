@@ -5684,6 +5684,10 @@
         "name": "hotspot"
     },
     {
+        "description": "HP2P (Heavy Peer To Peer) benchmark is a test which performs MPI Point-\nto-Point non-blocking communications between all MPI processes. Its goal\nis to measure the bandwidths and the latencies in a situation where the\nnetwork is busy. This benchmark can help to detect network problems like\ncongestions or problems with switches or links.\n",
+        "name": "hp2p"
+    },
+    {
         "description": "HPC Challenge is a benchmark suite that measures a range memory access\npatterns. The HPC Challenge benchmark consists of basically 7 tests: 1)\nHPL - the Linpack TPP benchmark which measures the floating point rate\nof execution for solving a linear system of equations. 2) DGEMM -\nmeasures the floating point rate of execution of double precision real\nmatrix-matrix multiplication. 3) STREAM - a simple synthetic benchmark\nprogram that measures sustainable memory bandwidth (in GB/s) and the\ncorresponding computation rate for simple vector kernel. 4) PTRANS\n(parallel matrix transpose) - exercises the communications where pairs\nof processors communicate with each other simultaneously. It is a useful\ntest of the total communications capacity of the network. 5)\nRandomAccess - measures the rate of integer random updates of memory\n(GUPS). 6) FFT - measures the floating point rate of execution of double\nprecision complex one-dimensional Discrete Fourier Transform (DFT). 7)\nCommunication bandwidth and latency - a set of tests to measure latency\nand bandwidth of a number of simultaneous communication patterns; based\non b_eff (effective bandwidth benchmark).\n",
         "name": "hpcc"
     },
@@ -15998,6 +16002,10 @@
     {
         "description": "JSON decoder for Python that can extract data from the muck\n",
         "name": "py-dirtyjson"
+    },
+    {
+        "description": "Dynamically distribute a list of tasks over a pool of compute resources.\n",
+        "name": "py-disbatch"
     },
     {
         "description": "Test discovery for unittest.\n",

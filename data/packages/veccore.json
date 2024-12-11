@@ -32,7 +32,7 @@
     ],
     "description": "SIMD Vectorization Library for VecGeom and GeantV. VecCore is a header-\nonly (interface) library so no cmake arguments are necessary.\n",
     "homepage": "https://gitlab.cern.ch/VecGeom/VecCore",
-    "latest_version": "0.8.1",
+    "latest_version": "0.8.2",
     "maintainers": [
         "drbenmorgan",
         "sethrj"
@@ -71,6 +71,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "0.8.2",
+            "sha256": "1268bca92acf00acd9775f1e79a2da7b1d902733d17e283e0dd5e02c41ac9666"
         },
         {
             "name": "0.8.1",

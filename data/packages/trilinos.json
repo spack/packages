@@ -1053,10 +1053,6 @@
             "name": "phist"
         },
         {
-            "description": "The Compadre Toolkit provides a performance portable solution for the\nparallel evaluation of computationally dense kernels. The toolkit\nspecifically targets the Generalized Moving Least Squares (GMLS)\napproach, which requires the inversion of small dense matrices. The\nresult is a set of weights that provide the information needed for remap\nor entries that constitute the rows of some globally sparse matrix.",
-            "name": "py-pycompadre"
-        },
-        {
             "description": "The SEACAS Project contains the Exodus and IOSS I/O libraries and a\ncollection of applications which create, query, modify, or translate\nExodus databases. Exodus is a finite element mesh and results database\nfile format. Default is to build the Exodus and IOSS libraries and the\nio_shell, io_info, io_modify, struc_to_unstruc apps.",
             "name": "seacas"
         },

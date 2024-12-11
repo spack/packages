@@ -73,7 +73,7 @@
         {
             "default": true,
             "description": "Build bbfft-level-zero",
-            "name": "level-zero"
+            "name": "level_zero"
         },
         {
             "default": true,

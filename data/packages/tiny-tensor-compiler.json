@@ -74,7 +74,7 @@
         {
             "default": false,
             "description": "Build tinytc_ze (Level Zero runtime)",
-            "name": "level-zero"
+            "name": "level_zero"
         },
         {
             "default": true,

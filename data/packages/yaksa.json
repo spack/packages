@@ -419,6 +419,11 @@
         },
         {
             "default": false,
+            "description": "Enable Level Zero support",
+            "name": "level_zero"
+        },
+        {
+            "default": false,
             "description": "Enable ROCm support",
             "name": "rocm"
         }

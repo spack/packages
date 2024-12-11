@@ -8675,6 +8675,10 @@
             "package": "hotspot"
         },
         {
+            "default": "autotools",
+            "package": "hp2p"
+        },
+        {
             "default": "makefile",
             "package": "hpcc"
         },
@@ -18909,6 +18913,10 @@
         {
             "default": "python_pip",
             "package": "py-dirtyjson"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-disbatch"
         },
         {
             "default": "python_pip",
@@ -46709,6 +46717,10 @@
             "package": "coin3d"
         },
         {
+            "default": "0",
+            "package": "compadre"
+        },
+        {
             "default": false,
             "package": "daos"
         },
@@ -66663,20 +66675,22 @@
             "package": "icon"
         }
     ],
-    "level-zero": [
+    "level_zero": [
+        {
+            "default": false,
+            "package": "aml"
+        },
         {
             "default": true,
             "package": "double-batched-fft-library"
         },
         {
             "default": false,
-            "package": "tiny-tensor-compiler"
-        }
-    ],
-    "level_zero": [
+            "package": "gasnet"
+        },
         {
             "default": false,
-            "package": "gasnet"
+            "package": "geopm-service"
         },
         {
             "default": false,
@@ -66684,11 +66698,31 @@
         },
         {
             "default": false,
+            "package": "hwloc"
+        },
+        {
+            "default": false,
+            "package": "libfabric"
+        },
+        {
+            "default": false,
+            "package": "mpich"
+        },
+        {
+            "default": false,
             "package": "tau"
         },
         {
             "default": false,
+            "package": "tiny-tensor-compiler"
+        },
+        {
+            "default": false,
             "package": "upcxx"
+        },
+        {
+            "default": false,
+            "package": "yaksa"
         }
     ],
     "leveldb": [
@@ -66699,12 +66733,6 @@
         {
             "default": true,
             "package": "julea"
-        }
-    ],
-    "levelzero": [
-        {
-            "default": false,
-            "package": "geopm-service"
         }
     ],
     "lex": [
@@ -72773,12 +72801,6 @@
         {
             "default": false,
             "package": "tracy-client"
-        }
-    ],
-    "oneapi-level-zero": [
-        {
-            "default": false,
-            "package": "hwloc"
         }
     ],
     "onednn": [
@@ -86308,10 +86330,6 @@
         },
         {
             "default": false,
-            "package": "py-pycompadre"
-        },
-        {
-            "default": false,
             "package": "sundials"
         },
         {
@@ -88605,12 +88623,6 @@
         {
             "default": false,
             "package": "rose"
-        }
-    ],
-    "ze": [
-        {
-            "default": false,
-            "package": "aml"
         }
     ],
     "zfp": [

@@ -15,7 +15,7 @@
         {
             "description": "geopm-service: LevelZero and NVML support are mutually exclusive",
             "name": "+nvml",
-            "spec": "+levelzero"
+            "spec": "+level_zero"
         },
         {
             "description": "geopm-service: Only available on x86_64",
@@ -220,7 +220,7 @@
         {
             "default": false,
             "description": "Enables the use of oneAPI Level Zero loader",
-            "name": "levelzero"
+            "name": "level_zero"
         },
         {
             "default": true,
