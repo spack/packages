@@ -58387,6 +58387,12 @@
             "package": "lbann"
         }
     ],
+    "half_precision": [
+        {
+            "default": true,
+            "package": "ginkgo"
+        }
+    ],
     "hang_check": [
         {
             "default": false,

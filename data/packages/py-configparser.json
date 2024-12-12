@@ -34,7 +34,7 @@
             "name": "py-bluepyemodel"
         },
         {
-            "description": "Code generation system developed to support domain-specific languages\n(DSLs) for finite element, finite volume and finite difference codes.\nNotably, it is used in the LFRic Project from the UK Met Office, and it\nalso supports the GOcean (2D, finite difference) DSL.",
+            "description": "A source-to-source Fortran compiler designed to programmatically\noptimise, parallelise and instrument HPC applications (written in\nFortran) via user- provided transformation scripts. Additionally,\nPSyclone supports the development of kernel-based, Fortran-embedded DSLs\nand is used in the UK Met Office's next-generation modelling system,\nLFRic.",
             "name": "py-psyclone"
         }
     ],

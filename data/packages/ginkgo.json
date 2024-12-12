@@ -516,7 +516,7 @@
     ],
     "description": "High-performance linear algebra library for manycore systems, with a\nfocus on sparse solution of linear systems.\n",
     "homepage": "https://ginkgo-project.github.io/",
-    "latest_version": "1.8.0",
+    "latest_version": "1.9.0",
     "maintainers": [
         "MarcelKoch",
         "hartwiganzt"
@@ -612,6 +612,11 @@
             "name": "generator"
         },
         {
+            "default": true,
+            "description": "Enable half-precision support",
+            "name": "half_precision"
+        },
+        {
             "default": false,
             "description": "Enable HWLOC support",
             "name": "hwloc"
@@ -658,8 +663,12 @@
             "name": "develop"
         },
         {
-            "branch": "master",
-            "name": "master"
+            "branch": "main",
+            "name": "main"
+        },
+        {
+            "commit": "20cfd68795f58078898da9890baa311b46845a8b",
+            "name": "1.9.0"
         },
         {
             "commit": "586b1754058d7a32d4bd1b650f9603484c2a8927",
@@ -707,5 +716,10 @@
             "name": "1.0.0"
         }
     ],
-    "versions_deprecated": []
+    "versions_deprecated": [
+        {
+            "branch": "master",
+            "name": "master"
+        }
+    ]
 }

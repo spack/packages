@@ -16,12 +16,16 @@
             "name": "py-fparser"
         },
         {
-            "description": "Jsonschema: An(other) implementation of JSON Schema for Python.",
-            "name": "py-jsonschema"
+            "description": "Simple Python interface for Graphviz",
+            "name": "py-graphviz"
         },
         {
-            "description": "Python style guide checker (deprecated, use py-pycodestyle instead).",
-            "name": "py-pep8"
+            "description": "Jinja2 is a template engine written in pure Python. It provides a Django\ninspired non-XML syntax but supports inline expressions and an optional\nsandboxed environment.",
+            "name": "py-jinja2"
+        },
+        {
+            "description": "Jsonschema: An(other) implementation of JSON Schema for Python.",
+            "name": "py-jsonschema"
         },
         {
             "description": "The PyPA recommended tool for installing Python packages.",
@@ -44,18 +48,6 @@
             "name": "py-pytest-cov"
         },
         {
-            "description": "py.test plugin for efficiently checking python source with pyflakes.",
-            "name": "py-pytest-flakes"
-        },
-        {
-            "description": "pytest plugin for efficiently checking PEP8 compliance",
-            "name": "py-pytest-pep8"
-        },
-        {
-            "description": "Run pylint with pytest and have configurable rule types (i.e.\nConvention, Warn, and Error) fail the build. You can also specify a\npylintrc file.",
-            "name": "py-pytest-pylint"
-        },
-        {
             "description": "py.test xdist plugin for distributed testing and loop-on-failing mode",
             "name": "py-pytest-xdist"
         },
@@ -72,6 +64,10 @@
             "name": "py-sympy"
         },
         {
+            "description": "ANSII Color formatting for output in terminal.",
+            "name": "py-termcolor"
+        },
+        {
             "description": "A built-package format for Python.",
             "name": "py-wheel"
         },
@@ -85,10 +81,15 @@
         }
     ],
     "dependent_to": [],
-    "description": " Code generation system developed to support domain-specific languages\n(DSLs) for finite element, finite volume and finite difference codes.\nNotably, it is used in the LFRic Project from the UK Met Office, and it\nalso supports the GOcean (2D, finite difference) DSL.\n",
+    "description": " A source-to-source Fortran compiler designed to programmatically\noptimise, parallelise and instrument HPC applications (written in\nFortran) via user- provided transformation scripts. Additionally,\nPSyclone supports the development of kernel-based, Fortran-embedded DSLs\nand is used in the UK Met Office's next-generation modelling system,\nLFRic.\n",
     "homepage": "https://github.com/stfc/PSyclone",
-    "latest_version": "2.5.0",
-    "maintainers": [],
+    "latest_version": "3.0.0",
+    "maintainers": [
+        "TeranIvy",
+        "arporter",
+        "hiker",
+        "sergisiso"
+    ],
     "name": "py-psyclone",
     "patches": [],
     "resources": [],
@@ -102,7 +103,11 @@
     "versions": [
         {
             "branch": "master",
-            "name": "develop"
+            "name": "master"
+        },
+        {
+            "name": "3.0.0",
+            "sha256": "25085a6d0dad36c03ec1f06becf7e2f915ded26603d4a1a2981392f5752fdb3e"
         },
         {
             "name": "2.5.0",

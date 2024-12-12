@@ -32,12 +32,7 @@
             "name": "python-venv"
         }
     ],
-    "dependent_to": [
-        {
-            "description": "Code generation system developed to support domain-specific languages\n(DSLs) for finite element, finite volume and finite difference codes.\nNotably, it is used in the LFRic Project from the UK Met Office, and it\nalso supports the GOcean (2D, finite difference) DSL.",
-            "name": "py-psyclone"
-        }
-    ],
+    "dependent_to": [],
     "description": "py.test plugin for efficiently checking python source with pyflakes.\n",
     "homepage": "https://github.com/asmeurer/pytest-flakes",
     "latest_version": "4.0.3",
