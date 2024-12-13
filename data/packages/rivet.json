@@ -100,6 +100,15 @@
     "name": "rivet",
     "patches": [
         {
+            "level": 1,
+            "owner": "builtin.rivet",
+            "reverse": false,
+            "sha256": "e1ff65c8dfe80c0b1bb8ad9960754932541064dd5334311a8bd5a377374a9926",
+            "url": "https://gitlab.com/hepcedar/rivet/-/merge_requests/973.diff",
+            "version": "@4:4.0.2",
+            "working_dir": "."
+        },
+        {
             "level": 0,
             "owner": "builtin.rivet",
             "relative_path": "rivet-3.0.0.patch",

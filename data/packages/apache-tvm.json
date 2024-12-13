@@ -407,11 +407,11 @@
             "name": "llvm"
         }
     ],
-    "versions": [
+    "versions": [],
+    "versions_deprecated": [
         {
             "name": "0.16.0",
             "sha256": "55e2629c39248ef3b1ee280e34a960182bd17bea7ae0d0fa132bbdaaf5aba1ac"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

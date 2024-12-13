@@ -164,7 +164,8 @@
             "name": "build_system"
         }
     ],
-    "versions": [
+    "versions": [],
+    "versions_deprecated": [
         {
             "name": "1.23.0",
             "sha256": "0965d0741e39cdb95cff5880dbf1a55fdd87cd9fc316884f965668e6cc36e628"
@@ -177,6 +178,5 @@
             "name": "1.8.0",
             "sha256": "a0f2b0977f18fb7dcb88c314594a4a85c636a36be3d582be1cae25655fea6105"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

@@ -38,6 +38,15 @@
             "sha256": "437531d0d7a46cb631bd846702f8b919cafd2fda5599a2876ef7624655c7ce07",
             "version": "@:1.0.7",
             "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.cprnc",
+            "relative_path": "install_rpath_108.patch",
+            "reverse": false,
+            "sha256": "ccba71d5f3c67eeb93b542ed459dcc85c4893d1c75ab15c1d50c757a42587075",
+            "version": "@1.0.8",
+            "working_dir": "."
         }
     ],
     "resources": [

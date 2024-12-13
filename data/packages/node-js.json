@@ -216,7 +216,9 @@
         {
             "name": "16.18.1",
             "sha256": "3d24c9c3a953afee43edc44569045eda56cd45cd58b0539922d17da62736189c"
-        },
+        }
+    ],
+    "versions_deprecated": [
         {
             "name": "15.3.0",
             "sha256": "cadfa384a5f14591b84ce07a1afe529f28deb0d43366fb0ae4e78afba96bfaf2"
@@ -249,6 +251,5 @@
             "name": "13.5.0",
             "sha256": "4b8078d896a7550d7ed399c1b4ac9043e9f883be404d9b337185c8d8479f2db8"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

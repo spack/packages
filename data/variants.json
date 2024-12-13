@@ -51453,6 +51453,12 @@
             "package": "goma"
         }
     ],
+    "fpe-trap": [
+        {
+            "default": false,
+            "package": "openfast"
+        }
+    ],
     "fpic": [
         {
             "default": false,
@@ -75845,6 +75851,10 @@
         {
             "default": true,
             "package": "pcre"
+        },
+        {
+            "default": true,
+            "package": "pcre2"
         },
         {
             "default": false,

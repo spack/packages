@@ -3707,7 +3707,9 @@
         {
             "name": "1.19.3",
             "sha256": "35bf5316af8dc7c7db1ad45bec603e5fb28671beb98ebd1d65e8059efcfd3b72"
-        },
+        }
+    ],
+    "versions_deprecated": [
         {
             "name": "1.19.2",
             "sha256": "0d310730e1e793527065ad7dde736197b705d0e4c9999775f212b03c44a8484c"
@@ -3756,6 +3758,5 @@
             "name": "1.17.3",
             "sha256": "a0678793096205a4d784bd99f32803ba8100f639cf3b932dc63b21621390ea7e"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

@@ -190,7 +190,9 @@
             "commit": "0f911ec35ab020983efbf36b8c14415651e98618",
             "name": "0.8.1",
             "tag": "v0.8.1"
-        },
+        }
+    ],
+    "versions_deprecated": [
         {
             "commit": "3a54c7f52584f201c17ca7489b52b812152612dc",
             "name": "0.6.0",
@@ -201,6 +203,5 @@
             "name": "0.5.0",
             "tag": "0.5.0"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

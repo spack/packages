@@ -123,6 +123,11 @@
             "name": "fastfarm"
         },
         {
+            "default": false,
+            "description": "Enable FPE trap in compiler options",
+            "name": "fpe-trap"
+        },
+        {
             "default": "make",
             "description": "the build system generator to use",
             "name": "generator"

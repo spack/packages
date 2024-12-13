@@ -138,17 +138,22 @@
         },
         {
             "default": false,
-            "description": "enable Just-In-Time compiling support",
+            "description": "Enable Just-In-Time compiling support",
             "name": "jit"
         },
         {
             "default": true,
-            "description": "Enable support for 16 and 32 bit characters.",
+            "description": "Enable support for 16 and 32 bit characters",
             "name": "multibyte"
         },
         {
             "default": true,
-            "description": "build shared pcre2",
+            "description": "Build the static library with the option position independent code enabled",
+            "name": "pic"
+        },
+        {
+            "default": true,
+            "description": "Build shared pcre2",
             "name": "shared"
         }
     ],

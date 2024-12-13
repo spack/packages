@@ -1613,7 +1613,9 @@
             "commit": "57bffc3a8e4fee0cce31e1ff1f662ccf7b16db57",
             "name": "1.7.1",
             "tag": "v1.7.1"
-        },
+        }
+    ],
+    "versions_deprecated": [
         {
             "commit": "e85d494707b835c12165976b8442af54b9afcb26",
             "name": "1.7.0",
@@ -1639,6 +1641,5 @@
             "name": "1.4.1",
             "tag": "v1.4.1"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }
