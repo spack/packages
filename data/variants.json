@@ -4595,6 +4595,10 @@
             "package": "cassandra"
         },
         {
+            "default": "generic",
+            "package": "cassini-headers"
+        },
+        {
             "default": "makefile",
             "package": "castep"
         },
@@ -5541,6 +5545,10 @@
         {
             "default": "autotools",
             "package": "cvs"
+        },
+        {
+            "default": "generic",
+            "package": "cxi-driver"
         },
         {
             "default": "cmake",
@@ -9961,6 +9969,10 @@
         {
             "default": "generic",
             "package": "libcumlprims"
+        },
+        {
+            "default": "autotools",
+            "package": "libcxi"
         },
         {
             "default": "cmake",
@@ -26585,6 +26597,18 @@
         {
             "default": "python_pip",
             "package": "py-traitsui"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-trame"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-trame-client"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-trame-server"
         },
         {
             "default": "python_pip",
@@ -44144,6 +44168,10 @@
         },
         {
             "default": false,
+            "package": "libcxi"
+        },
+        {
+            "default": false,
             "package": "libfabric"
         },
         {
@@ -51363,6 +51391,10 @@
         {
             "default": false,
             "package": "starpu"
+        },
+        {
+            "default": true,
+            "package": "superlu"
         },
         {
             "default": false,
@@ -66714,6 +66746,10 @@
         },
         {
             "default": false,
+            "package": "libcxi"
+        },
+        {
+            "default": false,
             "package": "libfabric"
         },
         {
@@ -72959,6 +72995,10 @@
         {
             "default": false,
             "package": "aml"
+        },
+        {
+            "default": false,
+            "package": "apex"
         },
         {
             "default": false,
@@ -79376,6 +79416,10 @@
         },
         {
             "default": false,
+            "package": "libcxi"
+        },
+        {
+            "default": false,
             "package": "likwid"
         },
         {
@@ -82983,6 +83027,10 @@
         {
             "default": false,
             "package": "libsndfile"
+        },
+        {
+            "default": false,
+            "package": "nim"
         },
         {
             "default": false,

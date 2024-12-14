@@ -2065,6 +2065,10 @@
             "name": "libctl"
         },
         {
+            "description": "The CXI library provides interfaces which interact directly with CXI\ndrivers.",
+            "name": "libcxi"
+        },
+        {
             "description": "libdaemon is a lightweight C library which eases the writing of UNIX\ndaemons.",
             "name": "libdaemon"
         },

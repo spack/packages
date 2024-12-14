@@ -11607,6 +11607,18 @@
             "name": "py-traitsui"
         },
         {
+            "description": "Trame lets you weave various components and technologies into a Web\nApplication solely written in Python.",
+            "name": "py-trame"
+        },
+        {
+            "description": "Internal client side implementation of trame",
+            "name": "py-trame-client"
+        },
+        {
+            "description": "Internal server side implementation of trame",
+            "name": "py-trame-server"
+        },
+        {
             "description": "A library for accelerating Transformer models on NVIDIA GPUs, including\nfp8 precision on Hopper GPUs.",
             "name": "py-transformer-engine"
         },

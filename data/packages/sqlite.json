@@ -159,6 +159,10 @@
             "name": "nfs-utils"
         },
         {
+            "description": "Nim is a statically typed compiled systems programming language. It\ncombines successful concepts from mature languages like Python, Ada and\nModula.",
+            "name": "nim"
+        },
+        {
             "description": "Nix, the purely functional package manager",
             "name": "nix"
         },

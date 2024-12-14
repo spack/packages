@@ -341,11 +341,6 @@
             "description": null,
             "name": "arch=windows-None-None",
             "spec": "build_system=autotools"
-        },
-        {
-            "description": null,
-            "name": "fabrics=cxi",
-            "spec": ""
         }
     ],
     "dependencies": [
@@ -362,12 +357,24 @@
             "name": "cuda"
         },
         {
+            "description": "cURL is an open source command line tool and library for transferring\ndata with URL syntax",
+            "name": "curl"
+        },
+        {
             "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
             "name": "gmake"
         },
         {
             "description": "The GNU config.guess and config.sub scripts versioned by timestamp.\nThis package can be used as a build dependency for autotools packages\nthat ship a tarball with outdated config.guess and config.sub files.",
             "name": "gnuconfig"
+        },
+        {
+            "description": "A JSON implementation in C.",
+            "name": "json-c"
+        },
+        {
+            "description": "The CXI library provides interfaces which interact directly with CXI\ndrivers.",
+            "name": "libcxi"
         },
         {
             "description": "libtool -- library building part of autotools.",

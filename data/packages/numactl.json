@@ -102,6 +102,10 @@
             "name": "kokkos"
         },
         {
+            "description": "The CXI library provides interfaces which interact directly with CXI\ndrivers.",
+            "name": "libcxi"
+        },
+        {
             "description": "The Open Fabrics Interfaces (OFI) is a framework focused on exporting\nfabric communication services to applications.",
             "name": "libfabric"
         },

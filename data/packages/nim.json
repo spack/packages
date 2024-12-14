@@ -4,12 +4,20 @@
     "conflicts": [],
     "dependencies": [
         {
+            "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
+            "name": "gmake"
+        },
+        {
             "description": "OpenSSL is an open source project that provides a robust, commercial-\ngrade, and full-featured toolkit for the Transport Layer Security (TLS)\nand Secure Sockets Layer (SSL) protocols. It is also a general-purpose\ncryptography library.",
             "name": "openssl"
         },
         {
             "description": "The PCRE package contains Perl Compatible Regular Expression libraries.\nThese are useful for implementing regular expression pattern matching\nusing the same syntax and semantics as Perl 5.",
             "name": "pcre"
+        },
+        {
+            "description": "SQLite is a C-language library that implements a small, fast, self-\ncontained, high-reliability, full-featured, SQL database engine.",
+            "name": "sqlite"
         }
     ],
     "dependent_to": [
@@ -21,9 +29,48 @@
     "description": "Nim is a statically typed compiled systems programming language. It\ncombines successful concepts from mature languages like Python, Ada and\nModula.\n",
     "homepage": "https://nim-lang.org/",
     "latest_version": "2.2.0",
-    "maintainers": [],
+    "maintainers": [
+        "Buldram"
+    ],
     "name": "nim",
-    "patches": [],
+    "patches": [
+        {
+            "level": 1,
+            "owner": "builtin.nim",
+            "reverse": false,
+            "sha256": "fee426d5f027a8676d94309932812c5d70e1bc089f4d030326a413cacba78330",
+            "url": "https://github.com/nim-lang/Nim/commit/17522d6ae1444614be78b1002005513105f2893f.patch?full_index=1",
+            "version": "@1.4.0:1.4.9",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.nim",
+            "reverse": false,
+            "sha256": "88fd2a137a2170a4df41b9f5419a47aff78b0dbf421405e22a6d6a066e3e0431",
+            "url": "https://github.com/nim-lang/Nim/commit/c7d090c418f7847bdfa1fd3bfed831470665c3e9.patch?full_index=1",
+            "version": "@1.4.0:1.4.3",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.nim",
+            "reverse": false,
+            "sha256": "4fe4f8b760e7a516fcd51d6ce02562432f1d34623751f52556d4e6c1823e705a",
+            "url": "https://github.com/nim-lang/nimble/commit/aec0ae5c23d2e2a2ec28e97dcb9dd6cb1e68b134.patch?full_index=1",
+            "version": "@1:1.2.9,1.4.0:1.4.3",
+            "working_dir": "dist/nimble"
+        },
+        {
+            "level": 1,
+            "owner": "builtin.nim",
+            "reverse": false,
+            "sha256": "5e6f7e2d2dac5d2ed70b5047418d9b43e156de35737f9fad0052ae30dd539b03",
+            "url": "https://github.com/nim-lang/nimble/commit/89954f8b03b05970aea78c8fe1241138f5bbeae8.patch?full_index=1",
+            "version": "@0:1.2.9,1.4.0:1.4.3",
+            "working_dir": "dist/nimble"
+        }
+    ],
     "resources": [
         {
             "destination": "",
@@ -37,6 +84,11 @@
             "default": "generic",
             "description": "Build systems supported by the package",
             "name": "build_system"
+        },
+        {
+            "default": false,
+            "description": "Install SQLite for std/db_sqlite",
+            "name": "sqlite"
         }
     ],
     "versions": [
@@ -51,10 +103,6 @@
         {
             "name": "2.0.4",
             "sha256": "71526bd07439dc8e378fa1a6eb407eda1298f1f3d4df4476dca0e3ca3cbe3f09"
-        },
-        {
-            "name": "1.9.3",
-            "sha256": "d8de7515db767f853d9b44730f88ee113bfe9c38dcccd5afabc773e2e13bf87c"
         },
         {
             "name": "1.6.20",
@@ -77,15 +125,19 @@
             "sha256": "a1739185508876f6e21a13f590a20e219ce3eec1b0583ea745e9058c37ad833e"
         },
         {
-            "name": "1.0.10",
-            "sha256": "28045fb6dcd86bd79748ead7874482d665ca25edca68f63d6cebc925b1428da5"
-        },
-        {
             "branch": "devel",
             "name": "devel"
         }
     ],
     "versions_deprecated": [
+        {
+            "name": "1.9.3",
+            "sha256": "d8de7515db767f853d9b44730f88ee113bfe9c38dcccd5afabc773e2e13bf87c"
+        },
+        {
+            "name": "1.0.10",
+            "sha256": "28045fb6dcd86bd79748ead7874482d665ca25edca68f63d6cebc925b1428da5"
+        },
         {
             "name": "0.20.0",
             "sha256": "51f479b831e87b9539f7264082bb6a64641802b54d2691b3c6e68ac7e2699a90"

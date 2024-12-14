@@ -48,7 +48,6 @@
     "homepage": "https://github.com/ecmwf/metkit",
     "latest_version": "1.11.5",
     "maintainers": [
-        "dominichofer",
         "skosukhin",
         "victoria-cherkas"
     ],

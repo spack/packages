@@ -1064,7 +1064,7 @@
     ],
     "description": "Matplotlib is a comprehensive library for creating static, animated, and\ninteractive visualizations in Python.\n",
     "homepage": "https://matplotlib.org/",
-    "latest_version": "3.9.2",
+    "latest_version": "3.9.4",
     "maintainers": [
         "adamjstewart",
         "rgommers"
@@ -1120,6 +1120,14 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.9.4",
+            "sha256": "1e00e8be7393cbdc6fedfa8a6fba02cf3e83814b285db1c60b906a023ba41bc3"
+        },
+        {
+            "name": "3.9.3",
+            "sha256": "cd5dbbc8e25cad5f706845c4d100e2c8b34691b412b93717ce38d8ae803bcfa5"
+        },
         {
             "name": "3.9.2",
             "sha256": "96ab43906269ca64a6366934106fa01534454a69e471b7bf3d79083981aaab92"

@@ -1560,6 +1560,10 @@
         "name": "cassandra"
     },
     {
+        "description": "This package provides hardware definitions and C headers for use by the\nLinux driver and by user-space applications for the Cassini/Slingshot\n+high-speed network interconnect made by HPE (formerly Cray)\n",
+        "name": "cassini-headers"
+    },
+    {
         "description": " CASTEP is a leading code for calculating the properties of materials\nfrom first principles. Using density functional theory, it can simulate\na wide range of properties of materials proprieties including\nenergetics, structure at the atomic level, vibrational properties,\nelectronic response properties etc.\n",
         "name": "castep"
     },
@@ -2506,6 +2510,10 @@
     {
         "description": "CVS a very traditional source control system\n",
         "name": "cvs"
+    },
+    {
+        "description": "This are the Linux driver headers for the Cray/HPE Cassini 1 and 2 high-\nspeed network interconnect (aka. Slingshot), and its Ethernet driver.\n",
+        "name": "cxi-driver"
     },
     {
         "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C,\nFortran, Ada, and Go, as well as libraries for these languages.\n",
@@ -6994,6 +7002,10 @@
     {
         "description": "libcuMLPrims library\n",
         "name": "libcumlprims"
+    },
+    {
+        "description": "The CXI library provides interfaces which interact directly with CXI\ndrivers.\n",
+        "name": "libcxi"
     },
     {
         "description": "This is the C++ library component of the CxxWrap.jl package, distributed\nas a regular CMake library for use in other C++ projects.\n",
@@ -23674,6 +23686,18 @@
     {
         "description": "The TraitsUI project contains a toolkit-independent GUI abstraction\nlayer, which is used to support the \"visualization\" features of the\nTraits package. Thus, you can write model in terms of the Traits API and\nspecify a GUI in terms of the primitives supplied by TraitsUI (views,\nitems, editors, etc.), and let TraitsUI and your selected toolkit and\nback-end take care of the details of displaying them.\n",
         "name": "py-traitsui"
+    },
+    {
+        "description": "Trame lets you weave various components and technologies into a Web\nApplication solely written in Python.\n",
+        "name": "py-trame"
+    },
+    {
+        "description": "Internal client side implementation of trame\n",
+        "name": "py-trame-client"
+    },
+    {
+        "description": "Internal server side implementation of trame\n",
+        "name": "py-trame-server"
     },
     {
         "description": " A library for accelerating Transformer models on NVIDIA GPUs, including\nfp8 precision on Hopper GPUs.\n",

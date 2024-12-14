@@ -41,7 +41,6 @@
     "homepage": "https://github.com/ecmwf/fdb",
     "latest_version": "5.11.23",
     "maintainers": [
-        "dominichofer",
         "skosukhin",
         "victoria-cherkas"
     ],

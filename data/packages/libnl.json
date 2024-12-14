@@ -45,6 +45,10 @@
             "name": "dropwatch"
         },
         {
+            "description": "The CXI library provides interfaces which interact directly with CXI\ndrivers.",
+            "name": "libcxi"
+        },
+        {
             "description": "This package installs the user-space libraries and headers for\nlibibumad. This is a subset of the linux-rdma distribution.",
             "name": "libibumad"
         },

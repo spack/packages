@@ -64,6 +64,10 @@
             "name": "lammps"
         },
         {
+            "description": "The CXI library provides interfaces which interact directly with CXI\ndrivers.",
+            "name": "libcxi"
+        },
+        {
             "description": "LibCYAML is a C library for reading and writing structured YAML\ndocuments. It is written in ISO C11 and licensed under the ISC licence.",
             "name": "libcyaml"
         },

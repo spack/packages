@@ -14,6 +14,11 @@
         },
         {
             "description": null,
+            "name": "+opencl",
+            "spec": "+sycl"
+        },
+        {
+            "description": null,
             "name": "^otf2@3:",
             "spec": "@:2.5"
         },
@@ -114,7 +119,7 @@
     ],
     "description": "Autonomic Performance Environment for eXascale (APEX).\n",
     "homepage": "https://uo-oaciss.github.io/apex",
-    "latest_version": "2.7.0",
+    "latest_version": "2.7.1",
     "maintainers": [
         "khuck"
     ],
@@ -203,6 +208,11 @@
             "name": "mpi"
         },
         {
+            "default": false,
+            "description": "Enables OpenCL support",
+            "name": "opencl"
+        },
+        {
             "default": true,
             "description": "Enables OpenMP support",
             "name": "openmp"
@@ -246,6 +256,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "2.7.1",
+            "sha256": "5a31f5d790908e3b266e85abd03ea6affef8001c1276f8b883a55fda7a213aae"
         },
         {
             "name": "2.7.0",

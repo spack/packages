@@ -60,6 +60,10 @@
             "name": "gfal2"
         },
         {
+            "description": "The Open Fabrics Interfaces (OFI) is a framework focused on exporting\nfabric communication services to applications.",
+            "name": "libfabric"
+        },
+        {
             "description": "libHIO is a flexible, high-performance parallel IO package developed at\nLANL. libHIO supports IO to either a conventional PFS or to Cray\nDataWarp with management of Cray DataWarp space and stage-in and stage-\nout from and to the PFS.",
             "name": "libhio"
         },

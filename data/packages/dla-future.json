@@ -324,11 +324,6 @@
         },
         {
             "description": null,
-            "name": "^pika cxxstd=20",
-            "spec": "+cuda"
-        },
-        {
-            "description": null,
             "name": "+cuda",
             "spec": "+rocm"
         },
@@ -356,6 +351,26 @@
             "description": null,
             "name": "intel-oneapi-mkl",
             "spec": "@:0.3"
+        },
+        {
+            "description": null,
+            "name": "^pika cxxstd=20",
+            "spec": "@:0.6+cuda ^pika@:0.29"
+        },
+        {
+            "description": null,
+            "name": "^pika cxxstd=23",
+            "spec": "@:0.6+cuda ^pika@:0.29"
+        },
+        {
+            "description": null,
+            "name": "^pika+stdexec",
+            "spec": "@:0.6+cuda"
+        },
+        {
+            "description": null,
+            "name": "^blaspp@2025.05:",
+            "spec": "@:0.6.0"
         },
         {
             "description": null,
@@ -491,7 +506,7 @@
     ],
     "description": "DLA-Future library: Distributed Linear Algebra with Future\n",
     "homepage": "https://github.com/eth-cscs/DLA-Future",
-    "latest_version": "0.6.0",
+    "latest_version": "0.7.0",
     "maintainers": [
         "rasolca",
         "albestro",
@@ -515,7 +530,7 @@
             "relative_path": "hip_complex_operator_overloads.patch",
             "reverse": false,
             "sha256": "130a534c9937693317e43e9f8b08f0ea9d6bdc2237f918cd9594abed286944bf",
-            "version": "+rocm",
+            "version": "@:0.6+rocm",
             "working_dir": "."
         }
     ],
@@ -601,6 +616,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "0.7.0",
+            "sha256": "40a62bc70b0a06246a16348ce6701ccfab1f0c1ace99684de4bfc6c90776f8c6"
         },
         {
             "name": "0.6.0",

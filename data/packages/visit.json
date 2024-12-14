@@ -3,11 +3,6 @@
     "build_system": "CMakePackage",
     "conflicts": [
         {
-            "description": null,
-            "name": "generator=ninja",
-            "spec": "+python"
-        },
-        {
             "description": "visit: GUI cannot be activated with OSMesa front-end",
             "name": "+gui",
             "spec": "^[virtuals=gl] osmesa"
@@ -268,6 +263,15 @@
             "reverse": false,
             "sha256": "c09a49fbdf38898bdc956c6369b9b0a4cad533a026da7a373af708720a73c42b",
             "version": "@3.4:3.4.1+python",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.visit",
+            "relative_path": "20127-remove-relink-visitmodule-py-setup.patch",
+            "reverse": false,
+            "sha256": "433096f12bb9fbf9eadf59b2985f78bb4b8c74c8045df18ecee5a69b68f35a7f",
+            "version": "@3.4.1+python",
             "working_dir": "."
         }
     ],

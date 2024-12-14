@@ -224,6 +224,10 @@
             "name": "suite-sparse"
         },
         {
+            "description": "SuperLU is a general purpose library for the direct solution of large,\nsparse, nonsymmetric systems of linear equations on high performance\nmachines. SuperLU is designed for sequential machines.",
+            "name": "superlu"
+        },
+        {
             "description": "A general purpose library for the direct solution of large, sparse,\nnonsymmetric systems of linear equations on high performance machines.",
             "name": "superlu-dist"
         },

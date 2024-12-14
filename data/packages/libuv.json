@@ -79,6 +79,10 @@
             "name": "julia"
         },
         {
+            "description": "The CXI library provides interfaces which interact directly with CXI\ndrivers.",
+            "name": "libcxi"
+        },
+        {
             "description": "This library makes libuv available to lua scripts. It was made for the\nluvit project but should usable from nearly any lua project.",
             "name": "libluv"
         },

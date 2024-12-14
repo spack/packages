@@ -271,6 +271,10 @@
             "name": "libdap4"
         },
         {
+            "description": "The Open Fabrics Interfaces (OFI) is a framework focused on exporting\nfabric communication services to applications.",
+            "name": "libfabric"
+        },
+        {
             "description": "libgit2 is a portable, pure C implementation of the Git core methods\nprovided as a re-entrant linkable library with a solid API, allowing you\nto write native speed custom Git applications in any language which\nsupports C bindings.",
             "name": "libgit2"
         },
