@@ -870,6 +870,15 @@
             "level": 1,
             "owner": "builtin.qt",
             "reverse": false,
+            "sha256": "ce341a69d6c17852fddd5469b6aabe995fd5e3830379c12746a18c3ae858e0e1",
+            "url": "https://patch-diff.githubusercontent.com/raw/Tencent/rapidjson/pull/719.patch?full_index=1",
+            "version": "@5.9.2:%gcc@14:",
+            "working_dir": "qtlocation/src/3rdparty/mapbox-gl-native/deps/rapidjson/1.1.0"
+        },
+        {
+            "level": 1,
+            "owner": "builtin.qt",
+            "reverse": false,
             "sha256": "14e2d6baff0d09a528ee3e2b5a14de160859880360100af75ea17f3e0f672787",
             "url": "https://src.fedoraproject.org/rpms/qt5-qtwebengine/raw/32062243e895612823b47c2ae9eeb873a98a3542/f/qtwebengine-gcc11.patch",
             "version": "@5.15.2:%gcc@11:+webkit",

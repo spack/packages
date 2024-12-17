@@ -229,92 +229,86 @@
         {
             "extension": ".tar",
             "name": "24.10",
-            "sha256": "2be772d41c0e8646e24c4f57e188e96f2dd8934966ae560c74fa905cbde5e1bc",
-            "url": "https://developer.arm.com/-/cdn-downloads/permalink/Arm-Performance-Libraries/Version_24.10/arm-performance-libraries_24.10_deb_gcc.tar"
+            "sha256": "055d4b3c63d990942d453a8720d029be7e604646218ffc3262321683f51f23aa",
+            "url": "https://developer.arm.com/-/cdn-downloads/permalink/Arm-Performance-Libraries/Version_24.10/arm-performance-libraries_24.10_rpm_gcc.tar"
         },
         {
             "extension": ".tar",
             "name": "24.04",
-            "sha256": "a323074cd08af82f4d79988cc66088b18e47dea4b93323b1b8a0f994f769f2f0",
-            "url": "https://developer.arm.com/-/cdn-downloads/permalink/Arm-Performance-Libraries/Version_24.04/arm-performance-libraries_24.04_deb_gcc.tar"
+            "sha256": "d3917523034cf5a35e4f31f9a8bf4e53e7cc97892e89739d5757cb65ce40dc2e",
+            "url": "https://developer.arm.com/-/cdn-downloads/permalink/Arm-Performance-Libraries/Version_24.04/arm-performance-libraries_24.04_rpm_gcc.tar"
         },
         {
             "extension": ".tar",
             "name": "23.10_gcc-12.2",
-            "sha256": "6dd778edf55e13e8b766d75c340f0259f6cb507a93966d76d188b8b3943c769b",
-            "url": "https://developer.arm.com/-/media/Files/downloads/hpc/arm-performance-libraries/23-10/ubuntu-22/arm-performance-libraries_23.10_Ubuntu-22.04_gcc-12.2.tar"
+            "sha256": "e5e2c69ad281a676f2a06c835fbf31d4f9fdf46aa3f3f7c8aafff46985f64902",
+            "url": "https://developer.arm.com/-/media/Files/downloads/hpc/arm-performance-libraries/23-10/rhel-7/arm-performance-libraries_23.10_RHEL-7_gcc-12.2.tar"
         },
         {
             "extension": ".tar",
             "name": "23.10_gcc-11.3",
-            "sha256": "fabda66dc6388fa8c094443fa53deece5590db66caaa6a1e39e99e64d5bb0709",
-            "url": "https://developer.arm.com/-/media/Files/downloads/hpc/arm-performance-libraries/23-10/ubuntu-22/arm-performance-libraries_23.10_Ubuntu-22.04_gcc-11.3.tar"
+            "sha256": "b2afbdc056ae01fb5c71935448b19300ef368962a94ae76b8811f1d328c723c2",
+            "url": "https://developer.arm.com/-/media/Files/downloads/hpc/arm-performance-libraries/23-10/rhel-7/arm-performance-libraries_23.10_RHEL-7_gcc-11.3.tar"
+        },
+        {
+            "extension": ".tar",
+            "name": "23.10_gcc-10.4",
+            "sha256": "3c8bad3af82a76ca1a45705afd47028cc26c7093377a554e692e1cd6f61cb304",
+            "url": "https://developer.arm.com/-/media/Files/downloads/hpc/arm-performance-libraries/23-10/rhel-7/arm-performance-libraries_23.10_RHEL-7_gcc-10.4.tar"
+        },
+        {
+            "extension": ".tar",
+            "name": "23.10_gcc-9.3",
+            "sha256": "6fc2e3319b83ea2b1bf8d98ec43f614b937bb5f23d15aefe9e9171c882d24a60",
+            "url": "https://developer.arm.com/-/media/Files/downloads/hpc/arm-performance-libraries/23-10/rhel-7/arm-performance-libraries_23.10_RHEL-7_gcc-9.3.tar"
+        },
+        {
+            "extension": ".tar",
+            "name": "23.10_gcc-8.2",
+            "sha256": "d6596721e74e7bdc8d9ce7b8b2a4c5ab2bd430f3ca69b9ec84f587f1aa181083",
+            "url": "https://developer.arm.com/-/media/Files/downloads/hpc/arm-performance-libraries/23-10/rhel-7/arm-performance-libraries_23.10_RHEL-7_gcc-8.2.tar"
+        },
+        {
+            "extension": ".tar",
+            "name": "23.10_gcc-7.5",
+            "sha256": "1a0ca860c168987d174923dfc7800e10521303914793162a8bae2b2cd3f68203",
+            "url": "https://developer.arm.com/-/media/Files/downloads/hpc/arm-performance-libraries/23-10/rhel-7/arm-performance-libraries_23.10_RHEL-7_gcc-7.5.tar"
         },
         {
             "extension": ".tar",
             "name": "23.04.1_gcc-12.2",
-            "sha256": "02e59d834c341164f5acf633555024bf614726aed8a85c1b0b46d024ce7840e2",
-            "url": "https://developer.arm.com/-/media/Files/downloads/hpc/arm-performance-libraries/23-04-1/ubuntu-22/arm-performance-libraries_23.04.1_Ubuntu-22.04_gcc-12.2.tar"
+            "sha256": "789cc093cb7e0d9294aff0fdf94b74987435a09cdff4c1b7118a03350548d03c",
+            "url": "https://developer.arm.com/-/media/Files/downloads/hpc/arm-performance-libraries/23-04-1/rhel-7/arm-performance-libraries_23.04.1_RHEL-7_gcc-12.2.tar"
         },
         {
             "extension": ".tar",
             "name": "23.04.1_gcc-11.3",
-            "sha256": "8af5aca7512a604b051a7808701a5c0285e92d88232138612d8caf973b7b1252",
-            "url": "https://developer.arm.com/-/media/Files/downloads/hpc/arm-performance-libraries/23-04-1/ubuntu-22/arm-performance-libraries_23.04.1_Ubuntu-22.04_gcc-11.3.tar"
+            "sha256": "522e0269ca03d6251c10ee3aa8d94ceec4618887f47847defb535849434439a5",
+            "url": "https://developer.arm.com/-/media/Files/downloads/hpc/arm-performance-libraries/23-04-1/rhel-7/arm-performance-libraries_23.04.1_RHEL-7_gcc-11.3.tar"
         },
         {
             "extension": ".tar",
-            "name": "22.1_gcc-11.2",
-            "sha256": "00c051e0176ac4354d6cf181d38ef5a6d41f5b1f4db0109f3abc5d877d8e0a1f",
-            "url": "https://developer.arm.com/-/media/Files/downloads/hpc/arm-performance-libraries/22-1/ubuntu-20/arm-performance-libraries_22.1_Ubuntu-20.04_gcc-11.2.tar"
+            "name": "23.04.1_gcc-10.2",
+            "sha256": "40d62517bd978516c308b2e57ab88772699fd8bb579d98bbc10ea397c0bab431",
+            "url": "https://developer.arm.com/-/media/Files/downloads/hpc/arm-performance-libraries/23-04-1/rhel-7/arm-performance-libraries_23.04.1_RHEL-7_gcc-10.2.tar"
         },
         {
             "extension": ".tar",
-            "name": "22.1_gcc-10.2",
-            "sha256": "f0dfde5e9f8ca29bb49ea4596cb56ca50c8fda51758a38281e191fb36def812a",
-            "url": "https://developer.arm.com/-/media/Files/downloads/hpc/arm-performance-libraries/22-1/ubuntu-20/arm-performance-libraries_22.1_Ubuntu-20.04_gcc-10.2.tar"
+            "name": "23.04.1_gcc-9.3",
+            "sha256": "782bbc27c77c230426086c226a78b8951501066d631947438e65ca51d33f24c3",
+            "url": "https://developer.arm.com/-/media/Files/downloads/hpc/arm-performance-libraries/23-04-1/rhel-7/arm-performance-libraries_23.04.1_RHEL-7_gcc-9.3.tar"
         },
         {
             "extension": ".tar",
-            "name": "22.1_gcc-9.3",
-            "sha256": "521b106652fd50dc23fa056f208b788a1e3e6f4dd6e162b8cd5d835d755cb3af",
-            "url": "https://developer.arm.com/-/media/Files/downloads/hpc/arm-performance-libraries/22-1/ubuntu-20/arm-performance-libraries_22.1_Ubuntu-20.04_gcc-9.3.tar"
+            "name": "23.04.1_gcc-8.2",
+            "sha256": "4e077813121c1cbd8abd1afe5348cafcce5b70f96affa725c7c2d8671e2d5eed",
+            "url": "https://developer.arm.com/-/media/Files/downloads/hpc/arm-performance-libraries/23-04-1/rhel-7/arm-performance-libraries_23.04.1_RHEL-7_gcc-8.2.tar"
         },
         {
             "extension": ".tar",
-            "name": "22.0.2_gcc-11.2",
-            "sha256": "b7322d0e824615cd6fe784bfd4eeed359f11aa4eeb01a52cb61863844d79791f",
-            "url": "https://developer.arm.com/-/media/Files/downloads/hpc/arm-performance-libraries/22-0-2/Ubuntu20.04/arm-performance-libraries_22.0.2_Ubuntu-20.04_gcc-11.2.tar"
-        },
-        {
-            "extension": ".tar",
-            "name": "22.0.2_gcc-10.2",
-            "sha256": "25c5288c285fc08160a104dd2c36d2adab7f72b42b99771f93b0dfcb2b3e3230",
-            "url": "https://developer.arm.com/-/media/Files/downloads/hpc/arm-performance-libraries/22-0-2/Ubuntu20.04/arm-performance-libraries_22.0.2_Ubuntu-20.04_gcc-10.2.tar"
-        },
-        {
-            "extension": ".tar",
-            "name": "22.0.2_gcc-9.3",
-            "sha256": "7d3f6661304ecc7111e8b67b745d6d7fc15306e04e87dac4561e6040ac5f68b0",
-            "url": "https://developer.arm.com/-/media/Files/downloads/hpc/arm-performance-libraries/22-0-2/Ubuntu20.04/arm-performance-libraries_22.0.2_Ubuntu-20.04_gcc-9.3.tar"
-        },
-        {
-            "extension": ".tar",
-            "name": "22.0.1_gcc-11.2",
-            "sha256": "13e9b98afc01c5444799c7f2ef84716f8a7be11df93b71fe9cfdc7fc6162f6d5",
-            "url": "https://developer.arm.com/-/media/Files/downloads/hpc/arm-performance-libraries/22-0-1/Ubuntu20.04/arm-performance-libraries_22.0.1_Ubuntu-20.04_gcc-11.2.tar"
-        },
-        {
-            "extension": ".tar",
-            "name": "22.0.1_gcc-10.2",
-            "sha256": "5da7450196d94b0aea613cf8e7c4083ae3eb2e905d049db3b300059a9fbf169b",
-            "url": "https://developer.arm.com/-/media/Files/downloads/hpc/arm-performance-libraries/22-0-1/Ubuntu20.04/arm-performance-libraries_22.0.1_Ubuntu-20.04_gcc-10.2.tar"
-        },
-        {
-            "extension": ".tar",
-            "name": "22.0.1_gcc-9.3",
-            "sha256": "8e78bef6517f42efd878579aee2cae4e439e3cd5c8a28e3f3fa83254f7189a2f",
-            "url": "https://developer.arm.com/-/media/Files/downloads/hpc/arm-performance-libraries/22-0-1/Ubuntu20.04/arm-performance-libraries_22.0.1_Ubuntu-20.04_gcc-9.3.tar"
+            "name": "23.04.1_gcc-7.5",
+            "sha256": "7b2239b2ce5315e1be14dbd8fe15aff2d3b07968d64b5c80c8ab57140b6a17a8",
+            "url": "https://developer.arm.com/-/media/Files/downloads/hpc/arm-performance-libraries/23-04-1/rhel-7/arm-performance-libraries_23.04.1_RHEL-7_gcc-7.5.tar"
         }
     ],
     "versions_deprecated": []

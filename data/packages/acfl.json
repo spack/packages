@@ -80,43 +80,28 @@
     "versions": [
         {
             "name": "24.10.1",
-            "sha256": "d1da0469a0c6df62911edd2bbe49525aa56fffe9a9f419aa19e9aaa9a8bd0295",
-            "url": "https://developer.arm.com/-/cdn-downloads/permalink/Arm-Compiler-for-Linux/Version_24.10.1/arm-compiler-for-linux_24.10.1_Ubuntu-22.04_aarch64.tar"
+            "sha256": "0e894ce2a9d7af8fabe21368a44e9f71d25bda80413fb8dd22f389c3c5e36100",
+            "url": "https://developer.arm.com/-/cdn-downloads/permalink/Arm-Compiler-for-Linux/Version_24.10.1/arm-compiler-for-linux_24.10.1_RHEL-8_aarch64.tar"
         },
         {
             "name": "24.10",
-            "sha256": "10c0fad1ff3628f505ada90359c68b046676a4c6cab1131d76ae0429d3694415",
-            "url": "https://developer.arm.com/-/cdn-downloads/permalink/Arm-Compiler-for-Linux/Version_24.10/arm-compiler-for-linux_24.10_Ubuntu-22.04_aarch64.tar"
+            "sha256": "7c685c5393345baff573dc53ea3bb84e6293f9e51808e168ececcf51efb45813",
+            "url": "https://developer.arm.com/-/cdn-downloads/permalink/Arm-Compiler-for-Linux/Version_24.10/arm-compiler-for-linux_24.10_RHEL-8_aarch64.tar"
         },
         {
             "name": "24.04",
-            "sha256": "0bab2e89f0a2359746f89a01251dca763305c5b0dee95cf47b0968dd1cb5f6f6",
-            "url": "https://developer.arm.com/-/media/Files/downloads/hpc/arm-compiler-for-linux/24-04/arm-compiler-for-linux_24.04_Ubuntu-22.04_aarch64.tar"
+            "sha256": "064c3ecfd71cba3d8bf639448e899388f58eb7faef4b38f3c1aace625ace8b1e",
+            "url": "https://developer.arm.com/-/media/Files/downloads/hpc/arm-compiler-for-linux/24-04/arm-compiler-for-linux_24.04_RHEL-7_aarch64.tar"
         },
         {
             "name": "23.10",
-            "sha256": "3354f0ab73856a8a5cd99364cbec7a6b22621701790cb36c3e5f756b363e6d43",
-            "url": "https://developer.arm.com/-/media/Files/downloads/hpc/arm-compiler-for-linux/23-10/arm-compiler-for-linux_23.10_Ubuntu-22.04_aarch64.tar"
+            "sha256": "c3bd4df3e5f6c97369237b0067e0a421dceb9c167d73f22f3da87f5025258314",
+            "url": "https://developer.arm.com/-/media/Files/downloads/hpc/arm-compiler-for-linux/23-10/arm-compiler-for-linux_23.10_RHEL-7_aarch64.tar"
         },
         {
             "name": "23.04.1",
-            "sha256": "19213db67aa11de44b617255e9e32efd294f930c6b6145192acf9ee331452ea6",
-            "url": "https://developer.arm.com/-/media/Files/downloads/hpc/arm-compiler-for-linux/23-04-1/arm-compiler-for-linux_23.04.1_Ubuntu-22.04_aarch64.tar"
-        },
-        {
-            "name": "22.1",
-            "sha256": "20d950d16e6bb0b3a4c4f3c8ad393aae2356d4c998303b319da9e9833d4a6d12",
-            "url": "https://developer.arm.com/-/media/Files/downloads/hpc/arm-compiler-for-linux/22-1/arm-compiler-for-linux_22.1_Ubuntu-20.04_aarch64.tar"
-        },
-        {
-            "name": "22.0.2",
-            "sha256": "a2a752dce089a34b91dc89c0d1dd8b58a4104bf7c9ba3affd71fd1fd593e3732",
-            "url": "https://developer.arm.com/-/media/Files/downloads/hpc/arm-allinea-studio/22-0-2/arm-compiler-for-linux_22.0.2_Ubuntu-20.04_aarch64.tar"
-        },
-        {
-            "name": "22.0.1",
-            "sha256": "dea136238fc2855c41b8a8154bf279b7df5df8dba48d8f29121fa26f343e7cdb",
-            "url": "https://developer.arm.com/-/media/Files/downloads/hpc/arm-allinea-studio/22-0-1/arm-compiler-for-linux_22.0.1_Ubuntu-20.04_aarch64.tar"
+            "sha256": "5e84daaf0510f73c235723112f9241bbd744ed89eb4f70f089bac05cf2aad2c4",
+            "url": "https://developer.arm.com/-/media/Files/downloads/hpc/arm-compiler-for-linux/23-04-1/arm-compiler-for-linux_23.04.1_RHEL-7_aarch64.tar"
         }
     ],
     "versions_deprecated": []

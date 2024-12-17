@@ -52803,7 +52803,7 @@
             "package": "covfie"
         },
         {
-            "default": "make",
+            "default": "ninja",
             "package": "cp2k"
         },
         {
