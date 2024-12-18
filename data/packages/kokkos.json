@@ -897,6 +897,11 @@
         },
         {
             "default": false,
+            "description": "Enable RDC for HIP",
+            "name": "hip_relocatable_device_code"
+        },
+        {
+            "default": false,
             "description": "Whether to enable the HPX library",
             "name": "hpx"
         },

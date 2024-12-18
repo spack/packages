@@ -335,7 +335,7 @@
         {
             "description": null,
             "name": "+sosflow",
-            "spec": "@2.0.0:2.11"
+            "spec": "@2:"
         },
         {
             "description": null,
@@ -503,7 +503,7 @@
     ],
     "description": "Caliper is a program instrumentation and performance measurement\nframework. It is designed as a performance analysis toolbox in a\nlibrary, allowing one to bake performance analysis capabilities directly\ninto applications and activate them at runtime.\n",
     "homepage": "https://github.com/LLNL/Caliper",
-    "latest_version": "2.11.0",
+    "latest_version": "2.12.1",
     "maintainers": [
         "adrienbernede",
         "daboehme"
@@ -516,7 +516,7 @@
             "relative_path": "for_aarch64.patch",
             "reverse": false,
             "sha256": "0492fa689ab70cd3ae80d737ca8cf7ce59b3adfa18598d66299cb2e656d73fb5",
-            "version": "arch=None-None-aarch64:",
+            "version": "@:2.11 arch=None-None-aarch64:",
             "working_dir": "."
         },
         {
@@ -663,6 +663,10 @@
             "name": "master"
         },
         {
+            "name": "2.12.1",
+            "sha256": "2b5a8f98382c94dc75cc3f4517c758eaf9a3f9cea0a8dbdc7b38506060d6955c"
+        },
+        {
             "name": "2.11.0",
             "sha256": "b86b733cbb73495d5f3fe06e6a9885ec77365c8aa9195e7654581180adc2217c"
         },
@@ -677,13 +681,13 @@
         {
             "name": "2.9.0",
             "sha256": "507ea74be64a2dfd111b292c24c4f55f459257528ba51a5242313fa50978371f"
-        },
-        {
-            "name": "2.8.0",
-            "sha256": "17807b364b5ac4b05997ead41bd173e773f9a26ff573ff2fe61e0e70eab496e4"
         }
     ],
     "versions_deprecated": [
+        {
+            "name": "2.8.0",
+            "sha256": "17807b364b5ac4b05997ead41bd173e773f9a26ff573ff2fe61e0e70eab496e4"
+        },
         {
             "name": "2.7.0",
             "sha256": "b3bf290ec2692284c6b4f54cc0c507b5700c536571d3e1a66e56626618024b2b"

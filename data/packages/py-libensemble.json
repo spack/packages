@@ -90,7 +90,7 @@
     ],
     "description": "Library for managing ensemble-like collections of computations.\n",
     "homepage": "https://libensemble.readthedocs.io",
-    "latest_version": "1.4.2",
+    "latest_version": "1.4.3",
     "maintainers": [
         "jlnav",
         "shuds13"
@@ -144,6 +144,10 @@
         {
             "branch": "develop",
             "name": "develop"
+        },
+        {
+            "name": "1.4.3",
+            "sha256": "d30fd5ec93ae78a8e931765fd773b0693fde8b43130aca547c931230225c0f63"
         },
         {
             "name": "1.4.2",

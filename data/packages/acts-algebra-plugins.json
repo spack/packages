@@ -54,7 +54,7 @@
     ],
     "description": "A portable linear algebra library with multiple backends that is part of\nthe Acts ecosystem.\n",
     "homepage": "https://github.com/acts-project/algebra-plugins",
-    "latest_version": "0.26.0",
+    "latest_version": "0.26.1",
     "maintainers": [
         "stephenswat",
         "wdconinc"
@@ -115,6 +115,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.26.1",
+            "sha256": "8eb1e9e28ec2839d149b6a6bddd0f983b0cdf71c286c0aeb67ede31727c5b7d3"
+        },
         {
             "name": "0.26.0",
             "sha256": "301702e3d0a3d12e46ae6d949f3027ddebd0b1167cbb3004d9a4a5697d3adc7f"

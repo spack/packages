@@ -59145,6 +59145,12 @@
             "package": "babelstream"
         }
     ],
+    "hip_relocatable_device_code": [
+        {
+            "default": false,
+            "package": "kokkos"
+        }
+    ],
     "hip_target": [
         {
             "default": "ROCM",

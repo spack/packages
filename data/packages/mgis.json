@@ -39,7 +39,7 @@
     "dependent_to": [],
     "description": " The MFrontGenericInterfaceSupport project (MGIS) provides helper\nfunctions for various solvers to interact with behaviour written using\nMFront generic interface. MGIS is written in C++. Bindings are provided\nfor C and fortran (2003). A FEniCS binding is also available.\n",
     "homepage": "https://thelfer.github.io/mgis/web/index.html",
-    "latest_version": "2.2",
+    "latest_version": "3.0",
     "maintainers": [
         "thelfer"
     ],
@@ -94,6 +94,10 @@
             "name": "master"
         },
         {
+            "name": "3.0",
+            "sha256": "dae915201fd20848b69745dabda1a334eb242d823af600825b8b010ddc597640"
+        },
+        {
             "name": "2.2",
             "sha256": "b3776d7b3a534ca626525a42b97665f7660ae2b28ea57b3f53fd7e8538da1ceb"
         },
@@ -128,6 +132,10 @@
         {
             "name": "1.0",
             "sha256": "279c98da00fa6855edf29c2b8f8bad6e7732298dc62ef67d028d6bbeaac043b3"
+        },
+        {
+            "branch": "rliv-3.0",
+            "name": "rliv-3.0"
         },
         {
             "branch": "rliv-2.2",
