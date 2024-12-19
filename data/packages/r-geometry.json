@@ -30,6 +30,10 @@
     ],
     "dependent_to": [
         {
+            "description": "Airborne LiDAR data manipulation and visualisation for forestry\napplication",
+            "name": "r-lidr"
+        },
+        {
             "description": "Random General Linear Model Prediction. The package implements a bagging\npredictor based on general linear models.",
             "name": "r-randomglm"
         }

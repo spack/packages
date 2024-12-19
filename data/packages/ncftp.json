@@ -25,7 +25,7 @@
     "dependent_to": [],
     "description": "NcFTP Client is a set of application programs implementing the File\nTransfer Protocol.\n",
     "homepage": "https://www.ncftp.com/",
-    "latest_version": "3.2.6",
+    "latest_version": "3.2.7",
     "maintainers": [],
     "name": "ncftp",
     "patches": [],
@@ -38,6 +38,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.2.7",
+            "sha256": "dbde0d3b4d28ba3a445621e10deaee57a6ba3ced277cc9dbce4052bcddf6cb2a"
+        },
         {
             "name": "3.2.6",
             "sha256": "129e5954850290da98af012559e6743de193de0012e972ff939df9b604f81c23"

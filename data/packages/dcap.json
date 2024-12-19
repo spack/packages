@@ -46,7 +46,7 @@
     ],
     "description": "dCache access protocol client library.\n",
     "homepage": "https://github.com/dCache/dcap",
-    "latest_version": "2.47.12",
+    "latest_version": "2.47.14",
     "maintainers": [],
     "name": "dcap",
     "patches": [],
@@ -64,6 +64,14 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.47.14",
+            "sha256": "dda98990d93cded815ee425101674ad2f48438fff76b3d4d5d3f91e380e9cc49"
+        },
+        {
+            "name": "2.47.13",
+            "sha256": "ae4a3845b7dd6bc32dc8ba445105e3ce72c1a25aa11da640404f63c89378876b"
+        },
         {
             "name": "2.47.12",
             "sha256": "050a8d20c241abf358d5d72586f9abc43940e61d9ec9480040ac7da52ec804ac"

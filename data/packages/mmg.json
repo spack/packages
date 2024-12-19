@@ -78,6 +78,11 @@
             "name": "ipo"
         },
         {
+            "default": false,
+            "description": "Enable private headers",
+            "name": "private_headers"
+        },
+        {
             "default": true,
             "description": "Enable SCOTCH library support",
             "name": "scotch"

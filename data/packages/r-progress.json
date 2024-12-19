@@ -46,6 +46,10 @@
             "name": "r-ggally"
         },
         {
+            "description": "Airborne LiDAR data manipulation and visualisation for forestry\napplication",
+            "name": "r-lidr"
+        },
+        {
             "description": "Read Excel Files. Import excel files into R. Supports '.xls' via the\nembedded 'libxls' C library <https://sourceforge.net/projects/libxls/>\nand '.xlsx' via the embedded 'RapidXML' C++ library\n<https://rapidxml.sourceforge.net>. Works on Windows, Mac and Linux\nwithout external dependencies.",
             "name": "r-readxl"
         },

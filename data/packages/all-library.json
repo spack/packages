@@ -36,7 +36,7 @@
     ],
     "description": "A Load Balancing Library (ALL) The library aims to provide an easy way\nto include dynamic domain-based load balancing into particle based\nsimulation codes.\n",
     "homepage": "http://slms.pages.jsc.fz-juelich.de/websites/all-website/",
-    "latest_version": "0.9.2",
+    "latest_version": "0.9.3",
     "maintainers": [
         "junghans"
     ],
@@ -89,6 +89,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "0.9.3",
+            "sha256": "378656548628172838fc8c7b8f4ac4e18b9e73f9a884c4197ad1c67f560112d7"
         },
         {
             "name": "0.9.2",

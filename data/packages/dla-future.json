@@ -334,6 +334,11 @@
         },
         {
             "description": null,
+            "name": "+rocm ^hip@5.6:6.0",
+            "spec": "@0.7.0"
+        },
+        {
+            "description": null,
             "name": "^fmt@10:",
             "spec": "@:0.3.0%gcc@9+cuda ^cuda@:11.2 ^umpire@2022.10:"
         },
@@ -506,7 +511,7 @@
     ],
     "description": "DLA-Future library: Distributed Linear Algebra with Future\n",
     "homepage": "https://github.com/eth-cscs/DLA-Future",
-    "latest_version": "0.7.0",
+    "latest_version": "0.7.1",
     "maintainers": [
         "rasolca",
         "albestro",
@@ -616,6 +621,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "0.7.1",
+            "sha256": "651129686b7fb04178f230c763b371192f9cb91262ddb9959f722449715bdfe8"
         },
         {
             "name": "0.7.0",

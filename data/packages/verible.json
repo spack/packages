@@ -25,7 +25,7 @@
     "dependent_to": [],
     "description": "The Verible project\u2019s main mission is to parse SystemVerilog (IEEE\n1800-2017) (as standardized in the [SV-LRM]) for a wide variety of\napplications, including developer tools. It was born out of a need to\nparse un-preprocessed source files, which is suitable for single-file\napplications like style-linting and formatting. In doing so, it can be\nadapted to parse preprocessed source files, which is what real compilers\nand toolchains require. The spirit of the project is that no-one should\never have to develop a SystemVerilog parser for their own application,\nbecause developing a standard-compliant parser is an enormous task due\nto the syntactic complexity of the language. Verible\u2019s parser is also\nregularly tested against an ever-growing suite of (tool-independent)\nlanguage compliance tests at https://symbiflow.github.io/sv-tests/. A\nlesser (but notable) objective is that the language-agnostic components\nof Verible be usable for rapidly developing language support tools for\nother languages.\n",
     "homepage": "https://chipsalliance.github.io/verible",
-    "latest_version": "0.0.3841",
+    "latest_version": "0.0.3876",
     "maintainers": [
         "davekeeshan"
     ],
@@ -43,6 +43,16 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "0.0.3876",
+            "sha256": "42b933b52cf394fa2cfcb841edb6cf3649f5453bf43178f8f630fc3e626f3e03",
+            "url": "https://github.com/chipsalliance/verible/archive/refs/tags/v0.0-3876-g2f99cdc9.tar.gz"
+        },
+        {
+            "name": "0.0.3864",
+            "sha256": "aa67a8f3f76828779d61ce35fedee0a9020a03214385c76abb18a7d4dabef081",
+            "url": "https://github.com/chipsalliance/verible/archive/refs/tags/v0.0-3864-g3d821c62.tar.gz"
         },
         {
             "name": "0.0.3841",

@@ -48,6 +48,10 @@
         {
             "description": "Time Series Management, Analysis and Interpolation for Hydrological\nModelling. S3 functions for management, analysis, interpolation and\nplotting of time series used in hydrology and related environmental\nsciences. In particular, this package is highly oriented to hydrological\nmodelling tasks. The focus of this package has been put in providing a\ncollection of tools useful for the daily work of hydrologists (although\nan effort was made to optimise each function as much as possible,\nfunctionality has had priority over speed). Bugs / comments / questions\n/ collaboration of any kind are very welcomed, and in particular,\ndatasets that can be included in this package for academic purposes.",
             "name": "r-hydrotsm"
+        },
+        {
+            "description": "Airborne LiDAR data manipulation and visualisation for forestry\napplication",
+            "name": "r-lidr"
         }
     ],
     "description": "Spatial and Spatio-Temporal Geostatistical Modelling, Predictionand\nSimulation. Variogram modelling; simple, ordinary and universal point or\nblock (co)kriging; spatio-temporal kriging; sequential Gaussian or\nindicator (co)simulation; variogram and variogram map plotting utility\nfunctions; supports sf and stars.\n",

@@ -3974,10 +3974,6 @@
             "name": "py-rapidfuzz"
         },
         {
-            "description": "Image processing algorithms for SciPy, including IO, morphology,\nfiltering, warping, color manipulation, object detection, etc.",
-            "name": "py-scikit-image"
-        },
-        {
             "description": "Tensorflow plugin for DLPack.",
             "name": "py-tfdlpack"
         },

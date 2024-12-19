@@ -6596,6 +6596,10 @@
         },
         {
             "default": "makefile",
+            "package": "faketime"
+        },
+        {
+            "default": "makefile",
             "package": "fakexrandr"
         },
         {
@@ -19960,6 +19964,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-gfal2-python"
+        },
+        {
+            "default": "python_pip",
             "package": "py-gffutils"
         },
         {
@@ -29900,6 +29908,10 @@
         },
         {
             "default": "generic",
+            "package": "r-lidr"
+        },
+        {
+            "default": "generic",
             "package": "r-lifecycle"
         },
         {
@@ -31161,6 +31173,10 @@
         {
             "default": "generic",
             "package": "r-rlang"
+        },
+        {
+            "default": "generic",
+            "package": "r-rlas"
         },
         {
             "default": "generic",
@@ -49615,6 +49631,10 @@
         {
             "default": false,
             "package": "parallel-hashmap"
+        },
+        {
+            "default": false,
+            "package": "parallel-netcdf"
         },
         {
             "default": false,
@@ -76853,6 +76873,12 @@
             "package": "sst-core"
         }
     ],
+    "private_headers": [
+        {
+            "default": false,
+            "package": "mmg"
+        }
+    ],
     "privateapi": [
         {
             "default": false,
@@ -84069,6 +84095,12 @@
         {
             "default": true,
             "package": "git"
+        }
+    ],
+    "suggests": [
+        {
+            "default": false,
+            "package": "r-lidr"
         }
     ],
     "suid": [

@@ -9,6 +9,11 @@
         },
         {
             "description": null,
+            "name": "+examples",
+            "spec": "@:1.12"
+        },
+        {
+            "description": null,
             "name": "+shared",
             "spec": "@:1.8"
         },
@@ -133,7 +138,7 @@
     ],
     "description": "PnetCDF (Parallel netCDF) is a high-performance parallel I/O library for\naccessing files in format compatibility with Unidata's NetCDF,\nspecifically the formats of CDF-1, 2, and 5.\n",
     "homepage": "https://parallel-netcdf.github.io/",
-    "latest_version": "1.12.3",
+    "latest_version": "1.14.0",
     "maintainers": [
         "skosukhin"
     ],
@@ -157,6 +162,11 @@
             "name": "cxx"
         },
         {
+            "default": false,
+            "description": "Install example programs",
+            "name": "examples"
+        },
+        {
             "default": true,
             "description": "Build the Fortran Interface",
             "name": "fortran"
@@ -176,6 +186,14 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "1.14.0",
+            "sha256": "575f189fb01c53f93b3d6ae0e506f46e19694807c81af0b9548e947995acf704"
+        },
+        {
+            "name": "1.13.0",
+            "sha256": "aba0f1c77a51990ba359d0f6388569ff77e530ee574e40592a1e206ed9b2c491"
         },
         {
             "name": "1.12.3",

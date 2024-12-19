@@ -126,7 +126,7 @@
     ],
     "description": "Node.js is an open-source, cross-platform JavaScript runtime\nenvironment.\n",
     "homepage": "https://nodejs.org/",
-    "latest_version": "22.4.0",
+    "latest_version": "22.11.0",
     "maintainers": [
         "cosmicexplorer"
     ],
@@ -185,6 +185,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "22.11.0",
+            "sha256": "24e5130fa7bc1eaab218a0c9cb05e03168fa381bb9e3babddc6a11f655799222"
+        },
         {
             "name": "22.4.0",
             "sha256": "b62cd83c9a57a11349883f89b1727a16e66c02eb6255a4bf32714ff5d93165f5"

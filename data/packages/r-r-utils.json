@@ -62,6 +62,10 @@
             "name": "r-rio"
         },
         {
+            "description": "R package to read and write las and laz files used to store LiDAR data",
+            "name": "r-rlas"
+        },
+        {
             "description": "Mapping, quantification and variant analysis of sequencing data",
             "name": "r-rsubread"
         },

@@ -106,6 +106,10 @@
             "name": "r-isoband"
         },
         {
+            "description": "Airborne LiDAR data manipulation and visualisation for forestry\napplication",
+            "name": "r-lidr"
+        },
+        {
             "description": "Mocking Library for R. The two main functionalities of this package are\ncreating mock objects (functions) and selectively intercepting calls to\na given function that originate in some other function. It can be used\nwith any testing framework available for R. Mock objects can be injected\nwith either this package's own stub() function or a similar with_mock()\nfacility present in the 'testthat' package.",
             "name": "r-mockery"
         },

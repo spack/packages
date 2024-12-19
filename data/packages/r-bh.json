@@ -58,6 +58,10 @@
             "name": "r-later"
         },
         {
+            "description": "Airborne LiDAR data manipulation and visualisation for forestry\napplication",
+            "name": "r-lidr"
+        },
+        {
             "description": "Quick Serialization of R Objects. Provides functions for quickly writing\nand reading any R object to and from disk.",
             "name": "r-qs"
         },

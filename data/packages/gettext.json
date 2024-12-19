@@ -142,6 +142,10 @@
             "name": "extrae"
         },
         {
+            "description": "The GNU Find Utilities are the basic directory searching utilities of\nthe GNU operating system.",
+            "name": "findutils"
+        },
+        {
             "description": "fish is a smart and user-friendly command line shell for OS X, Linux,\nand the rest of the family.",
             "name": "fish"
         },

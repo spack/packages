@@ -36,6 +36,10 @@
             "name": "mlst"
         },
         {
+            "description": "R package to read and write las and laz files used to store LiDAR data",
+            "name": "r-rlas"
+        },
+        {
             "description": "Redundans pipeline assists an assembly of heterozygous genomes.",
             "name": "redundans"
         },

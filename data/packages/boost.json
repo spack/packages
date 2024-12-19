@@ -1013,6 +1013,10 @@
             "name": "py-espressopp"
         },
         {
+            "description": "Python2 and 3 bindings for gfal2.",
+            "name": "py-gfal2-python"
+        },
+        {
             "description": "The PyIlmBase libraries provides python bindings for the IlmBase\nlibraries.",
             "name": "py-ilmbase"
         },
@@ -1047,6 +1051,10 @@
         {
             "description": "Computes informative enrichment and quality measures for ChIP-seq/DNase-\nseq/FAIRE-seq/MNase-seq data. This is a modified version of r-spp to be\nused in conjunction with the phantompeakqualtools package.",
             "name": "r-phantompeakqualtools"
+        },
+        {
+            "description": "R package to read and write las and laz files used to store LiDAR data",
+            "name": "r-rlas"
         },
         {
             "description": "Range v3 forms the basis of a proposal to add range support to the\nstandard library (N4128: Ranges for the Standard Library). It also will\nbe the reference implementation for an upcoming Technical Specification.\nThese are the first steps toward turning ranges into an international\nstandard.",

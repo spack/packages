@@ -110,6 +110,10 @@
             "name": "python"
         },
         {
+            "description": "A Spack managed Python virtual environment",
+            "name": "python-venv"
+        },
+        {
             "description": "The Trilinos Project is an effort to develop algorithms and enabling\ntechnologies within an object-oriented software framework for the\nsolution of large-scale, complex multi-physics engineering and\nscientific problems. A unique design feature of Trilinos is its focus on\npackages.",
             "name": "trilinos"
         },

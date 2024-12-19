@@ -39,7 +39,7 @@
     "dependent_to": [],
     "description": "Standalone monitor for process resource consumption.\n",
     "homepage": "https://github.com/HSF/prmon/",
-    "latest_version": "3.1.0",
+    "latest_version": "3.1.1",
     "maintainers": [
         "amete",
         "graeme-a-stewart",
@@ -79,6 +79,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "3.1.1",
+            "sha256": "30ce420f807e637002fbfb92f54b3a74f645dc95b81a75995196e787a7b952ba"
         },
         {
             "name": "3.1.0",

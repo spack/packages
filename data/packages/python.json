@@ -639,6 +639,10 @@
             "name": "fenics"
         },
         {
+            "description": "The GNU Find Utilities are the basic directory searching utilities of\nthe GNU operating system.",
+            "name": "findutils"
+        },
+        {
             "description": "fish is a smart and user-friendly command line shell for OS X, Linux,\nand the rest of the family.",
             "name": "fish"
         },
@@ -4977,6 +4981,10 @@
         {
             "description": "GF256 is an implementation of GF(2**8). This Galois Field allows you to\nperform finite field arithmetic on byte sized integers.",
             "name": "py-gf256"
+        },
+        {
+            "description": "Python2 and 3 bindings for gfal2.",
+            "name": "py-gfal2-python"
         },
         {
             "description": "GFF and GTF file manipulation and interconversion gffutils is a Python\npackage for working with and manipulating the GFF and GTF format files\ntypically used for genomic annotations. Files are loaded into a sqlite3\ndatabase, allowing much more complex manipulation of hierarchical\nfeatures (e.g., genes, transcripts, and exons) than is possible with\nplain-text methods alone.",

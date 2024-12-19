@@ -3,11 +3,6 @@
     "build_system": "PythonPackage",
     "conflicts": [
         {
-            "description": null,
-            "name": "^tk@8.6.0:8.6.1",
-            "spec": ""
-        },
-        {
             "description": "py-matplotlib: MacOSX backend requires macOS 10.12+",
             "name": "arch=linux-None-None",
             "spec": "backend=macosx"
@@ -16,6 +11,16 @@
             "description": "py-matplotlib: MacOSX backend requires macOS 10.12+",
             "name": "arch=windows-None-None",
             "spec": "backend=macosx"
+        },
+        {
+            "description": null,
+            "name": "py-pybind11@2.13.3",
+            "spec": ""
+        },
+        {
+            "description": null,
+            "name": "tk@8.6.0:8.6.1",
+            "spec": ""
         }
     ],
     "dependencies": [
@@ -1064,7 +1069,7 @@
     ],
     "description": "Matplotlib is a comprehensive library for creating static, animated, and\ninteractive visualizations in Python.\n",
     "homepage": "https://matplotlib.org/",
-    "latest_version": "3.9.4",
+    "latest_version": "3.10.0",
     "maintainers": [
         "adamjstewart",
         "rgommers"
@@ -1120,6 +1125,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.10.0",
+            "sha256": "b886d02a581b96704c9d1ffe55709e49b4d2d52709ccebc4be42db856e511278"
+        },
         {
             "name": "3.9.4",
             "sha256": "1e00e8be7393cbdc6fedfa8a6fba02cf3e83814b285db1c60b906a023ba41bc3"

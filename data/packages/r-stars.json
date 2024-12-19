@@ -40,6 +40,10 @@
         {
             "description": "Spatial and Spatio-Temporal Geostatistical Modelling, Predictionand\nSimulation. Variogram modelling; simple, ordinary and universal point or\nblock (co)kriging; spatio-temporal kriging; sequential Gaussian or\nindicator (co)simulation; variogram and variogram map plotting utility\nfunctions; supports sf and stars.",
             "name": "r-gstat"
+        },
+        {
+            "description": "Airborne LiDAR data manipulation and visualisation for forestry\napplication",
+            "name": "r-lidr"
         }
     ],
     "description": "Spatiotemporal Arrays, Raster and Vector Data Cubes. Reading,\nmanipulating, writing and plotting spatiotemporal arrays (raster and\nvector data cubes) in 'R', using 'GDAL' bindings provided by 'sf', and\n'NetCDF' bindings by 'ncmeta' and 'RNetCDF'.\n",

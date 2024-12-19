@@ -3572,6 +3572,10 @@
         "name": "fakechroot"
     },
     {
+        "description": "libfaketime modifies the system time for a single application.\n",
+        "name": "faketime"
+    },
+    {
         "description": "This is a tool to cheat an X11 server to believe that there are more\nmonitors than there actually are.\n",
         "name": "fakexrandr"
     },
@@ -17048,6 +17052,10 @@
         "name": "py-gf256"
     },
     {
+        "description": "Python2 and 3 bindings for gfal2.\n",
+        "name": "py-gfal2-python"
+    },
+    {
         "description": "GFF and GTF file manipulation and interconversion gffutils is a Python\npackage for working with and manipulating the GFF and GTF format files\ntypically used for genomic annotations. Files are loaded into a sqlite3\ndatabase, allowing much more complex manipulation of hierarchical\nfeatures (e.g., genes, transcripts, and exons) than is possible with\nplain-text methods alone.\n",
         "name": "py-gffutils"
     },
@@ -26992,6 +27000,10 @@
         "name": "r-libpressio"
     },
     {
+        "description": "Airborne LiDAR data manipulation and visualisation for forestry\napplication\n",
+        "name": "r-lidr"
+    },
+    {
         "description": "Manage the Life Cycle of your Package Functions. Manage the life cycle\nof your exported functions with shared conventions, documentation\nbadges, and non-invasive deprecation warnings. The 'lifecycle' package\ndefines four development stages (experimental, maturing, stable, and\nquestioning) and three deprecation stages (soft-deprecated, deprecated,\nand defunct). It makes it easy to insert badges corresponding to these\nstages in your documentation. Usage of deprecated functions are\nsignalled with increasing levels of non-invasive verbosity.\n",
         "name": "r-lifecycle"
     },
@@ -28254,6 +28266,10 @@
     {
         "description": "Functions for Base Types and Core R and 'Tidyverse' Features. A toolbox\nfor working with base types, core R features like the condition system,\nand core 'Tidyverse' features like tidy evaluation.\n",
         "name": "r-rlang"
+    },
+    {
+        "description": "R package to read and write las and laz files used to store LiDAR data\n",
+        "name": "r-rlas"
     },
     {
         "description": "Common Functions for Run-Length Encoded Vectors. Common 'base' and\n'stats' methods for 'rle' objects, aiming to make it possible to treat\nthem transparently as vectors.\n",

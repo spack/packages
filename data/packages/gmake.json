@@ -2746,6 +2746,10 @@
             "name": "fakechroot"
         },
         {
+            "description": "libfaketime modifies the system time for a single application.",
+            "name": "faketime"
+        },
+        {
             "description": "This is a tool to cheat an X11 server to believe that there are more\nmonitors than there actually are.",
             "name": "fakexrandr"
         },

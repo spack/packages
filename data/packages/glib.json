@@ -333,6 +333,10 @@
             "name": "pulseaudio"
         },
         {
+            "description": "Python2 and 3 bindings for gfal2.",
+            "name": "py-gfal2-python"
+        },
+        {
             "description": "bindings for the GLib, and GObject, to be used in Python.",
             "name": "py-pygobject"
         },

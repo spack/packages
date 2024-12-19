@@ -84,7 +84,12 @@
             "name": "zlib"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "Python2 and 3 bindings for gfal2.",
+            "name": "py-gfal2-python"
+        }
+    ],
     "description": "Multi-protocol data management library.\n",
     "homepage": "https://dmc-docs.web.cern.ch/dmc-docs/",
     "latest_version": "2.23.0",

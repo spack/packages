@@ -124,7 +124,7 @@
     ],
     "description": "An interpreter for the PostScript language and for PDF.\n",
     "homepage": "https://ghostscript.com/",
-    "latest_version": "10.03.1",
+    "latest_version": "10.04.0",
     "maintainers": [],
     "name": "ghostscript",
     "patches": [
@@ -166,6 +166,12 @@
         }
     ],
     "versions": [
+        {
+            "name": "10.04.0",
+            "sha256": "c764dfbb7b13fc71a7a05c634e014f9bb1fb83b899fe39efc0b6c3522a9998b1"
+        }
+    ],
+    "versions_deprecated": [
         {
             "name": "10.03.1",
             "sha256": "31cd01682ad23a801cc3bbc222a55f07c4ea3e068bdfb447792d54db21a2e8ad"
@@ -214,6 +220,5 @@
             "name": "9.18",
             "sha256": "5fc93079749a250be5404c465943850e3ed5ffbc0d5c07e10c7c5ee8afbbdb1b"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

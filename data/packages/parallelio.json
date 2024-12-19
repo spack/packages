@@ -52,7 +52,7 @@
     ],
     "description": "The Parallel IO libraries (PIO) are high-level parallel I/O C and\nFortran libraries for applications that need to do netCDF I/O from large\nnumbers of processors on a HPC system.\n",
     "homepage": "https://ncar.github.io/ParallelIO/",
-    "latest_version": "2.6.2",
+    "latest_version": "2.6.3",
     "maintainers": [
         "jedwards4b"
     ],
@@ -167,6 +167,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.6.3",
+            "sha256": "a483eb1cfa88ace8c6266e02741771c984e846dd732e86c72c3fdeae942b4299"
+        },
         {
             "name": "2.6.2",
             "sha256": "c318894f0230197458917e932ec66301b4407a744df481e9c6a6d9d85f7e5ab1"

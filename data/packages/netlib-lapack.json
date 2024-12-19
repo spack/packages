@@ -9,6 +9,14 @@
             "name": "lapack"
         },
         {
+            "alias_for": "netlib-lapack@3.11.0",
+            "name": "lapack"
+        },
+        {
+            "alias_for": "netlib-lapack@3.12.0",
+            "name": "lapack"
+        },
+        {
             "alias_for": "netlib-lapack@3.3.1",
             "name": "lapack"
         },
@@ -157,7 +165,7 @@
     ],
     "description": "LAPACK version 3.X is a comprehensive FORTRAN library that does linear\nalgebra operations including matrix inversions, least squared solutions\nto linear sets of equations, eigenvector analysis, singular value\ndecomposition, etc. It is a very comprehensive and reputable package\nthat has found extensive use in the scientific community.\n",
     "homepage": "https://www.netlib.org/lapack/",
-    "latest_version": "3.11.0",
+    "latest_version": "3.12.0",
     "maintainers": [],
     "name": "netlib-lapack",
     "patches": [
@@ -283,6 +291,11 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.12.0",
+            "sha256": "eac9570f8e0ad6f30ce4b963f4f033f0f643e7c3912fc9ee6cd99120675ad48b",
+            "url": "https://github.com/Reference-LAPACK/lapack/archive/refs/tags/v3.12.0.tar.gz"
+        },
         {
             "name": "3.11.0",
             "sha256": "4b9ba79bfd4921ca820e83979db76ab3363155709444a787979e81c22285ffa9",

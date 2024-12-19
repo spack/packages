@@ -31,7 +31,7 @@
     "dependent_to": [],
     "description": "Parallel and extensible Finite Element code to simulate convection in\nthe Earth's mantle and elsewhere.\n",
     "homepage": "https://aspect.geodynamics.org",
-    "latest_version": "2.3.0",
+    "latest_version": "3.0.0",
     "maintainers": [
         "tjhei"
     ],
@@ -79,6 +79,18 @@
         {
             "branch": "main",
             "name": "develop"
+        },
+        {
+            "name": "3.0.0",
+            "sha256": "15c62575603f88f2061dafe06e37a47a2347d5242ea8328854304a0bd54b8888"
+        },
+        {
+            "name": "2.5.0",
+            "sha256": "31ea8da84b81ccc8225ca90f1f4687445e38f4ac9bab6ad5b57ba4e5e3567b3d"
+        },
+        {
+            "name": "2.4.0",
+            "sha256": "cfdabc468e325620171d65cf41f5753e638def39a0bc795246bc72d73af410e9"
         },
         {
             "name": "2.3.0",

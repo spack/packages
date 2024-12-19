@@ -26,6 +26,10 @@
             "name": "r-ggvis"
         },
         {
+            "description": "Airborne LiDAR data manipulation and visualisation for forestry\napplication",
+            "name": "r-lidr"
+        },
+        {
             "description": "Modelling Functions that Work with the Pipe. Functions for modelling\nthat help you seamlessly integrate modelling into a pipeline of data\nmanipulation and visualisation.",
             "name": "r-modelr"
         },

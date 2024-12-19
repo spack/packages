@@ -118,6 +118,10 @@
             "name": "r-rio"
         },
         {
+            "description": "R package to read and write las and laz files used to store LiDAR data",
+            "name": "r-rlas"
+        },
+        {
             "description": "Provides a set of functions for data manipulation with list objects,\nincluding mapping, filtering, grouping, sorting, updating, searching,\nand other useful functions. Most functions are designed to be pipeline\nfriendly so that data processing with lists can be chained.",
             "name": "r-rlist"
         },

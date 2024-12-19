@@ -10,12 +10,24 @@
     ],
     "dependencies": [
         {
+            "description": "libfaketime modifies the system time for a single application.",
+            "name": "faketime"
+        },
+        {
+            "description": "GNU internationalization (i18n) and localization (l10n) library.",
+            "name": "gettext"
+        },
+        {
             "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
             "name": "gmake"
         },
         {
             "description": "The GNU config.guess and config.sub scripts versioned by timestamp.\nThis package can be used as a build dependency for autotools packages\nthat ship a tarball with outdated config.guess and config.sub files.",
             "name": "gnuconfig"
+        },
+        {
+            "description": "The Python programming language.",
+            "name": "python"
         }
     ],
     "dependent_to": [
@@ -58,7 +70,7 @@
     ],
     "description": "The GNU Find Utilities are the basic directory searching utilities of\nthe GNU operating system.\n",
     "homepage": "https://www.gnu.org/software/findutils/",
-    "latest_version": "4.9.0",
+    "latest_version": "4.10.0",
     "maintainers": [],
     "name": "findutils",
     "patches": [
@@ -99,6 +111,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "4.10.0",
+            "sha256": "1387e0b67ff247d2abde998f90dfbf70c1491391a59ddfecb8ae698789f0a4f5"
+        },
         {
             "name": "4.9.0",
             "sha256": "a2bfb8c09d436770edc59f50fa483e785b161a3b7b9d547573cb08065fd462fe"

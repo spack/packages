@@ -70,6 +70,10 @@
             "name": "r-leaflet"
         },
         {
+            "description": "Airborne LiDAR data manipulation and visualisation for forestry\napplication",
+            "name": "r-lidr"
+        },
+        {
             "description": "Tools for Handling Spatial Objects. Set of tools for manipulating and\nreading geographic data, in particular ESRI shapefiles; C code used from\nshapelib. It includes binary access to GSHHG shoreline files. The\npackage also provides interface wrappers for exchanging spatial objects\nwith packages such as PBSmapping, spatstat, maps, RArcInfo, Stata tmap,\nWinBUGS, Mondrian, and others.",
             "name": "r-maptools"
         },

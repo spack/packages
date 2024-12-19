@@ -282,6 +282,10 @@
             "name": "r-libpressio"
         },
         {
+            "description": "Airborne LiDAR data manipulation and visualisation for forestry\napplication",
+            "name": "r-lidr"
+        },
+        {
             "description": "Linear Mixed-Effects Models using 'Eigen' and S4. Fit linear and\ngeneralized linear mixed-effects models. The models and their components\nare represented using S4 classes and methods. The core computational\nalgorithms are implemented using the 'Eigen' C++ library for numerical\nlinear algebra and 'RcppEigen' \"glue\".",
             "name": "r-lme4"
         },
@@ -496,6 +500,10 @@
         {
             "description": "C++ Classes to Embed R in C++ (and C) Applications. C++ classes to embed\nR in C++ applications The 'RInside' packages makes it easier to have \"R\ninside\" your C++ application by providing a C++ wrapperclass providing\nthe R interpreter. As R itself is embedded into your application, a\nshared library build of R is required. This works on Linux, OS X and\neven on Windows provided you use the same tools used to build R itself.\nNumerous examples are provided in the eight subdirectories of the\nexamples/ directory of the installed package: standard, mpi (for\nparallel computing) qt (showing how to embed 'RInside' inside a Qt GUI\napplication), wt (showing how to build a \"web-application\" using the Wt\ntoolkit), armadillo (for 'RInside' use with 'RcppArmadillo') and eigen\n(for 'RInside' use with 'RcppEigen'). The example use GNUmakefile(s)\nwith GNU extensions, so a GNU make is required (and will use the\nGNUmakefile automatically). Doxygen-generated documentation of the C++\nclasses is available at the 'RInside' website as well.",
             "name": "r-rinside"
+        },
+        {
+            "description": "R package to read and write las and laz files used to store LiDAR data",
+            "name": "r-rlas"
         },
         {
             "description": "Database Interface and 'MariaDB' Driver. Implements a 'DBI'-compliant\ninterface to 'MariaDB' (<https://mariadb.org/>) and 'MySQL'\n(<https://www.mysql.com/>) databases.",

@@ -123,7 +123,7 @@
     "dependent_to": [],
     "description": "VAPOR is the Visualization and Analysis Platform for Ocean, Atmosphere,\nand Solar Researchers. VAPOR provides an interactive 3D visualization\nenvironment that can also produce animations and still frame images.\n",
     "homepage": "https://www.vapor.ucar.edu",
-    "latest_version": "3.9.0",
+    "latest_version": "3.9.3",
     "maintainers": [
         "vanderwb"
     ],
@@ -133,7 +133,7 @@
         {
             "destination": "",
             "name": "map-images",
-            "placement": "share/extras/images",
+            "placement": "extras",
             "version": ""
         }
     ],
@@ -173,6 +173,18 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "3.9.3",
+            "sha256": "0bf614ef80387f4ef313154e55861b6a36ac31cc2993f1e3899a329d272331b0"
+        },
+        {
+            "name": "3.9.2",
+            "sha256": "94b17067c707768d543888c9c3111d82a9f468290b611099889d6b6430a8e846"
+        },
+        {
+            "name": "3.9.1",
+            "sha256": "5842bfd21e8e905e1acec35e8b86bc706a5a340eeee3530e07a20debe982ca31"
         },
         {
             "name": "3.9.0",
