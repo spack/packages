@@ -45,6 +45,10 @@
     ],
     "dependent_to": [
         {
+            "description": "Angsd is a program for analysing NGS data. The software can handle a\nnumber of different input types from mapped reads to imputed genotype\nprobabilities. Most methods take genotype uncertainty into account\ninstead of basing the analysis on called genotypes. This is especially\nuseful for low and medium depth data.",
+            "name": "angsd"
+        },
+        {
             "description": "Collectively, the bedtools utilities are a swiss-army knife of tools for\na wide-range of genomics analysis tasks. The most widely-used tools\nenable genome arithmetic: that is, set theory on the genome.",
             "name": "bedtools2"
         },
@@ -63,6 +67,10 @@
         {
             "description": "DD4hep is a software framework for providing a complete solution for\nfull detector description (geometry, materials, visualization, readout,\nalignment, calibration, etc.) for the full experiment life cycle\n(detector concept development, detector optimization, construction,\noperation). It offers a consistent description through a single source\nof detector information for simulation, reconstruction, analysis, etc.\nIt distributed under the LGPLv3 License.",
             "name": "dd4hep"
+        },
+        {
+            "description": "EAGLE: Explicit Alternative Genome Likelihood Evaluator",
+            "name": "eagle"
         },
         {
             "description": "elfutils is a collection of various binary tools such as eu-objdump, eu-\nreadelf, and other utilities that allow you to inspect and manipulate\nELF files. Refer to Table 5.Tools Included in elfutils for Red Hat\nDeveloper for a complete list of binary tools that are distributed with\nthe Red Hat Developer Toolset version of elfutils.",
@@ -111,6 +119,10 @@
         {
             "description": "C library for high-throughput sequencing data formats.",
             "name": "htslib"
+        },
+        {
+            "description": "kmod is a set of tools to handle common tasks with Linux kernel modules\nlike insert, remove, list, check properties, resolve dependencies and\naliases.",
+            "name": "kmod"
         },
         {
             "description": "Kyoto Cabinet is a library of routines for managing a database.",
@@ -239,6 +251,10 @@
         {
             "description": "squashfuse - Mount SquashFS archives using FUSE",
             "name": "squashfuse"
+        },
+        {
+            "description": "SCANL's srcml_identifier_getter_tool. reads a srcML archive and outputs\nall identifiers in that archive through standard out.",
+            "name": "srcml-identifier-getter-tool"
         },
         {
             "description": "Io_lib is a library for reading/writing various bioinformatics file\nformats.",

@@ -35,7 +35,7 @@
     "dependent_to": [],
     "description": "rocPyDecode is a set of Python bindings to rocDecode C++ library which\nprovides full HW acceleration for video decoding on AMD GPUs.\n",
     "homepage": "https://github.com/ROCm/rocPyDecode",
-    "latest_version": "6.2.4",
+    "latest_version": "6.3.0",
     "maintainers": [
         "afzpatel",
         "renjithravindrankannath",
@@ -67,6 +67,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.3.0",
+            "sha256": "4d0d969fb32328d8277b5cc451ee875428f58c12c1d4b3ff33247774ecc6caf8"
+        },
         {
             "name": "6.2.4",
             "sha256": "9cdb8bdc65b54b2c02d6c950dd34cd702ec50d903aa4d252d1eb1f8cae8c0afb"

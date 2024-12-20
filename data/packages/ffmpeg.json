@@ -218,6 +218,10 @@
             "name": "rocpydecode"
         },
         {
+            "description": "Radeon Performance Primitives (RPP) library is a comprehensive high-\nperformance computer vision library for AMD (CPU and GPU) with HIP and\nOPENCL back-ends",
+            "name": "rpp"
+        },
+        {
             "description": "Eclipse SUMO is an open source, highly portable, microscopic and\ncontinuous road traffic simulation package designed to handle large road\nnetworks. It allows for intermodal simulation including pedestrians and\ncomes with a large set of tools for scenario creation.",
             "name": "sumo"
         },
@@ -232,7 +236,7 @@
     ],
     "description": "FFmpeg is a complete, cross-platform solution to record, convert and\nstream audio and video.\n",
     "homepage": "https://ffmpeg.org",
-    "latest_version": "7.0.2",
+    "latest_version": "7.1",
     "maintainers": [
         "xjrc"
     ],
@@ -430,6 +434,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "7.1",
+            "sha256": "fd59e6160476095082e94150ada5a6032d7dcc282fe38ce682a00c18e7820528"
         },
         {
             "name": "7.0.2",

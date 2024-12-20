@@ -112,7 +112,7 @@
     ],
     "description": "OpenMP support for ROCm LLVM.\n",
     "homepage": "https://github.com/ROCm/aomp",
-    "latest_version": "6.2.4",
+    "latest_version": "6.3.0",
     "maintainers": [
         "afzpatel",
         "estewart08",
@@ -154,7 +154,7 @@
             "relative_path": "0001-Avoid-duplicate-registration-on-cuda-env-6.2.patch",
             "reverse": false,
             "sha256": "6f77cb208930531cd80b4bc5dde4b747d3461f45b4dcc6fbe424a4a46bf42442",
-            "version": "@6.2",
+            "version": "@6.2:",
             "working_dir": "."
         }
     ],
@@ -554,6 +554,24 @@
             "name": "llvm-project",
             "placement": "llvm-project",
             "version": "@6.2.4"
+        },
+        {
+            "destination": "rocm-openmp-extras",
+            "name": "flang",
+            "placement": "flang",
+            "version": "@6.3.0"
+        },
+        {
+            "destination": "rocm-openmp-extras",
+            "name": "aomp-extras",
+            "placement": "aomp-extras",
+            "version": "@6.3.0"
+        },
+        {
+            "destination": "rocm-openmp-extras",
+            "name": "llvm-project",
+            "placement": "llvm-project",
+            "version": "@6.3.0"
         }
     ],
     "variants": [
@@ -569,6 +587,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.3.0",
+            "sha256": "8c8240d948817ab1874eff0406d6053ee0518902427e0236e6b4d2cee84ff882"
+        },
         {
             "name": "6.2.4",
             "sha256": "ad5674b5626ed6720ca5f8772542e8ed3fb7a9150ed7a86a1adbcd70a2074e8e"

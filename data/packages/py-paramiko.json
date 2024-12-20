@@ -110,7 +110,7 @@
     ],
     "description": "SSH2 protocol library\n",
     "homepage": "https://www.paramiko.org/",
-    "latest_version": "3.4.0",
+    "latest_version": "3.5.0",
     "maintainers": [],
     "name": "py-paramiko",
     "patches": [],
@@ -129,8 +129,20 @@
     ],
     "versions": [
         {
+            "name": "3.5.0",
+            "sha256": "ad11e540da4f55cedda52931f1a3f812a8238a7af7f62a60de538cd80bb28124"
+        },
+        {
+            "name": "3.4.1",
+            "sha256": "8b15302870af7f6652f2e038975c1d2973f06046cb5d7d65355668b3ecbece0c"
+        },
+        {
             "name": "3.4.0",
             "sha256": "aac08f26a31dc4dffd92821527d1682d99d52f9ef6851968114a8728f3c274d3"
+        },
+        {
+            "name": "3.3.2",
+            "sha256": "71eacec637a2dcb8a9771e6cd8c381754191c4fc8c82f2f103dbe056b0ba13a5"
         },
         {
             "name": "3.3.1",
@@ -163,11 +175,12 @@
         {
             "name": "2.7.1",
             "sha256": "920492895db8013f6cc0179293147f830b8c7b21fdfc839b6bad760c27459d9f"
-        },
+        }
+    ],
+    "versions_deprecated": [
         {
             "name": "2.1.2",
             "sha256": "5fae49bed35e2e3d45c4f7b0db2d38b9ca626312d91119b3991d0ecf8125e310"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

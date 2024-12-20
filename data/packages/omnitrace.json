@@ -4,6 +4,14 @@
     "conflicts": [],
     "dependencies": [
         {
+            "description": "Autoconf -- system configuration part of autotools",
+            "name": "autoconf"
+        },
+        {
+            "description": "Automake -- make file builder part of autotools",
+            "name": "automake"
+        },
+        {
             "description": "Caliper is a program instrumentation and performance measurement\nframework. It is designed as a performance analysis toolbox in a\nlibrary, allowing one to bake performance analysis capabilities directly\ninto applications and activate them at runtime.",
             "name": "caliper"
         },
@@ -22,6 +30,10 @@
         {
             "description": "HIP is a C++ Runtime API and Kernel Language that allows developers to\ncreate portable applications for AMD and NVIDIA GPUs from single source\ncode.",
             "name": "hip"
+        },
+        {
+            "description": "libtool -- library building part of autotools.",
+            "name": "libtool"
         },
         {
             "description": "A portable and efficient C programming interface (API) to determine the\ncall-chain of a program.",
@@ -208,6 +220,12 @@
         {
             "commit": "2a387f909935d06c6a4874a5b11f38fb8521800e",
             "name": "1.7.0"
+        },
+        {
+            "commit": "71a5e271b5e07efd2948fb6e7b451db5e8e40cb8",
+            "git": "https://github.com/ROCm/rocprofiler-systems",
+            "name": "rocm-6.3.0",
+            "tag": "rocm-6.3.0"
         },
         {
             "commit": "47597c1be3699c5aaaf6164061ee4189c6b32445",

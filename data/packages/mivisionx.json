@@ -151,7 +151,7 @@
     ],
     "description": "MIVisionX toolkit is a set of comprehensive computer vision and machine\nintelligence libraries, utilities, and applications bundled into a\nsingle toolkit.\n",
     "homepage": "https://github.com/GPUOpen-ProfessionalCompute-Libraries/MIVisionX",
-    "latest_version": "6.2.4",
+    "latest_version": "6.3.0",
     "maintainers": [
         "afzpatel",
         "renjithravindrankannath",
@@ -258,6 +258,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.3.0",
+            "sha256": "bc16881eae11140025b8fbd00bc741763548d41345dbe954c8d8659f4dccfe9e"
+        },
         {
             "name": "6.2.4",
             "sha256": "7e65dc83f1b85e089c1218dff57211e64f3586bcb4415bda4798e4a434cba216"

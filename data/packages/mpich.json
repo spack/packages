@@ -647,6 +647,10 @@
             "name": "seissol"
         },
         {
+            "description": "SPH and N-body simulation framework",
+            "name": "sphexa"
+        },
+        {
             "description": "A scalable and fully parallelized genome assembler.",
             "name": "swap-assembler"
         },

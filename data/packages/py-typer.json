@@ -12,8 +12,20 @@
             "name": "py-flit-core"
         },
         {
+            "description": "The build backend used by PDM that supports latest packaging standards",
+            "name": "py-pdm-backend"
+        },
+        {
             "description": "The PyPA recommended tool for installing Python packages.",
             "name": "py-pip"
+        },
+        {
+            "description": "Rich is a Python library for rich text and beautiful formatting in the\nterminal.",
+            "name": "py-rich"
+        },
+        {
+            "description": "Tool to Detect Surrounding Shell",
+            "name": "py-shellingham"
         },
         {
             "description": "The typing_extensions module contains both backports of these changes as\nwell as experimental types that will eventually be added to the typing\nmodule, such as Protocol (see PEP 544 for details about protocols and\nstatic duck typing).",
@@ -52,7 +64,7 @@
     ],
     "description": "Typer, build great CLIs. Easy to code. Based on Python type hints.\n",
     "homepage": "https://github.com/tiangolo/typer",
-    "latest_version": "0.9.0",
+    "latest_version": "0.15.1",
     "maintainers": [],
     "name": "py-typer",
     "patches": [],
@@ -65,6 +77,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.15.1",
+            "sha256": "a0588c0a7fa68a1978a069818657778f86abe6ff5ea6abf472f940a08bfe4f0a"
+        },
         {
             "name": "0.9.0",
             "sha256": "50922fd79aea2f4751a8e0408ff10d2662bd0c8bbfa84755a699f3bada2978b2"

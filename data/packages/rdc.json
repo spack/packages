@@ -47,8 +47,9 @@
     "dependent_to": [],
     "description": "ROCm Data Center Tool\n",
     "homepage": "https://github.com/ROCm/rdc",
-    "latest_version": "6.2.4",
+    "latest_version": "6.3.0",
     "maintainers": [
+        "afzpatel",
         "renjithravindrankannath",
         "srekolam"
     ],
@@ -78,6 +79,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.3.0",
+            "sha256": "419afd9c8e50a872fb0a922e29c8578664ed88e0b79bf558db0a1e864aa8fecf"
+        },
         {
             "name": "6.2.4",
             "sha256": "cdebbc0c1a49f067fb8ff17bd91cd92f6f83b2aee142e5b576e5eb1742983a7f"

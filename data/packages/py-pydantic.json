@@ -1,7 +1,13 @@
 {
     "aliases": [],
     "build_system": "PythonPackage",
-    "conflicts": [],
+    "conflicts": [
+        {
+            "description": null,
+            "name": "python@3.12.4:",
+            "spec": "@:1.10.15"
+        }
+    ],
     "dependencies": [
         {
             "description": "Reusable constraint types to use with typing.Annotated.",
@@ -193,6 +199,10 @@
         {
             "name": "2.7.4",
             "sha256": "0c84efd9548d545f63ac0060c1e4d39bb9b14db8b3c0652338aecc07b5adec52"
+        },
+        {
+            "name": "1.10.19",
+            "sha256": "fea36c2065b7a1d28c6819cc2e93387b43dd5d3cf5a1e82d8132ee23f36d1f10"
         },
         {
             "name": "1.10.9",

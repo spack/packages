@@ -344,6 +344,11 @@
         },
         {
             "description": null,
+            "name": "intel-mkl",
+            "spec": "@7.6.0:"
+        },
+        {
+            "description": null,
             "name": "~pugixml+tests",
             "spec": "@7.6:"
         },
@@ -356,11 +361,6 @@
             "description": null,
             "name": "+single_precision",
             "spec": "@:7.2.4"
-        },
-        {
-            "description": null,
-            "name": "intel-mkl",
-            "spec": "@develop"
         },
         {
             "description": null,
@@ -575,6 +575,7 @@
     "latest_version": "7.6.1",
     "maintainers": [
         "AdhocMan",
+        "RMeli",
         "dev-zero",
         "haampie",
         "simonpintarelli",

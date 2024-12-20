@@ -96,8 +96,9 @@
     ],
     "description": "RCCL (pronounced \"Rickle\") is a stand-alone library of standard\ncollective communication routines for GPUs, implementing all-reduce,\nall-gather, reduce, broadcast, and reduce-scatter.\n",
     "homepage": "https://github.com/ROCm/rccl",
-    "latest_version": "6.2.4",
+    "latest_version": "6.3.0",
     "maintainers": [
+        "afzpatel",
         "renjithravindrankannath",
         "srekolam"
     ],
@@ -118,7 +119,16 @@
             "relative_path": "0004-Set-rocm-core-path-for-version-file.patch",
             "reverse": false,
             "sha256": "68a55d8ab1f2e162c1f99512e1fa36df3a193428dbecc3fc966058bd88a11bf3",
-            "version": "@6.0:",
+            "version": "@6.0:6.2",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.rccl",
+            "relative_path": "0004-Set-rocm-core-path-for-version-file-6.3.patch",
+            "reverse": false,
+            "sha256": "08011b4b53ea748d08e9e8300d298227fc8093bf7f66502b1ca36bb42f842457",
+            "version": "@6.3",
             "working_dir": "."
         }
     ],
@@ -151,6 +161,11 @@
         }
     ],
     "versions": [
+        {
+            "commit": "eef7b2918cef592a18b6e59859558e6a3f0f0614",
+            "name": "6.3.0",
+            "tag": "rocm-6.3.0"
+        },
         {
             "name": "6.2.4",
             "sha256": "12a04743ed89a74b4a08aa046b6a549d385e15d6866042fd41eac8f085f50eea"

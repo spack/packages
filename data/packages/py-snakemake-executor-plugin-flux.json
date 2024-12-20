@@ -35,7 +35,7 @@
     "dependent_to": [],
     "description": "A Snakemake executor plugin for the Flux scheduler.\n",
     "homepage": "https://github.com/snakemake/snakemake-executor-plugin-flux",
-    "latest_version": "0.1.0",
+    "latest_version": "0.1.1",
     "maintainers": [],
     "name": "py-snakemake-executor-plugin-flux",
     "patches": [],
@@ -48,6 +48,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.1.1",
+            "sha256": "26655bd1cf5d7db5dfcfdfbd006c1db35968c0ad1772e0b010e64e6f71b00163"
+        },
         {
             "name": "0.1.0",
             "sha256": "92b1944dcf9ea163519a8879d4d638df2b3d0cd83ea6e8397d26046897811214"

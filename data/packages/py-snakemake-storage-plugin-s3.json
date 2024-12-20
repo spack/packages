@@ -47,7 +47,7 @@
     "dependent_to": [],
     "description": "A Snakemake storage plugin for S3 API storage (AWS S3, MinIO, etc.).\n",
     "homepage": "https://github.com/snakemake/snakemake-storage-plugin-s3",
-    "latest_version": "0.2.10",
+    "latest_version": "0.2.12",
     "maintainers": [],
     "name": "py-snakemake-storage-plugin-s3",
     "patches": [],
@@ -60,6 +60,14 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.2.12",
+            "sha256": "339bd425e18baabfb1404ab91dfe56a26499bf728fa3359fb4e0b17b287786a8"
+        },
+        {
+            "name": "0.2.11",
+            "sha256": "edbac21ca22d2e674eaadf05f21c611891df37366d4fbd6a712d79172d788895"
+        },
         {
             "name": "0.2.10",
             "sha256": "a4554d170b5621751aba20ee08e6357090471a0a68b173525b118580c287a12e"

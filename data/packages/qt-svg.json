@@ -37,7 +37,7 @@
     "dependent_to": [],
     "description": "Scalable Vector Graphics (SVG) is an XML-based language for describing\ntwo-dimensional vector graphics. Qt provides classes for rendering and\ndisplaying SVG drawings in widgets and on other paint devices.\n",
     "homepage": "https://www.qt.io",
-    "latest_version": "6.7.3",
+    "latest_version": "6.8.1",
     "maintainers": [
         "wdconinc"
     ],
@@ -72,6 +72,14 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.8.1",
+            "sha256": "288f233991686bc411a11cc331fb1be5f12ed43be03e29639158e545685ce7c9"
+        },
+        {
+            "name": "6.8.0",
+            "sha256": "ec3112668b7b8cfd1790bf4f936268dd6d32251ea81bb20d3aa4c4bac2031866"
+        },
         {
             "name": "6.7.3",
             "sha256": "2852d8f1f52b60f0624ca5edf479125e4b32d579b1177d8b76d8e28fac98a701"

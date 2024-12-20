@@ -141,7 +141,7 @@
     "dependent_to": [],
     "description": "An experiment-independent HEP event data processing framework\n",
     "homepage": "https://gaudi.web.cern.ch/gaudi/",
-    "latest_version": "39.0",
+    "latest_version": "39.1",
     "maintainers": [
         "drbenmorgan",
         "jmcarcell",
@@ -268,6 +268,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "39.1",
+            "sha256": "acdeddcc2383a127b1ad4b0bdaf9f1c6699b64105e0c1d8095c560c96c157885"
         },
         {
             "name": "39.0",

@@ -150,6 +150,10 @@
             "name": "py-twine"
         },
         {
+            "description": "Typer, build great CLIs. Easy to code. Based on Python type hints.",
+            "name": "py-typer"
+        },
+        {
             "description": "Python library to read and process pulsar data in several different\nformats",
             "name": "py-your"
         },

@@ -84,7 +84,7 @@
     ],
     "description": "This package provides a stable interface for interactions between\nSnakemake and its executor plugins.\n",
     "homepage": "https://github.com/snakemake/snakemake-interface-executor-plugins",
-    "latest_version": "9.2.0",
+    "latest_version": "9.3.2",
     "maintainers": [
         "w8jcik"
     ],
@@ -99,6 +99,18 @@
         }
     ],
     "versions": [
+        {
+            "name": "9.3.2",
+            "sha256": "19c50dc82989ff25d10386cfb3c99da9d2dc980d95ecd30bbb431374dcd390b3"
+        },
+        {
+            "name": "9.3.1",
+            "sha256": "98e1b7a6c5e0997ac391812ab66a79822c38ac98ea9322f2fd8d6a1294e219a0"
+        },
+        {
+            "name": "9.3.0",
+            "sha256": "11e70cf3d821d9f071b18b8a8147bc4dbad37f3ee68647f72aa3c80c4ab5c8dc"
+        },
         {
             "name": "9.2.0",
             "sha256": "67feaf438a0b8b041ec5f1a1dd859f729036c70c07c9fdad895135f5b949e40a"

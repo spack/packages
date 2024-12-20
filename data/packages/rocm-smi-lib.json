@@ -30,6 +30,10 @@
             "name": "apex"
         },
         {
+            "description": "hipBLASLt is a library that provides general matrix-matrix operations\nwith a flexible API and extends functionalities beyond a traditional\nBLAS library",
+            "name": "hipblaslt"
+        },
+        {
             "description": "The Hardware Locality (hwloc) software project. The Portable Hardware\nLocality (hwloc) software package provides a portable abstraction\n(across OS, versions, architectures, ...) of the hierarchical topology\nof modern architectures, including NUMA memory nodes, sockets, shared\ncaches, cores and simultaneous multithreading. It also gathers various\nsystem attributes such as cache and memory information as well as the\nlocality of I/O devices such as network interfaces, InfiniBand HCAs or\nGPUs. It primarily aims at helping applications with gathering\ninformation about modern computing hardware so as to exploit it\naccordingly and efficiently.",
             "name": "hwloc"
         },
@@ -96,7 +100,7 @@
     ],
     "description": "It is a C library for Linux that provides a user space interface for\napplications to monitor and control GPU applications.\n",
     "homepage": "https://github.com/ROCm/rocm_smi_lib",
-    "latest_version": "6.2.4",
+    "latest_version": "6.3.0",
     "maintainers": [
         "renjithravindrankannath",
         "srekolam"
@@ -159,6 +163,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "6.3.0",
+            "sha256": "573cfb759f8c7700fdcb0c28d045aed0f2d950692bb66a10bd589b89b8f48d0f"
         },
         {
             "name": "6.2.4",

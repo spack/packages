@@ -404,8 +404,9 @@
     ],
     "description": "hipSOLVER is a LAPACK marshalling library, with multiple supported\nbackends. It sits between the application and a 'worker' LAPACK library,\nmarshalling inputs into the backend library and marshalling results back\nto the application. hipSOLVER exports an interface that does not require\nthe client to change, regardless of the chosen backend. Currently,\nhipSOLVER supports rocSOLVER and cuSOLVER as backends.\n",
     "homepage": "https://github.com/ROCm/hipSOLVER",
-    "latest_version": "6.2.4",
+    "latest_version": "6.3.0",
     "maintainers": [
+        "afzpatel",
         "cgmb",
         "renjithravindrankannath",
         "srekolam"
@@ -427,7 +428,7 @@
             "relative_path": "0001-suite-sparse-include-path-6.1.1.patch",
             "reverse": false,
             "sha256": "d9ef5bea86159108cf112e0f0075aad015755ec66b6b0ab1bc064600177ad587",
-            "version": "@6.1.1:",
+            "version": "@6.1.1:6.2",
             "working_dir": "."
         }
     ],
@@ -487,6 +488,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "6.3.0",
+            "sha256": "a0443f0b894cedd5af59af4fadcb3c38daa728ca32c13b9741fb19e2d828a089"
         },
         {
             "name": "6.2.4",

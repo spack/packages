@@ -364,6 +364,10 @@
             "name": "hip"
         },
         {
+            "description": "Common files shared by hipBLAS and hipBLASLt",
+            "name": "hipblas-common"
+        },
+        {
             "description": "This repository includes the user mode API nterfaces and libraries\nnecessary for host applications to launch computer kernels to available\nHSA ROCm kernel agents.AMD Heterogeneous System Architecture HSA - Linux\nHSA Runtime for Boltzmann (ROCm) platforms.",
             "name": "hsa-rocr-dev"
         },
@@ -438,6 +442,10 @@
             "name": "magma"
         },
         {
+            "description": "AMD's library for high performance machine learning primitives.",
+            "name": "miopen-hip"
+        },
+        {
             "description": "PETSc is a suite of data structures and routines for the scalable\n(parallel) solution of scientific applications modeled by partial\ndifferential equations.",
             "name": "petsc"
         },
@@ -472,8 +480,9 @@
     ],
     "description": "hipBLAS is a BLAS marshalling library, with multiple supported backends\n",
     "homepage": "https://github.com/ROCm/hipBLAS",
-    "latest_version": "6.2.4",
+    "latest_version": "6.3.0",
     "maintainers": [
+        "afzpatel",
         "cgmb",
         "haampie",
         "renjithravindrankannath",
@@ -497,6 +506,15 @@
             "reverse": false,
             "sha256": "b05b34b93046229eeb6bcd7779c02d903d8696e29718fbabe248c6027ae8247e",
             "version": "@6.0:",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.hipblas",
+            "relative_path": "modify-hipblas-common-dependency.patch",
+            "reverse": false,
+            "sha256": "8d7157828ffd4b5f21dbbcfabe28b44412f27719d33c310ee5e86b4aa1db5274",
+            "version": "@6.3:",
             "working_dir": "."
         }
     ],
@@ -556,6 +574,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "6.3.0",
+            "sha256": "72604c1896e42e65ea2b3e905159af6ec5eede6a353678009c47d0a24f462c92"
         },
         {
             "name": "6.2.4",

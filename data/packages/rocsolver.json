@@ -132,8 +132,9 @@
     ],
     "description": "rocSOLVER is a work-in-progress implementation of a subset of LAPACK\nfunctionality on the ROCm platform.\n",
     "homepage": "https://github.com/ROCm/rocSOLVER",
-    "latest_version": "6.2.4",
+    "latest_version": "6.3.0",
     "maintainers": [
+        "afzpatel",
         "cgmb",
         "haampie",
         "renjithravindrankannath",
@@ -197,6 +198,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "6.3.0",
+            "sha256": "48861f7b86379f2b825c0496d1d9318c6e29426d083b361c10f685b0ddd66274"
         },
         {
             "name": "6.2.4",

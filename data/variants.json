@@ -1118,6 +1118,10 @@
         },
         {
             "default": "none",
+            "package": "sphexa"
+        },
+        {
+            "default": "none",
             "package": "strumpack"
         },
         {
@@ -5887,7 +5891,7 @@
             "package": "dlib"
         },
         {
-            "default": "generic",
+            "default": "cmake",
             "package": "dlpack"
         },
         {
@@ -8593,6 +8597,10 @@
         {
             "default": "cmake",
             "package": "hipblas"
+        },
+        {
+            "default": "cmake",
+            "package": "hipblas-common"
         },
         {
             "default": "cmake",
@@ -33879,6 +33887,10 @@
             "package": "spherepack"
         },
         {
+            "default": "cmake",
+            "package": "sphexa"
+        },
+        {
             "default": "autotools",
             "package": "spindle"
         },
@@ -37344,6 +37356,10 @@
         },
         {
             "default": "Release",
+            "package": "dlpack"
+        },
+        {
+            "default": "Release",
             "package": "dmlc-core"
         },
         {
@@ -38233,6 +38249,10 @@
         {
             "default": "Release",
             "package": "hipblas"
+        },
+        {
+            "default": "Release",
+            "package": "hipblas-common"
         },
         {
             "default": "Release",
@@ -40773,6 +40793,10 @@
         {
             "default": "Release",
             "package": "sph2pipe"
+        },
+        {
+            "default": "Release",
+            "package": "sphexa"
         },
         {
             "default": "Release",
@@ -44584,6 +44608,10 @@
         },
         {
             "default": false,
+            "package": "sphexa"
+        },
+        {
+            "default": false,
             "package": "spiner"
         },
         {
@@ -45483,6 +45511,10 @@
         {
             "default": "none",
             "package": "spfft"
+        },
+        {
+            "default": "none",
+            "package": "sphexa"
         },
         {
             "default": "none",
@@ -53064,6 +53096,10 @@
         },
         {
             "default": "make",
+            "package": "dlpack"
+        },
+        {
+            "default": "make",
             "package": "dmlc-core"
         },
         {
@@ -53945,6 +53981,10 @@
         {
             "default": "make",
             "package": "hipblas"
+        },
+        {
+            "default": "make",
+            "package": "hipblas-common"
         },
         {
             "default": "make",
@@ -56488,6 +56528,10 @@
         },
         {
             "default": "make",
+            "package": "sphexa"
+        },
+        {
+            "default": "make",
             "package": "spiner"
         },
         {
@@ -57837,6 +57881,12 @@
             "package": "kokkos-legacy"
         }
     ],
+    "gpu_aware_mpi": [
+        {
+            "default": true,
+            "package": "sphexa"
+        }
+    ],
     "gpu_direct": [
         {
             "default": false,
@@ -58835,6 +58885,10 @@
         {
             "default": false,
             "package": "slurm"
+        },
+        {
+            "default": true,
+            "package": "sphexa"
         },
         {
             "default": false,
@@ -61448,6 +61502,10 @@
         },
         {
             "default": false,
+            "package": "dlpack"
+        },
+        {
+            "default": false,
             "package": "dmlc-core"
         },
         {
@@ -62329,6 +62387,10 @@
         {
             "default": false,
             "package": "hipblas"
+        },
+        {
+            "default": false,
+            "package": "hipblas-common"
         },
         {
             "default": false,
@@ -64865,6 +64927,10 @@
         {
             "default": false,
             "package": "sph2pipe"
+        },
+        {
+            "default": false,
+            "package": "sphexa"
         },
         {
             "default": false,
@@ -79601,6 +79667,10 @@
         {
             "default": false,
             "package": "spfft"
+        },
+        {
+            "default": false,
+            "package": "sphexa"
         },
         {
             "default": false,

@@ -240,6 +240,10 @@
             "name": "hipblas"
         },
         {
+            "description": "hipBLASLt is a library that provides general matrix-matrix operations\nwith a flexible API and extends functionalities beyond a traditional\nBLAS library",
+            "name": "hipblaslt"
+        },
+        {
             "description": "Radeon Open Compute Parallel Primitives Library",
             "name": "hipcub"
         },
@@ -500,6 +504,10 @@
             "name": "spfft"
         },
         {
+            "description": "SPH and N-body simulation framework",
+            "name": "sphexa"
+        },
+        {
             "description": "STRUMPACK -- STRUctured Matrix PACKage - provides linear solvers for\nsparse matrices and for dense rank-structured matrices, i.e., matrices\nthat exhibit some kind of low-rank property. It provides a distributed\nmemory fully algebraic sparse solver and preconditioner. The\npreconditioner is mostly aimed at large sparse linear systems which\nresult from the discretization of a partial differential equation, but\nis not limited to any particular type of problem. STRUMPACK also\nprovides preconditioned GMRES and BiCGStab iterative solvers.",
             "name": "strumpack"
         },
@@ -562,7 +570,7 @@
     ],
     "description": "Toolkit for the construction of highly optimized compilers, optimizers,\nand run-time environments.\n",
     "homepage": "https://github.com/ROCm/llvm-project",
-    "latest_version": "6.2.4",
+    "latest_version": "6.3.0",
     "maintainers": [
         "afzpatel",
         "haampie",
@@ -713,6 +721,12 @@
             "name": "rocm-device-libs",
             "placement": "rocm-device-libs",
             "version": "@master+rocm-device-libs"
+        },
+        {
+            "destination": "",
+            "name": "hsa-runtime",
+            "placement": "hsa-runtime",
+            "version": "@6.3.0"
         },
         {
             "destination": "",
@@ -876,6 +890,10 @@
         {
             "branch": "amd-stg-open",
             "name": "master"
+        },
+        {
+            "name": "6.3.0",
+            "sha256": "79580508b039ca6c50dfdfd7c4f6fbcf489fe1931037ca51324818851eea0c1c"
         },
         {
             "name": "6.2.4",

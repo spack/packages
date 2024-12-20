@@ -24,7 +24,7 @@
     ],
     "description": " HSA extension AMD AQL profile library. Provides AQL packets helper\nmethods for perfcounters (PMC) and SQ threadtraces (SQTT).\n",
     "homepage": null,
-    "latest_version": "6.2.4",
+    "latest_version": "6.3.0",
     "maintainers": [
         "afzpatel",
         "renjithravindrankannath",
@@ -41,6 +41,11 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.3.0",
+            "sha256": "af03118e2606aeae0da636af17221fe124d5b955ebf40f0e2518f4a427a0c9bc",
+            "url": "https://repo.radeon.com/rocm/apt/6.3/pool/main/h/hsa-amd-aqlprofile/hsa-amd-aqlprofile_1.0.0.60300-39~20.04_amd64.deb"
+        },
         {
             "name": "6.2.4",
             "sha256": "614ad0c01b7f18eaa9e8a33fb73b9d8445c8785841ed41b406e129101dea854d",

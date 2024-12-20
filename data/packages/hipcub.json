@@ -424,12 +424,17 @@
         {
             "description": "A Redis module for serving tensors and executing deep learning graphs",
             "name": "redis-ai"
+        },
+        {
+            "description": "SPH and N-body simulation framework",
+            "name": "sphexa"
         }
     ],
     "description": "Radeon Open Compute Parallel Primitives Library\n",
     "homepage": "https://github.com/ROCm/hipCUB",
-    "latest_version": "6.2.4",
+    "latest_version": "6.3.0",
     "maintainers": [
+        "afzpatel",
         "renjithravindrankannath",
         "srekolam"
     ],
@@ -494,6 +499,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.3.0",
+            "sha256": "a609cde18cefa90a1970049cc5630f2ec263f12961aa85993897580da2ca0456"
+        },
         {
             "name": "6.2.4",
             "sha256": "06f3655b110d3d2e2ecf0aca052d3ba3f2ef012c069e5d2d82f2b75d50555f46"

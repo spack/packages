@@ -37,6 +37,10 @@
             "name": "cmake"
         },
         {
+            "description": "FFmpeg is a complete, cross-platform solution to record, convert and\nstream audio and video.",
+            "name": "ffmpeg"
+        },
+        {
             "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
             "name": "gmake"
         },
@@ -89,7 +93,7 @@
     ],
     "description": "Radeon Performance Primitives (RPP) library is a comprehensive high-\nperformance computer vision library for AMD (CPU and GPU) with HIP and\nOPENCL back-ends\n",
     "homepage": "https://github.com/GPUOpen-ProfessionalCompute-Libraries/rpp",
-    "latest_version": "6.2.4",
+    "latest_version": "6.3.0",
     "maintainers": [
         "afzpatel",
         "srekolam"
@@ -191,6 +195,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.3.0",
+            "sha256": "130a6bd2fc4278956c6450a3c49243651576b1031e6a485aa62453b9dc3b4d51"
+        },
         {
             "name": "6.2.4",
             "sha256": "e733350e938ce8d2f7d6d43d2bfd0febd270d52673bafa0265ed97bb850289de"

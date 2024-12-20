@@ -81,7 +81,7 @@
     "dependent_to": [],
     "description": "This is ROCmgdb, the ROCm source-level debugger for Linux, based on GDB,\nthe GNU source-level debugger.\n",
     "homepage": "https://github.com/ROCm/ROCgdb",
-    "latest_version": "6.2.4",
+    "latest_version": "6.3.0",
     "maintainers": [
         "renjithravindrankannath",
         "srekolam"
@@ -97,6 +97,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.3.0",
+            "sha256": "4a41ffbc4f7a5970181ee0aae07f0ea4cda278870cd60a562b25001f1365e29f"
+        },
         {
             "name": "6.2.4",
             "sha256": "061d00f3d02ca64094008c5da185712712ccd3a922f6e126d5f203cdae2b9e04"

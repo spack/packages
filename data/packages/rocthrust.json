@@ -82,6 +82,10 @@
             "name": "redis-ai"
         },
         {
+            "description": "SPH and N-body simulation framework",
+            "name": "sphexa"
+        },
+        {
             "description": "STRUMPACK -- STRUctured Matrix PACKage - provides linear solvers for\nsparse matrices and for dense rank-structured matrices, i.e., matrices\nthat exhibit some kind of low-rank property. It provides a distributed\nmemory fully algebraic sparse solver and preconditioner. The\npreconditioner is mostly aimed at large sparse linear systems which\nresult from the discretization of a partial differential equation, but\nis not limited to any particular type of problem. STRUMPACK also\nprovides preconditioned GMRES and BiCGStab iterative solvers.",
             "name": "strumpack"
         },
@@ -92,8 +96,9 @@
     ],
     "description": "Thrust is a parallel algorithm library. This library has been ported to\nHIP/ROCm platform, which uses the rocPRIM library. The HIP ported\nlibrary works on HIP/ROCm platforms\n",
     "homepage": "https://github.com/ROCm/rocThrust",
-    "latest_version": "6.2.4",
+    "latest_version": "6.3.0",
     "maintainers": [
+        "afzpatel",
         "cgmb",
         "renjithravindrankannath",
         "srekolam"
@@ -129,6 +134,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.3.0",
+            "sha256": "553e67bc0a7fb2d129b15fd4b8889f9ee56ebd29bc885a1fb32918dfcfa3b955"
+        },
         {
             "name": "6.2.4",
             "sha256": "ec212f3f5ff1ff3c71b85dae50d19c1faa344d400b5d1fa376471c2390361dc8"

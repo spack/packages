@@ -118,8 +118,9 @@
     ],
     "description": "ROC-tracer library: Runtimes Generic Callback/Activity APIs. The goal of\nthe implementation is to provide a generic independent from specific\nruntime profiler to trace API and asyncronous activity.\n",
     "homepage": "https://github.com/ROCm/roctracer",
-    "latest_version": "6.2.4",
+    "latest_version": "6.3.0",
     "maintainers": [
+        "afzpatel",
         "renjithravindrankannath",
         "srekolam"
     ],
@@ -132,15 +133,6 @@
             "reverse": false,
             "sha256": "54e0203e7307418864caac312515465e763b72819e8508999afabaed47e8cbdc",
             "version": "@5.3:5.4",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.roctracer-dev",
-            "relative_path": "0002-use-clang-18.patch",
-            "reverse": false,
-            "sha256": "5f0e41cb54c85e290b841801d064ce8e1ab5d227660ea39d44717bb28ae7ad0a",
-            "version": "@6.2",
             "working_dir": "."
         }
     ],
@@ -183,6 +175,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.3.0",
+            "sha256": "6eb09e3b3b45ed68b2ac7ed6848521e645569bcd4a1f3a336cf2473a801308a2"
+        },
         {
             "name": "6.2.4",
             "sha256": "b94c7db8ac57a4a1d7f8115020c36551220c20f33289fd06830495b4914a7d7b"

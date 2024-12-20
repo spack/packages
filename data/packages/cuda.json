@@ -1089,6 +1089,10 @@
             "name": "spfft"
         },
         {
+            "description": "SPH and N-body simulation framework",
+            "name": "sphexa"
+        },
+        {
             "description": "Spiner: Performance portable routines for generic, tabulated, multi-\ndimensional data",
             "name": "spiner"
         },

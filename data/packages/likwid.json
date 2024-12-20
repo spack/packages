@@ -60,7 +60,7 @@
     ],
     "description": "Likwid is a simple to install and use toolsuite of command line\napplications for performance oriented programmers. It works for Intel\nand AMD processors on the Linux operating system. This version uses the\nperf_event backend which reduces the feature set but allows user\ninstalls. See https://github.com/RRZE-\nHPC/likwid/wiki/TutorialLikwidPerf#feature-limitations for information.\n",
     "homepage": "https://hpc.fau.de/research/tools/likwid/",
-    "latest_version": "5.4.0",
+    "latest_version": "5.4.1",
     "maintainers": [
         "TomTheBear"
     ],
@@ -110,6 +110,15 @@
             "url": "https://github.com/RRZE-HPC/likwid/releases/download/v5.2.0/likwid-icx-mem-group-fix.patch",
             "version": "@5.2.0:5.2.2",
             "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.likwid",
+            "reverse": false,
+            "sha256": "81fc733d20098208ec1d35a6d512d287f550050813dcad785a56a5539ec23cce",
+            "url": "https://github.com/RRZE-HPC/likwid/releases/download/v5.4.0/likwid-5.4.0-bstrlib.patch",
+            "version": "@5.4.0",
+            "working_dir": "."
         }
     ],
     "resources": [],
@@ -141,6 +150,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "5.4.1",
+            "sha256": "5773851455dbba489e2e3735931e51547377cd1796c982a5ac88d0f2299c0811"
+        },
         {
             "name": "5.4.0",
             "sha256": "0f2b671c69caa993fedb48187b3bdcc94c22400ec84c926fd0898dbff68aa03e"

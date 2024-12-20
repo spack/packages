@@ -42,7 +42,7 @@
     ],
     "description": "APIs and tools in this module provide the producer functionality for the\nshader pipeline that allows Qt Quick to operate on Vulkan, Metal, and\nDirect3D, in addition to OpenGL.\n",
     "homepage": "https://www.qt.io",
-    "latest_version": "6.7.3",
+    "latest_version": "6.8.1",
     "maintainers": [
         "wdconinc"
     ],
@@ -72,6 +72,14 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.8.1",
+            "sha256": "b780ae2746d98fa3fc896c8ea8cd5c17ea360bedb33948e7343946bd9b115c24"
+        },
+        {
+            "name": "6.8.0",
+            "sha256": "19a6fce3e958d8e8d6cb2c13501a4a8fa61ad9e5bc0cd0496901b34012f2362e"
+        },
         {
             "name": "6.7.3",
             "sha256": "8ec6a48c41d49b6f9595659169b2c69aecd46e96a88131f19f6a4cda394fa3f4"

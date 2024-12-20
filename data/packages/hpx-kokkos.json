@@ -326,6 +326,16 @@
             "description": null,
             "name": "amdgpu_target=none",
             "spec": "+rocm"
+        },
+        {
+            "description": null,
+            "name": "^hpx@1.11:",
+            "spec": "@:0.4.0"
+        },
+        {
+            "description": null,
+            "name": "^kokkos@4.4:",
+            "spec": "@:0.4.0"
         }
     ],
     "dependencies": [
@@ -369,7 +379,7 @@
     "dependent_to": [],
     "description": "HPXKokkos is an interoperability library for HPX and Kokkos\n",
     "homepage": "https://github.com/STEllAR-GROUP/hpx-kokkos",
-    "latest_version": "0.4.0",
+    "latest_version": "0.4.1",
     "maintainers": [
         "G-071",
         "msimberg"
@@ -433,6 +443,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "0.4.1",
+            "sha256": "dd6153c8d626013e30537606f7a791e4f36969219337f41dad942351d7f33ffa"
         },
         {
             "name": "0.4.0",

@@ -66,7 +66,7 @@
     ],
     "description": "xrandr - primitive command line interface to X11 Resize, Rotate, and\nReflect (RandR) extension.\n",
     "homepage": "https://gitlab.freedesktop.org/xorg/app/xrandr",
-    "latest_version": "1.5.2",
+    "latest_version": "1.5.3",
     "maintainers": [
         "wdconinc"
     ],
@@ -81,6 +81,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.5.3",
+            "sha256": "980befa14b48de2fa74dc07bbb22f746acfd12e1f9dbd539eab9a3c9b434d667"
+        },
         {
             "name": "1.5.2",
             "sha256": "efd062cd228dc18a7de26422c81bc4be6a7e62f7f0ad6f9bebdd9ff8385c5668"

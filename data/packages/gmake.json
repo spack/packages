@@ -2166,6 +2166,10 @@
             "name": "dlib"
         },
         {
+            "description": "DLPack is an RFC for common tensor and operator guidelines in deep\nlearning systems.",
+            "name": "dlpack"
+        },
+        {
             "description": "DMD is the reference compiler for the D programming language.",
             "name": "dmd"
         },
@@ -4264,6 +4268,10 @@
         {
             "description": "hipBLAS is a BLAS marshalling library, with multiple supported backends",
             "name": "hipblas"
+        },
+        {
+            "description": "Common files shared by hipBLAS and hipBLASLt",
+            "name": "hipblas-common"
         },
         {
             "description": "hipBLASLt is a library that provides general matrix-matrix operations\nwith a flexible API and extends functionalities beyond a traditional\nBLAS library",
@@ -10580,6 +10588,10 @@
         {
             "description": "Sph2pipe is a portable tool for converting SPHERE files to other\nformats.",
             "name": "sph2pipe"
+        },
+        {
+            "description": "SPH and N-body simulation framework",
+            "name": "sphexa"
         },
         {
             "description": "Spindle improves the library-loading performance of dynamically linked\nHPC applications. Without Spindle large MPI jobs can overload on a\nshared file system when loading dynamically linked libraries, causing\nsite-wide performance problems.",

@@ -45,6 +45,10 @@
             "name": "hip"
         },
         {
+            "description": "hipBLASLt is a library that provides general matrix-matrix operations\nwith a flexible API and extends functionalities beyond a traditional\nBLAS library",
+            "name": "hipblaslt"
+        },
+        {
             "description": "Toolkit for the construction of highly optimized compilers, optimizers,\nand run-time environments.",
             "name": "llvm-amdgpu"
         },
@@ -237,8 +241,9 @@
     ],
     "description": "Radeon Open Compute BLAS library\n",
     "homepage": "https://github.com/ROCm/rocBLAS/",
-    "latest_version": "6.2.4",
+    "latest_version": "6.3.0",
     "maintainers": [
+        "afzpatel",
         "cgmb",
         "haampie",
         "renjithravindrankannath",
@@ -387,6 +392,12 @@
             "destination": "",
             "name": "Tensile",
             "placement": null,
+            "version": "@6.3.0+tensile"
+        },
+        {
+            "destination": "",
+            "name": "Tensile",
+            "placement": null,
             "version": "@master+tensile"
         },
         {
@@ -441,6 +452,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "6.3.0",
+            "sha256": "051f53bb69a9aba55a0c66c32688bf6af80e29e4a6b56b380b3c427e7a6aff9d"
         },
         {
             "name": "6.2.4",

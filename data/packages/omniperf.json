@@ -44,6 +44,10 @@
             "name": "py-matplotlib"
         },
         {
+            "description": "Fundamental package for array computing in Python.",
+            "name": "py-numpy"
+        },
+        {
             "description": "pandas is a fast, powerful, flexible and easy to use open source data\nanalysis and manipulation tool, built on top of the Python programming\nlanguage.",
             "name": "py-pandas"
         },
@@ -79,24 +83,14 @@
     "dependent_to": [],
     "description": "Advanced Profiling and Analytics for AMD Hardware\n",
     "homepage": "https://github.com/ROCm/omniperf",
-    "latest_version": "6.2.4",
+    "latest_version": "6.3.0",
     "maintainers": [
         "afzpatel",
         "renjithravindrankannath",
         "srekolam"
     ],
     "name": "omniperf",
-    "patches": [
-        {
-            "level": 1,
-            "owner": "builtin.omniperf",
-            "relative_path": "0001-remove-VERSION.sha-install.patch",
-            "reverse": false,
-            "sha256": "c11c651031fdcc72c68e2ace4a6b269b21427b38f97dd8697455ea148f838740",
-            "version": "",
-            "working_dir": "."
-        }
-    ],
+    "patches": [],
     "resources": [],
     "variants": [
         {
@@ -121,6 +115,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.3.0",
+            "sha256": "f8e9703b5f78abba6f4a61f69ffc73225d1bb47b591cf33a26ed98060efd65d1"
+        },
         {
             "name": "6.2.4",
             "sha256": "2230260fce0838583899f4969b936ca047b30985a0fffad276ea353232538770"

@@ -30,12 +30,12 @@
             "name": "libtool"
         },
         {
-            "description": "LZMA Utils are legacy data compression software with high compression\nratio. LZMA Utils are no longer developed, although critical bugs may be\nfixed as long as fixing them doesn't require huge changes to the code.\nUsers of LZMA Utils should move to XZ Utils. XZ Utils support the legacy\n.lzma format used by LZMA Utils, and can also emulate the command line\ntools of LZMA Utils. This should make transition from LZMA Utils to XZ\nUtils relatively easy.",
-            "name": "lzma"
-        },
-        {
             "description": "pkgconf is a program which helps to configure compiler and linker flags\nfor development frameworks. It is similar to pkg-config from\nfreedesktop.org, providing additional functionality while also\nmaintaining compatibility.",
             "name": "pkgconfig"
+        },
+        {
+            "description": "XZ Utils is free general-purpose data compression software with high\ncompression ratio. XZ Utils were written for POSIX-like systems, but\nalso work on some not-so-POSIX systems. XZ Utils are the successor to\nLZMA Utils.",
+            "name": "xz"
         }
     ],
     "dependent_to": [

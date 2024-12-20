@@ -15,8 +15,9 @@
     ],
     "description": "ROC-tracer API. Installs the API header files of the roctracer-dev\npackage, mainly to avoid circular dependencies in the ROCm ecosystem.\nFor the ROC-tracer library, please check out roctracer-dev.\n",
     "homepage": "https://github.com/ROCm/roctracer",
-    "latest_version": "6.2.4",
+    "latest_version": "6.3.0",
     "maintainers": [
+        "afzpatel",
         "renjithravindrankannath",
         "srekolam"
     ],
@@ -31,6 +32,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.3.0",
+            "sha256": "6eb09e3b3b45ed68b2ac7ed6848521e645569bcd4a1f3a336cf2473a801308a2"
+        },
         {
             "name": "6.2.4",
             "sha256": "b94c7db8ac57a4a1d7f8115020c36551220c20f33289fd06830495b4914a7d7b"

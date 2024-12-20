@@ -124,8 +124,9 @@
     ],
     "description": "Radeon Open Compute FFT library\n",
     "homepage": "https://github.com/ROCm/rocFFT/",
-    "latest_version": "6.2.4",
+    "latest_version": "6.3.0",
     "maintainers": [
+        "afzpatel",
         "cgmb",
         "haampie",
         "renjithravindrankannath",
@@ -148,7 +149,16 @@
             "relative_path": "0005-Fix-clients-tests-include-rocrand-fftw-include-dir-rocm-6.0.0.patch",
             "reverse": false,
             "sha256": "0f79d303d61c5a4557db943a9c62e74438e785d6dacfef0b7b5dba1e5c0e03a3",
-            "version": "@5.7.0:",
+            "version": "@5.7.0:6.2",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.rocfft",
+            "relative_path": "0005-Fix-clients-tests-include-rocrand-fftw-include-dir-rocm-6.3.patch",
+            "reverse": false,
+            "sha256": "22572897aac4a5fd441f0a332b96a377e0cff87aaccc5fb0dce41c9d626ababf",
+            "version": "@6.3",
             "working_dir": "."
         },
         {
@@ -203,6 +213,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "6.3.0",
+            "sha256": "afc716c95d1c80097f7a965e0c3cf1fe246c9fdf10a8fd9a303202156bd3811d"
         },
         {
             "name": "6.2.4",

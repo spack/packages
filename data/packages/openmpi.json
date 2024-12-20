@@ -642,6 +642,10 @@
             "name": "seissol"
         },
         {
+            "description": "SPH and N-body simulation framework",
+            "name": "sphexa"
+        },
+        {
             "description": "Tandem is a scientific software for SEAS modelling and for solving\nPoisson and linear elasticity problems. It implements the Symmetric\nInterior Penalty Galerkin (SIPG) method using unstructured simplicial\nmeshes (triangle meshes in 2D, tetrahedral meshes in 3D).",
             "name": "tandem"
         },
@@ -652,7 +656,7 @@
     ],
     "description": "An open source Message Passing Interface implementation. The Open MPI\nProject is an open source Message Passing Interface implementation that\nis developed and maintained by a consortium of academic, research, and\nindustry partners. Open MPI is therefore able to combine the expertise,\ntechnologies, and resources from all across the High Performance\nComputing community in order to build the best MPI library available.\nOpen MPI offers advantages for system and software vendors, application\ndevelopers and computer science researchers.\n",
     "homepage": "https://www.open-mpi.org",
-    "latest_version": "5.0.5",
+    "latest_version": "5.0.6",
     "maintainers": [
         "hppritcha",
         "naughtont3"
@@ -979,6 +983,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "5.0.6",
+            "sha256": "bd4183fcbc43477c254799b429df1a6e576c042e74a2d2f8b37d537b2ff98157"
         },
         {
             "name": "5.0.5",

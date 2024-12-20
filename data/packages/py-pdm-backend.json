@@ -44,6 +44,10 @@
         {
             "description": "Make your Python code fly at transonic speeds!",
             "name": "py-transonic"
+        },
+        {
+            "description": "Typer, build great CLIs. Easy to code. Based on Python type hints.",
+            "name": "py-typer"
         }
     ],
     "description": "The build backend used by PDM that supports latest packaging standards\n",

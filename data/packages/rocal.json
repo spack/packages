@@ -43,7 +43,7 @@
     "dependent_to": [],
     "description": "The AMD rocAL is designed to efficiently decode and process images and\nvideos from a variety of storage formats and modify them through a\nprocessing graph programmable by the user.\n",
     "homepage": "https://github.com/ROCm/rocAL",
-    "latest_version": "6.2.4",
+    "latest_version": "6.3.0",
     "maintainers": [
         "afzpatel",
         "renjithravindrankannath",
@@ -75,6 +75,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.3.0",
+            "sha256": "162a0c15e6e7e09c0e13a9d01a493ba3199b77919addf396cd5d273ebf44d759"
+        },
         {
             "name": "6.2.4",
             "sha256": "630813669e75a8ee179b89f489101931a26f7a7ee486fcbe1b0e3cb1803c582c"

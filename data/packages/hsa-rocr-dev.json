@@ -20,6 +20,10 @@
             "name": "hsakmt-roct"
         },
         {
+            "description": "A userspace library for accessing the DRM, direct rendering manager, on\nLinux, BSD and other systems supporting the ioctl interface.",
+            "name": "libdrm"
+        },
+        {
             "description": "Toolkit for the construction of highly optimized compilers, optimizers,\nand run-time environments.",
             "name": "llvm-amdgpu"
         },
@@ -478,6 +482,10 @@
             "name": "spfft"
         },
         {
+            "description": "SPH and N-body simulation framework",
+            "name": "sphexa"
+        },
+        {
             "description": "STRUMPACK -- STRUctured Matrix PACKage - provides linear solvers for\nsparse matrices and for dense rank-structured matrices, i.e., matrices\nthat exhibit some kind of low-rank property. It provides a distributed\nmemory fully algebraic sparse solver and preconditioner. The\npreconditioner is mostly aimed at large sparse linear systems which\nresult from the discretization of a partial differential equation, but\nis not limited to any particular type of problem. STRUMPACK also\nprovides preconditioned GMRES and BiCGStab iterative solvers.",
             "name": "strumpack"
         },
@@ -548,8 +556,9 @@
     ],
     "description": "This repository includes the user mode API nterfaces and libraries\nnecessary for host applications to launch computer kernels to available\nHSA ROCm kernel agents.AMD Heterogeneous System Architecture HSA - Linux\nHSA Runtime for Boltzmann (ROCm) platforms.\n",
     "homepage": "https://github.com/ROCm/ROCR-Runtime",
-    "latest_version": "6.2.4",
+    "latest_version": "6.3.0",
     "maintainers": [
+        "afzpatel",
         "haampie",
         "renjithravindrankannath",
         "srekolam"
@@ -608,6 +617,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "6.3.0",
+            "sha256": "8fd6bcd6a5afd0ae5a59e33b786a525f575183d38c34049c2dab6b9270a1ca3b"
         },
         {
             "name": "6.2.4",

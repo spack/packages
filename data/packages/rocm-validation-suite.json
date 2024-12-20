@@ -24,6 +24,10 @@
             "name": "hip"
         },
         {
+            "description": "hipBLASLt is a library that provides general matrix-matrix operations\nwith a flexible API and extends functionalities beyond a traditional\nBLAS library",
+            "name": "hipblaslt"
+        },
+        {
             "description": "The hipRAND project provides an interface for generating pseudo-random\nand quasi-random numbers with either cuRAND or rocRAND backends.",
             "name": "hiprand"
         },
@@ -67,8 +71,9 @@
     "dependent_to": [],
     "description": "The ROCm Validation Suite (RVS) is a system administrators and cluster\nmanager's tool for detecting and troubleshooting common problems\naffecting AMD GPU(s) running in a high-performance computing\nenvironment, enabled using the ROCm software stack on a compatible\nplatform.\n",
     "homepage": "https://github.com/ROCm/ROCmValidationSuite",
-    "latest_version": "6.2.4",
+    "latest_version": "6.3.0",
     "maintainers": [
+        "afzpatel",
         "renjithravindrankannath",
         "srekolam"
     ],
@@ -127,6 +132,15 @@
             "sha256": "1b22c56cabeeb647018c21b34087786839e42817ecefa209f518ab6c3d77f681",
             "version": "@6.2.1:6.2.4",
             "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.rocm-validation-suite",
+            "relative_path": "009-replacing-rocm-path-with-package-path-6.3.patch",
+            "reverse": false,
+            "sha256": "7a3696022beb3091fb4431b388975cdb4298ba93ecfd424a69f15ee2d3b135f2",
+            "version": "@6.3.0",
+            "working_dir": "."
         }
     ],
     "resources": [],
@@ -153,6 +167,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.3.0",
+            "sha256": "1e2b7eee002dd922625bcf792104e265cc5a57bec21f13d79d68036aa84b422f"
+        },
         {
             "name": "6.2.4",
             "sha256": "ccdea6e955ca145a29d47da74d77b14196c935b57502edaed37fd18029b5220c"

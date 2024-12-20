@@ -1316,6 +1316,10 @@
             "name": "octopus"
         },
         {
+            "description": "Application Profiling, Tracing, and Analysis",
+            "name": "omnitrace"
+        },
+        {
             "description": "The Open-iSCSI project is a high-performance, transport independent,\nmulti-platform implementation of RFC3720 iSCSI.",
             "name": "open-iscsi"
         },

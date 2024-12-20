@@ -5604,6 +5604,10 @@
         "name": "hipblas"
     },
     {
+        "description": "Common files shared by hipBLAS and hipBLASLt\n",
+        "name": "hipblas-common"
+    },
+    {
         "description": "hipBLASLt is a library that provides general matrix-matrix operations\nwith a flexible API and extends functionalities beyond a traditional\nBLAS library\n",
         "name": "hipblaslt"
     },
@@ -30978,6 +30982,10 @@
     {
         "description": "SPHEREPACK - A Package for Modeling Geophysical Processes\n",
         "name": "spherepack"
+    },
+    {
+        "description": "SPH and N-body simulation framework\n",
+        "name": "sphexa"
     },
     {
         "description": "Spindle improves the library-loading performance of dynamically linked\nHPC applications. Without Spindle large MPI jobs can overload on a\nshared file system when loading dynamically linked libraries, causing\nsite-wide performance problems.\n",
