@@ -511,12 +511,13 @@
     ],
     "description": "DLA-Future library: Distributed Linear Algebra with Future\n",
     "homepage": "https://github.com/eth-cscs/DLA-Future",
-    "latest_version": "0.7.1",
+    "latest_version": "0.7.3",
     "maintainers": [
         "rasolca",
         "albestro",
         "msimberg",
-        "aurianer"
+        "aurianer",
+        "RMeli"
     ],
     "name": "dla-future",
     "patches": [
@@ -623,12 +624,8 @@
             "name": "master"
         },
         {
-            "name": "0.7.1",
-            "sha256": "651129686b7fb04178f230c763b371192f9cb91262ddb9959f722449715bdfe8"
-        },
-        {
-            "name": "0.7.0",
-            "sha256": "40a62bc70b0a06246a16348ce6701ccfab1f0c1ace99684de4bfc6c90776f8c6"
+            "name": "0.7.3",
+            "sha256": "8c829b72f4ea9c924abdb6fe2ac7489304be4056ab76b8eba226c33ce7b7dc0e"
         },
         {
             "name": "0.6.0",
@@ -667,5 +664,14 @@
             "sha256": "f7ffcde22edabb3dc24a624e2888f98829ee526da384cd752b2b271c731ca9b1"
         }
     ],
-    "versions_deprecated": []
+    "versions_deprecated": [
+        {
+            "name": "0.7.1",
+            "sha256": "651129686b7fb04178f230c763b371192f9cb91262ddb9959f722449715bdfe8"
+        },
+        {
+            "name": "0.7.0",
+            "sha256": "40a62bc70b0a06246a16348ce6701ccfab1f0c1ace99684de4bfc6c90776f8c6"
+        }
+    ]
 }
