@@ -18,7 +18,12 @@
             "name": "gnuconfig"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "libzip is a C library for reading, creating, and modifying zip archives.",
+            "name": "libzip"
+        }
+    ],
     "description": "LZMA Utils are legacy data compression software with high compression\nratio. LZMA Utils are no longer developed, although critical bugs may be\nfixed as long as fixing them doesn't require huge changes to the code.\nUsers of LZMA Utils should move to XZ Utils. XZ Utils support the legacy\n.lzma format used by LZMA Utils, and can also emulate the command line\ntools of LZMA Utils. This should make transition from LZMA Utils to XZ\nUtils relatively easy.\n",
     "homepage": "https://tukaani.org/lzma/",
     "latest_version": "4.32.7",

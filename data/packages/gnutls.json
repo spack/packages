@@ -99,6 +99,10 @@
             "name": "librelp"
         },
         {
+            "description": "libzip is a C library for reading, creating, and modifying zip archives.",
+            "name": "libzip"
+        },
+        {
             "description": "Free, lightweight, scalable C++ library for finite element methods.",
             "name": "mfem"
         },

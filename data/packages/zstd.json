@@ -142,6 +142,10 @@
             "name": "libtiff"
         },
         {
+            "description": "libzip is a C library for reading, creating, and modifying zip archives.",
+            "name": "libzip"
+        },
+        {
             "description": "The Linux perf tool.",
             "name": "linux-perf"
         },

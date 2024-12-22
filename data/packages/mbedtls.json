@@ -47,6 +47,10 @@
         {
             "description": "libssh2 is a client-side C library implementing the SSH2 protocol",
             "name": "libssh2"
+        },
+        {
+            "description": "libzip is a C library for reading, creating, and modifying zip archives.",
+            "name": "libzip"
         }
     ],
     "description": "mbed TLS (formerly known as PolarSSL) makes it trivially easy for\ndevelopers to include cryptographic and SSL/TLS capabilities in their\n(embedded) products, facilitating this functionality with a minimal\ncoding footprint.\n",

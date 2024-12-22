@@ -28,6 +28,11 @@
             "spec": "@1.14:"
         },
         {
+            "description": "py-scipy: SciPy 1.14: Use Intel LLVM instead of Intel Classic",
+            "name": "%intel",
+            "spec": "@1.14:"
+        },
+        {
             "description": null,
             "name": "%oneapi@:2023.0",
             "spec": "@1.9:"

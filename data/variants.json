@@ -41884,6 +41884,10 @@
         },
         {
             "default": true,
+            "package": "libzip"
+        },
+        {
+            "default": true,
             "package": "py-tables"
         }
     ],
@@ -57685,6 +57689,10 @@
             "package": "blast-plus"
         },
         {
+            "default": true,
+            "package": "libzip"
+        },
+        {
             "default": false,
             "package": "mfem"
         }
@@ -68390,6 +68398,10 @@
         },
         {
             "default": true,
+            "package": "libzip"
+        },
+        {
+            "default": true,
             "package": "pypy"
         },
         {
@@ -68807,6 +68819,12 @@
         {
             "default": false,
             "package": "dftbplus"
+        }
+    ],
+    "mbedtls": [
+        {
+            "default": true,
+            "package": "libzip"
         }
     ],
     "mc": [
@@ -74411,6 +74429,10 @@
         {
             "default": false,
             "package": "libpressio"
+        },
+        {
+            "default": true,
+            "package": "libzip"
         },
         {
             "default": false,
@@ -89093,6 +89115,10 @@
         {
             "default": false,
             "package": "libtiff"
+        },
+        {
+            "default": true,
+            "package": "libzip"
         },
         {
             "default": true,

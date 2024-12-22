@@ -2877,10 +2877,6 @@
             "name": "libyogrt"
         },
         {
-            "description": "libzip is a C library for reading, creating, and modifying zip archives.",
-            "name": "libzip"
-        },
-        {
             "description": "The ZMQ networking/concurrency library and core API",
             "name": "libzmq"
         },

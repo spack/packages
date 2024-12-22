@@ -172,6 +172,10 @@
             "name": "libpressio"
         },
         {
+            "description": "libzip is a C library for reading, creating, and modifying zip archives.",
+            "name": "libzip"
+        },
+        {
             "description": "A compression utility that excels at compressing large files (usually >\n10-50 MB). Larger files and/or more free RAM means that the utility will\nbe able to more effectively compress your files (ie: faster / smaller\nsize), especially if the filesize(s) exceed 100 MB. You can either\nchoose to optimise for speed (fast compression / decompression) or size,\nbut not both.",
             "name": "lrzip"
         },
