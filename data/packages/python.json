@@ -12759,6 +12759,10 @@
             "name": "sicer2"
         },
         {
+            "description": "Silo is a library for reading and writing a wide variety of scientific\ndata to binary, disk files.",
+            "name": "silo"
+        },
+        {
             "description": "Simple reimplementation of the DFT-D3 dispersion correction",
             "name": "simple-dftd3"
         },

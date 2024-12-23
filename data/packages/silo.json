@@ -73,6 +73,10 @@
             "name": "perl"
         },
         {
+            "description": "The Python programming language.",
+            "name": "python"
+        },
+        {
             "description": "Qt is a comprehensive cross-platform C++ application framework.",
             "name": "qt"
         },

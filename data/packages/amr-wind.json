@@ -433,7 +433,7 @@
     ],
     "description": "AMR-Wind is a massively parallel, block-structured adaptive-mesh,\nincompressible flow sover for wind turbine and wind farm simulations.\n",
     "homepage": "https://github.com/Exawind/amr-wind",
-    "latest_version": "3.2.0",
+    "latest_version": "3.3.1",
     "maintainers": [
         "jrood-nrel",
         "psakievich"
@@ -471,6 +471,11 @@
             "default": "none",
             "description": "CUDA architecture",
             "name": "cuda_arch"
+        },
+        {
+            "default": false,
+            "description": "Enable FFT support for MAC projection",
+            "name": "fft"
         },
         {
             "default": "make",
@@ -567,6 +572,26 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "3.3.1",
+            "tag": "v3.3.1"
+        },
+        {
+            "name": "3.3.0",
+            "tag": "v3.3.0"
+        },
+        {
+            "name": "3.2.3",
+            "tag": "v3.2.3"
+        },
+        {
+            "name": "3.2.2",
+            "tag": "v3.2.2"
+        },
+        {
+            "name": "3.2.1",
+            "tag": "v3.2.1"
         },
         {
             "name": "3.2.0",

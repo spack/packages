@@ -50608,6 +50608,10 @@
     "fft": [
         {
             "default": false,
+            "package": "amr-wind"
+        },
+        {
+            "default": false,
             "package": "amrex"
         },
         {

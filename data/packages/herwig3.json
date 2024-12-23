@@ -93,7 +93,7 @@
     "dependent_to": [],
     "description": "Herwig is a multi-purpose particle physics event generator.\n",
     "homepage": "https://herwig.hepforge.org",
-    "latest_version": "7.2.3",
+    "latest_version": "7.3.0",
     "maintainers": [],
     "name": "herwig3",
     "patches": [],
@@ -116,6 +116,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "7.3.0",
+            "sha256": "2624819d2dff105ba952ea1b5cf12eb6f4926d4951774a41907699e2f567686c"
+        },
         {
             "name": "7.2.3",
             "sha256": "5599899379b01b09e331a2426d78d39b7f6ec126db2543e9d340aefe6aa50f84"
