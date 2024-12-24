@@ -94,6 +94,10 @@
             "name": "py-filecheck"
         },
         {
+            "description": "fitter package provides a simple class to identify the distribution from\nwhich a data samples is generated from. It uses 80 distributions from\nScipy and allows you to plot the results to check what is the most\nprobable distribution and the best parameters.",
+            "name": "py-fitter"
+        },
+        {
             "description": "HTTP-based REST interface to Stan, a package for Bayesian inference.",
             "name": "py-httpstan"
         },
