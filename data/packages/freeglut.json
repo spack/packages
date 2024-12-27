@@ -86,7 +86,7 @@
     ],
     "description": "FreeGLUT is a free-software/open-source alternative to the OpenGL\nUtility Toolkit (GLUT) library\n",
     "homepage": "https://freeglut.sourceforge.net/",
-    "latest_version": "3.2.2",
+    "latest_version": "3.6.0",
     "maintainers": [],
     "name": "freeglut",
     "patches": [
@@ -96,7 +96,7 @@
             "reverse": false,
             "sha256": "898e8fb314cbe728d791e9ea69829313143cda039c008f0ca06c1b5730922aa7",
             "url": "https://gitweb.gentoo.org/repo/gentoo.git/plain/media-libs/freeglut/files/freeglut-3.2.1-gcc10-fno-common.patch?id=f9102571b69d9fc05471a592fda252681fdfdef1",
-            "version": "@3.2.1%gcc@10.0:",
+            "version": "@3:3.2.1%gcc@10.0:",
             "working_dir": "."
         },
         {
@@ -105,7 +105,7 @@
             "reverse": false,
             "sha256": "898e8fb314cbe728d791e9ea69829313143cda039c008f0ca06c1b5730922aa7",
             "url": "https://gitweb.gentoo.org/repo/gentoo.git/plain/media-libs/freeglut/files/freeglut-3.2.1-gcc10-fno-common.patch?id=f9102571b69d9fc05471a592fda252681fdfdef1",
-            "version": "@3.2.1%clang@11.0:",
+            "version": "@3:3.2.1%clang@11.0:",
             "working_dir": "."
         },
         {
@@ -114,7 +114,7 @@
             "reverse": false,
             "sha256": "898e8fb314cbe728d791e9ea69829313143cda039c008f0ca06c1b5730922aa7",
             "url": "https://gitweb.gentoo.org/repo/gentoo.git/plain/media-libs/freeglut/files/freeglut-3.2.1-gcc10-fno-common.patch?id=f9102571b69d9fc05471a592fda252681fdfdef1",
-            "version": "@3.2.1%aocc@2.3.0:",
+            "version": "@3:3.2.1%aocc@2.3.0:",
             "working_dir": "."
         }
     ],
@@ -147,6 +147,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.6.0",
+            "sha256": "9c3d4d6516fbfa0280edc93c77698fb7303e443c1aaaf37d269e3288a6c3ea52"
+        },
         {
             "name": "3.2.2",
             "sha256": "c5944a082df0bba96b5756dddb1f75d0cd72ce27b5395c6c1dde85c2ff297a50"
