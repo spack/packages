@@ -386,7 +386,16 @@
             "relative_path": "gsl-2.6-cblas.patch",
             "reverse": false,
             "sha256": "d2eefcf716cdd096e95ef35b270d08dabc1e54808644a3ce81b8521be958200b",
-            "version": "@2.6:+external-cblas",
+            "version": "@2.6:2.7+external-cblas",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.gsl",
+            "relative_path": "gsl-2.8-cblas.patch",
+            "reverse": false,
+            "sha256": "f0dec425af3646e82cb09f761202f5eeed2f36584ecf6ec1e5eb3649752daea9",
+            "version": "@2.8:+external-cblas",
             "working_dir": "."
         }
     ],
