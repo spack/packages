@@ -35,7 +35,7 @@
     "dependent_to": [],
     "description": "Tool to manage (m)ultiple git r(epo)sitories\n",
     "homepage": "https://github.com/GEOS-ESM/mepo",
-    "latest_version": "2.1.0",
+    "latest_version": "2.2.0",
     "maintainers": [
         "mathomp4",
         "pchakraborty"
@@ -51,6 +51,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.2.0",
+            "sha256": "d7cf2456ec2ae9e1724782152b6bf86e06cf071263dbe2eb8ad5b8765b419857"
+        },
         {
             "name": "2.1.0",
             "sha256": "24f94f7fbc15f740e13ace695e204d6370bf4156eca08c24bcbeacaacb1b6c12"

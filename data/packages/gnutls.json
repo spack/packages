@@ -49,6 +49,10 @@
             "name": "libidn2"
         },
         {
+            "description": "libtool -- library building part of autotools.",
+            "name": "libtool"
+        },
+        {
             "description": "The Nettle package contains the low-level cryptographic library that is\ndesigned to fit easily in many contexts.",
             "name": "nettle"
         },
@@ -59,6 +63,10 @@
         {
             "description": "zlib replacement with optimizations for next generation systems.",
             "name": "zlib-api"
+        },
+        {
+            "description": "Zstandard, or zstd as short version, is a fast lossless compression\nalgorithm, targeting real-time compression scenarios at zlib-level and\nbetter compression ratios.",
+            "name": "zstd"
         }
     ],
     "dependent_to": [
@@ -145,7 +153,7 @@
     ],
     "description": "GnuTLS is a secure communications library implementing the SSL, TLS and\nDTLS protocols and technologies around them. It provides a simple C\nlanguage application programming interface (API) to access the secure\ncommunications protocols as well as APIs to parse and write X.509, PKCS\n#12, OpenPGP and other required structures. It is aimed to be portable\nand efficient with focus on security and interoperability.\n",
     "homepage": "https://www.gnutls.org",
-    "latest_version": "3.8.3",
+    "latest_version": "3.8.4",
     "maintainers": [
         "alecbcs"
     ],
@@ -172,9 +180,18 @@
             "default": true,
             "description": "Enable zlib compression support",
             "name": "zlib"
+        },
+        {
+            "default": true,
+            "description": "Enable zstd compression support",
+            "name": "zstd"
         }
     ],
     "versions": [
+        {
+            "name": "3.8.4",
+            "sha256": "2bea4e154794f3f00180fa2a5c51fe8b005ac7a31cd58bd44cdfa7f36ebc3a9b"
+        },
         {
             "name": "3.8.3",
             "sha256": "f74fc5954b27d4ec6dfbb11dea987888b5b124289a3703afcada0ee520f4173e"

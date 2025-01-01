@@ -89113,6 +89113,10 @@
             "package": "gdal"
         },
         {
+            "default": true,
+            "package": "gnutls"
+        },
+        {
             "default": false,
             "package": "grass"
         },

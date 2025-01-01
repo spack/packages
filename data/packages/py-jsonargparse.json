@@ -48,7 +48,7 @@
     ],
     "description": "An extension to python's argparse which simplifies parsing of\nconfiguration options from command line arguments, json configuration\nfiles (yaml or jsonnet supersets), environment variables and hard-coded\ndefaults.\n",
     "homepage": "https://github.com/omni-us/jsonargparse",
-    "latest_version": "4.28.0",
+    "latest_version": "4.35.0",
     "maintainers": [],
     "name": "py-jsonargparse",
     "patches": [],
@@ -66,6 +66,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "4.35.0",
+            "sha256": "815ecd190e4004d2ce69b184fe16915f8f81fd32ae3e479fa37fbb9b89130446"
+        },
         {
             "name": "4.28.0",
             "sha256": "ac835a290ef18cc2a5309e6bfa8ada9c5d63f46ff18701583fc8f3e95314679c"
