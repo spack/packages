@@ -220,9 +220,7 @@
         {
             "name": "16.18.1",
             "sha256": "3d24c9c3a953afee43edc44569045eda56cd45cd58b0539922d17da62736189c"
-        }
-    ],
-    "versions_deprecated": [
+        },
         {
             "name": "15.3.0",
             "sha256": "cadfa384a5f14591b84ce07a1afe529f28deb0d43366fb0ae4e78afba96bfaf2"
@@ -238,7 +236,9 @@
         {
             "name": "14.15.1",
             "sha256": "a1120472bf55aea745287693a6651e16973e1008c9d6107df350126adf9716fe"
-        },
+        }
+    ],
+    "versions_deprecated": [
         {
             "name": "14.13.0",
             "sha256": "8538b2e76aa06ee0e6eb1c118426c3c5ca53b2e49d66591738eacf76e89edd61"
