@@ -139,6 +139,10 @@
             "name": "neocmakelsp"
         },
         {
+            "description": "The Oxide CLI",
+            "name": "oxide-rs"
+        },
+        {
             "description": "Polypolish is a tool for polishing genome assemblies with short reads.\nUnlike other tools in this category, Polypolish uses SAM files where\neach read has been aligned to all possible locations (not just a single\nbest location). This allows it to repair errors in repeat regions that\nother alignment-based polishers cannot fix.",
             "name": "polypolish"
         },

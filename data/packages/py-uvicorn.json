@@ -84,7 +84,7 @@
     ],
     "description": "The lightning-fast ASGI server.\n",
     "homepage": "https://www.uvicorn.org/",
-    "latest_version": "0.20.0",
+    "latest_version": "0.27.1",
     "maintainers": [],
     "name": "py-uvicorn",
     "patches": [],
@@ -102,6 +102,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.27.1",
+            "sha256": "3d9a267296243532db80c83a959a3400502165ade2c1338dea4e67915fd4745a"
+        },
         {
             "name": "0.20.0",
             "sha256": "a4e12017b940247f836bc90b72e725d7dfd0c8ed1c51eb365f5ba30d9f5127d8"

@@ -178,10 +178,19 @@
         {
             "level": 1,
             "owner": "builtin.geant4",
-            "relative_path": "columns.patch",
+            "relative_path": "columns-11.patch",
             "reverse": false,
             "sha256": "a4037c4fbd99696824e8cd9b936da0d2e1e70dc31bb628831c22d5881a44090b",
-            "version": "@10.4:11.2.2",
+            "version": "@11:11.2.2",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.geant4",
+            "relative_path": "columns-10.patch",
+            "reverse": false,
+            "sha256": "977bc489695e15a07121e3f1a9af2f73fe6c6badf2d0673b38a25e4db895ef02",
+            "version": "@10.4:10",
             "working_dir": "."
         },
         {

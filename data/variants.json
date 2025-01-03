@@ -13615,6 +13615,10 @@
             "package": "ovito"
         },
         {
+            "default": "cargo",
+            "package": "oxide-rs"
+        },
+        {
             "default": "autotools",
             "package": "p11-kit"
         },
