@@ -569,7 +569,7 @@
         },
         {
             "default": "none",
-            "description": "Enable offloading support (via the non-standard `-stdpar`)                    for the new NVHPC SDK",
+            "description": "Enable offloading support (via the non-standard `-stdpar`) for the new NVHPC SDK",
             "name": "std_offload"
         },
         {
@@ -584,12 +584,12 @@
         },
         {
             "default": false,
-            "description": "Link oneDPL which implements C++17 executor policies                    (via execution_policy_tag) for different backends",
+            "description": "Link oneDPL which implements C++17 executor policies (via execution_policy_tag) for different backends",
             "name": "std_use_onedpl"
         },
         {
             "default": false,
-            "description": "No-op if ONE_TBB_DIR is set. Link against an in-tree oneTBB                    via FetchContent_Declare, see top level CMakeLists.txt for details",
+            "description": "No-op if ONE_TBB_DIR is set. Link against an in-tree oneTBB via FetchContent_Declare, see top level CMakeLists.txt for details",
             "name": "std_use_tbb"
         },
         {
@@ -619,12 +619,12 @@
         },
         {
             "default": "auto",
-            "description": "Partitioner specifies how a loop template should partition its work among threads.            Possible values are:            AUTO     - Optimize range subdivision based on work-stealing events.            AFFINITY - Proportional splitting that optimizes for cache affinity.            STATIC   - Distribute work uniformly with no additional load balancing.            SIMPLE   - Recursively split its range until it cannot be further subdivided.            See https://spec.oneapi.com/versions/latest/elements/oneTBB/source/algorithms.html#partitioners",
+            "description": "Specifies how a loop template should partition its work among threads",
             "name": "tbb_partitioner"
         },
         {
             "default": false,
-            "description": "Whether to use std::vector<T> for storage or use aligned_alloc.                      C++ vectors are *zero* initialised where as aligned_alloc is                      uninitialised before first use.",
+            "description": "Whether to use std::vector<T> for storage or use aligned_alloc. C++ vectors are *zero* initialised where as aligned_alloc is uninitialised before first use.",
             "name": "tbb_use_vector"
         },
         {
@@ -634,12 +634,12 @@
         },
         {
             "default": "cuda",
-            "description": "Which THRUST implementation to use, supported options include option",
+            "description": "Which THRUST implementation to use",
             "name": "thrust_backend"
         },
         {
             "default": "cuda",
-            "description": "Which THRUST implementation to use, supported options include option=             - CUDA (via https://github.com/NVIDIA/thrust)            - ROCM (via https://github.com/ROCmSoftwarePlatform/rocThrust)",
+            "description": "Which THRUST implementation to use",
             "name": "thrust_submodel"
         }
     ],

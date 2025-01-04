@@ -6539,6 +6539,10 @@
             "package": "express"
         },
         {
+            "default": "generic",
+            "package": "exprtk"
+        },
+        {
             "default": "autotools",
             "package": "extrae"
         },

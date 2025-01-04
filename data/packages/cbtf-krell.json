@@ -138,7 +138,7 @@
         },
         {
             "default": false,
-            "description": "build only the FE tool using the runtime_dir                          to point to target build.",
+            "description": "build only the FE tool using the runtime_dir to point to target build.",
             "name": "crayfe"
         },
         {

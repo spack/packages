@@ -83,7 +83,7 @@
         },
         {
             "default": false,
-            "description": "Build llvm openmpi ompt library as a                          stand alone entity.",
+            "description": "Build llvm openmpi ompt library as a stand alone entity.",
             "name": "standalone"
         }
     ],

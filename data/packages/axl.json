@@ -65,7 +65,7 @@
         },
         {
             "default": false,
-            "description": "Using BBAPI, if source or destination don't support             file extents then fallback to pthreads",
+            "description": "Using BBAPI, if source or destination don't support file extents then fallback to pthreads",
             "name": "bbapi_fallback"
         },
         {

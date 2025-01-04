@@ -114,7 +114,7 @@
         },
         {
             "default": false,
-            "description": "build only the FE tool using the runtime_dir                          to point to target build.",
+            "description": "build only the FE tool using the runtime_dir to point to target build.",
             "name": "crayfe"
         },
         {
@@ -134,22 +134,22 @@
         },
         {
             "default": false,
-            "description": "Build mpi collector for mpich2                         MPI when variant is enabled.",
+            "description": "Build mpi collector for mpich2 MPI when variant is enabled.",
             "name": "mpich2"
         },
         {
             "default": false,
-            "description": "Build mpi collector for SGI                          MPT MPI when variant is enabled.",
+            "description": "Build mpi collector for SGI MPT MPI when variant is enabled.",
             "name": "mpt"
         },
         {
             "default": false,
-            "description": "Build mpi collector for mvapich2                         MPI when variant is enabled.",
+            "description": "Build mpi collector for mvapich2 MPI when variant is enabled.",
             "name": "mvapich2"
         },
         {
             "default": false,
-            "description": "Build mpi collector for openmpi                          MPI when variant is enabled.",
+            "description": "Build mpi collector for openmpi MPI when variant is enabled.",
             "name": "openmpi"
         },
         {
