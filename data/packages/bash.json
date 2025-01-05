@@ -340,6 +340,105 @@
             "level": 0,
             "owner": "builtin.bash",
             "reverse": false,
+            "sha256": "e12a890a2e4f0d9c6ec1ce65b73da4fe116c8e4209bac8ac9dc4cd96f486ab39",
+            "url": "https://ftpmirror.gnu.org/bash/bash-5.2-patches/bash52-027",
+            "version": "@5.2",
+            "working_dir": "."
+        },
+        {
+            "level": 0,
+            "owner": "builtin.bash",
+            "reverse": false,
+            "sha256": "6042780ba2893daca4a3f0f9b65728592cd7bb6d4cebe073855a6aad4d63aac1",
+            "url": "https://ftpmirror.gnu.org/bash/bash-5.2-patches/bash52-028",
+            "version": "@5.2",
+            "working_dir": "."
+        },
+        {
+            "level": 0,
+            "owner": "builtin.bash",
+            "reverse": false,
+            "sha256": "125cacb37e625471924b3ee06c54cb1bf21b3b7fe0e569d24a681b0ec4a29987",
+            "url": "https://ftpmirror.gnu.org/bash/bash-5.2-patches/bash52-029",
+            "version": "@5.2",
+            "working_dir": "."
+        },
+        {
+            "level": 0,
+            "owner": "builtin.bash",
+            "reverse": false,
+            "sha256": "c3ff73230e123acdb5ac216921a386df8f74340459533d776d02811a1f76698f",
+            "url": "https://ftpmirror.gnu.org/bash/bash-5.2-patches/bash52-030",
+            "version": "@5.2",
+            "working_dir": "."
+        },
+        {
+            "level": 0,
+            "owner": "builtin.bash",
+            "reverse": false,
+            "sha256": "c2d1b7be2df771126105020af7fafa00fffd4deff4a4e45d60fc6a235bcba795",
+            "url": "https://ftpmirror.gnu.org/bash/bash-5.2-patches/bash52-031",
+            "version": "@5.2",
+            "working_dir": "."
+        },
+        {
+            "level": 0,
+            "owner": "builtin.bash",
+            "reverse": false,
+            "sha256": "7b9c77daeca93ff711781d7537234166e83ed9835ce1ee7dcd5742319c372a16",
+            "url": "https://ftpmirror.gnu.org/bash/bash-5.2-patches/bash52-032",
+            "version": "@5.2",
+            "working_dir": "."
+        },
+        {
+            "level": 0,
+            "owner": "builtin.bash",
+            "reverse": false,
+            "sha256": "013ec6cc10ad98060a7c34ed5c11187bcc5bf4510f32de0d545db89a9a52a2e2",
+            "url": "https://ftpmirror.gnu.org/bash/bash-5.2-patches/bash52-033",
+            "version": "@5.2",
+            "working_dir": "."
+        },
+        {
+            "level": 0,
+            "owner": "builtin.bash",
+            "reverse": false,
+            "sha256": "899fbb3b338048fe52a9c8252bf65ef1194cdff4f7a3fb3316f5f2396143232e",
+            "url": "https://ftpmirror.gnu.org/bash/bash-5.2-patches/bash52-034",
+            "version": "@5.2",
+            "working_dir": "."
+        },
+        {
+            "level": 0,
+            "owner": "builtin.bash",
+            "reverse": false,
+            "sha256": "821a0a47fa692bb0a39482728b1b396bf951e2912768fea6f3026c813c1913e5",
+            "url": "https://ftpmirror.gnu.org/bash/bash-5.2-patches/bash52-035",
+            "version": "@5.2",
+            "working_dir": "."
+        },
+        {
+            "level": 0,
+            "owner": "builtin.bash",
+            "reverse": false,
+            "sha256": "15c93f4936a5e5b88301f3ede767a23d3dd19635af2f3a91fb4cc0e560ca9057",
+            "url": "https://ftpmirror.gnu.org/bash/bash-5.2-patches/bash52-036",
+            "version": "@5.2",
+            "working_dir": "."
+        },
+        {
+            "level": 0,
+            "owner": "builtin.bash",
+            "reverse": false,
+            "sha256": "8a2c1c3b5125d9ae5b47882f7d2ddf9648805f8c67c13aa5ea7efeac475cda94",
+            "url": "https://ftpmirror.gnu.org/bash/bash-5.2-patches/bash52-037",
+            "version": "@5.2",
+            "working_dir": "."
+        },
+        {
+            "level": 0,
+            "owner": "builtin.bash",
+            "reverse": false,
             "sha256": "ebb07b3dbadd98598f078125d0ae0d699295978a5cdaef6282fe19adef45b5fa",
             "url": "https://ftpmirror.gnu.org/bash/bash-5.1-patches/bash51-001",
             "version": "@5.1",

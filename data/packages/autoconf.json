@@ -628,6 +628,10 @@
             "name": "gsl"
         },
         {
+            "description": "The gSOAP toolkit is an extensive suite of portable C and C++ software\nto develop XML Web services with powerful type-safe XML data bindings.",
+            "name": "gsoap"
+        },
+        {
             "description": "GtkDoc is a tool used to extract API documentation from C-code like\nDoxygen, but handles documentation of GObject (including signals and\nproperties) that makes it very suitable for GTK+ apps and libraries. It\nuses docbook for intermediate files and can produce html by default and\npdf/man-pages with some extra work.",
             "name": "gtk-doc"
         },

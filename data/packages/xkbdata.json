@@ -1,5 +1,10 @@
 {
-    "aliases": [],
+    "aliases": [
+        {
+            "alias_for": "xkbdata",
+            "name": "xkbdata-api"
+        }
+    ],
     "build_system": "AutotoolsPackage",
     "conflicts": [
         {
@@ -22,12 +27,7 @@
             "name": "xkbcomp"
         }
     ],
-    "dependent_to": [
-        {
-            "description": "xkbcommon is a library to handle keyboard descriptions, including\nloading them from disk, parsing them and handling their state. It's\nmainly meant for client toolkits, window systems, and other system\napplications.",
-            "name": "libxkbcommon"
-        }
-    ],
+    "dependent_to": [],
     "description": "The XKB data files for the various keyboard models, layouts, and\nlocales.\n",
     "homepage": "https://www.x.org/wiki/XKB/",
     "latest_version": "1.0.1",

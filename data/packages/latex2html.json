@@ -41,7 +41,7 @@
     "dependent_to": [],
     "description": "LaTeX2HTML is a utility that converts LaTeX documents to web pages in\nHTML.\n",
     "homepage": "https://www.latex2html.org/",
-    "latest_version": "2024",
+    "latest_version": "2024.2",
     "maintainers": [
         "cessenat"
     ],
@@ -74,6 +74,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "2024.2",
+            "sha256": "d99c5963d802edf1516a6301a5275edd54014bea2ca924f8752aacab0cdd23fd"
         },
         {
             "name": "2024",

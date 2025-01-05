@@ -32020,6 +32020,10 @@
         "name": "typhonio"
     },
     {
+        "description": "Source code spell checker.\n",
+        "name": "typos"
+    },
+    {
         "description": "Typst is a new markup-based typesetting system for the sciences.\n",
         "name": "typst"
     },
@@ -33022,6 +33026,10 @@
     {
         "description": "The XKB data files for the various keyboard models, layouts, and\nlocales.\n",
         "name": "xkbdata"
+    },
+    {
+        "description": "This project provides a consistent, well-structured, frequently\nreleased, open source database of keyboard configuration data. The\nproject is targeted to XKB-based systems.\n",
+        "name": "xkbdata-api"
     },
     {
         "description": "XKB event daemon demo.\n",

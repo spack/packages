@@ -243,6 +243,10 @@
             "name": "task"
         },
         {
+            "description": "Source code spell checker.",
+            "name": "typos"
+        },
+        {
             "description": "Typst is a new markup-based typesetting system for the sciences.",
             "name": "typst"
         },
@@ -253,7 +257,7 @@
     ],
     "description": "The Rust programming language toolchain.\n",
     "homepage": "https://www.rust-lang.org",
-    "latest_version": "1.81.0",
+    "latest_version": "1.83.0",
     "maintainers": [
         "alecbcs"
     ],
@@ -286,6 +290,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "1.83.0",
+            "sha256": "722d773bd4eab2d828d7dd35b59f0b017ddf9a97ee2b46c1b7f7fac5c8841c6e"
         },
         {
             "name": "1.81.0",

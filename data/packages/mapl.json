@@ -132,7 +132,7 @@
     ],
     "description": " MAPL is a foundation layer of the GEOS architecture, whose original\npurpose is to supplement the Earth System Modeling Framework (ESMF).\nMAPL fills in missing capabilities of ESMF, provides higher-level\ninterfaces for common boiler-plate logic, and enforces various\ncomponentization conventions across ESMF gridded components within GEOS.\n",
     "homepage": "https://github.com/GEOS-ESM/MAPL",
-    "latest_version": "2.51.1",
+    "latest_version": "2.51.2",
     "maintainers": [
         "AlexanderRichert-NOAA",
         "Hang-Lei-NOAA",
@@ -314,6 +314,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "2.51.2",
+            "sha256": "f6df2be24d0c113af3d0424b674d970621660bf11e59a699373f014a14d0716e"
         },
         {
             "name": "2.51.1",

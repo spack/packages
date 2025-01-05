@@ -68,8 +68,10 @@
     ],
     "description": "This package allows developers to interact with Google Earth Engine\nusing the Python programming language.\n",
     "homepage": "https://github.com/google/earthengine-api",
-    "latest_version": "0.1.344",
-    "maintainers": [],
+    "latest_version": "1.4.3",
+    "maintainers": [
+        "adamjstewart"
+    ],
     "name": "py-earthengine-api",
     "patches": [],
     "resources": [],
@@ -81,6 +83,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.4.3",
+            "sha256": "052b65d4dfc6cc474d70fb78946cd981aee4c52e6df6dfbbe17a9ac5124214d0"
+        },
         {
             "name": "0.1.344",
             "sha256": "bc5a270b8296aaae8574e68dfd93fe878bc5fbe77d1c41f90bcb5e5b830ca5c8"

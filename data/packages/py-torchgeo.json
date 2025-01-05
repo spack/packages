@@ -4,11 +4,6 @@
     "conflicts": [
         {
             "description": null,
-            "name": "py-lightning@2.3",
-            "spec": "@0.4.1:"
-        },
-        {
-            "description": null,
             "name": "py-kornia@0.6.10:",
             "spec": "@:0.4.0"
         },
@@ -19,7 +14,17 @@
         },
         {
             "description": null,
-            "name": "py-rasterio@1.4:",
+            "name": "py-lightning@2.3",
+            "spec": ""
+        },
+        {
+            "description": null,
+            "name": "py-lightning@=2.5.0",
+            "spec": ""
+        },
+        {
+            "description": null,
+            "name": "py-rasterio@1.4.0:1.4.2",
             "spec": ""
         }
     ],
@@ -276,7 +281,7 @@
     "dependent_to": [],
     "description": "TorchGeo: datasets, samplers, transforms, and pre-trained models for\ngeospatial data.\n",
     "homepage": "https://github.com/microsoft/torchgeo",
-    "latest_version": "0.6.1",
+    "latest_version": "0.6.2",
     "maintainers": [
         "adamjstewart",
         "calebrob6"
@@ -315,6 +320,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "0.6.2",
+            "sha256": "82f49f0d18d2c22cc70fc0690641e8dd60e4904a9c50d32c79ebd5020ac10fa7"
         },
         {
             "name": "0.6.1",

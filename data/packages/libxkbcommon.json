@@ -59,8 +59,8 @@
             "name": "wayland-protocols"
         },
         {
-            "description": "The XKB data files for the various keyboard models, layouts, and\nlocales.",
-            "name": "xkbdata"
+            "description": "This project provides a consistent, well-structured, frequently\nreleased, open source database of keyboard configuration data. The\nproject is targeted to XKB-based systems.",
+            "name": "xkbdata-api"
         }
     ],
     "dependent_to": [

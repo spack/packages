@@ -2483,7 +2483,7 @@
     ],
     "description": "pkgconf is a program which helps to configure compiler and linker flags\nfor development frameworks. It is similar to pkg-config from\nfreedesktop.org, providing additional functionality while also\nmaintaining compatibility.\n",
     "homepage": "http://pkgconf.org/",
-    "latest_version": "2.2.0",
+    "latest_version": "2.3.0",
     "maintainers": [],
     "name": "pkgconf",
     "patches": [
@@ -2506,6 +2506,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.3.0",
+            "sha256": "3a9080ac51d03615e7c1910a0a2a8df08424892b5f13b0628a204d3fcce0ea8b"
+        },
         {
             "name": "2.2.0",
             "sha256": "b06ff63a83536aa8c2f6422fa80ad45e4833f590266feb14eaddfe1d4c853c69"

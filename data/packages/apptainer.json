@@ -94,8 +94,10 @@
     "dependent_to": [],
     "description": "Apptainer is an open source container platform designed to be simple,\nfast, and secure. Many container platforms are available, but Apptainer\nis designed for ease-of-use on shared systems and in high performance\ncomputing (HPC) environments. Needs post-install chmod/chown steps to\nenable full functionality. See package definition or `spack-build-\nout.txt` build log for details, e.g.: tail -15 $(spack location -i\napptainer)/.spack/spack-build-out.txt\n",
     "homepage": "https://apptainer.org",
-    "latest_version": "1.3.4",
-    "maintainers": [],
+    "latest_version": "1.3.6",
+    "maintainers": [
+        "wdconinc"
+    ],
     "name": "apptainer",
     "patches": [],
     "resources": [],
@@ -120,6 +122,14 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "1.3.6",
+            "sha256": "b5343369e7fdf67572f887d81f8d2b938f099fb39c876d96430d747935960d51"
+        },
+        {
+            "name": "1.3.5",
+            "sha256": "fe1c977da952edf1056915b2df67ae2203ef06065d4e4901a237c902329306b2"
         },
         {
             "name": "1.3.4",

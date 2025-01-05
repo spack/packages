@@ -16,7 +16,7 @@
     ],
     "description": "Create and manage Google Cloud resources and services directly on the\ncommand line or via scripts using the Google Cloud CLI.\n",
     "homepage": "https://cloud.google.com/cli",
-    "latest_version": "426.0.0",
+    "latest_version": "504.0.1",
     "maintainers": [],
     "name": "google-cloud-cli",
     "patches": [],
@@ -29,6 +29,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "504.0.1",
+            "sha256": "a01ff5312980a18b073c9d2cd6f287ff7d2684f33bd4c927aec20d1d17344874"
+        },
         {
             "name": "426.0.0",
             "sha256": "c653a8ac1e48889005fd00e2de580a27be5a3cb46ceccc570146982c4ddf4245"

@@ -11,7 +11,7 @@
     "dependent_to": [],
     "description": "Updates your Go import lines, adding missing ones and removing\nunreferenced ones.\n",
     "homepage": "https://golang.org/x/tools/cmd/goimports",
-    "latest_version": "0.25.0",
+    "latest_version": "0.28.0",
     "maintainers": [
         "alecbcs"
     ],
@@ -26,6 +26,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.28.0",
+            "sha256": "2c0aa55c1748ba406eec2db21bf44ebec62b1d5812b6ba350b5d421af1544adb"
+        },
         {
             "name": "0.25.0",
             "sha256": "c536188f5db744371f526f3059960945ed580b3ee60553a4f01956251ab36d20"

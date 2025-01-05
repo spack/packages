@@ -537,7 +537,7 @@
     ],
     "description": "SUNDIALS (SUite of Nonlinear and DIfferential/ALgebraic equation\nSolvers)\n",
     "homepage": "https://computing.llnl.gov/projects/sundials",
-    "latest_version": "7.2.0",
+    "latest_version": "7.2.1",
     "maintainers": [
         "balos1",
         "cswoodward",
@@ -864,6 +864,11 @@
         {
             "branch": "develop",
             "name": "develop"
+        },
+        {
+            "commit": "5c53be85c88f63c5201c130b8cb2c686615cfb03",
+            "name": "7.2.1",
+            "tag": "v7.2.1"
         },
         {
             "commit": "0eff39663606f2ff280c4059a947ed62ae38180a",

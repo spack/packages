@@ -166,6 +166,10 @@
             "name": "gfal2-util"
         },
         {
+            "description": "The GObject Introspection is used to describe the program APIs and\ncollect them in a uniform, machine readable format.Cairo is a 2D\ngraphics library with support for multiple output",
+            "name": "gobject-introspection"
+        },
+        {
             "description": "GPTune is an autotuning framework that relies on multitask and transfer\nlearnings to help solve the underlying black-box optimization problem\nusing Bayesian optimization methodologies.",
             "name": "gptune"
         },

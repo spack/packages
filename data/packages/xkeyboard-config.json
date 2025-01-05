@@ -1,5 +1,10 @@
 {
-    "aliases": [],
+    "aliases": [
+        {
+            "alias_for": "xkeyboard-config",
+            "name": "xkbdata-api"
+        }
+    ],
     "build_system": "AutotoolsPackage",
     "conflicts": [
         {

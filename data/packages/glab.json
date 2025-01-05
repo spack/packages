@@ -11,7 +11,7 @@
     "dependent_to": [],
     "description": "GitLab's official command line tool.\n",
     "homepage": "https://gitlab.com/gitlab-org/cli",
-    "latest_version": "1.48.0",
+    "latest_version": "1.51.0",
     "maintainers": [
         "alecbcs"
     ],
@@ -26,6 +26,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.51.0",
+            "sha256": "6a95d827004fee258aacb49a427875e3b505b063cc578933d965cd56481f5a19"
+        },
         {
             "name": "1.48.0",
             "sha256": "45410de23a7bad37feeae18f47f3c0113d81133ad9bb97c8f0b8afc5409272c7"

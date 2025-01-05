@@ -9,7 +9,7 @@
         },
         {
             "description": "gobject-introspection: gobject-introspection still uses distutils which was removed in Python 3.12",
-            "name": "^python@3.12:",
+            "name": "@:1.77 ^python@3.12:",
             "spec": ""
         },
         {
@@ -63,6 +63,10 @@
         {
             "description": "pkgconf is a program which helps to configure compiler and linker flags\nfor development frameworks. It is similar to pkg-config from\nfreedesktop.org, providing additional functionality while also\nmaintaining compatibility.",
             "name": "pkgconfig"
+        },
+        {
+            "description": "A Python utility that aids in the process of downloading, building,\nupgrading, installing, and uninstalling Python packages.",
+            "name": "py-setuptools"
         },
         {
             "description": "The Python programming language.",
@@ -212,6 +216,15 @@
             "sha256": "dcb9e7c956dff49c3a73535829382e8662fa6bd13bdfb416e8eac47b2604fa0a",
             "url": "https://gitlab.gnome.org/GNOME/gobject-introspection/-/commit/1f9284228092b2a7200e8a78bc0ea6702231c6db.diff",
             "version": "@:1.63.1",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.gobject-introspection",
+            "relative_path": "setuptools.patch",
+            "reverse": false,
+            "sha256": "96b2701e5b86e03eaec6a75b11ad5a8a64df60cb2df9cec337e405a1260c6ed7",
+            "version": "@1.78: ^python@3.12:",
             "working_dir": "."
         }
     ],

@@ -170,7 +170,7 @@
     ],
     "description": "The deep learning framework to pretrain, finetune and deploy AI models.\n",
     "homepage": "https://github.com/Lightning-AI/pytorch-lightning",
-    "latest_version": "2.4.0",
+    "latest_version": "2.5.0",
     "maintainers": [
         "adamjstewart"
     ],
@@ -185,6 +185,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.5.0",
+            "sha256": "3090d979acbc5a97a91906687f9530a246f357fd6b1a81a38d8a8c998ba6db5f"
+        },
         {
             "name": "2.4.0",
             "sha256": "9156604cc56e4b2b603f34fa7f0fe5107375c8e6d85e74544b319a15faa9ed0e"

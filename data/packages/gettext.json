@@ -424,7 +424,7 @@
     ],
     "description": "GNU internationalization (i18n) and localization (l10n) library.\n",
     "homepage": "https://www.gnu.org/software/gettext/",
-    "latest_version": "0.22.5",
+    "latest_version": "0.23.1",
     "maintainers": [
         "michaelkuhn"
     ],
@@ -521,6 +521,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.23.1",
+            "sha256": "c1f97a72a7385b7e71dd07b5fea6cdaf12c9b88b564976b23bd8c11857af2970"
+        },
         {
             "name": "0.22.5",
             "sha256": "fe10c37353213d78a5b83d48af231e005c4da84db5ce88037d88355938259640"

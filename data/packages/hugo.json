@@ -11,7 +11,7 @@
     "dependent_to": [],
     "description": "The world's fastest framework for building websites.\n",
     "homepage": "https://gohugo.io",
-    "latest_version": "0.135.0",
+    "latest_version": "0.140.2",
     "maintainers": [
         "alecbcs"
     ],
@@ -31,6 +31,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.140.2",
+            "sha256": "45594ddf39d62d227cfd54c19fb9a09ab851cf537caee6138de0ddd4f1f6f117"
+        },
         {
             "name": "0.135.0",
             "sha256": "a75c4c684d2125255f214d11b9834a5ec6eb64353f4de2c06952d2b3b7430f0e"

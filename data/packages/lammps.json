@@ -919,6 +919,11 @@
         },
         {
             "default": false,
+            "description": "Activate the extra-command package",
+            "name": "extra-command"
+        },
+        {
+            "default": false,
             "description": "Activate the extra-compute package",
             "name": "extra-compute"
         },

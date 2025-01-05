@@ -11,7 +11,7 @@
     "dependent_to": [],
     "description": "The official Go language server developed by the Go team.\n",
     "homepage": "https://golang.org/x/tools/gopls",
-    "latest_version": "0.16.2",
+    "latest_version": "0.17.1",
     "maintainers": [
         "alecbcs"
     ],
@@ -26,6 +26,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.17.1",
+            "sha256": "5794ebd3302ef4fd08de284834b22810dbb17b7e08efeeaa9b96d5c94eb90d6d"
+        },
         {
             "name": "0.16.2",
             "sha256": "be68b3159fcb8cde9ebb8b468f67f03531c58be2de33edbac69e5599f2d4a2c1"

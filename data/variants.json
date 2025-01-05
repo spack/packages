@@ -34912,6 +34912,10 @@
         },
         {
             "default": "cargo",
+            "package": "typos"
+        },
+        {
+            "default": "cargo",
             "package": "typst"
         },
         {
@@ -50111,6 +50115,12 @@
             "package": "py-networkx"
         }
     ],
+    "extra-command": [
+        {
+            "default": false,
+            "package": "lammps"
+        }
+    ],
     "extra-compute": [
         {
             "default": false,
@@ -51219,6 +51229,10 @@
         {
             "default": false,
             "package": "caliper"
+        },
+        {
+            "default": true,
+            "package": "cfitsio"
         },
         {
             "default": false,

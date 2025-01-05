@@ -28,7 +28,7 @@
     ],
     "description": "Binary bootstrap Rust compiler.\n",
     "homepage": "https://www.rust-lang.org",
-    "latest_version": "1.81.0",
+    "latest_version": "1.82.0",
     "maintainers": [
         "alecbcs"
     ],
@@ -43,6 +43,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.82.0",
+            "sha256": "0265c08ae997c4de965048a244605fb1f24a600bbe35047b811c638b8fcf676b"
+        },
         {
             "name": "1.81.0",
             "sha256": "4ca7c24e573dae2f382d8d266babfddc307155e1a0a4025f3bc11db58a6cab3e"
