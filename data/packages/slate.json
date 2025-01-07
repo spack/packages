@@ -462,7 +462,7 @@
             "name": "xsdk"
         }
     ],
-    "description": "The Software for Linear Algebra Targeting Exascale (SLATE) project is to\nprovide fundamental dense linear algebra capabilities to the US\nDepartment of Energy and to the high-performance computing (HPC)\ncommunity at large. To this end, SLATE will provide basic dense matrix\noperations (e.g., matrix multiplication, rank-k update, triangular\nsolve), linear systems solvers, least square solvers, singular value and\neigenvalue solvers.\n",
+    "description": "The Software for Linear Algebra Targeting Exascale (SLATE) project\nprovides fundamental dense linear algebra capabilities to the US\nDepartment of Energy and to the high-performance computing (HPC)\ncommunity at large. To this end, SLATE provides basic dense matrix\noperations (e.g., matrix multiplication, rank-k update, triangular\nsolve), linear systems solvers, least square solvers, singular value and\neigenvalue solvers.\n",
     "homepage": "https://icl.utk.edu/slate/",
     "latest_version": "2024.10.29",
     "maintainers": [

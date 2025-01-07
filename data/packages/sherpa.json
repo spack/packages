@@ -118,7 +118,12 @@
             "name": "texinfo"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "EvtGen is a Monte Carlo event generator that simulates the decays of\nheavy flavour particles, primarily B and D mesons.",
+            "name": "evtgen"
+        }
+    ],
     "description": "Sherpa is a Monte Carlo event generator for the Simulation of High-\nEnergy Reactions of PArticles in lepton-lepton, lepton-photon, photon-\nphoton, lepton-hadron and hadron-hadron collisions.\n",
     "homepage": "https://sherpa-team.gitlab.io",
     "latest_version": "3.0.1",

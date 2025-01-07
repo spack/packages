@@ -134,6 +134,10 @@
             "name": "py-rich-click"
         },
         {
+            "description": "Rucio Client Lite Package",
+            "name": "py-rucio-clients"
+        },
+        {
             "description": "A tool for authoring Sphinx themes with a simple (opinionated) workflow.",
             "name": "py-sphinx-theme-builder"
         },

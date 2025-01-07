@@ -56,7 +56,7 @@
     ],
     "description": "An optionally rootless and daemonless container engine: alias\ndocker=podman\n",
     "homepage": "https://podman.io",
-    "latest_version": "4.5.1",
+    "latest_version": "4.9.3",
     "maintainers": [
         "alecbcs"
     ],
@@ -81,6 +81,22 @@
         }
     ],
     "versions": [
+        {
+            "name": "4.9.3",
+            "sha256": "37afc5bba2738c68dc24400893b99226c658cc9a2b22309f4d7abe7225d8c437"
+        },
+        {
+            "name": "4.8.3",
+            "sha256": "3a99b6c82644fa52929cf4143943c63d6784c84094892bc0e14197fa38a1c7fa"
+        },
+        {
+            "name": "4.7.2",
+            "sha256": "10346c5603546427bd809b4d855d1e39b660183232309128ad17a64969a0193d"
+        },
+        {
+            "name": "4.6.2",
+            "sha256": "2d8e04f0c3819c3f0ed1ca5d01da87e6d911571b96ae690448f7f75df41f2ad1"
+        },
         {
             "name": "4.5.1",
             "sha256": "ee2c8b02b7fe301057f0382637b995a9c6c74e8d530692d6918e4c509ade6e39"

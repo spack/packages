@@ -180,6 +180,10 @@
             "sha256": "680f43dabebb3167ce1c5dee72d1c2c285c3190751245aa51e3260a005a99575"
         },
         {
+            "name": "1.9.11",
+            "sha256": "a9c632f45925e30a3c75cd23a1a04aa4f527419256a4dad499f9c4f026477b5e"
+        },
+        {
             "name": "1.9.10",
             "sha256": "0a708ee9d704945d3387cc437b15ffddf382c70fe5bab39ed2bdbf83c2c28c6f"
         },

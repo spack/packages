@@ -413,8 +413,8 @@
     ],
     "dependent_to": [],
     "description": "Neko: A modern, portable, and scalable framework for high-fidelity\ncomputational fluid dynamics\n",
-    "homepage": "https://github.com/ExtremeFLOW/neko",
-    "latest_version": "0.9.0",
+    "homepage": "https://neko.cfd",
+    "latest_version": "0.9.1",
     "maintainers": [
         "njansson"
     ],
@@ -484,6 +484,10 @@
             "name": "develop"
         },
         {
+            "name": "0.9.1",
+            "sha256": "098bee5cb807d10cdf2fb56111ba8cbc592882a87e4dae18caf9dbda894611ef"
+        },
+        {
             "name": "0.9.0",
             "sha256": "3cffe629ada1631d8774fa51d8bb14b95dc0cea21578c0e07e70deb611a5091a"
         },
@@ -506,7 +510,9 @@
         {
             "name": "0.7.0",
             "sha256": "fe871e0a79f388073e0b3dc191d1c0d5da3a53883f5b1951d88b9423fc79a53c"
-        },
+        }
+    ],
+    "versions_deprecated": [
         {
             "name": "0.6.1",
             "sha256": "6282baaf9c8a201669e274cba23c37922f7ad701ba20ef086442e48f00dabf29"
@@ -543,6 +549,5 @@
             "name": "0.3.0",
             "sha256": "e46bef72f694e59945514ab8b1ad7d74f87ec9dca2ba2b230e2148662baefdc8"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

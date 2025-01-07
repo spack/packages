@@ -30,7 +30,7 @@
     ],
     "description": "Hevea a fast Latex to HTML translator\n",
     "homepage": "http://hevea.inria.fr/",
-    "latest_version": "2.35",
+    "latest_version": "2.36",
     "maintainers": [
         "cessenat",
         "scemama"
@@ -49,6 +49,10 @@
         {
             "branch": "master",
             "name": "develop"
+        },
+        {
+            "name": "2.36",
+            "sha256": "9848359f935af24b6f962b2ed5d5ac32614bffeb37da374b0960cc0f58e69f0c"
         },
         {
             "name": "2.35",

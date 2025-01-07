@@ -5778,6 +5778,10 @@
             "name": "py-ordered-set"
         },
         {
+            "description": "Orderly Set is a package containing multiple implementations of Ordered\nSet.",
+            "name": "py-orderly-set"
+        },
+        {
             "description": "Python library for consuming OpenStack sevice-types-authority data",
             "name": "py-os-service-types"
         },

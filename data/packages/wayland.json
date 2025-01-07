@@ -93,13 +93,13 @@
             "name": "libxkbcommon"
         },
         {
-            "description": "wayland-protocols contains Wayland protocols that add functionality not\navailable in the Wayland core protocol. Such protocols either add\ncompletely new functionality, or extend the functionality of some other\nprotocol either in Wayland core, or some other protocol i n wayland-\nprotocols.",
+            "description": "wayland-protocols contains Wayland protocols that add functionality not\navailable in the Wayland core protocol. Such protocols either add\ncompletely new functionality, or extend the functionality of some other\nprotocol either in Wayland core, or some other protocol in wayland-\nprotocols.",
             "name": "wayland-protocols"
         }
     ],
     "description": "Wayland is a project to define a protocol for a compositor to talk to\nits clients as well as a library implementation of the protocol. The\ncompositor can be a standalone display server running on Linux kernel\nmodesetting and evdev input devices, an X application, or a wayland\nclient itself. The clients can be traditional applications, X\nservers(rootless or fullscreen) or other display servers.\n",
     "homepage": "https://wayland.freedesktop.org/",
-    "latest_version": "1.22.0",
+    "latest_version": "1.23.1",
     "maintainers": [
         "wdconinc"
     ],
@@ -134,6 +134,14 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.23.1",
+            "sha256": "158ec49af498f2558c7fbf7e8b070d010d4e270cc6076003a18a6c813f87e244"
+        },
+        {
+            "name": "1.23.0",
+            "sha256": "7c5c28fa73f22d1c5021e17e1148f29ab17bf8b776a406f1c4489d3e2992ec3a"
+        },
         {
             "name": "1.22.0",
             "sha256": "bbca9c906a8fb8992409ebf51812f19e2a784b2c169d4b784cdd753b4bb448ef"

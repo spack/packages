@@ -61,9 +61,9 @@
             "name": "libxkbcommon"
         }
     ],
-    "description": "wayland-protocols contains Wayland protocols that add functionality not\navailable in the Wayland core protocol. Such protocols either add\ncompletely new functionality, or extend the functionality of some other\nprotocol either in Wayland core, or some other protocol i n wayland-\nprotocols.\n",
+    "description": "wayland-protocols contains Wayland protocols that add functionality not\navailable in the Wayland core protocol. Such protocols either add\ncompletely new functionality, or extend the functionality of some other\nprotocol either in Wayland core, or some other protocol in wayland-\nprotocols.\n",
     "homepage": "https://wayland.freedesktop.org/",
-    "latest_version": "1.37",
+    "latest_version": "1.39",
     "maintainers": [
         "wdconinc"
     ],
@@ -93,6 +93,14 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.39",
+            "sha256": "42c16435dfc83f320ff727b6d446bb0d4feb361dc11796a2c5d3c0fb6532a517"
+        },
+        {
+            "name": "1.38",
+            "sha256": "a6069948458a1d86cea2b33a9735e67d7524118c32c388d75efb881a9e9d2cd9"
+        },
         {
             "name": "1.37",
             "sha256": "c3b215084eb4cf318415533554c2c2714e58ed75847d7c3a8e50923215ffbbf3"

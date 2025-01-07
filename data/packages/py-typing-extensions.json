@@ -562,6 +562,10 @@
             "name": "py-rtree"
         },
         {
+            "description": "Rucio Client Lite Package",
+            "name": "py-rucio-clients"
+        },
+        {
             "description": "scikit-build is an improved build system generator for CPython\nC/C++/Fortran/Cython extensions. It provides better support for\nadditional compilers, build systems, cross compilation, and locating\ndependencies and their associated build requirements. The scikit-build\npackage is fundamentally just glue between the setuptools Python module\nand CMake.",
             "name": "py-scikit-build"
         },

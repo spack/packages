@@ -1,7 +1,13 @@
 {
     "aliases": [],
     "build_system": "CMakePackage",
-    "conflicts": [],
+    "conflicts": [
+        {
+            "description": "edm4hep: Incomplete consteval support in clang",
+            "name": "%clang@:16",
+            "spec": "@0.99.1:"
+        }
+    ],
     "dependencies": [
         {
             "description": "Catch2 is a multi-paradigm test framework for C++, which also supports\nObjective-C (and maybe C).",

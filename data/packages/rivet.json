@@ -3,9 +3,9 @@
     "build_system": "AutotoolsPackage",
     "conflicts": [
         {
-            "description": "rivet: patch-level zero requires at least 4.0.1",
-            "name": "hepmc@3.3.0",
-            "spec": "@:4.0.0 hepmc=3"
+            "description": "rivet: HepMC 3.x.0 requires at least 3.1.11 or 4.0.1",
+            "name": "^hepmc@3.1.0,3.2.0,3.3.0",
+            "spec": "@:3.1.10,4.0.0 hepmc=3"
         },
         {
             "description": null,
@@ -170,6 +170,10 @@
         {
             "name": "4.0.0",
             "sha256": "d3c42d9b83ede3e7f4b534535345c2e06e6dafb851454c2b0a5d2331ab0f04d0"
+        },
+        {
+            "name": "3.1.11",
+            "sha256": "cc023712425ff15c55298cd6d6bb5d09116fe6616791b457de60888b75291465"
         },
         {
             "name": "3.1.10",

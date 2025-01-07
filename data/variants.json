@@ -22616,6 +22616,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-orderly-set"
+        },
+        {
+            "default": "python_pip",
             "package": "py-orjson"
         },
         {
@@ -23355,7 +23359,7 @@
             "package": "py-py-cpuinfo"
         },
         {
-            "default": "generic",
+            "default": "cargo",
             "package": "py-py-spy"
         },
         {
@@ -58869,6 +58873,10 @@
             "package": "py-arm-pyart"
         },
         {
+            "default": true,
+            "package": "py-espresso"
+        },
+        {
             "default": false,
             "package": "py-heat"
         },
@@ -59427,6 +59435,10 @@
         {
             "default": false,
             "package": "gfal2"
+        },
+        {
+            "default": false,
+            "package": "libxml2"
         },
         {
             "default": false,
@@ -82349,6 +82361,12 @@
         {
             "default": false,
             "package": "icedtea"
+        }
+    ],
+    "sherpa": [
+        {
+            "default": false,
+            "package": "evtgen"
         }
     ],
     "shlib_symbol_version": [

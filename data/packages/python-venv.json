@@ -6570,6 +6570,10 @@
             "name": "py-ordered-set"
         },
         {
+            "description": "Orderly Set is a package containing multiple implementations of Ordered\nSet.",
+            "name": "py-orderly-set"
+        },
+        {
             "description": "Fast, correct Python JSON library supporting dataclasses, datetimes, and\nnumpy.",
             "name": "py-orjson"
         },

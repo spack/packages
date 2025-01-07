@@ -4,6 +4,11 @@
     "conflicts": [
         {
             "description": null,
+            "name": "%gcc@:8",
+            "spec": ""
+        },
+        {
+            "description": null,
             "name": "generator=make",
             "spec": ""
         }
@@ -29,7 +34,7 @@
     "dependent_to": [],
     "description": "High-efficiency floating-point neural network inference operators for\nmobile, server, and Web\n",
     "homepage": "https://github.com/google/XNNPACK",
-    "latest_version": "2022-02-16",
+    "latest_version": "2024-02-29",
     "maintainers": [],
     "name": "xnnpack",
     "patches": [
@@ -48,31 +53,109 @@
             "destination": "deps",
             "name": "clog",
             "placement": "clog",
-            "version": ""
+            "version": "@2022-12-22:2023-1-17"
+        },
+        {
+            "destination": "deps",
+            "name": "clog",
+            "placement": "clog",
+            "version": "@:2022-2-16"
         },
         {
             "destination": "deps",
             "name": "cpuinfo",
             "placement": "cpuinfo",
-            "version": ""
+            "version": "@2024-02-29:"
         },
         {
             "destination": "deps",
             "name": "fp16",
             "placement": "fp16",
-            "version": ""
-        },
-        {
-            "destination": "deps",
-            "name": "fxdiv",
-            "placement": "fxdiv",
-            "version": ""
+            "version": "@2024-02-29:"
         },
         {
             "destination": "deps",
             "name": "pthreadpool",
             "placement": "pthreadpool",
-            "version": ""
+            "version": "@2024-02-29:"
+        },
+        {
+            "destination": "deps",
+            "name": "cpuinfo",
+            "placement": "cpuinfo",
+            "version": "@2022-12-22"
+        },
+        {
+            "destination": "deps",
+            "name": "pthreadpool",
+            "placement": "pthreadpool",
+            "version": "@2022-12-22"
+        },
+        {
+            "destination": "deps",
+            "name": "cpuinfo",
+            "placement": "cpuinfo",
+            "version": "@2021-02-22:2022-2-16"
+        },
+        {
+            "destination": "deps",
+            "name": "pthreadpool",
+            "placement": "pthreadpool",
+            "version": "@2021-02-22:2022-2-16"
+        },
+        {
+            "destination": "deps",
+            "name": "cpuinfo",
+            "placement": "cpuinfo",
+            "version": "@2020-03-23"
+        },
+        {
+            "destination": "deps",
+            "name": "pthreadpool",
+            "placement": "pthreadpool",
+            "version": "@2020-03-23"
+        },
+        {
+            "destination": "deps",
+            "name": "cpuinfo",
+            "placement": "cpuinfo",
+            "version": "@2020-02-24"
+        },
+        {
+            "destination": "deps",
+            "name": "pthreadpool",
+            "placement": "pthreadpool",
+            "version": "@2020-02-24"
+        },
+        {
+            "destination": "deps",
+            "name": "fp16",
+            "placement": "fp16",
+            "version": "@2021-06-21:2022-12-22"
+        },
+        {
+            "destination": "deps",
+            "name": "fp16",
+            "placement": "fp16",
+            "version": "@2021-02-22"
+        },
+        {
+            "destination": "deps",
+            "name": "fp16",
+            "placement": "fp16",
+            "version": "@:2020-3-23"
+        },
+        {
+            "destination": "deps",
+            "name": "fxdiv",
+            "placement": "fxdiv",
+            "version": "@:2020-3-23"
+        },
+        {
+            "destination": "deps",
+            "name": "fxdiv",
+            "placement": "fxdiv",
+            "version": "@2021-02-22:"
         },
         {
             "destination": "deps",
@@ -105,8 +188,12 @@
     ],
     "versions": [
         {
-            "branch": "master",
-            "name": "master"
+            "commit": "fcbf55af6cf28a4627bcd1f703ab7ad843f0f3a2",
+            "name": "2024-02-29"
+        },
+        {
+            "commit": "51a987591a6fc9f0fc0707077f53d763ac132cbf",
+            "name": "2022-12-22"
         },
         {
             "commit": "ae108ef49aa5623b896fc93d4298c49d1750d9ba",
@@ -129,5 +216,10 @@
             "name": "2020-02-24"
         }
     ],
-    "versions_deprecated": []
+    "versions_deprecated": [
+        {
+            "branch": "master",
+            "name": "master"
+        }
+    ]
 }

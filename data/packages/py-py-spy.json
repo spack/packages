@@ -1,6 +1,6 @@
 {
     "aliases": [],
-    "build_system": "Package",
+    "build_system": "CargoPackage",
     "conflicts": [],
     "dependencies": [
         {
@@ -24,19 +24,23 @@
     ],
     "description": "A Sampling Profiler for Python.\n",
     "homepage": "https://github.com/benfred/py-spy",
-    "latest_version": "0.3.8",
+    "latest_version": "0.4.0",
     "maintainers": [],
     "name": "py-py-spy",
     "patches": [],
     "resources": [],
     "variants": [
         {
-            "default": "generic",
+            "default": "cargo",
             "description": "Build systems supported by the package",
             "name": "build_system"
         }
     ],
     "versions": [
+        {
+            "name": "0.4.0",
+            "sha256": "13a5c4b949947425670eedac05b6dd27edbc736b75f1587899efca1a7ef79ac3"
+        },
         {
             "name": "0.3.8",
             "sha256": "9dbfd0ea79ef31a2966891e86cf6238ed3831938cf562e71848e07b7009cf57d"

@@ -82,6 +82,10 @@
             "name": "py-circus"
         },
         {
+            "description": "Python composable command line interface toolkit.",
+            "name": "py-click"
+        },
+        {
             "description": "Extended pickling support for Python objects.",
             "name": "py-cloudpickle"
         },

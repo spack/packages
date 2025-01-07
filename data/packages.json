@@ -19700,6 +19700,10 @@
         "name": "py-ordered-set"
     },
     {
+        "description": "Orderly Set is a package containing multiple implementations of Ordered\nSet.\n",
+        "name": "py-orderly-set"
+    },
+    {
         "description": "Fast, correct Python JSON library supporting dataclasses, datetimes, and\nnumpy.\n",
         "name": "py-orjson"
     },
@@ -30712,7 +30716,7 @@
         "name": "slang"
     },
     {
-        "description": "The Software for Linear Algebra Targeting Exascale (SLATE) project is to\nprovide fundamental dense linear algebra capabilities to the US\nDepartment of Energy and to the high-performance computing (HPC)\ncommunity at large. To this end, SLATE will provide basic dense matrix\noperations (e.g., matrix multiplication, rank-k update, triangular\nsolve), linear systems solvers, least square solvers, singular value and\neigenvalue solvers.\n",
+        "description": "The Software for Linear Algebra Targeting Exascale (SLATE) project\nprovides fundamental dense linear algebra capabilities to the US\nDepartment of Energy and to the high-performance computing (HPC)\ncommunity at large. To this end, SLATE provides basic dense matrix\noperations (e.g., matrix multiplication, rank-k update, triangular\nsolve), linear systems solvers, least square solvers, singular value and\neigenvalue solvers.\n",
         "name": "slate"
     },
     {
@@ -32556,7 +32560,7 @@
         "name": "wayland"
     },
     {
-        "description": "wayland-protocols contains Wayland protocols that add functionality not\navailable in the Wayland core protocol. Such protocols either add\ncompletely new functionality, or extend the functionality of some other\nprotocol either in Wayland core, or some other protocol i n wayland-\nprotocols.\n",
+        "description": "wayland-protocols contains Wayland protocols that add functionality not\navailable in the Wayland core protocol. Such protocols either add\ncompletely new functionality, or extend the functionality of some other\nprotocol either in Wayland core, or some other protocol in wayland-\nprotocols.\n",
         "name": "wayland-protocols"
     },
     {

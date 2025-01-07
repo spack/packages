@@ -24,7 +24,7 @@
     ],
     "dependent_to": [],
     "description": "A collection of codes for the generation of multi-parton processes in\nhadronic collisions.\n",
-    "homepage": "http://mlm.home.cern.ch/mlm/alpgen/",
+    "homepage": "https://alpgen.web.cern.ch/",
     "latest_version": "2.1.4",
     "maintainers": [],
     "name": "alpgen",

@@ -88,6 +88,10 @@
         {
             "name": "0.7.0",
             "sha256": "ff797846578a9f2a201b53442aedeb543319466870fbe1c701eab66dd7681165"
+        },
+        {
+            "name": "0.5.0",
+            "sha256": "4c285a5585c94d32c305444af934f0078b6a8ba91464f3f85807c91cd499d195"
         }
     ],
     "versions_deprecated": []

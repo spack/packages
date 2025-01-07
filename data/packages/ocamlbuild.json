@@ -26,7 +26,7 @@
     ],
     "description": "OCamlbuild is a generic build tool, that has built-in rules for building\nOCaml library and programs.\n",
     "homepage": "https://ocaml.org/learn/tutorials/ocamlbuild/",
-    "latest_version": "0.14.0",
+    "latest_version": "0.15.0",
     "maintainers": [
         "cessenat",
         "scemama"
@@ -45,6 +45,22 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "0.15.0",
+            "sha256": "d3f6ee73100b575d4810247d10ed8f53fccef4e90daf0e4a4c5f3e6a3030a9c9"
+        },
+        {
+            "name": "0.14.3",
+            "sha256": "ce151bfd2141abc6ee0b3f25ba609e989ff564a48bf795d6fa7138a4db0fc2e1"
+        },
+        {
+            "name": "0.14.2",
+            "sha256": "62d2dab6037794c702a83ac584a7066d018cf1645370d1f3d5764c2b458791b1"
+        },
+        {
+            "name": "0.14.1",
+            "sha256": "4e1279ff0ef80c862eaa5207a77020d741e89ef94f0e4a92a37c4188dbf08256"
         },
         {
             "name": "0.14.0",

@@ -3,6 +3,11 @@
     "build_system": "AutotoolsPackage",
     "conflicts": [
         {
+            "description": "herwig3: At least one external EvtGen component required",
+            "name": "^evtgen~photos~pythia8~sherpa~tauola",
+            "spec": ""
+        },
+        {
             "description": null,
             "name": "arch=windows-None-None",
             "spec": "build_system=autotools"
