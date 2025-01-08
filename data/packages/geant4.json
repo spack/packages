@@ -178,33 +178,6 @@
         {
             "level": 1,
             "owner": "builtin.geant4",
-            "relative_path": "columns-11.patch",
-            "reverse": false,
-            "sha256": "a4037c4fbd99696824e8cd9b936da0d2e1e70dc31bb628831c22d5881a44090b",
-            "version": "@11:11.2.2",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.geant4",
-            "relative_path": "columns-10.patch",
-            "reverse": false,
-            "sha256": "977bc489695e15a07121e3f1a9af2f73fe6c6badf2d0673b38a25e4db895ef02",
-            "version": "@10.4:10",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.geant4",
-            "relative_path": "CLHEP-10.03.03.patch",
-            "reverse": false,
-            "sha256": "e16ee928836a9ffb14b650a7ab0f06c9511af04abdf2f726f39e99f40de65d8c",
-            "version": "@10.3",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.geant4",
             "relative_path": "geant4-10.6.patch",
             "reverse": false,
             "sha256": "ff5d9b45dae31433aace16394b540a31850946c8208cd9630f0fb7d6f062f0fa",
@@ -214,7 +187,7 @@
         {
             "level": 1,
             "owner": "builtin.geant4",
-            "relative_path": "cxx17.patch",
+            "relative_path": "geant4-10.3-cxx17-cmake.patch",
             "reverse": false,
             "sha256": "41a5b9fb6bed45be72cdff077299b4238bb4402b6128ad2672c3542d5871da98",
             "version": "@10.3 cxxstd=17",
@@ -223,10 +196,19 @@
         {
             "level": 1,
             "owner": "builtin.geant4",
-            "relative_path": "cxx17_geant4_10_0.patch",
+            "relative_path": "geant4-10.4-cxx17-cmake.patch",
             "reverse": false,
             "sha256": "3af0d750f6b62935315cf241d8f4727b8ebec6825ec03225c9b3bd5e1dca3319",
-            "version": "@10.4.0 cxxstd=17",
+            "version": "@10.4:10.4.2 cxxstd=17",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.geant4",
+            "relative_path": "package-cache.patch",
+            "reverse": false,
+            "sha256": "2979cb7c8005643ae9edb9f0f5747582807f288e88a8c6dddf2b349c954b69ae",
+            "version": "@10.7.0:11.1.2 ^cmake@3.17:",
             "working_dir": "."
         },
         {
@@ -241,10 +223,28 @@
         {
             "level": 1,
             "owner": "builtin.geant4",
-            "relative_path": "package-cache.patch",
+            "relative_path": "geant4-10.7-cxx20-g3tog4.patch",
             "reverse": false,
-            "sha256": "2979cb7c8005643ae9edb9f0f5747582807f288e88a8c6dddf2b349c954b69ae",
-            "version": "@10.7.0:11.1.2 ^cmake@3.17:",
+            "sha256": "33ae14a255784f52f5279e5ee9830e712d29da57408dcf2140e23f50a04658c4",
+            "version": "@:10.7 cxxstd=20",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.geant4",
+            "relative_path": "columns-10.patch",
+            "reverse": false,
+            "sha256": "977bc489695e15a07121e3f1a9af2f73fe6c6badf2d0673b38a25e4db895ef02",
+            "version": "@10.4:10",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.geant4",
+            "relative_path": "columns-11.patch",
+            "reverse": false,
+            "sha256": "a4037c4fbd99696824e8cd9b936da0d2e1e70dc31bb628831c22d5881a44090b",
+            "version": "@11:11.2.2",
             "working_dir": "."
         },
         {

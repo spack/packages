@@ -109,7 +109,17 @@
     "latest_version": "2.40.2",
     "maintainers": [],
     "name": "util-linux",
-    "patches": [],
+    "patches": [
+        {
+            "level": 1,
+            "owner": "builtin.util-linux",
+            "relative_path": "missing-errno-header.patch",
+            "reverse": false,
+            "sha256": "040a65005bec02c990fddcd498400fd1a898dfc98a157b2399bd4bba450e15f7",
+            "version": "@2.40.2",
+            "working_dir": "."
+        }
+    ],
     "resources": [],
     "variants": [
         {
