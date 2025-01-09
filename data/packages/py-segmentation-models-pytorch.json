@@ -16,6 +16,10 @@
             "name": "py-huggingface-hub"
         },
         {
+            "description": "Fundamental package for array computing in Python.",
+            "name": "py-numpy"
+        },
+        {
             "description": "The PyPA recommended tool for installing Python packages.",
             "name": "py-pip"
         },
@@ -34,6 +38,10 @@
         {
             "description": "(Unofficial) PyTorch Image Models.",
             "name": "py-timm"
+        },
+        {
+            "description": "Tensors and Dynamic neural networks in Python with strong GPU\nacceleration.",
+            "name": "py-torch"
         },
         {
             "description": "Image and video datasets and models for torch deep learning.",
@@ -64,7 +72,7 @@
     ],
     "description": "Python library with Neural Networks for Image Segmentation based on\nPyTorch.\n",
     "homepage": "https://github.com/qubvel/segmentation_models.pytorch",
-    "latest_version": "0.3.4",
+    "latest_version": "0.4.0",
     "maintainers": [
         "adamjstewart"
     ],
@@ -79,6 +87,12 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.4.0",
+            "sha256": "8833e63f0846090667be6fce05a2bbebbd1537776d3dea72916aa3db9e22e55b"
+        }
+    ],
+    "versions_deprecated": [
         {
             "name": "0.3.4",
             "sha256": "f4aee7f6add479bd3c3953e855b7055fc657dc6800bf7fc8ab733fd7f8acb163"
@@ -107,6 +121,5 @@
             "name": "0.2.0",
             "sha256": "247266722c23feeef16b0862456c5ce815e5f0a77f95c2cd624a71bf00d955df"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

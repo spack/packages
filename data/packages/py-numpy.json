@@ -2760,6 +2760,10 @@
             "name": "py-seekpath"
         },
         {
+            "description": "Python library with Neural Networks for Image Segmentation based on\nPyTorch.",
+            "name": "py-segmentation-models-pytorch"
+        },
+        {
             "description": "seqeval is a Python framework for sequence labeling evaluation. seqeval\ncan evaluate the performance of chunking tasks such as named-entity\nrecognition, part-of-speech tagging, semantic role labeling and so on.",
             "name": "py-seqeval"
         },

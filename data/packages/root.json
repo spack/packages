@@ -73,6 +73,11 @@
             "spec": "@:6.7"
         },
         {
+            "description": null,
+            "name": "%gcc@:10",
+            "spec": "cxxstd=20"
+        },
+        {
             "description": "root: root+tmva-gpu requires CUDA",
             "name": "+tmva-gpu",
             "spec": "~cuda"
@@ -642,7 +647,7 @@
             "reverse": false,
             "sha256": "8da36032082e65ae246c03558a4c3fd67b157d1d0c6d20adac9de263279d1db6",
             "url": "https://github.com/root-project/root/commit/2f00d6df258906c1f6fe848135a88b836db3077f.patch?full_index=1",
-            "version": "@6.28:6.28.12",
+            "version": "@6.28.6:6.28.12",
             "working_dir": "."
         },
         {

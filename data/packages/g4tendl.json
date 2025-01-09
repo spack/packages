@@ -3,7 +3,12 @@
     "build_system": "Package",
     "conflicts": [],
     "dependencies": [],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "A bundle package to hold Geant4 data packages",
+            "name": "geant4-data"
+        }
+    ],
     "description": "Geant4 data for incident particles [optional]\n",
     "homepage": "https://geant4.web.cern.ch",
     "latest_version": "1.4",

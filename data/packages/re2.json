@@ -44,6 +44,10 @@
             "name": "arrow"
         },
         {
+            "description": "Google test framework for C++. Also called gtest.",
+            "name": "googletest"
+        },
+        {
             "description": "A high performance, open-source universal RPC framework.",
             "name": "grpc"
         },

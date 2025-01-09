@@ -189,6 +189,12 @@
             "package": "nalu-wind"
         }
     ],
+    "absl": [
+        {
+            "default": false,
+            "package": "googletest"
+        }
+    ],
     "abstract": [
         {
             "default": false,
@@ -22173,6 +22179,10 @@
         {
             "default": "python_pip",
             "package": "py-neo"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-neo4j"
         },
         {
             "default": "python_pip",
@@ -46255,7 +46265,7 @@
             "package": "google-cloud-cpp"
         },
         {
-            "default": "11",
+            "default": "14",
             "package": "googletest"
         },
         {
@@ -72423,6 +72433,12 @@
             "package": "genie"
         }
     ],
+    "nudexlib": [
+        {
+            "default": true,
+            "package": "geant4-data"
+        }
+    ],
     "num_jobs": [
         {
             "default": 0,
@@ -85145,6 +85161,12 @@
             "package": "trilinos"
         }
     ],
+    "tendl": [
+        {
+            "default": true,
+            "package": "geant4-data"
+        }
+    ],
     "tengine": [
         {
             "default": false,
@@ -87009,6 +87031,12 @@
         {
             "default": false,
             "package": "boost"
+        }
+    ],
+    "urrpt": [
+        {
+            "default": true,
+            "package": "geant4-data"
         }
     ],
     "use_arch": [

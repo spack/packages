@@ -890,6 +890,10 @@
             "name": "py-sdmetrics"
         },
         {
+            "description": "Python library with Neural Networks for Image Segmentation based on\nPyTorch.",
+            "name": "py-segmentation-models-pytorch"
+        },
+        {
             "description": "A workflow library to easily integrate machine learning libraries with\nhigh performance computing simulations and applications",
             "name": "py-smartsim"
         },

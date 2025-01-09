@@ -19260,6 +19260,10 @@
         "name": "py-neo"
     },
     {
+        "description": "This is the neo4j bolt driver for python from the official repository\n",
+        "name": "py-neo4j"
+    },
+    {
         "description": "Neo4j Bolt connector for Python\n",
         "name": "py-neobolt"
     },

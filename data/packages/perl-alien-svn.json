@@ -12,6 +12,10 @@
             "name": "apr-util"
         },
         {
+            "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
+            "name": "gmake"
+        },
+        {
             "description": "This library provides useful functions commonly found on BSD systems,\nand lacking on others like GNU systems, thus making it easier to port\nprojects with strong BSD origins, without needing to embed the same code\nover and over again on each project.",
             "name": "libbsd"
         },

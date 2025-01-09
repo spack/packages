@@ -5499,8 +5499,25 @@
     "latest_version": "1.12.1",
     "maintainers": [],
     "name": "ninja",
-    "patches": [],
-    "resources": [],
+    "patches": [
+        {
+            "level": 1,
+            "owner": "builtin.ninja",
+            "reverse": false,
+            "sha256": "93f4bb3234c3af04e2454c6f0ef2eca3107edd4537a70151ea66f1a1d4c22dad",
+            "url": "https://github.com/ninja-build/ninja/commit/f14a949534d673f847c407644441c8f37e130ce9.patch?full_index=1",
+            "version": "@1.12",
+            "working_dir": "."
+        }
+    ],
+    "resources": [
+        {
+            "destination": "",
+            "name": "googletest",
+            "placement": "gtest",
+            "version": "@1.12:"
+        }
+    ],
     "variants": [
         {
             "default": "generic",

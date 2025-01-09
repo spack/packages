@@ -60,6 +60,10 @@
             "name": "g4saiddata"
         },
         {
+            "description": "Geant4 data for incident particles [optional]",
+            "name": "g4tendl"
+        },
+        {
             "description": "Geant4 data for evaluated particle cross-sections on natural composition\nof elements",
             "name": "g4urrpt"
         }
@@ -84,6 +88,21 @@
             "default": "bundle",
             "description": "Build systems supported by the package",
             "name": "build_system"
+        },
+        {
+            "default": true,
+            "description": "Enable G4NUDEXLIB",
+            "name": "nudexlib"
+        },
+        {
+            "default": true,
+            "description": "Enable G4TENDL",
+            "name": "tendl"
+        },
+        {
+            "default": true,
+            "description": "Enable G4URRPT",
+            "name": "urrpt"
         }
     ],
     "versions": [

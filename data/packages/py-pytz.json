@@ -118,6 +118,10 @@
             "name": "py-multiurl"
         },
         {
+            "description": "This is the neo4j bolt driver for python from the official repository",
+            "name": "py-neo4j"
+        },
+        {
             "description": "Nanosecond resolution temporal types",
             "name": "py-neotime"
         },
