@@ -58,6 +58,10 @@
     ],
     "dependent_to": [
         {
+            "description": "AMReX is a publicly available software framework designed for building\nmassively parallel block- structured adaptive mesh refinement (AMR)\napplications.",
+            "name": "amrex"
+        },
+        {
             "description": "Highly Efficient FFT for Exascale",
             "name": "heffte"
         },

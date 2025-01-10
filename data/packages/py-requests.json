@@ -446,10 +446,6 @@
             "name": "py-kb-python"
         },
         {
-            "description": "Multi-backend Keras. Keras 3 is a new multi-backend implementation of\nthe Keras API, with support for TensorFlow, JAX, and PyTorch.",
-            "name": "py-keras"
-        },
-        {
             "description": "Converts Machine Learning models to ONNX for use in Windows ML",
             "name": "py-keras2onnx"
         },

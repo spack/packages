@@ -110,6 +110,10 @@
             "name": "py-fenics-dolfinx"
         },
         {
+            "description": "Interactive IPython-Friendly Minimizer based on SEAL Minuit2.",
+            "name": "py-iminuit"
+        },
+        {
             "description": "nanobind is a small binding library that exposes C++ types in Python and\nvice versa. It is reminiscent of Boost.Python and pybind11 and uses\nnear-identical syntax. In contrast to these existing tools, nanobind is\nmore efficient: bindings compile in a shorter amount of time, produce\nsmaller binaries, and have better runtime performance.",
             "name": "py-nanobind"
         },

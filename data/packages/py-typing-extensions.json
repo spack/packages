@@ -294,6 +294,10 @@
             "name": "py-hypercorn"
         },
         {
+            "description": "Interactive IPython-Friendly Minimizer based on SEAL Minuit2.",
+            "name": "py-iminuit"
+        },
+        {
             "description": "An immutable mapping type for Python.",
             "name": "py-immutables"
         },

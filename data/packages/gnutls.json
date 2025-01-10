@@ -153,7 +153,7 @@
     ],
     "description": "GnuTLS is a secure communications library implementing the SSL, TLS and\nDTLS protocols and technologies around them. It provides a simple C\nlanguage application programming interface (API) to access the secure\ncommunications protocols as well as APIs to parse and write X.509, PKCS\n#12, OpenPGP and other required structures. It is aimed to be portable\nand efficient with focus on security and interoperability.\n",
     "homepage": "https://www.gnutls.org",
-    "latest_version": "3.8.4",
+    "latest_version": "3.8.8",
     "maintainers": [
         "alecbcs"
     ],
@@ -188,6 +188,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.8.8",
+            "sha256": "ac4f020e583880b51380ed226e59033244bc536cad2623f2e26f5afa2939d8fb"
+        },
         {
             "name": "3.8.4",
             "sha256": "2bea4e154794f3f00180fa2a5c51fe8b005ac7a31cd58bd44cdfa7f36ebc3a9b"

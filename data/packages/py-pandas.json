@@ -514,10 +514,6 @@
             "name": "py-kb-python"
         },
         {
-            "description": "Multi-backend Keras. Keras 3 is a new multi-backend implementation of\nthe Keras API, with support for TensorFlow, JAX, and PyTorch.",
-            "name": "py-keras"
-        },
-        {
             "description": "Kosh allows codes to store, query, share data via an easy-to-use Python\nAPI. Kosh lies on top of Sina and can use any database backend supported\nby Sina. In adition Kosh aims to make data access and sharing as simple\nas possible.",
             "name": "py-kosh"
         },

@@ -92,6 +92,10 @@
             "name": "spack"
         },
         {
+            "description": "All-in-one Linux command line",
+            "name": "toybox"
+        },
+        {
             "description": "Util-linux is a suite of essential utilities for any Linux system.",
             "name": "util-linux"
         }

@@ -142,6 +142,10 @@
             "name": "flatbuffers"
         },
         {
+            "description": "A next-generation resource manager (pre-alpha)",
+            "name": "flux-core"
+        },
+        {
             "description": "Python tools for GATE, see https://github.com/OpenGATE/Gate",
             "name": "gatetools"
         },

@@ -66,6 +66,10 @@
         {
             "description": "MUSCLE is widely-used software for making multiple alignments of\nbiological sequences.",
             "name": "muscle5"
+        },
+        {
+            "description": "All-in-one Linux command line",
+            "name": "toybox"
         }
     ],
     "description": "GNU implementation of the famous stream editor.\n",

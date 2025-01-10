@@ -88,7 +88,7 @@
     ],
     "description": "(Unofficial) PyTorch Image Models.\n",
     "homepage": "https://github.com/rwightman/pytorch-image-models",
-    "latest_version": "1.0.11",
+    "latest_version": "1.0.12",
     "maintainers": [
         "adamjstewart"
     ],
@@ -103,6 +103,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.0.12",
+            "sha256": "9da490683bd06302ec40e1892f1ccf87985f033e41f3580887d886b9aee9449a"
+        },
         {
             "name": "1.0.11",
             "sha256": "a005f72b87e67ed30cdbf405a9ffd4e723360c780a43b1cefe266af8ecc9d151"

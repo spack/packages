@@ -28,7 +28,7 @@
     ],
     "description": "ensmallen is a high-quality C++ library for non-linear numerical\noptimization. ensmallen provides many types of optimizers that can be\nused for virtually any numerical optimization task. This includes\ngradient descent techniques, gradient-free optimizers, and constrained\noptimization. ensmallen also allows optional callbacks to customize the\noptimization process.\n",
     "homepage": "https://ensmallen.org",
-    "latest_version": "2.21.1",
+    "latest_version": "2.22.1",
     "maintainers": [],
     "name": "ensmallen",
     "patches": [],
@@ -61,6 +61,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.22.1",
+            "sha256": "daf53fe96783043ca33151a3851d054a826fab8d9a173e6bcbbedd4a7eabf5b1"
+        },
         {
             "name": "2.21.1",
             "sha256": "820eee4d8aa32662ff6a7d883a1bcaf4e9bf9ca0a3171d94c5398fe745008750"

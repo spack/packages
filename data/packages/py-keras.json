@@ -52,20 +52,12 @@
             "name": "py-packaging"
         },
         {
-            "description": "pandas is a fast, powerful, flexible and easy to use open source data\nanalysis and manipulation tool, built on top of the Python programming\nlanguage.",
-            "name": "py-pandas"
-        },
-        {
             "description": "The PyPA recommended tool for installing Python packages.",
             "name": "py-pip"
         },
         {
             "description": "A library to choose unique available network ports.",
             "name": "py-portpicker"
-        },
-        {
-            "description": "Protocol buffers are Google's language-neutral, platform-neutral,\nextensible mechanism for serializing structured data - think XML, but\nsmaller, faster, and simpler. You define how you want your data to be\nstructured once, then you can use special generated source code to\neasily write and read your structured data to and from a variety of data\nstreams and using a variety of languages.",
-            "name": "py-protobuf"
         },
         {
             "description": "Python interface to Graphviz's Dot language",
@@ -76,16 +68,8 @@
             "name": "py-pyyaml"
         },
         {
-            "description": "Python HTTP for Humans.",
-            "name": "py-requests"
-        },
-        {
             "description": "Rich is a Python library for rich text and beautiful formatting in the\nterminal.",
             "name": "py-rich"
-        },
-        {
-            "description": "Fundamental algorithms for scientific computing in Python.",
-            "name": "py-scipy"
         },
         {
             "description": "A Python utility that aids in the process of downloading, building,\nupgrading, installing, and uninstalling Python packages.",
@@ -152,7 +136,7 @@
     ],
     "description": "Multi-backend Keras. Keras 3 is a new multi-backend implementation of\nthe Keras API, with support for TensorFlow, JAX, and PyTorch.\n",
     "homepage": "https://keras.io",
-    "latest_version": "3.7.0",
+    "latest_version": "3.8.0",
     "maintainers": [
         "adamjstewart"
     ],
@@ -172,6 +156,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "3.8.0",
+            "sha256": "6289006e6f6cb2b68a563b58cf8ae5a45569449c5a791df6b2f54c1877f3f344"
+        },
         {
             "name": "3.7.0",
             "sha256": "a4451a5591e75dfb414d0b84a3fd2fb9c0240cc87ebe7e397f547ce10b0e67b7"

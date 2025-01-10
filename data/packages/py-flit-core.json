@@ -62,10 +62,6 @@
             "name": "py-argon2-cffi"
         },
         {
-            "description": "Arrow is a Python library that offers a sensible and human-friendly\napproach to creating, manipulating, formatting and converting dates,\ntimes and timestamps. It implements and updates the datetime type,\nplugging gaps in functionality and providing an intelligent module API\nthat supports many common creation scenarios. Simply put, it helps you\nwork with dates and times with fewer imports and a lot less code.",
-            "name": "py-arrow"
-        },
-        {
             "description": "Specifications for callback functions passed in to an API",
             "name": "py-backcall"
         },

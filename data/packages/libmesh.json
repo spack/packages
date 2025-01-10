@@ -67,7 +67,7 @@
     ],
     "description": "The libMesh library provides a framework for the numerical simulation of\npartial differential equations using arbitrary unstructured\ndiscretizations on serial and parallel platforms.\n",
     "homepage": "https://libmesh.github.io/",
-    "latest_version": "1.7.1",
+    "latest_version": "1.7.6",
     "maintainers": [],
     "name": "libmesh",
     "patches": [],
@@ -218,6 +218,22 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "1.7.6",
+            "sha256": "65093cc97227193241f78647ec2f04a1852437f40d3d1c49285c6ff712cd0bc8"
+        },
+        {
+            "name": "1.7.5",
+            "sha256": "03a50cb471e7724a46623f0892cf77152f969d9ba89f8fcebd20bdc0845aab83"
+        },
+        {
+            "name": "1.7.4",
+            "sha256": "0d603aacd2761292dff61ff7ce59d9fddd8691133f0219f7d1576bd4626b77b2"
+        },
+        {
+            "name": "1.7.3",
+            "sha256": "fe0bec45a083ddd9e87dc51ab7e68039f3859e7ef0c4a87e76e562b172b6f739"
         },
         {
             "name": "1.7.1",

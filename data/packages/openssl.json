@@ -610,6 +610,10 @@
             "name": "thrift"
         },
         {
+            "description": "All-in-one Linux command line",
+            "name": "toybox"
+        },
+        {
             "description": "Typst is a new markup-based typesetting system for the sciences.",
             "name": "typst"
         },

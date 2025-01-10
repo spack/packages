@@ -676,10 +676,6 @@
             "name": "py-jaxlib"
         },
         {
-            "description": "Multi-backend Keras. Keras 3 is a new multi-backend implementation of\nthe Keras API, with support for TensorFlow, JAX, and PyTorch.",
-            "name": "py-keras"
-        },
-        {
             "description": "Python implementations of the k-modes and k-prototypes clustering\nalgorithms for clustering categorical data.",
             "name": "py-kmodes"
         },

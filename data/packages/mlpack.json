@@ -35,6 +35,10 @@
             "name": "gmake"
         },
         {
+            "description": "The golang compiler and build environment",
+            "name": "go"
+        },
+        {
             "description": "The Julia Language: A fresh approach to technical computing",
             "name": "julia"
         },
@@ -103,7 +107,7 @@
     ],
     "description": "mlpack is an intuitive, fast, and flexible header-only C++ machine\nlearning library with bindings to other languages. It is meant to be a\nmachine learning analog to LAPACK, and aims to implement a wide array of\nmachine learning methods and functions as a \"swiss army knife\" for\nmachine learning researchers.\n",
     "homepage": "https://www.mlpack.org/",
-    "latest_version": "4.5.0",
+    "latest_version": "4.5.1",
     "maintainers": [
         "wdconinc"
     ],
@@ -138,6 +142,11 @@
         },
         {
             "default": false,
+            "description": "Build Go bindings",
+            "name": "go"
+        },
+        {
+            "default": false,
             "description": "CMake interprocedural optimization",
             "name": "ipo"
         },
@@ -163,6 +172,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "4.5.1",
+            "sha256": "58059b911a78b8bda91eef4cfc6278383b24e71865263c2e0569cf5faa59dda3"
+        },
         {
             "name": "4.5.0",
             "sha256": "aab70aee10c134ef3fe568843fe4b3bb5e8901af30ea666f57462ad950682317"

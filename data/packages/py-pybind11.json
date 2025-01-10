@@ -210,6 +210,10 @@
             "name": "py-httpstan"
         },
         {
+            "description": "Interactive IPython-Friendly Minimizer based on SEAL Minuit2.",
+            "name": "py-iminuit"
+        },
+        {
             "description": "SONATA files reader",
             "name": "py-libsonata"
         },

@@ -116,6 +116,10 @@
             "name": "py-pyyaml"
         },
         {
+            "description": "A Python utility that aids in the process of downloading, building,\nupgrading, installing, and uninstalling Python packages.",
+            "name": "py-setuptools"
+        },
+        {
             "description": "The Python programming language.",
             "name": "python"
         },
@@ -156,7 +160,7 @@
     ],
     "description": "A next-generation resource manager (pre-alpha)\n",
     "homepage": "https://github.com/flux-framework/flux-core",
-    "latest_version": "0.66.0",
+    "latest_version": "0.67.0",
     "maintainers": [
         "grondo"
     ],
@@ -199,6 +203,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "0.67.0",
+            "sha256": "9406e776cbeff971881143fd1b94c42ec912e5b226401d2d3d91d766dd81de8c"
         },
         {
             "name": "0.66.0",

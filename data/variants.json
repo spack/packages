@@ -34765,6 +34765,10 @@
             "package": "totalview"
         },
         {
+            "default": "makefile",
+            "package": "toybox"
+        },
+        {
             "default": "autotools",
             "package": "tpm2-tss"
         },
@@ -57735,6 +57739,12 @@
         {
             "default": false,
             "package": "mfem"
+        }
+    ],
+    "go": [
+        {
+            "default": false,
+            "package": "mlpack"
         }
     ],
     "gobj": [
@@ -83391,6 +83401,10 @@
             "package": "swipl"
         },
         {
+            "default": true,
+            "package": "toybox"
+        },
+        {
             "default": "openssl",
             "package": "wget"
         }
@@ -83709,6 +83723,10 @@
         {
             "default": false,
             "package": "tmux"
+        },
+        {
+            "default": false,
+            "package": "toybox"
         }
     ],
     "static_analysis_demos": [
@@ -87375,6 +87393,12 @@
             "package": "py-transformer-engine"
         }
     ],
+    "userland": [
+        {
+            "default": true,
+            "package": "toybox"
+        }
+    ],
     "useroot": [
         {
             "default": false,
@@ -89083,6 +89107,10 @@
         {
             "default": true,
             "package": "swipl"
+        },
+        {
+            "default": true,
+            "package": "toybox"
         },
         {
             "default": true,

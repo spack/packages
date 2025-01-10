@@ -72,7 +72,7 @@
     ],
     "description": "Armadillo is a high quality linear algebra library (matrix maths) for\nthe C++ language, aiming towards a good balance between speed and ease\nof use.\n",
     "homepage": "https://arma.sourceforge.net/",
-    "latest_version": "14.0.3",
+    "latest_version": "14.2.2",
     "maintainers": [],
     "name": "armadillo",
     "patches": [
@@ -115,6 +115,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "14.2.2",
+            "sha256": "3054c8e63db3abdf1a5c8f9fdb7e6b4ad833f9bcfb58324c0ff86de0784c70e0"
+        },
         {
             "name": "14.0.3",
             "sha256": "ebd6215eeb01ee412fed078c8a9f7f87d4e1f6187ebcdc1bc09f46095a4f4003"

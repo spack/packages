@@ -554,6 +554,10 @@
             "name": "rocrand"
         },
         {
+            "description": "rocSPARSE exposes a common interface that provides Basic Linear Algebra\nSubroutines for sparse computation implemented on top of AMD's Radeon\nOpen eCosystem Platform ROCm runtime and toolchains. rocSPARSE is\ncreated using the HIP programming language and optimized for AMD's\nlatest discrete GPUs.",
+            "name": "rocsparse"
+        },
+        {
             "description": "SUNDIALS (SUite of Nonlinear and DIfferential/ALgebraic equation\nSolvers)",
             "name": "sundials"
         }
@@ -578,7 +582,7 @@
     ],
     "description": "AMReX is a publicly available software framework designed for building\nmassively parallel block- structured adaptive mesh refinement (AMR)\napplications.\n",
     "homepage": "https://amrex-codes.github.io/amrex/",
-    "latest_version": "24.12",
+    "latest_version": "25.01",
     "maintainers": [
         "WeiqunZhang",
         "asalmgren",
@@ -743,6 +747,10 @@
         {
             "branch": "development",
             "name": "develop"
+        },
+        {
+            "name": "25.01",
+            "sha256": "29eb35cf67d66b0fd0654282454c210abfadf27fcff8478b256e3196f237c74f"
         },
         {
             "name": "24.12",
