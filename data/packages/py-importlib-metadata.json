@@ -226,6 +226,10 @@
             "name": "py-meshio"
         },
         {
+            "description": "Rose, a framework for meteorological suites.",
+            "name": "py-metomi-rose"
+        },
+        {
             "description": "Collection of tools for reading, visualizing and performing calculations\nwith weather data.",
             "name": "py-metpy"
         },

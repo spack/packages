@@ -34,6 +34,10 @@
             "name": "py-fire"
         },
         {
+            "description": "An interactive NVIDIA-GPU process viewer and beyond, the one-stop\nsolution for GPU process management.",
+            "name": "py-nvitop"
+        },
+        {
             "description": "A source-to-source Fortran compiler designed to programmatically\noptimise, parallelise and instrument HPC applications (written in\nFortran) via user- provided transformation scripts. Additionally,\nPSyclone supports the development of kernel-based, Fortran-embedded DSLs\nand is used in the UK Met Office's next-generation modelling system,\nLFRic.",
             "name": "py-psyclone"
         },

@@ -132,7 +132,7 @@
     ],
     "description": "Python interface to the netCDF Library.\n",
     "homepage": "https://github.com/Unidata/netcdf4-python",
-    "latest_version": "1.7.1.post2",
+    "latest_version": "1.7.2",
     "maintainers": [
         "skosukhin"
     ],
@@ -153,7 +153,7 @@
             "reverse": false,
             "sha256": "71eefe1d3065ad050fb72eb61d916ae1374a3fafd96ddaee6499cda952d992c4",
             "url": "https://github.com/Unidata/netcdf4-python/commit/49dcd0b5bd25824c254770c0d41445133fc13a46.patch?full_index=1",
-            "version": "@1.6:%gcc@14:",
+            "version": "@1.6:1.6.5%gcc@14:",
             "working_dir": "."
         }
     ],
@@ -171,6 +171,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.7.2",
+            "sha256": "a4c6375540b19989896136943abb6d44850ff6f1fa7d3f063253b1ad3f8b7fce"
+        },
         {
             "name": "1.7.1.post2",
             "sha256": "37d557e36654889d7020192bfb56f9d5f93894cb32997eb837ae586c538fd7b6"

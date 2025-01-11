@@ -104,7 +104,7 @@
     ],
     "description": "Differential gene expression analysis based on the negative binomial\ndistribution. Estimate variance-mean dependence in count data from high-\nthroughput sequencing assays and test for differential expression based\non a model using the negative binomial distribution.\n",
     "homepage": "https://bioconductor.org/packages/DESeq2",
-    "latest_version": "1.40.0",
+    "latest_version": "1.46.0",
     "maintainers": [],
     "name": "r-deseq2",
     "patches": [],
@@ -117,6 +117,18 @@
         }
     ],
     "versions": [
+        {
+            "commit": "4887eb42fa96fcc234118ead8ffd11032a8f08bb",
+            "name": "1.46.0"
+        },
+        {
+            "commit": "5facd3093468ce2e75a2b742b1533efee13e5818",
+            "name": "1.44.0"
+        },
+        {
+            "commit": "17a39b5296cb3d897f1e2a9aa4bebbdefb13b46a",
+            "name": "1.42.0"
+        },
         {
             "commit": "c4962c3b16546e552fbc1a712258e4e21ff44241",
             "name": "1.40.0"

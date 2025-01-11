@@ -54,7 +54,7 @@
     ],
     "description": "Generally Applicable Atomic-Charge Dependent London Dispersion\nCorrection\n",
     "homepage": "https://www.chemie.uni-bonn.de/pctc/mulliken-center/software/dftd4",
-    "latest_version": "3.5.0",
+    "latest_version": "3.7.0",
     "maintainers": [
         "awvwgk"
     ],
@@ -97,6 +97,14 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "3.7.0",
+            "sha256": "4e8749df6852bf863d5d1831780a2d30e9ac4afcfebbbfe5f6a6a73d06d6c6ee"
+        },
+        {
+            "name": "3.6.0",
+            "sha256": "56b3b4650853a34347d3d56c93d7596ecbe2208c4a14dbd027959fd4a009679d"
         },
         {
             "name": "3.5.0",

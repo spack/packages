@@ -22442,6 +22442,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-nvitop"
+        },
+        {
+            "default": "python_pip",
             "package": "py-nvtx"
         },
         {

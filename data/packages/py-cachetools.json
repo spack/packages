@@ -42,6 +42,10 @@
             "name": "py-google-auth"
         },
         {
+            "description": "An interactive NVIDIA-GPU process viewer and beyond, the one-stop\nsolution for GPU process management.",
+            "name": "py-nvitop"
+        },
+        {
             "description": "Geometry Classes and Operations (opendatacube).",
             "name": "py-odc-geo"
         },

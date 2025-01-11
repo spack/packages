@@ -19520,6 +19520,10 @@
         "name": "py-nvidia-modulus"
     },
     {
+        "description": " An interactive NVIDIA-GPU process viewer and beyond, the one-stop\nsolution for GPU process management.\n",
+        "name": "py-nvitop"
+    },
+    {
         "description": "PyNVTX - Python code annotation library.\n",
         "name": "py-nvtx"
     },

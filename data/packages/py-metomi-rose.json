@@ -8,6 +8,14 @@
             "name": "py-aiofiles"
         },
         {
+            "description": "Read metadata from Python packages.",
+            "name": "py-importlib-metadata"
+        },
+        {
+            "description": "Read resources from Python packages",
+            "name": "py-importlib-resources"
+        },
+        {
             "description": "Jinja2 is a template engine written in pure Python. It provides a Django\ninspired non-XML syntax but supports inline expressions and an optional\nsandboxed environment.",
             "name": "py-jinja2"
         },
@@ -64,9 +72,10 @@
     ],
     "description": "Rose, a framework for meteorological suites.\n",
     "homepage": "https://metomi.github.io/rose/doc/html/index.html",
-    "latest_version": "2.1.0",
+    "latest_version": "2.3.2",
     "maintainers": [
-        "LydDeb"
+        "LydDeb",
+        "climbfuji"
     ],
     "name": "py-metomi-rose",
     "patches": [],
@@ -79,6 +88,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.3.2",
+            "sha256": "5d2a1593a5bbe8362fbe5e197eaa0cde2574700c62181d9b5c1fafa1e67656cd"
+        },
         {
             "name": "2.1.0",
             "sha256": "1b60135a434fe4325d364a57e8f5e81e90f39b373b9d68733458c1adc2513c05"

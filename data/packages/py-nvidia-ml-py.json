@@ -24,7 +24,12 @@
             "name": "python-venv"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "An interactive NVIDIA-GPU process viewer and beyond, the one-stop\nsolution for GPU process management.",
+            "name": "py-nvitop"
+        }
+    ],
     "description": "Python Bindings for the NVIDIA Management Library.\n",
     "homepage": "https://www.nvidia.com/",
     "latest_version": "11.450.51",

@@ -4,6 +4,10 @@
     "conflicts": [],
     "dependencies": [
         {
+            "description": "Produce colored terminal text with an xml-like markup.",
+            "name": "py-ansimarkup"
+        },
+        {
             "description": "A workflow engine for cycling systems.",
             "name": "py-cylc-flow"
         },
@@ -43,9 +47,10 @@
     "dependent_to": [],
     "description": "A Cylc plugin providing support for the Rose rose-suite.conf file.\n",
     "homepage": "https://cylc.github.io/cylc-doc/latest/html/plugins/cylc-rose.html",
-    "latest_version": "1.3.0",
+    "latest_version": "1.4.2",
     "maintainers": [
-        "LydDeb"
+        "LydDeb",
+        "climbfuji"
     ],
     "name": "py-cylc-rose",
     "patches": [],
@@ -58,6 +63,10 @@
         }
     ],
     "versions": [
+        {
+            "commit": "8deda0480afed8cf92cfdf7938fc78d0aaf0c0e4",
+            "name": "1.4.2"
+        },
         {
             "name": "1.3.0",
             "sha256": "017072b69d7a50fa6d309a911d2428743b07c095f308529b36b1b787ebe7ab88"

@@ -34,6 +34,10 @@
             "name": "py-cylc-flow"
         },
         {
+            "description": "A Cylc plugin providing support for the Rose rose-suite.conf file.",
+            "name": "py-cylc-rose"
+        },
+        {
             "description": "Cylc UI Server.",
             "name": "py-cylc-uiserver"
         }

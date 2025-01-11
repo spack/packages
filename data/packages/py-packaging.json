@@ -154,6 +154,10 @@
             "name": "py-cwl-utils"
         },
         {
+            "description": "A workflow engine for cycling systems.",
+            "name": "py-cylc-flow"
+        },
+        {
             "description": "Python utilities to interact with Darshan log records of HPC\napplications.",
             "name": "py-darshan"
         },

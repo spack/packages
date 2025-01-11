@@ -86,6 +86,10 @@
             "name": "py-cylc-flow"
         },
         {
+            "description": "Cylc UI Server.",
+            "name": "py-cylc-uiserver"
+        },
+        {
             "description": "DeepSpeed library. DeepSpeed enables world's most powerful language\nmodels like MT-530B and BLOOM. It is an easy-to-use deep learning\noptimization software suite that powers unprecedented scale and speed\nfor both training and inference.",
             "name": "py-deepspeed"
         },
@@ -196,6 +200,10 @@
         {
             "description": "Python library neuron morphology analysis",
             "name": "py-neurom"
+        },
+        {
+            "description": "An interactive NVIDIA-GPU process viewer and beyond, the one-stop\nsolution for GPU process management.",
+            "name": "py-nvitop"
         },
         {
             "description": "Paralleltask is a simple and lightweight parallel task engine. It can\nlaunch a given number of tasks from a batch of independent tasks, and\nkeep this number of running tasks until all tasks are completed.",
