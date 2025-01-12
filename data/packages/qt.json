@@ -115,6 +115,10 @@
             "name": "glib"
         },
         {
+            "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
+            "name": "gmake"
+        },
+        {
             "description": "GNU gperf is a perfect hash function generator. For a given list of\nstrings, it produces a hash function and hash table, in form of C or C++\ncode, for looking up a value depending on the input string. The hash\nfunction is perfect, which means that the hash table has no collisions,\nand the hash table lookup needs a single string comparison only.",
             "name": "gperf"
         },
