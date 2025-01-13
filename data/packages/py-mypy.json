@@ -106,7 +106,7 @@
     ],
     "description": "Optional static typing for Python.\n",
     "homepage": "https://www.mypy-lang.org/",
-    "latest_version": "1.11.2",
+    "latest_version": "1.14.1",
     "maintainers": [
         "adamjstewart"
     ],
@@ -121,6 +121,14 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.14.1",
+            "sha256": "7ec88144fe9b510e8475ec2f5f251992690fcf89ccb4500b214b4226abcd32d6"
+        },
+        {
+            "name": "1.13.0",
+            "sha256": "0291a61b6fbf3e6673e3405cfcc0e7650bebc7939659fdca2702958038bd835e"
+        },
         {
             "name": "1.11.2",
             "sha256": "7f9993ad3e0ffdc95c2a14b66dee63729f021968bff8ad911867579c65d13a79"
