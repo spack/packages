@@ -1030,6 +1030,10 @@
             "name": "butterflypack"
         },
         {
+            "description": "Burrow-Wheeler Aligner for pairwise alignment between DNA sequences.",
+            "name": "bwa"
+        },
+        {
             "description": "bwtool is a command-line utility for bigWig files.",
             "name": "bwtool"
         },
@@ -2514,6 +2518,10 @@
             "name": "entt"
         },
         {
+            "description": "The Environment Modules package provides for the dynamic modification of\na user's environment via module files.",
+            "name": "environment-modules"
+        },
+        {
             "description": "The Enzo adaptive mesh-refinement simulation code.",
             "name": "enzo"
         },
@@ -3336,6 +3344,10 @@
         {
             "description": "Garfield++ is a toolkit for the detailed simulation of particle\ndetectors based on ionisation measurement in gases and semiconductors.",
             "name": "garfieldpp"
+        },
+        {
+            "description": "GASNet is a language-independent, networking middleware layer that\nprovides network-independent, high-performance communication primitives\nincluding Remote Memory Access (RMA) and Active Messages (AM). It has\nbeen used to implement parallel programming models and libraries such as\nUPC, UPC++, Co-Array Fortran, Legion, Chapel, and many others. The\ninterface is primarily intended as a compilation target and for use by\nruntime library writers (as opposed to end users), and the primary goals\nare high performance, interface portability, and expressiveness.\n***NOTICE***: The GASNet library built by this Spack package is ONLY\nintended for unit-testing purposes, and is generally UNSUITABLE FOR\nPRODUCTION USE. The RECOMMENDED way to build GASNet is as an embedded\nlibrary as configured by the higher-level client runtime package (UPC++,\nLegion, etc), including system-specific configuration.",
+            "name": "gasnet"
         },
         {
             "description": "GATB - The Genome Analysis Toolbox with de-Bruijn graph",
@@ -7534,6 +7546,10 @@
             "name": "nccmp"
         },
         {
+            "description": "Ncdu is a disk usage analyzer with an ncurses interface. It is designed\nto find space hogs on a remote server where you don't have an entire\ngaphical setup available, but it is a useful tool even on regular\ndesktop systems. Ncdu aims to be fast, simple and easy to use, and\nshould be able to run in any minimal POSIX-like environment with ncurses\ninstalled.",
+            "name": "ncdu"
+        },
+        {
             "description": "NcFTP Client is a set of application programs implementing the File\nTransfer Protocol.",
             "name": "ncftp"
         },
@@ -8324,6 +8340,10 @@
         {
             "description": "The Dextractor and Compression Command Library. This is a special fork\nrequired by some pacbio utilities.",
             "name": "pacbio-dextractor"
+        },
+        {
+            "description": "interatomic Potentials in Atomic Cluster Expansion (PACE) This library\nis required to build the ML-PACE module in LAMMPS. The library was\ndeveloped at the Interdisciplinary Centre for Advanced Materials\nSimulation (ICAMS), Ruhr University Bochum See `Phys Rev Mat 6 013804\n(2022)<https://doi.org/10.1103/PhysRevMaterials.6.013804>`__ and `Phys\nRev B 99 014104 (2019)<https://doi.org/10.1103/PhysRevB.99.014104>`__\nfor details.",
+            "name": "pace"
         },
         {
             "description": "Packmol creates an initial point for molecular dynamics simulations by\npacking molecules in defined regions of space.",
@@ -11194,6 +11214,10 @@
             "name": "qd"
         },
         {
+            "description": "Light emacs clone.",
+            "name": "qemacs"
+        },
+        {
             "description": "QEMU is a generic and open source machine emulator and virtualizer.",
             "name": "qemu"
         },
@@ -12010,6 +12034,10 @@
             "name": "samrai"
         },
         {
+            "description": "SAM Tools provide various utilities for manipulating alignments in the\nSAM format, including sorting, merging, indexing and generating\nalignments in a per-position format",
+            "name": "samtools"
+        },
+        {
             "description": "sandbox'd LD_PRELOAD hack by Gentoo Linux",
             "name": "sandbox"
         },
@@ -12216,6 +12244,10 @@
         {
             "description": "SeqPrep is a program to merge paired end Illumina reads that are\noverlapping into a single longer read.",
             "name": "seqprep"
+        },
+        {
+            "description": "Toolkit for processing sequences in FASTA/Q formats.",
+            "name": "seqtk"
         },
         {
             "description": "Subsystem focused quantum chemistry code Serenity",
@@ -13142,6 +13174,10 @@
             "name": "tethex"
         },
         {
+            "description": "A highly customizable texinfo to HTML and other formats translator.",
+            "name": "texi2html"
+        },
+        {
             "description": "Texinfo is the official documentation format of the GNU project. It was\ninvented by Richard Stallman and Bob Chassell many years ago, loosely\nbased on Brian Reid's Scribe and other formatting languages of the time.\nIt is used by many non-GNU projects as well.",
             "name": "texinfo"
         },
@@ -13548,6 +13584,10 @@
         {
             "description": "Unzip is a compression and file packaging/archive utility.",
             "name": "unzip"
+        },
+        {
+            "description": "UPC++ is a C++ library that supports Partitioned Global Address Space\n(PGAS) programming, and is designed to interoperate smoothly and\nefficiently with MPI, OpenMP, CUDA, ROCm/HIP and AMTs. It leverages\nGASNet-EX to deliver low-overhead, fine-grained communication, including\nRemote Memory Access (RMA) and Remote Procedure Call (RPC).",
+            "name": "upcxx"
         },
         {
             "description": "The Unified Post Processor (UPP) software package is a software package\ndesigned to generate useful products from raw model output.",

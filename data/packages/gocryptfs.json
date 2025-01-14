@@ -12,8 +12,8 @@
             "name": "openssl"
         },
         {
-            "description": "pkg-config is a helper tool used when compiling applications and\nlibraries",
-            "name": "pkg-config"
+            "description": "pkgconf is a program which helps to configure compiler and linker flags\nfor development frameworks. It is similar to pkg-config from\nfreedesktop.org, providing additional functionality while also\nmaintaining compatibility.",
+            "name": "pkgconfig"
         }
     ],
     "dependent_to": [

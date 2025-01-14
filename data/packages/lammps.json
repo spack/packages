@@ -584,6 +584,10 @@
             "name": "opencl"
         },
         {
+            "description": "interatomic Potentials in Atomic Cluster Expansion (PACE) This library\nis required to build the ML-PACE module in LAMMPS. The library was\ndeveloped at the Interdisciplinary Centre for Advanced Materials\nSimulation (ICAMS), Ruhr University Bochum See `Phys Rev Mat 6 013804\n(2022)<https://doi.org/10.1103/PhysRevMaterials.6.013804>`__ and `Phys\nRev B 99 014104 (2019)<https://doi.org/10.1103/PhysRevB.99.014104>`__\nfor details.",
+            "name": "pace"
+        },
+        {
             "description": "PLUMED is an open source library for free energy calculations in\nmolecular systems which works together with some of the most popular\nmolecular dynamics engines. Free energy calculations can be performed as\na function of many order parameters with a particular focus on\nbiological problems, using state of the art methods such as\nmetadynamics, umbrella sampling and Jarzynski-equation based steered MD.\nThe software, written in C++, can be easily interfaced with both fortran\nand C/C++ codes.",
             "name": "plumed"
         },
@@ -594,6 +598,10 @@
         {
             "description": "The Cython compiler for writing C extensions for the Python language.",
             "name": "py-cython"
+        },
+        {
+            "description": "MolSSI Driver Interface (MDI) Library The MolSSI Driver Interface (MDI)\nproject provides a standardized API for fast, on-the-fly communication\nbetween computational chemistry codes. This greatly simplifies the\nprocess of implementing methods that require the cooperation of multiple\nsoftware packages and enables developers to write a single\nimplementation that works across many different codes.",
+            "name": "py-mdi"
         },
         {
             "description": "This package provides Python bindings for the Message Passing Interface\n(MPI) standard. It is implemented on top of the MPI-1/MPI-2\nspecification and exposes an API which grounds on the standard MPI-2 C++\nbindings.",
@@ -1079,6 +1087,11 @@
         },
         {
             "default": false,
+            "description": "Activate the mdi package",
+            "name": "mdi"
+        },
+        {
+            "default": false,
             "description": "Activate the meam package",
             "name": "meam"
         },
@@ -1106,6 +1119,11 @@
             "default": false,
             "description": "Activate the ml-iap package",
             "name": "ml-iap"
+        },
+        {
+            "default": false,
+            "description": "Activate the ml-pace package",
+            "name": "ml-pace"
         },
         {
             "default": false,

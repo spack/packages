@@ -1429,11 +1429,6 @@
         },
         {
             "default": true,
-            "description": "Enable traditional ONNX ML API",
-            "name": "onnx_ml"
-        },
-        {
-            "default": true,
             "description": "Use OpenMP for parallel code",
             "name": "openmp"
         },

@@ -212,7 +212,7 @@
     ],
     "description": "OpenBLAS: An optimized BLAS library\n",
     "homepage": "https://www.openblas.net",
-    "latest_version": "0.3.28",
+    "latest_version": "0.3.29",
     "maintainers": [],
     "name": "openblas",
     "patches": [
@@ -582,6 +582,10 @@
         {
             "branch": "develop",
             "name": "develop"
+        },
+        {
+            "name": "0.3.29",
+            "sha256": "38240eee1b29e2bde47ebb5d61160207dc68668a54cac62c076bb5032013b1eb"
         },
         {
             "name": "0.3.28",

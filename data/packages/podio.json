@@ -6,6 +6,16 @@
             "description": "podio: rntuple support requires at least podio@0.17",
             "name": "+rntuple",
             "spec": "@:0.16"
+        },
+        {
+            "description": "podio: rntuple API change requires podio@1:",
+            "name": "+rntuple ^root@6.32:",
+            "spec": "@:0.99"
+        },
+        {
+            "description": "podio: rntuple API change requires podio@1.2:",
+            "name": "+rntuple ^root@6.34:",
+            "spec": "@:1.1"
         }
     ],
     "dependencies": [
@@ -74,7 +84,7 @@
     ],
     "description": "PODIO, or plain-old-data I/O, is a C++ library to support the creation\nand handling of data models in particle physics.\n",
     "homepage": "https://github.com/AIDASoft/podio",
-    "latest_version": "1.1",
+    "latest_version": "1.2",
     "maintainers": [
         "drbenmorgan",
         "jmcarcell",
@@ -140,6 +150,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "1.2",
+            "sha256": "bc97ba09ce908e55d4c5faa78d9739dde7daefd9337ae98351813b13708d0685"
         },
         {
             "name": "1.1",

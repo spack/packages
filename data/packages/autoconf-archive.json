@@ -20,6 +20,10 @@
     ],
     "dependent_to": [
         {
+            "description": "HPL is a software package that solves a (random) dense linear system in\ndouble precision (64 bits) arithmetic on distributed-memory computers.\nIt can thus be regarded as a portable as well as freely available\nimplementation of the High Performance Computing Linpack Benchmark.",
+            "name": "hpl"
+        },
+        {
             "description": "A set of software tools for data acquisition and storage and a\nmethodology for management of complex scientific data.",
             "name": "mdsplus"
         },

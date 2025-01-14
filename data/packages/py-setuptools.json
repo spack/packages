@@ -4874,6 +4874,10 @@
             "name": "py-mdanalysistests"
         },
         {
+            "description": "MolSSI Driver Interface (MDI) Library The MolSSI Driver Interface (MDI)\nproject provides a standardized API for fast, on-the-fly communication\nbetween computational chemistry codes. This greatly simplifies the\nprocess of implementing methods that require the cooperation of multiple\nsoftware packages and enables developers to write a single\nimplementation that works across many different codes.",
+            "name": "py-mdi"
+        },
+        {
             "description": "Collection of core plugins for markdown-it-py",
             "name": "py-mdit-py-plugins"
         },
@@ -7404,6 +7408,10 @@
         {
             "description": "py.test plugin to check import ordering using isort",
             "name": "py-pytest-isort"
+        },
+        {
+            "description": "It helps to use fixtures in pytest.mark.parametrize.",
+            "name": "py-pytest-lazy-fixture"
         },
         {
             "description": "pytest plugin for test session metadata",

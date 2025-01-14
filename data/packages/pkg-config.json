@@ -23,32 +23,7 @@
             "name": "gnuconfig"
         }
     ],
-    "dependent_to": [
-        {
-            "description": "BigDFT-CheSS: A module for performing Fermi Operator Expansions via\nChebyshev Polynomials.",
-            "name": "bigdft-chess"
-        },
-        {
-            "description": "BigDFT-core: the core components of BigDFT, an electronic structure\ncalculation based on Daubechies wavelets.",
-            "name": "bigdft-core"
-        },
-        {
-            "description": "BigDFT-Psolver: a flexible real-space Poisson Solver based on\nInterpolating Scaling Functions. It constitutes a fundamental building\nblock of BigDFT code, and it can also be used separately and linked to\nother codes.",
-            "name": "bigdft-psolver"
-        },
-        {
-            "description": "BigDFT-spred: a library for structure prediction tools, that is compiled\non top of BigDFT routines.",
-            "name": "bigdft-spred"
-        },
-        {
-            "description": "Client and server side library to secure gSOAP using the Globus Security\nInfrastructure.",
-            "name": "cgsi-gsoap"
-        },
-        {
-            "description": "Encrypted overlay filesystem written in Go",
-            "name": "gocryptfs"
-        }
-    ],
+    "dependent_to": [],
     "description": "pkg-config is a helper tool used when compiling applications and\nlibraries\n",
     "homepage": "https://www.freedesktop.org/wiki/Software/pkg-config/",
     "latest_version": "0.29.2",

@@ -26,7 +26,7 @@
     ],
     "description": "DPMJET-III is a Monte Carlo event generator for hadron, photon and\nnuclear collisions.\n",
     "homepage": "https://github.com/DPMJET/DPMJET",
-    "latest_version": "19.3.5",
+    "latest_version": "19.3.7",
     "maintainers": [
         "wdconinc"
     ],
@@ -41,6 +41,14 @@
         }
     ],
     "versions": [
+        {
+            "name": "19.3.7",
+            "sha256": "4ab22fa9925031a11cf3b82fff73226011da2cf6b2662f10523bc9850f85b8a5"
+        },
+        {
+            "name": "19.3.6",
+            "sha256": "9453f1428eb41d59f0c951a48763b8f386eece39c4a73bdb07e759b2c5fdd4f5"
+        },
         {
             "name": "19.3.5",
             "sha256": "5a546ca20f86abaecda1828eb5b577aee8a532dffb2c5e7244667d5f25777909"

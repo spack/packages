@@ -562,6 +562,10 @@
             "name": "py-rich"
         },
         {
+            "description": "The intention of rich-click is to provide attractive help output from\nclick, formatted with rich, with minimal customisation required.",
+            "name": "py-rich-click"
+        },
+        {
             "description": "R-Tree spatial index for Python GIS.",
             "name": "py-rtree"
         },

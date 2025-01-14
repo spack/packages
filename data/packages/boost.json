@@ -64,6 +64,11 @@
         },
         {
             "description": null,
+            "name": "~python",
+            "spec": "@1.87.0:+mpi"
+        },
+        {
+            "description": null,
             "name": "+context",
             "spec": "@:1.50"
         },
@@ -1359,7 +1364,7 @@
     ],
     "description": "Boost provides free peer-reviewed portable C++ source libraries,\nemphasizing libraries that work well with the C++ Standard Library.\nBoost libraries are intended to be widely useful, and usable across a\nbroad spectrum of applications. The Boost license encourages both\ncommercial and non-commercial use.\n",
     "homepage": "https://www.boost.org",
-    "latest_version": "1.86.0",
+    "latest_version": "1.87.0",
     "maintainers": [
         "hainest"
     ],
@@ -1661,6 +1666,15 @@
             "url": "https://www.boost.org/patches/1_82_0/0002-filesystem-fix-win-smbv1-dir-iterator.patch",
             "version": "@1.82.0 arch=windows-None-None",
             "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.boost",
+            "reverse": false,
+            "sha256": "e2d37f9e35e8e238977de9af32604a8e1c2648d153df1d568935a20216b5c67f",
+            "url": "https://github.com/boostorg/context/commit/d11cbccc87da5d6d41c04f3949e18d49c43e62fc.patch?full_index=1",
+            "version": "@1.87.0",
+            "working_dir": "libs/context"
         }
     ],
     "resources": [],
@@ -1915,6 +1929,10 @@
         {
             "branch": "develop",
             "name": "develop"
+        },
+        {
+            "name": "1.87.0",
+            "sha256": "af57be25cb4c4f4b413ed692fe378affb4352ea50fbe294a11ef548f4d527d89"
         },
         {
             "name": "1.86.0",

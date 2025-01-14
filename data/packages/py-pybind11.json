@@ -130,6 +130,10 @@
             "name": "libpressio"
         },
         {
+            "description": "The MFrontGenericInterfaceSupport project (MGIS) provides helper\nfunctions for various solvers to interact with behaviour written using\nMFront generic interface. MGIS is written in C++. Bindings are provided\nfor C and fortran (2003). A FEniCS binding is also available.",
+            "name": "mgis"
+        },
+        {
             "description": "AMD's graph optimization engine.",
             "name": "migraphx"
         },
@@ -396,6 +400,10 @@
         {
             "description": "Tamaas is a C++ library with a Python interface that efficiently solves\ncontact mechanics problems with periodic rough surfaces, plasticity,\nadhesion and friction.",
             "name": "tamaas"
+        },
+        {
+            "description": "The TFEL project is a collaborative development of CEA (French\nAlternative Energies and Atomic Energy Commission) and EDF (Electricite\nde France). It mostly contains the MFront code generator which\ntranslates a set of closely related domain specific languages into plain\nC++ on top of the TFEL libraries. MFront handles material properties,\nmechanical behaviours and simple point-wise models. Interfaces are\nprovided for several finite element solvers, such as: Abaqus/Standard,\nAbaqus/Explicit, Ansys APDL, Cast3M, Europlexus, Code_Aster, CalculiX\nand a few others. MFront comes with an handy easy-to-use tool called\nMTest that can test the local behaviour of a material, by imposing\nindependent constraints on each component of the strain or the stress.",
+            "name": "tfel"
         },
         {
             "description": "Tiramisu is a polyhedral compiler for dense and sparse deep learning and\ndata parallel algorithms.It provides a simple C++ API for expressing\nalgorithms and how these algorithms should be optimized by the compiler.",

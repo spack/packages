@@ -66,6 +66,10 @@
             "name": "py-hepdata-lib"
         },
         {
+            "description": "Lighning-UQ-Box: A toolbox for uncertainty quantification in deep\nlearning.",
+            "name": "py-lightning-uq-box"
+        },
+        {
             "description": "Multi-class imbalance is a common problem occurring in real-world\nsupervised classifications tasks. While there has already been some\nresearch on the specialized methods aiming to tackle that challenging\nproblem, most of them still lack coherent Python implementation that is\nsimple, intuitive and easy to use. multi-imbalance is a python package\ntackling the problem of multi-class imbalanced datasets in machine\nlearnin",
             "name": "py-multi-imbalance"
         },

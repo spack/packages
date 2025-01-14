@@ -113,6 +113,22 @@
             "name": "beforelight"
         },
         {
+            "description": "BigDFT-CheSS: A module for performing Fermi Operator Expansions via\nChebyshev Polynomials.",
+            "name": "bigdft-chess"
+        },
+        {
+            "description": "BigDFT-core: the core components of BigDFT, an electronic structure\ncalculation based on Daubechies wavelets.",
+            "name": "bigdft-core"
+        },
+        {
+            "description": "BigDFT-Psolver: a flexible real-space Poisson Solver based on\nInterpolating Scaling Functions. It constitutes a fundamental building\nblock of BigDFT code, and it can also be used separately and linked to\nother codes.",
+            "name": "bigdft-psolver"
+        },
+        {
+            "description": "BigDFT-spred: a library for structure prediction tools, that is compiled\non top of BigDFT routines.",
+            "name": "bigdft-spred"
+        },
+        {
             "description": "Big Requests Extension. This extension defines a protocol to enable the\nuse of requests that exceed 262140 bytes in length.",
             "name": "bigreqsproto"
         },
@@ -151,6 +167,10 @@
         {
             "description": "cgdcbxd is a daemon used to monitor DCB netlink events and manage the\nnet_prio control group subsystem. The daemon keeps the hierarchy and\npriority mappings in sync with DCBX Application events",
             "name": "cgdcbxd"
+        },
+        {
+            "description": "Client and server side library to secure gSOAP using the Globus Security\nInfrastructure.",
+            "name": "cgsi-gsoap"
         },
         {
             "description": "Dense Linear Algebra for Scalable Multi-core Architectures and GPGPUs",
@@ -543,6 +563,10 @@
         {
             "description": "The GObject Introspection is used to describe the program APIs and\ncollect them in a uniform, machine readable format.Cairo is a 2D\ngraphics library with support for multiple output",
             "name": "gobject-introspection"
+        },
+        {
+            "description": "Encrypted overlay filesystem written in Go",
+            "name": "gocryptfs"
         },
         {
             "description": "Software version control visualization.",
@@ -1541,6 +1565,10 @@
             "name": "poppler"
         },
         {
+            "description": "PostgreSQL is a powerful, open source object-relational database system.\nIt has more than 15 years of active development and a proven\narchitecture that has earned it a strong reputation for reliability,\ndata integrity, and correctness.",
+            "name": "postgresql"
+        },
+        {
             "description": "preCICE (Precise Code Interaction Coupling Environment) is a coupling\nlibrary for partitioned multi-physics simulations. Partitioned means\nthat preCICE couples existing programs (solvers) capable of simulating a\nsubpart of the complete physics involved in a simulation.",
             "name": "precice"
         },
@@ -1571,6 +1599,10 @@
         {
             "description": "PRRTE is the Reference RunTime Environment implementation for PMIx. It\nis capable of operating within a host SMS. The reference RTE therefore\nprovides an easy way of exploring PMIx capabilities and testing PMIx-\nbased applications outside of a PMIx-enabled environment.",
             "name": "prrte"
+        },
+        {
+            "description": "Open source software to process some types of astronomy data.",
+            "name": "psrdada"
         },
         {
             "description": "PulseAudio is a sound system for POSIX OSes, meaning that it is a proxy\nfor your sound applications. PulseAudio is a sound system for POSIX\nOSes, meaning that it is a proxy for your sound applications. It allows\nyou to do advanced operations on your sound data as it passes between\nyour application and your hardware. Things like transferring the audio\nto a different machine, changing the sample format or channel count and\nmixing several sounds into one are easily achieved using a sound server.",
@@ -1983,6 +2015,10 @@
         {
             "description": "twm is a window manager for the X Window System. It provides titlebars,\nshaped windows, several forms of icon management, user-defined macro\nfunctions, click-to-type and pointer-driven keyboard focus, and user-\nspecified key and pointer button bindings.",
             "name": "twm"
+        },
+        {
+            "description": "Typst is a new markup-based typesetting system for the sciences.",
+            "name": "typst"
         },
         {
             "description": "a communication library implementing high-performance messaging for\nMPI/PGAS frameworks",

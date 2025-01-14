@@ -444,7 +444,7 @@
     ],
     "description": "A set of python modules for machine learning and data mining.\n",
     "homepage": "https://scikit-learn.org/",
-    "latest_version": "1.6.0",
+    "latest_version": "1.6.1",
     "maintainers": [
         "adamjstewart",
         "rgommers"
@@ -463,6 +463,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "1.6.1",
+            "sha256": "b4fc2525eca2c69a59260f583c56a7557c6ccdf8deafdba6e060f94c1c59738e"
         },
         {
             "name": "1.6.0",

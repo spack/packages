@@ -153,7 +153,9 @@
         {
             "commit": "fea8568cac61a482ed208748fdc0e1a8e47f62f5",
             "name": "1.6.0_2019-11-06"
-        },
+        }
+    ],
+    "versions_deprecated": [
         {
             "commit": "034921bd574cc84906b7996c07873454b7dd4135",
             "name": "1.6.0_2019-09-26"
@@ -178,6 +180,5 @@
             "commit": "7e1bed51cc508a25b22130de459830b5d5063c41",
             "name": "1.1.0_2018-04-19"
         }
-    ],
-    "versions_deprecated": []
+    ]
 }

@@ -452,6 +452,10 @@
             "name": "pypy"
         },
         {
+            "description": "Light emacs clone.",
+            "name": "qemacs"
+        },
+        {
             "description": "Qt is a comprehensive cross-platform C++ application framework.",
             "name": "qt"
         },

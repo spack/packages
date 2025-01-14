@@ -84,7 +84,7 @@
     ],
     "description": "Simple Python interface for Graphviz\n",
     "homepage": "https://github.com/xflr6/graphviz",
-    "latest_version": "0.13.2",
+    "latest_version": "0.20.3",
     "maintainers": [],
     "name": "py-graphviz",
     "patches": [],
@@ -107,6 +107,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.20.3",
+            "sha256": "09d6bc81e6a9fa392e7ba52135a9d49f1ed62526f96499325930e87ca1b5925d"
+        },
         {
             "name": "0.13.2",
             "sha256": "60acbeee346e8c14555821eab57dbf68a169e6c10bce40e83c1bf44f63a62a01"

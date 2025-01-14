@@ -20,6 +20,14 @@
             "name": "py-h5py"
         },
         {
+            "description": "A framework for elegantly configuring complex applications.",
+            "name": "py-hydra-core"
+        },
+        {
+            "description": "An extension to python's argparse which simplifies parsing of\nconfiguration options from command line arguments, json configuration\nfiles (yaml or jsonnet supersets), environment variables and hard-coded\ndefaults.",
+            "name": "py-jsonargparse"
+        },
+        {
             "description": "Open Source Differentiable Computer Vision Library for PyTorch.",
             "name": "py-kornia"
         },
@@ -40,12 +48,32 @@
             "name": "py-numpy"
         },
         {
+            "description": "A hierarchical configuration system, with support for merging\nconfigurations from multiple sources (YAML config files,\ndataclasses/objects and CLI arguments) providing a consistent API\nregardless of how the configuration was created.",
+            "name": "py-omegaconf"
+        },
+        {
             "description": "pandas is a fast, powerful, flexible and easy to use open source data\nanalysis and manipulation tool, built on top of the Python programming\nlanguage.",
             "name": "py-pandas"
         },
         {
             "description": "The PyPA recommended tool for installing Python packages.",
             "name": "py-pip"
+        },
+        {
+            "description": "pytest: simple powerful testing with Python.",
+            "name": "py-pytest"
+        },
+        {
+            "description": "Pytest plugin for measuring coverage.",
+            "name": "py-pytest-cov"
+        },
+        {
+            "description": "It helps to use fixtures in pytest.mark.parametrize.",
+            "name": "py-pytest-lazy-fixture"
+        },
+        {
+            "description": "An extremely fast Python linter and code formatter, written in Rust.",
+            "name": "py-ruff"
         },
         {
             "description": "A set of python modules for machine learning and data mining.",
@@ -95,7 +123,7 @@
     "dependent_to": [],
     "description": "Lighning-UQ-Box: A toolbox for uncertainty quantification in deep\nlearning.\n",
     "homepage": "https://github.com/lightning-uq-box/lightning-uq-box",
-    "latest_version": "0.1.0",
+    "latest_version": "0.2.0",
     "maintainers": [
         "adamjstewart",
         "nilsleh"
@@ -108,12 +136,21 @@
             "default": "python_pip",
             "description": "Build systems supported by the package",
             "name": "build_system"
+        },
+        {
+            "default": false,
+            "description": "Build test dependencies",
+            "name": "tests"
         }
     ],
     "versions": [
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "0.2.0",
+            "sha256": "97d994ac5ecdfc5a31e8d256b827115664d615a7623a1eea024754a8d7c3187e"
         },
         {
             "name": "0.1.0",

@@ -32,6 +32,14 @@
         {
             "description": "GNU M4 is an implementation of the traditional Unix macro processor.",
             "name": "m4"
+        },
+        {
+            "description": "OpenSSL is an open source project that provides a robust, commercial-\ngrade, and full-featured toolkit for the Transport Layer Security (TLS)\nand Secure Sockets Layer (SSL) protocols. It is also a general-purpose\ncryptography library.",
+            "name": "openssl"
+        },
+        {
+            "description": "zlib replacement with optimizations for next generation systems.",
+            "name": "zlib-api"
         }
     ],
     "dependent_to": [

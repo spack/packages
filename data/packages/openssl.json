@@ -118,6 +118,10 @@
             "name": "davix"
         },
         {
+            "description": "dCache access protocol client library.",
+            "name": "dcap"
+        },
+        {
             "description": "DCMTK is a collection of libraries and applications implementing large\nparts of the DICOM standard.",
             "name": "dcmtk"
         },

@@ -660,6 +660,10 @@
             "name": "hpctoolkit"
         },
         {
+            "description": "HPL is a software package that solves a (random) dense linear system in\ndouble precision (64 bits) arithmetic on distributed-memory computers.\nIt can thus be regarded as a portable as well as freely available\nimplementation of the High Performance Computing Linpack Benchmark.",
+            "name": "hpl"
+        },
+        {
             "description": "The HPX-5 Runtime System. HPX-5 (High Performance ParalleX) is an open\nsource, portable, performance-oriented runtime developed at CREST\n(Indiana University). HPX-5 provides a distributed programming model\nallowing programs to run unmodified on systems from a single SMP to\nlarge clusters and supercomputers with thousands of nodes. HPX-5\nsupports a wide variety of Intel and ARM platforms. It is being used by\na broad range of scientific applications enabling scientists to write\ncode that performs and scales better than contemporary runtimes.",
             "name": "hpx5"
         },

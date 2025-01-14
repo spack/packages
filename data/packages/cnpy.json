@@ -24,6 +24,10 @@
         {
             "description": "LBANN: Livermore Big Artificial Neural Network Toolkit. A distributed\nmemory, HPC-optimized, model and data parallel training toolkit for deep\nneural networks.",
             "name": "lbann"
+        },
+        {
+            "description": "interatomic Potentials in Atomic Cluster Expansion (PACE) This library\nis required to build the ML-PACE module in LAMMPS. The library was\ndeveloped at the Interdisciplinary Centre for Advanced Materials\nSimulation (ICAMS), Ruhr University Bochum See `Phys Rev Mat 6 013804\n(2022)<https://doi.org/10.1103/PhysRevMaterials.6.013804>`__ and `Phys\nRev B 99 014104 (2019)<https://doi.org/10.1103/PhysRevB.99.014104>`__\nfor details.",
+            "name": "pace"
         }
     ],
     "description": "cnpy: library to read/write .npy and .npz files in C/C++.\n",

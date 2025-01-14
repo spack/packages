@@ -53,7 +53,7 @@
     "dependent_to": [],
     "description": "A generic central exclusive processes event generator\n",
     "homepage": "https://cepgen.hepforge.org/",
-    "latest_version": "1.1.0",
+    "latest_version": "1.2.5",
     "maintainers": [],
     "name": "cepgen",
     "patches": [],
@@ -81,6 +81,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.2.5",
+            "sha256": "5016c5a9b505035f849f47bdf35ecfb8c98d45dd1e086fae64f264a30adb120d"
+        },
         {
             "name": "1.1.0",
             "sha256": "2a4eaed161f007269516cbfb6e90421e657ab1922d4509de0165f08dde91bf3d"

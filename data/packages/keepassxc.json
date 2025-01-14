@@ -94,7 +94,7 @@
     "dependent_to": [],
     "description": "KeePassXC - Cross-Platform Password Manager, modern, secure, and open-\nsource.\n",
     "homepage": "https://keepassxc.org",
-    "latest_version": "2.7.7",
+    "latest_version": "2.7.9",
     "maintainers": [
         "cessenat"
     ],
@@ -137,6 +137,14 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "2.7.9",
+            "sha256": "3c44e45f22c00ddac63d8bc11054b4b0ada0222ffac08d3ed70f196cb9ed46fd"
+        },
+        {
+            "name": "2.7.8",
+            "sha256": "87d3101712b3c8656a24b908ad5b7e2529bc01717cb4156f53ba195fb81783a3"
         },
         {
             "name": "2.7.7",

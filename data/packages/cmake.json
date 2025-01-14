@@ -3571,6 +3571,10 @@
             "name": "otf-cpt"
         },
         {
+            "description": "interatomic Potentials in Atomic Cluster Expansion (PACE) This library\nis required to build the ML-PACE module in LAMMPS. The library was\ndeveloped at the Interdisciplinary Centre for Advanced Materials\nSimulation (ICAMS), Ruhr University Bochum See `Phys Rev Mat 6 013804\n(2022)<https://doi.org/10.1103/PhysRevMaterials.6.013804>`__ and `Phys\nRev B 99 014104 (2019)<https://doi.org/10.1103/PhysRevB.99.014104>`__\nfor details.",
+            "name": "pace"
+        },
+        {
             "description": "Packmol creates an initial point for molecular dynamics simulations by\npacking molecules in defined regions of space.",
             "name": "packmol"
         },
@@ -4001,6 +4005,10 @@
         {
             "description": "Line-by-line profiler.",
             "name": "py-line-profiler"
+        },
+        {
+            "description": "MolSSI Driver Interface (MDI) Library The MolSSI Driver Interface (MDI)\nproject provides a standardized API for fast, on-the-fly communication\nbetween computational chemistry codes. This greatly simplifies the\nprocess of implementing methods that require the cooperation of multiple\nsoftware packages and enables developers to write a single\nimplementation that works across many different codes.",
+            "name": "py-mdi"
         },
         {
             "description": "MELD is a tool for inferring the structure of biomolecules from sparse,\nambiguous, or noisy data.",

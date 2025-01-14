@@ -48,6 +48,10 @@
         {
             "description": "Typer, build great CLIs. Easy to code. Based on Python type hints.",
             "name": "py-typer"
+        },
+        {
+            "description": "Working with color names and values formats defined by HTML and CSS.",
+            "name": "py-webcolors"
         }
     ],
     "description": "The build backend used by PDM that supports latest packaging standards\n",

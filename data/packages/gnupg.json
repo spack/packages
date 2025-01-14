@@ -79,7 +79,7 @@
     ],
     "description": "GNU Pretty Good Privacy (PGP) package.\n",
     "homepage": "https://gnupg.org/index.html",
-    "latest_version": "2.4.5",
+    "latest_version": "2.5.3",
     "maintainers": [
         "alalazo"
     ],
@@ -94,6 +94,30 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.5.3",
+            "sha256": "23128b136aed4e5121e793d1b6c60ee50c8007a9d926c1313e524d05386b54ac"
+        },
+        {
+            "name": "2.5.2",
+            "sha256": "7f404ccc6a58493fedc15faef59f3ae914831cff866a23f0bf9d66cfdd0fea29"
+        },
+        {
+            "name": "2.5.1",
+            "sha256": "8a34bb318499867962c939e156666ada93ed81f01926590ac68f3ff79178375e"
+        },
+        {
+            "name": "2.5.0",
+            "sha256": "2222c827d4e7087f15e7f72739d004abc1d05c6c5f0a5a12b24c6a6cc5d173fb"
+        },
+        {
+            "name": "2.4.7",
+            "sha256": "7b24706e4da7e0e3b06ca068231027401f238102c41c909631349dcc3b85eb46"
+        },
+        {
+            "name": "2.4.6",
+            "sha256": "95acfafda7004924a6f5c901677f15ac1bda2754511d973bb4523e8dd840e17a"
+        },
         {
             "name": "2.4.5",
             "sha256": "f68f7d75d06cb1635c336d34d844af97436c3f64ea14bcb7c869782f96f44277"

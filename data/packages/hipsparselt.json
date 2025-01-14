@@ -76,12 +76,16 @@
         {
             "description": "OpenMP support for ROCm LLVM.",
             "name": "rocm-openmp-extras"
+        },
+        {
+            "description": "It is a C library for Linux that provides a user space interface for\napplications to monitor and control GPU applications.",
+            "name": "rocm-smi-lib"
         }
     ],
     "dependent_to": [],
     "description": "hipSPARSELt is a SPARSE marshalling library, with multiple supported\nbackends. It sits between the application and a 'worker' SPARSE library,\nmarshalling inputs into the backend library and marshalling results back\nto the application. hipSPARSELt exports an interface that does not\nrequire the client to change, regardless of the chosen backend.\nCurrently, hipSPARSELt supports rocSPARSELt and cuSPARSELt v0.4 as\nbackends.\n",
     "homepage": "https://github.com/ROCm/hipsparselt",
-    "latest_version": "6.2.4",
+    "latest_version": "6.3.0",
     "maintainers": [
         "afzpatel",
         "renjithravindrankannath",
@@ -114,6 +118,15 @@
             "reverse": false,
             "sha256": "07af11511c8f3641947bdcd035801e5c4dc6efb2b294b78771a4037a7d8a06ce",
             "version": "@6.2",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.hipsparselt",
+            "relative_path": "0001-update-llvm-path-add-hipsparse-include-dir-for-spack-6.3.patch",
+            "reverse": false,
+            "sha256": "66315cf29db8af5455f681d69f8c7b9018dd46303b70843f0403662216dd8ab3",
+            "version": "@6.3",
             "working_dir": "."
         }
     ],
@@ -156,6 +169,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "6.3.0",
+            "sha256": "f67ed4900101686596add37824d0628f1e71cf6a30d827a0519b3c3657f63ac3"
+        },
         {
             "name": "6.2.4",
             "sha256": "7b007b346f89fac9214ad8541b3276105ce1cac14d6f95a8a504b5a5381c8184"

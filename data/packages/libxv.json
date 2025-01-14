@@ -52,6 +52,10 @@
             "name": "libxvmc"
         },
         {
+            "description": "Light emacs clone.",
+            "name": "qemacs"
+        },
+        {
             "description": "xvinfo prints out the capabilities of any video adaptors associated with\nthe display that are accessible through the X-Video extension.",
             "name": "xvinfo"
         }

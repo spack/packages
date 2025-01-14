@@ -223,7 +223,7 @@
     ],
     "description": "NumPy aware dynamic Python compiler using LLVM\n",
     "homepage": "https://numba.pydata.org/",
-    "latest_version": "0.58.1",
+    "latest_version": "0.60.0",
     "maintainers": [],
     "name": "py-numba",
     "patches": [],
@@ -241,6 +241,14 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.60.0",
+            "sha256": "5df6158e5584eece5fc83294b949fd30b9f1125df7708862205217e068aabf16"
+        },
+        {
+            "name": "0.59.1",
+            "sha256": "76f69132b96028d2774ed20415e8c528a34e3299a40581bae178f0994a2f370b"
+        },
         {
             "name": "0.58.1",
             "sha256": "487ded0633efccd9ca3a46364b40006dbdaca0f95e99b8b83e778d1195ebcbaa"

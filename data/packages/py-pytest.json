@@ -258,6 +258,10 @@
             "name": "py-jcb"
         },
         {
+            "description": "Lighning-UQ-Box: A toolbox for uncertainty quantification in deep\nlearning.",
+            "name": "py-lightning-uq-box"
+        },
+        {
             "description": "Matplotlib is a comprehensive library for creating static, animated, and\ninteractive visualizations in Python.",
             "name": "py-matplotlib"
         },
@@ -400,6 +404,10 @@
         {
             "description": "py.test plugin to check import ordering using isort",
             "name": "py-pytest-isort"
+        },
+        {
+            "description": "It helps to use fixtures in pytest.mark.parametrize.",
+            "name": "py-pytest-lazy-fixture"
         },
         {
             "description": "pytest plugin for test session metadata",

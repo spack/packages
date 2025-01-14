@@ -186,6 +186,10 @@
             "name": "py-hepunits"
         },
         {
+            "description": "Pretty print of NumPy (and other) histograms to the console",
+            "name": "py-histoprint"
+        },
+        {
             "description": "A Python library designed to make data analysis and visualization\nseamless and simple.",
             "name": "py-holoviews"
         },

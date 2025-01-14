@@ -297,7 +297,7 @@
     ],
     "description": "The Visualization Toolkit (VTK) is an open-source, freely available\nsoftware system for 3D computer graphics, image processing and\nvisualization.\n",
     "homepage": "https://www.vtk.org",
-    "latest_version": "9.3.1",
+    "latest_version": "9.4.1",
     "maintainers": [
         "chuckatkins",
         "danlipsa",
@@ -554,6 +554,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "9.4.1",
+            "sha256": "c253b0c8d002aaf98871c6d0cb76afc4936c301b72358a08d5f3f72ef8bc4529"
+        },
         {
             "name": "9.3.1",
             "sha256": "8354ec084ea0d2dc3d23dbe4243823c4bfc270382d0ce8d658939fd50061cab8"

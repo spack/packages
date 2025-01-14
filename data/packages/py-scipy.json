@@ -1470,7 +1470,7 @@
     ],
     "description": "Fundamental algorithms for scientific computing in Python.\n",
     "homepage": "https://www.scipy.org/",
-    "latest_version": "1.15.0",
+    "latest_version": "1.15.1",
     "maintainers": [
         "adamjstewart",
         "rgommers"
@@ -1517,6 +1517,10 @@
         {
             "branch": "main",
             "name": "main"
+        },
+        {
+            "name": "1.15.1",
+            "sha256": "033a75ddad1463970c96a88063a1df87ccfddd526437136b6ee81ff0312ebdf6"
         },
         {
             "name": "1.15.0",

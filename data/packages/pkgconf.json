@@ -27,14 +27,6 @@
         {
             "description": "AML is a memory management library designed to ease the use of complex\nmemory topologies and complex data layout optimizations for high-\nperformance computing applications.",
             "name": "aml"
-        },
-        {
-            "description": "Open source software to process some types of astronomy data.",
-            "name": "psrdada"
-        },
-        {
-            "description": "Typst is a new markup-based typesetting system for the sciences.",
-            "name": "typst"
         }
     ],
     "description": "pkgconf is a program which helps to configure compiler and linker flags\nfor development frameworks. It is similar to pkg-config from\nfreedesktop.org, providing additional functionality while also\nmaintaining compatibility.\n",

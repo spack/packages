@@ -44,6 +44,10 @@
             "name": "libxcb"
         },
         {
+            "description": "Light emacs clone.",
+            "name": "qemacs"
+        },
+        {
             "description": "X Display Manager / XDMCP server.",
             "name": "xdm"
         }

@@ -68,6 +68,10 @@
             "name": "pulseaudio"
         },
         {
+            "description": "Light emacs clone.",
+            "name": "qemacs"
+        },
+        {
             "description": "Sublime Text is a sophisticated text editor for code, markup and prose.",
             "name": "sublime-text"
         },

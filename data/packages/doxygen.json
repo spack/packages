@@ -302,7 +302,7 @@
     ],
     "description": "Doxygen is the de facto standard tool for generating documentation from\nannotated C++ sources, but it also supports other popular programming\nlanguages such as C, Objective-C, C#, PHP, Java, Python, IDL (Corba,\nMicrosoft, and UNO/OpenOffice flavors), Fortran, VHDL, Tcl, and to some\nextent D..\n",
     "homepage": "https://www.doxygen.org",
-    "latest_version": "1.12.0",
+    "latest_version": "1.13.2",
     "maintainers": [
         "sethrj"
     ],
@@ -388,6 +388,18 @@
         }
     ],
     "versions": [
+        {
+            "name": "1.13.2",
+            "sha256": "4c9d9c8e95c2af4163ee92bcb0f3af03b2a4089402a353e4715771e8d3701c48"
+        },
+        {
+            "name": "1.13.1",
+            "sha256": "16632b5052e0e5f8acbcfc80aaf37f0e445e777ca68aab0df136a68fa855d91c"
+        },
+        {
+            "name": "1.13.0",
+            "sha256": "f447f6d3dce91e70d323611fc5e1b15dfff705093eddbe8f36f2d9b10d99743d"
+        },
         {
             "name": "1.12.0",
             "sha256": "5ca35e1258020df5fe8b21c3656aed156c317def4a81b7fe52f452edc9f35768"

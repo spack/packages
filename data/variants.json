@@ -152,6 +152,10 @@
         },
         {
             "default": false,
+            "package": "qemacs"
+        },
+        {
+            "default": false,
             "package": "r"
         },
         {
@@ -13661,6 +13665,10 @@
             "package": "pacbio-dextractor"
         },
         {
+            "default": "cmake",
+            "package": "pace"
+        },
+        {
             "default": "python_pip",
             "package": "pacifica-cli"
         },
@@ -21646,6 +21654,10 @@
         },
         {
             "default": "python_pip",
+            "package": "py-mdi"
+        },
+        {
+            "default": "python_pip",
             "package": "py-mdit-py-plugins"
         },
         {
@@ -24403,6 +24415,10 @@
         {
             "default": "python_pip",
             "package": "py-pytest-isort"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-pytest-lazy-fixture"
         },
         {
             "default": "python_pip",
@@ -27527,6 +27543,10 @@
         {
             "default": "autotools",
             "package": "qd"
+        },
+        {
+            "default": "makefile",
+            "package": "qemacs"
         },
         {
             "default": "autotools",
@@ -34561,6 +34581,10 @@
             "package": "tetranscripts"
         },
         {
+            "default": "makefile",
+            "package": "texi2html"
+        },
+        {
             "default": "autotools",
             "package": "texinfo"
         },
@@ -39763,6 +39787,10 @@
         {
             "default": "Release",
             "package": "otf-cpt"
+        },
+        {
+            "default": "Release",
+            "package": "pace"
         },
         {
             "default": "Release",
@@ -48392,6 +48420,10 @@
         },
         {
             "default": false,
+            "package": "qemacs"
+        },
+        {
+            "default": false,
             "package": "reframe"
         },
         {
@@ -55513,6 +55545,10 @@
         {
             "default": "make",
             "package": "otf-cpt"
+        },
+        {
+            "default": "make",
+            "package": "pace"
         },
         {
             "default": "make",
@@ -63936,6 +63972,10 @@
         },
         {
             "default": false,
+            "package": "pace"
+        },
+        {
+            "default": false,
             "package": "packmol"
         },
         {
@@ -68929,6 +68969,12 @@
             "package": "goma"
         }
     ],
+    "mdi": [
+        {
+            "default": false,
+            "package": "lammps"
+        }
+    ],
     "mdrun_only": [
         {
             "default": false,
@@ -69508,6 +69554,12 @@
         }
     ],
     "ml-iap": [
+        {
+            "default": false,
+            "package": "lammps"
+        }
+    ],
+    "ml-pace": [
         {
             "default": false,
             "package": "lammps"
@@ -73073,12 +73125,6 @@
             "package": "opencv"
         }
     ],
-    "onnx_ml": [
-        {
-            "default": true,
-            "package": "py-torch"
-        }
-    ],
     "onnxrt": [
         {
             "default": false,
@@ -76060,6 +76106,10 @@
         },
         {
             "default": true,
+            "package": "pace"
+        },
+        {
+            "default": true,
             "package": "parallel-netcdf"
         },
         {
@@ -76408,6 +76458,10 @@
         },
         {
             "default": false,
+            "package": "qemacs"
+        },
+        {
+            "default": false,
             "package": "raja"
         },
         {
@@ -76647,6 +76701,10 @@
         {
             "default": true,
             "package": "py-torchvision"
+        },
+        {
+            "default": true,
+            "package": "qemacs"
         },
         {
             "default": true,
@@ -85561,6 +85619,10 @@
             "package": "py-datalad"
         },
         {
+            "default": false,
+            "package": "py-lightning-uq-box"
+        },
+        {
             "default": true,
             "package": "py-pynucleus"
         },
@@ -88795,6 +88857,12 @@
             "package": "tasmanian"
         }
     ],
+    "xshm": [
+        {
+            "default": true,
+            "package": "qemacs"
+        }
+    ],
     "xsimd": [
         {
             "default": true,
@@ -88823,6 +88891,12 @@
         {
             "default": true,
             "package": "votca"
+        }
+    ],
+    "xv": [
+        {
+            "default": true,
+            "package": "qemacs"
         }
     ],
     "xxhash": [

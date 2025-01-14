@@ -232,7 +232,7 @@
             "relative_path": "intel-oneapi-compiler-fixes.patch",
             "reverse": false,
             "sha256": "472b161b7a8afd72b603b9436e2b1ee8269ec8fa245a185f8911d9361fd7f873",
-            "version": "@6.0.0:%oneapi",
+            "version": "@6.0.0:7.0.1%oneapi",
             "working_dir": "."
         },
         {

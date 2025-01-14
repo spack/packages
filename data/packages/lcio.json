@@ -52,7 +52,7 @@
     ],
     "description": "HEP Library for Linear Collider Input/Output\n",
     "homepage": "http://lcio.desy.de",
-    "latest_version": "2.22.2",
+    "latest_version": "2.22.3",
     "maintainers": [
         "gaede",
         "jmcarcell",
@@ -107,6 +107,10 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "2.22.3",
+            "sha256": "5b9715786c5e953f8854881c5d0c4a48030a5491f1701232b82e960ac7980162"
         },
         {
             "name": "2.22.2",

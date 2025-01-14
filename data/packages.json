@@ -10728,6 +10728,10 @@
         "name": "pacbio-dextractor"
     },
     {
+        "description": "interatomic Potentials in Atomic Cluster Expansion (PACE) This library\nis required to build the ML-PACE module in LAMMPS. The library was\ndeveloped at the Interdisciplinary Centre for Advanced Materials\nSimulation (ICAMS), Ruhr University Bochum See `Phys Rev Mat 6 013804\n(2022)<https://doi.org/10.1103/PhysRevMaterials.6.013804>`__ and `Phys\nRev B 99 014104 (2019)<https://doi.org/10.1103/PhysRevB.99.014104>`__\nfor details.\n",
+        "name": "pace"
+    },
+    {
         "description": "Python CLI for Pacifica Core Services\n",
         "name": "pacifica-cli"
     },
@@ -18724,6 +18728,10 @@
         "name": "py-mdanalysistests"
     },
     {
+        "description": "MolSSI Driver Interface (MDI) Library The MolSSI Driver Interface (MDI)\nproject provides a standardized API for fast, on-the-fly communication\nbetween computational chemistry codes. This greatly simplifies the\nprocess of implementing methods that require the cooperation of multiple\nsoftware packages and enables developers to write a single\nimplementation that works across many different codes.\n",
+        "name": "py-mdi"
+    },
+    {
         "description": "Collection of core plugins for markdown-it-py\n",
         "name": "py-mdit-py-plugins"
     },
@@ -21482,6 +21490,10 @@
     {
         "description": "py.test plugin to check import ordering using isort\n",
         "name": "py-pytest-isort"
+    },
+    {
+        "description": "It helps to use fixtures in pytest.mark.parametrize.\n",
+        "name": "py-pytest-lazy-fixture"
     },
     {
         "description": "pytest plugin for test session metadata\n",
@@ -24606,6 +24618,10 @@
     {
         "description": "C++/Fortran-90 double-double and quad-double package. With modifications\nfor easier integration with NJet. see http://crd-\nlegacy.lbl.gov/~dhbailey/mpdist/ for authors page\n",
         "name": "qd"
+    },
+    {
+        "description": "Light emacs clone.\n",
+        "name": "qemacs"
     },
     {
         "description": "QEMU is a generic and open source machine emulator and virtualizer.\n",
@@ -31662,6 +31678,10 @@
     {
         "description": "TEtranscripts: Tools for estimating differential enrichment of\nTransposable Elements and other highly repetitive regions.\n",
         "name": "tetranscripts"
+    },
+    {
+        "description": "A highly customizable texinfo to HTML and other formats translator.\n",
+        "name": "texi2html"
     },
     {
         "description": "Texinfo is the official documentation format of the GNU project. It was\ninvented by Richard Stallman and Bob Chassell many years ago, loosely\nbased on Brian Reid's Scribe and other formatting languages of the time.\nIt is used by many non-GNU projects as well.\n",

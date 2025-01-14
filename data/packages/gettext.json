@@ -386,6 +386,10 @@
             "name": "systemtap"
         },
         {
+            "description": "A highly customizable texinfo to HTML and other formats translator.",
+            "name": "texi2html"
+        },
+        {
             "description": "Texinfo is the official documentation format of the GNU project. It was\ninvented by Richard Stallman and Bob Chassell many years ago, loosely\nbased on Brian Reid's Scribe and other formatting languages of the time.\nIt is used by many non-GNU projects as well.",
             "name": "texinfo"
         },

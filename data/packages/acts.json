@@ -324,6 +324,16 @@
         },
         {
             "description": null,
+            "name": "~json",
+            "spec": "+traccc"
+        },
+        {
+            "description": null,
+            "name": "~svg",
+            "spec": "+traccc"
+        },
+        {
+            "description": null,
             "name": "%gcc@:7",
             "spec": "@0.23:"
         },

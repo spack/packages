@@ -9,7 +9,7 @@
         },
         {
             "description": "gxsview: Qt 6 support is not yet achieved",
-            "name": "qt-base@6:",
+            "name": "^qt-base@6:",
             "spec": ""
         },
         {
