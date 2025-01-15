@@ -8,7 +8,12 @@
             "spec": "@:6.4.99"
         }
     ],
-    "dependencies": [],
+    "dependencies": [
+        {
+            "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
+            "name": "gmake"
+        }
+    ],
     "dependent_to": [
         {
             "description": "Draco is an object-oriented component library geared towards numerically\nintensive, radiation (particle) transport applications built for\nparallel computing hardware. It consists of semi-independent packages\nand a robust build system.",

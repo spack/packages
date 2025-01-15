@@ -34,6 +34,10 @@
             "name": "abi-compliance-checker"
         },
         {
+            "description": "ABI Dumper is a tool to dump ABI of an ELF object containing DWARF debug\ninfo.",
+            "name": "abi-dumper"
+        },
+        {
             "description": "ABINIT is a package whose main program allows one to find the total\nenergy, charge density and electronic structure of systems made of\nelectrons and nuclei (molecules and periodic solids) within Density\nFunctional Theory (DFT), using pseudopotentials and a planewave or\nwavelet basis. ABINIT also includes options to optimize the geometry\naccording to the DFT forces and stresses, or to perform molecular\ndynamics simulations using these forces, or to generate dynamical\nmatrices, Born effective charges, and dielectric tensors, based on\nDensity-Functional Perturbation Theory, and many more properties.\nExcited states can be computed within the Many-Body Perturbation Theory\n(the GW approximation and the Bethe-Salpeter equation), and Time-\nDependent Density Functional Theory (for molecules). In addition to the\nmain ABINIT code, different utility programs are provided.",
             "name": "abinit"
         },
@@ -56,6 +60,10 @@
         {
             "description": "ACE is an open-source framework that provides many components and\npatterns for developing high-performance, distributed real-time and\nembedded systems. ACE provides powerful, yet efficient abstractions for\nsockets, demultiplexing loops, threads, synchronization primitives.",
             "name": "ace"
+        },
+        {
+            "description": "Arm Compiler combines the optimized tools and libraries from Arm with a\nmodern LLVM-based compiler framework.",
+            "name": "acfl"
         },
         {
             "description": "Commands for Manipulating POSIX Access Control Lists.",
@@ -206,6 +214,10 @@
             "name": "aluminum"
         },
         {
+            "description": "Amber is a suite of biomolecular simulation programs together with Amber\ntools. A manual download is required for Ambers. Spack will search your\ncurrent directory for the download files. Alternatively, add the files\nto a mirror so that Spack can find them. For instructions on how to set\nup a mirror, see https://spack.readthedocs.io/en/latest/mirrors.html\nNote: Only certain versions of ambertools are compatible with amber.\nOnly the latter version of ambertools for each amber version is\nsupported.",
+            "name": "amber"
+        },
+        {
             "description": "AmberTools is a free, useful standalone package and a prerequisite for\ninstalling Amber itself. The AmberTools suite is free of charge, and its\ncomponents are mostly released under the GNU General Public License\n(GPL). A few components are included that are in the public domain or\nwhich have other, open-source, licenses. The libsander and libpbsa\nlibraries use the LGPL license.",
             "name": "ambertools"
         },
@@ -346,6 +358,14 @@
             "name": "apachetop"
         },
         {
+            "description": "A multi use-case image compositor",
+            "name": "apcomp"
+        },
+        {
+            "description": "A tool for generating atomic pseudopotentials within a Density-\nFunctional Theory framework",
+            "name": "ape"
+        },
+        {
             "description": "Autonomic Performance Environment for eXascale (APEX).",
             "name": "apex"
         },
@@ -422,6 +442,10 @@
             "name": "armcimpi"
         },
         {
+            "description": "Arm Performance Libraries provides optimized standard core math\nlibraries for high-performance computing applications on Arm processors.",
+            "name": "armpl-gcc"
+        },
+        {
             "description": "ARPACK-NG is a collection of Fortran77 subroutines designed to solve\nlarge scale eigenvalue problems. Important Features: * Reverse\nCommunication Interface. * Single and Double Precision Real Arithmetic\nVersions for Symmetric, Non-symmetric, Standard or Generalized Problems.\n* Single and Double Precision Complex Arithmetic Versions for Standard\nor Generalized Problems. * Routines for Banded Matrices - Standard or\nGeneralized Problems. * Routines for The Singular Value Decomposition. *\nExample driver routines that may be used as templates to implement\nnumerous Shift-Invert strategies for all problem types, data types and\nprecision. This project is a joint project between Debian, Octave and\nScilab in order to provide a common and maintained version of arpack.\nIndeed, no single release has been published by Rice university for the\nlast few years and since many software (Octave, Scilab, R, Matlab...)\nforked it and implemented their own modifications, arpack-ng aims to\ntackle this by providing a common repository and maintained versions.\narpack-ng is replacing arpack almost everywhere.",
             "name": "arpack-ng"
         },
@@ -494,6 +518,10 @@
             "name": "assimp"
         },
         {
+            "description": "ASTRAL is a tool for estimating an unrooted species tree given a set of\nunrooted gene trees.",
+            "name": "astral"
+        },
+        {
             "description": "A Free, Fast, and Small Automatic Formatter for C, C++, C++/CLI,\nObjective-C, C#, and Java Source Code.",
             "name": "astyle"
         },
@@ -506,6 +534,10 @@
             "name": "athena"
         },
         {
+            "description": "Automatically Tuned Linear Algebra Software, generic shared ATLAS is an\napproach for the automatic generation and optimization of numerical\nsoftware. Currently ATLAS supplies optimized versions for the complete\nset of linear algebra kernels known as the Basic Linear Algebra\nSubroutines (BLAS), and a subset of the linear algebra routines in the\nLAPACK library.",
+            "name": "atlas"
+        },
+        {
             "description": "Asynchronous Task and Memory Interface, or ATMI, is a runtime framework\nand programming model for heterogeneous CPU-GPU systems. It provides a\nconsistent, declarative API to create task graphs on CPUs and GPUs\n(integrated and discrete).",
             "name": "atmi"
         },
@@ -516,6 +548,10 @@
         {
             "description": "A Projector Augmented Wave (PAW) code for generating atom-centered\nfunctions. Official website: http://pwpaw.wfu.edu User's guide:\n~/doc/atompaw-usersguide.pdf",
             "name": "atompaw"
+        },
+        {
+            "description": "Atop is an ASCII full-screen performance monitor for Linux",
+            "name": "atop"
         },
         {
             "description": "Commands for Manipulating Filesystem Extended Attributes",
@@ -682,6 +718,10 @@
             "name": "baurmc"
         },
         {
+            "description": "Securely and quickly copy data from source to target",
+            "name": "bbcp"
+        },
+        {
             "description": "bc is an arbitrary precision numeric processing language. Syntax is\nsimilar to C, but differs in many substantial areas. It supports\ninteractive execution of statements.",
             "name": "bc"
         },
@@ -692,6 +732,10 @@
         {
             "description": "BCFtools is a set of utilities that manipulate variant calls in the\nVariant Call Format (VCF) and its binary counterpart BCF. All commands\nwork transparently with both VCFs and BCFs, both uncompressed and BGZF-\ncompressed.",
             "name": "bcftools"
+        },
+        {
+            "description": "The bcl2fastq2 Conversion Software converts base call (BCL) files from a\nsequencing run into FASTQ files.",
+            "name": "bcl2fastq2"
         },
         {
             "description": "bdftopcf is a font compiler for the X server and font server. Fonts in\nPortable Compiled Format can be read by any architecture, although the\nfile is structured to allow one particular architecture to read them\ndirectly without reformatting. This allows fast reading on the\nappropriate machine, but the files are still portable (but read more\nslowly) on other machines.",
@@ -724,6 +768,10 @@
         {
             "description": "BEDOPS is an open-source command-line toolkit that performs highly\nefficient and scalable Boolean and other set operations, statistical\ncalculations, archiving, conversion and other management of genomic data\nof arbitrary scale.",
             "name": "bedops"
+        },
+        {
+            "description": "Collectively, the bedtools utilities are a swiss-army knife of tools for\na wide-range of genomics analysis tasks. The most widely-used tools\nenable genome arithmetic: that is, set theory on the genome.",
+            "name": "bedtools2"
         },
         {
             "description": "The beforelight program is a sample implementation of a screen saver for\nX servers supporting the MIT-SCREEN-SAVER extension. It is only\nrecommended for use as a code sample, as it does not include features\nsuch as screen locking or configurability.",
@@ -854,12 +902,20 @@
             "name": "blast-plus"
         },
         {
+            "description": "BLAT (BLAST-like alignment tool) is a pairwise sequence alignment\nalgorithm.",
+            "name": "blat"
+        },
+        {
             "description": "Blaze is an open-source, high-performance C++ math library for dense and\nsparse arithmetic. With its state-of-the-art Smart Expression Template\nimplementation Blaze combines the elegance and ease of use of a domain-\nspecific language with HPC-grade performance, making it one of the most\nintuitive and fastest C++ math libraries available.",
             "name": "blaze"
         },
         {
             "description": "BLIS is a portable software framework for instantiating high-performance\nBLAS-like dense linear algebra libraries. The framework was designed to\nisolate essential kernels of computation that, when optimized,\nimmediately enable optimized implementations of most of its commonly\nused and computationally intensive operations. BLIS is written in ISO\nC99 and available under a new/modified/3-clause BSD license. While BLIS\nexports a new BLAS-like API, it also includes a BLAS compatibility layer\nwhich gives application developers access to BLIS implementations via\ntraditional BLAS routine calls. An object-based API unique to BLIS is\nalso available.",
             "name": "blis"
+        },
+        {
+            "description": "bliss: A Tool for Computing Automorphism Groups and Canonical Labelings\nof Graphs",
+            "name": "bliss"
         },
         {
             "description": "N-dimensional arrays for C++",
@@ -876,6 +932,10 @@
         {
             "description": "A filesystem benchmark tool that simulates a realistic load.",
             "name": "blogbench"
+        },
+        {
+            "description": "Portable version of NetBSD make(1).",
+            "name": "bmake"
         },
         {
             "description": "a communications framework and network abstraction layer",
@@ -1182,6 +1242,10 @@
             "name": "cbflib"
         },
         {
+            "description": "The BLAS (Basic Linear Algebra Subprograms) are routines that provide\nstandard building blocks for performing basic vector and matrix\noperations.",
+            "name": "cblas"
+        },
+        {
             "description": "A BQN implementation in C",
             "name": "cbqn"
         },
@@ -1232,6 +1296,10 @@
         {
             "description": "Fast indexing and retrieval of fasta records from flat file databases",
             "name": "cdbfasta"
+        },
+        {
+            "description": "The program cdd+ (cdd, respectively) is a C++ (ANSI C) implementation of\nthe Double Description Method [MRTT53] for generating all vertices (i.e.\nextreme points) and extreme rays of a general convex polyhedron given by\na system of linear inequalities",
+            "name": "cdd"
         },
         {
             "description": "The C-library cddlib is a C implementation of the Double Description\nMethod of Motzkin et al. for generating all vertices (i.e. extreme\npoints) and extreme rays of a general convex polyhedron in R^d given by\na system of linear inequalities",
@@ -1350,6 +1418,10 @@
             "name": "charliecloud"
         },
         {
+            "description": "Charm++ is a parallel programming framework in C++ supported by an\nadaptive runtime system, which enhances user productivity and allows\nprograms to run portably from small multicore computers (your laptop) to\nthe largest supercomputers.",
+            "name": "charmpp"
+        },
+        {
             "description": "A suite of communication-intensive proxy applications that mimic\ncommonly found communication patterns in HPC codes. These codes can be\nused as synthetic codes for benchmarking, or for trace generation using\nScore-P / OTF2.",
             "name": "chatterbug"
         },
@@ -1454,6 +1526,10 @@
             "name": "cln"
         },
         {
+            "description": "CLooG is a free software and library to generate code for scanning\nZ-polyhedra. That is, it finds a code (e.g. in C, FORTRAN...) that\nreaches each integral point of one or more parameterized polyhedra.",
+            "name": "cloog"
+        },
+        {
             "description": "Proxy Application. CloverLeaf is a miniapp that solves the compressible\nEuler equations on a Cartesian grid, using an explicit, second-order\naccurate method.",
             "name": "cloverleaf"
         },
@@ -1518,6 +1594,10 @@
             "name": "cnpy"
         },
         {
+            "description": "The Microsoft Cognitive Toolkit is a unified deep-learning toolkit that\ndescribes neural networks as a series of computational steps via a\ndirected graph.",
+            "name": "cntk"
+        },
+        {
             "description": "A tool for CNV discovery and genotyping from depth-of-coverage by mapped\nreads.",
             "name": "cnvnator"
         },
@@ -1564,6 +1644,10 @@
         {
             "description": "Colm Programming Language Colm is a programming language designed for\nthe analysis and transformation of computer languages. Colm is\ninfluenced primarily by TXL. It is in the family of program\ntransformation languages.",
             "name": "colm"
+        },
+        {
+            "description": "Colorful diff utility.",
+            "name": "colordiff"
         },
         {
             "description": "CoMD is a reference implementation of classical molecular dynamics\nalgorithms and workloads as used in materials science. It is created and\nmaintained by The Exascale Co-Design Center for Materials in Extreme\nEnvironments (ExMatEx). The code is intended to serve as a vehicle for\nco-design by allowing others to extend and/or reimplement it as needed\nto test performance of new architectures, programming models, etc. New\nversions of CoMD will be released to incorporate the lessons learned\nfrom the co-design process.",
@@ -1648,6 +1732,10 @@
         {
             "description": "Distributed Communication-Optimal Matrix-Matrix Multiplication Library",
             "name": "cosma"
+        },
+        {
+            "description": "CosmoMC is a Fortran 2008 Markov-Chain Monte-Carlo (MCMC) engine for\nexploring cosmological parameter space, together with Fortran and python\ncode for analysing Monte-Carlo samples and importance sampling (plus a\nsuite of scripts for building grids of runs, plotting and presenting\nresults).",
+            "name": "cosmomc"
         },
         {
             "description": "Proxy Application. CoSP2 represents a sparse linear algebra parallel\nalgorithm for calculating the density matrix in electronic tructure\ntheory. The algorithm is based on a recursive second-order Fermi-\nOperator expansion method (SP2) and is tailored for density functional\nbased tight-binding calculations of non-metallic systems.",
@@ -1902,6 +1990,10 @@
             "name": "czmq"
         },
         {
+            "description": "The Emacs programmable text editor.",
+            "name": "daemonize"
+        },
+        {
             "description": "The Dakota toolkit provides a flexible, extensible interface between\nanalysis codes and iterative systems analysis methods. Dakota contains\nalgorithms for: - optimization with gradient and non gradient-based\nmethods; - uncertainty quantification with sampling, reliability,\nstochastic - expansion, and epistemic methods; - parameter estimation\nwith nonlinear least squares methods; - sensitivity/variance analysis\nwith design of experiments and - parameter study methods. These\ncapabilities may be used on their own or as components within advanced\nstrategies such as hybrid optimization, surrogate-based optimization,\nmixed integer nonlinear programming, or optimization under uncertainty.",
             "name": "dakota"
         },
@@ -2086,6 +2178,10 @@
             "name": "dhtest"
         },
         {
+            "description": "Dia is a program for drawing structured diagrams.",
+            "name": "dia"
+        },
+        {
             "description": "DIALIGN is a software program for multiple sequence alignment developed\nby Burkhard Morgenstern et al..",
             "name": "dialign"
         },
@@ -2128,6 +2224,10 @@
         {
             "description": "A meta-package that pulls in libcollection, libdhash, libini_config,\nlibrefarray libbasicobjects, and libpath_utils.",
             "name": "ding-libs"
+        },
+        {
+            "description": "DIRE (short for dipole resummation) a C++ program for all-order\nradiative corrections to scattering processes in high-energy particle\ncollisions.",
+            "name": "dire"
         },
         {
             "description": "This project contains DisCoTec, a code for the distributed sparse grid\ncombination technique with MPI parallelization.",
@@ -2268,6 +2368,14 @@
         {
             "description": "DRAMsim is a hardware-validated, cycle-accurate C based simulator for\nDRAM devices such as DDR3",
             "name": "dramsim2"
+        },
+        {
+            "description": "DRAMsim3 models the timing paramaters and memory controller behavior for\nseveral DRAM protocols such as DDR3, DDR4, LPDDR3, LPDDR4, GDDR5, GDDR6,\nHBM, HMC, STT-MRAM. It is implemented in C++ as an objected oriented\nmodel that includes a parameterized DRAM bank model, DRAM controllers,\ncommand queues and system-level interfaces to interact with a CPU\nsimulator (GEM5, ZSim) or trace workloads. It is designed to be\naccurate, portable and parallel.",
+            "name": "dramsim3"
+        },
+        {
+            "description": "High-Order Mesh Ray Tracer.",
+            "name": "dray"
         },
         {
             "description": "Direct Rendering Infrastructure 2 Extension. This extension defines a\nprotocol to securely allow user applications to access the video\nhardware without requiring data to be passed through the X server.",
@@ -2530,6 +2638,10 @@
             "name": "enzyme"
         },
         {
+            "description": "A collection of C routines that can be used to access the Sesame data\nlibrary.",
+            "name": "eospac"
+        },
+        {
             "description": "This is the main core of EPICS, the Experimental Physics and Industrial\nControl System, comprising the build system and tools, common and OS-\ninterface libraries, network protocol client and server libraries,\nstatic and run-time database access routines, the database processing\ncode, and standard record, device and driver support.",
             "name": "epics-base"
         },
@@ -2598,12 +2710,20 @@
             "name": "esys-particle"
         },
         {
+            "description": "etcd is a distributed reliable key-value store for the most critical\ndata of a distributed system",
+            "name": "etcd"
+        },
+        {
             "description": "The ethminer is an Ethereum GPU mining worker.",
             "name": "ethminer"
         },
         {
             "description": "Ethtool is a small utility for examining and tuning your ethernet-based\nnetwork interface.",
             "name": "ethtool"
+        },
+        {
+            "description": "ETSF_IO is a library implementing the Nanoquanta/ETSF file format\nspecifications. ETSF_IO enables an architecture-independent exchange of\ncrystallographic data, electronic wavefunctions, densities and\npotentials, as well as spectroscopic data. It is meant to be used by\nquantum-physical and quantum-chemical applications relying upon Density\nFunctional Theory (DFT).",
+            "name": "etsf-io"
         },
         {
             "description": "Expressive Velocity Engine - SIMD in C++ Goes Brrrr",
@@ -2906,6 +3026,10 @@
             "name": "fermikit"
         },
         {
+            "description": "Ferret is an interactive computer visualization and analysis environment\ndesigned to meet the needs of oceanographers and meteorologists\nanalyzing large and complex gridded data sets.",
+            "name": "ferret"
+        },
+        {
             "description": "FeynHiggs is a Fortran code for the (diagrammatic/EFT/hybrid)\ncalculation of the masses, mixings and much more of the Higgs bosons in\nthe MSSM with real/complex parameters at the highest level of accuracy.",
             "name": "feynhiggs"
         },
@@ -2924,6 +3048,10 @@
         {
             "description": "The Flexible Filesystem Benchmark (FFSB) is a cross-platform filesystem\nperformance measurement tool.",
             "name": "ffsb"
+        },
+        {
+            "description": "Fastest Fourier Transform in the East. Provides FFT for powers of 2, 3,\nand 5 lengths in one, two, and three dimensions. Support for vector\nhardware, MPI, and CUDA Fortran is also included.",
+            "name": "ffte"
         },
         {
             "description": "FFTW is a C subroutine library for computing the discrete Fourier\ntransform (DFT) in one or more dimensions, of arbitrary input size, and\nof both real and complex data (as well as of even/odd data, i.e. the\ndiscrete cosine/sine transforms or DCT/DST). We believe that FFTW, which\nis free software, should become the FFT library of choice for most\napplications.",
@@ -3014,6 +3142,10 @@
             "name": "flash"
         },
         {
+            "description": "FlashDIMMSim: a reasonably accurate flash DIMM simulator.",
+            "name": "flashdimmsim"
+        },
+        {
             "description": "Memory Efficient Serialization Library",
             "name": "flatbuffers"
         },
@@ -3032,6 +3164,10 @@
         {
             "description": "FleCSPH is a multi-physics compact application that exercises FleCSI\nparallel data structures for tree-based particle methods. In particular,\nFleCSPH implements a smoothed-particle hydrodynamics (SPH) solver for\nthe solution of Lagrangian problems in astrophysics and cosmology.\nFleCSPH includes support for gravitational forces using the fast\nmultipole method (FMM).",
             "name": "flecsph"
+        },
+        {
+            "description": "FLEUR (Full-potential Linearised augmented plane wave in EURope) is a\ncode family for calculating groundstate as well as excited-state\nproperties of solids within the context of density functional theory\n(DFT).",
+            "name": "fleur"
         },
         {
             "description": "Flex is a tool for generating scanners.",
@@ -3190,8 +3326,16 @@
             "name": "fqtrim"
         },
         {
+            "description": "An efficient algorithm for fragment recruitment for next generation\nsequences against microbial reference genomes.",
+            "name": "fr-hit"
+        },
+        {
             "description": "FragGeneScan is an application for finding (fragmented) genes in short\nreads. It can also be applied to predict prokaryotic genes in incomplete\nassemblies or complete genomes.",
             "name": "fraggenescan"
+        },
+        {
+            "description": "Bayesian haplotype-based genetic polymorphism discovery and genotyping.",
+            "name": "freebayes"
         },
         {
             "description": "FreeCAD is an open-source parametric 3D modeler made primarily to design\nreal-life objects of any size. Parametric modeling allows you to easily\nmodify your design by going back into your model history to change its\nparameters.",
@@ -3462,6 +3606,10 @@
             "name": "gengetopt"
         },
         {
+            "description": "Genie is a neutrino Monte Carlo Generator.",
+            "name": "genie"
+        },
+        {
             "description": "genometools is a free collection of bioinformatics tools (in the realm\nof genome informatics) combined into a single binary named gt.",
             "name": "genometools"
         },
@@ -3608,6 +3756,10 @@
         {
             "description": "OpenGL Mathematics (GLM) is a header only C++ mathematics library for\ngraphics software based on the OpenGL Shading Language (GLSL)\nspecification",
             "name": "glm"
+        },
+        {
+            "description": "The Gnu Global tagging system",
+            "name": "global"
         },
         {
             "description": "Global Arrays (GA) is a Partitioned Global Address Space (PGAS)\nprogramming model. It provides primitives for one-sided communication\n(Get, Put, Accumulate) and Atomic Operations (read increment). It\nsupports blocking and non-blocking primtives, and supports location\nconsistency.",
@@ -3758,6 +3910,10 @@
             "name": "gmtsar"
         },
         {
+            "description": "The GNAT Ada compiler. Ada is a modern programming language designed for\nlarge, long-lived applications - and embedded systems in particular -\nwhere reliability and efficiency are essential.",
+            "name": "gnat"
+        },
+        {
             "description": "The GNDS package is an implementation of the OECD specifications for the\nGeneralized Nuclear Database Structure used in the AMPX cross section\nprocessing code.",
             "name": "gnds"
         },
@@ -3858,6 +4014,10 @@
             "name": "gprofng-gui"
         },
         {
+            "description": "A free Prolog compiler with constraint solving over finite domains.",
+            "name": "gprolog"
+        },
+        {
             "description": "GPTL is a library to instrument C, C++, and Fortran codes for\nperformance analysis and profiling.",
             "name": "gptl"
         },
@@ -3888,6 +4048,10 @@
         {
             "description": "Grace is a WYSIWYG 2D plotting tool for the X Window System and M*tif.",
             "name": "grace"
+        },
+        {
+            "description": "Grackle is a chemistry and radiative cooling library for astrophysical\nsimulations with interfaces for C, C++, and Fortran codes. It is a\ngeneralized and trimmed down version of the chemistry network of the\nEnzo simulation code",
+            "name": "grackle"
         },
         {
             "description": "The Grid Analysis and Display System (GrADS) is an interactive desktop\ntool that is used for easy access, manipulation, and visualization of\nearth science data. GrADS has two data models for handling gridded and\nstation data. GrADS supports many data file formats, including binary\n(stream or sequential), GRIB (version 1 and 2), NetCDF, HDF (version 4\nand 5), and BUFR (for station data).",
@@ -3984,6 +4148,10 @@
         {
             "description": "A single-file header-only version of ISO C++ Guidelines Support Library\n(GSL) for C++98, C++11, and later",
             "name": "gsl-lite"
+        },
+        {
+            "description": "Highly scalable Gather-scatter code with AMG and XXT solvers",
+            "name": "gslib"
         },
         {
             "description": "The gSOAP toolkit is an extensive suite of portable C and C++ software\nto develop XML Web services with powerful type-safe XML data bindings.",
@@ -4282,6 +4450,10 @@
             "name": "hip"
         },
         {
+            "description": "Examples for HIP",
+            "name": "hip-examples"
+        },
+        {
             "description": "Hip-ROCclr is a virtual device interface that compute runtimes interact\nwith to different backends such as ROCr or PAL This abstraction allows\nruntimes to work on Windows as well as on Linux without much effort.",
             "name": "hip-rocclr"
         },
@@ -4366,6 +4538,10 @@
             "name": "hivex"
         },
         {
+            "description": "HMMER is used for searching sequence databases for sequence homologs,\nand for making sequence alignments. It implements methods using\nprobabilistic models called profile hidden Markov models (profile HMMs).",
+            "name": "hmmer"
+        },
+        {
             "description": "High Order mesh generator for Hexahedral and Quadrilateral meshes.",
             "name": "hohqmesh"
         },
@@ -4400,6 +4576,10 @@
         {
             "description": "HPCToolkit is an integrated suite of tools for measurement and analysis\nof program performance on computers ranging from multicore desktop\nsystems to the nation's largest supercomputers. By using statistical\nsampling of timers and hardware performance counters, HPCToolkit\ncollects accurate measurements of a program's work, resource\nconsumption, and inefficiency and attributes them to the full calling\ncontext in which they occur.",
             "name": "hpctoolkit"
+        },
+        {
+            "description": "High-performance unified framework for domain decomposition methods.",
+            "name": "hpddm"
         },
         {
             "description": "HPGMG implements full multigrid (FMG) algorithms using finite-volume and\nfinite-element methods. Different algorithmic variants adjust the\narithmetic intensity and architectural properties that are tested. These\nFMG methods converge up to discretization error in one F-cycle, thus may\nbe considered direct solvers. An F-cycle visits the finest level a total\nof two times, the first coarsening (8x smaller) 4 times, the second\ncoarsening 6 times, etc.",
@@ -4862,6 +5042,10 @@
             "name": "json-fortran"
         },
         {
+            "description": "JSON-GLib is a library for reading and parsing JSON using GLib and\nGObject data types and API.",
+            "name": "json-glib"
+        },
+        {
             "description": "JsonCpp is a C++ library that allows manipulating JSON values, including\nserialization and deserialization to and from strings. It can also\npreserve existing comment in unserialization/serialization steps, making\nit a convenient format to store user input files.",
             "name": "jsoncpp"
         },
@@ -4904,6 +5088,10 @@
         {
             "description": "KaKs_Calculator adopts model selection and model averaging to calculate\nnonsynonymous (Ka) and synonymous (Ks) substitution rates, attempting to\ninclude as many features as needed for accurately capturing evolutionary\ninformation in protein-coding sequences.",
             "name": "kaks-calculator"
+        },
+        {
+            "description": "Kaldi is a toolkit for speech recognition written in C++ and licensed\nunder the Apache License v2.0. Kaldi is intended for use by speech\nrecognition researchers.",
+            "name": "kaldi"
         },
         {
             "description": "A fast multiple sequence alignment program for biological sequences.",
@@ -4990,6 +5178,10 @@
             "name": "kokkos-kernels-legacy"
         },
         {
+            "description": "Kokkos implements a programming model in C++ for writing performance\nportable applications targeting all major HPC platforms.",
+            "name": "kokkos-legacy"
+        },
+        {
             "description": "Kokkos Profiling and Debugging Tools",
             "name": "kokkos-tools"
         },
@@ -5006,6 +5198,10 @@
             "name": "kripke"
         },
         {
+            "description": "Kubernetes is an open source system for managing containerized\napplications across multiple hosts. It provides basic mechanisms for\ndeployment, maintenance, and scaling of applications.",
+            "name": "kubernetes"
+        },
+        {
             "description": "KUMI - C++20 Tuple & Tuple-base Algorithms Library.",
             "name": "kumi"
         },
@@ -5016,6 +5212,10 @@
         {
             "description": "Kyoto Cabinet is a library of routines for managing a database.",
             "name": "kyotocabinet"
+        },
+        {
+            "description": "Ladot is a script that makes using LaTeX in graphs generated by dot\n(graphviz) relatively easy.",
+            "name": "ladot"
         },
         {
             "description": "Laghos (LAGrangian High-Order Solver) is a CEED miniapp that solves the\ntime-dependent Euler equations of compressible gas dynamics in a moving\nLagrangian frame using unstructured high-order finite element spatial\ndiscretization and explicit high-order time-stepping.",
@@ -5468,6 +5668,10 @@
         {
             "description": "libFS - X Font Service client library. This library is used by clients\nof X Font Servers (xfs), such as xfsinfo, fslsfonts, and the X servers\nthemselves.",
             "name": "libfs"
+        },
+        {
+            "description": "The reference implementation of the Linux FUSE (Filesystem in Userspace)\ninterface",
+            "name": "libfuse"
         },
         {
             "description": "Fully feature complete YAML parser and emitter, supporting the latest\nYAML spec and passing the full YAML testsuite.",
@@ -6106,6 +6310,10 @@
             "name": "libtar"
         },
         {
+            "description": "ASN.1 structure parser library.",
+            "name": "libtasn1"
+        },
+        {
             "description": "Easy keyboard entry processing for terminal programs",
             "name": "libtermkey"
         },
@@ -6128,6 +6336,10 @@
         {
             "description": "tlx is a collection of C++ helpers and extensions universally needed,\nbut not found in the STL. The most important design goals and\nconventions are: 1) high modularity with as little dependencies between\nmodules as possible. 2) attempt to never break existing interfaces. 3)\ncompile on all platforms with C++ - smartphones, supercomputers,\nwindows, etc. 4) zero external dependencies: no additional libraries are\nrequired. 5) warning and bug-freeness on all compilers. 6) keep overhead\ndown - small overall size such that is can be included without bloating\napplications.",
             "name": "libtlx"
+        },
+        {
+            "description": "TOML in c99; v0.4.0 compliant.",
+            "name": "libtomlc99"
         },
         {
             "description": "A portable number theoretic multiple-precision integer library.",
@@ -6232,6 +6444,10 @@
         {
             "description": "C library for lightweight websocket clients and servers.",
             "name": "libwebsockets"
+        },
+        {
+            "description": "Libwhich: the functionality of which for libraries.",
+            "name": "libwhich"
         },
         {
             "description": "WindowsWM - Cygwin/X rootless window management extension. WindowsWM is\na simple library designed to interface with the Windows-WM extension.\nThis extension allows X window managers to better interact with the\nCygwin XWin server when running X11 in a rootless mode.",
@@ -6402,6 +6618,10 @@
             "name": "libxsmm"
         },
         {
+            "description": "LIBXSTREAM is a library to work with streams, events, and code regions\nthat are able to run asynchronous while preserving the usual stream\nconditions.",
+            "name": "libxstream"
+        },
+        {
             "description": "libXt - X Toolkit Intrinsics library.",
             "name": "libxt"
         },
@@ -6462,6 +6682,14 @@
             "name": "ligra"
         },
         {
+            "description": "Likwid is a simple to install and use toolsuite of command line\napplications for performance oriented programmers. It works for Intel\nand AMD processors on the Linux operating system. This version uses the\nperf_event backend which reduces the feature set but allows user\ninstalls. See https://github.com/RRZE-\nHPC/likwid/wiki/TutorialLikwidPerf#feature-limitations for information.",
+            "name": "likwid"
+        },
+        {
+            "description": "Linux virtual machines, with a focus on running containers",
+            "name": "lima"
+        },
+        {
             "description": "Performance tool to generate communication matrix using parallel ping-\npong benchmark",
             "name": "linktest"
         },
@@ -6472,6 +6700,10 @@
         {
             "description": "The Linux kernel provides services to start and stop programs, handles\nthe file system and other common \"low-level\" tasks that most programs\nshare, and schedules access to avoid conflicts when programs try to\naccess the same resource or device simultaneously. The kernel has a\nmodular design such that modules can be integrated as software\ncomponents. In this package, Linux has been configured to build out-of-\ntree kernel modules.",
             "name": "linux-external-modules"
+        },
+        {
+            "description": "The Linux kernel headers.",
+            "name": "linux-headers"
         },
         {
             "description": "Linux PAM (Pluggable Authentication Modules for Linux) project.",
@@ -6578,8 +6810,20 @@
             "name": "lorene"
         },
         {
+            "description": "lrslib Ver 6.2 is a self-contained ANSI C implementation of the reverse\nsearch algorithm for vertex enumeration/convex hull problems and comes\nwith a choice of three arithmetic packages",
+            "name": "lrslib"
+        },
+        {
+            "description": "A compression utility that excels at compressing large files (usually >\n10-50 MB). Larger files and/or more free RAM means that the utility will\nbe able to more effectively compress your files (ie: faster / smaller\nsize), especially if the filesize(s) exceed 100 MB. You can either\nchoose to optimise for speed (fast compression / decompression) or size,\nbut not both.",
+            "name": "lrzip"
+        },
+        {
             "description": "lshw is a small tool to provide detailed information on the hardware\nconfiguration of the machine. It can report exact memory configuration,\nfirmware version, mainboard configuration, CPU version and speed, cache\nconfiguration, bus speed, etc. on DMI-capable x86 or EFI (IA-64) systems\nand on some ARM and PowerPC machines.",
             "name": "lshw"
+        },
+        {
+            "description": "Lsof displays information about files open to Unix processes.",
+            "name": "lsof"
         },
         {
             "description": "Uses information provided by the sysfs pseudo file system in Linux\nkernel 2.6 series to list SCSI devices or all SCSI hosts. Includes a\n'classic'option to mimic the output of 'cat /proc/scsi/scsi' that has\nbeen widely used prior to the lk 2.6 series.",
@@ -6692,6 +6936,10 @@
         {
             "description": "Parser for Schrodinger Maestro files",
             "name": "maeparser"
+        },
+        {
+            "description": "MAFFT is a multiple sequence alignment program for unix-like operating\nsystems. It offers a range of multiple alignment methods, L-INS-i\n(accurate; for alignment of <~200 sequences), FFT-NS-2 (fast; for\nalignment of <~30,000 sequences), etc.",
+            "name": "mafft"
         },
         {
             "description": "Header-only C++17 library provides static reflection for enums, work\nwith any enum type without any macro or boilerplate code.",
@@ -6810,12 +7058,20 @@
             "name": "mcutils"
         },
         {
+            "description": "mdb is a command line debugger aimed at parallel programs using the MPI\nprogramming paradigm.",
+            "name": "mdb"
+        },
+        {
             "description": "Extension of std::span to enable multidimensional arrays",
             "name": "mdspan"
         },
         {
             "description": "A set of software tools for data acquisition and storage and a\nmethodology for management of complex scientific data.",
             "name": "mdsplus"
+        },
+        {
+            "description": "mdtest is an MPI-coordinated metadata benchmark test that performs\nopen/stat/close operations on files and directories and then reports the\nperformance.",
+            "name": "mdtest"
         },
         {
             "description": "The MED file format is a specialization of the HDF5 standard.",
@@ -6994,6 +7250,10 @@
             "name": "minc-toolkit"
         },
         {
+            "description": "MinCED is a program to find Clustered Regularly Interspaced Short\nPalindromic Repeats (CRISPRs) in full genomes or environmental datasets\nsuch as metagenomes, in which sequence size can be anywhere from 100 to\n800 bp.",
+            "name": "minced"
+        },
+        {
             "description": "MindTheGap is a software that performs integrated detection and assembly\nof genomic insertion variants in NGS read datasets with respect to a\nreference genome.",
             "name": "mindthegap"
         },
@@ -7016,6 +7276,10 @@
         {
             "description": "Proxy Application. A Finite Difference proxy application which\nimplements a difference stencil across a homogenous three dimensional\ndomain.",
             "name": "minighost"
+        },
+        {
+            "description": "Minimap2 is a versatile sequence alignment program that aligns DNA or\nmRNA sequences against a large reference database. Mappy provides a\nconvenient interface to minimap2.",
+            "name": "minimap2"
         },
         {
             "description": "Proxy Application. A simple proxy for the force computations in a\ntypical molecular dynamics applications.",
@@ -7286,6 +7550,10 @@
             "name": "mpifileutils"
         },
         {
+            "description": "LLNL mpigraph",
+            "name": "mpigraph"
+        },
+        {
             "description": "There can only be one (MPI process)!",
             "name": "mpilander"
         },
@@ -7296,6 +7564,10 @@
         {
             "description": "mpiP: Lightweight, Scalable MPI Profiling",
             "name": "mpip"
+        },
+        {
+            "description": "Multiple Precision Integers and Rationals.",
+            "name": "mpir"
         },
         {
             "description": "MPItrampoline: A forwarding MPI implementation that can use any other\nMPI implementation via an MPI ABI.",
@@ -7386,8 +7658,16 @@
             "name": "mumax"
         },
         {
+            "description": "MUMmer is a system for rapidly aligning entire genomes.",
+            "name": "mummer"
+        },
+        {
             "description": "MUMmer is a versatil alignment tool for DNA and protein sequences.",
             "name": "mummer4"
+        },
+        {
+            "description": "MUMPS: a MUltifrontal Massively Parallel sparse direct Solver",
+            "name": "mumps"
         },
         {
             "description": "MUNGE Uid 'N' Gid Emporium",
@@ -7558,6 +7838,10 @@
             "name": "ncio"
         },
         {
+            "description": "NCL is an interpreted language designed specifically for scientific data\nanalysis and visualization. Supports NetCDF 3/4, GRIB 1/2, HDF 4/5, HDF-\nEOD 2/5, shapefile, ASCII, binary. Numerous analysis functions are\nbuilt-in.",
+            "name": "ncl"
+        },
+        {
             "description": "The NCO toolkit manipulates and analyzes data stored in netCDF-\naccessible formats",
             "name": "nco"
         },
@@ -7578,12 +7862,20 @@
             "name": "ncvis"
         },
         {
+            "description": "The ndiff tool is a binary utility that compares putatively similar\nfiles while ignoring small numeric differernces. This utility is most\noften used to compare files containing a lot of floating-point numeric\ndata that may be slightly different due to numeric error.",
+            "name": "ndiff"
+        },
+        {
             "description": "A High-Throughput Parallel Lossless Compressor for Scientific Data\nforked from: https://github.com/fknorr/ndzip",
             "name": "ndzip"
         },
         {
             "description": "This is a release of an API for finding nearest neighbors among points\nin spaces of arbitrary dimensions.",
             "name": "neartree"
+        },
+        {
+            "description": "Wavelet and simulated Annealing SliP inversion (WASP). This code uses a\nnonlinear simulated annealing inversion method to model slip amplitude,\nrake, rupture time, and rise time on a discretized fault plane, finding\nthe solution that best fits the observations in the wavelet domain.",
+            "name": "neic-finitefault"
         },
         {
             "description": "Neko: A modern, portable, and scalable framework for high-fidelity\ncomputational fluid dynamics",
@@ -7890,8 +8182,16 @@
             "name": "nyancat"
         },
         {
+            "description": "OCaml is an industrial strength programming language supporting\nfunctional, imperative and object-oriented styles",
+            "name": "ocaml"
+        },
+        {
             "description": "OCamlbuild is a generic build tool, that has built-in rules for building\nOCaml library and programs.",
             "name": "ocamlbuild"
+        },
+        {
+            "description": "OCCA is an open-source (MIT license) library used to program current\nmulti-core/many-core architectures. Devices (such as CPUs, GPUs, Intel's\nXeon Phi, FPGAs, etc) are abstracted using an offload-model for\napplication development and programming for the devices is done through\na C-based (OKL) or Fortran-based kernel language (OFL). OCCA gives\ndevelopers the ability to target devices at run-time by using run-time\ncompilation for device kernels.",
+            "name": "occa"
         },
         {
             "description": "Open CASCADE Community Edition UNMAINTAINED: see\nhttps://github.com/tpaviot/oce/issues/745#issuecomment-992285943",
@@ -7970,6 +8270,14 @@
             "name": "omnitrace"
         },
         {
+            "description": "OmpSs is an effort to integrate features from the StarSs programming\nmodel developed by BSC into a single programming model. In particular,\nour objective is to extend OpenMP with new directives to support\nasynchronous parallelism and heterogeneity (devices like GPUs). However,\nit can also be understood as new directives extending other accelerator\nbased APIs like CUDA or OpenCL. Our OmpSs environment is built on top of\nour Mercurium compiler and Nanos++ runtime system.",
+            "name": "ompss"
+        },
+        {
+            "description": "OmpSs-2 is a data-flow shared-memory programming model based on source\nannotations. It is developed by the Barcelona Supercomputing Center as a\nsuccessor to the StarSs and OmpSs programming models.",
+            "name": "ompss-2"
+        },
+        {
             "description": "LLVM/Clang OpenMP runtime with OMPT support. This is a fork of the\nOpenMPToolsInterface/LLVM-openmp fork of the official LLVM OpenMP\nmirror. This library provides a drop-in replacement of the OpenMP\nruntimes for GCC, Intel and LLVM/Clang.",
             "name": "ompt-openmp"
         },
@@ -7988,6 +8296,10 @@
         {
             "description": "Open Neural Network Exchange (ONNX). ONNX provides an open source format\nfor AI models, both deep learning and traditional ML. It defines an\nextensible computation graph model, as well as definitions of built-in\noperators and standard data types.",
             "name": "onnx"
+        },
+        {
+            "description": "The Object Oriented MicroMagnetic Framework (OOMMF) is aimed at\ndeveloping portable, extensible public domain programs and tools for\nmicromagnetics. The code forms a completely functional micromagnetics\npackage, with the additional capability to be extended by other\nprogrammers so that people developing new code can build on the OOMMF\nfoundation. OOMMF is written in C++, a widely-available, object-oriented\nlanguage that can produce programs with good performance as well as\nextensibility. For portable user interfaces, we make use of Tcl/Tk so\nthat OOMMF operates across a wide range of Unix, Windows, and Mac OS X\nplatforms. The main contributors to OOMMF are Mike Donahue, and Don\nPorter. Summary taken from OOMMF documentation\nhttps://math.nist.gov/oommf/ OOMMF home page:\n\"https://math.nist.gov/oommf/\" OOMMF as a git repository:\nhttps://github.com/fangohr/oommf Versions ending with \"-vanilla\"\nindicate that the sources are taken directly from\nhttps://math.nist.gov/oommf/dist/ . All other versions are from the\nhttps://github.com/fangohr/oommf (which includes the \"-vanilla\" sources,\nand adds additional OOMMF extensions). See\nhttps://github.com/fangohr/oommf for details.",
+            "name": "oommf"
         },
         {
             "description": "OP2 is a high-level embedded domain specific language for writing\nunstructured mesh algorithms with automatic parallelisation on multi-\ncore and many-core architectures.",
@@ -8262,6 +8574,10 @@
             "name": "or-tools"
         },
         {
+            "description": "ORAS means OCI Registry As Storage",
+            "name": "oras"
+        },
+        {
             "description": "ORBit is a fast and lightweight CORBA server.",
             "name": "orbit2"
         },
@@ -8410,6 +8726,10 @@
             "name": "pandorasdk"
         },
         {
+            "description": "Pango is a library for laying out and rendering of text, with an\nemphasis on internationalization. It can be used anywhere that text\nlayout is needed, though most of the work on Pango so far has been done\nin the context of the GTK+ widget toolkit.",
+            "name": "pango"
+        },
+        {
             "description": "Pangolin is a lightweight portable rapid development library for\nmanaging OpenGL display / interaction and abstracting video input.",
             "name": "pangolin"
         },
@@ -8450,6 +8770,10 @@
             "name": "parallelmergetree"
         },
         {
+            "description": "\"A very powerful performance visualization and analysis tool based on\ntraces that can be used to analyse any information that is expressed on\nits input trace format. Traces for parallel MPI, OpenMP and other\nprograms can be genereated with Extrae. Note: This package is deprecated\nin favor of wxparaver",
+            "name": "paraver"
+        },
+        {
             "description": "ParaView is an open-source, multi-platform data analysis and\nvisualization application. This package includes the Catalyst in-situ\nlibrary for versions 5.7 and greater, otherwise use the catalyst\npackage.",
             "name": "paraview"
         },
@@ -8460,6 +8784,10 @@
         {
             "description": "ParMETIS is an MPI-based parallel library that implements a variety of\nalgorithms for partitioning unstructured graphs, meshes, and for\ncomputing fill-reducing orderings of sparse matrices.",
             "name": "parmetis"
+        },
+        {
+            "description": "MGRIDGEN is a serial library written entirely in ANSI C that implements\n(serial) algorithms for obtaining a sequence of successive coarse grids\nthat are well-suited for geometric multigrid methods. ParMGridGen is the\nparallel version of MGridGen.",
+            "name": "parmgridgen"
         },
         {
             "description": "ParMMG is a parallel remesher based on MMG",
@@ -10662,6 +10990,10 @@
             "name": "phred"
         },
         {
+            "description": "PHYLIP (the PHYLogeny Inference Package) is a package of programs for\ninferring phylogenies (evolutionary trees).",
+            "name": "phylip"
+        },
+        {
             "description": "Phylobayes MPI version",
             "name": "phylobayesmpi"
         },
@@ -10734,8 +11066,16 @@
             "name": "pktools"
         },
         {
+            "description": "2015 Cosmic Microwave Background (CMB) spectra and likelihood code",
+            "name": "planck-likelihood"
+        },
+        {
             "description": "Parallel Linear Algebra Software for Multicore Architectures, PLASMA is\na software package for solving problems in dense linear algebra using\nmulticore processors and Xeon Phi coprocessors. PLASMA provides\nimplementations of state-of-the-art algorithms using cutting-edge task\nscheduling techniques. PLASMA currently offers a collection of routines\nfor solving linear systems of equations, least squares problems,\neigenvalue problems, and singular value problems.",
             "name": "plasma"
+        },
+        {
+            "description": "PLINK is a free, open-source whole genome association analysis toolset,\ndesigned to perform a range of basic, large-scale analyses in a\ncomputationally efficient manner.",
+            "name": "plink"
         },
         {
             "description": "PLINK2: Whole genome association analysis toolset, designed to perform a\nrange of basic, large-scale analyses in a computationally efficient\nmanner.",
@@ -10758,12 +11098,20 @@
             "name": "ply"
         },
         {
+            "description": "The Persistent Memory Development Kit (PMDK), formerly known as NVML, is\na library for using memory-mapped persistence, optimized specifically\nfor persistent memory",
+            "name": "pmdk"
+        },
+        {
             "description": "pmemkv is a local/embedded key-value datastore, optimized for persistent\nmemory.",
             "name": "pmemkv"
         },
         {
             "description": "PMERGE implements a new method that identifies candidate PSVs by\nbuilding networks of loci that share high levels of nucleotide\nsimilarity. The PMERGE is embedded in the analysis pipeline of the\nwidely used Stacks software, and it is straightforward to apply it as an\nadditional filter in population-genomic studies using RAD-seq data.",
             "name": "pmerge"
+        },
+        {
+            "description": "PMGR_COLLECTIVE provides a scalable network for bootstrapping MPI jobs.",
+            "name": "pmgr-collective"
         },
         {
             "description": "The Process Management Interface (PMI) has been used for quite some time\nas a means of exchanging wireup information needed for interprocess\ncommunication. However, meeting the significant orchestration challenges\npresented by exascale systems requires that the process-to-system\ninterface evolve to permit a tighter integration between the different\ncomponents of the parallel application and existing and future SMS\nsolutions. PMI Exascale (PMIx) addresses these needs by providing an\nextended version of the PMI definitions specifically designed to support\nexascale and beyond environments by: (a) adding flexibility to the\nfunctionality expressed in the existing APIs, (b) augmenting the\ninterfaces with new APIs that provide extended capabilities, (c) forging\na collaboration between subsystem providers including resource manager,\nfabric, file system, and programming library developers, (d)\nestablishing a standards-like body for maintaining the definitions, and\n(e) providing a reference implementation of the PMIx standard that\ndemonstrates the desired level of scalability while maintaining strict\nseparation between it and the standard itself.",
@@ -10802,8 +11150,16 @@
             "name": "podio"
         },
         {
+            "description": "An optionally rootless and daemonless container engine: alias\ndocker=podman",
+            "name": "podman"
+        },
+        {
             "description": "\"The extensible editor for structured binary data",
             "name": "poke"
+        },
+        {
+            "description": "polymake is open source software for research in polyhedral geometry",
+            "name": "polymake"
         },
         {
             "description": "The Poly/ML implementation of Standard ML.",
@@ -10828,6 +11184,10 @@
         {
             "description": "The popt library parses command line options.",
             "name": "popt"
+        },
+        {
+            "description": "PORTA is a collection of routines for analyzing polytopes and polyhedra",
+            "name": "porta"
         },
         {
             "description": "Portage is a framework that computational physics applications can use\nto build a highly customized, hybrid parallel (MPI+X) conservative\nremapping library for transfer of field data between meshes.",
@@ -10860,6 +11220,10 @@
         {
             "description": "Powertop is a Linux tool to diagnose issues with power consumption and\npower management",
             "name": "powertop"
+        },
+        {
+            "description": "The Parma Polyhedra Library (PPL) provides numerical abstractions\nespecially targeted at applications in the field of analysis and\nverification of complex systems. These abstractions include convex\npolyhedra, some special classes of polyhedra shapes that offer\ninteresting complexity/precision tradeoffs, and grids which represent\nregularly spaced points that satisfy a set of linear congruence\nrelations. The library also supports finite powersets and products of\npolyhedra and grids, a mixed integer linear programming problem solver\nusing an exact-arithmetic version of the simplex algorithm, a parametric\ninteger programming solver, and primitives for termination analysis via\nthe automatic synthesis of linear ranking functions.",
+            "name": "ppl"
         },
         {
             "description": "ppOpen-APPL/AMR-FDM is an adaptive mesh refinement (AMR) framework for\ndevelopment of 3D parallel finite-difference method (FDM) applications.",
@@ -10904,6 +11268,10 @@
         {
             "description": "ppOpen-MATH/VIS is a set of libraries for parallel visualization.\nCapabilities of ppOpen-MATH/VIS (ver.0.2.0) are as follows: Using\nbackground voxels with adaptive mesh refinement (AMR). Single UCD file.\nFlat MPI parallel programming models. (OpenMP/MPI hybrid will be\nsupported in the future). Can be called from programs written in both of\nFortran 90 and C. Only FDM-type structured meshes are supported.",
             "name": "ppopen-math-vis"
+        },
+        {
+            "description": "A powerful multiple sequence alignment browser.",
+            "name": "prank"
         },
         {
             "description": "preCICE (Precise Code Interaction Coupling Environment) is a coupling\nlibrary for partitioned multi-physics simulations. Partitioned means\nthat preCICE couples existing programs (solvers) capable of simulating a\nsubpart of the complete physics involved in a simulation.",
@@ -10954,6 +11322,10 @@
             "name": "procenv"
         },
         {
+            "description": "Process-in-Process",
+            "name": "process-in-process"
+        },
+        {
             "description": "Command line and full screen utilities for browsing procfs, a \"pseudo\"\nfile system dynamically generated by the kernel to provide information\nabout the status of entries in its process table.",
             "name": "procps"
         },
@@ -10968,6 +11340,10 @@
         {
             "description": "Fast, reliable protein-coding gene prediction for prokaryotic genomes.",
             "name": "prodigal"
+        },
+        {
+            "description": "Professor Monte-Carlo tuning package",
+            "name": "professor"
         },
         {
             "description": "ProfugusMC is a Monte Carlo radiation transport mini-app. It is designed\nto be a minimal, self-contained version of the Profugus application.",
@@ -11094,12 +11470,20 @@
             "name": "pxz"
         },
         {
+            "description": "NumPy bindings of ADIOS1",
+            "name": "py-adios"
+        },
+        {
             "description": "AMReX Python Bindings with pybind11",
             "name": "py-amrex"
         },
         {
             "description": "This is the Computational Infrastructure for Geodynamics (CIG) fork of\nPythia/Pyre originally written by Michael Aivazis (California Institute\nof Technology). Pythia/Pyre provides a Python framework for scientific\nsimulations. This fork focuses (and maintains) functionality for:\nspecification of simulation parameters specification of units and unit\nconversions user-friendly interface to popular batch job schedulers\nPython and C++ interfaces for logging",
             "name": "py-cig-pythia"
+        },
+        {
+            "description": "Scalable Machine Learning with Dask.",
+            "name": "py-dask-ml"
         },
         {
             "description": "Deep Graph Library (DGL). DGL is an easy-to-use, high performance and\nscalable Python package for deep learning on graphs. DGL is framework\nagnostic, meaning if a deep graph model is a component of an end-to-end\napplication, the rest of the logics can be implemented in any major\nframeworks, such as PyTorch, Apache MXNet or TensorFlow.",
@@ -11120,6 +11504,10 @@
         {
             "description": "Fast and accurate de novo assembler for single molecule sequencing reads",
             "name": "py-flye"
+        },
+        {
+            "description": "Genders is a static cluster configuration database used for cluster\nconfiguration management. It is used by a variety of tools and scripts\nfor management of large clusters.",
+            "name": "py-genders"
         },
         {
             "description": "Cloud-native genomic dataframes and batch computing (Python API)",
@@ -11154,6 +11542,10 @@
             "name": "py-pybind11"
         },
         {
+            "description": "PyDMD is a Python package that uses Dynamic Mode Decomposition for a\ndata-driven model simplification based on spatiotemporal coherent\nstructures.",
+            "name": "py-pydmd"
+        },
+        {
             "description": "Minimal set of bindings for Kokkos interoperability with Python\n(initialize, finalize, View, DynRankView, Kokkos-tools)",
             "name": "py-pykokkos-base"
         },
@@ -11162,8 +11554,20 @@
             "name": "py-pylith"
         },
         {
+            "description": "Python bindings for Qt.",
+            "name": "py-pyside2"
+        },
+        {
+            "description": "A Python bindings generator for C/C++ libraries.",
+            "name": "py-sip"
+        },
+        {
             "description": "Tensorflow plugin for DLPack.",
             "name": "py-tfdlpack"
+        },
+        {
+            "description": "Concurrently detect the minimum Python versions needed to run code.",
+            "name": "py-vermin"
         },
         {
             "description": "xpyb provides a Python binding to the X Window System protocol via\nlibxcb.",
@@ -11196,6 +11600,10 @@
         {
             "description": "QB3: Fast and Efficient Raster Compression.",
             "name": "qb3"
+        },
+        {
+            "description": "QBank is a unique dynamic reservation-based allocation management system\nthat manages the utilization of computational resources in a multi-\nproject environment. It is used in conjunction with a resource\nmanagement system allowing an organization to guarantee greater fairness\nand enforce mission priorities by associating a charge with the use of\ncomputational resources and allocating resource credits which limit how\nmuch of the resources may be used at what time and by whom. It tracks\nresource utilization and allows for insightful planning.",
+            "name": "qbank"
         },
         {
             "description": "Taking a hint from the similarly-named Java Cryptography Architecture,\nQCA aims to provide a straightforward and cross-platform crypto API,\nusing Qt datatypes and conventions. QCA separates the API from the\nimplementation, using plugins known as Providers. The advantage of this\nmodel is to allow applications to avoid linking to or explicitly\ndepending on any particular cryptographic library. This allows one to\neasily change or upgrade crypto implementations without even needing to\nrecompile the application! QCA should work everywhere Qt does, including\nWindows/Unix/MacOSX.",
@@ -11566,6 +11974,10 @@
             "name": "ravel"
         },
         {
+            "description": "RAxML (Randomized Axelerated Maximum Likelihood) is a program for\nsequential and parallel Maximum Likelihood based inference of large\nphylogenetic trees.",
+            "name": "raxml"
+        },
+        {
             "description": "RAxML-NG is a phylogenetic tree inference tool which uses maximum-\nlikelihood (ML) optimality criterion. Its search heuristic is based on\niteratively performing a series of Subtree Pruning and Regrafting (SPR)\nmoves, which allows to quickly navigate to the best-known ML tree.\nRAxML-NG is a successor of RAxML (Stamatakis 2014) and leverages the\nhighly optimized likelihood computation implemented in libpll (Flouri et\nal. 2014).",
             "name": "raxml-ng"
         },
@@ -11660,6 +12072,10 @@
         {
             "description": "Create MPI communicators for disparate redundancy sets",
             "name": "redset"
+        },
+        {
+            "description": "ReFrame is a framework for writing regression tests for HPC systems. The\ngoal of this framework is to abstract away the complexity of the\ninteractions with the system, separating the logic of a regression test\nfrom the low-level details, which pertain to the system configuration\nand setup. This allows users to write easily portable regression tests,\nfocusing only on the functionality.",
+            "name": "reframe"
         },
         {
             "description": "REGALE library is a C/C++ library developed in the European Project\nREGALE used to allow standard communication among HPC power stack tools.",
@@ -12026,6 +12442,10 @@
             "name": "salome-medcoupling"
         },
         {
+            "description": "Sambamba: process your BAM data faster (bioinformatics)",
+            "name": "sambamba"
+        },
+        {
             "description": "A tool to mark duplicates and extract discordant and split reads from\nsam files.",
             "name": "samblaster"
         },
@@ -12190,6 +12610,10 @@
             "name": "scs"
         },
         {
+            "description": "The NIST Scoring Toolkit (SCTK) is a collection of software tools\ndesigned to score benchmark test evaluations of Automatic Speech\nRecognition (ASR) Systems. The toolkit is currently used by NIST,\nbenchmark test participants, and reserchers worldwide to as a common\nscoring engine.",
+            "name": "sctk"
+        },
+        {
             "description": "Simple DirectMedia Layer is a cross-platform development library\ndesigned to provide low level access to audio, keyboard, mouse,\njoystick, and graphics hardware via OpenGL and Direct3D.",
             "name": "sdl2"
         },
@@ -12240,6 +12664,10 @@
         {
             "description": "SeqAn is an open source C++ library of efficient algorithms and data\nstructures for the analysis of sequences with the focus on biological\ndata. Our library applies a unique generic design that guarantees high\nperformance, generality, extensibility, and integration with other\nlibraries. SeqAn is easy to use and simplifies the development of new\nsoftware tools with a minimal loss of performance",
             "name": "seqan"
+        },
+        {
+            "description": "seqfu - Sequece Fastx Utilities",
+            "name": "seqfu"
         },
         {
             "description": "SeqPrep is a program to merge paired end Illumina reads that are\noverlapping into a single longer read.",
@@ -12370,12 +12798,20 @@
             "name": "simgrid"
         },
         {
+            "description": "Simmetrix' Simulation Modeling Suite is a set of component software\ntoolkits that allow developers to easily implement geometry-based\nsimulation applications. Each component of the Simulation Modeling Suite\nis designed to address specific capabilities: | MeshSim - automatic mesh\ngeneration | FieldSim - simulation data management | GeomSim - direct,\nuntranslated access to geometry from a wide variety of sources",
+            "name": "simmetrix-simmodsuite"
+        },
+        {
             "description": "The purpose of this mini-app is to demonstrate the performance\ncharacterterics and viability of the Method of Characteristics (MOC) for\n3D neutron transport calculations in the context of full scale light\nwater reactor simulation.",
             "name": "simplemoc"
         },
         {
             "description": "SimSiPM is a simple and easy to use C++ library providing a set of\nobject-oriented tools with all the functionality needed to describe and\nsimulate Silicon PhotonMultipliers (SiPM) sensors.",
             "name": "simsipm"
+        },
+        {
+            "description": "simul is an MPI coordinated test of parallel filesystem system calls and\nlibrary functions.",
+            "name": "simul"
         },
         {
             "description": "SimulationIO: Efficient and convenient I/O for large PDE simulations",
@@ -12658,6 +13094,10 @@
             "name": "sph2pipe"
         },
         {
+            "description": "SPHEREPACK - A Package for Modeling Geophysical Processes",
+            "name": "spherepack"
+        },
+        {
             "description": "SPH and N-body simulation framework",
             "name": "sphexa"
         },
@@ -12892,6 +13332,10 @@
         {
             "description": "A general purpose library for the direct solution of large, sparse,\nnonsymmetric systems of linear equations on high performance machines.",
             "name": "superlu-dist"
+        },
+        {
+            "description": "SuperLU is a general purpose library for the direct solution of large,\nsparse, nonsymmetric systems of linear equations on high performance\nmachines. SuperLU_MT is designed for shared memory parallel machines.",
+            "name": "superlu-mt"
         },
         {
             "description": "Supermagic is a very simple MPI sanity code. Nothing more, nothing less.",
@@ -13170,6 +13614,10 @@
             "name": "testu01"
         },
         {
+            "description": "TetGen is a program and library that can be used to generate tetrahedral\nmeshes for given 3D polyhedral domains. TetGen generates exact\nconstrained Delaunay tetrahedralizations, boundary conforming Delaunay\nmeshes, and Voronoi paritions.",
+            "name": "tetgen"
+        },
+        {
             "description": "Tethex is designed to convert triangular (in 2D) or tetrahedral (in 3D)\nGmsh's mesh to quadrilateral or hexahedral one respectively. These\nmeshes can be used in software packages working with hexahedrals only -\nfor example, deal.II.",
             "name": "tethex"
         },
@@ -13212,6 +13660,10 @@
         {
             "description": "Code to solve the equation of radiative transfer in the multi-group two-\nmoment approximation",
             "name": "thornado-mini"
+        },
+        {
+            "description": "Software framework for scalable cross-language services development.\nThrift combines a software stack with a code generation engine to build\nservices that work efficiently and seamlessly between C++, Java, Python,\nPHP, Ruby, Erlang, Perl, Haskell, C#, Cocoa, JavaScript, Node.js,\nSmalltalk, OCaml and Delphi and other languages.",
+            "name": "thrift"
         },
         {
             "description": "Thrust is a parallel algorithms library which resembles the C++ Standard\nTemplate Library (STL).",
@@ -13386,6 +13838,10 @@
             "name": "trapproto"
         },
         {
+            "description": "Tree is a recursive directory listing command that produces a depth\nindented listing of files, which is colorized ala dircolors if the\nLS_COLORS environment variable is set and output is to tty. Tree has\nbeen ported and reported to work under the following operating systems:\nLinux, FreeBSD, OS X, Solaris, HP/UX, Cygwin, HP Nonstop and OS/2.",
+            "name": "tree"
+        },
+        {
             "description": "Tree-sitter is a parser generator tool and an incremental parsing\nlibrary. It can build a concrete syntax tree for a source file and\nefficiently update the syntax tree as the source file is edited.",
             "name": "tree-sitter"
         },
@@ -13400,6 +13856,10 @@
         {
             "description": "Tandem Repeats Finder is a program to locate and display tandem repeats\nin DNA sequences. Note: A manual download is required for TRF. Spack\nwill search your current directory for the download file. Alternatively,\nadd this file to a mirror so that Spack can find it. For instructions on\nhow to set up a mirror, see\nhttps://spack.readthedocs.io/en/latest/mirrors.html",
             "name": "trf"
+        },
+        {
+            "description": "Triangle is a two-dimensional mesh generator and Delaunay triangulator.\nTriangle generates exact Delaunay triangulations, constrained Delaunay\ntriangulations, conforming Delaunay triangulations, Voronoi diagrams,\nand high-quality triangular meshes.",
+            "name": "triangle"
         },
         {
             "description": "The Trilinos Project is an effort to develop algorithms and enabling\ntechnologies within an object-oriented software framework for the\nsolution of large-scale, complex multi-physics engineering and\nscientific problems. A unique design feature of Trilinos is its focus on\npackages.",
@@ -13710,6 +14170,10 @@
             "name": "vecgeom"
         },
         {
+            "description": "Lightweight but flexible shim designed to rectify the incompatibilities\nbetween the Accelerate/vecLib BLAS and LAPACK libraries shipped with\nmacOS and FORTRAN code compiled with modern compilers such as GNU\nFortran.",
+            "name": "veclibfort"
+        },
+        {
             "description": "VecMem is a vectorised data model base and helper classes.",
             "name": "vecmem"
         },
@@ -13800,6 +14264,10 @@
         {
             "description": "The Virtual Monte Carlo (VMC) library",
             "name": "vmc"
+        },
+        {
+            "description": "VMD provides user-editable materials which can be applied to molecular\ngeometry. These material properties control the details of how VMD\nshades the molecular geometry, and how transparent or opaque the\ndisplayed molecular geometry is. With this feature, one can easily\ncreate nice looking transparent surfaces which allow inner structural\ndetails to be seen within a large molecular structure. The material\ncontrols can be particularly helpful when rendering molecular scenes\nusing external ray tracers, each of which typically differ slightly.",
+            "name": "vmd"
         },
         {
             "description": "VOLK is the Vector-Optimized Library of Kernels. It is a library that\ncontains kernels of hand-written SIMD code for different mathematical\noperations. Since each SIMD architecture can be very different and no\ncompiler has yet come along to handle vectorization properly or highly\nefficiently, VOLK approaches the problem differently. For each\narchitecture or platform that a developer wishes to vectorize for, a new\nproto-kernel is added to VOLK. At runtime, VOLK will select the correct\nproto-kernel. In this way, the users of VOLK call a kernel for\nperforming the operation that is platform/architecture agnostic. This\nallows us to write portable SIMD code.",
@@ -14006,6 +14474,10 @@
             "name": "wxparaver"
         },
         {
+            "description": "wxPropertyGrid is a property sheet control for wxWidgets. In other\nwords, it is a specialized two-column grid for editing properties such\nas strings, numbers, flagsets, string arrays, and colours.",
+            "name": "wxpropgrid"
+        },
+        {
             "description": "wxWidgets is a C++ library that lets developers create applications for\nWindows, Mac OS X, Linux and other platforms with a single code base. It\nhas popular language bindings for Python, Perl, Ruby and many other\nlanguages, and unlike other cross-platform toolkits, wxWidgets gives\napplications a truly native look and feel because it uses the platform's\nnative API rather than emulating the GUI. It's also extensive, free,\nopen-source and mature.",
             "name": "wxwidgets"
         },
@@ -14132,6 +14604,10 @@
         {
             "description": "xconsole displays in a X11 window the messages which are usually sent to\n/dev/console.",
             "name": "xconsole"
+        },
+        {
+            "description": "This is a default set of cursor themes for use with libXcursor,\noriginally created for the XFree86 Project, and now shipped as part of\nthe X.Org software distribution.",
+            "name": "xcursor-themes"
         },
         {
             "description": "xcursorgen prepares X11 cursor sets for use with libXcursor.",
@@ -14656,6 +15132,10 @@
         {
             "description": "YODA - Yet more Objects for Data Analysis",
             "name": "yoda"
+        },
+        {
+            "description": "Yorick is an interpreted programming language for scientific simulations\nor calculations, postprocessing or steering large simulation codes,\ninteractive scientific graphics, and reading, writing, or translating\nfiles of numbers. Yorick includes an interactive graphics package, and a\nbinary file package capable of translating to and from the raw numeric\nformats of all modern computers. Yorick is written in ANSI C and runs on\nmost operating systems (*nix systems, MacOS X, Windows).",
+            "name": "yorick"
         },
         {
             "description": "Yosys is a framework for RTL synthesis tools. It currently has extensive\nVerilog-2005 support and provides a basic set of synthesis algorithms\nfor various application domains. Yosys can be adapted to perform any\nsynthesis job by combining the existing passes (algorithms) using\nsynthesis scripts and adding additional passes as needed by extending\nthe yosys C++ code base. Yosys is free software licensed under the ISC\nlicense (a GPL compatible license that is similar in terms to the MIT\nlicense or the 2-clause BSD license).",

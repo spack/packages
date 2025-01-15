@@ -16,6 +16,10 @@
             "name": "cuda"
         },
         {
+            "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
+            "name": "gmake"
+        },
+        {
             "description": "OpenFst is a library for constructing, combining, optimizing, and\nsearching weighted finite-state transducers (FSTs). Weighted finite-\nstate transducers are automata where each transition has an input label,\nan output label, and a weight.",
             "name": "openfst"
         },

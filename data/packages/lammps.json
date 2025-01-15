@@ -636,6 +636,10 @@
             "name": "rocm-openmp-extras"
         },
         {
+            "description": "ScaFaCoS is a library of scalable fast coulomb solvers.",
+            "name": "scafacos"
+        },
+        {
             "description": "Voro++ is a open source software library for the computation of the\nVoronoi diagram, a widely-used tessellation that has applications in\nmany scientific fields.",
             "name": "voropp"
         },
@@ -1289,6 +1293,11 @@
             "default": false,
             "description": "Enable ROCm support",
             "name": "rocm"
+        },
+        {
+            "default": false,
+            "description": "Activate the scafacos package",
+            "name": "scafacos"
         },
         {
             "default": false,

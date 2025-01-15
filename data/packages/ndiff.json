@@ -2,7 +2,12 @@
     "aliases": [],
     "build_system": "Package",
     "conflicts": [],
-    "dependencies": [],
+    "dependencies": [
+        {
+            "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
+            "name": "gmake"
+        }
+    ],
     "dependent_to": [],
     "description": "The ndiff tool is a binary utility that compares putatively similar\nfiles while ignoring small numeric differernces. This utility is most\noften used to compare files containing a lot of floating-point numeric\ndata that may be slightly different due to numeric error.\n",
     "homepage": "https://ftp.math.utah.edu/pub/ndiff/",

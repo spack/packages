@@ -8,6 +8,10 @@
             "name": "cmake"
         },
         {
+            "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
+            "name": "gmake"
+        },
+        {
             "description": "The OpenMP subproject of LLVM contains the components required to build\nan executable OpenMP program that are outside the compiler itself.",
             "name": "llvm-openmp"
         },

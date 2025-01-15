@@ -12,6 +12,10 @@
             "name": "conmon"
         },
         {
+            "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
+            "name": "gmake"
+        },
+        {
             "description": "The golang compiler and build environment",
             "name": "go"
         },

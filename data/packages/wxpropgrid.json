@@ -4,6 +4,10 @@
     "conflicts": [],
     "dependencies": [
         {
+            "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
+            "name": "gmake"
+        },
+        {
             "description": "wxWidgets is a C++ library that lets developers create applications for\nWindows, Mac OS X, Linux and other platforms with a single code base. It\nhas popular language bindings for Python, Perl, Ruby and many other\nlanguages, and unlike other cross-platform toolkits, wxWidgets gives\napplications a truly native look and feel because it uses the platform's\nnative API rather than emulating the GUI. It's also extensive, free,\nopen-source and mature.",
             "name": "wxwidgets"
         }

@@ -39,7 +39,7 @@
     "dependent_to": [],
     "description": " Drishti is a command-line tool to guide end-users in optimizing I/O in\ntheir applications by detecting typical I/O performance pitfalls and\nproviding a set of recommendations.\n",
     "homepage": "https://github.com/hpc-io/drishti-io",
-    "latest_version": "0.4",
+    "latest_version": "0.6",
     "maintainers": [
         "jeanbez",
         "sbyna"
@@ -58,6 +58,14 @@
         {
             "branch": "master",
             "name": "master"
+        },
+        {
+            "name": "0.6",
+            "sha256": "f1883e48de4a863f284f9c54febd2b04d04456848aea3e34c355310a3336e3b8"
+        },
+        {
+            "name": "0.5",
+            "sha256": "08ae82dfa82872cde1f0a219e979b9c10d6c4a01f762066ea864a400cc144d78"
         },
         {
             "name": "0.4",

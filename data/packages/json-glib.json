@@ -14,6 +14,10 @@
             "name": "glib"
         },
         {
+            "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
+            "name": "gmake"
+        },
+        {
             "description": "The GObject Introspection is used to describe the program APIs and\ncollect them in a uniform, machine readable format.Cairo is a 2D\ngraphics library with support for multiple output",
             "name": "gobject-introspection"
         },

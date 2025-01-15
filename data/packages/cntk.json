@@ -30,6 +30,10 @@
             "name": "cudnn"
         },
         {
+            "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
+            "name": "gmake"
+        },
+        {
             "description": "Kaldi is a toolkit for speech recognition written in C++ and licensed\nunder the Apache License v2.0. Kaldi is intended for use by speech\nrecognition researchers.",
             "name": "kaldi"
         },

@@ -323,6 +323,11 @@
             "spec": "+cuda ^cuda@:9~allow-unsupported-compilers arch=None-None-ppc64le:"
         },
         {
+            "description": "octopus: GCC version must be at least 11.3 for Octopus version 15 or newer",
+            "name": "%gcc@:11.2",
+            "spec": "@15:"
+        },
+        {
             "description": null,
             "name": "arch=windows-None-None",
             "spec": "build_system=autotools"
@@ -469,7 +474,7 @@
     "dependent_to": [],
     "description": "A real-space finite-difference (time-dependent) density-functional\ntheory code.\n",
     "homepage": "https://octopus-code.org/",
-    "latest_version": "14.1",
+    "latest_version": "15.1",
     "maintainers": [
         "RemiLacroix-IDRIS",
         "fangohr",
@@ -599,6 +604,14 @@
         {
             "branch": "main",
             "name": "develop"
+        },
+        {
+            "name": "15.1",
+            "sha256": "6c4deb535ddfcdcdf6f26764b38fb1ad05faa9b418ec18d5d93f8d1040165bda"
+        },
+        {
+            "name": "15.0",
+            "sha256": "d339721d06155b3470f5a798c5b1eb3fe6252fa8c4b2a4efe27ed715f60a4313"
         },
         {
             "name": "14.1",

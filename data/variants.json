@@ -41142,6 +41142,10 @@
         },
         {
             "default": "Release",
+            "package": "trexio"
+        },
+        {
+            "default": "Release",
             "package": "trilinos"
         },
         {
@@ -56900,6 +56904,10 @@
         },
         {
             "default": "make",
+            "package": "trexio"
+        },
+        {
+            "default": "make",
             "package": "trilinos"
         },
         {
@@ -65321,6 +65329,10 @@
         {
             "default": false,
             "package": "treelite"
+        },
+        {
+            "default": false,
+            "package": "trexio"
         },
         {
             "default": false,
@@ -80329,6 +80341,12 @@
         {
             "default": false,
             "package": "petsc"
+        }
+    ],
+    "scafacos": [
+        {
+            "default": false,
+            "package": "lammps"
         }
     ],
     "scalapack": [

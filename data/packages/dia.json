@@ -12,6 +12,10 @@
             "name": "gettext"
         },
         {
+            "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
+            "name": "gmake"
+        },
+        {
             "description": "The GTK+ package contains libraries used for creating graphical user\ninterfaces for applications.",
             "name": "gtkplus"
         },

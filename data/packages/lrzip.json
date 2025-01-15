@@ -8,6 +8,10 @@
             "name": "bzip2"
         },
         {
+            "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
+            "name": "gmake"
+        },
+        {
             "description": "Real-time data compression library",
             "name": "lzo"
         },

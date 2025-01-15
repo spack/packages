@@ -12,6 +12,10 @@
             "name": "blas"
         },
         {
+            "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
+            "name": "gmake"
+        },
+        {
             "description": "Hypre is a library of high performance preconditioners that features\nparallel multigrid methods for both structured and unstructured grid\nproblems.",
             "name": "hypre"
         },

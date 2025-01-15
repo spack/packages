@@ -3779,10 +3779,6 @@
             "name": "plplot"
         },
         {
-            "description": "The Persistent Memory Development Kit (PMDK), formerly known as NVML, is\na library for using memory-mapped persistence, optimized specifically\nfor persistent memory",
-            "name": "pmdk"
-        },
-        {
             "description": "pmemkv is a local/embedded key-value datastore, optimized for persistent\nmemory.",
             "name": "pmemkv"
         },
@@ -5221,6 +5217,10 @@
         {
             "description": "Treelite is a model compiler for efficient deployment of decision tree\nensembles.",
             "name": "treelite"
+        },
+        {
+            "description": "TREXIO: TREX I/O library.",
+            "name": "trexio"
         },
         {
             "description": "The Trilinos Project is an effort to develop algorithms and enabling\ntechnologies within an object-oriented software framework for the\nsolution of large-scale, complex multi-physics engineering and\nscientific problems. A unique design feature of Trilinos is its focus on\npackages.",

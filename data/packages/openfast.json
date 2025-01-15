@@ -74,7 +74,7 @@
     ],
     "description": "Wind turbine simulation package from NREL\n",
     "homepage": "https://openfast.readthedocs.io/en/latest/",
-    "latest_version": "3.5.4",
+    "latest_version": "4.0.0",
     "maintainers": [
         "jrood-nrel"
     ],
@@ -171,6 +171,14 @@
         {
             "branch": "main",
             "name": "master"
+        },
+        {
+            "name": "4.0.0",
+            "tag": "v4.0.0"
+        },
+        {
+            "name": "3.5.5",
+            "tag": "v3.5.5"
         },
         {
             "name": "3.5.4",

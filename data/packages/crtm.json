@@ -108,6 +108,10 @@
             "name": "2.3.0"
         },
         {
+            "name": "v3.1.1-build1",
+            "sha256": "1ed49e594da5d3769cbaa52cc7fc19c1bb0325ee6324f6057227c31e2d95ca67"
+        },
+        {
             "name": "v3.1.0-skylabv8",
             "sha256": "a475c8a444072aef1e8c2babba3d12f13ab0fb6c7ecab88edad57130839e29ff"
         },

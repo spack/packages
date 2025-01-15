@@ -2,7 +2,12 @@
     "aliases": [],
     "build_system": "Package",
     "conflicts": [],
-    "dependencies": [],
+    "dependencies": [
+        {
+            "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
+            "name": "gmake"
+        }
+    ],
     "dependent_to": [
         {
             "description": "SST Elements implements a range of components for performing\narchitecture simulation from node-level to system-level using the SST\ndiscrete event core.",

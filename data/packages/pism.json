@@ -66,8 +66,8 @@
     ],
     "dependent_to": [],
     "description": "Parallel Ice Sheet Model\n",
-    "homepage": "https://pism-docs.org/wiki/doku.php:=",
-    "latest_version": "1.1.4",
+    "homepage": "https://www.pism.io",
+    "latest_version": "2.1.1",
     "maintainers": [
         "citibeth"
     ],
@@ -147,7 +147,7 @@
         },
         {
             "default": true,
-            "description": "Use Proj.4 to compute cell areas, longitudes, and latitudes.",
+            "description": "Use Proj to compute cell areas, longitudes, and latitudes.",
             "name": "proj"
         },
         {
@@ -165,6 +165,14 @@
         {
             "branch": "dev",
             "name": "develop"
+        },
+        {
+            "name": "2.1.1",
+            "sha256": "be4ac3ac42abbcb4d23af5c35284e06333dff0797eb11fa9745a214033857ab0"
+        },
+        {
+            "name": "2.0.7",
+            "sha256": "cd1523fdccd5c261c68cfb1e84a044d014f2e892796b31c490109a5e56cc9edf"
         },
         {
             "name": "1.1.4",

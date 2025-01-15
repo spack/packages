@@ -37,6 +37,10 @@
             "name": "gettext"
         },
         {
+            "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
+            "name": "gmake"
+        },
+        {
             "description": "libtool -- library building part of autotools.",
             "name": "libtool"
         },

@@ -8,6 +8,10 @@
             "name": "eigen"
         },
         {
+            "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
+            "name": "gmake"
+        },
+        {
             "description": "The Cython compiler for writing C extensions for the Python language.",
             "name": "py-cython"
         },

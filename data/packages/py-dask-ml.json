@@ -10,6 +10,10 @@
     ],
     "dependencies": [
         {
+            "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
+            "name": "gmake"
+        },
+        {
             "description": "Dask is a flexible parallel computing library for analytics.",
             "name": "py-dask"
         },

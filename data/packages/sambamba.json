@@ -4,6 +4,10 @@
     "conflicts": [],
     "dependencies": [
         {
+            "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
+            "name": "gmake"
+        },
+        {
             "description": "The LDC project aims to provide a portable D programming language\ncompiler with modern optimization and code generation capabilities. LDC\nis fully Open Source; the parts of the code not taken/adapted from other\nprojects are BSD-licensed (see the LICENSE file for details). Consult\nthe D wiki for further information: https://wiki.dlang.org/LDC",
             "name": "ldc"
         },

@@ -2,7 +2,12 @@
     "aliases": [],
     "build_system": "Package",
     "conflicts": [],
-    "dependencies": [],
+    "dependencies": [
+        {
+            "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
+            "name": "gmake"
+        }
+    ],
     "dependent_to": [],
     "description": "SPHEREPACK - A Package for Modeling Geophysical Processes\n",
     "homepage": "https://github.com/NCAR/NCAR-Classic-Libraries-for-Geophysics",
