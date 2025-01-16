@@ -59353,6 +59353,12 @@
             "package": "py-redis"
         }
     ],
+    "hires": [
+        {
+            "default": false,
+            "package": "py-basemap"
+        }
+    ],
     "hl": [
         {
             "default": true,
@@ -78367,6 +78373,12 @@
         {
             "default": false,
             "package": "zfp"
+        }
+    ],
+    "python-bindings": [
+        {
+            "default": false,
+            "package": "chapel"
         }
     ],
     "python2": [

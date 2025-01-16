@@ -150,6 +150,10 @@
             "name": "py-atropos"
         },
         {
+            "description": "The matplotlib basemap toolkit is a library for plotting 2D data on maps\nin Python.",
+            "name": "py-basemap"
+        },
+        {
             "description": "bcolz provides columnar and compressed data containers. Column storage\nallows for efficiently querying tables with a large number of columns.\nIt also allows for cheap addition and removal of column. In addition,\nbcolz objects are compressed by default for reducing memory/disk I/O\nneeds. The compression process is carried out internally by Blosc, a\nhigh-performance compressor that is optimized for binary data.",
             "name": "py-bcolz"
         },

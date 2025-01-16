@@ -32,6 +32,10 @@
             "name": "py-pip"
         },
         {
+            "description": "A small Python module for determining appropriate platform-specific\ndirs, e.g. a \"user data dir\"",
+            "name": "py-platformdirs"
+        },
+        {
             "description": "A collection of tools for Python",
             "name": "py-pytools"
         },
@@ -64,7 +68,7 @@
     ],
     "description": "PyCUDA gives you easy, Pythonic access to Nvidia's CUDA parallel\ncomputation API\n",
     "homepage": "https://mathema.tician.de/software/pycuda/",
-    "latest_version": "2021.1",
+    "latest_version": "2024.1.2",
     "maintainers": [],
     "name": "py-pycuda",
     "patches": [],
@@ -77,6 +81,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2024.1.2",
+            "sha256": "d110b727cbea859da4b63e91b6fa1e9fc32c5bade02d89ff449975996e9ccfab"
+        },
         {
             "name": "2021.1",
             "sha256": "ab87312d0fc349d9c17294a087bb9615cffcf966ad7b115f5b051008a48dd6ed"

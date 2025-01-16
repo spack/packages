@@ -378,6 +378,11 @@
             "spec": "llvm=none"
         },
         {
+            "description": "chapel: Python bindings require building with LLVM, see https://chapel-lang.org/docs/tools/chapel-py/chapel-py.html#installation",
+            "name": "+python-bindings",
+            "spec": "llvm=none"
+        },
+        {
             "description": "chapel: ROCm support requires building with LLVM",
             "name": "+rocm",
             "spec": "llvm=none"
@@ -483,12 +488,16 @@
         {
             "description": "The Python programming language.",
             "name": "python"
+        },
+        {
+            "description": "A Spack managed Python virtual environment",
+            "name": "python-venv"
         }
     ],
     "dependent_to": [],
     "description": "Chapel is a modern programming language that is parallel, productive,\nportable, scalable and open-source. The Chapel package comes with many\noptions in the form of variants, most of which can be left unset to\nallow Chapel's built-in scripts to determine the proper values based on\nthe environment.\n",
     "homepage": "https://chapel-lang.org/",
-    "latest_version": "2.2.0",
+    "latest_version": "2.3.0",
     "maintainers": [
         "arezaii",
         "bonachea"
@@ -502,6 +511,51 @@
             "reverse": false,
             "sha256": "8b4f06cad11873864699b0abbb13b4156d4c4e988ae8813bb88d5237d62a51a6",
             "version": "@2.0.0:",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.chapel",
+            "relative_path": "fix_chpl_shared_lib_path.patch",
+            "reverse": false,
+            "sha256": "bb62f87d1f8600622d269ad7a4562b7f0c62beadb69f704353156825a392e599",
+            "version": "@2.1:2.2+python-bindings",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.chapel",
+            "relative_path": "fix_chpl_shared_lib_path_2.3.patch",
+            "reverse": false,
+            "sha256": "06aebe5b07d98e7b15dfd087ffa822fe56942c06240f41e46d44c3d81514a39e",
+            "version": "@2.2.1:+python-bindings",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.chapel",
+            "relative_path": "fix_chpl_line_length.patch",
+            "reverse": false,
+            "sha256": "cf211d96d679d7f7676c5acd406f3a770af85deb18a1e0678486bc1955591ccd",
+            "version": "",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.chapel",
+            "relative_path": "fix_checkChplInstall.patch",
+            "reverse": false,
+            "sha256": "1ea3e3eb8b318387ba27e7ca63f3126bf17eff39ba4d35f85662496d05dc5435",
+            "version": "@:2.3.0",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.chapel",
+            "relative_path": "fix_llvm_include_path_2.3.patch",
+            "reverse": false,
+            "sha256": "442d863d46ae42c1c08e004c84149b9d27a868a9259846a3d9244e28c655bd8a",
+            "version": "@=2.3.0 llvm=bundled",
             "working_dir": "."
         }
     ],
@@ -643,6 +697,11 @@
             "name": "pshm"
         },
         {
+            "default": false,
+            "description": "Also build the Python bindings for Chapel frontend (requires LLVM)",
+            "name": "python-bindings"
+        },
+        {
             "default": "bundled",
             "description": "Build with re2 support",
             "name": "re2"
@@ -704,20 +763,24 @@
             "name": "main"
         },
         {
+            "name": "2.3.0",
+            "sha256": "0185970388aef1f1fae2a031edf060d5eac4eb6e6b1089e7e3b15a130edd8a31"
+        },
+        {
             "name": "2.2.0",
-            "sha256": "9b0ce16ed0b1c777647c3aa852d8d8cacea2c3d8a952548a238f07c0f357a0f9"
+            "sha256": "bb16952a87127028031fd2b56781bea01ab4de7c3466f7b6a378c4d8895754b6"
         },
         {
             "name": "2.1.0",
-            "sha256": "8e164d9a9e705e6b816857e84833b0922ce0bde6a36a9f3a29734830aac168ef"
+            "sha256": "72593c037505dd76e8b5989358b7580a3fdb213051a406adb26a487d26c68c60"
         },
         {
             "name": "2.0.1",
-            "sha256": "47e1f3789478ea870bd4ecdf52acbe469d171b89b663309325431f3da7c75008"
+            "sha256": "19ebcd88d829712468cfef10c634c3e975acdf78dd1a57671d11657574636053"
         },
         {
             "name": "2.0.0",
-            "sha256": "a8cab99fd034c7b7229be8d4626ec95cf02072646fb148c74b4f48c460c6059c"
+            "sha256": "b5387e9d37b214328f422961e2249f2687453c2702b2633b7d6a678e544b9a02"
         }
     ],
     "versions_deprecated": []

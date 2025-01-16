@@ -5,17 +5,32 @@
         {
             "description": "helics: HELICS 3+ cannot be built with Clang older than 5.0",
             "name": "%clang@:4",
-            "spec": "@3.0.0:"
+            "spec": "@3.0.0:3.5.3"
         },
         {
             "description": "helics: HELICS 3+ cannot be built with GCC older than 7.0",
             "name": "%gcc@:6",
-            "spec": "@3.0.0:"
+            "spec": "@3.0.0:3.5.3"
         },
         {
             "description": "helics: HELICS 3+ cannot be built with ICC older than 19",
             "name": "%intel@:18",
-            "spec": "@3.0.0:"
+            "spec": "@3.0.0:3.5.3"
+        },
+        {
+            "description": "helics: HELICS 3.6+ cannot be built with Clang older than 15.0",
+            "name": "%clang@:15",
+            "spec": "@3.6.0:"
+        },
+        {
+            "description": "helics: HELICS 3.6+ cannot be built with GCC older than 11.0",
+            "name": "%gcc@:11",
+            "spec": "@3.6.0:"
+        },
+        {
+            "description": "helics: HELICS 3.6+ cannot be built with ICC older than 21",
+            "name": "%intel@:21",
+            "spec": "@3.6.0:"
         },
         {
             "description": null,
@@ -101,7 +116,7 @@
     ],
     "description": "HELICS is a general-purpose, modular, highly-scalable co-simulation\nframework that runs cross-platform (Linux, Windows, and Mac OS X) and\nsupports both event driven and time series simulation.\n",
     "homepage": "https://github.com/GMLC-TDC/HELICS",
-    "latest_version": "3.5.3",
+    "latest_version": "3.6.0",
     "maintainers": [
         "nightlark"
     ],
@@ -227,6 +242,10 @@
         {
             "branch": "main",
             "name": "master"
+        },
+        {
+            "name": "3.6.0",
+            "sha256": "e111ac5d92e808f27e330afd1f8b8ca4d86adf6ccd74e3280f2d40fb3e0e2ce9"
         },
         {
             "name": "3.5.3",

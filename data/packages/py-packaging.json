@@ -114,6 +114,10 @@
             "name": "py-awkward"
         },
         {
+            "description": "The matplotlib basemap toolkit is a library for plotting 2D data on maps\nin Python.",
+            "name": "py-basemap"
+        },
+        {
             "description": "Black is the uncompromising Python code formatter. By using it, you\nagree to cede control over minutiae of hand-formatting. In return, Black\ngives you speed, determinism, and freedom from pycodestyle nagging about\nformatting.",
             "name": "py-black"
         },

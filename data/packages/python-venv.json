@@ -110,6 +110,10 @@
             "name": "cget"
         },
         {
+            "description": "Chapel is a modern programming language that is parallel, productive,\nportable, scalable and open-source. The Chapel package comes with many\noptions in the form of variants, most of which can be left unset to\nallow Chapel's built-in scripts to determine the proper values based on\nthe environment.",
+            "name": "chapel"
+        },
+        {
             "description": "Clingo: A grounder and solver for logic programs Clingo is part of the\nPotassco project for Answer Set Programming (ASP). ASP offers a simple\nand powerful modeling language to describe combinatorial problems as\nlogic programs. The clingo system then takes such a logic program and\ncomputes answer sets representing solutions to the given problem.",
             "name": "clingo"
         },
