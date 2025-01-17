@@ -58,6 +58,10 @@
             "name": "nrm"
         },
         {
+            "description": "This is the python client for Arkouda.",
+            "name": "py-arkouda"
+        },
+        {
             "description": "CellProfiler cell image analysis software. CellProfiler is a free open-\nsource software designed to enable biologists without training in\ncomputer vision or programming to quantitatively measure phenotypes from\nthousands of images automatically.",
             "name": "py-cellprofiler"
         },

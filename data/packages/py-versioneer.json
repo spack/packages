@@ -30,6 +30,10 @@
     ],
     "dependent_to": [
         {
+            "description": "This is the python client for Arkouda.",
+            "name": "py-arkouda"
+        },
+        {
             "description": "Extended sphinx autodoc including automatic autosummaries.",
             "name": "py-autodocsumm"
         },

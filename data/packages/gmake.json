@@ -434,6 +434,10 @@
             "name": "aria2"
         },
         {
+            "description": "Arkouda is a NumPy-like library for distributed data with a focus on\nlarge-scale data science applications.",
+            "name": "arkouda"
+        },
+        {
             "description": "Armadillo is a high quality linear algebra library (matrix maths) for\nthe C++ language, aiming towards a good balance between speed and ease\nof use.",
             "name": "armadillo"
         },
@@ -4268,6 +4272,10 @@
         {
             "description": "HAProxy is a single-threaded, event-driven, non-blocking engine\ncombining a very fast I/O layer with a priority-based scheduler.",
             "name": "haproxy"
+        },
+        {
+            "description": "A FleCSI-based radiation-hydrodynamics solver suite for the study of\nastrophysical phenomena",
+            "name": "hard"
         },
         {
             "description": "A simple command-line utility that implements directory hardlinks",

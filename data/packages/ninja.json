@@ -1858,6 +1858,10 @@
             "name": "halide"
         },
         {
+            "description": "A FleCSI-based radiation-hydrodynamics solver suite for the study of\nastrophysical phenomena",
+            "name": "hard"
+        },
+        {
             "description": "The Harfbuzz package contains an OpenType text shaping engine.",
             "name": "harfbuzz"
         },

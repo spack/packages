@@ -92,6 +92,10 @@
             "name": "parsec"
         },
         {
+            "description": "This is the python client for Arkouda.",
+            "name": "py-arkouda"
+        },
+        {
             "description": "The carputils framework for running simulations with the openCARP\nsoftware.",
             "name": "py-carputils"
         },

@@ -44,7 +44,7 @@
     ],
     "description": "Get the currently executing AST node of a frame, and other information.\n",
     "homepage": "https://github.com/alexmojaki/executing",
-    "latest_version": "1.2.0",
+    "latest_version": "2.1.0",
     "maintainers": [],
     "name": "py-executing",
     "patches": [],
@@ -57,6 +57,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "2.1.0",
+            "sha256": "8ea27ddd260da8150fa5a708269c4a10e76161e2496ec3e587da9e3c0fe4b9ab"
+        },
         {
             "name": "1.2.0",
             "sha256": "19da64c18d2d851112f09c287f8d3dbbdf725ab0e569077efb6cdcbd3497c107"

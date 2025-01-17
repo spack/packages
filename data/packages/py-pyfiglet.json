@@ -24,7 +24,12 @@
             "name": "python-venv"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "This is the python client for Arkouda.",
+            "name": "py-arkouda"
+        }
+    ],
     "description": "pyfiglet is a full port of FIGlet (http://www.figlet.org/) into\npurepython. It takes ASCII text and renders it in ASCII art font.\n",
     "homepage": "https://github.com/pwaller/pyfiglet",
     "latest_version": "0.8.post1",

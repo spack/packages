@@ -3593,6 +3593,10 @@
             "package": "aria2"
         },
         {
+            "default": "makefile",
+            "package": "arkouda"
+        },
+        {
             "default": "generic",
             "package": "arm-forge"
         },
@@ -8383,6 +8387,10 @@
         {
             "default": "makefile",
             "package": "haproxy"
+        },
+        {
+            "default": "cmake",
+            "package": "hard"
         },
         {
             "default": "makefile",
@@ -16959,6 +16967,10 @@
         {
             "default": "python_pip",
             "package": "py-args"
+        },
+        {
+            "default": "python_pip",
+            "package": "py-arkouda"
         },
         {
             "default": "python_pip",
@@ -38206,6 +38218,10 @@
         },
         {
             "default": "Release",
+            "package": "hard"
+        },
+        {
+            "default": "Release",
             "package": "hdf5"
         },
         {
@@ -42237,6 +42253,10 @@
         {
             "default": false,
             "package": "damaris"
+        },
+        {
+            "default": false,
+            "package": "hard"
         },
         {
             "default": false,
@@ -47672,6 +47692,10 @@
         },
         {
             "default": false,
+            "package": "py-arkouda"
+        },
+        {
+            "default": false,
             "package": "py-blight"
         },
         {
@@ -47948,6 +47972,10 @@
         }
     ],
     "distributed": [
+        {
+            "default": false,
+            "package": "arkouda"
+        },
         {
             "default": true,
             "package": "py-dask"
@@ -50695,7 +50723,7 @@
             "package": "athena"
         },
         {
-            "default": "internal",
+            "default": "fftw",
             "package": "elk"
         },
         {
@@ -53965,6 +53993,10 @@
         {
             "default": "ninja",
             "package": "halide"
+        },
+        {
+            "default": "make",
+            "package": "hard"
         },
         {
             "default": "make",
@@ -62406,6 +62438,10 @@
         },
         {
             "default": false,
+            "package": "hard"
+        },
+        {
+            "default": false,
             "package": "hdf5"
         },
         {
@@ -67959,7 +67995,7 @@
             "package": "eckit"
         },
         {
-            "default": "internal",
+            "default": "generic",
             "package": "elk"
         }
     ],
@@ -78843,6 +78879,12 @@
             "package": "ams"
         }
     ],
+    "radiation": [
+        {
+            "default": true,
+            "package": "hard"
+        }
+    ],
     "radix": [
         {
             "default": false,
@@ -85579,6 +85621,10 @@
         {
             "default": false,
             "package": "halide"
+        },
+        {
+            "default": false,
+            "package": "hard"
         },
         {
             "default": false,

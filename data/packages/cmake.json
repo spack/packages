@@ -279,6 +279,10 @@
             "name": "args"
         },
         {
+            "description": "Arkouda is a NumPy-like library for distributed data with a focus on\nlarge-scale data science applications.",
+            "name": "arkouda"
+        },
+        {
             "description": "Armadillo is a high quality linear algebra library (matrix maths) for\nthe C++ language, aiming towards a good balance between speed and ease\nof use.",
             "name": "armadillo"
         },
@@ -1925,6 +1929,10 @@
         {
             "description": "Halide is a programming language designed to make it easier to write\nhigh-performance image and array processing code on modern machines.",
             "name": "halide"
+        },
+        {
+            "description": "A FleCSI-based radiation-hydrodynamics solver suite for the study of\nastrophysical phenomena",
+            "name": "hard"
         },
         {
             "description": "HDF5 is a data model, library, and file format for storing and managing\ndata. It supports an unlimited variety of datatypes, and is designed for\nflexible and efficient I/O and for high volume and complex data.",

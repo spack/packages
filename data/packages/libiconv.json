@@ -30,6 +30,10 @@
     ],
     "dependent_to": [
         {
+            "description": "Arkouda is a NumPy-like library for distributed data with a focus on\nlarge-scale data science applications.",
+            "name": "arkouda"
+        },
+        {
             "description": "Jim Kent command line bioinformatic utilities and libraries This\nbundles a custom version of htslib, but can be overridden with ~htslib.\nConsider adding the ^mysql+client_only dependency to avoid building all\nmysql/mariadb.",
             "name": "kentutils"
         },

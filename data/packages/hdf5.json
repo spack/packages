@@ -153,6 +153,10 @@
             "name": "ams"
         },
         {
+            "description": "Arkouda is a NumPy-like library for distributed data with a focus on\nlarge-scale data science applications.",
+            "name": "arkouda"
+        },
+        {
             "description": "Armadillo is a high quality linear algebra library (matrix maths) for\nthe C++ language, aiming towards a good balance between speed and ease\nof use.",
             "name": "armadillo"
         },

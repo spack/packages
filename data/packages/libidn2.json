@@ -24,6 +24,10 @@
     ],
     "dependent_to": [
         {
+            "description": "Arkouda is a NumPy-like library for distributed data with a focus on\nlarge-scale data science applications.",
+            "name": "arkouda"
+        },
+        {
             "description": "cURL is an open source command line tool and library for transferring\ndata with URL syntax",
             "name": "curl"
         },

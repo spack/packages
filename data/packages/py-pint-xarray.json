@@ -47,7 +47,7 @@
     "dependent_to": [],
     "description": "A convenience wrapper for using pint with xarray\n",
     "homepage": "https://github.com/xarray-contrib/pint-xarray",
-    "latest_version": "0.3",
+    "latest_version": "0.4",
     "maintainers": [],
     "name": "py-pint-xarray",
     "patches": [],
@@ -60,6 +60,10 @@
         }
     ],
     "versions": [
+        {
+            "name": "0.4",
+            "sha256": "b6b737a9c46dfb14a8598c27a71100496994c9d79dab61fd77f0d2685ae7065e"
+        },
         {
             "name": "0.3",
             "sha256": "3545dfa78bee3f98eba29b8bd17500e3b5cb7c7b03a2c2781c4d4d59b6a82841"

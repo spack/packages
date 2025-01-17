@@ -54,6 +54,10 @@
             "name": "py-anvio"
         },
         {
+            "description": "This is the python client for Arkouda.",
+            "name": "py-arkouda"
+        },
+        {
             "description": "A command line interface for Databricks.",
             "name": "py-databricks-cli"
         },

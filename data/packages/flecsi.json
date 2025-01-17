@@ -438,6 +438,10 @@
             "name": "flecsph"
         },
         {
+            "description": "A FleCSI-based radiation-hydrodynamics solver suite for the study of\nastrophysical phenomena",
+            "name": "hard"
+        },
+        {
             "description": "Wonton is a support package for the Portage\n(https://github.com/laristra/portage) and Tangram\n(https://github.com/laristra/tangram) libraries. It contains some\nmesh/state classes, wrappers for other mesh/state libraries and some\nutilities required by Portage and Tangram.",
             "name": "wonton"
         }

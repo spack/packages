@@ -38,6 +38,10 @@
     ],
     "dependent_to": [
         {
+            "description": "This is the python client for Arkouda.",
+            "name": "py-arkouda"
+        },
+        {
             "description": "Adaptive experimentation is the machine-learning guided process of\niteratively exploring a (possibly infinite) parameter space in order to\nidentify optimal configurations in a resource-efficient manner. Ax\ncurrently supports Bayesian optimization and bandit optimization as\nexploration strategies. Bayesian optimization in Ax is powered by\nBoTorch, a modern library for Bayesian optimization research built on\nPyTorch.",
             "name": "py-ax-platform"
         },

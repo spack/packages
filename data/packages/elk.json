@@ -3,9 +3,29 @@
     "build_system": "MakefilePackage",
     "conflicts": [
         {
+            "description": "elk: Versions >= 10 requires libxc >= 7",
+            "name": "libxc@:6",
+            "spec": "@10:"
+        },
+        {
+            "description": "elk: Internal FFTW is not supported",
+            "name": "fft=internal",
+            "spec": "@8.6:"
+        },
+        {
+            "description": "elk: Internal BLAS is not supported",
+            "name": "linalg=internal",
+            "spec": "@8.6:"
+        },
+        {
             "description": null,
             "name": "linalg=blis",
             "spec": "@:3"
+        },
+        {
+            "description": "elk: Versions <=9 requires libxc =< 6",
+            "name": "libxc@7:",
+            "spec": "@:9"
         },
         {
             "description": null,
@@ -100,7 +120,7 @@
     "dependent_to": [],
     "description": "An all-electron full-potential linearised augmented-plane wave (FP-LAPW)\ncode with many advanced features.\n",
     "homepage": "https://elk.sourceforge.io/",
-    "latest_version": "8.3.22",
+    "latest_version": "10.2.4",
     "maintainers": [],
     "name": "elk",
     "patches": [],
@@ -112,7 +132,7 @@
             "name": "build_system"
         },
         {
-            "default": "internal",
+            "default": "fftw",
             "description": "Build with custom FFT library",
             "name": "fft"
         },
@@ -122,7 +142,7 @@
             "name": "libxc"
         },
         {
-            "default": "internal",
+            "default": "generic",
             "description": "Build with custom BLAS library",
             "name": "linalg"
         },
@@ -143,6 +163,18 @@
         }
     ],
     "versions": [
+        {
+            "name": "10.2.4",
+            "sha256": "015e1d2a04a6c8335af2e5f5adaae143c6c0287f34772e069834a691bb15ac9d"
+        },
+        {
+            "name": "9.6.8",
+            "sha256": "d5b60406744a13be42a258a6efd9545ce38a7006d8e76e40e3770368e05c1dae"
+        },
+        {
+            "name": "8.8.26",
+            "sha256": "f0d397a0e2fd8b6f74bc9fccc03fae701bb348e3f08ca143d41757f5f6cf794a"
+        },
         {
             "name": "8.3.22",
             "sha256": "1c31f09b7c09d6b24e775d4f0d5e1e8871f95a7656ee4ca21ac17dbe7ea16277"

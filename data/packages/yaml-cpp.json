@@ -82,6 +82,10 @@
             "name": "flux-sched"
         },
         {
+            "description": "A FleCSI-based radiation-hydrodynamics solver suite for the study of\nastrophysical phenomena",
+            "name": "hard"
+        },
+        {
             "description": "Hermes Shared Memory contains a variety of data structures and\nsynchronization primitives which are compatible with shared memory.",
             "name": "hermes-shm"
         },
