@@ -57949,6 +57949,12 @@
             "package": "rpm"
         }
     ],
+    "gpgme": [
+        {
+            "default": false,
+            "package": "poppler"
+        }
+    ],
     "gpl": [
         {
             "default": true,
@@ -59829,10 +59835,6 @@
         {
             "default": true,
             "package": "libarchive"
-        },
-        {
-            "default": false,
-            "package": "poppler"
         }
     ],
     "icu": [
@@ -72533,6 +72535,12 @@
         {
             "default": 0,
             "package": "athena"
+        }
+    ],
+    "nss": [
+        {
+            "default": false,
+            "package": "poppler"
         }
     ],
     "ntimes": [

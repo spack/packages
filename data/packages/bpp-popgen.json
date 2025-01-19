@@ -27,7 +27,7 @@
         }
     ],
     "description": "The Bio++ Population Genetics Library\n",
-    "homepage": "https://https://github.com/BioPP/bpp-popgen",
+    "homepage": "https://github.com/BioPP/bpp-popgen",
     "latest_version": "2.4.1",
     "maintainers": [
         "snehring"

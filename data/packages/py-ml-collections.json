@@ -55,7 +55,7 @@
         }
     ],
     "description": "ML Collections is a library of Python collections designed for ML\nusecases.\n",
-    "homepage": "https://https://github.com/google/ml_collections",
+    "homepage": "https://github.com/google/ml_collections",
     "latest_version": "0.1.1",
     "maintainers": [],
     "name": "py-ml-collections",
